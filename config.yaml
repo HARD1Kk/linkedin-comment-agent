@@ -1,0 +1,51 @@
+# LinkedIn Comment Suggestion Pipeline Configuration
+
+# Niche & Target Persona
+niche_description: >
+  Software engineering, backend architecture, Python, AI developer tools,
+  system design, and LLM engineering.
+
+# Target topics (Niche-anchored discovery)
+target_topics:
+  - "FastAPI observability"
+  - "Python performance"
+  - "MCP protocol"
+  - "RAG architecture"
+  - "LLM evaluation"
+  - "Kubernetes operators"
+  - "PostgreSQL optimization"
+  - "AI Agents architecture"
+  - "Backend system design"
+
+# Authors / Companies Whitelist (+20 bonus points)
+whitelist_authors:
+  - "Aniketsingh"
+  - "Scaler"
+  - "Guido van Rossum"
+
+# Authors / Companies Blocklist (Filtered out immediately)
+blocklist_authors:
+  - "Spam Bot"
+  - "Promotional Account"
+
+# Blocklist Keywords (Filtered out immediately)
+blocklist_keywords:
+  - "we are hiring"
+  - "job alert"
+  - "discount code"
+  - "buy now"
+
+# Enable dynamic trending topics search alongside target_topics
+trending_topics_enabled: false
+
+# Freshness & Output Limits
+max_age_hours: 72
+max_comments_per_day: 5
+top_n_candidates: 5
+
+# Scoring Weights (Total target: 100 points)
+scoring_weights:
+  recency: 35
+  author_fit: 25
+  topic_match: 25
+  engagement: 15
