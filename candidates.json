@@ -2250,5 +2250,1395 @@
     "status": "new",
     "discovered_at": "2026-10-04T09:45:48.050383+00:00",
     "generated_comment": "Including Red Team Testing alongside factuality and hallucination checks surfaces adversarial failure modes early, but it can extend the iteration cycle for prompt refinements. Balancing the depth of LLM‑as‑a‑Judge evaluations with a lightweight scoring rubric helps keep test throughput practical while still capturing nuanced quality signals."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/thescholarbaniya_mcp-vs-api-many-people-get-confused-ive-activity-7512006193821872129-SZNY",
+    "canonical_url": "https://www.linkedin.com/posts/thescholarbaniya_mcp-vs-api-many-people-get-confused-ive-activity-7512006193821872129-SZNY",
+    "post_id": 7512006193821872129,
+    "author": "Rahul Agarwal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "30.6h (URL ID)",
+    "post_age_hours": 30.6,
+    "post_age_source": "url_id",
+    "post_text": "MCP vs API, many people get confused.\n\nI've explained each in simple below.\n\n𝗠𝗢𝗗𝗘𝗟 𝗖𝗢𝗡𝗧𝗘𝗫𝗧 𝗣𝗥𝗢𝗧𝗢𝗖𝗢𝗟 (𝗠𝗖𝗣)\nMCP is a standard that lets AI agents discover and use tools, databases, files, and APIs through a single interface.\n\n• 𝗘𝗻𝘁𝗲𝗿 𝗮 𝘁𝗮𝘀𝗸 – Tell the AI what you want to accomplish.\n• 𝗔𝗜 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝘀 𝘁𝗵𝗲 𝗴𝗼𝗮𝗹 – The model determines which tools are needed.\n• 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗲 𝘃𝗶𝗮 𝗠𝗖𝗣 – The AI sends standardized requests instead of custom integrations.\n• 𝗗𝗶𝘀𝗰𝗼𝘃𝗲𝗿 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝘁𝗼𝗼𝗹𝘀 – MCP identifies servers exposing databases, files, APIs, or other capabilities.\n• 𝗦𝗲𝗹𝗲𝗰𝘁 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝘀𝗲𝗿𝘃𝗲𝗿 – The appropriate MCP server handles the request.\n• 𝗔𝗰𝗰𝗲𝘀𝘀 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝗹 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 – The server interacts with databases, APIs, or file systems.\n• 𝗥𝗲𝘁𝘂𝗿𝗻 𝘁𝗵𝗲 𝗿𝗲𝘀𝘂𝗹𝘁 – Information flows back through MCP to the AI.\n• 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝘁𝗵𝗲 𝗳𝗶𝗻𝗮𝗹 𝗮𝗻𝘀𝘄𝗲𝗿 – The AI combines the retrieved data with reasoning.\n• 𝗦𝗰𝗮𝗹𝗲 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗰𝘂𝘀𝘁𝗼𝗺 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻𝘀 – One protocol works across many tools.\n• 𝗜𝗱𝗲𝗮𝗹 𝗳𝗼𝗿 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 – Gives AI a standard way to interact with external systems.\n___________________________________\n\n𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡 𝗣𝗥𝗢𝗚𝗥𝗔𝗠𝗠𝗜𝗡𝗚 𝗜𝗡𝗧𝗘𝗥𝗙𝗔𝗖𝗘 (𝗔𝗣𝗜)\nAn API is a communication interface that lets software applications exchange data and services.\n\n• 𝗨𝘀𝗲𝗿 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝘀 𝘄𝗶𝘁𝗵 𝗮𝗻 𝗮𝗽𝗽 – Open a web or mobile application.\n• 𝗦𝗲𝗻𝗱 𝗮𝗻 𝗛𝗧𝗧𝗣 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 – The application calls an API endpoint.\n• 𝗥𝗲𝗮𝗰𝗵 𝘁𝗵𝗲 𝗔𝗣𝗜 𝗴𝗮𝘁𝗲𝘄𝗮𝘆 – Requests are authenticated and routed.\n• 𝗥𝗼𝘂𝘁𝗲 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗼𝗿𝗿𝗲𝗰𝘁 𝘀𝗲𝗿𝘃𝗶𝗰𝗲 – Backend services process the request.\n• 𝗔𝗰𝗰𝗲𝘀𝘀 𝗱𝗮𝘁𝗮 𝗼𝗿 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝗹 𝘀𝘆𝘀𝘁𝗲𝗺𝘀 – Services interact with databases, caches, or third-party APIs.\n• 𝗘𝘅𝗲𝗰𝘂𝘁𝗲 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗹𝗼𝗴𝗶𝗰 – The backend performs the required operations.\n• 𝗥𝗲𝘁𝘂𝗿𝗻 𝗮 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 – Data is sent back to the application.\n• 𝗗𝗶𝘀𝗽𝗹𝗮𝘆 𝘁𝗵𝗲 𝗿𝗲𝘀𝘂𝗹𝘁 – The user sees the output in the app.\n• 𝗥𝗲𝗾𝘂𝗶𝗿𝗲 𝗰𝘂𝘀𝘁𝗼𝗺 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻𝘀 – Every API has its own endpoints and documentation.\n• 𝗜𝗱𝗲𝗮𝗹 𝗳𝗼𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀 – Connects applications, services, and backend systems.\n\nIn short:\n• 𝗠𝗖𝗣 → 𝗗𝗶𝘀𝗰𝗼𝘃𝗲𝗿, 𝗰𝗼𝗻𝗻𝗲𝗰𝘁, 𝘂𝘀𝗲 𝘁𝗼𝗼𝗹𝘀\n• 𝗔𝗣𝗜 → 𝗖𝗮𝗹𝗹, 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗲, 𝗲𝘅𝗰𝗵𝗮𝗻𝗴𝗲 𝗱𝗮𝘁𝗮\n\nMost people think MCP will replace APIs. The reality is, MCP makes APIs easier for AI models to discover and use.\n\n✅ Repost for others learning AI so they understand the difference. | 12 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 118,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQH1GZFm8XHRRg/feedshare-shrink_800/B56aD_YHoqIAAc-/0/1790990909486?e=2147483647&v=beta&t=IXBcK-CEOWChQxMg4FB8nrwAyL-RdRRLNeKf3hB87rU",
+    "topic": "MCP protocol",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:05:54.881972+00:00",
+    "failure_reason": null,
+    "generated_comment": "Rahul, the idea of AI sending standardized requests via MCP is appealing. What the overview skips is how authentication and permission enforcement are managed when MCP discovers and invokes external APIs, a factor that can dominate design choices for secure deployments."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/usman-shahbaz71_7-rag-design-patterns-you-must-know-in-2026-activity-7511983447201058816-J6qz",
+    "canonical_url": "https://www.linkedin.com/posts/usman-shahbaz71_7-rag-design-patterns-you-must-know-in-2026-activity-7511983447201058816-J6qz",
+    "post_id": 7511983447201058816,
+    "author": "Muhammad Usman Shahbaz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "32.1h (URL ID)",
+    "post_age_hours": 32.1,
+    "post_age_source": "url_id",
+    "post_text": "7 RAG Design Patterns You Must Know in 2026.\n\nRetrieval-Augmented Generation (RAG) isn't single architecture in 2026 it will be an ecosystem of specialized patterns designed for different business needs.\n\nHere's a quick breakdown of the 7 RAG design patterns every AI builder should know:\n\n🔹 Naive RAG\nThe foundation. Retrieve relevant chunks → send to LLM → generate response. Simple, fast, but often struggles with retrieval quality.\n\n🔹 Retrieve-and-Rerank RAG\nAdds a reranking layer to improve context relevance before generation. Higher accuracy, better answers.\n\n🔹 Multimodal RAG\nRetrieves from text, images, audio, and video. Essential for enterprise knowledge bases, healthcare, retail, and media applications.\n\n🔹 GraphRAG\nUses knowledge graphs to capture relationships between entities. Powerful for complex reasoning and connected data exploration.\n\n🔹 Hybrid RAG\nCombines vector search + graph databases. Delivers both semantic understanding and structured relationship reasoning.\n\n🔹 Agentic RAG (Router)\nAn AI agent decides which data source, retrieval strategy, or tool to use. Smarter orchestration, lower hallucination risk.\n\n🔹 Multi-Agent RAG\nMultiple specialized agents collaborate on retrieval, web search, tool usage, and synthesis. Best suited for advanced enterprise AI systems.\n\nThe teams that understand these patterns today will build the most reliable AI products tomorrow.\n\nWhich RAG architecture are you currently experimenting with or planning to adopt next? | 62 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 147,
+      "comments": 62,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGbFqv5ih71Rg/feedshare-image-high-res/B4DaD_tItdJYAU-/0/1790996418263?e=2147483647&v=beta&t=i8ZzXGFVZ0pkeCWxpmRhlFgw8QSO7pEaC5GmMJNY6wo",
+    "topic": "RAG architecture",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:09.737393+00:00",
+    "failure_reason": null,
+    "generated_comment": "Muhammad, I'm currently prototyping Hybrid RAG, pairing a dense vector store with a graph database. The combo gives me semantic recall while letting the graph enforce relational constraints, which helps keep answers grounded when the prompt spans multiple entities."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/abhishek-veeramalla_in-my-last-role-as-a-full-time-engineer-working-activity-7511807477571739648-GiAO",
+    "canonical_url": "https://www.linkedin.com/posts/abhishek-veeramalla_in-my-last-role-as-a-full-time-engineer-working-activity-7511807477571739648-GiAO",
+    "post_id": 7511807477571739648,
+    "author": "Abhishek Veeramalla",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.8h (URL ID)",
+    "post_age_hours": 43.8,
+    "post_age_source": "url_id",
+    "post_text": "In my last role as a Full time engineer working at Red Hat, I contributed significantly to the GitOps community.\n\n- I was a maintainer of an opensource GitOps project.\n- I was a member of Argo CD Security SIG.\n- I was a maintainer of Argo CD kubernetes operator.\n- I donated Argo rollouts to the Argoproj labs.\n- I led a team that built OpenShift GitOps operator.\n\nNow why am I tell you all this?\n\nI am extremely proud to launch the very first 100 percent practical hands-on course on GitOps and Argo CD 🥳\n\nI wanted this to be one of the first skills on escbash.com but it's never too late.\n\nLearners gets access to a VM installed with Kubernetes for every lesson or task. The VM is also accessible through a public ip which allows learners to explore Argo CD through the very popular Argo CD web UI.\n\nHere is the detailed syllabus:\n- Introduction to GitOps\n- Getting started with Argo CD\n- Deploy your first application with Argo CD\n- Automated sync, prune and self heal\n- Argo CD with Kustomize and Helm\n- Sync hooks, waves and options\n- History, rollback and deletions\n- Projects, accounts and RBAC\n- ApplicationSets zero to hero\n- Argo CD at production scale\n- Real-time Argo CD use cases\n\nThe best part:\nAudio narration available in English and regional languages like Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi and Hindi\n\nWe made it available for all the tiers:\nhttps://lnkd.in/d-2Pd-uE\n\nFirst topic is absolutely FREE. | 17 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 732,
+      "comments": 17,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHgTILiTLSI_A/feedshare-image-high-res/B4DaD9NGJMHsAY-/0/1790954464308?e=2147483647&v=beta&t=3qhZMWIhB69E78ozdlcmoSMC-NbRu8x-dDtaK64r9nI",
+    "topic": "Kubernetes operators",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:50.457695+00:00",
+    "failure_reason": null,
+    "generated_comment": "Abhishek, the hands-on VM approach is solid for getting developers comfortable with the Argo CD web UI. One gap is limited coverage of observability tooling-metrics, tracing, and alerts for the Argo CD operator, which become critical when scaling to production."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/evan-boyle-107a1445_github-copilot-cli-and-app-now-support-dynamic-activity-7511795406729539584-1FE2",
+    "canonical_url": "https://www.linkedin.com/posts/evan-boyle-107a1445_github-copilot-cli-and-app-now-support-dynamic-activity-7511795406729539584-1FE2",
+    "post_id": 7511795406729539584,
+    "author": "Evan Boyle",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.6h (URL ID)",
+    "post_age_hours": 44.6,
+    "post_age_source": "url_id",
+    "post_text": "GitHub Copilot CLI and App now support dynamic workflows. The agent can iteratively generate and update a meta-harness to solve complex problems.\n\nBuilding deep code review agents is one of my favorite use cases. | 12 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 202,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQErYqWHEKhPEA/feedshare-shrink_800/B56aD9CHrDHEAk-/0/1790951586768?e=2147483647&v=beta&t=O1uA1qxXVxDqhTo9WLs4VfYDvG5UjrBx8634W2srlFk",
+    "topic": "GitHub Copilot",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:56.874263+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/juliangoldieseo_new-perplexity-computer-update-changes-everything-activity-7512147820288700416-k36_",
+    "canonical_url": "https://www.linkedin.com/posts/juliangoldieseo_new-perplexity-computer-update-changes-everything-activity-7512147820288700416-k36_",
+    "post_id": 7512147820288700416,
+    "author": "Julian Goldie",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "21.3h (URL ID)",
+    "post_age_hours": 21.3,
+    "post_age_source": "url_id",
+    "post_text": "NEW Perplexity Computer Update Changes Everything!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 2,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQGsvR_1YjnSFQ/thumbnail-with-play-button-overlay-high/B56aECCd8hGgC0-/0/1791035566923?e=2147483647&v=beta&t=Ip9vZ0Avo3hoG5Bw0AlGn-4NN3Kbq96oxbn9NtB58pQ",
+    "topic": "Perplexity",
+    "score": 78.8,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 1.3,
+      "total": 78.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:27.644500+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/akshay-arora-in-nyc_this-week-astronomer-released-a-vs-code-extension-activity-7511809490397163520-S5jX",
+    "canonical_url": "https://www.linkedin.com/posts/akshay-arora-in-nyc_this-week-astronomer-released-a-vs-code-extension-activity-7511809490397163520-S5jX",
+    "post_id": 7511809490397163520,
+    "author": "Akshay Arora",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.7h (URL ID)",
+    "post_age_hours": 43.7,
+    "post_age_source": "url_id",
+    "post_text": "This week Astronomer released a VS Code Extension that brings a ton of Airflow, Astro and Otto functionality directly into VS Code. You can use our coding harness to help you with Astro/Airflow specific work, authoring or debugging Dags. The extension brings your deployments easily accessibly by bringing it directly into the VS Code interface. We think you'll love it.\n\nBig shout out to Pritesh Arora, Greg N. and Yetunde Dada.\n\nBlog post and Marketplace link in comments.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 36,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQE9A14OOcG58A/feedshare-shrink_800/B56aD9O7XmHcAc-/0/1790954944241?e=2147483647&v=beta&t=_mKIFaMn-ox1hIDDCJpkBF9Qs5fVxRqfME3sT0itydE",
+    "topic": "VS Code",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:30.651598+00:00"
+  },
+  {
+    "url": "https://ae.linkedin.com/posts/alqarnimohammed_claude-claudecode-elevenlabs-activity-7512179120240492545-Wgro",
+    "canonical_url": "https://ae.linkedin.com/posts/alqarnimohammed_claude-claudecode-elevenlabs-activity-7512179120240492545-Wgro",
+    "post_id": 7512179120240492545,
+    "author": "Mohammed Alqarni",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "19.2h (URL ID)",
+    "post_age_hours": 19.2,
+    "post_age_source": "url_id",
+    "post_text": "أهلاً، أشارك معكم اليوم وحده من آخر التجارب اللي سويتها.\n\nقاعد أستعد لواحد من الاختبارات الفترة القادمة، وواجهت مشكلة إن أغلب المصادر كانت قرائية، وإذا كان فيه كورسات فهي ما ناسبتني على المستوى الشخصي.\n\nفقررت أسوي محتوى قرائي خاص فيني وأعتمد عليه، لكن كشخص ما يحبّذ القراءة المطوّلة كان هالشي كابوس بالنسبة لي. وأمس طرأ على بالي إني أحوّل هالمحتوى لفيديوهات فيها عناصر بصرية ومتحركة، عشان أسد الفجوة بين المكتوب وبين اللي يحاول النص يوصله.\n\nبديت بالمحتوى نفسه قبل الفيديوهات. أطلقت مجموعة Agents عن طريق Claude Code، فيه اللي يراجع المادة العلمية، واللي يكتب نصوص الشرح، واللي يدقق كل معلومة على المصدر. وسويت فحص يتأكد إن كل نقطة في المادة لها مكان في الكورس.\n\nالرسوم نفسها سويتها بـ Remotion، وكل رسمة مربوطة بالكلمة اللي تنقال وقتها في الشرح. وللصوت استخدمت آخر نموذج من ElevenLabs. أول عينة كان الشرح فيها سريع ومكثف واحتجت أعيدها مرتين عشان أفهم، فرجعت عدلت النصوص وخليت الشرح أهدأ وأوضح، وصرت أفحص الصوت آلياً عشان أتأكد إن ما فيه كلمة انقطعت أو انقرأت غلط.\n\nبعدها تبيّن لي إن الموضوع بياخذ وقت طويل على جهازي بحكم محدودية الرامات. فيديو مدته 14 دقيقة أخذ قرابة 45 دقيقة عشان يجهز. فنقلت العملية إلى AWS Lambda، وجربت على مقطع قصير، بعدها فيديو كامل، بعدها الباقي، وصار الفيديو يجهز في أقل من 10 دقائق.\n\nواليوم خلصت منه، واللي وصلنا له هو كورس فيه 62 فيديو، مدته 12 ساعة تقريباً، بمحتوى بصري يناسبني شخصيًّا.\n\nلا يزال قيد التجربة، وبعلمكم بعد ما آخذ الاختبار بحول الله.\n\nأرفقت عينة بسيطة عن اللي سويته هنا للاطلاع.\n\n#Claude #ClaudeCode #ElevenLabs #AWS #Remotion #AI",
+    "hashtags": [
+      "#Claude",
+      "#ClaudeCode",
+      "#ElevenLabs",
+      "#AWS",
+      "#Remotion",
+      "#AI"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQE2mzjvOVNWlQ/thumbnail-with-play-button-overlay-high/B4DaECfC_wJEC4-/0/1791043059135?e=2147483647&v=beta&t=Pth5j6pmNQHboPKfgCRChaV_aDg7PPan4RijsuRcxBk",
+    "topic": "Claude Code",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:46.108120+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/fav0ur-nwachukwu_top-25-backend-concepts-every-serious-software-activity-7511848704065114112-0fdZ",
+    "canonical_url": "https://www.linkedin.com/posts/fav0ur-nwachukwu_top-25-backend-concepts-every-serious-software-activity-7511848704065114112-0fdZ",
+    "post_id": 7511848704065114112,
+    "author": "Favour Nwachukwu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "41.0h (URL ID)",
+    "post_age_hours": 41.0,
+    "post_age_source": "url_id",
+    "post_text": "Top 25 Backend Concepts\n(every serious software engineer should understand)\n\nSYSTEM DESIGN\n1. Load Balancing\n↳ Distributes traffic across multiple servers.\n\n2. Caching\n↳ Stores frequently accessed data closer to the application.\n\n3. Database Indexing\n↳ Makes queries faster without scanning the entire dataset.\n\n4. Replication\n↳ Keeps copies of data across multiple nodes for availability.\n\n5. Sharding\n↳ Splits data across multiple databases when one can no longer handle the load.\n\nDISTRIBUTED SYSTEMS\n\n6. Eventual Consistency\n↳ Allows different nodes to temporarily have different versions of data.\n\n7. Idempotency\n↳ Ensures repeating a request doesn't create unintended duplicate effects.\n\n8. Distributed Locks\n↳ Prevents multiple workers from modifying the same resource simultaneously.\n\n9. Leader Election\n↳ Allows distributed nodes to agree on which node coordinates a task.\n\n10. Consensus\n↳ Helps distributed systems agree on shared state despite failures.\n\nPERFORMANCE and RELIABILITY\n\n11. Backpressure\n↳ Prevents fast producers from overwhelming slower consumers.\n\n12. Rate Limiting\n↳ Controls how many requests a client can make within a given period.\n\n13. Circuit Breakers\n↳ Stops repeatedly calling a failing dependency.\n\n14. Retries\n↳ Reattempts failed operations when failures are likely temporary.\n\n15. Timeouts\n↳ Prevents your system from waiting indefinitely for a dependency.\n\nASYNCHRONOUS SYSTEMS\n16. Message Queues\n↳ Decouple producers from consumers and process work asynchronously.\n\n17. Pub/Sub\n↳ Allows multiple consumers to react to the same event.\n\n18. Dead Letter Queues\n↳ Stores messages that repeatedly fail processing.\n\n19. Consumer Groups\n↳ Distributes messages across consumers for parallel processing.\n\n20. At-Least-Once Delivery\n↳ Requires you to design for duplicate messages and safe retries.\n\nDATA and ARCHITECTURE\n\n21. Transactions\n↳ Keeps related database operations consistent.\n\n22. Connection Pooling\n↳ Reuses database connections instead of creating one per request.\n\n23. CQRS\n↳ Separates read and write models when their requirements differ.\n\n24. Observability\n↳ Uses logs, metrics, and traces to understand system behavior.\n\n25. Disaster Recovery\n↳ Defines how systems recover when infrastructure or data fails.\n\nDon’t just memorize them.\nUnderstand how they work together.\nSave this for later.\n\n♻️Repost for the software Engineer who needs to see it\nFollow Favour Nwachukwu\nSenior Software Engineer",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 23,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHoA1kZxR4KXA/feedshare-shrink_800/B4EaD9ylbWIsAg-/0/1790964291546?e=2147483647&v=beta&t=YU5XCM14tnwtTAdMiSAsG6xUAKkQUmp-9XHye8cFU-g",
+    "topic": "Backend system design",
+    "score": 75.8,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 5.3,
+      "total": 75.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:07:43.900646+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/maritvandijk_java-activity-7511821435535876096-RaJl",
+    "canonical_url": "https://www.linkedin.com/posts/maritvandijk_java-activity-7511821435535876096-RaJl",
+    "post_id": 7511821435535876096,
+    "author": "👩🏻‍💻 Marit van Dijk",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.9h (URL ID)",
+    "post_age_hours": 42.9,
+    "post_age_source": "url_id",
+    "post_text": "On my way home from GOTO Conferences Copenhagen, where I had a busy few days.\n\nFirst, I joined Kevlin Henney's session \"Watch your language\" alongside Andrea Magnorsky, Jon Skeet, Daniel Terhorst-North, Karl Rehmer and Linda Rising where we each talked about a different programming language. Obviously, mine was #Java ;)\n\nLater 🥼Piotr Przybył and I presented \"Learning modern Java the playful way\".\n\nAnd last but not least, Laurentiu Spilca, 🥼Piotr Przybył and I did an unscripted session where we discussed Java.\n\nIn between, there were some lovely hallway conversations.\nGoing home tired, but happy...",
+    "hashtags": [
+      "#Java"
+    ],
+    "engagement": {
+      "reactions": 18,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHaQbRyRF1CiQ/feedshare-shrink_800/B4EaD9ZyUxJgAg-/0/1790957791030?e=2147483647&v=beta&t=NnLzn1MWvLye9y_w-ISU4N02U4Ln6OJt5YJLphy5vHs",
+    "topic": "Java",
+    "score": 75.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 5.0,
+      "total": 75.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:08:24.361340+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/darryl-ruggles_kubernetes-operators-golang-activity-7511659115895599104-sgIc",
+    "canonical_url": "https://www.linkedin.com/posts/darryl-ruggles_how-kubernetes-operators-work-building-a-activity-7511659115895599104-Ct_V",
+    "post_id": 7511659115895599104,
+    "author": "Darryl Ruggles",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "53.6h (URL ID)",
+    "post_age_hours": 53.6,
+    "post_age_source": "url_id",
+    "post_text": "Many people run Argo CD or cert-manager every day without knowing what the operator is doing. To deploy an app, you install the CRDs, apply a Helm chart, and trust that a loop somewhere is keeping everything in sync.\n\nThis tutorial from Shiva Swaroop N K builds an operator two ways. The first is a simple 15-line bash script and the more detailed approach with Go using the controller-runtime and no scaffolding. Check it out!\n\nhttps://lnkd.in/ghXM4njY\n\n#Kubernetes #Operators #Golang #PlatformEngineering",
+    "hashtags": [
+      "#Kubernetes",
+      "#Operators",
+      "#Golang",
+      "#PlatformEngineering"
+    ],
+    "engagement": {
+      "reactions": 106,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQH4e2Alp-3eYw/articleshare-shrink_1280_800/B56aD6XhkFKMAg-/0/1790906866588?e=2147483647&v=beta&t=mKKEgCYQ1GVLUy1sb_T8ALVFaeVyMKvyGwOW2hMRn7s",
+    "topic": "Kubernetes operators",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:42.555250+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mvneerven_webstandards-javascript-ecmascript-activity-7511404347650650113-lgEk",
+    "canonical_url": "https://www.linkedin.com/posts/mvneerven_webstandards-javascript-ecmascript-activity-7511404347650650113-lgEk",
+    "post_id": 7511404347650650113,
+    "author": "Marc van Neerven",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.5h (URL ID)",
+    "post_age_hours": 70.5,
+    "post_age_source": "url_id",
+    "post_text": "I thought I’d seen it all. But this one line in a recruiter’s leaked internal hiring criteria?\n\nCringe-inducing!\n\nSo Modern JavaScript is anything but JavaScript itself?\n\n❌ Modern JS = TypeScript?\nA superset that adds guardrails to protect you from the language youre supposedly modernizing...\n\n❌ Modern JS = NodeJS?\nA server framework using JS...\n\n❌ Modern JS = React?\nA 13-year-old legacy library, designed to overcome 13-year-old browser issues that have long disappeared, that adds multiple levels of abstraction over actual JavaScript and forces a completely non-standard mental model upon you.\n\nSomehow, modern now means everything but the language itself.\n\nNo wonder junior devs are confused.\nNo wonder interviews feel like gatekeeping rituals.\nNo wonder the web feels ridiculously bloated.\n\n#webstandards #javascript #ecmascript | 30 comments on LinkedIn",
+    "hashtags": [
+      "#webstandards",
+      "#javascript",
+      "#ecmascript"
+    ],
+    "engagement": {
+      "reactions": 49,
+      "comments": 30,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHcccnXIDKdzQ/feedshare-shrink_800/B4EaD3ectHHoAc-/0/1790858349711?e=2147483647&v=beta&t=FD5BKebBek8-dr9AWMaaX2OMVDsjYnNWhrW4b1o0Ass",
+    "topic": "JavaScript",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:08:35.953347+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pierceboggan_computer-use-has-arrived-in-github-copilot-activity-7511506726794309647-zOVC",
+    "canonical_url": "https://www.linkedin.com/posts/pierceboggan_computer-use-has-arrived-in-github-copilot-activity-7511506726794309647-zOVC",
+    "post_id": 7511506726794309647,
+    "author": "Pierce B.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.7h (URL ID)",
+    "post_age_hours": 63.7,
+    "post_age_source": "url_id",
+    "post_text": "Computer use has arrived in GitHub Copilot!\n\nGitHub Copilot can now use your apps by seeing, clicking, and typing to accomplish its task. Computer use works in the background, so you can work on multiple tasks in parallel without worry about computer use stealing focus. Any task that can be accomplished by using your machine can now be accomplished with GitHub Copilot.\n\nComputer Use is already helping our team to save hours in their week by logging expenses, booking travel, and accelerating E2E testing.\n\nAvailable in preview today:\nhttps://lnkd.in/gjSeb6KA | 16 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 297,
+      "comments": 16,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQENC13qeu13Mg/thumbnail-with-play-button-overlay-high/B56aD47hoyKMC0-/0/1790882751190?e=2147483647&v=beta&t=SmRupTZrLKDq-9VUavh9Y98tpLOUAPseXK2TqN1v6DU",
+    "topic": "GitHub Copilot",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:50.368149+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/perplexity-ai_perplexity-computer-now-creates-interactive-activity-7511458116404736000-JeGW",
+    "canonical_url": "https://www.linkedin.com/posts/perplexity-ai_perplexity-computer-now-creates-interactive-activity-7511458116404736000-JeGW",
+    "post_id": 7511458116404736000,
+    "author": "Perplexity",
+    "is_company_account": false,
+    "followers": 1831880,
+    "post_age": "67.0h (URL ID)",
+    "post_age_hours": 67.0,
+    "post_age_source": "url_id",
+    "post_text": "Perplexity Computer now creates interactive charts and visualizations directly in your thread.\n\nFor financial data, Computer uses TradingView Lightweight Charts for candlesticks, volume, and moving averages. | 23 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 184,
+      "comments": 23,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Perplexity",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:21.017420+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sytaylor_amex-just-dropped-skills-for-perplexity-computer-activity-7511527830321598465-2kXO",
+    "canonical_url": "https://www.linkedin.com/posts/sytaylor_amex-just-dropped-skills-for-perplexity-computer-activity-7511527830321598465-2kXO",
+    "post_id": 7511527830321598465,
+    "author": "Simon Taylor",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "62.3h (URL ID)",
+    "post_age_hours": 62.3,
+    "post_age_source": "url_id",
+    "post_text": "Amex just dropped skills for Perplexity Computer. First incumbent I've seen really lean into AI in a smart way.\n\nWhy haven't more companies done this?\n\nPerplexity Computer is the service that can use your computer like a person would. Make spreadsheets, build presentations etc.\n\nThese skills at launch are things like cash flow forecasting or, get this, generating a marketing campaign.\n\nThe enterprise subscription + skills is a really clever way of packaging a card for 2026. | 11 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 77,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFGhlJ6fX47Eg/thumbnail-with-play-button-overlay-high/B4EaD5OtgFJoC0-/0/1790887782551?e=2147483647&v=beta&t=G3YUW7DDLTl6jtV5XMz21XWBkgdG6bgqDjJl8w7WajI",
+    "topic": "Perplexity",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:22.853828+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/tradingview_perplexity-has-integrated-tradingviews-lightweight-activity-7511457432443781120-SnYd",
+    "canonical_url": "https://www.linkedin.com/posts/tradingview_perplexity-has-integrated-tradingviews-lightweight-activity-7511457432443781120-SnYd",
+    "post_id": 7511457432443781120,
+    "author": "TradingView",
+    "is_company_account": false,
+    "followers": 102940,
+    "post_age": "67.0h (URL ID)",
+    "post_age_hours": 67.0,
+    "post_age_source": "url_id",
+    "post_text": "Perplexity has integrated TradingView's Lightweight Charts into its Inline Visualizations feature, bringing familiar financial charts directly into users' conversations in Perplexity Computer.\n\nPerplexity is an AI-powered answer engine, and Computer is its agentic product, able to handle multi-step tasks like research, data work, and building interactive results. With Lightweight Charts embedded, the financial data it surfaces now renders in the same formats analysts already recognize, generated and refined through natural conversation.\n\nLightweight Charts is TradingView's open-source charting library, and this integration points to where it fits next — inside the AI-native products increasingly shaping how people and businesses work with financial data.\n\nSee how it works: https://lnkd.in/dN2v7tsb\n\nPerplexity 🤝 TradingView",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 108,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEqtNTiN_Lhcg/feedshare-image-high-res/B4DaD4OuwxKoAU-/0/1790871006712?e=2147483647&v=beta&t=UIAWDatAzYUn2taAip_o2s4iRl7HqS72OKNuwCDJjlc",
+    "topic": "Perplexity",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:29.360617+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aditya-mhatre-3849512a4_mcp-modelcontextprotocol-aiagents-activity-7511411661518446592-t2HJ",
+    "canonical_url": "https://www.linkedin.com/posts/aditya-mhatre-3849512a4_mcp-modelcontextprotocol-aiagents-activity-7511411661518446592-t2HJ",
+    "post_id": 7511411661518446592,
+    "author": "Aditya Mhatre",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.0h (URL ID)",
+    "post_age_hours": 70.0,
+    "post_age_source": "url_id",
+    "post_text": "🚀 𝐁𝐮𝐢𝐥𝐭 𝐚𝐧 𝐞𝐧𝐝-𝐭𝐨-𝐞𝐧𝐝 𝐀𝐈-𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐃𝐚𝐭𝐚 𝐈𝐧𝐜𝐢𝐝𝐞𝐧𝐭 𝐈𝐧𝐯𝐞𝐬𝐭𝐢𝐠𝐚𝐭𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐌𝐂𝐏.\nOver the past few weeks, I wanted to understand Model Context Protocol (MCP) beyond basic implementations, so I built a real-world system where an AI agent can investigate failing data pipelines using operational data.\n\n🔎 𝗧𝗵𝗲 𝗶𝗱𝗲𝗮: When a data pipeline fails, can an AI agent systematically investigate the incident instead of simply generating a guess?🧠\nHow it works:\nA user can ask:\n“Investigate the customer_sync pipeline and determine why it is failing.”\n\nThe LLM dynamically decides which information it needs and uses MCP tools to investigate:\n• Pipeline status\n• Recent pipeline runs\n• Pipeline logs\n• Pipeline dependencies\n• Incident timelines\n• Recent deployments\n• Database health\nThe retrieved information is converted into structured evidence, maintained throughout the investigation, and used to generate a final report containing:\nSummary → Severity → Confidence → Evidence → Hypotheses → Recommendations → Uncertainty\n\n🔌 𝗔 𝗸𝗲𝘆 𝗽𝗮𝗿𝘁 𝗼𝗳 𝘁𝗵𝗲 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 : I built both the MCP Client and MCP Server rather than only consuming an existing MCP server.\n\nWorking on both sides gave me a much deeper understanding of the complete MCP system , from tool discovery and invocation to tool exposure, request handling, and integration with application services and PostgreSQL.\n🔍 Example\nIn one investigation, the agent collected evidence showing:\ncrm-service deployment\n↓\nemail column returned JSONB\n↓\ntransformation expected VARCHAR\n↓\nschema mismatch\n↓\ncustomer_sync failed\n\nThe final report separates evidence, hypotheses, and uncertainty rather than presenting assumptions as facts.\n🏗️ 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲\nLLM → MCP Client → MCP Server → Investigation Tools → Services → PostgreSQL → Evidence → Final Report🛠️\n𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸: Python | MCP | Groq | PostgreSQL | SQLAlchemy | Docker | uv\n\n💡 𝗕𝗶𝗴𝗴𝗲𝘀𝘁 𝘁𝗮𝗸𝗲𝗮𝘄𝗮𝘆: MCP doesnt make the LLM smarter. It provides a standardized way for an AI application to discover and interact with external tools and data.Building this project helped me understand that concept by actually implementing the system end-to-end.\nGithub link : https://lnkd.in/duP33zdW\n#MCP #ModelContextProtocol #AIAgents #LLM #Python #AIEngineering #PostgreSQL #GenerativeAI #SoftwareEngineering | 11 comments on LinkedIn",
+    "hashtags": [
+      "#MCP",
+      "#ModelContextProtocol",
+      "#AIAgents",
+      "#LLM",
+      "#Python",
+      "#AIEngineering",
+      "#PostgreSQL",
+      "#GenerativeAI",
+      "#SoftwareEngineering"
+    ],
+    "engagement": {
+      "reactions": 53,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHg8I90KSZs0A/thumbnail-with-play-button-overlay-high/B4DaD3k3AQKgC0-/0/1790860041018?e=2147483647&v=beta&t=GT5h0gjDZbe2gImK4y_d0E3O-rpG42LzEKy5e09_Wbw",
+    "topic": "MCP protocol",
+    "score": 74.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 14.3,
+      "total": 74.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:00.256728+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ferenc_perplexity-is-worth-over-20-billion-their-activity-7511779720032833537-5_ye",
+    "canonical_url": "https://www.linkedin.com/posts/ferenc_perplexity-is-worth-over-20-billion-their-activity-7511779720032833537-5_ye",
+    "post_id": 7511779720032833537,
+    "author": "Ferenc Fekete",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.7h (URL ID)",
+    "post_age_hours": 45.7,
+    "post_age_source": "url_id",
+    "post_text": "Perplexity is worth over $20 billion.\n\nTheir V1 was a box that answered questions.\n\nWhen Perplexity launched in December 2022, you typed a question and got an answer with sources.\n\n… That was literally the whole product.\n\n→ No login, you just asked.\n→ No mobile app, that came months later.\n→ No chat history.\n→ No models of their own, they used OpenAI's.\n\nFour months in, 2 million people a month were using it.\n\nAravind Srinivas and his co-founders built everything else after people already wanted the box.\n\nFor non-technical founders, your V1 can be one narrow thing done well.\n\nAdd the extras once people keep coming back.\n\nWhat's the one thing your V1 needs to do?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFwZ-gCMjqqBw/feedshare-shrink_800/B4DaD53Gd8K4Ac-/0/1790898366615?e=2147483647&v=beta&t=Lpygxu0g-v5npOaroM-IZuoVUVj3OWg3DOK1ms-MqBQ",
+    "topic": "Perplexity",
+    "score": 73.3,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.8,
+      "total": 73.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:32.227817+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/robertseacord_robert-seacord-unsafe-rust-rustconf-activity-7511528562252959744-646n",
+    "canonical_url": "https://www.linkedin.com/posts/robertseacord_robert-seacord-unsafe-rust-rustconf-activity-7511528562252959744-646n",
+    "post_id": 7511528562252959744,
+    "author": "Robert Seacord",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "62.3h (URL ID)",
+    "post_age_hours": 62.3,
+    "post_age_source": "url_id",
+    "post_text": "This presentation explores the role of Unsafe Rust in systems programming and its implications for safety-critical software. Rust is designed to provide memory safety and prevent common programming errors through its ownership and borrowing model. However, certain low-level operations require the use of unsafe code, which introduces risks such as undefined behavior (UB) and under-specified semantics.\n\nhttps://lnkd.in/e96enSvT",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 58,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQG_WgJ1RHjXnw/articleshare-shrink_800/B4EaD5O8XkLAAY-/0/1790887839557?e=2147483647&v=beta&t=iYIDXPJ3q6GCCbdXYwa6Dn0haKaUwobO5pWpRpUZqvg",
+    "topic": "Rust",
+    "score": 70.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.7,
+      "total": 70.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:05.205697+00:00"
+  },
+  {
+    "url": "https://kr.linkedin.com/posts/sigridjineth_sopt솝트-39기-기획파트에서-codex를-활용한-첫-주차-세션-진행에-activity-7512013070492233728-eWnO",
+    "canonical_url": "https://kr.linkedin.com/posts/sigridjineth_sopt%EC%86%9D%ED%8A%B8-39%EA%B8%B0-%EA%B8%B0%ED%9A%8D%ED%8C%8C%ED%8A%B8%EC%97%90%EC%84%9C-codex%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%B2%AB-%EC%A3%BC%EC%B0%A8-%EC%84%B8%EC%85%98-%EC%A7%84%ED%96%89%EC%97%90-activity-7512013070492233728-eWnO",
+    "post_id": 7512013070492233728,
+    "author": "Jin Hyung Park (Sigrid Jin)",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "30.2h (URL ID)",
+    "post_age_hours": 30.2,
+    "post_age_source": "url_id",
+    "post_text": "SOPT(솝트) 39기 기획파트에서 Codex를 활용한 첫 주차 세션 진행에 참여했습니다.\n\nSOPT는 대학생들이 기획, 디자인, 개발 팀을 구성해 실제 서비스를 만드는 IT 창업 동아리입니다. 저는 OpenAI Codex Ambassador로 참여해, 기획자들이 Codex를 자신의 작업에 활용하는 방법을 함께 살펴보고 있습니다.\n\n첫 주차에서는 팀의 토론 내용을 텍스트로 기록하고, Codex가 그 기록과 조사 자료를 읽어 발표용 HTML 초안을 만드는 과정을 다뤘습니다. 생성된 파일은 직접 열어보고, 내용과 화면을 확인한 뒤 수정합니다.\n\n제가 Codex를 좋아하는 이유도 이런 작업 방식 때문입니다. 질문에 대한 답변을 받는 데서 끝나지 않고, 자료를 읽고 실제 파일을 만들고 수정하는 작업까지 이어갈 수 있습니다. 기획자도 자신의 아이디어를 팀원들이 직접 보고 논의할 수 있는 형태로 만들어볼 수 있습니다.\n\n이번 프로그램에서는 기획파트장 정건님께서는 AI-native한 기획 방식을 함께 단련시키고자 합니다. 해결하려는 문제와 판단 근거를 기록하고, 그 기록을 바탕으로 AI와 함께 결과물을 만든 뒤 직접 검증하는 방식입니다. 무엇을 만들고, 어떤 내용을 바꾸고, 결과가 의도에 맞는지는 기획자가 판단해야 합니다.\n\n앞으로는 기획자가 직접 작동하는 프로토타입을 만들고 디자인·개발 팀과 함께 검토하는 과정까지 다뤄보려고 합니다. 첫 주차를 함께 준비해주신 SOPT 운영진과 참여해주신 기획파트 여러분께 감사합니다.\n\n[English]\n\nWe kicked off our first Codex session with the product planning team of SOPT’s 39th cohort in Korea.\n\nSOPT is a university student tech and startup community where product planners, designers, and engineers form teams to build real products. I’m participating as an OpenAI Codex Ambassador, helping product planners explore how Codex can fit into their work.\n\nIn the first session, we covered a concrete workflow: document a team discussion, have Codex read those notes and research materials, and create an HTML presentation draft. Then open the actual file, check the content and layout, and revise it.\n\nThis is what I particularly like about Codex. It can go beyond answering questions to reading source materials, creating files, and making changes. Product planners can turn their ideas into something their teammates can inspect and discuss.\n\nWe’ll use this program to practice an AI-native approach to product planning: document the problem and the reasoning behind decisions, build with AI using that context, and verify the result ourselves. The planner still needs to decide what to build, what to change, and whether the result serves the intended purpose.\n\nNext, we’ll work toward functional prototypes that product planners can build themselves and review with their design and engineering teammates. Thank you to the SOPT organizers and everyone in the product planning team who joined the first session.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHKfLTOMgWuOg/feedshare-shrink_800/B56aEAIE1DHAAg-/0/1791003479729?e=2147483647&v=beta&t=A_AdxTK_3AROc6WE0RQaL5mTp4w5keaUw4wnVqnkUJI",
+    "topic": "OpenAI Codex",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:56.352524+00:00"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/ben-haest-407b42_qlab40-to-run-in-docker-this-week-we-released-activity-7511781770179125248-G2w7",
+    "canonical_url": "https://de.linkedin.com/posts/ben-haest-407b42_qlab40-to-run-in-docker-this-week-we-released-activity-7511781770179125248-G2w7",
+    "post_id": 7511781770179125248,
+    "author": "Ben Haest",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.5h (URL ID)",
+    "post_age_hours": 45.5,
+    "post_age_source": "url_id",
+    "post_text": "QLab4.0 to run in Docker\n\nThis week we released the version of QLab4.0 to run in Docker.\nThis makes QLab4.0 available for Windows or Unix.\nWith Docker it becomes also much easier to get an update or new version to run on your server.\nDocker offers many advantages:\n- much easier installation\n- compatible with different Windows or Linux versions\n- server and client can be updated/upgraded separately\n- rollback becomes easy (go back to a previous version)\n- the device communication remains untouched with updates\n\nQLab4.0 für den Betrieb in Docker\n\nDiese Woche haben wir die Version von QLab4.0 für den Betrieb in Docker veröffentlicht.\nDamit ist QLab4.0 auch unter Windows oder Unix nutzbar.\nDank Docker lassen sich Updates oder neue Versionen zudem wesentlich einfacher auf Ihrem Server installieren.\nDocker bietet zahlreiche Vorteile:\n- deutlich einfachere Installation\n- kompatibel mit verschiedenen Windows- oder Linux-Versionen\n- Server und Client können unabhängig voneinander aktualisiert werden\n- einfaches Rollback (Rückkehr zu einer früheren Version)\n- die Gerätekommunikation bleibt bei Updates unbeeinträchtigt",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEmLu-ngsovJQ/feedshare-shrink_800/B4EaD81ttXHoAg-/0/1790948334724?e=2147483647&v=beta&t=Uv6EbcUOLe-zCoh6w_f3V9m4Ax729IjorRrmZM-Ji9A",
+    "topic": "Docker",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:59.306882+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/elena-horcajo-m-601a12140_mlops-gcp-machinelearning-activity-7511747562740150272-OG5P",
+    "canonical_url": "https://www.linkedin.com/posts/elena-horcajo-m-601a12140_mlops-gcp-machinelearning-activity-7511747562740150272-OG5P",
+    "post_id": 7511747562740150272,
+    "author": "Elena Horcajo M.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.8h (URL ID)",
+    "post_age_hours": 47.8,
+    "post_age_source": "url_id",
+    "post_text": "🚀 ¡Nueva oportunidad en Capitole!\nBuscamos un/a MLOps Engineer con experiencia en GCP para incorporarse a un proyecto internacional dentro de una multinacional líder del sector Retail.\n\n☁️ GCP | Vertex AI | Terraform\n⚙️ Kubernetes | Kubeflow | MLflow | Airflow\n🔄 CI/CD | GitHub Actions | Argo Workflows\n📊 Datadog | Prometheus | Grafana\n🐍 Python / Bash\n📍 Remoto desde España\n🌍 Inglés B2\n💼 +4 años de experiencia\n\nSi tienes experiencia llevando modelos de Machine Learning a producción y trabajando con arquitecturas MLOps en cloud, ¡me encantará conocerte! 😊\n\n📩 Escríbeme por privado o aplica directamente a la oferta.\n\n#MLOps #GCP #MachineLearning #VertexAI #Kubernetes #Terraform #Python #Hiring #TechJobs",
+    "hashtags": [
+      "#MLOps",
+      "#GCP",
+      "#MachineLearning",
+      "#VertexAI",
+      "#Kubernetes",
+      "#Terraform",
+      "#Python",
+      "#Hiring",
+      "#TechJobs"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "MLOps",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:11:17.828143+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jjansen_assessing-inter-rater-agreement-among-large-activity-7511690489868320768-zdWa",
+    "canonical_url": "https://www.linkedin.com/posts/jjansen_assessing-inter-rater-agreement-among-large-activity-7511690489868320768-zdWa",
+    "post_id": 7511690489868320768,
+    "author": "Jim Jansen",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "51.5h (URL ID)",
+    "post_age_hours": 51.5,
+    "post_age_source": "url_id",
+    "post_text": "Assessing inter-rater agreement among large language model judges: Evidence from persona evaluation across varying educational risk contexts\n\nLarge language models (LLMs) are increasingly proposed as automated judges for evaluation, yet their reliability remains unclear.\n\nIn this research, led by Danial Amin, this study examines the inter-rater agreement of three LLM judges (GPT-4o, Claude 3 Sonnet, and Gemini 1.5 Pro) when evaluating fairness, lack of stereotypicality, and diversity in user personas across varying educational risk contexts.\n\nWe analyzed 60 individual personas and 12 persona sets to assess whether these judges demonstrate sufficient consistency to function as reliable evaluators.\n\nAlthough inter-rater agreement was moderate at the individual persona level, three critical limitations emerged.\n\nAt the set level, agreement ranged from .39 to .63 across persona generators and therefore did not show a uniform decline relative to individual-level agreement. Mean dimension-support scores were 41% to 61% lower, although the individual- and set-level tasks are not directly comparable.\n\nSecond, non-compliance rates, where judges could not provide textual justification for their ratings, ranged from 9.6 to 26.7% at the individual level and increased to 34% to 49% at the set level.\n\nThird, agreement differed across the three educational scenarios classified by risk: individual-level agreement declined from the lower- to higher-risk scenarios, while set-level agreement showed no monotonic pattern. We conclude that, under the tested protocol, current LLM judges demonstrate poor-to-moderate inter-rater agreement for persona evaluation.\n\nThese findings provide a descriptive characterization of LLM evaluation behavior across risk contexts and lay the foundation for future validation studies comparing LLM agreement with human judgment.\n\nAmin, D., Salminen, J., and Jansen, B. J. (2027) Assessing Inter-Rater Agreement Among Large Language Model Judges: Evidence from Persona Evaluation Across Varying Educational Risk Contexts, Technological Forecasting amp; Social Change. Article: 124894,\nhttps://lnkd.in/g5f8n2pn\nhttps://lnkd.in/g5emESHS",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 34,
+      "comments": 9,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "LLM evaluation",
+    "score": 70.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.2,
+      "total": 70.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:36.153844+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/eric-riddoch_idk-man-these-ai-engineers-love-their-typescript-activity-7511499542056361984-yB6J",
+    "canonical_url": "https://www.linkedin.com/posts/eric-riddoch_idk-man-these-ai-engineers-love-their-typescript-activity-7511499542056361984-yB6J",
+    "post_id": 7511499542056361984,
+    "author": "🎧 Eric Riddoch",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.2h (URL ID)",
+    "post_age_hours": 64.2,
+    "post_age_source": "url_id",
+    "post_text": "idk man. These ai engineers love their TypeScript. But Python is so dang ergonomic. (I'll concede I like async/await in TS better) | 11 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 26,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGHkBNQScCnVQ/feedshare-shrink_800/B56aD41B7_IEAc-/0/1790881046620?e=2147483647&v=beta&t=TrckzbH5DqhHg2uVnZhSPtc0JaJehopcDeMYlDxFAHo",
+    "topic": "TypeScript",
+    "score": 69.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.8,
+      "total": 69.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:08:55.437360+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/tarawyman_api-postman-enterprisesecurity-activity-7511510465701834753-7__b",
+    "canonical_url": "https://www.linkedin.com/posts/tarawyman_api-postman-enterprisesecurity-activity-7511510465701834753-7__b",
+    "post_id": 7511510465701834753,
+    "author": "Tara Wyman",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.5h (URL ID)",
+    "post_age_hours": 63.5,
+    "post_age_source": "url_id",
+    "post_text": "Introducing Postman Private Cloud (PPC) 🚀 ☁️\n\nI am so thrilled and excited to announce the launch of Postman Private Cloud, a dedicated, single-tenant deployment option built for organizations that need greater control over where and how their data is hosted. This is a project I've had the pleasure to partner with Greg Martin and Tracy Hepler Olsen on over the last year.\n\nPPC extends Postman's platform security posture to meet the needs of highly regulated industries, giving you assurances that go beyond our standard multi-tenant offering.\nBuilt for organizations with strict compliance and data residency requirements.\n\nDedicated, single-tenant infrastructure. Enhanced security and control, without compromising on the Postman experience you already know.\n\nWant to find out if PPC is the right fit for your organization? Schedule a meeting with our sales team to learn more. https://lnkd.in/gt5zZJUw\n\n#API #Postman #EnterpriseSecurity #DataResidency #Compliance",
+    "hashtags": [
+      "#API",
+      "#Postman",
+      "#EnterpriseSecurity",
+      "#DataResidency",
+      "#Compliance"
+    ],
+    "engagement": {
+      "reactions": 55,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHnz62y9i_MQw/feedshare-shrink_800/B56aD4.9xdKMAc-/0/1790883650988?e=2147483647&v=beta&t=PiV1mqCyp1r-zC_fjf35wzqkonT8Z_MirGC8cPO8Hyw",
+    "topic": "Postman",
+    "score": 69.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.7,
+      "total": 69.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:44.465568+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/roberto-heckers-2313453b_typescript-angular-activity-7511681168598024192-SiPv",
+    "canonical_url": "https://www.linkedin.com/posts/roberto-heckers-2313453b_typescript-angular-activity-7511681168598024192-SiPv",
+    "post_id": 7511681168598024192,
+    "author": "Roberto Heckers",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "52.2h (URL ID)",
+    "post_age_hours": 52.2,
+    "post_age_source": "url_id",
+    "post_text": "Did you know ng new, even in strict mode, leaves one of the most useful #TypeScript flags off? 👀\n\nnoUncheckedIndexedAccess. One line in tsconfig.json.\n\nWithout it, TypeScript tells you orders[0] is an Order. It is not. It is an Order, or undefined when the array is empty. Same for a Record lookup with a key nobody ever set. The type lies, the code reads fine, and the production error says \"Cannot read properties of undefined\".\n\nWith the flag on, every index read becomes T | undefined. You add a ?. or an early return, and that bug can no longer compile ✅\n\nThe flag reaches further than most people expect: it applies inside your #Angular templates too. The template type checker generates plain TypeScript from your template, so it inherits every compiler option. orders()[0].id in an interpolation or o.lines[0].sku inside an @for block fails the build with TS2532, the same error you would get in the class.\n\nAngular's extended diagnostics account for it as well. With the flag off, the compiler deliberately stays quiet about a fallback on an indexed read like items[0], because it knows the non-nullable type cannot be trusted there. With it on, the type is honest and the diagnostics can be too.\n\nTurning it on in an existing codebase costs an afternoon. Most fixes are a question mark. A few are real bugs you did not know you had, and those pay for the afternoon.",
+    "hashtags": [
+      "#TypeScript",
+      "#Angular"
+    ],
+    "engagement": {
+      "reactions": 26,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFlG3XaUOoQPw/feedshare-shrink_1280/B4EaD7aNwbJ8AM-/0/1790924349365?e=2147483647&v=beta&t=nDTVpK3ZeLnGf1zPPI046Sq1Px2LfULotbqXonDPlQE",
+    "topic": "TypeScript",
+    "score": 67.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.8,
+      "total": 67.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:00.396949+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/philipholleran_research-preview-hydrafusion-is-live-in-activity-7511415597570736128-d3RK",
+    "canonical_url": "https://www.linkedin.com/posts/philipholleran_research-preview-hydrafusion-is-live-in-activity-7511415597570736128-d3RK",
+    "post_id": 7511415597570736128,
+    "author": "Philip Holleran",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "69.8h (URL ID)",
+    "post_age_hours": 69.8,
+    "post_age_source": "url_id",
+    "post_text": "One of the greatest parts of GitHub Copilot is the wide variety of models available to perform a task. But...one of the biggest challenges with Copilot is knowing which model is most appropriate for a given task.\n\nI've listened to many strong developers admit they regularly use only one (or perhaps two) models no matter the task at hand. Sometimes this is because people like always using the most powerful tool no matter how small the job... like using an F-250 to haul a single bag of mulch. But often it's because there are simply so many choices, that change so frequently, that it's unreasonable to expect everyone to keep up.\n\nAt GitHub we've been iterating on making an \"easy\" button for this for a while. Recently we updated how Auto mode works by giving developers the option to choose to optimize for efficiency, balance, or intelligence.\n\nNext we released HydraFusion (research preview) in the CLI, which seeks to choose the execution pattern needed to complete a task then select the model(s) needed to do so from those approved for use.\n\nNow HydraFusion is available in VSCode (v1.140+) and the Copilot App: https://lnkd.in/grgrZurA\n\nGive it a try and be sure to give us feedback so we can make it even more useful: https://lnkd.in/gSrfKYm7\n\nI know some of y'all (looking at you admins) are hesitant to give employees access to early-release/unapproved features. But rest assured, HydraFusion fully respects all configured model policies. It will only use (and charge for) models the end user is authorized to use directly.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHUowNJ1UMz8g/articleshare-shrink_1280_800/B56aD3oQNqH8Ag-/0/1790860920030?e=2147483647&v=beta&t=STnL6Aadkgk438RzSjmObx3TYZBE4RJCFP9OS3h3UC4",
+    "topic": "GitHub Copilot",
+    "score": 67.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.0,
+      "total": 67.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:58.562182+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/scadea-software-solutions_enterprise-rag-architecture-the-reference-activity-7512186232345436160-o0_M",
+    "canonical_url": "https://www.linkedin.com/posts/scadea-software-solutions_enterprise-rag-architecture-the-reference-activity-7512186232345436160-o0_M",
+    "post_id": 7512186232345436160,
+    "author": "Scadea Software Solutions",
+    "is_company_account": true,
+    "followers": 64899,
+    "post_age": "18.7h (URL ID)",
+    "post_age_hours": 18.7,
+    "post_age_source": "url_id",
+    "post_text": "Enterprise RAG architecture adds four layers consumer RAG skips: permission-aware retrieval, multimodal ingestion, groundedness scoring, audit compliance.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQG5YaYy953C-g/articleshare-shrink_800/B56aDvadxqIUAY-/0/1790723087837?e=2147483647&v=beta&t=fYMmLV3aOqOhyg6g1NU7WJFmFuSg_gG2Ki5HvAjkzwk",
+    "topic": "RAG architecture",
+    "score": 65.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 65.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:21.450106+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/brentozar_babelfish-for-aurora-postgresql-performance-activity-7511880291116904448-shZX",
+    "canonical_url": "https://www.linkedin.com/posts/brentozar_babelfish-for-aurora-postgresql-performance-activity-7511880291116904448-shZX",
+    "post_id": 7511880291116904448,
+    "author": "Brent Ozar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "38.9h (URL ID)",
+    "post_age_hours": 38.9,
+    "post_age_source": "url_id",
+    "post_text": "Reading: AWS Aurora Babelfish tuning guide for SQL Server people: https://lnkd.in/g6iRvzju Babelfish supposedly lets you run SQL Server apps hooked up to Postgres. I'll have more to talk about on that soon.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 40,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQElwPEUpJh2cg/image-shrink_1280/B56aD.PPwOJIAg-/0/1790971804911?e=2147483647&v=beta&t=tVipjsopjqZta0aug0KtOuHrmTN_CWsOanP53toWJsE",
+    "topic": "PostgreSQL optimization",
+    "score": 63.7,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 10.0,
+      "engagement": 8.2,
+      "total": 63.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:07:03.403540+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ramakrushnamohapatra_llm-evaluation-is-where-you-find-out-if-your-activity-7511387468189859840-eouO",
+    "canonical_url": "https://www.linkedin.com/posts/ramakrushnamohapatra_llm-evaluation-is-where-you-find-out-if-your-activity-7511387468189859840-eouO",
+    "post_id": 7511387468189859840,
+    "author": "Ramakrushna Mohapatra",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.6h (URL ID)",
+    "post_age_hours": 71.6,
+    "post_age_source": "url_id",
+    "post_text": "LLM evaluation is where you find out if your model is actually good, or just sounds good.\n\nA model can write impressive answers and still fail on accuracy, reasoning, consistency, safety, or hallucinations.\n\nThat’s why evaluating an LLM goes beyond asking, “Does this answer look good?”\nYou need to test things like:\n• Accuracy\n• Relevance\n• Reasoning\n• Factuality\n• Hallucination\n• Safety\n• Consistency\n• Instruction following\nAnd depending on the use case, you might use benchmarks, human evaluation, LLM-as-a-judge, or custom evaluation datasets.\n\nBuilding an LLM is only half the job. Knowing whether it actually works is the other half.\n\nFollow Ramakrushna Mohapatra for more such content about AI.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 9,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFLqzk4ucufkg/feedshare-shrink_1280/B56aD3PFwfKQAM-/0/1790854325828?e=2147483647&v=beta&t=P11sFDX0H9jGD2xpCVGeQrb1Idjc4KB7uVMUef6MEZw",
+    "topic": "LLM evaluation",
+    "score": 63.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.5,
+      "total": 63.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:26.485616+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mayur-thakre_javascript-webdevelopment-softwareengineering-activity-7511435968130793472-xFdo",
+    "canonical_url": "https://www.linkedin.com/posts/mayur-thakre_javascript-webdevelopment-softwareengineering-activity-7511435968130793472-xFdo",
+    "post_id": 7511435968130793472,
+    "author": "Mayur Thakre",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "68.4h (URL ID)",
+    "post_age_hours": 68.4,
+    "post_age_source": "url_id",
+    "post_text": "I don’t want to just know JavaScript. I want to understand it. 💻\nOne skill at a time, I’m trying to make my fundamentals stronger.\n\nI’ve recently started going back to the technologies I’ve already learned and taking them much deeper — with a focus on understanding, problem-solving, real-world usage, and interview readiness.\n\nI started with JavaScript.\n\nI’m currently following the Chai aur Code JavaScript playlist by Hitesh Choudhary, and I’ve already completed 25+ videos.\nWhat I really like about Hitesh Choudhary Sir’s teaching is that he doesn’t just explain what something is.\n\nHe goes deeper into why it works, how it works internally, and where it actually matters. Things that I had previously learned at a surface level are starting to make much more sense now.\n\nAnd that’s exactly what I want to change in my learning.\nI don’t want my skill set to be:\n❌ “I know JavaScript.”\n❌ “I know React.”\n❌ “I know Node.js.”\n\nI want it to become:\n✅ I understand the concepts.\n✅ I can solve problems using them.\n✅ I can build real applications with them.\n✅ I can explain my technical decisions.\n✅ I can confidently discuss them in an interview.\n\nI’ve set myself a 3-month target until the end of December to strengthen the skills I’ve already learned and fill the gaps in my fundamentals.\nAnd I’m not planning to learn only through theory.\n\nI want to keep connecting everything I learn with real-world projects, debugging, problem-solving, and implementation. JavaScript is the starting point.\n\nNext, I’ll be doing the same with the rest of my core development skills. The goal isnt to collect more technologies on my resume. The goal is to become someone who can actually use the technologies I have.\n\nPreparing myself not just as a student who knows some technologies, but as an engineering student who can build, solve, understand, and explain. 3 months. One skill at a time. One concept at a time. Let’s see how much stronger I can make myself by the end of December.\n\n🚀 #JavaScript #WebDevelopment #SoftwareEngineering #NodeJS #ReactJS #LearningInPublic #Programming #FullStackDevelopment",
+    "hashtags": [
+      "#JavaScript",
+      "#WebDevelopment",
+      "#SoftwareEngineering",
+      "#NodeJS",
+      "#ReactJS",
+      "#LearningInPublic",
+      "#Programming",
+      "#FullStackDevelopment"
+    ],
+    "engagement": {
+      "reactions": 17,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHKF_7NZp7F-w/feedshare-shrink_800/B56aD37NA3H8Ag-/0/1790865888216?e=2147483647&v=beta&t=92mGgbWpQqxyz9DgTqsh2TEJh4YNyOaqbL4RR5rBNLM",
+    "topic": "JavaScript",
+    "score": 63.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.3,
+      "total": 63.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:08:45.823507+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/himanshuai_mcp-modelcontextprotocol-aitesting-activity-7511635403326636034-ZL1-",
+    "canonical_url": "https://www.linkedin.com/posts/himanshuai_mcp-modelcontextprotocol-aitesting-activity-7511635403326636034-ZL1-",
+    "post_id": 7511635403326636034,
+    "author": "Himanshu Agarwal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "55.1h (URL ID)",
+    "post_age_hours": 55.1,
+    "post_age_source": "url_id",
+    "post_text": "MCP Architecture — The Missing Layer Between AI and Real-World Systems\n\nAI models are powerful.\n\nBut an LLM alone cannot directly understand your databases, APIs, files, cloud services, internal tools, or enterprise systems.\n\nThat’s where Model Context Protocol (MCP) comes in.\n\nMCP provides a standardized way for AI applications to connect with external tools and data.\n\nThe basic architecture:\n\nAI Application / MCP Client\n↓\nMCP Protocol — JSON-RPC 2.0\n↓\nMCP Server\n↓\nTools + Resources + Prompts\n↓\nDatabases | APIs | Files | Cloud | SaaS | Custom Systems\n\nA typical flow looks like:\n\n1. Client sends a request\n2. MCP server receives the request\n3. Server invokes the required tool or resource\n4. External system processes the request\n5. Structured result is returned\n6. LLM uses the result to generate the final response\n\nFor AI Test Engineers, MCP introduces an entirely new testing surface:\n\n• Tool invocation validation\n• JSON-RPC request/response validation\n• Schema validation\n• Authentication & authorization testing\n• Prompt injection testing\n• Tool poisoning testing\n• Access-control testing\n• Error handling & timeout testing\n• Data leakage testing\n• MCP server reliability testing\n\nMCP is not just an AI integration concept.\n\nIt is becoming an important architecture layer for building and testing AI-powered systems.\n\nSave this architecture for your MCP + AI Testing journey.\n\n#MCP #ModelContextProtocol #AITesting #GenAITesting #LLM #AIAgents #SoftwareTesting #SDET #TestAutomation #QualityEngineering",
+    "hashtags": [
+      "#MCP",
+      "#ModelContextProtocol",
+      "#AITesting",
+      "#GenAITesting",
+      "#LLM",
+      "#AIAgents",
+      "#SoftwareTesting",
+      "#SDET",
+      "#TestAutomation",
+      "#QualityEngineering"
+    ],
+    "engagement": {
+      "reactions": 9,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHiXq7VZJRNHQ/feedshare-shrink_800/B56aD6wmCQHEAc-/0/1790913438138?e=2147483647&v=beta&t=rENYbkEa73n7aMGzHcAHuLKnTa76hj1G9HSHqJAXvuo",
+    "topic": "MCP protocol",
+    "score": 63.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.0,
+      "total": 63.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:05.236124+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ashok-kumar-sitha_what-is-mcpmodel-context-protocol-mcp-activity-7511488445320593409-8JZc",
+    "canonical_url": "https://www.linkedin.com/posts/ashok-kumar-sitha_what-is-mcpmodel-context-protocol-mcp-activity-7511488445320593409-8JZc",
+    "post_id": 7511488445320593409,
+    "author": "Ashok Kumar Sitha",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.9h (URL ID)",
+    "post_age_hours": 64.9,
+    "post_age_source": "url_id",
+    "post_text": "What is MCP(Model Context Protocol)\n\n* MCP is a standard way for AI to connect with external tools and data.\n* Think of MCP as a universal adapter between an AI model and different systems.\n* Without MCP, every AI application may need a custom integration for each tool.\n* With MCP, the AI can use a common protocol to connect to databases, APIs, files, applications, and other tools.\n* The MCP Server exposes the available tools/data to the AI and handles communication with those systems.\n* This allows AI to not only understand information, but also retrieve data and perform actions.\n\nSimple example\n\nUser: “Find the latest sales data and create a report.”\n\nAI → MCP → Database/Tools → MCP → AI → Report",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 13,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGgT2ZMXFjXJA/feedshare-shrink_800/B4DaD4q8APKwAc-/0/1790878400821?e=2147483647&v=beta&t=5OAi4d0fXqzZ2F4mon5fizkGdsU3PBMO0Fm1TJHK_3I",
+    "topic": "MCP protocol",
+    "score": 62.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.7,
+      "total": 62.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:05:53.357761+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/horovits_opensearch-kubernetes-opensearchambassador-activity-7511681597902020608-eLo6",
+    "canonical_url": "https://www.linkedin.com/posts/horovits_opensearch-kubernetes-opensearchambassador-activity-7511681597902020608-eLo6",
+    "post_id": 7511681597902020608,
+    "author": "Dotan Horovits",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "52.1h (URL ID)",
+    "post_age_hours": 52.1,
+    "post_age_source": "url_id",
+    "post_text": "📢 OpenSearch Kubernetes Operator 3.0 is now GA\nRebuilt to make upgrades, scaling, certificate rotation, and recovery safer in real-world environments.\nNote that version 2.x is end of life.\nSee the OpenSearch Project blog for more information, as well as a migration guide:\nhttps://lnkd.in/dJBkznPE\n#OpenSearch #Kubernetes #OpenSearchAmbassador #cloudnative",
+    "hashtags": [
+      "#OpenSearch",
+      "#Kubernetes",
+      "#OpenSearchAmbassador",
+      "#cloudnative"
+    ],
+    "engagement": {
+      "reactions": 10,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEw_wA2__LTzg/feedshare-shrink_1280/B4DaD3xS3fIgAM-/0/1790863290377?e=2147483647&v=beta&t=lP2U8CtgYvYq0-D256wnz2V50jUUhQuzpYnMRP_Oz_s",
+    "topic": "Kubernetes operators",
+    "score": 62.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.7,
+      "total": 62.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:55.087385+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/orhunp_smarter-coding-agents-for-rust-with-symposium-activity-7511448176990597120-mxvZ",
+    "canonical_url": "https://www.linkedin.com/posts/orhunp_smarter-coding-agents-for-rust-with-symposium-activity-7511448176990597120-mxvZ",
+    "post_id": 7511448176990597120,
+    "author": "Orhun Parmaksız",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.6h (URL ID)",
+    "post_age_hours": 67.6,
+    "post_age_source": "url_id",
+    "post_text": "Can AI coding agents write good-quality Rust? 🦀\nWere finding out today! 💪\nJoin me, Nicholas Matsakis and Jack Huey, Ph.D.D. as we explore the Symposium project!▶️ Livestream at 16 UTC: https://lnkd.in/dnWEE-p9\n#rustlang #livestream",
+    "hashtags": [
+      "#rustlang",
+      "#livestream"
+    ],
+    "engagement": {
+      "reactions": 11,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQFg4IsLmWtwoA/articleshare-shrink_800/B4DaD3_1VqIkAY-/0/1790867101599?e=2147483647&v=beta&t=NeEdb_GrflMaQyZ-dcBI1hEfVkKlqHv9D8Gev2xBZjQ",
+    "topic": "Rust",
+    "score": 62.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.3,
+      "total": 62.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:16.072658+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dibya-dutta-2209a465_ai-software-engineer-apple-cloud-ai-platform-activity-7511634275864084480-BwSC",
+    "canonical_url": "https://www.linkedin.com/posts/dibya-dutta-2209a465_ai-software-engineer-apple-cloud-ai-platform-activity-7511634275864084480-BwSC",
+    "post_id": 7511634275864084480,
+    "author": "Dibya Dutta",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "55.2h (URL ID)",
+    "post_age_hours": 55.2,
+    "post_age_source": "url_id",
+    "post_text": "I have an early career AI Software Engineer role on my team at Apple Cloud AI Platform, based in Seattle - if you're excited about building full-stack AI/ML and Data tools and growing fast on systems at Apple scale, I'd love to connect.\n\nhttps://lnkd.in/guCXfj82 | 64 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 710,
+      "comments": 64,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGvRt6smeDGxQ/articleshare-shrink_800/B56aD6u4BUHcAY-/0/1790912987542?e=2147483647&v=beta&t=Qd4MREQNjhMRF-UnUg32q076x1J_Xv_57-EICfG820M",
+    "topic": "FastAPI observability",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 10.0,
+      "engagement": 15.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:05:30.304486+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_rust-tutorial-1-introduction-to-rust-programming-activity-7511540731644190720-bzhx",
+    "canonical_url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_rust-tutorial-1-introduction-to-rust-programming-activity-7511540731644190720-bzhx",
+    "post_id": 7511540731644190720,
+    "author": "Donald Lutz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "61.5h (URL ID)",
+    "post_age_hours": 61.5,
+    "post_age_source": "url_id",
+    "post_text": "Rust Tutorial #1 - Introduction To Rust Programming #rust #programming #tutorial\n\nhttps://lnkd.in/e9isX3ZJ",
+    "hashtags": [
+      "#1",
+      "#rust",
+      "#programming",
+      "#tutorial"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/C4E27AQGMsaWgnM9AYQ/articleshare-shrink_800/articleshare-shrink_800/0/1711683804456?e=2147483647&v=beta&t=LTWNfdXAUz3Le_EnZrXWejm4DxaWoJbu_BazfQk6iWc",
+    "topic": "Rust",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:08.509878+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mrkristanto_github-copilot-activity-7511564365599498240-PWi7",
+    "canonical_url": "https://www.linkedin.com/posts/mrkristanto_github-copilot-activity-7511564365599498240-PWi7",
+    "post_id": 7511564365599498240,
+    "author": "Harris Kristanto",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "59.9h (URL ID)",
+    "post_age_hours": 59.9,
+    "post_age_source": "url_id",
+    "post_text": "Just earned the GitHub Copilot certification - a good excuse to dig a bit deeper into some of the features and governance side of Copilot.\n\nWorth doing if you're using it regularly!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHZL8kA3g9f2g/articleshare-shrink_800/B4EaD5qOriH0AY-/0/1790894992439?e=2147483647&v=beta&t=zyVGKZz2x-l3wzdfAliB9moMMmPdNkerTG1ZlrKci90",
+    "topic": "GitHub Copilot",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:03.313031+00:00"
+  },
+  {
+    "url": "https://no.linkedin.com/posts/vegard-kyseth-974a05276_benjamin-bekken-i-native-delte-et-tips-bruk-activity-7511388578581463040-r2y6",
+    "canonical_url": "https://no.linkedin.com/posts/vegard-kyseth-974a05276_benjamin-bekken-i-native-delte-et-tips-bruk-activity-7511388578581463040-r2y6",
+    "post_id": 7511388578581463040,
+    "author": "Vegard Kyseth",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.6h (URL ID)",
+    "post_age_hours": 71.6,
+    "post_age_source": "url_id",
+    "post_text": "Benjamin Bekken i Native delte et tips: bruk Claude Opus 5.5 i Claude Code med ultracode, og gi den denne prompten\n\n«Make a 30 second hype video for [ditt selskap], do full research to understand what we do, then create the video in 9:16, 1:1 and 16:9…»\n\nMåtte jo teste det på Umtal, bare på norsk\n\nResultatet er videoen under. Musikken, animasjonen og klippene på takten er laget fra kode. Jeg ga tilbakemeldinger underveis og fikk nye versjoner til den satt\n\nSelve poenget med Umtal er enkelt\n53 % av nordmenn bruker ChatGPT hver uke (Ipsos). Når de spør om noe du selger, svarer den med et par navn og går videre\nBlir du ikke nevnt, blir du ikke valgt\n\nUmtal måler hvor ofte du blir anbefalt og hvem som tar plassen din. Så får du råd som er ferdig skrevet, du trenger bare å publisere\n\nFørste måling er gratis!! Test da vel!!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGIt6orVhB0wA/thumbnail-with-play-button-overlay-high/B4EaD3QE8AHkDE-/0/1790854584077?e=2147483647&v=beta&t=jqvrvZ_5mZoNOtSOyCe3qYOecInj3pzSIr4yvCLxn8g",
+    "topic": "Claude Code",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:43.059542+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/gabriel-martinez-8040a61a2_openai-codex-activity-7511492539909267457-F8Pk",
+    "canonical_url": "https://es.linkedin.com/posts/gabriel-martinez-8040a61a2_openai-codex-activity-7511492539909267457-F8Pk",
+    "post_id": 7511492539909267457,
+    "author": "Gabriel Martinez",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.7h (URL ID)",
+    "post_age_hours": 64.7,
+    "post_age_source": "url_id",
+    "post_text": "OpenAI me acreditó USD 2.500 en créditos 💰 💵\n\nEl contexto: OpenAI actualizó los planes Pro y anunció una reducción del uso incluido en el de USD 200. Los suscriptores anteriores elegibles mantienen las condiciones previas hasta el 29 de octubre.\nSon 62.500 créditos adicionales, equivalentes a unos USD 2.500 de uso.\n\nMientras tanto, ya estoy probando dot. Podés escribirle o llamarlo, delegarle tareas y recibir avances o preguntas sin tener que estar todo el tiempo en el chat.\n\nTambién llegó Codex Cloud: ahora podemos dejar tareas corriendo en la nube y retomarlas desde la compu o el celular, sin depender de tener la computadora prendida.\n\n#OpenAI #Codex",
+    "hashtags": [
+      "#OpenAI",
+      "#Codex"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGIRbocsOYFgg/feedshare-shrink_1280/B4DaD4tucAJ4AQ-/0/1790879131820?e=2147483647&v=beta&t=P0C8Ly8vyipzhpi8AN8BbmpVz1vAM-vknhf3TXsnuqI",
+    "topic": "OpenAI Codex",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:10:54.913864+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/samuelrg_docker-devsecops-containersecurity-activity-7511554191316914177-OBUr",
+    "canonical_url": "https://es.linkedin.com/posts/samuelrg_docker-devsecops-containersecurity-activity-7511554191316914177-OBUr",
+    "post_id": 7511554191316914177,
+    "author": "Samuel Ramirez Garrido",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "60.6h (URL ID)",
+    "post_age_hours": 60.6,
+    "post_age_source": "url_id",
+    "post_text": "¿Crees que un contenedor comprometido no puede tocar tu servidor? 🐳\nUna nueva vulnerabilidad de Docker, CVE-2026-17106 (CopyEscape), pone el foco en una frontera que muchas veces damos por aislada:\ncontenedor → host\nLa vulnerabilidad afecta a docker cp y puede permitir que archivos sean escritos fuera del directorio de destino esperado.\n🔎 Revisé mi propio entorno y tenía Docker Engine 29.5.2, dentro del rango afectado.\nLo actualicé a 29.8.2 y quedó corregido.\nSi usas Docker, revisa primero:\ndocker version\nY actualiza Docker Engine desde el repositorio oficial de tu distribución:\nsudo apt update && sudo apt upgrade\no, según tu distribución:\nsudo dnf upgrade docker-ce\nDespués, vuelve a comprobar:\ndocker version\n⚠️ No revises solamente tus imágenes. El Docker Engine, runners de CI/CD y operaciones que cruzan hacia el host también forman parte de la superficie de ataque.\nSi utilizas docker cp en pipelines o automatizaciones, vale la pena revisarlo.\n👉 Fuente y detalles técnicos sobre CopyEscape / CVE-2026-17106:\nhttps://lnkd.in/dYAvD288\n#Docker #DevSecOps #ContainerSecurity #DevOps #CyberSecurity #CVE #VulnerabilityManagement",
+    "hashtags": [
+      "#Docker",
+      "#DevSecOps",
+      "#ContainerSecurity",
+      "#DevOps",
+      "#CyberSecurity",
+      "#CVE",
+      "#VulnerabilityManagement"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFh92Y4rL3RZA/feedshare-shrink_800/B4DaD5muwtHsAc-/0/1790894075274?e=2147483647&v=beta&t=L4sUbnQNlK3jwOGzxGN12qwtl1cwIh0iXDO96UQkkik",
+    "topic": "Docker",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:11:05.858631+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/meeting-cpp_make-your-c-program-faster-with-a-single-activity-7512051380300382209-59Yx",
+    "canonical_url": "https://www.linkedin.com/posts/meeting-cpp_make-your-c-program-faster-with-a-single-activity-7512051380300382209-59Yx",
+    "post_id": 7512051380300382209,
+    "author": "Meeting C++ & more",
+    "is_company_account": true,
+    "followers": 49694,
+    "post_age": "27.6h (URL ID)",
+    "post_age_hours": 27.6,
+    "post_age_source": "url_id",
+    "post_text": "Make your C++ program faster with a single line of code\nhttps://lnkd.in/eJzmpZJ3\n#cpp\n#cplusplus",
+    "hashtags": [
+      "#cpp",
+      "#cplusplus"
+    ],
+    "engagement": {
+      "reactions": 1,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEE9LgvuhYArg/articleshare-shrink_800/B4EaDzjvYaG0AY-/0/1790792628142?e=2147483647&v=beta&t=K1hardxCzZw1i1nkWioyhVmEjrngtfkxjE9DxeUzkFw",
+    "topic": "C++",
+    "score": 58.7,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 0.7,
+      "total": 58.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:08:11.773110+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rust-foundation_welcoming-the-josh-project-to-the-rust-innovation-activity-7511564559371939840-x0BE",
+    "canonical_url": "https://www.linkedin.com/posts/rust-foundation_welcoming-the-josh-project-to-the-rust-innovation-activity-7511564559371939840-x0BE",
+    "post_id": 7511564559371939840,
+    "author": "Rust Foundation",
+    "is_company_account": true,
+    "followers": 25082,
+    "post_age": "59.9h (URL ID)",
+    "post_age_hours": 59.9,
+    "post_age_source": "url_id",
+    "post_text": "Please join us in welcoming Josh (“Just One Single History”) to the Rust Innovation Lab! Josh is a Rust-based platform for scaling Git to codebases of any size, with any number of contributors, without slowing down the pace of change. The Rust Project already relies on Josh to keep rust-lang/rust and several of its tools in sync. That makes Josh an important piece of the infrastructure behind Rust itself.\n\nLearn more: https://lnkd.in/gxdMF6x5",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 43,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQFIM_c6Weltvg/image-shrink_800/B56aD5wFvwHAAg-/0/1790896528937?e=2147483647&v=beta&t=oZJRbppqCWX_-jCE6KgZeqLdzebwh5rC0ifKuRFCA3g",
+    "topic": "Rust",
+    "score": 55.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 7.7,
+      "total": 55.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:09:13.143552+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mindcore-tech_automation-can-become-a-security-risk-when-activity-7511500251367665664-iKrt",
+    "canonical_url": "https://www.linkedin.com/posts/mindcore-tech_automation-can-become-a-security-risk-when-activity-7511500251367665664-iKrt",
+    "post_id": 7511500251367665664,
+    "author": "Mindcore Technologies",
+    "is_company_account": true,
+    "followers": 1536,
+    "post_age": "64.1h (URL ID)",
+    "post_age_hours": 64.1,
+    "post_age_source": "url_id",
+    "post_text": "Automation can become a security risk when permissions go further than the job requires.\n\nOperTraitor is drawing attention to a critical Kubernetes issue: operators with excessive RBAC permissions can create hidden privilege escalation paths across the environment.\n\nFor security teams, this reinforces a few fundamentals: least privilege, continuous permission reviews, and visibility into what automated services can actually access.\n\nSecure privileged access before excessive permissions become an attack path with Mindcore: https://lnkd.in/edgMmVy3",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFSX9XUHSIDHg/feedshare-image-high-res/B56aDzY0fqG4AY-/0/1790789765359?e=2147483647&v=beta&t=MvqcEoktt1ZpXJyh1l5aMNuHzW-GEswSV-SD3LpVWRE",
+    "topic": "Kubernetes operators",
+    "score": 47.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 47.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T11:06:56.780950+00:00"
   }
 ]
