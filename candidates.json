@@ -2177,5 +2177,78 @@
     "topic": "PyTorch",
     "score": 5,
     "discovered_at": "2026-10-03T17:16:13.826216+00:00"
+  },
+  {
+    "url": "https://nl.linkedin.com/posts/ilkerakkaya_aitesting-llmevaluation-qualityassurance-activity-7511896492819894272-wk1x",
+    "canonical_url": "https://nl.linkedin.com/posts/ilkerakkaya_aitesting-llmevaluation-qualityassurance-activity-7511896492819894272-wk1x",
+    "post_id": 7511896492819894272,
+    "author": "Ilker Akkaya",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "36.5h (URL ID)",
+    "post_age_hours": 36.5,
+    "post_age_source": "url_id",
+    "post_text": "🤖 Van Software Testing naar AI Testing\n\nAI-toepassingen worden steeds meer onderdeel van het softwarelandschap. Daarmee verandert ook de rol van Quality Assurance.\n\nBij traditionele softwaretests kunnen we voor een bepaalde input vaak een verwachte output definiëren. Bij systemen die gebaseerd zijn op LLM’s ligt dat anders: dezelfde input hoeft niet altijd exact dezelfde output op te leveren.\n\nDaarom is alleen de vraag “Werkt het?” niet meer voldoende.\n\nBij het testen van AI-systemen moeten we ook kijken naar aspecten zoals factuality, relevance, hallucination, consistency, safety en response quality.\n\nOm mijn kennis op dit gebied verder te ontwikkelen, heb ik de training LLM Evaluation (AI Testing) succesvol afgerond. 🎓\n\nTijdens de training heb ik mij onder andere verdiept in Promptfoo, Hugging Face, LLM-as-a-Judge, deterministic & non-deterministic evaluation, Red Team Testing en Model Auditing. LLM-Evaluation-Testing.pdf\n\nEen belangrijk inzicht dat ik hieruit meeneem:\n\nAI testen gaat niet alleen om controleren of een antwoord correct is. Het gaat ook om systematisch beoordelen hoe betrouwbaar, consistent, veilig en relevant een AI-systeem zich gedraagt.\n\nMet mijn achtergrond in QA en Test Automation blijf ik mij verder ontwikkelen richting LLM Evaluation en AI Testing. 🚀\n\nSoftware Testing → AI Testing\n\n#AITesting #LLMEvaluation #QualityAssurance #SoftwareTesting #LLM #Promptfoo #RedTeaming #TestAutomation #ArtificialIntelligence #QAEngineer",
+    "hashtags": [
+      "#AITesting",
+      "#LLMEvaluation",
+      "#QualityAssurance",
+      "#SoftwareTesting",
+      "#LLM",
+      "#Promptfoo",
+      "#RedTeaming",
+      "#TestAutomation",
+      "#ArtificialIntelligence",
+      "#QAEngineer"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGUiMVWlq6NNA/feedshare-shrink_800/B4EaD.eDk6G0Ac-/0/1790975687215?e=2147483647&v=beta&t=b11qh9pt_X-49SaVHpx3OfYtMxRbO6ZbwMImJgXpqzA",
+    "topic": "LLM evaluation",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T09:45:46.690991+00:00",
+    "generated_comment": "Promptfoo’s test‑case templating makes it straightforward to encode the factuality and hallucination checks you mentioned. However, relying heavily on deterministic evaluation may hide the stochastic behavior that end users experience, so complementing it with non‑deterministic runs can surface consistency issues that deterministic suites miss."
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/mehmetalisezgin_llm-evaluation-ai-testing-eğitimimiz-activity-7511896180562530305-zc8l",
+    "canonical_url": "https://tr.linkedin.com/posts/mehmetalisezgin_llm-evaluation-ai-testing-e%C4%9Fitimimiz-activity-7511896180562530305-zc8l",
+    "post_id": 7511896180562530305,
+    "author": "Mehmet Ali Sezgin",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "36.5h (URL ID)",
+    "post_age_hours": 36.5,
+    "post_age_source": "url_id",
+    "post_text": "🎓 LLM Evaluation (AI Testing) Eğitimimiz Artık Uluslararası Sertifika ile Tamamlanıyor.\nLLM Evaluation (AI Testing) eğitim programımı başarıyla tamamlayan katılımcılar\nIATELS International Association for Technology Education and Language Studies kapsamında düzenlenen International Certificate almaya hak kazanıyor.\nEğitim programı 24 saatlik uygulamalı LLM Evaluation / AI Testing içeriğinden oluşuyor.\nEğitim kapsamında yalnızca teoriyi değil; Factuality, Hallucination, Answer Relevance, LLM-as-a-Judge, Red Team Testing ve AI tabanlı sistemlerin test stratejilerini gerçek uygulamalar üzerinden çalışıyoruz.\nBenim için önemli olan sadece bir eğitim vermek değil; QA profesyonellerinin AI-based applications testing dünyasına somut ve ölçülebilir yetkinliklerle hazırlanmasını sağlamak.\nEkim ayı hafta sonu grubumda sınırlı sayıda yer kaldı. Siz de kendinizi LLM Evaluation ve AI Testing alanında geliştirmek istiyorsanız, formu doldurarak bize katılabilirsiniz.\n🇪🇺🇹🇷 EU–TR Bilgi Alma ve Başvuru https://lnkd.in/dQZjQpk4\n🇺🇸 USA Bilgi Alma ve Başvuru https://lnkd.in/d7P_6wEa\n✈️ Telegram https://lnkd.in/d8ax9EP6\nWhatsApp+44 7735 091567",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHNQufhyN8yCQ/feedshare-shrink_1280/B4DaD.dxMfIgAM-/0/1790975611923?e=2147483647&v=beta&t=cocJC77GDqF8hUjyR9LkFLm5uqC5AZsZ6E-s4jfg7g4",
+    "topic": "LLM evaluation",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-04T09:45:48.050383+00:00",
+    "generated_comment": "Including Red Team Testing alongside factuality and hallucination checks surfaces adversarial failure modes early, but it can extend the iteration cycle for prompt refinements. Balancing the depth of LLM‑as‑a‑Judge evaluations with a lightweight scoring rubric helps keep test throughput practical while still capturing nuanced quality signals."
   }
 ]
