@@ -1,0 +1,2181 @@
+[
+  {
+    "url": "https://es.linkedin.com/posts/natalia-valenzuela-962921148_devsecops-gcp-azure-activity-7511849898733015040-Pp0A",
+    "canonical_url": "https://es.linkedin.com/posts/natalia-valenzuela-962921148_devsecops-gcp-azure-activity-7511849898733015040-Pp0A",
+    "author": "NATALIA VALENZUELA",
+    "followers": null,
+    "post_age": "23 h",
+    "post_text": "🔵DevSecOps Semi Senior🔵\nEn SEIDOR buscamos un/a DevSecOps para integrarse a nuestro equipo, enfocado/a en la implementación y mejora continua de prácticas de seguridad dentro del ciclo de vida de desarrollo de software, con foco principal en GCP y secundario en Microsoft Azure.\n🧩 Requisitos:\n✅Mínimo 3 años de experiencia en roles de DevSecOps o ciberseguridad.\n✅Sólidos conocimientos en arquitectura y seguridad en GCP (IAM, VPC, Cloud Security Command Center) y manejo de Azure.\n✅Experiencia con herramientas como Terraform, Jenkins, GitLab CI, SonarQube, Prisma Cloud y Snyk. Seguridad en contenedores (Docker / Kubernetes)\n✅Experiencia/conocimientos en manejo de IA. Conocimientos en hardening, compliance, gestión de accesos y mitigación de riesgos.\n💼 Condiciones:\nContrato: Indefinido\nModalidad: Híbrida (3 días presenciales / 2 días teletrabajo)\nUbicación: Santiago Huechuraba\n📩 ¿Te interesa la oportunidad o conoces a alguien? Interesados enviar C.V. a natalia.valenzuela@seidor.com\n\n#DevSecOps #GCP #Azure #CloudSecurity #Chile #OportunidadLaboral #Ciberseguridad #DevOps",
+    "hashtags": [
+      "#DevSecOps",
+      "#GCP",
+      "#Azure",
+      "#CloudSecurity",
+      "#Chile",
+      "#OportunidadLaboral",
+      "#Ciberseguridad",
+      "#DevOps"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "DevSecOps",
+    "score": 90,
+    "discovered_at": "2026-10-03T17:16:28.989691+00:00",
+    "generated_comment": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/fastapi-now-has-built-in-opentelemetry-support-share-7511003917338628096-zI6B",
+    "canonical_url": "https://www.linkedin.com/posts/fastapi_fastapi-now-has-built-in-opentelemetry-support-activity-7511003918718533632-WFaf",
+    "author": "FastAPI",
+    "followers": 103934,
+    "post_age": "3d",
+    "post_text": "FastAPI now has built-in OpenTelemetry support, natively 📈\n\nNo extra code needed.\n\nSee how your app behaves in production.\n\nGo and upgrade to \"fastapi[standard]\" version 0.142.2 ⬆️\n\nRead the docs: https://lnkd.in/dPTg7VA7 | 69 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 724,
+      "comments": 69,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEZBDfny4gTAg/feedshare-shrink_800/B4DaDxyQp8JQAc-/0/1790762879957?e=2147483647&v=beta&t=QWFSeiW910ZOJo8NcVRFYSzUaqwER1vEYxSN9OYVstk",
+    "topic": "FastAPI",
+    "score": 80,
+    "discovered_at": "2026-10-03T17:16:06.132014+00:00",
+    "generated_comment": "Integrating OpenTelemetry directly into FastAPI removes the need for separate middleware layers, simplifying deployment pipelines. The native support also guarantees consistent trace context propagation across async endpoints. Have you observed any impact on request latency when enabling the default instrumentation?"
+  },
+  {
+    "url": "https://pt.linkedin.com/posts/brunoalmeidademiranda_edgecomputing-ai-activity-7458598455419228164-vmWc",
+    "canonical_url": "https://pt.linkedin.com/posts/brunoalmeidademiranda_edgecomputing-ai-activity-7458598455419228164-vmWc",
+    "author": "Bruno Miranda",
+    "followers": null,
+    "post_age": "4 m",
+    "post_text": "Obrigado Erik Naoki Nakandakare e toda equipe Qualcomm pela oportunidade de participarmos desse belíssimo evento.\n\nFoi fantástico e temos uma trilha sensacional de novos produtos e negócios pela frente!\n\n#edgecomputing #AI",
+    "hashtags": [
+      "#edgecomputing",
+      "#AI"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHNL1uUdQuEmg/thumbnail-with-play-button-overlay-high/B4EZ4I.WvCHcCw-/0/1778267031416?e=2147483647&v=beta&t=EMJwloaQ8coGIUii_9727NhXrY0peRzGSg8Fw0N6SGE",
+    "topic": "Edge Computing",
+    "score": 70,
+    "discovered_at": "2026-10-03T17:16:25.517136+00:00",
+    "generated_comment": "Um ponto crítico na expansão de soluções de edge computing com IA é equilibrar a latência mínima exigida pelos casos de uso em tempo real com a capacidade de processamento dos dispositivos na borda. Muitas vezes,"
+  },
+  {
+    "url": "https://me.linkedin.com/posts/schakraborty007_kubernetes-troubleshooting-pod-activity-7026875620965945344-erzM",
+    "canonical_url": "https://www.linkedin.com/posts/schakraborty007_kubernetes-troubleshooting-pod-activity-7026875620965945344-erzM",
+    "author": "Suman Chakraborty",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Understanding #kubernetes pod lifecycle phases for effective #troubleshooting 🧐☸\n\n✅ Pods follow a defined lifecycle, starting in the 'Pending' phase, moving through 'Running' if at least one of its primary containers starts OK, and then through either the 'Succeeded' or 'Failed' phases depending on whether any container in the Pod terminated in failure\n\n✅ The phase of a #Pod is a simple, high-level summary of where the pod is in its lifecycle and it's part of \"PodStatus\" object that defines number of phases:\n▶ 𝐏𝐞𝐧𝐝𝐢𝐧𝐠: Pod has been accepted by the #k8s cluster, but one or more of the #containers has not been set up and made ready to run. This includes time a Pod spends waiting to be scheduled as well as the time spent downloading container images over the network\n▶ 𝐑𝐮𝐧𝐧𝐢𝐧𝐠:  Pod has been bound to a node, and all of the containers have been created. At least one container is still running, or is in the process of starting or restarting\n▶ 𝐒𝐮𝐜𝐜𝐞𝐞𝐝𝐞𝐝: All containers in the Pod have terminated in success, and will not be restarted\n▶ 𝐅𝐚𝐢𝐥𝐞𝐝: All containers in the Pod have terminated, and at least one container has terminated in failure. That is, the container either exited with non-zero status or was terminated by the system.\n▶ 𝐔𝐧𝐤𝐧𝐨𝐰𝐧: the state of the Pod could not be obtained and it occurs due to an error in communicating with the node where the Pod should be running.\n\nTo track the phases between pod communication, \"container lifecycle hooks\" can be used to trigger events to run at certain points in a container's lifecycle !!\n\nRef: - https://lnkd.in/gsm8N64Q\n\n#devops #containers #paas #opensource #sre #techlead #developer #sysops #cloud #solutionsarchitect #fullstack | 22 comments on LinkedIn",
+    "hashtags": [
+      "#kubernetes",
+      "#troubleshooting",
+      "#Pod",
+      "#k8s",
+      "#containers",
+      "#devops",
+      "#paas",
+      "#opensource",
+      "#sre",
+      "#techlead",
+      "#developer",
+      "#sysops",
+      "#cloud",
+      "#solutionsarchitect",
+      "#fullstack"
+    ],
+    "engagement": {
+      "reactions": 615,
+      "comments": 22,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/C5622AQH-hW_MxM0_Cw/feedshare-shrink_800/feedshare-shrink_800/0/1675337699495?e=2147483647&v=beta&t=K9dk3n-knZWuJOYLkFq7fPT_qoEqtbr0uYhK-AgGlgc",
+    "topic": "Kubernetes",
+    "score": 69,
+    "discovered_at": "2026-10-03T17:15:52.905214+00:00",
+    "generated_comment": "A useful nuance is that the Pod phase aggregates the status of all containers, so a single failing init container can keep the phase in Pending rather than Running,"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/quantumcomputinginc_quantumcomputing-quantumoptimization-dirac3s-activity-7511444268134072320-RLzE",
+    "canonical_url": "https://www.linkedin.com/posts/quantumcomputinginc_quantumcomputing-quantumoptimization-dirac3s-activity-7511444268134072320-RLzE",
+    "author": "Quantum Computing Inc.",
+    "followers": 29449,
+    "post_age": "2d",
+    "post_text": "10x more computing capacity. Nearly 10,000 variables. Built for commercial use.\n\nToday, QCi announced Dirac-3S, our next-generation quantum optimization platform, designed to help customers tackle larger and more complex optimization problems.\n\nDirac-3S advances the platform across these areas:\n\n● Speed: Practical computation times demonstrated on problems involving up to 9,980 variables, while consistently finding optimal solutions in tested synthetic benchmarks.\n\n● Scale: A modular architecture that expands with customer requirements, to multiply the number of addressable variables using more Expansion Modules.\n\n● Solutions: A single platform designed to support continuous, integer and higher-order optimization across real-world applications.\n\n● Benchmarking: Dirac-3S was benchmarked against top-performing classical approaches, including leading commercial solver Hexaly. Across tested synthetic problems ranging from 2,000 to 9,980 variables with known global optima, Dirac-3S achieved clearly superior overall performance, an important step toward demonstrating practical quantum advantage.\n\nDirac-3S also incorporates advances in hardware architecture, manufacturing and supply chain designed to support broader commercial deployment.\n\nFirst customer shipments are expected in November 2026.\n\nWe’ve also published a new Technical Review and detailed benchmarking methodology and results as part of our Dirac-3S Technical Reference.\n\nThis is another step toward making quantum optimization practical, scalable and accessible for real-world applications.\n\nRead the announcement here: https://lnkd.in/eb5Wm2s6\n\nLearn more:\n● Dirac-3S page: https://lnkd.in/ejBYCneZ\n● Dirac-3S Technical reference: https://lnkd.in/ezQY_Rst\n\n#QuantumComputing #QuantumOptimization #Dirac3S #QCi #Technology #Innovation",
+    "hashtags": [
+      "#QuantumComputing",
+      "#QuantumOptimization",
+      "#Dirac3S",
+      "#QCi",
+      "#Technology",
+      "#Innovation"
+    ],
+    "engagement": {
+      "reactions": 72,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGlQjIEwAz_5Q/feedshare-shrink_800/B4EaD4CwhFG0Ac-/0/1790867868018?e=2147483647&v=beta&t=AoLq1-A2gtJ7IRurZ2Rpz9fe1fW4X_bUzhXPYGep0lA",
+    "topic": "Quantum Computing",
+    "score": 68,
+    "discovered_at": "2026-10-03T17:16:16.238745+00:00",
+    "generated_comment": "The modular expansion approach raises an interesting trade‑off between increasing addressable variables and the connectivity overhead required for embedding larger problem graphs. Robust benchmarking against top classical solvers, especially with transparent methodology, becomes crucial to substantiate claims of practical quantum advantage. How does Dirac‑3S handle higher‑order terms without inflating qubit usage or circuit depth?"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/abhishek-veeramalla_kubernetes-beginner-to-expert-level-in-one-activity-7104463132709814272-VvPK",
+    "canonical_url": "https://www.linkedin.com/posts/abhishek-veeramalla_kubernetes-beginner-to-expert-level-in-one-activity-7104463132709814272-VvPK",
+    "author": "Abhishek Veeramalla",
+    "followers": null,
+    "post_age": null,
+    "post_text": "100K views in 2 months for my \"Kubernetes in 7 Hours tutorial\" 🎉🎉.\n- A tutorial which covers most common topics in Kubernetes 🚀\n\nhttps://lnkd.in/gCA6WguX\n\nThis tutorial covers\n✔️ Basics of container orchestration platforms\n✔️ Difference between docker and kubernetes\n✔️ What is Kubernetes and why its popular ?\n✔️ Kubernetes Architecture\n✔️ What is a Pod ?\n✔️ Pod vs Container ?\n✔️ What is a Replicaset ?\n✔️ What is a Deployment ?\n✔️ Difference between rs vs deployment vs pod?\n✔️ statefulset vs deployment vs deamonset\n✔️ what is service ?\n✔️ Types of services ?\n✔️ Demystifying traffic using kubeshark\n✔️ services deep dive\n✔️ What is Ingress ?\n✔️ Types of Ingress ?\n✔️ What is Ingress controller ?\n✔️ How does Ingress controller work ?\n✔️ What is a configmap and secret ?\n✔️ Configmap and Secret real time project\n✔️ What is rbac in k8s ?\n✔️ Kubernetes roles and cluster roles\n✔️ Kubernetes service accounts\n✔️ Kubernetes role bindings and cluster role bindings\n✔️ Custom resource definitions\n✔️ Kubernetes controllers and how do they work ?\n✔️ Interview Questions and Answers\n\nIf you want to learn more advance concepts about Kubernetes such as\n✔️ Troubleshooting most issues\n✔️ Securing Kubernetes clusters\n✔️ Kubernetes Admission controller\n✔️ Writing a Kubernetes Operator\n\nPlease checkout my Kubernetes playlist which has these additional videos along with the ones that are mentioned above.\nhttps://lnkd.in/gY2ttpXi\n| 36 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 800,
+      "comments": 36,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQE6zBVThwet9Q/articleshare-shrink_800/articleshare-shrink_800/0/1712132713045?e=2147483647&v=beta&t=Fnn45W0HUucinceK_e4ie7OWm8oM4qGBxqCOc7eENTA",
+    "topic": "Kubernetes",
+    "score": 67,
+    "discovered_at": "2026-10-03T17:15:49.553763+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aniket-sharma-42a700418_fastapi-python-apidevelopment-ugcPost-7509075810973028353-xE6n",
+    "canonical_url": "https://www.linkedin.com/posts/aniket-sharma-42a700418_fastapi-python-apidevelopment-activity-7509075812084527104-VKKa",
+    "author": "Aniket Sharma",
+    "followers": null,
+    "post_age": "1w",
+    "post_text": "🚀 FASTAPI — PART IV | SERVER & APIs\n\nMastering Server-Side Metadata, Response Models & API Design Patterns\n\nGoing deeper into FastAPI by exploring how to build cleaner, safer, and more production-ready APIs.\n\n🔹 Server-side UUID & timestamp generation\n🔹 response_model for structured responses\n🔹 Pydantic schemas & controlled output\n🔹 API-level error translation\n🔹 Middleware & dependency injection\n🔹 Enums for restricted inputs\n🔹 Lifespan for efficient ML model loading\n🔹 Streamlit → FastAPI → ML model integration\n🔹 CORS & cloud deployment patterns\n\nCore architecture:\n\nClient → Middleware → Validation → Route → ML/Business Logic → Response Model → Client\n\n> A good API isn't just about returning data — it's about controlling how data enters, moves through, and leaves the system.\n\nThis part takes FastAPI from basic CRUD toward real-world API and ML deployment patterns.\n\nWhat FastAPI pattern do you find most important for production APIs?\n\nSave this carousel for future reference.\nFollow for more AI, ML & Data Science content.\n\n#FastAPI #Python #APIDevelopment",
+    "hashtags": [
+      "#FastAPI",
+      "#Python",
+      "#APIDevelopment"
+    ],
+    "engagement": {
+      "reactions": 5,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFRq3otgapM0g/feedshare-shrink_800/B4DaDWYnmfGkAc-/0/1790303173450?e=2147483647&v=beta&t=DN8pBzkYYi5h_Vhjs7ELaeAVfIVEkHZa0877m7oyJnI",
+    "topic": "FastAPI",
+    "score": 65,
+    "discovered_at": "2026-10-03T17:16:05.098864+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/carlcollins35_devsecops-cybersecurity-applicationsecurity-activity-7509159550625689600-71zG",
+    "canonical_url": "https://www.linkedin.com/posts/carlcollins35_devsecops-cybersecurity-applicationsecurity-activity-7509159550625689600-71zG",
+    "author": "Carl Collins Chwabo",
+    "followers": null,
+    "post_age": "1w",
+    "post_text": "DevSecOps: Building security into every stage of software delivery.\n\nSecurity can no longer be a final checkpoint before production. Waiting until the end of development leads to costly fixes, delayed releases, and avoidable vulnerabilities.\n\nThat is where DevSecOps comes in.\nDevSecOps brings together Development, Security, and Operations teams to make security a shared responsibility across the software development lifecycle. The goal: deliver applications quickly while ensuring security controls are integrated, automated, and continuously improved.\n\nInstead of asking “Has this been secured?” only before deployment, DevSecOps asks security-focused questions at every stage:\n\n• Planning: What are the security requirements and risks?\n\n• Development: Are developers following secure coding practices?\n\n• Code review: Are secrets or vulnerable dependencies being introduced?\n\n• CI/CD: Has the application passed automated security tests?\n\n• Deployment: Is the cloud or container configuration secure?\n\n• Production: Are logs monitored and vulnerabilities remediated quickly?\nKey DevSecOps tools\n\n• CI/CD: Jenkins, GitHub Actions, GitLab CI/CD\n\n• SAST: SonarQube, Semgrep, Checkmarx\n\n• SCA: Snyk, Dependabot, OWASP Dependency-Check\n\n• Secrets detection: GitGuardian, Gitleaks\n\n• DAST: OWASP ZAP, Burp Suite\n\n• Container security: Trivy, Docker Scout\n\n• IaC security: Checkov, tfsec\n\n• Cloud security: Wiz, Microsoft Defender\nfor Cloud, AWS Security Hub\n\n• Runtime monitoring: Splunk, Elastic Security, Wazuh, Falco\n\nHow to implement DevSecOps\n\n1. Build a shared security culture across Dev, Sec, and Ops.\n\n2. Define secure coding standards and threat-modeling practices.\n\n3. Integrate automated security checks into CI/CD pipelines.\n\n4. Apply risk-based security gates (block only on critical issues).\n\n5. Secure cloud and container environments with least privilege and continuous scanning.\n\n6. Monitor continuously in production and integrate incident response.\n\n7. Measure improvement: time to remediate, vulnerabilities caught pre-prod, test coverage.\n\nDevSecOps is about reducing risk without sacrificing innovation. When security is automated early and continuously, organizations can deliver faster, respond better, and build greater trust in their digital services.\n\nFor cybersecurity teams, developers, and IT leaders, the question is no longer whether security should be part of DevOps. The real question is: how early, how consistently, and how effectively are we integrating it?\n\n#DevSecOps #Cybersecurity #ApplicationSecurity #SecureByDesign #CloudSecurity #CI_CD #SoftwareDevelopment #InformationSecurity #DigitalTransformation #SecurityAutomation",
+    "hashtags": [
+      "#DevSecOps",
+      "#Cybersecurity",
+      "#ApplicationSecurity",
+      "#SecureByDesign",
+      "#CloudSecurity",
+      "#CI_CD",
+      "#SoftwareDevelopment",
+      "#InformationSecurity",
+      "#DigitalTransformation",
+      "#SecurityAutomation"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "DevSecOps",
+    "score": 65,
+    "discovered_at": "2026-10-03T17:16:26.450507+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rustjobs-dev_rust-hiring-report-q3-2026-full-report-activity-7510243507563814912-EAaH",
+    "canonical_url": "https://www.linkedin.com/posts/rustjobs-dev_rust-hiring-report-q3-2026-full-report-activity-7510243507563814912-EAaH",
+    "author": "Rust Jobs 🦀",
+    "followers": 21500,
+    "post_age": "5d",
+    "post_text": "Rust Hiring Report – Q3 2026\n\nFull report in the comments 👇\n\nOver the past few years, we've worked closely with companies hiring Rust engineers and with developers looking for Rust roles. Both sides raise the same problem: there is little clear information about this market. This covers not just compensation, but where the jobs are, which industries are hiring, and how much of the work is remote.\n\nA few months ago, we built a crawler (written in Rust) and an AI extraction pipeline. They find companies hiring Rust developers and evaluate their openings. Many job descriptions list several languages, such as \"5+ years of experience in a backend language like Java, C++, Rust or Go\". So a search for \"Rust\" can't tell you if the role actually uses Rust. Instead, we labelled a few hundred job descriptions by hand. Then we tuned an AI prompt until it got good at spotting real Rust positions.\n\nHere are a few interesting points from the report:\n\n- 753 open Rust job ads at 305 companies as of 16 Sep 2026.\n- 2,898 ads mention Rust somewhere, but only 753 (26%) actually require it.\n- 165 of the 305 companies have exactly one open Rust ad.\n- Around 80% of ads want a senior or staff-level developer.\n- US median advertised base: $205k for senior, $228.5k for staff/principal (base only, no equity or bonus).\n- US pay data comes almost entirely from a few states with pay transparency laws. Elsewhere, disclosure is rare: only 25 of 165 European ads showed a range.\n- Rust ads stay open slightly longer: 68% were still posted 45 days after they appeared, vs 56% for the average ad on the same boards over the same period.\n- Defense/aerospace/space is the biggest sector by role count (22.7% of ads), but crypto/web3 has more companies hiring.\n- Remote: 35% of ads that state a work setup are fully remote. Defense is the exception, at under 10%.\n- Top employers by volume: Anduril (50 ads), Cloudflare (23), K2 Space (18), NVIDIA (13).\n\nLimitations:\n\n- We only count companies with a public, crawlable careers page. Amazon, Google, Microsoft, Apple and Meta are absent from every figure because we can't crawl their career sites, not because they don't hire for Rust.\n\n- Salary data is rare outside the few US states that require employers to advertise it.\n\nIf you have ideas to improve the report or you spot errors, please let us know!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 72,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGLdaElE-udFw/feedshare-shrink_1280/B4DaDm.rG3JAAM-/0/1790581584572?e=2147483647&v=beta&t=RxaYEKmrF_SUQpFl8tR4CDXdGB3xf2GQcoF8RkJ7xmU",
+    "topic": "Rust",
+    "score": 64,
+    "discovered_at": "2026-10-03T17:15:55.579368+00:00"
+  },
+  {
+    "url": "https://sz.linkedin.com/posts/sspaeti_dataengineering-rust-semanticlayer-activity-7065261296396431360-1zL-",
+    "canonical_url": "https://www.linkedin.com/posts/sspaeti_dataengineering-rust-semanticlayer-activity-7065261296396431360-1zL-",
+    "author": "Simon Späti",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🔮 Navigating through the Trends of Data Engineering\n\nFollowing up on my end-of-year #dataengineering predictions (https://lnkd.in/eD-dR8TJ), let's take a moment to reflect on the trends we saw in 2022 and what's brewing for 2023.\n\nIn #2022, we've seen a paradigm shift towards a declarative approach, shaping everything from infrastructure to orchestration and integration. The same principle lies at the heart of the flourishing semantic layer, promising an exciting, declarative future for metrics. ✨\n\nMeanwhile, Rust is poised to revolutionize performance-heavy data applications, likely becoming the new Spark of the data world. For those navigating the small data seas, vector databases like DuckDB are becoming the go-to option, with an eye to support the AI wave on the horizon. Let's not forget - it's always about the data, not the other way around.\n\nWe've also noticed an upswing in metadata trends, with a focus on data cataloging, lineage, and discovery. And with GDPR and CCPA making waves, privacy and governance are becoming non-negotiables for every company, big or small.\n\nNow, let's take a look at #2023. As we reveal the modern data stack (MDS), data modeling is making a comeback, offering a sense of order in the inevitable data chaos. But hold on, there's a caveat - many enterprises are grappling with how to harness the power of MDS. ️\n\nThis year is also witnessing the 'bundling' of MDS. Startups are consolidating (Transform into dbt), undergoing layoffs, and converging - evolution is the name of the game.\n\nAI and generative AI, like our friend ChatGPT 🤖, are buzzing around, looking for ways to better integrate with data. While still more of a hype, many are keenly exploring these technologies' potential, and I can't wait to see how this story unfolds.\n\nWhat changes have you noticed, and what predictions would you make for the future of data engineering? :)\n\n#rust #semanticlayer #declarative #moderndatastack #ai #chatgpt #gdpr",
+    "hashtags": [
+      "#dataengineering",
+      "#2022",
+      "#2023",
+      "#rust",
+      "#semanticlayer",
+      "#declarative",
+      "#moderndatastack",
+      "#ai",
+      "#chatgpt",
+      "#gdpr"
+    ],
+    "engagement": {
+      "reactions": 25,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHaVgdvyaqNWQ/feedshare-image-high-res/feedshare-image-high-res/0/1684489558622?e=2147483647&v=beta&t=rmlOIxQAE4nVghKF_u-kEML6I9mYFi2rhFr8vf9YIQo",
+    "topic": "Rust",
+    "score": 61,
+    "discovered_at": "2026-10-03T17:15:59.518969+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bhrateshd_kubernetes-handbook-activity-7488609381677383681-TUCZ",
+    "canonical_url": "https://www.linkedin.com/posts/bhrateshd_kubernetes-handbook-activity-7488609381677383681-TUCZ",
+    "author": "Bhratesh Dhangar",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Kubernetes Handbook! 📘\n\nI recently created a 52-page Kubernetes Handbook covering concepts from beginner to advanced, including architecture, workloads, networking, storage, security, Helm, troubleshooting, production best practices, and CKA/CKAD interview notes.\n\nEach page includes:\n✅ Concept explanations\n✅ YAML examples & kubectl commands\n✅ Diagrams\n✅ Best practices\n✅ Interview questions\n\nI built this handbook as part of my learning journey, and I hope it helps others preparing for Kubernetes and DevOps interviews.\n\n#Kubernetes #DevOps #CloudNative #CKA #CKAD #Helm #OpenShift #LearningInPublic #PlatformEngineering #DevOpsEngineer",
+    "hashtags": [
+      "#Kubernetes",
+      "#DevOps",
+      "#CloudNative",
+      "#CKA",
+      "#CKAD",
+      "#Helm",
+      "#OpenShift",
+      "#LearningInPublic",
+      "#PlatformEngineering",
+      "#DevOpsEngineer"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Kubernetes",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:15:51.457205+00:00"
+  },
+  {
+    "url": "https://at.linkedin.com/posts/samit-singh_kubernetes-metadata-labels-activity-7069621925710348288-E0qX",
+    "canonical_url": "https://www.linkedin.com/posts/samit-singh_kubernetes-metadata-labels-activity-7069621925710348288-E0qX",
+    "author": "Samit Singh",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚢 There might be thousands of pods running in our Kubernetes clusters but Are you using the “𝐑𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐞𝐝 𝐋𝐚𝐛𝐞𝐥𝐬 𝐛𝐲 𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬” for labelling K8s resources? 🤔\n✅ Here are the \"Recommended Labels\" which should be applied to every resource object:\n\n1️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐧𝐚𝐦𝐞\n👉 The name of the application\n👉 Example: “mysql”\n\n2️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐢𝐧𝐬𝐭𝐚𝐧𝐜𝐞\n👉 A unique name identifying the instance of an application. To assign a non-unique name, use \"app.kubernetes.io/name\"\n👉 For example, WordPress has a \"app.kubernetes.io/name\" of \"mysql\" while it has an instance name, represented as \"app.kubernetes.io/instance\" with a value of \"mysql-abcxzy\".\n👉 Every instance of an application must have a unique name.\n\n3️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐯𝐞𝐫𝐬𝐢𝐨𝐧\n👉 The current version of the application.\n👉 Example: \"5.7.21\"\n👉 Common forms of values include:\n🔸 semantic version\n🔸 the Git revision hash for the source code.\n\n4️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐜𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭\n👉 The component within the architecture.\n👉 Example: “database”\n\n5️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐩𝐚𝐫𝐭-𝐨𝐟\n👉 The name of a higher-level application this one is part of.\n👉 Example: “wordpress”\n\n6️⃣ 𝐚𝐩𝐩.𝐤𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬.𝐢𝐨/𝐦𝐚𝐧𝐚𝐠𝐞𝐝-𝐛𝐲\n👉 The tool being used to manage the operation of an application.\n👉 Example: “helm”\n\n✅ 𝐁𝐞𝐧𝐞𝐟𝐢𝐭𝐬 𝐨𝐟 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐫𝐞𝐜𝐨𝐦𝐦𝐞𝐧𝐝𝐞𝐝 𝐥𝐚𝐛𝐞𝐥𝐬\n👉 A common set of labels allows tools to work interoperably, describing objects in a common manner that all tools can understand.\n👉 Easy to identify necessary information about any resource\n👉 Helpful in creating standard templates, filters and selectors in a consistent way.\n\n✍ If you are using any other labels which you consider important and should be part of all resources, let us know in the comments.\n\n🔗 Kubernetes Docs: https://lnkd.in/gFKRuhbH\n\n#kubernetes #metadata #labels #annotations #bestpractices #cka #devopsengineering #cks #sitereliabilityengineering #kubernetescluster #kubernetesmanagement #recommendations #concepts #helm #workloads #reliabilityengineering #sre #k8s #softwareengineering",
+    "hashtags": [
+      "#kubernetes",
+      "#metadata",
+      "#labels",
+      "#annotations",
+      "#bestpractices",
+      "#cka",
+      "#devopsengineering",
+      "#cks",
+      "#sitereliabilityengineering",
+      "#kubernetescluster",
+      "#kubernetesmanagement",
+      "#recommendations",
+      "#concepts",
+      "#helm",
+      "#workloads",
+      "#reliabilityengineering",
+      "#sre",
+      "#k8s",
+      "#softwareengineering"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEDQSklHWWoqA/feedshare-shrink_800/feedshare-shrink_800/0/1685529213822?e=2147483647&v=beta&t=x7Yg2D3o2NLxl1qxvGvwk9xni8OE9i9stoFQz4iePmQ",
+    "topic": "Kubernetes",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:15:53.669695+00:00"
+  },
+  {
+    "url": "https://pe.linkedin.com/posts/pashva_kubecon-cloudnativecon-ai-activity-7273582506438725632-Nact",
+    "canonical_url": "https://www.linkedin.com/posts/pashva_kubecon-cloudnativecon-ai-activity-7273582506438725632-Nact",
+    "author": "Pashva Mehta",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Delighted to have attended KubeCon + CloudNativeCon India 2024 in Delhi!🌟\n\nThe event was an incredible learning experience, packed with cutting-edge insights and inspiring sessions.\n\nTop learnings that I’m excited to share:\n\n🚀 Scalable ML Inferencing Pipelines with Kubernetes: An insightful session by Smitha Jayaram and Vinod Eswaraprasad from NVIDIA demonstrating how one can leverage NVIDIA NIM for consuming pre-trained models and scale the ML inferencing workflows with Kubernetes.\n\n🤖 End-to-End LLMOps with Kubeflow: A fantastic session by Krishna Durai from Meta and Aishwarya Raimule, Johnu George, Gavrish Prabhu, Ajay Nagar from Nutanix showcasing how Kubeflow streamlines the deployment and management of large language models. The session focused on building scalable, production-grade pipelines for LLMs, from training and deployment to monitoring and operational efficiency.\n\n📜 GenAI Recipes with OPEA (https://opea.dev/):  An open platform project was introduced to us by Arun Gupta from Intel Corporation that lets you build multi-provider, robust, and composable GenAI solutions.\nOPEA provides:\n⦾ A framework of composable building blocks for state-of-the-art GenAI systems (LLMs, data stores, prompt engines).\n⦾ Architectural blueprints for retrieval-augmented GenAI workflows.\n⦾ A four-step assessment framework for grading GenAI systems on performance, features, trustworthiness, and enterprise readiness.\n\nOne personal takeaway from KubeCon + CloudNativeCon India 2024 was that every company I encountered was focusing on building sustainable and scalable solutions, rather than just relying on naive approaches. With the exponential rise in trade-offs between cost and accuracy, it’s clear that scalability is no longer optional - it’s a core requirement for the future. 🌱🔧\nThis shift in focus will be essential as technologies like AI/ML evolve and complexity rises. This has opened up exciting opportunities to rethink AI/ML architectures and integrate cloud-native technologies in impactful ways.\n\nA big thanks to my manager Chandramohan Sankaran 🙏 for supporting my participation and encouraging continuous learning.\n\nGourab Mukherjee Kesavan S Yogesh Purantharan\n\n#KubeCon #CloudNativeCon #AI #ML #GenAI #NVIDIA #NIMs #LLMOps #KServe #OPEA #Intel #Meta #Nutanix #Kubernetes #CloudNative",
+    "hashtags": [
+      "#KubeCon",
+      "#CloudNativeCon",
+      "#AI",
+      "#ML",
+      "#GenAI",
+      "#NVIDIA",
+      "#NIMs",
+      "#LLMOps",
+      "#KServe",
+      "#OPEA",
+      "#Intel",
+      "#Meta",
+      "#Nutanix",
+      "#Kubernetes",
+      "#CloudNative"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFur56e0yElRg/feedshare-image-high-res/B56ZPD0u7cG4A0-/0/1734157204204?e=2147483647&v=beta&t=HRJUSYyDR-LLdr8FHpR5gsr6gM2xVWCobZ6muFN3nb4",
+    "topic": "Kubernetes",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:15:54.898532+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/benjamin-gnbit_rust-ai-agents-activity-7510366001167892480-Uwrm",
+    "canonical_url": "https://es.linkedin.com/posts/benjamin-gnbit_rust-ai-agents-activity-7510366001167892480-Uwrm",
+    "author": "Benjamin G.",
+    "followers": null,
+    "post_age": null,
+    "post_text": "NVIDIA acaba de lanzar una plataforma para controlar a los agentes de IA que se salen de control.\n\nLos agentes ya no se limitan a conversar.\n\nPueden ejecutar comandos, leer archivos, acceder a servicios, usar credenciales y conectarse a la red.\n\nNVIDIA presentó Open Agent Safety Platform, un conjunto de herramientas para poner límites a todo eso.\n\nUno de sus componentes es OpenShell, un runtime que ejecuta agentes dentro de un entorno aislado y aplica políticas sobre lo que pueden hacer.\n\nOpenShell está construido principalmente con Rust.\n\nTambién tiene SDK para Rust, además de Python, TypeScript y Go.\n\nEl repositorio esta aquí: https://lnkd.in/dxgNtQEN\n\nHay bastante código para revisar, especialmente en la parte de sandboxing, políticas y aislamiento.\n\nLos agentes van a tener cada vez más capacidad para ejecutar trabajo real. Y con eso también crece la necesidad de controlar exactamente qué pueden hacer y hasta dónde pueden llegar.\n\n#Rust #AI #Agents #Cybersecurity #SoftwareEngineering",
+    "hashtags": [
+      "#Rust",
+      "#AI",
+      "#Agents",
+      "#Cybersecurity",
+      "#SoftwareEngineering"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHWuEvIATk61w/feedshare-shrink_800/B4DaDouFGwKMAc-/0/1790610789212?e=2147483647&v=beta&t=DRXB0mVdxEeyviizZCqeJJn8UNxwJS9p2XBtLG8URsI",
+    "topic": "Rust",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:15:57.421299+00:00"
+  },
+  {
+    "url": "https://ro.linkedin.com/posts/adina-bucur-00573b1b0_oracle-postgresql-aws-activity-7431976128086478848-IULS",
+    "canonical_url": "https://ro.linkedin.com/posts/adina-bucur-00573b1b0_oracle-postgresql-aws-activity-7431976128086478848-IULS",
+    "author": "Adina Bucur",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀🚀 Database Engineer (Oracle / PostgreSQL – AWS) | Full Remote România | CIM\nCaut un Database Engineer cu mentalitate DevOps, experiență în Oracle și PostgreSQL (AWS Aurora), pentru un mediu cloud-based stabil.\n\nMust have:\n✔ Oracle DataPump\n✔ AWS DMS / Oracle GoldenGate\n✔ Materialized Views\n✔ Oracle Transportable Tablespaces\n✔ Experiență cu PostgreSQL (AWS Aurora)\n\nNice to have:\n🔹 Version control & GitHub (update/modificări cod)\n🔹 Infrastructure as Code (Terraform, Terragrunt etc.)\n🔹 Experiență în automation & database deployments\n\n📍 Full Remote – România\n📄 Contract: CIM\n\nPentru detalii, mesaj privat sau email adina@ams-ai.com 📩\n#Oracle #PostgreSQL #AWS #DatabaseEngineer #DevOps #Terraform #RemoteRomania",
+    "hashtags": [
+      "#Oracle",
+      "#PostgreSQL",
+      "#AWS",
+      "#DatabaseEngineer",
+      "#DevOps",
+      "#Terraform",
+      "#RemoteRomania"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:01.646423+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/aliturgutbozkurt_postgresql-database-backend-activity-7510610174735396864-JlUt",
+    "canonical_url": "https://tr.linkedin.com/posts/aliturgutbozkurt_postgresql-database-backend-activity-7510610174735396864-JlUt",
+    "author": "Ali Turgut BOZKURT",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🐘 Her Şey İçin Ayrı Bir Teknoloji Şart mı? PostgreSQL ile Mimariyi Sadeleştirmek\nProjeye başlarken hemen \"Buraya bir Elasticsearch basalım\", \"Hemen bir Redis kuralım\" demek çok cazip gelir. Ancak genç yazılımcıların en sık sorduğu sorulardan biri şudur: PostgreSQL tek başına bu ekosistemde nelere kadirdir, hangi durumlarda harici araçlara gerek kalmaz?\nPostgreSQL'i doğru kullanarak hangi senaryolarda harici araçlar yerine sadece onu tercih edebileceğinizi 7 maddede derledim:\n1. Full-Text Search (Arama Motoru Yerine)\nAlternatif: Elasticsearch / Meilisearch\nPostgreSQL Çözümü: pg_trgm ve tsvector özellikleri sayesinde, küçük ve orta ölçekli uygulamalarda harici bir arama motoru kurma maliyetine girmeden gelişmiş metin arama ve benzerlik sorguları yapabilirsiniz.\n2. Şemasız Veriler (NoSQL / MongoDB Yerine)\nAlternatif: MongoDB\nPostgreSQL Çözümü: Güçlü JSONB veri tipi ve GIN indeksleri sayesinde, ilişkisel verilerle esnek JSON verilerini aynı masada harmanlayabilir; NoSQL esnekliğini SQL güvencesiyle birleştirebilirsiniz.\n3. Hafifletilmiş İş Kuyrukları (Job Queue / RabbitMQ Yerine)\nAlternatif: RabbitMQ / Kafka\nPostgreSQL Çözümü: FOR UPDATE SKIP LOCKED mekanizması ile kuyruk tabloları oluşturarak, ekstra bir message broker kurmadan güvenli ve transaksiyonel arka plan görev kuyrukları yönetebilirsiniz.\n4. Zaman Serisi Verileri (Time-Series Yerine)\nAlternatif: InfluxDB / Timescale (Harici)\nPostgreSQL Çözümü: Açık kaynaklı TimescaleDB eklentisini ekleyerek, metrikleri, IoT verilerini ve zaman serisi analizlerini doğrudan PostgreSQL üzerinde yüksek performansla saklayabilirsiniz.\n5. Operasyonel Sadırlık ve Tek Kaynak (Single Source of Truth)\nAvantajı: Genç ekipler için birden fazla farklı veritabanını (Cache, Search, NoSQL, SQL) yönetmek, yedeklemek ve monitor etmek büyük bir operasyonel yükdür. PostgreSQL ile bu karmaşıklığı minimuma indirebilirsiniz.\n6. Ne Zaman Sınır Aşılır? (Doğru Yeri Bilmek)\nSınır: Saniyede yüz binlerce cache okuması (Redis seviyesi) veya milyarlarca logun anlık aranması (Elasticsearch seviyesi) gerektiğinde PostgreSQL zorlanabilir. İhtiyacın boyutunu iyi analiz etmek gerekir.\n7. Öğrenme Eğrisi ve Temelleri Sağlam Tutmak\nFelsefe: Genç geliştiriciler için önce PostgreSQL'in içindeki gizli güçleri (uzantılar, indeks türleri, fonksiyonlar) keşfetmek, ardından mimariyi scale ederken ek araçlara yönelmek en sağlıklı kariyer yoludur.\nSiz projelerinizde ilk günden harici araçlar eklemeyi mi tercih ediyorsunuz, yoksa \"Önce PostgreSQL ile ne kadar ilerleyebilirim?\" diyenlerden misiniz? Yorumlarda buluşalım! 👇\n#PostgreSQL #Database #Backend #SoftwareEngineering #Java #Microservices #TechCareers",
+    "hashtags": [
+      "#PostgreSQL",
+      "#Database",
+      "#Backend",
+      "#SoftwareEngineering",
+      "#Java",
+      "#Microservices",
+      "#TechCareers"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQG5MGoQiTNeUA/feedshare-image-high-res/B4DaDsMJ3cIkAU-/0/1790669004497?e=2147483647&v=beta&t=zdjfxFrxEWuOCUH0bY0kLQqa6ouaj8p2QGasvULBRR0",
+    "topic": "PostgreSQL",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:03.018809+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/microsoft-for-postgresql_were-looking-forward-to-spending-an-afternoon-activity-7508195226541408256-p59e",
+    "canonical_url": "https://www.linkedin.com/posts/microsoft-for-postgresql_were-looking-forward-to-spending-an-afternoon-activity-7508195226541408256-p59e",
+    "author": "Microsoft for PostgreSQL",
+    "followers": 4423,
+    "post_age": "1w",
+    "post_text": "We're looking forward to spending an afternoon with PostgreSQL developers in New York next week.\n\nJoin us for a hands-on Azure HorizonDB workshop and learn how to build AI agents using RAG, hybrid retrieval, vector search, and in-database AI capabilities.\n\nYou'll have a chance to meet and learn from Abe (Osarumwense) Omorogbe, Jared Meade, Miguel Martinez, and more members of the PostgreSQL team.\n\n💻 https://lnkd.in/g-6tYKeW",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 18,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFLjVUsiy-YYw/feedshare-image-high-res/B56aDJejFWKMAU-/0/1790086623982?e=2147483647&v=beta&t=KZsWTAlUUxEPPdpXXBGsMrdKyvAqbhk1pvKFVLExz64",
+    "topic": "PostgreSQL",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:04.383514+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/juan-pachacama-429a362b5_fastapi-python-backenddevelopment-activity-7511795632693465090-wsPw",
+    "canonical_url": "https://es.linkedin.com/posts/juan-pachacama-429a362b5_fastapi-python-backenddevelopment-activity-7511795632693465090-wsPw",
+    "author": "Juan Pachacama",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🎯 FastAPI: Crea APIs eficientes con Python ✅\n\nAcabo de completar este curso, y lo que me emociona no es el certificado—es lo que ya está pasando con él.\n\nEste curso llegó en el momento perfecto. Porque mientras aprendía, estaba aplicando. En tiempo real. En tres proyectos que están cambiando mi forma de entender el desarrollo.\n\n🚀 Los proyectos reales:\n\n📱 SaaS para DPO\nUna plataforma completa que nace de la idea de resolver un problema específico. FastAPI me permitió construir APIs que no solo funcionan—que brillan. Arquitectura limpia, documentación automática, performance que escala.\n\n🌍 Algoritmo de súper compresión de geodata\nAhí es donde la magia sucede. Tomar datos complejos, comprimirlos sin perder esencia, y exponerlo a través de APIs elegantes. Este proyecto me mostró que FastAPI es la herramienta perfecta para conectar lógica compleja con el mundo.\n\n🤖 Mecatrónica 2.0\nUn proyecto que tenía dormido decidí revivirlo. Y usar Python + FastAPI en un proyecto de mecatrónica fue revelador. Porque la tecnología real no tiene límites—conecta software, hardware, innovación.\n\n💡 La lección más importante:\n\nNo se trata de tener un certificado bonito. Se trata de que CADA herramienta que aprendo, la transformo en realidad. La transformo en proyectos. La transformo en valor.\n\nAhora viene la siguiente fase: AWS y GCP. No porque sea tendencia, sino porque mis proyectos lo necesitan. Necesito infraestructura que respalde estas ideas. Necesito escala. Necesito excelencia.\n\n🌟 Mi promesa:\n\nVoy a seguir puliendo mis habilidades en cualquier campo donde me proponga. Cada proyecto que toco, lo mejoro. Cada línea de código, cuenta. Cada herramienta que aprendo, la demuestro.\n\nEsto es solo el principio. 🚀\n\n#FastAPI #Python #BackendDevelopment #SaaS #GeoData #Mecatrónica #CloudArchitecture #AWS #GCP #Developer #ContinuousLearning #Innovation #TechJourney",
+    "hashtags": [
+      "#FastAPI",
+      "#Python",
+      "#BackendDevelopment",
+      "#SaaS",
+      "#GeoData",
+      "#Mecatrónica",
+      "#CloudArchitecture",
+      "#AWS",
+      "#GCP",
+      "#Developer",
+      "#ContinuousLearning",
+      "#Innovation",
+      "#TechJourney"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEopeK6OTmhlg/feedshare-shrink_800/B4DaD9CUiMHsAg-/0/1790951639438?e=2147483647&v=beta&t=0ez90G5rS77IROfcXgF2WI85HPK0DGowWXV6R6e7pN0",
+    "topic": "FastAPI",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:06.772695+00:00"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/christian-musilek_python-fastapi-postgresql-activity-7478062194174320640-Oy_y",
+    "canonical_url": "https://de.linkedin.com/posts/christian-musilek_python-fastapi-postgresql-activity-7478062194174320640-Oy_y",
+    "author": "Christian Musilek",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Aktuelle Locust Benchmarks aus meinem Ecommerce Backend.\nIch wollte sehen, wie sich die API unter verschiedenen Lastprofilen verhält.\n\nFullOps = Grafana, Tempo, Loki, Alloy, Prometheus, OpenTelemetry und Alertmanager.\n\nNoOps = Nur Web und DB.\n\nDie Werte:\nrealistic-storefront: 2.000 User, ca. 829 RPS, p99 25-42 ms, 0 Fails\nw31b-agentic: 1.000 User, ca. 790 RPS, p99 81-150 ms, 0 Fails\nw31a-storefront-contracts: 1.000 User, ca. 778 RPS, p99 200-310 ms, 0 Fails\nops-admin: 1.000 User, ca. 745-781 RPS, p99 240-510 ms, 0 Fails\ncommerce-core: 300/500 User, bis ca. 2.395 RPS, p99 360-420 ms, checkout p99 420-490 ms, 0 Fails\npeak-resilience: 300/500 User, ca. 1.300 RPS, p99 290-490 ms, checkout p99 400-640 ms, 0 Fails\n\nGerade der Commerce-Core ist spannend, weil dort die wirklich wichtigen Pfade liegen: Warenkorb, Checkout, Inventory, Orders, Payments.\n\nDie API wurde explizit dafür gebaut, auch hohe Lastspitzen abzufangen. Diese Zahlen sind das Ergebnis von vielen kleinen Optimierungen an Hot Paths, Datenbankzugriffen, Transaktionen, Worker-Settings und den Lastprofilen selbst.\n\nWas aber dabei wirklich wichtig ist:\n0 Fehler. In jedem Profil.\nCheckout ist als nächstes dran, was optimieren betrifft.\n\nPerformance entsteht nicht durch einen einzelnen Trick, sondern durch konsequentes Messen, Optimieren und wieder Messen.\n\nWichtig: Kein Redis/Kafka/Celery.\nGetestet wurde auf einer Singlebox, keine optimalen Umstände. Windows/7950X3D/64GB DDR5/WSL2/Loadgen + DB + API auf einer Maschine.\n\n#Python #FastAPI #PostgreSQL #BackendDevelopment #APIPerformance #LoadTesting #Locust #Observability #Ecommerce #SoftwareEngineering #SoloDev #Pydantic #SQLAlchemy",
+    "hashtags": [
+      "#Python",
+      "#FastAPI",
+      "#PostgreSQL",
+      "#BackendDevelopment",
+      "#APIPerformance",
+      "#LoadTesting",
+      "#Locust",
+      "#Observability",
+      "#Ecommerce",
+      "#SoftwareEngineering",
+      "#SoloDev",
+      "#Pydantic",
+      "#SQLAlchemy"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHAxI03k13UQg/feedshare-shrink_800/B4DZ8dp8JaI0Ac-/0/1782908961658?e=2147483647&v=beta&t=A-WMht7RaSo1YU325UWz9sxHKKoDmqqRbMuWLgSDvgE",
+    "topic": "FastAPI",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:07.383365+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/taha-zahid-299314177_googlesummerofcode-gsoc2026-pytorch-activity-7456734319806566400-JKtK",
+    "canonical_url": "https://www.linkedin.com/posts/taha-zahid-299314177_googlesummerofcode-gsoc2026-pytorch-activity-7456734319806566400-JKtK",
+    "author": "Taha Zahid",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Thrilled to share that I've been accepted into Google Summer of Code with NumFOCUS, working on PyTorch-Ignite, a high-level training library built on PyTorch! 🎉\n\nContributing to PyTorch-Ignite for the last 3 months while navigating a full university semester was no easy feat, but I'm proud I pulled it off, and grateful it paid off.\n\nWith over 15,245 applicants submitting 23,371 proposals, the overall acceptance rate was around 7.8%.\n\nFor my project, I'll be building Tranite, an open-source toolbox for training neural networks with PyTorch-Ignite. Bring your model, your dataset, and a config file, and Tranite handles the boilerplate (checkpointing, logging, engine setup, evaluation) without abstracting anything away from you. You own every file it generates right there in your codebase.\n\nMore details about my project: https://lnkd.in/dW4ftpxA\n\nMassive thanks to my mentor Victor for his trust, guidance, and for welcoming me into the project.\n\nExcited for the road ahead!\n\n#GoogleSummerOfCode #GSoC2026 #PyTorch #Ignite #PyTorchIgnite #AI #MachineLearning #OpenSource #Toolbox #CLI #NumFOCUS | 68 comments on LinkedIn",
+    "hashtags": [
+      "#GoogleSummerOfCode",
+      "#GSoC2026",
+      "#PyTorch",
+      "#Ignite",
+      "#PyTorchIgnite",
+      "#AI",
+      "#MachineLearning",
+      "#OpenSource",
+      "#Toolbox",
+      "#CLI",
+      "#NumFOCUS"
+    ],
+    "engagement": {
+      "reactions": 217,
+      "comments": 68,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQE9AhJJAu1RTQ/feedshare-shrink_800/B4DZ3p8TGEHkAc-/0/1777746391728?e=2147483647&v=beta&t=HXI7ztvTxdigiOFy3SCK4Z--NERg_GuRcdxDZd3OpuY",
+    "topic": "PyTorch",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:11.233175+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sairamakrishnaryali_devsecops-devops-cybersecurity-activity-7474854211499966464-ciKW",
+    "canonical_url": "https://www.linkedin.com/posts/sairamakrishnaryali_devsecops-devops-cybersecurity-activity-7474854211499966464-ciKW",
+    "author": "Sai Rama Krishna Rao Ryali",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🔐 What is DevSecOps?\nDevSecOps is the practice of integrating security into every phase of the Software Development Lifecycle (SDLC) rather than treating it as a final checkpoint.\n\nKey pillars of a successful DevSecOps strategy:\n✅ Security Checks & Scans (SAST, DAST, SCA)\n✅ Secure CI/CD Pipelines\n✅ Infrastructure as Code (Terraform, Ansible)\n✅ Container Security & Image Scanning\n✅ Secrets & Key Management (Vault, KMS)\n✅ Threat Modeling & Risk Assessment\n✅ Continuous Monitoring & Logging\n✅ Vulnerability Management & Remediation\n✅ Collaboration between Development, Security, and Operations teams\n\nThe goal is simple:\n👉 Build secure applications faster.\n👉 Detect vulnerabilities earlier.\n👉 Reduce security risks in production.\n👉 Enable continuous delivery with confidence.\n\nIn modern cloud-native environments, security is everyone's responsibility—not just the security team's.\n\nWhat security tools are you using in your DevSecOps pipeline?\n\n#DevSecOps #DevOps #CyberSecurity #CloudSecurity #AWS #Kubernetes #Docker #Terraform #CI_CD #SAST #DAST #HashiCorpVault #PlatformEngineering #CloudNative",
+    "hashtags": [
+      "#DevSecOps",
+      "#DevOps",
+      "#CyberSecurity",
+      "#CloudSecurity",
+      "#AWS",
+      "#Kubernetes",
+      "#Docker",
+      "#Terraform",
+      "#CI_CD",
+      "#SAST",
+      "#DAST",
+      "#HashiCorpVault",
+      "#PlatformEngineering",
+      "#CloudNative"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFkXH25BYYgbw/feedshare-shrink_1280/B4DZ7wES5gH8AM-/0/1782144118654?e=2147483647&v=beta&t=7TA4R7LyJ5fpObO5qxY0YtOPKVP5uiRQnKZE1osktUo",
+    "topic": "DevSecOps",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:27.160190+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/analytics-insight_functionalprogramming-haskell-elixir-activity-7428702115885404162-9QNq",
+    "canonical_url": "https://www.linkedin.com/posts/analytics-insight_functionalprogramming-haskell-elixir-activity-7428702115885404162-9QNq",
+    "author": "Analytics Insight®",
+    "followers": 92870,
+    "post_age": null,
+    "post_text": "𝐖𝐡𝐢𝐜𝐡 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬 𝐒𝐡𝐨𝐮𝐥𝐝 𝐘𝐨𝐮 𝐋𝐞𝐚𝐫𝐧 𝐢𝐧 𝟐𝟎𝟐𝟔?\n\nComplex software needs a smarter design. 💻⚙️\n\nFunctional programming is helping developers build reliable, scalable systems by keeping data immutable and logic predictable.\n\nFrom Haskell’s strong type system to Elixir’s concurrency model and Scala’s big data strength, functional languages are shaping modern software architecture in 2026.\n\nBanking apps, streaming platforms, AI tools, and cloud systems rely on structured, modular code to reduce unexpected errors and improve testing. Functional thinking is no longer an academic theory; it is a strategic advantage in large-scale development. 🚀\n\nExplore how core concepts like pure functions and declarative style are redefining how complex systems are built.\n\n#FunctionalProgramming #Haskell #Elixir #Scala #SoftwareDevelopment #DistributedSystems #analyticsinsight #analyticsinsightmagazine\n\nRead More 👇\nhttps://zurl.co/a19qp",
+    "hashtags": [
+      "#FunctionalProgramming",
+      "#Haskell",
+      "#Elixir",
+      "#Scala",
+      "#SoftwareDevelopment",
+      "#DistributedSystems",
+      "#analyticsinsight",
+      "#analyticsinsightmagazine"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQHn4FNd3L0IXg/image-shrink_1280/B56ZxgNNk1KIAo-/0/1771140602558?e=2147483647&v=beta&t=xzU0LnvvgApBWdNmcSwc1tu5_etbCKju-UNTkHlzuys",
+    "topic": "Functional languages",
+    "score": 60,
+    "discovered_at": "2026-10-03T17:16:46.319024+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vs-code_your-agent-experience-refined-the-latest-activity-7460437783384563714-vh0U",
+    "canonical_url": "https://www.linkedin.com/posts/vs-code_your-agent-experience-refined-the-latest-activity-7460437783384563714-vh0U",
+    "author": "Visual Studio Code",
+    "followers": 634146,
+    "post_age": null,
+    "post_text": "🪄 Your agent experience, refined.\n\nThe latest VS Code release brings better BYOK visibility and control. It also introduces the new Agents window (preview), making it easier to explore, iterate on, and review tasks across multiple projects.\n\n🔎 More highlights:\n\n🌐 Integrated browser improvements\n🔎 Markdown preview for diffs\n⚠️ Terminal risk assessment and output compression\n📝 Inline plan editing for Claude and Copilot CLI\n\n🔗 Explore the weekly updates: https://aka.ms/VSCode/120\n\n🎥 Join the VS Code Release Livestream tomorrow, May 14 at 9 AM PT to see the team demo some of the latest features live!\n\nhttps://aka.ms/VSCode/Live\n\nHappy coding! 💙 | 32 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 487,
+      "comments": 32,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Visual Studio Code",
+    "score": 56,
+    "discovered_at": "2026-10-03T17:15:32.134191+00:00"
+  },
+  {
+    "url": "https://fr.linkedin.com/posts/thomas-b-7921b3216_ai-claudecode-cursor-activity-7420510048403038209-ZMz3",
+    "canonical_url": "https://fr.linkedin.com/posts/thomas-b-7921b3216_ai-claudecode-cursor-activity-7420510048403038209-ZMz3",
+    "author": "Thomas B.",
+    "followers": null,
+    "post_age": null,
+    "post_text": "𝟰 𝟱𝟬𝟬 𝘀𝗸𝗶𝗹𝗹𝘀.\n\n━━━━━━━━━━━━━━━━\n\nVercel lance 𝘀𝗸𝗶𝗹𝗹𝘀.𝘀𝗵\n\n━━━━━━━━━━━━━━━━\n\nUne skill = un fichier Markdown.\n\nQui injecte des années d'expertise dans ton agent.\n\nCursor. Claude Code. Copilot. Windsurf. Gemini.\n\nUne commande → ton agent code comme un senior.\n\n━━━━━━━━━━━━━━━━\n\n4 500 skills dispo :\n\n⚡ React / Next.js\n⚡ Stripe / Auth\n⚡ Design Systems\n⚡ DevOps\n⚡ Et des milliers d'autres\n\n━━━━━━━━━━━━━━━━\n\nLe plus dingue ?\n\n50 tokens par skill.\n\nTu en empiles des centaines.\nZéro impact sur le contexte.\n\n━━━━━━━━━━━━━━━━\n\nFini les agents génériques.\nFini les prompts à répéter.\nFini les conventions ignorées.\n\n━━━━━━━━━━━━━━━━\n\n𝚗𝚙𝚡 𝚜𝚔𝚒𝚕𝚕𝚜 𝚊𝚍𝚍 𝚟𝚎𝚛𝚌𝚎𝚕-𝚕𝚊𝚋𝚜/𝚊𝚐𝚎𝚗𝚝-𝚜𝚔𝚒𝚕𝚕𝚜\n\n→ skills.sh\n\n#AI #ClaudeCode #Cursor #Copilot #Vercel",
+    "hashtags": [
+      "#AI",
+      "#ClaudeCode",
+      "#Cursor",
+      "#Copilot",
+      "#Vercel"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHK2J-G1s6cKg/feedshare-shrink_800/B4EZvrykXLKoAg-/0/1769187460782?e=2147483647&v=beta&t=J8qyQuKeOgn9LsVHk0QP6oHWFgg-X0S_97bt63xTZ28",
+    "topic": "Cursor",
+    "score": 55,
+    "discovered_at": "2026-10-03T17:15:48.228752+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/andrejesusmaciasrodriguez_kubernetes-platformengineering-cloudnative-activity-7511832961944604672-iydx",
+    "canonical_url": "https://es.linkedin.com/posts/andrejesusmaciasrodriguez_kubernetes-platformengineering-cloudnative-activity-7511832961944604672-iydx",
+    "author": "André Macías",
+    "followers": null,
+    "post_age": null,
+    "post_text": "¿Te tomas infra y Kubernetes en serio? Hay una certificación que yo sí pagaría.\n\nCuesta $445 USD, alrededor de $8,100 MXN.\n\nDura 2 horas.\n\nNo es de opción múltiple.\n\nTienes que entrar a la terminal y resolver problemas reales.\n\nConfigurar workloads.\n\nTrabajar con networking y storage.\n\nY, sobre todo, diagnosticar cosas cuando fallan. El 30% del examen está enfocado en troubleshooting.\n\nNecesitas al menos 66% para aprobar.\n\nNo importa si memorizas qué hace cada recurso de Kubernetes, tienes que saber usarlo.\n\nSi quieres crecer hacia DevOps, infraestructura, cloud o Platform Engineering, es una habilidad que vale la pena desarrollar en serio.\n\nLa certificación de la que hablo es la CKA: Certified Kubernetes Administrator.\n\nLa usaría como una ruta para obligarme a aprender Kubernetes de forma práctica y después tener una forma de validar ese conocimiento.\n\nSi te interesa, aquí puedes revisar la descripción oficial y el temario de la certificación:\nhttps://lnkd.in/g_wSmtAH\n\n¿Tú invertirías en una certificación así o preferirías aprender Kubernetes únicamente construyendo proyectos?\n\n#Kubernetes #PlatformEngineering #CloudNative #DevOps #CKA",
+    "hashtags": [
+      "#Kubernetes",
+      "#PlatformEngineering",
+      "#CloudNative",
+      "#DevOps",
+      "#CKA"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFZuP1m0E1wxg/feedshare-image-high-res/B56aD9kRfRHcAY-/0/1790960539904?e=2147483647&v=beta&t=Soz39AHLwJjfnecLmVkh_aFYV98w-N8MsBDPLFzgZ8s",
+    "topic": "Kubernetes",
+    "score": 55,
+    "discovered_at": "2026-10-03T17:15:54.220572+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/mehmet-burçhan-gürses-524658340_postgresql-databaseoptimization-autovacuum-activity-7510278012538343426-hiIT",
+    "canonical_url": "https://tr.linkedin.com/posts/mehmet-bur%C3%A7han-g%C3%BCrses-524658340_postgresql-databaseoptimization-autovacuum-activity-7510278012538343426-hiIT",
+    "author": "Mehmet Burçhan Gürses",
+    "followers": null,
+    "post_age": null,
+    "post_text": "\"Tablodan 10 milyon satır sildik ama veritabanı boyutu bir milimetre bile inmedi...\" 🗄️👻\n​PostgreSQL kullanan ekiplerin yaşadığı en sinsi performans krizlerinden biri: Disk dolmak üzeredir, eski kayıtları DELETE edersiniz; ancak disk kullanımı düşmediği gibi sorgular daha da yavaşlar.\n​Sebebi PostgreSQL'in çok sürümlü eşzamanlılık kontrolü (MVCC) mimarisidir.\n​PostgreSQL'de bir satırı sildiğinizde veya güncellediğinizde (UPDATE işlemi aslında bir DELETE + INSERTtir), kayıt diskten anında silinmez; sadece \"ölü\" işaretlenir: Dead Tuple.\n​Bu ölü satırlar zamanında temizlenmezse:\n​Tablo ve indeksler hayalet verilerle şişer (Table & Index Bloat),\n​RAM ve disk I/O'su boş sayfaları taramakla tükenir,\n​İndeks ağaçları gereksiz genişlediği için arama süreleri katlanır.\n​PostgreSQL'i bu hayalet yükten kurtarmak için uyguladığım 3 kritik adım:\n​🧹 Bloat ve Autovacuum Yönetiminde 3 Kural\n​1️⃣ Varsayılan Autovacuum'a Güvenmemek:\nPostgreSQL'in varsayılan autovacuum eşikleri büyük tablolarda çok geç devreye girer. Yoğun yazma alan tablolarda eşiği önden çekmek gerekir:\nALTER TABLE orders SET (autovacuum_vacuum_scale_factor = 0.05);\nBöylece ölü satır oranı %5'e ulaştığı an temizlik başlar.\n​2️⃣ İndeksleri Kilitlemeden Yenilemek (REINDEX CONCURRENTLY):\nVeri silinse bile B-Tree indeks sayfaları işletim sistemine geri verilmez; indeks parçalanmış kalır. Canlı akışı ve yazmaları kesmeden indeksleri sıkılaştırmak için:\nREINDEX TABLE CONCURRENTLY orders;\nBu komut çoğu zaman indeks boyutunu %60-70 küçültür ve belleği rahatlatır.\n​3️⃣ Açık Kalan Transaction'ları (Idle in Transaction) Avlamak:\nArka planda unutulan tek bir açık transaction, kendisinden sonraki hiçbir ölü satırın VACUUM edilmesine izin vermez. idle_in_transaction_session_timeout ile bu asılı oturumları otomatik düşürmek şarttır.\n​💼 Sizin de PostgreSQL altyapınızda şişen disk boyutları, anlamsızca yavaşlayan sorgular veya Autovacuum optimizasyonu ihtiyaçlarınız var mı?\n​Veri tabanınızın depolama ve sorgu performansını zirveye taşımak için DM üzerinden bana ulaşabilirsiniz! 📥\n​Sorgularınızın hafif, diskinizin ferah olduğu bir hafta dilerim! ☕\n​#PostgreSQL #DatabaseOptimization #Autovacuum #IndexBloat #SoftwareArchitecture #BackendDevelopment #FullstackDeveloper #SystemDesign #CleanCode #FreelanceDeveloper",
+    "hashtags": [
+      "#PostgreSQL",
+      "#DatabaseOptimization",
+      "#Autovacuum",
+      "#IndexBloat",
+      "#SoftwareArchitecture",
+      "#BackendDevelopment",
+      "#FullstackDeveloper",
+      "#SystemDesign",
+      "#CleanCode",
+      "#FreelanceDeveloper"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL",
+    "score": 55,
+    "discovered_at": "2026-10-03T17:16:03.698774+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/ahmet-balcı_fastapi-python-backend-activity-7510052099720794112-zEYU",
+    "canonical_url": "https://tr.linkedin.com/posts/ahmet-balc%C4%B1_fastapi-python-backend-activity-7510052099720794112-zEYU",
+    "author": "Ahmet Faruk Balcı",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀FastAPI ile Authentication Servisi\nFastAPI, PostgreSQL, SQLAlchemy ve JWT kullanarak bir kimlik doğrulama servisi geliştirdim.\nProjede;\n🔐 JWT ile Access Token ve Refresh Token sistemi\n🚪 Logout için Refresh Token iptal mekanizması\n🌐 Google OAuth 2.0 ile giriş\n👤 Google ile yeni kayıt olan kullanıcılar için username belirleme akışı\n🗄️ PostgreSQL ve SQLAlchemy ile veritabanı yapısı\n🔄 Alembic ile veritabanı migration işlemleri\n🔒 bcrypt ile parola hashleme\ngibi özellikleri uyguladım.\nBu projeyle birlikte JWT, OAuth 2.0, token yönetimi, veritabanı ilişkileri ve authentication akışları konusunda pratik yaptım.\n🛠️ Teknolojiler:\nFastAPI | Python | PostgreSQL | SQLAlchemy | JWT | Authlib | Alembic\nGitHub:\n🔗 https://lnkd.in/dKr5T-CQ\n#FastAPI #Python #Backend #PostgreSQL #JWT #OAuth #GitHub",
+    "hashtags": [
+      "#FastAPI",
+      "#Python",
+      "#Backend",
+      "#PostgreSQL",
+      "#JWT",
+      "#OAuth",
+      "#GitHub"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEXv6TXyu5yDQ/feedshare-shrink_800/B4DaDkQltEKgAc-/0/1790535949433?e=2147483647&v=beta&t=B1_xaiw6R1DhKPKR9P1UJAs4L2BrofLV7OFeMhPbSzc",
+    "topic": "FastAPI",
+    "score": 55,
+    "discovered_at": "2026-10-03T17:16:08.001834+00:00"
+  },
+  {
+    "url": "https://fr.linkedin.com/posts/moussa-agne_fastapi-python-api-activity-7392667252409520128-YX4k",
+    "canonical_url": "https://fr.linkedin.com/posts/moussa-agne_fastapi-python-api-activity-7392667252409520128-YX4k",
+    "author": "Moussa AGNE",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀 Ma première API avec FastAPI : une révélation !\nCes derniers jours, j’ai construit ma première application web avec FastAPI, un framework Python moderne, rapide et intuitif. Résultat : une API complète avec les opérations CRUD sur une base en mémoire… et une expérience incroyablement fluide !\n💡 Ce que j’ai appris :\nCréer une API RESTful en quelques lignes de code\nStructurer les données avec Pydantic et les indices de type\nTester les endpoints via la documentation interactive (Swagger UI & Redoc)\nUtiliser Uvicorn comme serveur ASGI pour le développement local\n📌 Mon projet : Une API utilisateur avec des routes bien définies, des modèles typés et une gestion des erreurs. FastAPI m’a montré à quel point un framework bien pensé peut accélérer le développement sans sacrifier la qualité.\n🔧 Technologies utilisées : Python, FastAPI, Pydantic, Uvicorn\n👉 Recommandation : Si vous êtes développeur Python et que vous cherchez un framework backend moderne, je vous recommande vivement FastAPI.\nEt vous, quel framework utilisez-vous pour vos APIs ? Des retours à partager ?\n#FastAPI #Python #API #Backend #DéveloppementWeb #OpenSource #Programmation #CRUD #SwaggerUI #Redoc #Uvicorn",
+    "hashtags": [
+      "#FastAPI",
+      "#Python",
+      "#API",
+      "#Backend",
+      "#DéveloppementWeb",
+      "#OpenSource",
+      "#Programmation",
+      "#CRUD",
+      "#SwaggerUI",
+      "#Redoc",
+      "#Uvicorn"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQE01fQurNUQmA/feedshare-shrink_800/B4EZpgHrqxHoAg-/0/1762549220069?e=2147483647&v=beta&t=vDPd8chXBonnWw_WBzsCO4-dKoprTTLqun-uhrpd9oQ",
+    "topic": "FastAPI",
+    "score": 55,
+    "discovered_at": "2026-10-03T17:16:09.359375+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cursorai_cursor-can-now-write-detailed-plans-before-activity-7381371733687185409-ZDp5",
+    "canonical_url": "https://www.linkedin.com/posts/cursorai_cursor-can-now-write-detailed-plans-before-activity-7381371733687185409-ZDp5",
+    "author": "Cursor",
+    "followers": 484479,
+    "post_age": null,
+    "post_text": "Cursor can now write detailed plans before starting complex tasks.\n\nThis allows agents to run for significantly longer.\n\nPlans are generated as Markdown and can be edited inline or stored in code. Enter plan mode with Shift+Tab in the agent input.\n\ncursor.com/blog/plan-mode | 58 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 38,
+      "comments": 58,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQFpbgEbVtUQsg/thumbnail-with-play-button-overlay-high/B56Zm_mPL7JoDc-/0/1759856139039?e=2147483647&v=beta&t=NMKSrkSxcspWa_FUK5pW3Xr6XVOJvbiBMCvgWBxht0c",
+    "topic": "Cursor",
+    "score": 51,
+    "discovered_at": "2026-10-03T17:15:43.948726+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ibm-quantum_applications-for-ibm-quantum-2026-internships-activity-7386445127235567617-INRU",
+    "canonical_url": "https://www.linkedin.com/posts/ibm-quantum_applications-for-ibm-quantum-2026-internships-activity-7386445127235567617-INRU",
+    "author": "IBM Quantum",
+    "followers": 123006,
+    "post_age": null,
+    "post_text": "Applications for IBM Quantum 2026 Internships are now open! https://ibm.co/6040BK2Xn\n\nQuantum interns at IBM will have the opportunity to research quantum applications, design hardware, develop open-source projects with Qiskit, and collaborate directly with the researchers, developers, and business experts who are pushing quantum computing forward.\n\nIf you’re interested in quantum computing and are currently a student, we encourage you to apply through the link above. This is an excellent opportunity for students to gain valuable experience in an emerging field. | 32 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 540,
+      "comments": 32,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQFgvvRQePpOFQ/image-shrink_800/B4EZoHsqZEKwAg-/0/1761065741438?e=2147483647&v=beta&t=2Vh9CWcVetfuKVncO3e3M5QlY7omHicLPhawYicwM6g",
+    "topic": "Quantum Computing",
+    "score": 51,
+    "discovered_at": "2026-10-03T17:16:15.493583+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dhpanwar_enhancing-edge-computing-with-dell-nativeedge-activity-7359617802716016641-T9Vg",
+    "canonical_url": "https://www.linkedin.com/posts/dhpanwar_enhancing-edge-computing-with-dell-nativeedge-activity-7359617802716016641-T9Vg",
+    "author": "Dheerendra Panwar",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀 Just Published: Enhancing Edge Computing with Dell NativeEdge, AWS IoT Greengrass\n\nThrilled to share my latest white paper: \"Enhancing Edge Computing with Dell NativeEdge and AWS IoT Greengrass\".\n\nThis paper explores how the integration of Dell NativeEdge and AWS IoT Greengrass creates a robust foundation for edge deployments. But we didn’t stop there—we also show how Amazon SageMaker can be seamlessly extended to the edge, enabling AI workloads to run closer to data sources for faster insights and reduced latency.\n\n📘 Key Highlights:\nNativeEdge and Greengrass integration blueprint\nReal-world use cases across industries\nTechnical architecture and deployment strategies\nAI at the edge: Simplified deployment of ML models using SageMaker\nBlueprint management and scalability\n\nThis is a must-read for architects, technologists, and innovators driving edge intelligence and hybrid cloud strategies.\n📄 Read the full paper here: https://lnkd.in/gp_zps_c\n\nLet’s connect and discuss how edge + AI is transforming industries.\n#EdgeComputing #AI #MachineLearning #AWSIoT #SageMaker #DellNativeEdge #DigitalTransformation #TechLeadership #Iwork4dell",
+    "hashtags": [
+      "#EdgeComputing",
+      "#AI",
+      "#MachineLearning",
+      "#AWSIoT",
+      "#SageMaker",
+      "#DellNativeEdge",
+      "#DigitalTransformation",
+      "#TechLeadership",
+      "#Iwork4dell"
+    ],
+    "engagement": {
+      "reactions": 39,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQFajEEtqKhDng/articleshare-shrink_800/B56ZiKcb3oG4AM-/0/1754669367218?e=2147483647&v=beta&t=wR8mXWbu690_0dC5_347K99iw-qa3UhBuEPo7dBnRmA",
+    "topic": "Edge Computing",
+    "score": 51,
+    "discovered_at": "2026-10-03T17:16:21.016932+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/satyanadella_github-copilot-the-agent-awakens-activity-7293353684522962944-xs8K",
+    "canonical_url": "https://www.linkedin.com/posts/satyanadella_github-copilot-the-agent-awakens-activity-7293353684522962944-xs8K",
+    "author": "Satya Nadella",
+    "followers": null,
+    "post_age": null,
+    "post_text": "GitHub Copilot is all-in on agents. Check out Agent Mode, and a first look at our Autonomous SWE agent. | 56 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 779,
+      "comments": 56,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHPYomrz9F0ZQ/articleshare-shrink_800/articleshare-shrink_800/0/1738861587351?e=2147483647&v=beta&t=NLz6yT_dBaiPcnKuZoAT1YEqtrajwNE6AJWz567kTQk",
+    "topic": "GitHub Copilot",
+    "score": 50,
+    "discovered_at": "2026-10-03T17:15:38.805186+00:00"
+  },
+  {
+    "url": "https://fr.linkedin.com/posts/mathieu-trillaud-5b5514105_postgresql-hfsql-devops-activity-7511658742250217472-UNf6",
+    "canonical_url": "https://fr.linkedin.com/posts/mathieu-trillaud-5b5514105_postgresql-hfsql-devops-activity-7511658742250217472-UNf6",
+    "author": "Mathieu Trillaud",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀 Moderniser son architecture de données : Retour d'expérience sur une migration réussie de HFSQL vers PostgreSQL !\n\nPasser d'un écosystème propriétaire comme HFSQL à un SGBD open source robuste tel que PostgreSQL est un cap stratégique majeur pour de nombreuses entreprises souhaitant gagner en scalabilité, en performance et en ouverture technique.\n\nPour ce projet, notre base comprenait notamment 13 000 clients, 15 000 articles et 38 000 factures. Grâce à notre outil, la bascule complète a été réalisée et testée en une seule journée !\n\n💡 Comment notre outil a simplifié le projet :\n- Analyse et automatisation : L'outil liste directement les fichiers du serveur source.\n- Génération du schéma cible : Création automatique des tables, clés, index et contraintes adaptés à PostgreSQL.\n- Performance et volume : Injection de masse via des INSERT parallélisés, spécifiquement conçus pour absorber des bases de données de plusieurs millions de lignes sans encombre.\n\nRésultat : un gain de temps considérable, des risques d'erreurs réduits à néant et une transition fluide vers une infrastructure moderne et prête pour l'avenir.\n\nVous avez un projet de migration similaire ou des bases de données legacy à moderniser ? Discutons en en commentaire ou en message privé ! 👇Pour essayer l'outil de migration c'est par ici 👉 https://lnkd.in/e7UCXygr #PostgreSQL #HFSQL #DevOps #BaseDeDonnees #ArchitectureTechnique #Tech",
+    "hashtags": [
+      "#PostgreSQL",
+      "#HFSQL",
+      "#DevOps",
+      "#BaseDeDonnees",
+      "#ArchitectureTechnique",
+      "#Tech"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHR8_V-v6J_yw/feedshare-shrink_800/B4EaDs_nezGwAc-/0/1790682495172?e=2147483647&v=beta&t=OmBwu3z5qL45Ac_JMA5fchMtnsJImfNc4SxYW2smbUE",
+    "topic": "PostgreSQL",
+    "score": 50,
+    "discovered_at": "2026-10-03T17:16:02.262796+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/hazalsendogan_fastapi-python-fullstack-activity-7510322073186217986-vG-a",
+    "canonical_url": "https://tr.linkedin.com/posts/hazalsendogan_fastapi-python-fullstack-activity-7510322073186217986-vG-a",
+    "author": "Hazal Sendogan",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🇹🇷 Türkiye Yapay Zeka Akademisi'nde \"Yapay Zeka için Web Uygulamaları\" eğitimini tamamlayıp sertifikamı aldım.\n8 yıllık frontend deneyimimin üzerine bunu ekleyerek yapay zeka destekli full-stack uygulamalar geliştirmeye odaklanıyorum.\n\nEğitim: https://lnkd.in/du8c7T6X\n\n🇬🇧 I completed the \"Web Applications for Artificial Intelligence\" training at the Turkish Artificial Intelligence Academy and received my certificate. Building on my 8 years of frontend experience, I am now focusing on developing AI-powered full-stack applications.\n\n#FastAPI #Python #FullStack #Frontend #TürkiyeYapayZekaAkademisi #YapayZeka #ArtificialIntelligence #AIPoweredFullStackApplications.",
+    "hashtags": [
+      "#FastAPI",
+      "#Python",
+      "#FullStack",
+      "#Frontend",
+      "#TürkiyeYapayZekaAkademisi",
+      "#YapayZeka",
+      "#ArtificialIntelligence",
+      "#AIPoweredFullStackApplications"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHoky7Obz9ctg/feedshare-shrink_1280/B4DaDoGIHWJAAM-/0/1790600315611?e=2147483647&v=beta&t=kCIBC2pBIrSpC9Nz1LQXt7GSGYlg4-zP8f6pUwYG7oQ",
+    "topic": "FastAPI",
+    "score": 50,
+    "discovered_at": "2026-10-03T17:16:08.624082+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/amarsharma60436_the-story-of-pytorch-pytorch-a-leading-activity-7262566457484427264-7-H1",
+    "canonical_url": "https://www.linkedin.com/posts/amarsharma60436_the-story-of-pytorch-pytorch-a-leading-activity-7262566457484427264-7-H1",
+    "author": "Amar Sharma",
+    "followers": null,
+    "post_age": null,
+    "post_text": "The Story of PyTorch :\nPyTorch, a leading deep learning framework, was created by Facebook's AI Research (FAIR) lab and launched in 2016 to offer a more flexible, Python-friendly approach for building neural networks.\n\nBackground\n\nBefore PyTorch, Facebook researchers used Torch, a deep learning framework built in Lua. However, Lua’s limited popularity made integration with Python projects difficult, so Facebook sought a Python-based alternative.\n\nKey Innovations\n\nFAIR’s goal was to build a framework that balanced easy experimentation with strong production support. A major feature was dynamic computation graphs, allowing models to adjust on-the-fly rather than relying on pre-set graphs—making experimentation faster and more adaptable.\n\nInfluences and Community\n\nInspired by the Japanese framework Chainer, PyTorch adopted dynamic graphs and a Pythonic design, which quickly made it a favorite among researchers. Being open-source, PyTorch attracted a large community of contributors, helping it become a strong rival to TensorFlow.\n\nGrowth and Industry Adoption\n\nAfter PyTorch 1.0’s 2018 release, which improved stability and production features, adoption surged in research and industry alike. Facebook and Microsoft’s partnership also extended PyTorch’s presence on cloud platforms, such as Azure.\n\nToday\n\nPyTorch has become a go-to for tasks across fields like computer vision and natural language processing, valued for its flexibility, simplicity, and strong community support.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHkNW6xW0kuvA/feedshare-image-high-res/feedshare-image-high-res/0/1731530773877?e=2147483647&v=beta&t=WVZ6q6HnEmrEzwQt7dfD3nUSU3l-rkzmaTNl0aKSR8c",
+    "topic": "PyTorch",
+    "score": 50,
+    "discovered_at": "2026-10-03T17:16:10.362488+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/pytorch-meetups-madrid_pytorch-pytorchmadrid-ai-activity-7511390340851978240-myRH",
+    "canonical_url": "https://es.linkedin.com/posts/pytorch-meetups-madrid_pytorch-pytorchmadrid-ai-activity-7511390340851978240-myRH",
+    "author": "PyTorch Meetups Madrid",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🔥 ¡Desvelamos al primer speaker del PyTorch Madrid KICKOFF!\n\nNos alegra anunciar que Carlos Camacho, PhD, Principal Software Engineer en Red Hat, será el encargado de inaugurar las ponencias de nuestro evento de lanzamiento.\n💡 Charla: Scaling Agentic AI on OpenShift: Why Multi-Agent Systems Need Disaggregated Inference\n\nEn esta ponencia, Carlos profundizará en los retos de escalar sistemas multi-agente en la nube y explicará por qué la inferencia desagregada es clave para optimizar rendimiento y recursos en entornos de producción.\n\n📍 Detalles del encuentro en madrid.pytorch.es!\n\n#PyTorch #PyTorchMadrid #AI #OpenShift #RedHat #AgenticAI #MachineLearning #TechMeetup #MadridTech",
+    "hashtags": [
+      "#PyTorch",
+      "#PyTorchMadrid",
+      "#AI",
+      "#OpenShift",
+      "#RedHat",
+      "#AgenticAI",
+      "#MachineLearning",
+      "#TechMeetup",
+      "#MadridTech"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFYSS9rdjSFCQ/feedshare-shrink_1280/B4EaD3RtnpGwAM-/0/1790855011108?e=2147483647&v=beta&t=WwxaEbdEid_KjEs1LjssvoH4vzcESLFYgxJWBMiE6k4",
+    "topic": "PyTorch",
+    "score": 50,
+    "discovered_at": "2026-10-03T17:16:13.165507+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/yangshun_cursor-is-migrating-from-solidjs-to-react-activity-7495365710374887424-0z25",
+    "canonical_url": "https://www.linkedin.com/posts/yangshun_cursor-is-migrating-from-solidjs-to-react-activity-7495365710374887424-0z25",
+    "author": "Yangshun Tay",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Cursor is migrating from Solid.js to React, and from Tailwind to Stylex.\n\nIn a really interesting post from Lauren Tan (Principal Engineer at SpaceXAI / Cursor, ex-React core team), she explains why the move away from Solid:\n\n- Main reasons were perf and maintainability. It was easier to create performance footguns in signal-based JS libraries as \"reactivity causes a large amount of accidental fan out in large and complex apps\".\n\n- AI gets confused when writing React-like code in non-React libraries and quality of Solid.js code generated wasn't good, \"everything ended up being accidentally tracked which caused so many perf problems\". The React compiler solves most over-rendering perf problems.\n\nUltimately, the tech stack that makes the developer most productive will be preferred.\n\nIt'll be harder and harder for newer tech to gain adoption, especially for lower-level / foundation tech due to AI not being trained on them.\n\nNot to mention competition for attention against the influx of vibe coded libraries! | 49 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 594,
+      "comments": 49,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFICTueRfkS4Q/feedshare-image-high-res/B56aATjYx6HMAU-/0/1787034440650?e=2147483647&v=beta&t=4LlFF6j-eixaVbHoGA0XYieEBln92UOk8VRHnGY9yU0",
+    "topic": "Cursor",
+    "score": 49,
+    "discovered_at": "2026-10-03T17:15:44.789546+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lunguflorin_github-copilot-cli-101-how-to-use-github-activity-7392448403298828288-JXIz",
+    "canonical_url": "https://www.linkedin.com/posts/lunguflorin_github-copilot-cli-101-how-to-use-github-activity-7392448403298828288-JXIz",
+    "author": "Florin Lungu",
+    "followers": null,
+    "post_age": null,
+    "post_text": "This article provides a comprehensive guide on leveraging GitHub Copilot from the command line, complete with a starter kit of useful prompts. I found it interesting that it not only enhances productivity but also opens up new ways to interact with coding tools directly in the terminal. What stands out for you about integrating AI into your coding workflow?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQH0dUUnmGqw5g/image-shrink_800/B4DZpdAphcIMAc-/0/1762497043827?e=2147483647&v=beta&t=ZBQ4KxObhherERQ-AU_8KxeL7fHU_fvK9BrM34Ewg_Q",
+    "topic": "GitHub Copilot",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:15:37.802925+00:00"
+  },
+  {
+    "url": "https://pe.linkedin.com/posts/maciejkrawiec_ai-githubcopilot-developerexperience-activity-7324119237654904832-R_mH",
+    "canonical_url": "https://www.linkedin.com/posts/maciejkrawiec_ai-githubcopilot-developerexperience-activity-7324119237654904832-R_mH",
+    "author": "Mac Krawiec",
+    "followers": null,
+    "post_age": null,
+    "post_text": "In March, I had the privilege of speaking at Concurrency's 2025 AI Momentum Summit with 200 attendees—and in May, that number doubled to over 400.\n\nOne of the key takeaways of my breakout session, “Accelerating Your Development Team with GitHub Copilot” was this:\n\nLean into AI, don’t resist it.\n\nDevelopers who embrace AI as a collaborative tool—not a threat—are seeing measurable gains in focus, creativity, and speed. The time saved on repetitive tasks opens the door for deeper work: solutioning, designing, and architecting smarter systems. In short, AI isn’t replacing what we do—it’s helping us do it better.\n\nThanks to Concurrency, Inc. and fellow speakers for making this event such a high-energy, hands-on experience!\n\nLooking forward to continuing this conversation and sharing more as we all grow in this new AI-powered era.\n\n#AI #GitHubCopilot #DeveloperExperience #DevTools #PublicSpeaking #SoftwareEngineering #AIMomentumSummit",
+    "hashtags": [
+      "#AI",
+      "#GitHubCopilot",
+      "#DeveloperExperience",
+      "#DevTools",
+      "#PublicSpeaking",
+      "#SoftwareEngineering",
+      "#AIMomentumSummit"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "GitHub Copilot",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:15:39.718375+00:00"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/matthiasrink_githubcopilot-ki-softwareentwicklung-activity-7511735341494648832-OnNO",
+    "canonical_url": "https://de.linkedin.com/posts/matthiasrink_githubcopilot-ki-softwareentwicklung-activity-7511735341494648832-OnNO",
+    "author": "Matthias Rink",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Ich bin noch am Verarbeiten des gestrigen GitHub Copilot Dev Day 😃\n\nBesonders hängen geblieben ist bei mir der Vortrag von Lukas. Zu sehen, wie Anthropic die eigene Softwareentwicklung mit KI betreibt, mit konkreten Beispielen und ehrlichen Zahlen statt Hochglanz, war wirklich inspirierend. Es waren zwar \"nicht alles\" neu, aber die Art, Dinge anzugehen und konsequent neu zu denken, fand ich richtig inspirierend. Danke ebenso an Michael, an Xebia für die gemeinsame Ausrichtung und an AST GmbH & Co. KG // Arbeitssicherheit & Technik, bei denen wir auf dem CAMPUS M. in Blaustein zu Gast sein durften. Der Ort hat dem Abend richtig gutgetan.\n\nNach den Vorträgen ging es dann noch bunt mit Gesprächen weiter. Es ging um technische Details, um den Umgang mit Legacy-Code, und immer wieder um die Frage, wie man Kolleginnen und Kollegen mitnimmt, die dem Thema KI in der Softwareentwicklung erst einmal ablehnend gegenüberstehen.\n\nIrgendwann wurde es philosophisch: Was ist KI eigentlich im Team? Ein Praktikant? Ein Mitarbeiter? Jemand, der fachlich brillant ist, aber Kontext und Zwischentöne nicht von allein mitbekommt? Keine dieser Antworten ist ganz richtig, und genau deshalb hat mich die Diskussion bis jetzt nicht losgelassen.\n\nInsgesamt gab es wieder sehr viel positive Rückmeldungen, was uns sehr freut. Damit kann ich wohl schon jetzt sagen: Wir freuen uns auf den dritten Dev Day.\n\n#GitHubCopilot #KI #Softwareentwicklung #DevDay",
+    "hashtags": [
+      "#GitHubCopilot",
+      "#KI",
+      "#Softwareentwicklung",
+      "#DevDay"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQF7fKYiO1lMQg/feedshare-image-high-res/B4EaD77S1QGwAU-/0/1790933020449?e=2147483647&v=beta&t=kfmQ984jGcfkkN_6Dhwu3tkGrzHD95wY1OFG0q4Iz4c",
+    "topic": "GitHub Copilot",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:15:41.885980+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/jesuspalaf0x_ia-openai-cursor-activity-7499582310833340416-tVY9",
+    "canonical_url": "https://es.linkedin.com/posts/jesuspalaf0x_ia-openai-cursor-activity-7499582310833340416-tVY9",
+    "author": "Jesus A. Palafox",
+    "followers": null,
+    "post_age": null,
+    "post_text": "La noticia no es menor: OpenAI le retira el acceso a sus modelos a Cursor, el editor de código que se volvió inseparable del trabajo diario de cientos de miles de desarrolladores. El motivo, la adquisición de Cursor por parte de SpaceX, la empresa de Elon Musk.\n\nDéjenme ser claro: esto no es una disputa técnica ni una decisión comercial rutinaria. Es la primera vez que vemos, a esta escala, cómo la geopolítica y las rencillas personales de los dueños de la infraestructura determinan quién puede usar qué modelo y bajo qué condiciones.\n\nCursor no es un cliente más. Es la puerta de entrada natural para que millones de programadores interactúen con modelos de frontera a diario. Que OpenAI decida cortar el grifo no es un capricho: es un recordatorio de que el acceso a la inteligencia artificial más capaz del mercado es un privilegio revocable, no un derecho adquirido.\n\nLo interesante del caso es que Cursor ya venía diversificando: usa modelos de Anthropic, Google y otros proveedores. Pero la lección queda sobre la mesa. Si mañana tu herramienta favorita depende de un modelo que su competidor controla, estás a una fusión de distancia de quedarte sin ella.\n\nLa pregunta incómoda es si esto empuja a más empresas a buscar soberanía tecnológica real, con modelos abiertos o propios, o si simplemente acelera la concentración del poder en unos pocos laboratorios que deciden quién juega y quién no.\n\nMientras tanto, los desarrolladores que construyen sobre estas plataformas harían bien en recordar que la nube de alguien más siempre será el castillo de alguien más. Y los castillos, en esta industria, cambian de dueño con frecuencia.\n\n#IA #OpenAI #Cursor #SpaceX #DesarrolloDeSoftware",
+    "hashtags": [
+      "#IA",
+      "#OpenAI",
+      "#Cursor",
+      "#SpaceX",
+      "#DesarrolloDeSoftware"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Cursor",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:15:46.817438+00:00"
+  },
+  {
+    "url": "https://it.linkedin.com/posts/ilenia-unida_già-da-agosto-siamo-a-conoscenza-dellacquisizione-activity-7509146295228411904-seVJ",
+    "canonical_url": "https://it.linkedin.com/posts/ilenia-unida_gi%C3%A0-da-agosto-siamo-a-conoscenza-dellacquisizione-activity-7509146295228411904-seVJ",
+    "author": "Ilenia U.",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Già da agosto siamo a conoscenza dell’acquisizione di Cursor da parte di SpaceX per 60 miliardi di dollari. Una grande operazione finanziaria andata in porto con successo.\n\nSe non fosse che a neanche un mese di distanza OpenAI ha annunciato che si avvarrà delle condizioni di recesso del contratto proprio a seguito del cambio di proprietario di Cursor. La decisione, che avrà effetti irreversibili dal 12 novembre, impedirà di fatto l’accesso nativo ai suoi modelli; ha inoltre specificato che il suo attuale modello di punta, Astra, non verrà reso disponibile su Cursor.\n\nLe principali ragioni di questa scelta sono da ricercare sulle acredini precedenti verso Elon Musk che in più occasioni ha violato accordi. Ricordiamo l’ammissione di xAI di aver usato dati di OpenAI per addestrare Grok, oltre ad aver effettuato un blocco dati su X (ex Twitter) verso OpenAI. Insomma Sam Altman proprio non ne vuole sapere di collaborare con lui.\nT\nra i due litiganti il terzo gode. Anthropic proprio non ci ha pensato un secondo a proporsi come \"sostituto\".\nPraticamente sono corsi ad annunciare che aumenteranno la capacità di calcolo per supportare Claude 3.5 Sonnet all’interno di Cursor.\n\nL’impatto delle scelte di OpenAI comunque non sembra eccessivamente tragico. Solo un 5% dei developer utilizzava GPT direttamente su Cursor e comunque anche dopo l’ultimatum del 12 novembre sembra che si potrà continuare ad usare la propria personale API Key, riducendo un po’ l’impatto delle scelte calate dall’alto.\n\nRimane comunque interessante analizzare questo specifico scenario perché la frattura tra i CEO di OpenAI e SpaceX potrebbe anche in futuro palesarsi magari in fronti opposti di eventuali tavoli per regolamentare l’AI.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFIXmUvS2dlWA/feedshare-shrink_800/B4DaDQg.a3JUAc-/0/1790204700628?e=2147483647&v=beta&t=ili8qJ09QsuoLd75ONRyYcN7Io3umseDLzykPoUysG8",
+    "topic": "Cursor",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:15:47.476655+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/james-jim-caldwell_edgecomputingexpo-tapestrysolutions-iot-activity-7336238702051942400-hLyF",
+    "canonical_url": "https://www.linkedin.com/posts/james-jim-caldwell_edgecomputingexpo-tapestrysolutions-iot-activity-7336238702051942400-hLyF",
+    "author": "James (Jim) Caldwell",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Today at the TechEx Events show we were fortunate enough to have the opportunity to listen to several speakers and panelists, who shared their experiences Edge Computing. Where is the edge for you? For every person there may be a different definition for me it is the IoT device that is in a factory collecting data in near real time from the factory floor this could be a BLE, RFID , PLC, or other sensor or reporting mechanism that directly or indirectly impacts manufacturing, assembly processes that drive the Work in progress (WIP) with regards to production quality, compliance or velocity. For someone else it may be a smart phone, a drone generating data to the fist connection point for data backhaul or a storage point closest to the creation of data.\n\nSo, as you can see there are many definitions of the edge and there are just as many viewpoints to what edge compute really means, depending on your industry, if and what role you play in the IoT global ecosystem down to a local step by step process of data integration, collection and processing to include distribution to consumers who can be People, processes, or systems which benefit from the conditioned or raw data that is collected.\n\nEspecially interesting was the presentation on The Power of Differentiated 5G Networks: Enabling AR, AI, and APIs for the Emerging Immersive internet by Mischa Dohler the Vice President, Emerging Technologies @erickson #EdgeComputingExpo @IOTECHEXPO. During his presentation Mischa shared many informative related to 5G including 5G Networks, Devices and applications as they all apply to individual consumers and to Industry consumers about how there have been, notable shifts among consumers.\n\nOne analogy I found from Mischa's presentation today, is a key enabler and quite thought provoking was: You are on the 101 in San Jose you have a choice to make you can just keep traveling along at a slow pace in the traffic lanes with everyone else or you can move to the HOV lanes and move much faster. The takeaway is that it requires a decision and an investment to move much faster when traveling in heavy traffic or adopting changes due to technological advances.\n\nThis very informative presentation was followed by several other very good presentations including Scaling the Edge: Overcoming Challenges in Deployment and Integrations, Revolutionizing Customer Experiences with Edge Computing, and a presentation on the Hidden Networking Problems at the Edge by Jason Lovelace from IBM to round out day 1 of this excellent event.\n\n#Tapestrysolutions #IoT #Edgecomputing @IOTTECHnorthamerica",
+    "hashtags": [
+      "#EdgeComputingExpo",
+      "#Tapestrysolutions",
+      "#IoT",
+      "#Edgecomputing"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Edge Computing",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:16:22.015226+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/yusuf-m-tech_terraform-cli-made-simple-your-go-to-activity-7370749458202128384-fk65",
+    "canonical_url": "https://www.linkedin.com/posts/yusuf-m-tech_terraform-cli-made-simple-your-go-to-activity-7370749458202128384-fk65",
+    "author": "Yusuf. M",
+    "followers": null,
+    "post_age": null,
+    "post_text": "⚛️ Terraform CLI Made Simple – Your Go-To Cheat Sheet ⚛️\n\nWorking with Terraform? This quick CLI guide will save you time, cut surprises, and keep your next deployment smooth. Missed the last cheat sheet? All good, just make sure you save this one!\n\n🚀 Essential Commands\n\nterraform init – Set up your working directory and download providers.\nterraform validate – Check your configuration for syntax or logic errors.\nterraform plan – Preview what Terraform will do before you apply changes.\nterraform apply – Apply changes to reach the desired infrastructure state.\nterraform destroy – Remove all managed resources (use with care).\n\n🧰 Helpful Utilities\n\nterraform fmt – Automatically format your configuration files.\nterraform refresh – Update the state file to reflect real infrastructure.\nterraform output – Display outputs defined in your configuration.\nterraform show – Inspect the current state or saved plans.\nterraform get – Installs/upgrades modules.\n\n⚙️ Advanced Operations\n\nterraform state – Interact directly with the state file.\nterraform import – Bring existing infrastructure under Terraform management.\nterraform workspace – Manage multiple environments (e.g. dev, staging, prod).\nterraform taint – Mark a resource to be recreated on the next apply.\n\n🔐 Authentication & Providers\n\nterraform login – Authenticate with Terraform Cloud.\nterraform providers – List all required providers for your configuration.\n\n💡 Tip: Always run terraform plan before apply to validate your changes and avoid unexpected outcomes.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 252,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQF2v4o3OEddsA/feedshare-image-high-res/B4EZkopkwVIQAo-/0/1757323611828?e=2147483647&v=beta&t=zVpPAZ9MQrBZol0O0gcSw9iWzU_DI9-Gnb_FpdklutY",
+    "topic": "CLI utilities",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:16:31.227341+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/amol-kelkar_weve-all-used-classic-unix-command-line-activity-7394648215335268353-Gmmg",
+    "canonical_url": "https://www.linkedin.com/posts/amol-kelkar_weve-all-used-classic-unix-command-line-activity-7394648215335268353-Gmmg",
+    "author": "Amol Kelkar",
+    "followers": null,
+    "post_age": null,
+    "post_text": "We’ve all used classic UNIX command line utilities. For example, to count lines in a file:\n\n> cat article.txt | wc -l\noutput: 46\n\nNow, with Playbooks, you can create semantic, LLM-powered CLI utilities. For example:\n\n> cat article.txt | summarize\noutput: The US penny, which cost nearly four cents to mint despite being worth one cent, was officially discontinued after 238 years of production. While the penny's removal from circulation is causing challenges for retailers and consumers - including rounding issues and potential legal complications in certain states - it will remain legal tender. The transition has been chaotic due to lack of government guidance, contrasting with how other countries like Canada and Australia handled similar currency phase-outs.\n\nYou can send a natural-language message to the utility to modify its behavior!\n\n> cat article.txt | summarize --message \"Use Pirate speak\"\noutput: The penny, that scurvy dog of currency, has finally met Davy Jones' locker after 238 years o' sailin' the seven seas! The US Mint struck its final coin in June, and now merchants be facin' a tempest o' troubles—some be roundin' prices to the nearest nickel, while others be searchin' high and low fer pennies to keep their coffers balanced. Aye, 'tis a chaotic voyage ahead fer retailers and customers alike!\n\nI use it to automate tasks like creating release notes by going through commit logs between two commits.\n> release_notes --start v0.6.0 --end v0.7.0\n\nThis is same as\n> playbooks run release_notes.pb --start v0.6.0 --end v0.7.0\noutput: See the release notes created with this utility at https://lnkd.in/gGjZrt8n\n\n====\n\nHere is another workflow: Search arXiv for today's papers on \"AI agents\", download the top 5 PDFs, convert each to markdown, extract future directions from each paper, then create a meta-summary as a bullet list of the most interesting research directions across all papers, and email the final synthesis to my@company.com with subject \"Research proposals\".\n\nDo it in one line of bash script with semantic utilities search_arxiv and summarize --\n\nsearch_arxiv --message \"AI agents\" | head -5 | xargs -I {}sh -c 'wget -qO- \"{}\" | pandoc -f pdf -t markdown | summarize --message \"focus on future directions\"'|\\\nsummarize --message \"Summarize as bullet list of most interesting research directions\"|\\\nmail -s \"Research proposals\" my@company.com\n\n====\n\nWhat semantic command line utilities would you want?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFBl7wttDWQNg/feedshare-image-high-res/B56Zp8RXerH8Ao-/0/1763021519636?e=2147483647&v=beta&t=Nfk9ULv9y2foyebfKUeydZJOGyGerjr61WdeEddX_eI",
+    "topic": "CLI utilities",
+    "score": 45,
+    "discovered_at": "2026-10-03T17:16:34.615076+00:00"
+  },
+  {
+    "url": "https://si.linkedin.com/posts/rakuram_embeddeddevelopment-development-softwareenvironment-activity-7045982772686983168-8Qjt",
+    "canonical_url": "https://www.linkedin.com/posts/rakuram_embeddeddevelopment-development-softwareenvironment-activity-7045982772686983168-8Qjt",
+    "author": "Rakuram E",
+    "followers": null,
+    "post_age": null,
+    "post_text": "𝐕𝐢𝐬𝐮𝐚𝐥 𝐒𝐭𝐮𝐝𝐢𝐨 𝐂𝐨𝐝𝐞 𝐄𝐱𝐭𝐞𝐧𝐬𝐢𝐨𝐧𝐬 𝐟𝐨𝐫 𝐄𝐦𝐛𝐞𝐝𝐝𝐞𝐝 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭\n\nVisual Studio Code has become one of the most popular IDEs in the world. To date, software developers have downloaded it more than 40 million times! Visual Studio Code allows developers to easily customize their development environment which can help them accelerate development, minimize bugs, and make developing software overall much better.\n\nThis article by Jacob explores several Visual Studio Code extensions that will help make embedded software developers lives easier, and perhaps make you an advocate for using Visual Studio Code over your own vendors toolchain\n\nExplore more by reading this article --> https://lnkd.in/grQwjwME\n\n#embeddeddevelopment #development #softwareenvironment #software #embeddedsoftware #visualstudiocode #automotive #embedded #autosar",
+    "hashtags": [
+      "#embeddeddevelopment",
+      "#development",
+      "#softwareenvironment",
+      "#software",
+      "#embeddedsoftware",
+      "#visualstudiocode",
+      "#automotive",
+      "#embedded",
+      "#autosar"
+    ],
+    "engagement": {
+      "reactions": 72,
+      "comments": 9,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Visual Studio Code",
+    "score": 44,
+    "discovered_at": "2026-10-03T17:15:35.299605+00:00"
+  },
+  {
+    "url": "https://in.linkedin.com/posts/nvidia-ai_edge-computing-for-ai-enabled-oil-and-gas-activity-7061444652909948928-NsWS",
+    "canonical_url": "https://www.linkedin.com/posts/nvidia-ai_edge-computing-for-ai-enabled-oil-and-gas-activity-7061444652909948928-NsWS",
+    "author": "NVIDIA AI",
+    "followers": 2226357,
+    "post_age": null,
+    "post_text": "Energy companies are utilizing edge computing to improve data collection and analysis.\n\nLearn how Crystal Group is building edge computing solutions using the NVIDIA L4 Tensor Core GPU for #AI and machine learning-powered operations in oil and gas: https://nvda.ws/3VGgn6o\n\n#oilandgas #energy #edgecomputing",
+    "hashtags": [
+      "#AI",
+      "#oilandgas",
+      "#energy",
+      "#edgecomputing"
+    ],
+    "engagement": {
+      "reactions": 87,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5634AQGz0tkBPejaIQ/ugc-proxy-shrink_1280_800/ugc-proxy-shrink_1280_800/0/1683579601185?e=2147483647&v=beta&t=3nqvdXn1X0vtszr9hqsPEStNYCGfCU0l8JIIzcIpTI8",
+    "topic": "Edge Computing",
+    "score": 44,
+    "discovered_at": "2026-10-03T17:16:22.723671+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/caroline-guscott_allin-share-7511116825905168384-B_Ps",
+    "canonical_url": "https://www.linkedin.com/posts/caroline-guscott_allin-activity-7511116829172494336-vq7_",
+    "author": "Caroline Guscott",
+    "followers": null,
+    "post_age": "2d",
+    "post_text": "There's a growing sense of confidence around Greater Cleveland. I’m hearing it in everyday conversations. There’s excitement about business growth, major investments, new development, world-class arts, winning sports teams, the waterfront and quality of life. National attention keeps growing, too, and more people are discovering what makes this region and its companies stand out.\n\nMy youngest stepson, who is in his early 20s, recently asked, “Why does Cleveland get so much hype these days?” This was pretty great to hear. We’re getting better at telling the stories of the people, businesses and ideas that make Greater Cleveland such an awesome place.\n\nAnd when one of the world’s biggest celebrities writes a song about her husband’s hometown, you take advantage of that spotlight. Moments like that give us an opportunity to tell Cleveland’s story to an audience that may never have been paying attention before.\n\nGreater Cleveland Partnership #AllIn",
+    "hashtags": [
+      "#AllIn"
+    ],
+    "engagement": {
+      "reactions": 78,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFlvi1UNRi4ww/feedshare-image-high-res/B4EaDzY83HHwAU-/0/1790789800080?e=2147483647&v=beta&t=FyrtmHVGSwCnzwOwbtGWxPh_Mut7siOBD_Zr9ZzKWJU",
+    "topic": "CLI utilities",
+    "score": 43,
+    "discovered_at": "2026-10-03T17:16:35.285288+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/heatherfeldgore_i-should-be-happy-right-yes-and-sometimes-share-7510749105145446400-XOp7",
+    "canonical_url": "https://www.linkedin.com/posts/heatherfeldgore_i-should-be-happy-right-yes-and-sometimes-activity-7510805633450000385-ragQ",
+    "author": "Heather Feld-Gore",
+    "followers": null,
+    "post_age": "3d",
+    "post_text": "I should be happy – right?  Yes, and sometimes I’m also sad.  IYKYK.\n\nKids.  When they’re:\n\n🍼 An infant, and they sleep through the night: I am happy, yes, and I’m sad they no longer need to fall asleep on my chest.\n\n🏫 Headed to kindergarten, and making friends: I am happy, yes, and I’m sad they don’t need as much connection with me.\n\n❤️ In the middle school years, and asserting independence and immersing socially: I am happy, yes, and I’m worried about what they’re really thinking and feeling inside.\n\n🚗 Learning to drive – Woo hoo!  No more hauling them everywhere!  I am happy, yes, and I hope they’ve absorbed all the right teachings to make safe decisions.\n\n🏛️ Heading to college, the nest is empty, and we can do anything we want!  I am happy, yes. I am damn proud, yes. And I’m also sad. It can all be true.\n\nFor every parent in transition, I see you. And these are only 5 of the seemingly infinite moments of renegotiating that relationship with our kids - and ourselves. Even though we celebrate our kids’ growth, development, and achievements, grieve that part which is meant to be grieved.  It’s real. | 17 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 115,
+      "comments": 17,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHtsq68LuAoTg/feedshare-shrink_800/B4EaDuKgwpHAAc-/0/1790702128528?e=2147483647&v=beta&t=-pzuY_yossRO-xa9aUORU7zF25UBc9LLDXHN9MyUD9M",
+    "topic": "CLI utilities",
+    "score": 43,
+    "discovered_at": "2026-10-03T17:16:36.072559+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/markrussinovich_github-microsoftrusttraining-beginner-activity-7441957389395832832-XglF",
+    "canonical_url": "https://www.linkedin.com/posts/markrussinovich_github-microsoftrusttraining-beginner-activity-7441957389395832832-XglF",
+    "author": "Mark Russinovich",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Rust continues to be a critical language for building secure, high-performance infrastructure. This \"Rust for Beginners\" curriculum from the Microsoft team is a great resource for anyone looking to get started.\n\nWhether you’re coming from C++ or are new to systems programming, these modules provide a solid foundation for the engineering reality of building with Rust. | 13 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 812,
+      "comments": 13,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQFMDAzElgfKiQ/articleshare-shrink_800/B4DaCzvwN0HwAY-/0/1789722035308?e=2147483647&v=beta&t=-ORqHa00fbNGs7nRuDqLFZ_qSCkyo6Py4prKqDRstPU",
+    "topic": "Rust",
+    "score": 42,
+    "discovered_at": "2026-10-03T17:15:56.592770+00:00"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/connor-dee_rust-tech-recruitment-activity-7067505862226911232-vVnR",
+    "canonical_url": "https://www.linkedin.com/posts/connor-dee_rust-tech-recruitment-activity-7067505862226911232-vVnR",
+    "author": "Connor Dee",
+    "followers": null,
+    "post_age": null,
+    "post_text": "We have all heard about the tremendous benefits Software Engineers can reap by transitioning their careers to Rust, but less is said about the organisational benefits of its adoption.\n\n🔐 Enhanced Security: Rust's focus on memory safety and the elimination of undefined behaviour can significantly reduce the risk of security vulnerabilities and potential breaches.\n\n🏅 Improved Performance: Rust's performance characteristics are unmatched, making it ideal for applications that demand high-speed execution and low latency.\n\n🐛 Reduced Bugs and Crashes: Adopting Rust means fewer crashes, smoother user experiences, and ultimately, lower maintenance costs.\n\n🏗 Maintenance: Rust can future-proof your codebase. Its comprehensive tooling ecosystem allow organizations to build reliable, maintainable software that stands the test of time.\n\n💡 Unlock Innovation: Rust fosters a culture of creativity, enabling teams to tackle complex problems with confidence and subsequently push the boundaries of what's possible in software development.\n\nThe best part is that Rust is continuously evolving, even though it is already at the forefront of modern development practices. With its ever-growing community and remarkable technical capabilities, Rust can secure the future of your product and organisation.\n\nNeed help moving away from your current tech stack? We know how to help. 🤝\n\n#rust #tech #recruitment #softwaredevelopment #community",
+    "hashtags": [
+      "#rust",
+      "#tech",
+      "#recruitment",
+      "#softwaredevelopment",
+      "#community"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Rust",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:15:58.043925+00:00"
+  },
+  {
+    "url": "https://is.linkedin.com/posts/dave-hedge_intelvision-coolstuff-edgecomputing-activity-7062143236378669056-cbL_",
+    "canonical_url": "https://www.linkedin.com/posts/dave-hedge_intelvision-coolstuff-edgecomputing-activity-7062143236378669056-cbL_",
+    "author": "Dave Hedge",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Thanks to Intel Corporation for the opportunity to be part of the “Enterprises Talk Edge” Roundtable at #intelvision. It was great to make new friends, talk about our experiences as ExxonMobil progresses our Open Process Automation program and learn from others that are pushing the edge in software defined systems!\n\n#coolstuff #edgecomputing #cuttingedgetechnology",
+    "hashtags": [
+      "#intelvision",
+      "#coolstuff",
+      "#edgecomputing",
+      "#cuttingedgetechnology"
+    ],
+    "engagement": {
+      "reactions": 106,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFP0jN1nI3KCw/feedshare-image-high-res/feedshare-image-high-res/0/1683746155176?e=2147483647&v=beta&t=nFGbmykHws3s_3lf9IsETy6ljuN75RLZ6H16fRxolow",
+    "topic": "Edge Computing",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:23.450759+00:00"
+  },
+  {
+    "url": "https://ae.linkedin.com/posts/imed-allal_cesvegas-edgecomuting-edgeai-activity-7016832136691208192-ttJa",
+    "canonical_url": "https://www.linkedin.com/posts/imed-allal_cesvegas-edgecomuting-edgeai-activity-7016832136691208192-ttJa",
+    "author": "Imed ALLAL, PhD",
+    "followers": null,
+    "post_age": null,
+    "post_text": "#cesvegas 2023 , Days 1\nCome and visit us in our booth and° 61242 (Tech West- Venetian Expo- Hall G- n°G5)\nwe are very excited to share with you how Namla platform is revolutionizing the Edge computing 👌\n\n#edgecomuting #edgeai #ai #cloudcomuting",
+    "hashtags": [
+      "#cesvegas",
+      "#edgecomuting",
+      "#edgeai",
+      "#ai",
+      "#cloudcomuting"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/C4E22AQGNr-y0RL527Q/feedshare-image-high-res/feedshare-image-high-res/0/1672943145815?e=2147483647&v=beta&t=4xmYXFGSxNLkmHFZbeJegKrikGq2NXl0MvxQMjIWkLQ",
+    "topic": "Edge Computing",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:24.178448+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/davantel_edge-computing-gateway-recommendation-for-activity-7510262587482206208-OtPu",
+    "canonical_url": "https://es.linkedin.com/posts/davantel_edge-computing-gateway-recommendation-for-activity-7510262587482206208-OtPu",
+    "author": "DAVANTEL",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Cuándo tiene sentido la IA local: dispositivo, gateway o edge computer\n\"Edge AI\" no describe un solo tipo de hardware. Elegir mal entre dispositivo IA dedicado, gateway edge o edge computer industrial es uno de los errores más caros en proyectos de analítica en tiempo real.\nLa decisión correcta depende de dos ejes independientes:\n🔹 Intensidad de cómputo — ¿cuánto exige el workload?\n🔹 Alcance de integración — ¿cuántos dispositivos, protocolos y funciones de red debe coordinar el hardware?\nDispositivo IA dedicado (ej. cámara con detección de objetos): ideal cuando una sola relación entrada-modelo-salida es estable. Fuerte en especialización, limitado en integración — no gestiona Modbus, múltiples PLCs ni backhaul celular.\nEdge computing gateway: conecta equipos de campo, ejecuta aplicaciones locales y traslada datos seleccionados a sistemas superiores. Es la opción correcta cuando el resultado depende de combinar contexto — por ejemplo, vibración + corriente de motor + estado de PLC + entrada digital, para saber si una lectura elevada ocurrió en arranque o en producción normal.\nEdge computer industrial: necesario solo cuando el proyecto exige varios streams de vídeo en alta resolución, modelos grandes, GPU o bases de datos pesadas — cargas que superan lo que una plataforma gateway-class puede ofrecer.\nUn matiz importante: no todo gateway edge es un gateway de IA. El Robustel EG5100 es una plataforma sólida para bridging de protocolos y buffering, pero no incluye NPU dedicada. El EG5120 sí — añade CPU quad-core Cortex-A53 a 1.6GHz, hasta 4GB LPDDR4, 64GB eMMC y NPU de 2.3 TOPS, manteniendo routing celular, Ethernet Gigabit y gestión RCMS.\nY si el sitio necesita agregar más dispositivos (varias cámaras IP, más Ethernet, RS-422, HDMI, salidas de relé), el EG5200 ofrece la misma clase de CPU y NPU con 5 puertos Gigabit Ethernet frente a los 2 del EG5120 — la diferencia no es más potencia de IA, sino más alcance de integración.\n📖 Artículo completo: https://nuel.ink/9eQ5B2\n\n#Davantel #Robustel #EdgeAI #EG5120",
+    "hashtags": [
+      "#Davantel",
+      "#Robustel",
+      "#EdgeAI",
+      "#EG5120"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQHc3WSEFgSU5A/image-shrink_800/B56aDnQB9dH0Ag-/0/1790586134600?e=2147483647&v=beta&t=XTgLJ3Q-TffsDYOalcCvWRzq7U56ckyAKFrdCkHL9u4",
+    "topic": "Edge Computing",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:24.779387+00:00"
+  },
+  {
+    "url": "https://in.linkedin.com/posts/tom-carthron_devsecops-lifecycle-coverage-with-new-snyk-activity-7065389251357511680-9hj7",
+    "canonical_url": "https://www.linkedin.com/posts/tom-carthron_devsecops-lifecycle-coverage-with-new-snyk-activity-7065389251357511680-9hj7",
+    "author": "Tom Carthron, MBA",
+    "followers": 120426,
+    "post_age": null,
+    "post_text": "2 strategic names, Snyk and Dynatrace, to help solve 1 giant challenge: complexity of #applicationsecurity - help accelerate #observability, #context, #speed, #agilerelease & #automation.\n\n#sdlc #softwarefactory #fastrelease #cicdpipelines #roi #devsecops #efficiency #domorewithless",
+    "hashtags": [
+      "#applicationsecurity",
+      "#observability",
+      "#context",
+      "#speed",
+      "#agilerelease",
+      "#automation",
+      "#sdlc",
+      "#softwarefactory",
+      "#fastrelease",
+      "#cicdpipelines",
+      "#roi",
+      "#devsecops",
+      "#efficiency",
+      "#domorewithless"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHEyaMow5PMbQ/articleshare-shrink_800/articleshare-shrink_800/0/1711434184537?e=2147483647&v=beta&t=rV7LkZVcE1u2lUJySHXp22JfheULDWLYIbtV9mdcogA",
+    "topic": "DevSecOps",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:29.635041+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/yusuf-m-tech_a-terraform-cli-cheat-sheet-worth-saving-activity-7500824945652875264-_11G",
+    "canonical_url": "https://www.linkedin.com/posts/yusuf-m-tech_a-terraform-cli-cheat-sheet-worth-saving-activity-7500824945652875264-_11G",
+    "author": "Yusuf. M",
+    "followers": null,
+    "post_age": null,
+    "post_text": "A Terraform CLI Cheat Sheet Worth Saving ⚛️\n\nMissed this before? Here’s a quick Terraform CLI reference you can come back to whenever you need it.\n\n🚀 Essential Commands\n\nterraform init – Set up your working directory and download providers.\nterraform validate – Check your configuration for syntax or logic errors.\nterraform plan – Preview what Terraform will do before you apply changes.\nterraform apply – Apply changes to reach the desired infrastructure state.\nterraform destroy – Remove all managed resources (use with care).\n\n🧰 Helpful Utilities\n\nterraform fmt – Automatically format your configuration files.\nterraform refresh – Update the state file to reflect real infrastructure.\nterraform output – Display outputs defined in your configuration.\nterraform show – Inspect the current state or saved plans.\nterraform get – Installs/upgrades modules.\n\n⚙️ Advanced Operations\n\nterraform state – Interact directly with the state file.\nterraform import – Bring existing infrastructure under Terraform management.\nterraform workspace – Manage multiple environments (e.g. dev, staging, prod).\nterraform taint – Mark a resource to be recreated on the next apply.\n\n🔐 Authentication & Providers\n\nterraform login – Authenticate with Terraform Cloud.\nterraform providers – List all required providers for your configuration.\n\nTip: Always run terraform plan before apply to validate your changes and avoid unexpected outcomes.\n\n---------\n🔁 Save this for later\n👉 Follow Yusuf. M for more DevOps, cloud, and infrastructure insights",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQF9zovN1FY7MQ/feedshare-shrink_800/B4EaBfEhHoHQAc-/0/1788301415162?e=2147483647&v=beta&t=PCyyQhTU_fNwHvMtla1rObPTWfuiOwcxA9WAPRDH8fw",
+    "topic": "CLI utilities",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:32.146559+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nikolay-nikiforchuk_task-runners-activity-7388312916539801600-G1Ou",
+    "canonical_url": "https://www.linkedin.com/posts/nikolay-nikiforchuk_task-runners-activity-7388312916539801600-G1Ou",
+    "author": "Nikolay Nikiforchuk",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Task Runners in n8n: The Upgrade We've Been Waiting For 🚀\n\nI've been experimenting with n8n's new Task Runners, and I have to say—it changes how you extend and scale workflows. Until recently, extending n8n Code nodes with custom dependencies meant rebuilding the entire n8n Docker image every time. This was heavyweight, slow to iterate, and forced you to mix untested libraries into your production container. Now, with Task Runners, it's finally clean and modular.\n\n🧩 How it works\nTask Runners move code execution from the main n8n process to separate workers — either as internal child processes or fully external containers. That means:\n- Better isolation and stability\n- Independent resource management (scale runners separately)\n- Faster iteration when adding custom dependencies\n- Improved security posture\n\n🛠️ What's even better\nSince Task Runners are bundled in the n8n Docker image but run as separate processes, you can:\n- Build a custom Dockerfile extending the n8n image with your own JS/TS or Python dependencies\n- Run it as an external task runner attached to your existing n8n instance\n- Keep your main n8n container clean while extending capabilities for advanced workloads\n\nAnd if you're running n8n at scale: Task Runners work seamlessly with Queue Mode, where n8n distributes workflow execution across multiple workers — each worker gets its own task runner for true horizontal scalability.\n\nIf you're running n8n with custom code requirements, Task Runners are worth exploring.\n\nhttps://lnkd.in/dcDc_FFS",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHCG4huQj2S1A/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1733754917669?e=2147483647&v=beta&t=VkcWnCQHHu7j_oCPTrCC5WJSakyiX8OiLEkLLRLJ2h8",
+    "topic": "Task runners",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:37.979063+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/francescocesarini_functional-languages-and-the-future-of-programming-activity-7451887760656949249-YqUE",
+    "canonical_url": "https://www.linkedin.com/posts/francescocesarini_functional-languages-and-the-future-of-programming-activity-7451887760656949249-YqUE",
+    "author": "Francesco Cesarini",
+    "followers": null,
+    "post_age": null,
+    "post_text": "In Part 2 of his series on Functional Languages and the Future of Programming for the Linux Professional Institure, my O'Reilly editor Andrew Oram argues that while purely functional programming languages remain niche, their core ideas have already spread widely into mainstream languages. He quotes me and my friend and colleague Dean Wampler stating that concepts like higher-order functions, pattern matching, and closures are now standard tools even outside functional ecosystems. Functional thinking has also influenced system architecture, especially in areas like microservices and scalable design. However, strict functional principles—such as avoiding side effects—remain difficult for many developers to adopt. As a result, the future of programming is likely to be hybrid, with mainstream languages continuing to absorb functional ideas without fully embracing the paradigm.\n\nIt is a really interesting read: https://lnkd.in/eCwfV8Ck",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 89,
+      "comments": 6,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHFpCjQeWcD4A/articleshare-shrink_1280_800/B4EZ47V9D7HYAY-/0/1779112073644?e=2147483647&v=beta&t=0kXqhP6kepR3ktBCA0MfifrikspiYcPq1dayw8--VIA",
+    "topic": "Functional languages",
+    "score": 40,
+    "discovered_at": "2026-10-03T17:16:43.368907+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/rubén-miguel-t-_github-copilot-your-ai-coding-agent-github-activity-7434839079243898880-nH5P",
+    "canonical_url": "https://es.linkedin.com/posts/rub%C3%A9n-miguel-t-_github-copilot-your-ai-coding-agent-github-activity-7434839079243898880-nH5P",
+    "author": "Rubén Miguel T.",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Las aplicaciones de IA que están marcando el ritmo (por caso de uso)\n\nEn mi esfuerzo por mantenerme al día en IA y detectar lo realmente disruptivo, he revisado tendencias, adopción real y reseñas de usuarios.\n\nNo he usado todas. Algunas sí. Otras las sigo por el impacto que están generando.\n\nSi hoy alguien me preguntara qué herramientas están ganando terreno, este sería el mapa práctico:\n\nPROGRAMAR\nGitHub Copilot → https://lnkd.in/eFxeQNdC\nCursor → cursor.sh\n\nCLONAR VOZ\nElevenLabs → elevenlabs.io\nResemble AI → resemble.ai\n\nIMAGEN\nMidjourney → midjourney.com\nAdobe Firefly → firefly.adobe.com\n\nVÍDEO\nSynthesia → synthesia.io\nRunway → runwayml.com\n\nMÚSICA\nSuno → suno.ai\nUdio → udio.com\n\nPRESENTACIONES\nGamma → gamma.app\nBeautiful.ai → beautiful.ai\n\nESTUDIO\nQuizlet → quizlet.com\nKhanmigo → khanacademy.org/khanmigo\n\nINVESTIGACIÓN PROFUNDA\nNotebookLM → notebooklm.google\n\nPermite trabajar con tus propios documentos. Para analizar informes, normativa o documentación técnica es especialmente potente.\n\nAdemás, Google está construyendo un ecosistema coherente con Gemini y Google AI Studio (ai.google.dev), donde se prueban y desarrollan soluciones reales.\n\nReflexión final:\n\nTodo el mundo conoce el chat de una IA.\n\nPero el presente no es solo conversar.\n\nEl presente es usar la herramienta específica para el problema específico.\n\nEl chat sirve para todo.\nLas herramientas especializadas son más rápidas y más eficaces.\n\nAhí está la diferencia.\n\n#InteligenciaArtificial #Productividad #TransformacionDigital",
+    "hashtags": [
+      "#InteligenciaArtificial",
+      "#Productividad",
+      "#TransformacionDigital"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEsXp898KNGvA/articleshare-shrink_800/B56Z5yu7jZHAAQ-/0/1780041368273?e=2147483647&v=beta&t=sFW6OrX9zzz3r89ZiRpEaYOezRR0w4jiv2GQPqxztQ4",
+    "topic": "GitHub Copilot",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:15:42.951157+00:00"
+  },
+  {
+    "url": "https://cn.linkedin.com/posts/jia-hua-li-326312211_cursor團隊第六人創辦人為什麼找上這位台灣大學生-國外爆紅的ai產品-activity-7335273528528642049-WeU_",
+    "canonical_url": "https://cn.linkedin.com/posts/jia-hua-li-326312211_cursor%E5%9C%98%E9%9A%8A%E7%AC%AC%E5%85%AD%E4%BA%BA%E5%89%B5%E8%BE%A6%E4%BA%BA%E7%82%BA%E4%BB%80%E9%BA%BC%E6%89%BE%E4%B8%8A%E9%80%99%E4%BD%8D%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%94%9F-%E5%9C%8B%E5%A4%96%E7%88%86%E7%B4%85%E7%9A%84ai%E7%94%A2%E5%93%81-activity-7335273528528642049-WeU_",
+    "author": "Jia Hua LI",
+    "followers": null,
+    "post_age": null,
+    "post_text": "【Cursor團隊第六人！創辦人為什麼找上這位台灣大學生？】\n\n國外爆紅的AI產品Cursor背後團隊裡有台灣人的身影令人驚豔，更值得一說的是故事主角黃紹儒(Shaoru Huang)才23歲，若是循規蹈局，他在台灣是社會新鮮人，但他選擇一條打破常規的路 — — 為了面試放棄期末考，搭上飛往舊金山的長途班機，在與創辦團隊共事一週並獲得認可後，黃紹儒正式休學，成為 Cursor 四位創辦人之外的第二號員工。\n\n我第一次有機會與黃紹儒交流是在一場公開的線上演講，螢幕上的他戴著耳機、穿著帽 T，看起來就是個普通大學生，口中談的是未來AI Agent的發展，分享自己過去一年站在AI科技尖端的所見所聞，談吐超齡。\n這不是他第一此公開分享，他17歲就成為台灣 ModernWeb Conference 最年輕的講者，也曾Generative AI 年會介紹Cursor，同時有上Podcast節目的經驗，這些經歷都幫助他建立自己的個人品牌。\n\n█有品牌的工程師\n早在高中時期，黃紹儒就開始經營GitHub，並陸續開啟X社群和個人網站，並使用英文發布內容，紀錄自己一路走來的成績，這也是為什麼遠在美國的Cursor團隊會邀請黃紹儒來面試，不只是因為他使用Currsor的時數在全球名列前茅，GitHub上各種專案與演講經歷，更讓黃紹儒既能開發又懂宣傳的特長被看見。\n(不然我也是重度Netflix使用者啊，Netflix創辦人怎麼沒來找我拍影集)\n實際攤開他的GitHub網站，高中就用JavaScript開發出網頁版Minecraft獲得關注，同時陸續複製各種遊戲，例如小精靈、神燈精靈，更開發模仿 Notion 和 Trello 的生產力工具，以及受typehere.co啟發打造的筆記工具 typehere.app。琳瑯滿目的專案，正是黃紹儒醉心於「building」的證明。\n\n█用GitHub星星數當交換條件的家庭\n黃紹儒從零開始打造產品的熱情，其實早就寫在他的 DNA 裡。\n其父親、台大電機系教授黃鐘揚 Chung-Yang (Ric) Huang 曾加入矽谷新創，成為教授、組建家庭後也沒有放棄創業夢，創立了優拓資訊，黃鐘揚曾在受訪時表示：「骨子裡還是想要做出自己的產品。」黃紹儒從小耳濡目染，繼承爸爸的創業家精神，而且堅持要做自己有興趣的題目。\n黃紹儒分享，爸爸曾要求自己做機器人專案，興致缺缺的他不願意聽從，只好條件交換：「爸爸說只要在GitHub拿到500顆星星，就不用做機器人。」為此黃紹儒更努力學習程式、開發產品，最後成功達到里程碑，換取父母不再干涉選題。\n(其他家長是看成績單判斷小孩能力，黃家則是看GitHub星星數，這根本是工程師版「考到XX分就可以….」句型)\n\n█新一代超能力\n暫時放下學業，專注打造自己感興趣的產品的想法，已在黃紹儒心中萌芽許久。早在大二暑假，他就和黃鐘揚表達過想休學的念頭；為了能和Cursor團隊一起開發有趣的產品，即使要離鄉背井、休學也在所不惜。\n尤其新創工作雖有趣也伴隨著壓力，黃紹儒在異鄉要面對隨時都可能被裁員的風險，他表示自己要學習爸爸在創業、家庭、工作三頭燒的狀況下還能「像一個石頭」一樣的定性，家庭給他的深刻影響與力量不言而喻。\n除此之外，他做這一切的膽量與決心來自哪裡？當我在節目聽到黃紹儒分享自己最愛的影集是兩部經典的反英雄影集 — — 《黑袍糾察隊》和《無敵少俠》時，我猜想，也許下一個世代的超級英雄，就是要透過顛覆現狀，才能找到自我。\n\n就像這兩部影集的主角，都曾崇拜英雄體制，但最終選擇走出自己的路。\n而黃紹儒的選擇，其實也有一點這樣的影子。他沒有照著「念好書、進大公司」的安全劇本走，而是選擇休學、跳上目的未知AI列車，和世界級工程師肩並肩打造未來。\n\n如今黃紹儒已經在GitHub上獲得超過2800顆星，是全台灣前十名的開發者，已經超過高中時爸爸給他的目標數5倍以上，現實世界裡他或許不會飛天或變身，但他與團隊用一行行程式碼，讓全世界已經超過五百萬名使用者能夠用AI賦能夢想，跨出夢想的第一步，這樣的力量，難道不就是新一代的超能力嗎？\n\n（舊文重發，感謝Ian親切回覆信件協助調整內文 👍 ）",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Cursor",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:15:45.711901+00:00"
+  },
+  {
+    "url": "https://ca.linkedin.com/posts/dba-expert-consulting_dbaexpertconsulting-dba-postgresql-activity-7041809897318961153-3Ycs",
+    "canonical_url": "https://fr.linkedin.com/posts/dba-expert-consulting_dbaexpertconsulting-dba-postgresql-activity-7041809897318961153-3Ycs",
+    "author": "DBA Expert Consulting",
+    "followers": 2933,
+    "post_age": null,
+    "post_text": "Did you check our new blog post?\nWe've just share about some ProsgreSQL tips with you\nJust follow 👇\n\n--\nAvez-vous consulté notre dernier article de blog?\nNous y partageons avec vous quelques astuces PosgreSQL\nSuivez le lien 👇\n\nhttps://lnkd.in/eSx9XsXm\n\n#dbaexpertconsulting #dba #postgresql #tips #astuce #share #paratage #blog #tech #techblog #postgresqltips\n\nsimplice Choumeni Tchieugoue",
+    "hashtags": [
+      "#dbaexpertconsulting",
+      "#dba",
+      "#postgresql",
+      "#tips",
+      "#astuce",
+      "#share",
+      "#paratage",
+      "#blog",
+      "#tech",
+      "#techblog",
+      "#postgresqltips"
+    ],
+    "engagement": {
+      "reactions": 8,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/C4E22AQFuix_1vPKAZA/feedshare-image-high-res/feedshare-image-high-res/0/1678898309384?e=2147483647&v=beta&t=PT0WHPXiwQq4tnw9evRCzrh0oH-tplr5zhFeWznlBf4",
+    "topic": "PostgreSQL",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:00.965695+00:00"
+  },
+  {
+    "url": "https://at.linkedin.com/posts/mamri_pytorch-activity-7047134815602548737-tqp2",
+    "canonical_url": "https://www.linkedin.com/posts/mamri_pytorch-activity-7047134815602548737-tqp2",
+    "author": "Dr Mohamed Amri",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Very interesting initiative to optimize LLM hardware requirements based on Pytorch. It would be interesting to benchmark it against state of the art implementations!\n\nhttps://lnkd.in/dYyWbG3s",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/C5627AQGx0-C3s3phrA/articleshare-shrink_800/articleshare-shrink_800/0/1711777931653?e=2147483647&v=beta&t=5dvZplvpC6AX5OBK93Toe-VwPsLbXomDMgbV6VfS0-s",
+    "topic": "PyTorch",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:14.697643+00:00"
+  },
+  {
+    "url": "https://in.linkedin.com/posts/kerripatterson_ml-ai-quantumcomputing-activity-7045059786530332673-Lj8v",
+    "canonical_url": "https://www.linkedin.com/posts/kerripatterson_ml-ai-quantumcomputing-activity-7045059786530332673-Lj8v",
+    "author": "Kerri Patterson, PMP, SA, POPM",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Join me on the journey with North Carolina Technology Association (NC TECH)! This is the time to really be part of the conversations with quantum, AI, and ML, especially considering the transformation shift that will ripple across organizations. #ml #ai #quantumcomputing #transformation #technology #tech",
+    "hashtags": [
+      "#ml",
+      "#ai",
+      "#quantumcomputing",
+      "#transformation",
+      "#technology",
+      "#tech"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Quantum Computing",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:18.261643+00:00"
+  },
+  {
+    "url": "https://in.linkedin.com/posts/todd-hicks-11931029_devsecops-and-log-analysis-improving-application-activity-7022691902491693056-hFqU",
+    "canonical_url": "https://www.linkedin.com/posts/todd-h-11931029_devsecops-and-log-analysis-improving-application-activity-7022691902491693056-W5Pr",
+    "author": "Todd H.",
+    "followers": null,
+    "post_age": null,
+    "post_text": "When DevSecOps is supported by sufficient log analysis, organizations can maintain application security without slowing the speed of delivery. In this latest Sumo Logic blog learn how #log analysis supports #DevSecOps.",
+    "hashtags": [
+      "#log",
+      "#DevSecOps"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5634AQGBnhSxxsU47Q/ugc-proxy-shrink_800/ugc-proxy-shrink_800/0/1674340226066?e=2147483647&v=beta&t=slc39hpC_9c88pXv1YjLMXRdzt8fsE1qbgQWtYZRObs",
+    "topic": "DevSecOps",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:27.727748+00:00"
+  },
+  {
+    "url": "https://lk.linkedin.com/posts/parthdhorda_javascript-innovation-developertools-activity-7066673858887467008-EMeF",
+    "canonical_url": "https://www.linkedin.com/posts/parthdhorda_javascript-innovation-developertools-activity-7066673858887467008-EMeF",
+    "author": "Parth Dhorda",
+    "followers": null,
+    "post_age": null,
+    "post_text": "🚀 Streamline Your Development Workflow with Task Runners and Build Tools! 💻⚙️\n\nAs developers, we strive for efficiency and productivity. That's where task runners and build tools come to the rescue!\n\nLet's dive into the world of these powerful tools and discover how they automate repetitive tasks, optimize our workflow, and supercharge our development process. 🚀✨\n\n🔧 Code Minification: Task runners like Gulp, Grunt, and Webpack help us achieve optimized code by automating the minification process. By removing unnecessary characters and reducing file sizes, we can enhance website performance and load times.\n\n🔧 Transpiling: With the rise of modern JavaScript frameworks, transpiling tools like Babel become indispensable. They allow us to write code using the latest syntax and features while ensuring backward compatibility with older browsers. This enables us to embrace innovation without sacrificing compatibility.\n\n🔧 Bundling: Managing complex codebases becomes seamless with bundling tools like Webpack. They intelligently bundle our code and dependencies into optimized bundles, reducing network requests and improving loading speed. The result? Smoother user experiences and improved performance.\n\n🔧 Browser Synchronization: Gone are the days of manual browser refreshing! Task runners like BrowserSync enable automatic browser synchronization. As we make changes to our code, the browser instantly reloads, providing real-time feedback and saving us valuable time.\n\nBy leveraging these task runners and build tools, we unlock a world of automation and optimization. They empower us to focus on what truly matters: crafting remarkable digital experiences for our users. 🌟\n\nDo you have a favorite task runner or build a tool that has transformed your development workflow?\n\nShare your experiences and recommendations in the comments below. Let's exchange insights and elevate our development game! 💪💻\n\n#javascript #innovation #developertools #developmenttools #mobileapps #zlatotech",
+    "hashtags": [
+      "#javascript",
+      "#innovation",
+      "#developertools",
+      "#developmenttools",
+      "#mobileapps",
+      "#zlatotech"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Task runners",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:38.793579+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/william-fabre-154728112_why-are-functional-languages-like-haskell-activity-7402067286993420288-9Bp3",
+    "canonical_url": "https://www.linkedin.com/posts/william-fabre-154728112_why-are-functional-languages-like-haskell-activity-7402067286993420288-9Bp3",
+    "author": "William Fabre",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Why are functional languages like Haskell unpopular? And why are mainstream languages incorporating more and more functional programming concepts into their corpus?\n\nBecause math is hard, and the absence of math in a sufficiently large solution is even harder. | 23 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 20,
+      "comments": 23,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Functional languages",
+    "score": 35,
+    "discovered_at": "2026-10-03T17:16:45.344259+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vs-code_claude-fable-5-is-now-rolling-out-in-visual-activity-7470175374161833985-WKSU",
+    "canonical_url": "https://www.linkedin.com/posts/vs-code_claude-fable-5-is-now-rolling-out-in-visual-activity-7470175374161833985-WKSU",
+    "author": "Visual Studio Code",
+    "followers": 634146,
+    "post_age": null,
+    "post_text": "📣 Claude Fable 5 is now rolling out in Visual Studio Code. Give it a try! | 22 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 781,
+      "comments": 22,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQGx1OMWXEkIcA/thumbnail-with-play-button-overlay-high/B56Z6teY5mGkC8-/0/1781026894085?e=2147483647&v=beta&t=S5F21uc3j-wbfrKeWPFvjkHRJEVuVd6DZoJv86awBEU",
+    "topic": "Visual Studio Code",
+    "score": 34,
+    "discovered_at": "2026-10-03T17:15:32.946651+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/francescocesarini_functional-languages-and-the-future-of-programming-activity-7447168848799248384-LcKL",
+    "canonical_url": "https://www.linkedin.com/posts/francescocesarini_functional-languages-and-the-future-of-programming-activity-7447168848799248384-LcKL",
+    "author": "Francesco Cesarini",
+    "followers": null,
+    "post_age": null,
+    "post_text": "This article by my O'Reilly editor Andrew Oram for the Linux Professional Institute (LPI) features insights from me and my friends and colleagues Simon Peyton Jones and Dean Wampler exploring why functional programming is no longer a niche academic interest but a blueprint for the future of software. FP might still have a smaller user base, but its influence is everywhere. As systems become more distributed, the \"functional way\" is becoming the only way to build reliable, scalable infrastructure.\n\nEnjoy: https://lnkd.in/ek4fHxCz",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 51,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHyJH7GtEJm4Q/articleshare-shrink_1280_800/B4EZ0B.oZZJUAQ-/0/1773854689532?e=2147483647&v=beta&t=ZTJJyJOqKUGhqvxwYYFIzg5cDiiDzskEMszbgev8LKo",
+    "topic": "Functional languages",
+    "score": 32,
+    "discovered_at": "2026-10-03T17:16:42.668111+00:00"
+  },
+  {
+    "url": "https://in.linkedin.com/posts/hcl-appscan_hcl-appscan-codesweep-activity-7023643094751322113-uExE",
+    "canonical_url": "https://www.linkedin.com/posts/a-quick-simple-and-free-program-to-write-activity-7023643094751322113-XoHI",
+    "author": "HCL AppScan",
+    "followers": null,
+    "post_age": null,
+    "post_text": "HCL AppScan CodeSweep, a Visual Studio Code extension, provides Static Application Security Testing (#SAST) functionality so that you can detect vulnerabilities early in the #development lifecycle.\n\nInstall now for free: https://hclsw.co/ukt1vz",
+    "hashtags": [
+      "#SAST",
+      "#development"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Visual Studio Code",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:15:34.501865+00:00"
+  },
+  {
+    "url": "https://pt.linkedin.com/posts/kléber-amaro-2517033a9_mais-do-que-escrever-códigos-e-resolver-activity-7505742983326154752-eJY_",
+    "canonical_url": "https://pt.linkedin.com/posts/kl%C3%A9ber-amaro-2517033a9_mais-do-que-escrever-c%C3%B3digos-e-resolver-activity-7505742983326154752-eJY_",
+    "author": "Kléber Amaro",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Mais do que escrever códigos, e resolver problemas Porque muitos de nos devs pensamos que a vida e só abrir o visual studio code e começar a programar.E esquecemos de focar no mais essencial que e resolver problemas O meu conselho com programador e não programe por programa,programe Para resolver problemas",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFtCCxoj4W7jA/feedshare-shrink_800/B4EaCnBeEsG8Ac-/0/1789508575765?e=2147483647&v=beta&t=mhzK5gMFDwYnV-6Y3w-Xg2AU5nCvDBRUdQ3tE8fTCD4",
+    "topic": "Visual Studio Code",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:15:36.692056+00:00"
+  },
+  {
+    "url": "https://eg.linkedin.com/posts/stevencrosen_githubcopilot-activity-7054600121228894209-lBFK",
+    "canonical_url": "https://www.linkedin.com/posts/stevencrosen_githubcopilot-activity-7054600121228894209-lBFK",
+    "author": "Steve Rosen",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Developers with GitHub's enhancements on Copilot, once you learn the nuances of how to use it more effectively you will be in love with it! Colin thank you for building out this impactful playbook! Colin Dembovsky\n#githubcopilot",
+    "hashtags": [
+      "#githubcopilot"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "GitHub Copilot",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:15:41.256796+00:00"
+  },
+  {
+    "url": "https://dk.linkedin.com/posts/magnus-steinmeier-olsen-204b42237_github-byensitmagnusagent-mission-control-activity-7509718896103485440-Lqvg",
+    "canonical_url": "https://dk.linkedin.com/posts/magnus-steinmeier-olsen-204b42237_github-byensitmagnusagent-mission-control-activity-7509718896103485440-Lqvg",
+    "author": "Magnus Steinmeier olsen",
+    "followers": null,
+    "post_age": "6d",
+    "post_text": "Når en coding-opgave lander hos en AI-agent, er flere agenter ikke automatisk bedre.\nJeg har lagt et flowchart på GitHub, der viser, hvordan Agent Mission Control vælger arbejdsvej:\n• Kendt opgave: lead-agenten løser den selv.\n• Afgrænset videnshul: én specialist med inputs, scope og check.\n• Uafhængige opgaver: parallelle agenter med isolerede skriveområder.\nLeaden samler resultatet og skal checke de aktuelle filer eller den pakke, der skal bruges. Fejl går tilbage til reparation. Ved væsentlig risiko kræver flowet separat review.\nAMC er en open source skill til coding-agenter, ikke en ny runtime. Den nuværende release er beta, og PASS er rådgivende. Vi har dokumenteret en falsk PASS i en risikocase, så grænsen står åbent i repoet.\nGraf, kode og evidens: https://lnkd.in/eVvSkXmg\nHvis du prøver den på en reel opgave, vil jeg gerne høre både hvad der hjalp, og hvad der skabte unødigt arbejde.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQG1scBchrTDqg/articleshare-shrink_800/B4EaDfhF5zJcAY-/0/1790456391533?e=2147483647&v=beta&t=2lc1X_8zQUOI1HEgZzLWMWSicaZq26a7ocPFNFPoYuM",
+    "topic": "Cursor",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:15:48.799350+00:00"
+  },
+  {
+    "url": "https://ma.linkedin.com/posts/iamabhishekchoudhary_github-pola-rspolars-fast-multi-threaded-activity-6994670794010185728-0Exg",
+    "canonical_url": "https://www.linkedin.com/posts/iamabhishekchoudhary_github-pola-rspolars-extremely-fast-query-activity-6994670794010185728-_VQ7",
+    "author": "Abhishek Choudhary",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Due to DuckDB's SQL syntax, data scientists need not learn a new syntax, while with Polars, they must check for API availability.\n\nThis proved to be very inconvenient for #datascience product development.\n\n#duckdb",
+    "hashtags": [
+      "#datascience",
+      "#duckdb"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQHdGGhtT7WJcQ/articleshare-shrink_800/B4DaDRvxCFKkAY-/0/1790225355142?e=2147483647&v=beta&t=HTa0F8j-N9FT9XEehK86BKQD2-wPQhhjL4HF14Q3wpE",
+    "topic": "Rust",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:00.299165+00:00"
+  },
+  {
+    "url": "https://pe.linkedin.com/posts/michael-blair-b6779619_could-quantum-computing-help-end-the-roller-activity-7297299598794981377-j21Y",
+    "canonical_url": "https://www.linkedin.com/posts/michael-blair-b6779619_could-quantum-computing-help-end-the-roller-activity-7297299598794981377-j21Y",
+    "author": "Michael Blair",
+    "followers": null,
+    "post_age": null,
+    "post_text": "At The Crown Estate, we use computational models for things like offshore wind wake modelling (to quantify aerodynamic interactions between future wind farms) and spatial optimisation (to identify the best way to accommodate all sectors on an increasingly busy seabed out to 2050).\n\nThe number and complexity of considerations going into these models is always increasing and more precise optimisation means better outcomes for society.\n\nCould quantum computing help to solve problems like this and others in the offshore renewables space on the long term? That’s what this brief, exploratory study with Frazer-Nash Consultancy, ORCA Computing and National Quantum Computing Centre (NQCC) seeks to find out.\n\nReally cool project to be part of - thanks Frazer-Nash Consultancy for inviting us to take part.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHWLSQSDN0KeQ/articleshare-shrink_800/B4EZmZ5oh0KQAM-/0/1759223648773?e=2147483647&v=beta&t=o6BGkqXpzpxV2EdgwtMGZEXl9rw-geCnfW8AV1XB0kI",
+    "topic": "Quantum Computing",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:17.118700+00:00"
+  },
+  {
+    "url": "https://ir.linkedin.com/posts/konstantinos-karagiannis-0a09503_todays-quantum-inspired-approaches-for-roi-activity-7062511388786577408-qIBA",
+    "canonical_url": "https://www.linkedin.com/posts/konstantinos-karagiannis-0a09503_todays-quantum-inspired-approaches-for-roi-activity-7062511388786577408-qIBA",
+    "author": "Konstantinos Karagiannis",
+    "followers": null,
+    "post_age": null,
+    "post_text": "In a tough economic year, some companies are spending less on quantum computing PoCs and considering ways to get a quick ROI. Enter quantum-inspired algorithms and approaches. My latest blog... #quantumcomputing #tensor #machinelearning",
+    "hashtags": [
+      "#quantumcomputing",
+      "#tensor",
+      "#machinelearning"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGLLX1xhoza4Q/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1712234811597?e=2147483647&v=beta&t=e0n1xGiKq_BtT0q44d8WjTusoWd4_bevljexJYHLF2o",
+    "topic": "Quantum Computing",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:19.076559+00:00"
+  },
+  {
+    "url": "https://mg.linkedin.com/posts/luke-johnson-5a37b4127_quantumcomputing-ibm-technology-activity-7057337940116393984-KIvU",
+    "canonical_url": "https://www.linkedin.com/posts/luke-johnson-5a37b4127_quantumcomputing-ibm-technology-activity-7057337940116393984-KIvU",
+    "author": "Luke Johnson",
+    "followers": null,
+    "post_age": null,
+    "post_text": "What I enjoy most about my job... showcasing to industry leaders, industry leading technology HSBCxIBM.\n\n#quantumcomputing #IBM #technology",
+    "hashtags": [
+      "#quantumcomputing",
+      "#IBM",
+      "#technology"
+    ],
+    "engagement": {
+      "reactions": 104,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQF_mbpkrF6smw/feedshare-shrink_800/feedshare-shrink_800/0/1682348339974?e=2147483647&v=beta&t=NVgMKTGYqzpK3NLiou9DlhTW1yI5-EeAsU_2ErI9zxU",
+    "topic": "Quantum Computing",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:19.756888+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/oscar-manuel-hernandez-hernandez-075392302_qiskit-quantumcomputing-quantumtechnology-activity-7509975345861795841-stUl",
+    "canonical_url": "https://es.linkedin.com/posts/oscar-manuel-hernandez-hernandez-075392302_qiskit-quantumcomputing-quantumtechnology-activity-7509975345861795841-stUl",
+    "author": "Oscar Manuel Hernandez Hernandez",
+    "followers": null,
+    "post_age": null,
+    "post_text": "En julio completé el Advanced Track de la Qiskit Global Summer School.\nFue una experiencia muy enriquecedora que me permitió seguir profundizando en computación cuántica, tanto desde el punto de vista teórico como práctico, y enfrentarme a nuevos conceptos y retos utilizando Qiskit.\nAdemás, supuso un excelente entrenamiento de cara a una nueva etapa académica: mi reciente incorporación al Máster en Tecnologías Cuánticas.\nCon muchas ganas de seguir aprendiendo y explorando este campo.\n#Qiskit #QuantumComputing #QuantumTechnology #IBMQuantum #Physics\n\nIn July, I completed the Advanced Track of the Qiskit Global Summer School.\nIt was a highly enriching experience that allowed me to deepen my understanding of quantum computing, both from a theoretical and practical perspective, while tackling new concepts and challenges using Qiskit.\nIt was also excellent preparation for a new academic chapter: my recent start of a Master's in Quantum Technologies.\nLooking forward to continuing to learn and explore this field.\n#Qiskit #QuantumComputing #QuantumTechnology #IBMQuantum #Physics",
+    "hashtags": [
+      "#Qiskit",
+      "#QuantumComputing",
+      "#QuantumTechnology",
+      "#IBMQuantum",
+      "#Physics"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQE0s5vO5o6ePw/feedshare-shrink_800/B4EaC7zXk7HMAg-/0/1789857200727?e=2147483647&v=beta&t=Y8u44vfEi3sIG5kmV2Y9BGi8pVSTu1aqm5_v_ny69xA",
+    "topic": "Quantum Computing",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:20.327868+00:00"
+  },
+  {
+    "url": "https://mk.linkedin.com/posts/jonathanfullam_devsecops-devsecops-activity-7071481060953333761-EEDn",
+    "canonical_url": "https://www.linkedin.com/posts/jonathanfullam_devsecops-devsecops-activity-7071481060953333761-EEDn",
+    "author": "Jonathan Fullam",
+    "followers": null,
+    "post_age": null,
+    "post_text": "I'm excited to speak at @gitlab's #DevSecOps World Tour in Atlanta! Join my session Workshop: How to optimize your DevSecOps workflow by focusing on value streams to learn more about the ideas, technologies and people driving #DevSecOps transformation. bit.ly/3INIn2A",
+    "hashtags": [
+      "#DevSecOps"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFC9XPhqp8xhg/feedshare-shrink_800/feedshare-shrink_800/0/1685972466310?e=2147483647&v=beta&t=f81N8a6I47ZCd4zxHg94OWnEEUHqayO2rpM4RoPGFjo",
+    "topic": "DevSecOps",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:28.426561+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kobus-jooste-00_some-of-my-favorite-cli-utilities-activity-6660511076226002944-GzGH",
+    "canonical_url": "https://www.linkedin.com/posts/kobus-jooste-00_some-of-my-favorite-cli-utilities-activity-6660511076226002944-GzGH",
+    "author": "Kobus Jooste",
+    "followers": null,
+    "post_age": null,
+    "post_text": "I decided to keep one of the AWS EC2 af-south-1 instances around after kicking the tires on a couple of them. #AWS #afsouth1\n\nNothing was automated so I ended up with a Bash history of packages that I installed. #koospackages\n\nThe extra packages are stuff I've come to use over the years and most of it is pretty nifty. #cli #linux\n\nI decided to list them in a writeup.\n\nEnjoy.",
+    "hashtags": [
+      "#AWS",
+      "#afsouth1",
+      "#koospackages",
+      "#cli",
+      "#linux"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "CLI utilities",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:32.749529+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/william-lawrencecs_take-your-command-line-utilities-to-the-next-activity-7095517162341109761-8hVm",
+    "canonical_url": "https://www.linkedin.com/posts/william-lawrencecs_cli-tools-at-aha-activity-7095517162341109761-iFQ4",
+    "author": "William Lawrence",
+    "followers": 124563,
+    "post_age": null,
+    "post_text": "One of the best things about working at Aha! is that we invest in high-quality tooling for our engineering work. This is how Steve Lamotte quickly built such nice CLIs.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQGLRzQmIa4YPA/image-shrink_1280/image-shrink_1280/0/1691698252426?e=2147483647&v=beta&t=rZIlW5ImJYnq2yDvEFG6Q0r3w-paJn7uI7K9e2qcISY",
+    "topic": "CLI utilities",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:33.397839+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/srikanthrmn_task-runners-in-mern-stack-development-streamlining-activity-7249103310081687552-v1Gq",
+    "canonical_url": "https://www.linkedin.com/posts/srikanthrmn_task-runners-in-mern-stack-development-streamlining-activity-7249103310081687552-v1Gq",
+    "author": "Srikanth R",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Task Runners in MERN Stack Development: Streamlining Workflow Efficiency\n\nAs a MERN (MongoDB, Express.js, React, and Node.js) stack developer, managing tasks and workflows is crucial for efficient project development. Task runners simplify this process by automating repetitive tasks, enhancing productivity, and reducing errors. In this article, we'll explore task runners, their benefits, and examples relevant to MERN stack development.\n\nWhat are Task Runners?\n\nTask runners are software tools that automate tasks, such as:\n\n- Code compilation and minification\n- File watching and reloading\n- Testing and linting\n- Deployment and packaging\n\nBenefits of Task Runners in MERN Stack Development\n\n- Improved Productivity: Automate routine tasks, freeing time for core development.\n- Enhanced Efficiency: Streamline workflows, reducing manual errors.\n- Faster Development: Speed up build processes with concurrent task execution.\n\nPopular Task Runners for MERN Stack\n\n- Gulp: A popular, flexible task runner for Node.js.\n- Grunt: A widely-used task runner for JavaScript projects.\n- npm Scripts: A built-in task runner for Node.js projects.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Task runners",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:36.899290+00:00"
+  },
+  {
+    "url": "https://zw.linkedin.com/posts/folasayo-samuel-olayemi-57955b148_an-overview-of-nodejs-build-tools-and-task-activity-7063259008169648128-rHl6",
+    "canonical_url": "https://www.linkedin.com/posts/samuel-folasayo-57955b148_an-overview-of-nodejs-build-tools-and-task-activity-7063259008169648128-FE4R",
+    "author": "Samuel Folasayo",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Node.js Build Tools and Task Runners are an essential part of any modern web development process. They help developers automate repetitive tasks, streamline the build process, and ultimately save time and money. In this article, we'll provide an overview of the most popular Node.js build tools and task runners and discuss how they can benefit your development process.\n\n#webdevelopment #development #help #money Node Technologies Nodejs Developer",
+    "hashtags": [
+      "#webdevelopment",
+      "#development",
+      "#help",
+      "#money"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEepPkfWj8AQg/articleshare-shrink_800/articleshare-shrink_800/0/1712652411513?e=2147483647&v=beta&t=kiDVj8CpoF8TsyVd68LdnpzU_pgXoHL6fY3rhfuNPh8",
+    "topic": "Task runners",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:39.504613+00:00"
+  },
+  {
+    "url": "https://cr.linkedin.com/posts/miguelalho_are-you-using-local-build-tools-or-task-activity-7028041196723658752-m3uk",
+    "canonical_url": "https://www.linkedin.com/posts/miguelalho_are-you-using-local-build-tools-or-task-activity-7028041196723658752-m3uk",
+    "author": "Miguel Alho",
+    "followers": null,
+    "post_age": null,
+    "post_text": "❓ Are you using local build tools or task runners like Cake Build, Nuke (for C#), Gulp, Grunt (JS) or any other that has the same utility for whatever stack you work in? If not, why?\n\nI've noticed a trend over time, though some of the places I've worked over the past several years - there seems to be a drop in usage of them, and I can't necessarily put my finger on \"why\". Time ago, they were essential for productivity (and sanity), but that just doesn't seem to be the case anymore. There are a few things that come to mind though:\n\n* As we've moved towards declarative builds in YAML files, there is less need to have an executable, procedural build script or task list to execute the build. In this case, the build vendor has some build model you can declare, and therefore you don't want to duplicate the effort of writing the build yourself, regardless of the possible lock-in.\n* The microservice approach - small services in individual repos - may have the following effect: (1) too many repos, so setting up the build / task collection becomes overhead in each repo; (2) repos are simpler, so builds are simpler, so \"something\" simpler (a single script) is enough;\n* Setup cost for the task colleciton is greater than copying scripts or commands, or some better way of sharing reusable bits were found, so the task manager had less benefit;\n* Build definition, for whatever reason, has been offloaded to a seperate team, meaning that the tasks that would have been defined by these tools, would need to match that teams skills rather then the dev's knowledge set.\n\nHave you seen this \"trend\" like I have? Or is your context the opposite?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Task runners",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:40.204326+00:00"
+  },
+  {
+    "url": "https://bo.linkedin.com/posts/folasayo-samuel-olayemi-57955b148_an-overview-of-nodejs-build-tools-and-task-activity-7063259008169648128-rHl6",
+    "canonical_url": "https://www.linkedin.com/posts/samuel-folasayo-57955b148_an-overview-of-nodejs-build-tools-and-task-activity-7063259008169648128-FE4R",
+    "author": "Samuel Folasayo",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Node.js Build Tools and Task Runners are an essential part of any modern web development process. They help developers automate repetitive tasks, streamline the build process, and ultimately save time and money. In this article, we'll provide an overview of the most popular Node.js build tools and task runners and discuss how they can benefit your development process.\n\n#webdevelopment #development #help #money Node Technologies Nodejs Developer",
+    "hashtags": [
+      "#webdevelopment",
+      "#development",
+      "#help",
+      "#money"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEepPkfWj8AQg/articleshare-shrink_800/articleshare-shrink_800/0/1712652411513?e=2147483647&v=beta&t=kiDVj8CpoF8TsyVd68LdnpzU_pgXoHL6fY3rhfuNPh8",
+    "topic": "Task runners",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:41.077224+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/andyo_functional-languages-and-the-future-of-programming-activity-7450511718860001280-f5Sm",
+    "canonical_url": "https://www.linkedin.com/posts/andyo_functional-languages-and-the-future-of-programming-activity-7450511718860001280-f5Sm",
+    "author": "Andrew Oram",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Functional languages and the future of programming - the second part of this article discusses programming elements that originated in the functional world and penetrated more mainstream languages: type classes, pattern matching, lexical scoping, etc. https://lnkd.in/edqtNvyv",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 7,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHFpCjQeWcD4A/articleshare-shrink_1280_800/B4EZ47V9D7HYAY-/0/1779112073644?e=2147483647&v=beta&t=0kXqhP6kepR3ktBCA0MfifrikspiYcPq1dayw8--VIA",
+    "topic": "Functional languages",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:44.377038+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/arthur-howell_ready-to-take-your-understanding-of-compilers-activity-7376193507453042688-R9oM",
+    "canonical_url": "https://www.linkedin.com/posts/arthur-howell_ready-to-take-your-understanding-of-compilers-activity-7376193507453042688-R9oM",
+    "author": "Arthur Howell",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Ready to take your understanding of compilers to the next level? 🌟 Our latest blog post dives into the intriguing world of compiling functional languages using LLVM! Whether you're a seasoned developer or just dipping your toes into the coding sea, this post promises a wave of knowledge.\n\nDiscover how to transform high-level concepts into machine-ready magic. No sorcery required, just a sprinkle of curiosity and a dash of tech-savvy!\n\nClick the link to unravel the secrets of LLVM and unleash the compiler within you: https://lnkd.in/g2qChKYf",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Functional languages",
+    "score": 30,
+    "discovered_at": "2026-10-03T17:16:47.341431+00:00"
+  },
+  {
+    "url": "https://cg.linkedin.com/posts/assma-fadhli-a146071b0_aws-certified-devops-engineer-professional-activity-7048920100703211521-LFbT",
+    "canonical_url": "https://www.linkedin.com/posts/assma-fadhli_aws-certified-devops-engineer-professional-activity-7048920100703211521-1R-0",
+    "author": "Assma Fadhli",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Certification achieved! 🎉 I'm now an AWS Certified DevOps Engineer – Professional, thanks to the Exam Readiness course by AWS Skills Center. Excited to continue my career growth in cloud computing and share my future successes with all of you. 🚀 #AWS #DevOpsCertified #CloudComputing",
+    "hashtags": [
+      "#AWS",
+      "#DevOpsCertified",
+      "#CloudComputing"
+    ],
+    "engagement": {
+      "reactions": 43,
+      "comments": 6,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "DevSecOps",
+    "score": 28,
+    "discovered_at": "2026-10-03T17:16:30.299083+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/midudev_configura-tu-visual-studio-code-como-un-activity-7075828447209500672-aiJz",
+    "canonical_url": "https://es.linkedin.com/posts/midudev_configura-tu-visual-studio-code-como-un-activity-7075828447209500672-aiJz",
+    "author": "Miguel Ángel Durán García",
+    "followers": null,
+    "post_age": null,
+    "post_text": "¡Configura tu VISUAL STUDIO CODE como un PRO!\n\nTe comparto todas mis configuraciones, temas, fuentes, trucos y extensiones.\n\n✭ TEMA:\n\nEl tema y colores que estoy usando es One Dark Pro en su variante Darker.\n\nPara conseguir el mismo estilo debes activar las itálicas, las negritas y que los colores sean vívidos.\n\nEs mi preferencia personal pero a mi me gusta mucho cómo queda. ❤️\n\n✭ FUENTE:\n\nLa fuente es Cascadia Code, una fuente de Microsoft de código abierto.\n\nHay que instalar la versión Cascadia Code PL (trae ligaduras y Power Symbols).\n\nActiva las ligaduras en Code con la opción \"editor.fontLigatures\": true.\n\n✭ BARRA a la DERECHA:\n\nPongo la barra lateral a la derecha para mis streams.\n\nAsí no molesta y puedo ocultarlo sin dar saltos el código.\n\nSi te gusta, puedes moverlo a la derecha haciendo clic encima y seleccionando: \"Move Primary Side Bar Right\"\n\n✭ ICONOS:\n\nPara cambiar los iconos necesitas dos extensiones\n\n- Symbols, iconos del explorador\n- Fluent, los iconos de la barra de actividades\n\n✭ STATUS BAR:\n\nLa barra de estado de abajo del todo se puede llenar de mucho ruido al instalar extensiones.\n\nPuedes hacer clic al botón derecho sobre ella y seleccionar sólo aquella información que realmente te añade valor.\n\n✭ EXTENSIONES:\n\nAdemás de las extensiones típicas de soporte de lenguajes, idiomas y linter (Eslint y Prettier)...\n\nUso una colección que me hace ser mucho más productivo.\n\nTe dejo la lista completa en este hilo:\nhttps://lnkd.in/eDJC5Dez\n\n✭ VENTANAS + PESTAÑAS:\n\nAl usar macOS, puedes activar un modo para usar las ventanas nativas del sistema.\n\nAdemás de que ocupan menos espacio y se integran mejor, también puedes tener pestañas en las ventanas para trabajar en diferentes proyectos.\n\nBusca \"macos native tabs\" en las preferencias y actívalo.\n\n✭ OCULTAR EDITORES ABIERTOS:\n\nCon las pestañas de macOS y las del propio editor, tengo suficiente para saber qué tengo abierto.\n\nAsí que en el explorador de archivos tengo oculta la parte de \"Open Editors\" para que no ocupe espacio.\n\nDale clic a los tres puntos que hay al lado del icono de crear archivo y ocúltalo.| 16 comentarios en LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQH9r8XK_9_O9w/feedshare-shrink_800/feedshare-shrink_800/0/1687008962944?e=2147483647&v=beta&t=bNZNZtmb-r69dzuZbXmPAxtlz-DQR2VGWBtjvs2-pAI",
+    "topic": "Visual Studio Code",
+    "score": 25,
+    "discovered_at": "2026-10-03T17:15:33.813749+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/midudev_bombazo-google-lanza-su-propio-editor-de-activity-7396590792326234112-ooq8",
+    "canonical_url": "https://es.linkedin.com/posts/midudev_bombazo-google-lanza-su-propio-editor-de-activity-7396590792326234112-ooq8",
+    "author": "Miguel Ángel Durán García",
+    "followers": null,
+    "post_age": null,
+    "post_text": "¡Bombazo! Google lanza su propio editor de código.\nSe llama Antigravity y es un fork de Visual Studio Code.\n\nPero... ¡Tienes acceso gratis a Gemini 3 Pro!\nTambién a Claude 4.5 Sonnet y GPT-OSS.\n\nDisponible en macOS, Windows y Linux:\n→ antigravity.google| 138 comentarios en LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQEc2dUb5pkLOw/image-shrink_800/B4DZqX4G3QGkAc-/0/1763484660625?e=2147483647&v=beta&t=tqNuDFeH4d-Avizk1Xg3v8bYK8fhEoGI2enoVg1rCiE",
+    "topic": "Visual Studio Code",
+    "score": 25,
+    "discovered_at": "2026-10-03T17:15:36.133607+00:00"
+  },
+  {
+    "url": "https://ca.linkedin.com/posts/cas-lubbers-838baa131_avisi-cloud-activity-6889210969495506945-2K_0",
+    "canonical_url": "https://www.linkedin.com/posts/cas-lubbers-838baa131_avisi-cloud-activity-6889210969495506945-2K_0",
+    "author": "Cas Lubbers",
+    "followers": null,
+    "post_age": null,
+    "post_text": "A must have for managing Kubernetes in production!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/C5627AQGteayKSy13PA/articleshare-shrink_800/articleshare-shrink_800/0/1720986895346?e=2147483647&v=beta&t=3fAAqAL9kRYkhcGxWMF1OSb1euScyzOHEKBKgQoDdQM",
+    "topic": "Kubernetes",
+    "score": 25,
+    "discovered_at": "2026-10-03T17:15:52.080710+00:00"
+  },
+  {
+    "url": "https://by.linkedin.com/posts/jay-palamand_were-excited-to-announce-the-release-of-activity-7042237849122848768-rpvC",
+    "canonical_url": "https://www.linkedin.com/posts/jay-palamand_were-excited-to-announce-the-release-of-activity-7042237849122848768-rpvC",
+    "author": "Jay Palamand",
+    "followers": 329756,
+    "post_age": null,
+    "post_text": "Jay Palamand posted images on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 984,
+      "comments": 41,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/C5622AQGxApt9QU3-pQ/feedshare-shrink_800/feedshare-shrink_800/0/1678918248618?e=2147483647&v=beta&t=ipkYVjZFzLA4NBBnEqHIYuMQ2V9HdF0O_VYHpZqyzsY",
+    "topic": "PyTorch",
+    "score": 23,
+    "discovered_at": "2026-10-03T17:16:11.904956+00:00"
+  },
+  {
+    "url": "https://az.linkedin.com/posts/ricardofiel_github-launches-its-new-gpt-4-powered-copilot-activity-7047228631349084162-44L_",
+    "canonical_url": "https://www.linkedin.com/posts/ricardofiel_github-launches-its-new-gpt-4-powered-copilot-activity-7047228631349084162-44L_",
+    "author": "Ricardo Fiel",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Every single person I've seen using GitHub Copilot saw massive increases in productivity and will never go back.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHClFhFnwA6fQ/articleshare-shrink_800/articleshare-shrink_800/0/1713961781915?e=2147483647&v=beta&t=EDWENlRI_jDddan4NXGfM0IB8yzdY9Xt4zldCP8Zw1M",
+    "topic": "GitHub Copilot",
+    "score": 20,
+    "discovered_at": "2026-10-03T17:15:40.465043+00:00"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/wackazong_rust-meetup-16-erni-wed-sep-30-2026-activity-7510696961038024705-hGMU",
+    "canonical_url": "https://de.linkedin.com/posts/wackazong_rust-meetup-16-erni-wed-sep-30-2026-activity-7510696961038024705-hGMU",
+    "author": "Alexander Walter",
+    "followers": null,
+    "post_age": null,
+    "post_text": "Morgen spreche ich in Basel zum Thema Rust.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Rust",
+    "score": 20,
+    "discovered_at": "2026-10-03T17:15:58.632416+00:00"
+  },
+  {
+    "url": "https://sy.linkedin.com/posts/osamaelzero_خلصنا-جزء-ال-task-runners-وال-build-tools-activity-6870753587006373889-n4SH",
+    "canonical_url": "https://ae.linkedin.com/posts/osamaelzero_%D8%AE%D9%84%D8%B5%D9%86%D8%A7-%D8%AC%D8%B2%D8%A1-%D8%A7%D9%84-task-runners-%D9%88%D8%A7%D9%84-build-tools-activity-6870753587006373889-n4SH",
+    "author": "Osama Elzero",
+    "followers": null,
+    "post_age": null,
+    "post_text": "خلصنا جزء ال Task Runners وال Build Tools\nhttps://lnkd.in/eiQcrRCg",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/C4E22AQHyD-4JibU4aw/feedshare-shrink_1280/feedshare-shrink_1280/0/1638115306773?e=2147483647&v=beta&t=NmV_AYDcDiNUd8xlTcLHwMxw44k9FJGzeIiMVS6sR3Q",
+    "topic": "Task runners",
+    "score": 20,
+    "discovered_at": "2026-10-03T17:16:41.924537+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/shakthimaan_the-36th-symposium-on-implementation-and-activity-7185270978891919362-FdjI",
+    "canonical_url": "https://www.linkedin.com/posts/shakthimaan_the-36th-symposium-on-implementation-and-activity-7185270978891919362-FdjI",
+    "author": "Shakthi Kannan",
+    "followers": null,
+    "post_age": null,
+    "post_text": "The 36th Symposium on Implementation and Application of Functional Languages August 26-28, 2024 Nijmegen, Netherlands https://ifl24.cs.ru.nl/",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGSSbNJHmWF_Q/feedshare-shrink_800/feedshare-shrink_800/0/1713102095788?e=2147483647&v=beta&t=CA3qRgKkgl0LI15-1rQ64EvQV-WLgQHa4hufjtaXAzc",
+    "topic": "Functional languages",
+    "score": 20,
+    "discovered_at": "2026-10-03T17:16:47.935549+00:00"
+  },
+  {
+    "url": "https://ae.linkedin.com/posts/osamaelzero_arabic-build-an-llm-from-scratch-with-pytorch-activity-7511945422173626368-QafR",
+    "canonical_url": "https://ae.linkedin.com/posts/osamaelzero_arabic-build-an-llm-from-scratch-with-pytorch-activity-7511945422173626368-QafR",
+    "author": "Osama Elzero",
+    "followers": null,
+    "post_age": null,
+    "post_text": "الغالي ❤️❤️",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFUyL296Jg7qw/articleshare-shrink_800/B4EaD9olaUIsAQ-/0/1790961670636?e=2147483647&v=beta&t=HW8WhuzLdonpnfXCkTWY5CsXDGgbYAo2C-NW_5r6GAc",
+    "topic": "PyTorch",
+    "score": 5,
+    "discovered_at": "2026-10-03T17:16:12.613979+00:00"
+  },
+  {
+    "url": "https://ae.linkedin.com/posts/zakaria-ahmed-70387525a_arabic-build-an-llm-from-scratch-with-pytorch-activity-7511523495902752768-FRjG",
+    "canonical_url": "https://ae.linkedin.com/posts/zakaria-ahmed-70387525a_arabic-build-an-llm-from-scratch-with-pytorch-activity-7511523495902752768-FRjG",
+    "author": "Zakaria Ahmed",
+    "followers": null,
+    "post_age": null,
+    "post_text": "احنا نقفل المحتوي العربي لحد هنا 😂 Abu Bakr Soliman, MSc 🤍",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFUyL296Jg7qw/articleshare-shrink_800/B4EaD9olaUIsAQ-/0/1790961670636?e=2147483647&v=beta&t=HW8WhuzLdonpnfXCkTWY5CsXDGgbYAo2C-NW_5r6GAc",
+    "topic": "PyTorch",
+    "score": 5,
+    "discovered_at": "2026-10-03T17:16:13.826216+00:00"
+  }
+]

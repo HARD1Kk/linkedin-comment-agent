@@ -16,8 +16,8 @@ wheels/
 
 # Generated data
 post.json
-candidates.json
 
 # Scratch & test scripts
 test_*.py
 !test_main.py
+!test_notify.py

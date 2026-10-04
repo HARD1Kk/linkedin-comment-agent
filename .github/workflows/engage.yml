@@ -1,0 +1,51 @@
+name: Daily LinkedIn Engagement Pipeline
+
+on:
+  schedule:
+    # 09:00 IST is 03:30 UTC
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  engage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Sync dependencies
+        run: uv sync
+
+      - name: Run discovery and comment generation
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: uv run main.py
+
+      - name: Send Telegram notifications
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: uv run notify.py
+        continue-on-error: true
+
+      - name: Commit candidates.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add candidates.json
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: update candidates.json from daily run"
+            git push
+          else
+            echo "No changes to candidates.json"
+          fi
