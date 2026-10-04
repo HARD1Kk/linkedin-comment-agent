@@ -43,6 +43,13 @@ max_age_hours: 72
 max_comments_per_day: 5
 top_n_candidates: 5
 
+# Serper Search Provider Settings
+serper_enabled: true
+serper_results_per_query: 10
+serper_timeframe: "qdr:w"
+max_serper_calls_per_run: 20
+
+
 # Scoring Weights (Total target: 100 points)
 scoring_weights:
   recency: 35

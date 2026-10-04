@@ -16,6 +16,8 @@ wheels/
 
 # Generated data
 post.json
+serper_cache.json
+
 
 # Scratch & test scripts
 test_*.py

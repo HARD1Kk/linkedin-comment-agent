@@ -76,6 +76,10 @@ def load_config(config_path: str = "config.yaml") -> dict[str, Any]:
         "blocklist_authors": ["Spam Bot", "Promotional Account"],
         "blocklist_keywords": ["we are hiring", "job alert", "discount code", "buy now"],
         "trending_topics_enabled": False,
+        "serper_enabled": True,
+        "serper_results_per_query": 10,
+        "serper_timeframe": "qdr:w",
+        "max_serper_calls_per_run": 20,
         "max_age_hours": 72,
         "max_comments_per_day": 5,
         "top_n_candidates": 5,
@@ -86,6 +90,7 @@ def load_config(config_path: str = "config.yaml") -> dict[str, Any]:
             "engagement": 15,
         },
     }
+
 
     path = Path(config_path)
     if not path.exists():
@@ -682,77 +687,202 @@ def discover_trending_topics() -> tuple[list[str], int, int]:
 # Candidate Discovery & Topic Attribution
 # ---------------------------------------------------------
 
-def discover_linkedin_urls(topics: list[str]) -> list[tuple[str, str]]:
+SERPER_CACHE_FILE = Path("serper_cache.json")
+
+
+def load_serper_cache(cache_file: Path | str | None = None) -> dict[str, list[str]]:
+    """Loads Serper search cache from JSON file."""
+    path = Path(cache_file) if cache_file else SERPER_CACHE_FILE
+    if path.exists():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data, dict):
+                return data
+        except Exception as exc:
+            logger.warning(f"Error reading Serper cache {path}: {exc}")
+    return {}
+
+
+def save_serper_cache(
+    cache_data: dict[str, list[str]], cache_file: Path | str | None = None
+) -> None:
+    """Saves Serper search cache to JSON file."""
+    path = Path(cache_file) if cache_file else SERPER_CACHE_FILE
+    try:
+        path.write_text(
+            json.dumps(cache_data, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        logger.warning(f"Error saving Serper cache {path}: {exc}")
+
+
+
+def filter_linkedin_post_urls(urls: list[str]) -> list[str]:
+    """Filters list of URLs, keeping only those containing 'linkedin.com/posts/'."""
+    kept: list[str] = []
+    for u in urls:
+        if u and isinstance(u, str) and "linkedin.com/posts/" in u.lower():
+            kept.append(u)
+    return kept
+
+
+def search_serper(
+    query: str,
+    num: int = 10,
+    timeframe: str = "qdr:w",
+    api_key: str | None = None,
+) -> list[str]:
+    """
+    Queries google.serper.dev/search API and returns organic link URLs
+    filtered to contain 'linkedin.com/posts/'.
+    """
+    key = api_key or os.getenv("SERPER_API_KEY")
+    if not key:
+        raise ValueError("SERPER_API_KEY environment variable is missing.")
+
+    url = "https://google.serper.dev/search"
+    payload = {
+        "q": query,
+        "num": num,
+        "tbs": timeframe,
+    }
+    headers = {
+        "X-API-KEY": key,
+        "Content-Type": "application/json",
+    }
+
+    response = httpx.post(url, headers=headers, json=payload, timeout=15.0)
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"Serper API returned non-200 status code {response.status_code}: {response.text}"
+        )
+
+    data = response.json()
+    organic_results = data.get("organic", [])
+
+    links: list[str] = []
+    for item in organic_results:
+        if isinstance(item, dict):
+            link = item.get("link")
+            if link and isinstance(link, str):
+                links.append(link)
+
+    return links
+
+
+def discover_linkedin_urls(
+    topics: list[str], config: dict[str, Any] | None = None
+) -> list[tuple[str, str]]:
+    """Discovers public LinkedIn post URLs for target topics using Serper API with DDGS fallback."""
     candidates: list[tuple[str, str]] = []
     seen_urls: set[str] = set()
 
-    print("\n🌐 Initiating public discovery for LinkedIn posts...")
+    cfg = config or {}
+    serper_enabled = cfg.get("serper_enabled", True)
+    num = int(cfg.get("serper_results_per_query", 10))
+    timeframe = str(cfg.get("serper_timeframe", "qdr:w"))
+    max_calls = int(cfg.get("max_serper_calls_per_run", 20))
+
     serper_key = os.getenv("SERPER_API_KEY") or os.getenv("SEARCH_API_KEY")
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    if serper_key:
-        print("  🔑 Found SEARCH_API_KEY / SERPER_API_KEY, using Serper API...")
-        for topic in topics:
-            time.sleep(1.0)
-            try:
-                res = httpx.post(
-                    "https://google.serper.dev/search",
-                    headers={
-                        "X-API-KEY": serper_key,
-                        "Content-Type": "application/json",
-                    },
-                    json={
-                        "q": f'site:linkedin.com/posts "{topic}"',
-                        "num": 10,
-                    },
-                    timeout=10.0,
+    cache = load_serper_cache()
+    serper_calls_count = 0
+
+    print("\n🌐 Initiating public discovery for LinkedIn posts...")
+
+    for topic in topics:
+        serper_success = False
+        organic_links: list[str] = []
+        kept_links: list[str] = []
+
+        # Build Serper query: unquoted topic
+        serper_query = f"site:linkedin.com/posts {topic}"
+        cache_key = f"{serper_query}::{today_str}"
+
+        if serper_key and serper_enabled:
+            if cache_key in cache:
+                organic_links = cache[cache_key]
+                kept_links = filter_linkedin_post_urls(organic_links)
+                serper_success = True
+                logger.info(
+                    f"[Serper Cache Hit] Topic '{topic}': {len(organic_links)} returned, {len(kept_links)} kept"
                 )
-                if res.status_code == 200:
-                    for item in res.json().get("organic", []):
-                        link = item.get("link", "")
-                        if (
-                            "linkedin.com/posts/" in link
-                            or "linkedin.com/feed/update/" in link
-                        ) and link not in seen_urls:
-                            seen_urls.add(link)
-                            candidates.append((link, topic))
-            except Exception as exc:
-                print(f"  ⚠️ Search API query for topic '{topic}' failed: {exc}")
+                print(
+                    f"  📌 [Serper Cache Hit] Topic '{topic}': {len(organic_links)} returned, {len(kept_links)} kept"
+                )
+            elif serper_calls_count < max_calls:
+                time.sleep(0.5)
+                try:
+                    serper_calls_count += 1
+                    organic_links = search_serper(
+                        serper_query, num=num, timeframe=timeframe, api_key=serper_key
+                    )
+                    cache[cache_key] = organic_links
+                    save_serper_cache(cache)
+                    kept_links = filter_linkedin_post_urls(organic_links)
+                    serper_success = True
+                    logger.info(
+                        f"[Serper] Topic '{topic}': {len(organic_links)} returned, {len(kept_links)} kept"
+                    )
+                    print(
+                        f"  📌 [Serper] Topic '{topic}': {len(organic_links)} returned, {len(kept_links)} kept"
+                    )
+                except Exception as exc:
+                    logger.warning(f"Serper API query for topic '{topic}' failed: {exc}")
+                    print(
+                        f"  ⚠️ Serper query failed for topic '{topic}': {exc}. Falling back to free search."
+                    )
+            else:
+                logger.info(
+                    f"Max Serper call limit ({max_calls}) reached. Skipping Serper for topic '{topic}'."
+                )
+                print(
+                    f"  ⚠️ Max Serper call limit ({max_calls}) reached. Falling back to free search."
+                )
 
-    if not candidates:
-        print("  🔍 Querying public web search for target topics...")
+            if serper_success and kept_links:
+                for link in kept_links:
+                    if link not in seen_urls:
+                        seen_urls.add(link)
+                        candidates.append((link, topic))
+                continue
+
+        # Fallback to free DDGS search if Serper is disabled, missing key, failed, or returned zero kept URLs
+        ddgs_query = f'site:linkedin.com/posts "{topic}"'
         try:
             from ddgs import DDGS
 
             ddgs = DDGS()
-            for topic in topics:
-                time.sleep(1.0)
-                query = f'site:linkedin.com/posts "{topic}"'
-                try:
-                    results = list(ddgs.text(query, max_results=8))
-                    found_count = 0
-                    for r in results:
-                        href = r.get("href", "")
-                        if (
-                            "linkedin.com/posts/" in href
-                            or "linkedin.com/feed/update/" in href
-                        ) and href not in seen_urls:
-                            seen_urls.add(href)
-                            candidates.append((href, topic))
-                            found_count += 1
-                    print(
-                        f"  📌 Found {found_count} candidate post URLs for topic '{topic}'"
-                    )
-                except Exception as exc:
-                    print(
-                        f"  ⚠️ Public search query failed for topic '{topic}': {exc}"
-                    )
+            time.sleep(0.5)
+            results = list(ddgs.text(ddgs_query, max_results=8))
+            ddgs_returned = len(results)
+            found_count = 0
+            for r in results:
+                href = r.get("href", "")
+                if (
+                    "linkedin.com/posts/" in href
+                    or "linkedin.com/feed/update/" in href
+                ) and href not in seen_urls:
+                    seen_urls.add(href)
+                    candidates.append((href, topic))
+                    found_count += 1
+            logger.info(
+                f"[DDGS Fallback] Topic '{topic}': {ddgs_returned} returned, {found_count} kept"
+            )
+            print(
+                f"  📌 [DDGS Fallback] Topic '{topic}': {ddgs_returned} returned, {found_count} kept"
+            )
         except Exception as exc:
-            print(f"  ⚠️ DDGS initialization error: {exc}")
+            logger.warning(f"Public search query failed for topic '{topic}': {exc}")
+            print(f"  ⚠️ Public search query failed for topic '{topic}': {exc}")
 
     print(
         f"✅ Discovery completed. Found {len(candidates)} unique candidate post URLs.\n"
     )
     return candidates
+
 
 
 # ---------------------------------------------------------
@@ -1009,7 +1139,8 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     print(f"Fallback topics added:  {fallback_count}")
     print(f"Total topics searched:  {len(topics)}")
 
-    url_topic_pairs = discover_linkedin_urls(topics)
+    url_topic_pairs = discover_linkedin_urls(topics, config=config)
+
 
     if not url_topic_pairs:
         print("❌ No LinkedIn post URLs could be discovered.")

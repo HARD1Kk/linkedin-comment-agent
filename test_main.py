@@ -1,9 +1,14 @@
 import json
 import os
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
+from unittest.mock import patch, MagicMock
+
 from bs4 import BeautifulSoup
+
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -422,6 +427,139 @@ class TestCommentGenerator(unittest.TestCase):
         self.assertEqual(candidate["skip_reason"], "Reviewer output SKIP")
 
 
+from main import (
+    search_serper,
+    filter_linkedin_post_urls,
+    load_serper_cache,
+    save_serper_cache,
+    discover_linkedin_urls,
+)
+
+
+class TestSerperSearch(unittest.TestCase):
+
+    @patch("httpx.post")
+    def test_search_serper_success(self, mock_post):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "organic": [
+                {"link": "https://www.linkedin.com/posts/user1-topic-123"},
+                {"link": "https://nl.linkedin.com/posts/user2-topic-456"},
+                {"link": "https://github.com/some/repo"},
+            ]
+        }
+        mock_post.return_value = mock_resp
+
+        links = search_serper("site:linkedin.com/posts FastAPI", num=10, api_key="dummy_serper_key")
+        self.assertEqual(len(links), 3)
+        self.assertIn("https://www.linkedin.com/posts/user1-topic-123", links)
+
+    def test_filter_linkedin_post_urls(self):
+        urls = [
+            "https://www.linkedin.com/posts/user1-topic-123",
+            "https://nl.linkedin.com/posts/user2-topic-456",
+            "https://www.linkedin.com/in/john-doe",
+            "https://github.com/some/repo",
+            "https://example.com/article",
+        ]
+        filtered = filter_linkedin_post_urls(urls)
+        self.assertEqual(len(filtered), 2)
+        self.assertEqual(filtered[0], "https://www.linkedin.com/posts/user1-topic-123")
+        self.assertEqual(filtered[1], "https://nl.linkedin.com/posts/user2-topic-456")
+
+    @patch("httpx.post")
+    def test_search_serper_non_200_error(self, mock_post):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 500
+        mock_resp.text = "Internal Server Error"
+        mock_post.return_value = mock_resp
+
+        with self.assertRaises(RuntimeError):
+            search_serper("query", api_key="dummy_key")
+
+    @patch("main.os.getenv", return_value=None)
+    @patch("ddgs.DDGS")
+
+    def test_missing_api_key_fallback(self, mock_ddgs, mock_env):
+        mock_ddgs_inst = MagicMock()
+        mock_ddgs_inst.text.return_value = [
+            {"href": "https://www.linkedin.com/posts/fallback-post-123"}
+        ]
+        mock_ddgs.return_value = mock_ddgs_inst
+
+        config = {"serper_enabled": True}
+        candidates = discover_linkedin_urls(["FastAPI"], config=config)
+
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(candidates[0][0], "https://www.linkedin.com/posts/fallback-post-123")
+
+    @patch("httpx.post")
+    def test_cache_hit_prevents_api_call(self, mock_post):
+        with tempfile.NamedTemporaryFile("w+", delete=False, encoding="utf-8") as tmp_cache:
+            tmp_cache_path = tmp_cache.name
+
+        try:
+            today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            query = "site:linkedin.com/posts FastAPI"
+            cache_key = f"{query}::{today_str}"
+            cached_data = {
+                cache_key: [
+                    "https://www.linkedin.com/posts/cached-post-123"
+                ]
+            }
+            save_serper_cache(cached_data, cache_file=tmp_cache_path)
+
+            with patch("main.SERPER_CACHE_FILE", Path(tmp_cache_path)), \
+                 patch("main.os.getenv", return_value="dummy_key"):
+                
+                config = {"serper_enabled": True}
+                candidates = discover_linkedin_urls(["FastAPI"], config=config)
+
+                self.assertEqual(len(candidates), 1)
+                self.assertEqual(candidates[0][0], "https://www.linkedin.com/posts/cached-post-123")
+                mock_post.assert_not_called()
+        finally:
+            if os.path.exists(tmp_cache_path):
+                os.remove(tmp_cache_path)
+
+    @patch("httpx.post")
+    def test_max_call_limit_reached(self, mock_post):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "organic": [{"link": "https://www.linkedin.com/posts/serper-post-1"}]
+        }
+        mock_post.return_value = mock_resp
+
+        with tempfile.NamedTemporaryFile("w+", delete=False, encoding="utf-8") as tmp_cache:
+            tmp_cache_path = tmp_cache.name
+
+        try:
+            with patch("main.SERPER_CACHE_FILE", Path(tmp_cache_path)), \
+                 patch("main.os.getenv", return_value="dummy_key"), \
+                 patch("ddgs.DDGS") as mock_ddgs:
+
+
+                mock_ddgs_inst = MagicMock()
+                mock_ddgs_inst.text.return_value = [
+                    {"href": "https://www.linkedin.com/posts/ddgs-fallback-post-2"}
+                ]
+                mock_ddgs.return_value = mock_ddgs_inst
+
+                # Limit max_serper_calls_per_run to 1, but provide 2 topics
+                config = {"serper_enabled": True, "max_serper_calls_per_run": 1}
+                candidates = discover_linkedin_urls(["Topic1", "Topic2"], config=config)
+
+                # Should call Serper once for Topic1, then fall back for Topic2
+                self.assertEqual(mock_post.call_count, 1)
+                self.assertEqual(len(candidates), 2)
+        finally:
+            if os.path.exists(tmp_cache_path):
+                os.remove(tmp_cache_path)
+
+
 if __name__ == "__main__":
     unittest.main()
+
 
