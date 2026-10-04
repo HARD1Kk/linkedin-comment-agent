@@ -221,6 +221,12 @@ def passes_basic_checks(comment: str, first_name: str) -> tuple[bool, list[str]]
     return is_passing, failed_checks
 
 
+def is_debug_llm() -> bool:
+    """Checks if DEBUG_LLM environment variable is enabled."""
+    val = os.getenv("DEBUG_LLM", "").strip().lower()
+    return val in ("1", "true", "yes", "on")
+
+
 def _call_groq_with_retry(
     client: Groq,
     system_prompt: str,
@@ -228,28 +234,53 @@ def _call_groq_with_retry(
     max_retries: int = 3,
     initial_delay: float = 1.0,
 ) -> str:
-    """Calls Groq completions API with exponential backoff retries."""
+    """
+    Calls Groq completions API with exponential backoff retries.
+    Returns completion_text string.
+    Raises ValueError on empty response content to trigger retry.
+    """
     delay = initial_delay
     last_exception: Exception | None = None
 
     for attempt in range(1, max_retries + 1):
         try:
-            completion = client.chat.completions.create(
-                model=MODEL_NAME,
-                messages=[
+            kwargs: dict[str, Any] = {
+                "model": MODEL_NAME,
+                "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                temperature=0.7,
-                max_completion_tokens=300,
-                top_p=1,
+                "temperature": 0.7,
+                "max_completion_tokens": 4096,
+                "top_p": 1,
+            }
+            if "gpt-oss" in MODEL_NAME.lower() or "r1" in MODEL_NAME.lower():
+                kwargs["extra_body"] = {"reasoning_format": "hidden"}
+
+            completion = client.chat.completions.create(**kwargs)
+            choice = completion.choices[0]
+            raw_text = (choice.message.content or "").strip()
+            finish_reason = (
+                getattr(choice, "finish_reason", None)
+                or getattr(choice, "native_finish_reason", None)
+                or "stop"
             )
-            text = completion.choices[0].message.content.strip()
-            return text
+
+            if is_debug_llm():
+                logger.info(
+                    f"[DEBUG_LLM] Raw response (first 300 chars): {raw_text[:300]!r} | finish_reason: {finish_reason}"
+                )
+
+            if not raw_text:
+                raise ValueError(
+                    f"LLM returned empty message content (finish_reason: {finish_reason})"
+                )
+
+            return raw_text
         except Exception as exc:
             last_exception = exc
             logger.warning(
-                f"Groq API call attempt {attempt}/{max_retries} failed: {exc}"
+                f"Groq API call attempt {attempt}/{max_retries} failed ({type(exc).__name__}): {exc}"
             )
             if attempt < max_retries:
                 time.sleep(delay)
@@ -260,28 +291,45 @@ def _call_groq_with_retry(
     raise RuntimeError("Groq API call failed after retries.")
 
 
-def generate_comment(post: dict[str, Any], config: dict[str, Any] | None = None) -> str:
+def generate_comment(
+    post: dict[str, Any],
+    config: dict[str, Any] | None = None,
+    verbose: bool = False,
+) -> str:
     """
     Generate a human-sounding LinkedIn comment for a candidate post using Groq API.
     Enforces author first-name extraction, deterministic basic checks, retry with feedback,
-    and a reviewer pass. Updates post dict with 'status' ('new' or 'skipped') and 'skip_reason'.
+    and a reviewer pass. Updates post dict with 'status', 'skip_reason', and 'failure_reason'.
     Total LLM calls per candidate are capped at 4.
     """
     author_raw = post.get("author")
     first_name = extract_author_first_name(author_raw)
     logger.info(f"[{author_raw}] Extracting author first name: '{first_name}'")
 
+    if verbose:
+        print(f"\n[1/4] Author Extraction:")
+        print(f"  Raw Author: '{author_raw}'")
+        print(f"  Extracted First Name: '{first_name}'")
+
     if not first_name:
+        reason = "Author is a company/brand or first name could not be determined"
         post["status"] = "skipped"
-        post["skip_reason"] = "Author is a company/brand or first name could not be determined"
-        logger.warning(f"[{author_raw}] Candidate skipped: {post['skip_reason']}")
+        post["skip_reason"] = reason
+        post["failure_reason"] = f"generator_skip: {reason}"
+        logger.warning(f"[{author_raw}] Candidate skipped: {reason}")
+        if verbose:
+            print(f"  ❌ SKIPPED: {reason}")
         return ""
 
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
-        logger.warning("GROQ_API_KEY not found in environment variables.")
+        err_msg = "GROQ_API_KEY not found in environment"
+        logger.warning(err_msg)
         post["status"] = "skipped"
-        post["skip_reason"] = "GROQ_API_KEY not found in environment"
+        post["skip_reason"] = err_msg
+        post["failure_reason"] = f"api_error: KeyError - {err_msg}"
+        if verbose:
+            print(f"  ❌ SKIPPED: {err_msg}")
         return ""
 
     config = config or {}
@@ -300,12 +348,22 @@ def generate_comment(post: dict[str, Any], config: dict[str, Any] | None = None)
     client = Groq(api_key=api_key)
 
     # Prepare Prompts
-    system_prompt = SYSTEM_PROMPT.format(
-        niche_description=niche_desc,
-        author_first_name=first_name,
-        post_text=post_text,
-        draft_comment="",
-    )
+    try:
+        system_prompt = SYSTEM_PROMPT.format(
+            niche_description=niche_desc,
+            author_first_name=first_name,
+            post_text=post_text,
+            draft_comment="",
+        )
+    except Exception as exc:
+        err = f"prompt_format_error: {type(exc).__name__} - {exc}"
+        post["status"] = "skipped"
+        post["skip_reason"] = f"System prompt format error: {exc}"
+        post["failure_reason"] = err
+        logger.error(f"[{author}] {err}")
+        if verbose:
+            print(f"  ❌ {err}")
+        return ""
 
     user_prompt = f"""Topic: {topic}
 Author: {author}
@@ -316,48 +374,108 @@ Post Text:
 
 Generate ONE high-value, natural LinkedIn comment following all instructions. Return ONLY the comment text."""
 
+    if verbose:
+        print(f"\n[2/4] Formatted System & User Prompts:")
+        print(f"--- SYSTEM PROMPT ---\n{system_prompt}\n")
+        print(f"--- USER PROMPT ---\n{user_prompt}\n")
+
     try:
         # a. Initial Draft Generation
         logger.info(f"[{author}] Generating initial draft comment...")
         llm_calls += 1
-        raw_draft = _call_groq_with_retry(client, system_prompt, user_prompt, max_retries=3)
+        try:
+            raw_draft = _call_groq_with_retry(client, system_prompt, user_prompt, max_retries=3)
+        except Exception as exc:
+            exc_type = type(exc).__name__
+            if "empty" in str(exc).lower():
+                fail_reason = f"empty_response: {exc}"
+            else:
+                fail_reason = f"api_error: {exc_type} - {exc}"
+            post["status"] = "skipped"
+            post["skip_reason"] = f"Initial draft API error: {exc}"
+            post["failure_reason"] = fail_reason
+            logger.error(f"[{author}] {fail_reason}")
+            if verbose:
+                print(f"  ❌ {fail_reason}")
+            return ""
+
+        if verbose:
+            print(f"--- Generator Raw Draft ---")
+            print(raw_draft)
+
         comment = normalize_comment_text(raw_draft)
 
         if comment.upper() == "SKIP":
+            reason = "LLM generated SKIP on initial draft"
             post["status"] = "skipped"
-            post["skip_reason"] = "LLM generated SKIP on initial draft"
-            logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+            post["skip_reason"] = reason
+            post["failure_reason"] = f"generator_skip: {reason}"
+            logger.info(f"[{author}] Candidate skipped: {reason}")
+            if verbose:
+                print(f"  ❌ SKIPPED: {reason}")
             return ""
 
         # b. Basic Checks
         passed, failed_checks = passes_basic_checks(comment, first_name)
+        if verbose:
+            print(f"\n[3/4] Basic Checks:")
+            print(f"  Normalized Comment: {comment!r}")
+            print(f"  Passed: {passed}")
+            if failed_checks:
+                print(f"  Failed Checks: {failed_checks}")
+
         if not passed:
             logger.warning(
                 f"[{author}] Initial draft failed basic checks: {failed_checks}. Retrying generation once with feedback..."
             )
             if llm_calls >= MAX_LLM_CALLS:
+                reason = f"Failed basic checks and reached LLM call limit: {', '.join(failed_checks)}"
                 post["status"] = "skipped"
-                post["skip_reason"] = f"Failed basic checks and reached LLM call limit: {', '.join(failed_checks)}"
-                logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+                post["skip_reason"] = reason
+                post["failure_reason"] = f"basic_checks_failed: {', '.join(failed_checks)}"
+                logger.info(f"[{author}] Candidate skipped: {reason}")
                 return ""
 
             feedback = "\n".join([f"- {fc}" for fc in failed_checks])
             retry_user_prompt = f"{user_prompt}\n\nPrevious draft failed these checks:\n{feedback}\nPlease generate a new comment fixing all failed checks."
             llm_calls += 1
-            raw_retry = _call_groq_with_retry(client, system_prompt, retry_user_prompt, max_retries=3)
+            try:
+                raw_retry = _call_groq_with_retry(client, system_prompt, retry_user_prompt, max_retries=3)
+            except Exception as exc:
+                exc_type = type(exc).__name__
+                if "empty" in str(exc).lower():
+                    fail_reason = f"empty_response: {exc}"
+                else:
+                    fail_reason = f"api_error: {exc_type} - {exc}"
+                post["status"] = "skipped"
+                post["skip_reason"] = f"Retry draft API error: {exc}"
+                post["failure_reason"] = fail_reason
+                logger.error(f"[{author}] {fail_reason}")
+                return ""
+
+            if verbose:
+                print(f"--- Generator Raw Retry ---")
+                print(raw_retry)
+
             comment = normalize_comment_text(raw_retry)
 
             if comment.upper() == "SKIP":
+                reason = "LLM generated SKIP on retry draft"
                 post["status"] = "skipped"
-                post["skip_reason"] = "LLM generated SKIP on retry draft"
-                logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+                post["skip_reason"] = reason
+                post["failure_reason"] = f"generator_skip: {reason}"
+                logger.info(f"[{author}] Candidate skipped: {reason}")
                 return ""
 
             passed, failed_checks = passes_basic_checks(comment, first_name)
             if not passed:
+                reason = f"Failed basic checks after retry: {', '.join(failed_checks)}"
                 post["status"] = "skipped"
-                post["skip_reason"] = f"Failed basic checks after retry: {', '.join(failed_checks)}"
-                logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+                post["skip_reason"] = reason
+                post["failure_reason"] = f"basic_checks_failed: {', '.join(failed_checks)}"
+                logger.info(f"[{author}] Candidate skipped: {reason}")
+                if verbose:
+                    print(f"  ❌ Retry failed basic checks: {failed_checks}")
                 return ""
             else:
                 logger.info(f"[{author}] Retry draft passed basic checks.")
@@ -366,76 +484,115 @@ Generate ONE high-value, natural LinkedIn comment following all instructions. Re
 
         # c. Reviewer Pass
         if llm_calls >= MAX_LLM_CALLS:
+            reason = "Reached LLM call limit before reviewer pass"
             post["status"] = "skipped"
-            post["skip_reason"] = "Reached LLM call limit before reviewer pass"
-            logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+            post["skip_reason"] = reason
+            post["failure_reason"] = f"generator_skip: {reason}"
+            logger.info(f"[{author}] Candidate skipped: {reason}")
             return ""
 
-        check_prompt = SELF_CHECK_PROMPT.format(
-            post_text=post_text[:1200],
-            draft_comment=comment,
-            author_first_name=first_name,
-            niche_description=niche_desc,
-        )
+        try:
+            check_prompt = SELF_CHECK_PROMPT.format(
+                post_text=post_text[:1200],
+                draft_comment=comment,
+                author_first_name=first_name,
+                niche_description=niche_desc,
+            )
+        except Exception as exc:
+            err = f"prompt_format_error: {type(exc).__name__} - {exc}"
+            post["status"] = "skipped"
+            post["skip_reason"] = f"Reviewer prompt format error: {exc}"
+            post["failure_reason"] = err
+            logger.error(f"[{author}] {err}")
+            return ""
 
         logger.info(f"[{author}] Running reviewer evaluation...")
         llm_calls += 1
-        reviewer_resp = _call_groq_with_retry(
-            client,
-            system_prompt="You are a strict text quality reviewer.",
-            user_prompt=check_prompt,
-            max_retries=2,
-        )
+        try:
+            reviewer_resp = _call_groq_with_retry(
+                client,
+                system_prompt="You are a strict text quality reviewer.",
+                user_prompt=check_prompt,
+                max_retries=2,
+            )
+        except Exception as exc:
+            exc_type = type(exc).__name__
+            if "empty" in str(exc).lower():
+                fail_reason = f"empty_response: {exc}"
+            else:
+                fail_reason = f"api_error: {exc_type} - {exc}"
+            post["status"] = "skipped"
+            post["skip_reason"] = f"Reviewer API error: {exc}"
+            post["failure_reason"] = fail_reason
+            logger.error(f"[{author}] {fail_reason}")
+            return ""
+
+        if verbose:
+            print(f"\n[4/4] Reviewer Pass:")
+            print(f"--- Reviewer Raw Output ---\n{reviewer_resp}\n")
+
         reviewer_resp_clean = reviewer_resp.strip()
 
         if reviewer_resp_clean.upper() == "PASSED":
             post["status"] = "new"
+            post["failure_reason"] = None
             post["generated_comment"] = comment
             logger.info(f"[{author}] Reviewer returned PASSED. Final comment approved.")
             return comment
 
         if reviewer_resp_clean.upper() == "SKIP":
+            reason = "Reviewer output SKIP"
             post["status"] = "skipped"
-            post["skip_reason"] = "Reviewer output SKIP"
-            logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+            post["skip_reason"] = reason
+            post["failure_reason"] = f"reviewer_skip: {reason}"
+            logger.info(f"[{author}] Candidate skipped: {reason}")
             return ""
 
         if reviewer_resp_clean.startswith("REWRITE:"):
             raw_rewrite = reviewer_resp_clean.replace("REWRITE:", "").strip()
             rewrite_text = normalize_comment_text(raw_rewrite)
             if rewrite_text.upper() == "SKIP":
+                reason = "Reviewer rewrite returned SKIP"
                 post["status"] = "skipped"
-                post["skip_reason"] = "Reviewer rewrite returned SKIP"
-                logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+                post["skip_reason"] = reason
+                post["failure_reason"] = f"reviewer_skip: {reason}"
+                logger.info(f"[{author}] Candidate skipped: {reason}")
                 return ""
 
             rw_passed, rw_failed = passes_basic_checks(rewrite_text, first_name)
             if rw_passed:
                 post["status"] = "new"
+                post["failure_reason"] = None
                 post["generated_comment"] = rewrite_text
                 logger.info(f"[{author}] Reviewer returned REWRITE which passed basic checks. Final comment approved.")
                 return rewrite_text
             else:
+                reason = f"Reviewer rewrite failed basic checks: {', '.join(rw_failed)}"
                 post["status"] = "skipped"
-                post["skip_reason"] = f"Reviewer rewrite failed basic checks: {', '.join(rw_failed)}"
-                logger.info(f"[{author}] Candidate skipped: {post['skip_reason']}")
+                post["skip_reason"] = reason
+                post["failure_reason"] = f"reviewer_rewrite_failed_checks: {', '.join(rw_failed)}"
+                logger.info(f"[{author}] Candidate skipped: {reason}")
                 return ""
 
         # Default fallback if reviewer response is generic text
         rw_passed, rw_failed = passes_basic_checks(reviewer_resp_clean, first_name)
         if rw_passed:
             post["status"] = "new"
+            post["failure_reason"] = None
             post["generated_comment"] = reviewer_resp_clean
             logger.info(f"[{author}] Reviewer output accepted. Final comment approved.")
             return reviewer_resp_clean
         else:
             post["status"] = "new"
+            post["failure_reason"] = None
             post["generated_comment"] = comment
             logger.info(f"[{author}] Reviewer evaluation complete. Final comment approved.")
             return comment
 
     except Exception as exc:
+        exc_type = type(exc).__name__
         logger.error(f"[{author}] Comment generation failed: {exc}", exc_info=True)
         post["status"] = "skipped"
-        post["skip_reason"] = f"Error during comment generation: {exc}"
+        post["skip_reason"] = f"Error during comment generation ({exc_type}): {exc}"
+        post["failure_reason"] = f"api_error: {exc_type} - {exc}"
         return ""

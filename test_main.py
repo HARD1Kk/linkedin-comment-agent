@@ -585,6 +585,52 @@ class TestSerperSearch(unittest.TestCase):
             self.assertIn("PyDantic", topics)
             self.assertEqual(d_count, 2)
 
+    def test_prompts_formatting(self):
+        """Verify that both system and reviewer prompts format without KeyError/ValueError for all 4 placeholders."""
+        from comment_generator import SYSTEM_PROMPT, SELF_CHECK_PROMPT
+
+        sample_kwargs = {
+            "niche_description": "Software Engineering and Python",
+            "author_first_name": "Ilker",
+            "post_text": "Evaluating LLM pipelines with Promptfoo and deterministic tests.",
+            "draft_comment": "Ilker, deterministic evaluation is great for factuality, but stochastic runs reveal edge cases.",
+        }
+
+        formatted_sys = SYSTEM_PROMPT.format(**sample_kwargs)
+        self.assertIn("Ilker", formatted_sys)
+        self.assertIn("Software Engineering", formatted_sys)
+
+        formatted_rev = SELF_CHECK_PROMPT.format(**sample_kwargs)
+        self.assertIn("Ilker", formatted_rev)
+        self.assertIn("Promptfoo", formatted_rev)
+
+    @patch("comment_generator.Groq")
+    def test_empty_response_handling(self, mock_groq):
+        """Verify _call_groq_with_retry treats empty content as retryable error."""
+        from comment_generator import _call_groq_with_retry
+
+        mock_client = MagicMock()
+        mock_choice = MagicMock()
+        mock_choice.message.content = ""
+        mock_choice.finish_reason = "length"
+        mock_comp = MagicMock()
+        mock_comp.choices = [mock_choice]
+        mock_client.chat.completions.create.return_value = mock_comp
+
+        with self.assertRaises(ValueError) as ctx:
+            _call_groq_with_retry(mock_client, "sys", "user", max_retries=1)
+        self.assertIn("empty message content", str(ctx.exception))
+
+    def test_candidate_failure_reason_recording(self):
+        """Verify generate_comment records failure_reason in post dict when skipping."""
+        from comment_generator import generate_comment
+
+        # 1. Company account -> generator_skip
+        company_post = {"author": "Tech Solutions Inc", "post_text": "Sample text"}
+        generate_comment(company_post)
+        self.assertEqual(company_post.get("status"), "skipped")
+        self.assertTrue(company_post.get("failure_reason", "").startswith("generator_skip:"))
+
 
 if __name__ == "__main__":
     unittest.main()

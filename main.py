@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -1291,6 +1292,7 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
 
     comments_generated = 0
     comment_failures = 0
+    failure_counts: dict[str, int] = defaultdict(int)
 
     print("\n🤖 Generating Groq-powered comments for top candidates...")
     if remaining_comment_quota <= 0:
@@ -1301,6 +1303,9 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
                 print(f"  ⚠️ Daily limit of {max_daily_comments} comments reached. Skipping remaining.")
                 break
 
+            if idx > 1:
+                time.sleep(2.0)
+
             print(
                 f"   Generating comment for candidate #{idx} ({c.get('topic')}, score: {c.get('score')})..."
             )
@@ -1310,6 +1315,11 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
                 comments_generated += 1
             else:
                 comment_failures += 1
+                fail_reason = c.get("failure_reason") or c.get("skip_reason") or "unknown_failure"
+                print(f"      ❌ Candidate #{idx} failed: {fail_reason}")
+
+                cat_prefix = fail_reason.split(":")[0].strip() if ":" in fail_reason else fail_reason.strip()
+                failure_counts[cat_prefix] += 1
 
             c["generated_comment"] = comm
 
@@ -1329,6 +1339,10 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     print(f"Top selected:                   {min(top_n, len(new_candidates))}")
     print(f"Comments generated successfully: {comments_generated}")
     print(f"Comment generation failures:     {comment_failures}")
+    if failure_counts:
+        print("\nFailure Reasons Breakdown:")
+        for cat, count in sorted(failure_counts.items()):
+            print(f"  - {cat}: {count}")
     print("=" * 50 + "\n")
 
     display_top_candidates(new_candidates, top_n=top_n)
@@ -1339,6 +1353,50 @@ def save_result(data: dict[str, Any]) -> None:
         json.dumps(data, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
+
+
+def run_test_one(url: str, config_path: str = "config.yaml") -> None:
+    """Runs full comment generation, check, and review flow for a single URL and prints intermediate outputs."""
+    print("=" * 60)
+    print(f"🧪 RUNNING TEST-ONE FLOW FOR: {url}")
+    print("=" * 60)
+
+    url_clean = url.strip()
+    if not validate_linkedin_url(url_clean):
+        print("❌ Invalid LinkedIn post URL format.")
+        return
+
+    config = load_config(config_path)
+    print("📥 Fetching URL content...")
+    try:
+        status_code, html = fetch_url(url_clean)
+        print(f"   HTTP status: {status_code}")
+        if status_code >= 400:
+            print("❌ HTTP error fetching post.")
+            return
+    except Exception as exc:
+        print(f"❌ Failed to fetch URL: {exc}")
+        return
+
+    data = extract_post_data(url_clean, html)
+    print("\n--- Extracted Candidate Post ---")
+    print(f"Author:       {data.get('author')}")
+    first_name = extract_author_first_name(data.get('author'))
+    print(f"First Name:   {first_name}")
+    print(f"Age:          {data.get('post_age')}")
+    print(f"Text Snippet: {(data.get('post_text') or '')[:200]!r}")
+
+    print("\n--- Running Comment Generator Flow ---")
+    comment = generate_comment(data, config=config, verbose=True)
+
+    print("\n" + "=" * 60)
+    print("TEST-ONE FINAL RESULT")
+    print("=" * 60)
+    print(f"Status:         {data.get('status')}")
+    print(f"Skip Reason:    {data.get('skip_reason')}")
+    print(f"Failure Reason: {data.get('failure_reason')}")
+    print(f"Final Comment:  {comment!r}")
+    print("=" * 60)
 
 
 def main() -> None:
@@ -1359,8 +1417,18 @@ def main() -> None:
         default="config.yaml",
         help="Path to YAML configuration file.",
     )
+    parser.add_argument(
+        "--test-one",
+        default=None,
+        metavar="POST_URL",
+        help="Run full comment generation, check, and review flow for a single LinkedIn post URL.",
+    )
 
     args = parser.parse_args()
+
+    if args.test_one:
+        run_test_one(args.test_one, config_path=args.config)
+        return
 
     if not args.url:
         run_discovery_workflow(config_path=args.config)
