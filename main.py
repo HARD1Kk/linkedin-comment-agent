@@ -614,7 +614,7 @@ def normalize_topics(raw_topics: list[str]) -> list[str]:
     return normalized
 
 
-def discover_trending_topics() -> tuple[list[str], int, int]:
+def discover_trending_topics(niche_description: str = "") -> tuple[list[str], int, int]:
     logger.info("Gathering recent public web search signals for dynamic topic discovery...")
     print("\n🌐 Gathering recent public web search signals for trending tech topics...")
 
@@ -624,22 +624,45 @@ def discover_trending_topics() -> tuple[list[str], int, int]:
     ]
     snippets = []
 
-    try:
-        from ddgs import DDGS
-
-        ddgs = DDGS()
+    serper_key = os.getenv("SERPER_API_KEY")
+    if serper_key:
         for q in queries:
             try:
-                res = list(ddgs.text(q, max_results=8))
-                for r in res:
-                    title = r.get("title", "")
-                    body = r.get("body", "")
-                    if title or body:
-                        snippets.append(f"Title: {title}\nSnippet: {body}")
+                url = "https://google.serper.dev/search"
+                headers = {
+                    "X-API-KEY": serper_key,
+                    "Content-Type": "application/json",
+                }
+                payload = {"q": q, "num": 8, "tbs": "qdr:w"}
+                resp = httpx.post(url, headers=headers, json=payload, timeout=10.0)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    for item in data.get("organic", []):
+                        if isinstance(item, dict):
+                            title = item.get("title", "")
+                            snippet = item.get("snippet", "")
+                            if title or snippet:
+                                snippets.append(f"Title: {title}\nSnippet: {snippet}")
             except Exception as exc:
-                logger.warning(f"Public web query '{q}' failed: {exc}")
-    except Exception as exc:
-        logger.warning(f"DDGS initialization error: {exc}")
+                logger.warning(f"Serper web query '{q}' for trending topics failed: {exc}")
+
+    if not snippets:
+        try:
+            from ddgs import DDGS
+
+            ddgs = DDGS()
+            for q in queries:
+                try:
+                    res = list(ddgs.text(q, max_results=8))
+                    for r in res:
+                        title = r.get("title", "")
+                        body = r.get("body", "")
+                        if title or body:
+                            snippets.append(f"Title: {title}\nSnippet: {body}")
+                except Exception as exc:
+                    logger.warning(f"Public web query '{q}' failed: {exc}")
+        except Exception as exc:
+            logger.warning(f"DDGS initialization error: {exc}")
 
     dynamic_topics = []
     if snippets:
@@ -647,9 +670,24 @@ def discover_trending_topics() -> tuple[list[str], int, int]:
         api_key = os.getenv("GROQ_API_KEY")
         if api_key:
             prompt_template = load_prompt("trending_topics_prompt.txt")
-            prompt = prompt_template.format(
-                context=context, count=TRENDING_TOPIC_COUNT
+            niche_text = (
+                niche_description.strip()
+                if niche_description and niche_description.strip()
+                else "Software engineering, backend architecture, Python, AI developer tools"
             )
+            try:
+                prompt = prompt_template.format(
+                    context=context,
+                    count=TRENDING_TOPIC_COUNT,
+                    niche_description=niche_text,
+                )
+            except KeyError as ke:
+                logger.warning(f"Missing key in trending_topics_prompt.txt template: {ke}")
+                prompt = (
+                    prompt_template.replace("{context}", context)
+                    .replace("{count}", str(TRENDING_TOPIC_COUNT))
+                    .replace("{niche_description}", niche_text)
+                )
 
             try:
                 from groq import Groq
@@ -1117,7 +1155,8 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     topics = list(target_topics)
 
     if trending_enabled:
-        trending_topics, d_count, f_count = discover_trending_topics()
+        niche_desc = str(config.get("niche_description", "")).strip()
+        trending_topics, d_count, f_count = discover_trending_topics(niche_description=niche_desc)
         dynamic_count = d_count
         fallback_count = f_count
         for tt in trending_topics:

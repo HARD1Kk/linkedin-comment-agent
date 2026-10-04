@@ -35,6 +35,7 @@ from main import (
     normalize_topics,
     parse_age_in_hours,
     extract_author_from_url,
+    discover_trending_topics,
 )
 
 
@@ -557,6 +558,32 @@ class TestSerperSearch(unittest.TestCase):
         finally:
             if os.path.exists(tmp_cache_path):
                 os.remove(tmp_cache_path)
+
+    @patch("httpx.post")
+    @patch("groq.Groq")
+    def test_discover_trending_topics_with_niche(self, mock_groq, mock_post):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "organic": [
+                {"title": "Latest Python Trends", "snippet": "FastAPI and PyDantic 2026 updates"}
+            ]
+        }
+        mock_post.return_value = mock_resp
+
+        mock_client = MagicMock()
+        mock_comp = MagicMock()
+        mock_comp.choices = [MagicMock(message=MagicMock(content='["FastAPI", "PyDantic"]'))]
+        mock_client.chat.completions.create.return_value = mock_comp
+        mock_groq.return_value = mock_client
+
+        with patch("main.os.getenv") as mock_env:
+            mock_env.side_effect = lambda k: "dummy_key" if k in ("SERPER_API_KEY", "GROQ_API_KEY") else None
+            topics, d_count, f_count = discover_trending_topics(niche_description="Python AI dev")
+
+            self.assertIn("FastAPI", topics)
+            self.assertIn("PyDantic", topics)
+            self.assertEqual(d_count, 2)
 
 
 if __name__ == "__main__":
