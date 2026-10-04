@@ -12,6 +12,14 @@ from urllib.parse import urlparse
 
 import httpx
 from bs4 import BeautifulSoup
+from comment_generator import (
+    generate_comment,
+    is_company_account,
+    extract_author_first_name,
+    normalize_comment_text,
+    passes_basic_checks,
+)
+
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s - %(message)s"
@@ -20,6 +28,14 @@ logger = logging.getLogger("linkedin_agent")
 
 OUTPUT_FILE = Path("post.json")
 CANDIDATES_FILE = Path("candidates.json")
+PROMPTS_DIR = Path(__file__).parent / "prompts"
+
+
+def load_prompt(filename: str) -> str:
+    """Helper to load prompt template from prompts/ directory."""
+    path = PROMPTS_DIR / filename
+    return path.read_text(encoding="utf-8")
+
 
 HEADERS = {
     "User-Agent": (
@@ -312,59 +328,6 @@ def extract_author(
     return None
 
 
-def is_company_account(author_name: str | None) -> bool:
-    """Classifies if an author appears to be a brand/company account."""
-    if not author_name:
-        return False
-    clean = author_name.strip()
-    lower = clean.lower()
-
-    company_keywords = {
-        "corp",
-        "inc",
-        "technologies",
-        "solutions",
-        "academy",
-        "university",
-        "official",
-        "page",
-        "company",
-        "institute",
-        "software",
-        "labs",
-        "hub",
-        "scaler",
-        "linkedin",
-        "team",
-        "media",
-        "agency",
-        "group",
-        "global",
-        "systems",
-        "consulting",
-        "services",
-        "enterprise",
-        "foundation",
-        "llc",
-        "ltd",
-        "gmbh",
-        "co.",
-        "corporation",
-        "network",
-    }
-    words = set(re.split(r"[\s,._\-]+", lower))
-    if words.intersection(company_keywords):
-        return True
-
-    if (
-        " & " in clean
-        or clean.endswith(" Inc")
-        or clean.endswith(" LLC")
-        or clean.endswith(" Ltd")
-    ):
-        return True
-
-    return False
 
 
 # ---------------------------------------------------------
@@ -678,17 +641,11 @@ def discover_trending_topics() -> tuple[list[str], int, int]:
         context = "\n\n".join(snippets[:10])
         api_key = os.getenv("GROQ_API_KEY")
         if api_key:
-            prompt = f"""Based ONLY on these recent web search results about software engineering and developer trends:
+            prompt_template = load_prompt("trending_topics_prompt.txt")
+            prompt = prompt_template.format(
+                context=context, count=TRENDING_TOPIC_COUNT
+            )
 
-{context}
-
-Extract up to {TRENDING_TOPIC_COUNT} concrete, specific technology, framework, tool, or engineering topics mentioned or supported in the text above.
-
-Rules:
-1. Prefer specific technologies (e.g., 'Claude Code', 'MCP', 'RAG', 'FastAPI', 'PyTorch', 'Kubernetes', 'Rust', 'PostgreSQL', 'LLM Observability', 'AI Agents').
-2. Do NOT output generic single-word terms like 'Technology', 'Software', 'AI', 'Programming', 'Development', 'Tech News'.
-3. Return ONLY a valid JSON list of strings, e.g. ["Topic 1", "Topic 2"].
-"""
             try:
                 from groq import Groq
 

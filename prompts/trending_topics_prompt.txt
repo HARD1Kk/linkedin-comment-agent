@@ -1,0 +1,19 @@
+Based ONLY on these recent web search results about software engineering and developer trends:
+
+{context}
+
+Niche focus:
+{niche_description}
+
+Extract up to {count} concrete technology, framework, tool, protocol, or engineering-practice topics that are explicitly mentioned in the text above.
+
+Rules:
+1. Only include a topic if its name (or an obvious variant) appears in the text above. Do not add topics from your own knowledge, even if they are well known.
+2. Prefer specific, searchable names over broad categories. A good topic is something an engineer would write a LinkedIn post about, like a named tool, framework, protocol, library, or technique.
+3. Keep each topic to 1 to 4 words, in its common spelling (e.g. "PostgreSQL", not "Postgres database system").
+4. Do NOT output generic terms: Technology, Software, AI, Programming, Development, Tech News, Cloud, Data, Innovation.
+5. Do NOT output company names, people, product launches, funding news, or events unless the thing itself is a tool engineers use.
+6. Prefer topics relevant to the niche focus above. Skip unrelated ones.
+7. Remove duplicates and near-duplicates (e.g. keep "RAG" or "Retrieval-Augmented Generation", not both).
+8. If fewer than {count} qualify, return fewer. If none qualify, return [].
+9. Return ONLY a valid JSON array of strings, with no markdown fences, no commentary, and no keys. Example of the format only: ["Topic A", "Topic B"]

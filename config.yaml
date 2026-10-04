@@ -36,7 +36,7 @@ blocklist_keywords:
   - "buy now"
 
 # Enable dynamic trending topics search alongside target_topics
-trending_topics_enabled: false
+trending_topics_enabled: true
 
 # Freshness & Output Limits
 max_age_hours: 72

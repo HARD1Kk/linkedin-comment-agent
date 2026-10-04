@@ -247,5 +247,181 @@ class TestLinkedInAgent(unittest.TestCase):
         self.assertEqual(len(norm), 3)
 
 
+from unittest.mock import patch
+from comment_generator import (
+    extract_author_first_name,
+    normalize_comment_text,
+    passes_basic_checks,
+    generate_comment,
+)
+
+
+class TestCommentGenerator(unittest.TestCase):
+
+    def test_extract_author_first_name(self):
+        self.assertEqual(extract_author_first_name("Ilker Akkaya"), "Ilker")
+        self.assertEqual(extract_author_first_name("NATALIA VALENZUELA"), "Natalia")
+        self.assertEqual(extract_author_first_name("Dr. Jane Doe"), "Jane")
+        self.assertEqual(extract_author_first_name("Guido van Rossum"), "Guido")
+        self.assertIsNone(extract_author_first_name("Scaler"))
+        self.assertIsNone(extract_author_first_name("Acme Technologies Inc"))
+        self.assertIsNone(extract_author_first_name(""))
+        self.assertIsNone(extract_author_first_name(None))
+
+    def test_normalize_comment_text(self):
+        # Curly quotes and non-breaking hyphens
+        input1 = "“Ilker, this is a test\u2011case description.”"
+        self.assertEqual(normalize_comment_text(input1), "Ilker, this is a test-case description.")
+
+        # Multiple em dashes (1st becomes -, 2nd becomes ,)
+        input2 = "Ilker, first point \u2014 second point \u2014 third point."
+        normalized2 = normalize_comment_text(input2)
+        self.assertIn("first point - second point, third point.", normalized2)
+
+        # Surrounding quotes
+        input3 = '"Ilker, simple comment text."'
+        self.assertEqual(normalize_comment_text(input3), "Ilker, simple comment text.")
+
+    def test_passes_basic_checks(self):
+        valid_comment = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines significantly. Trace propagation overhead "
+            "can still impact edge latency under high load. Balancing span sampling rates is essential."
+        )
+        passed, failed = passes_basic_checks(valid_comment, "Ilker")
+        self.assertTrue(passed, f"Should pass basic checks, but failed: {failed}")
+
+        # 1. SKIP
+        passed, failed = passes_basic_checks("SKIP", "Ilker")
+        self.assertFalse(passed)
+        self.assertIn("Comment is SKIP", failed)
+
+        # 2. Too short (<200)
+        passed, failed = passes_basic_checks("Ilker, too short comment.", "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("under 200" in f for f in failed))
+
+        # 3. Too long (>350)
+        long_comment = "Ilker, " + "a" * 350
+        passed, failed = passes_basic_checks(long_comment, "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("over 350" in f for f in failed))
+
+        # 4. Wrong start
+        wrong_start = valid_comment.replace("Ilker,", "Alice,")
+        passed, failed = passes_basic_checks(wrong_start, "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("Does not start with author's first name" in f for f in failed))
+
+        # 5. Banned word
+        banned_word_comment = valid_comment.replace("simplifies", "delves into robust")
+        passed, failed = passes_basic_checks(banned_word_comment, "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("banned word" in f for f in failed))
+
+        # 6. Sentence starting with "However"
+        however_comment = valid_comment.replace("Trace propagation", "However, trace propagation")
+        passed, failed = passes_basic_checks(however_comment, "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("sentence starts with 'however'" in f.lower() for f in failed))
+
+
+        # 7. Stock closing question
+        stock_q_comment = valid_comment[:230] + " What do you think?"
+        passed, failed = passes_basic_checks(stock_q_comment, "Ilker")
+        self.assertFalse(passed)
+        self.assertTrue(any("stock closing question" in f.lower() for f in failed))
+
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    @patch("comment_generator._call_groq_with_retry")
+    def test_generate_comment_flow_branch1_passed(self, mock_groq, mock_env):
+        # Branch 1: Draft passes basic checks + reviewer PASSED
+        valid_comment = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines significantly. Trace propagation overhead "
+            "can still impact edge latency under high load. Balancing span sampling rates is essential."
+        )
+        mock_groq.side_effect = [valid_comment, "PASSED"]
+
+        candidate = {"author": "Ilker Akkaya", "post_text": "Sample FastAPI post text...", "topic": "FastAPI"}
+        res = generate_comment(candidate, {})
+
+        self.assertEqual(res, valid_comment)
+        self.assertEqual(candidate["status"], "new")
+        self.assertEqual(candidate["generated_comment"], valid_comment)
+
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    @patch("comment_generator._call_groq_with_retry")
+    def test_generate_comment_flow_branch2_skip_initial(self, mock_groq, mock_env):
+        # Branch 2: Draft returns SKIP
+        mock_groq.side_effect = ["SKIP"]
+
+        candidate = {"author": "Ilker Akkaya", "post_text": "No details post", "topic": "General"}
+        res = generate_comment(candidate, {})
+
+        self.assertEqual(res, "")
+        self.assertEqual(candidate["status"], "skipped")
+        self.assertIn("SKIP", candidate["skip_reason"])
+
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    @patch("comment_generator._call_groq_with_retry")
+    def test_generate_comment_flow_branch3_retry_success(self, mock_groq, mock_env):
+        # Branch 3: Initial draft fails basic checks (too short), retry draft passes, reviewer PASSED
+        valid_comment = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines significantly. Trace propagation overhead "
+            "can still impact edge latency under high load. Balancing span sampling rates is essential."
+        )
+        too_short = "Ilker, too short draft."
+        mock_groq.side_effect = [too_short, valid_comment, "PASSED"]
+
+        candidate = {"author": "Ilker Akkaya", "post_text": "Sample FastAPI post text...", "topic": "FastAPI"}
+        res = generate_comment(candidate, {})
+
+        self.assertEqual(res, valid_comment)
+        self.assertEqual(candidate["status"], "new")
+
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    @patch("comment_generator._call_groq_with_retry")
+    def test_generate_comment_flow_branch4_reviewer_rewrite_success(self, mock_groq, mock_env):
+        # Branch 5: Initial draft passes, reviewer returns REWRITE <valid comment>
+        valid_comment1 = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines significantly. Trace propagation overhead "
+            "can still impact edge latency under high load. Balancing span sampling rates is essential."
+        )
+        valid_rewrite = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines nicely. Span sampling rates are key to "
+            "preventing overhead in production systems under high load."
+        )
+        mock_groq.side_effect = [valid_comment1, f"REWRITE: {valid_rewrite}"]
+
+        candidate = {"author": "Ilker Akkaya", "post_text": "Sample FastAPI post text...", "topic": "FastAPI"}
+        res = generate_comment(candidate, {})
+
+        self.assertEqual(res, valid_rewrite)
+        self.assertEqual(candidate["status"], "new")
+
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    @patch("comment_generator._call_groq_with_retry")
+    def test_generate_comment_flow_branch5_reviewer_skip(self, mock_groq, mock_env):
+        # Branch 7: Initial draft passes, reviewer returns SKIP
+        valid_comment = (
+            "Ilker, referencing the OpenTelemetry middleware detail from your post, native tracing "
+            "in FastAPI simplifies observability pipelines significantly. Trace propagation overhead "
+            "can still impact edge latency under high load. Balancing span sampling rates is essential."
+        )
+        mock_groq.side_effect = [valid_comment, "SKIP"]
+
+        candidate = {"author": "Ilker Akkaya", "post_text": "Sample FastAPI post text...", "topic": "FastAPI"}
+        res = generate_comment(candidate, {})
+
+        self.assertEqual(res, "")
+        self.assertEqual(candidate["status"], "skipped")
+        self.assertEqual(candidate["skip_reason"], "Reviewer output SKIP")
+
+
 if __name__ == "__main__":
     unittest.main()
+
