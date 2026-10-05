@@ -3640,5 +3640,882 @@
     },
     "status": "new",
     "discovered_at": "2026-10-04T11:06:56.780950+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/harshad-bhatt999_softwareengineering-systemdesign-techcareers-activity-7512704685422874624-EZB6",
+    "canonical_url": "https://www.linkedin.com/posts/harshad-bhatt999_softwareengineering-systemdesign-techcareers-activity-7512704685422874624-EZB6",
+    "post_id": 7512704685422874624,
+    "author": "Harshad Bhatt",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "5.7h (URL ID)",
+    "post_age_hours": 5.7,
+    "post_age_source": "url_id",
+    "post_text": "My first ever system design interview was for HDFC Bank and it went so terribly that I still remember almost every minute of it.\n\nThe problem was simple on paper: Design a notification system.\n\nI had watched tutorials, so I immediately drew a high-level diagram on the screen. Big boxes for queues, services, and databases. I thought I was doing fine.\n\nThen the interviewer asked me to go deeper:\n- \"Walk me through the exact data flow step-by-step.\"\n- \"Show me the classes, schema, and API boundaries.\"\n\nI froze.\n\nI couldn't write the classes. I couldn't trace the actual flow of data. I had memorized the high-level architecture boxes, but I had zero idea how to actually break down the lower-level mechanics.\n\nThe worst part? It was a 60-minute interview, and for the remaining 45 minutes, he kept pushing and grilling me to work through it, even though it was obvious to both of us that I had no idea what I was doing.\n\nIt was uncomfortable and exhausting. But honestly, those 45 minutes taught me more than any video lecture ever had.\n\nThat failure completely changed how I approached system design from that day on:\n-> HLD without LLD is just guesswork: If you draw a message queue, you need to know what payload goes into it, who consumes it, and how failures get handled.\n\n-> Stop memorizing boxes and arrows: An interview isn't about drawing an entire microservice ecosystem. It's about data models, API contracts, and trade-offs.\n\n-> Embrace the discomfort: Getting stuck in an interview is normal. Learning to think out loud, ask clarifying questions, and break a problem down methodically is the real skill.\n\nLooking back, that brutal 45 minutes at HDFC was the exact reality check I needed. It reshaped my preparation, taught me how to actually communicate during design rounds, and ultimately helped me clear my loops at Visa\n\nEvery engineer has had at least one interview that completely humbled them.\n\nWhat was the one interview failure that taught you the most? Drop it below. 👇\n#SoftwareEngineering #SystemDesign #TechCareers #InterviewPrep #Backend #CareerGrowth #Coding | 37 comments on LinkedIn",
+    "hashtags": [
+      "#SoftwareEngineering",
+      "#SystemDesign",
+      "#TechCareers",
+      "#InterviewPrep",
+      "#Backend",
+      "#CareerGrowth",
+      "#Coding"
+    ],
+    "engagement": {
+      "reactions": 206,
+      "comments": 37,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFT8SOFKGWvPQ/feedshare-image-high-res/B56aEJ9GMALAAU-/0/1791168373785?e=2147483647&v=beta&t=33WLx-e4hBLd6Wh80ux7ICfzLfQsaXbJxX4_q_TUJek",
+    "topic": "Backend system design",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:27:46.973841+00:00",
+    "failure_reason": null,
+    "generated_comment": "Harshad, my toughest design interview was on a notification service where I sketched a message queue but couldn't specify the payload schema or retry semantics. That gap forced me to practice concrete API contracts and failure handling, which now speeds up my low-level design discussions."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rauchg_dhh-is-fundamentally-right-about-rust-for-activity-7512694597257576448-y2Ib",
+    "canonical_url": "https://www.linkedin.com/posts/rauchg_dhh-is-fundamentally-right-about-rust-for-activity-7512694597257576448-y2Ib",
+    "post_id": 7512694597257576448,
+    "author": "Guillermo Rauch",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "6.4h (URL ID)",
+    "post_age_hours": 6.4,
+    "post_age_source": "url_id",
+    "post_text": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while.\n\nOne of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally.\n\nWhile Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very substantive.\n\nGo is very fast. It's beautifully designed. It's easy to iterate on. We were very conflicted about the migration, because it was *humans* writing the code, *even if we knew Rust was a better choice*.\n\nThe calculus has now changed. What's \"best for humans\" is no longer necessarily \"best for business\".\n\nFWIW, it's also quite unlikely that Rust is the end-all-be-all toolchain. I'm quite certain there's greener pasture ahead, because Rust itself was designed before the 'supersonic tsunami' of agents hit.\n\n¹ https​://https://lnkd.in/eA8h74wv | 19 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 181,
+      "comments": 19,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Rust",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:28:49.302272+00:00",
+    "failure_reason": null,
+    "generated_comment": "Guillermo, the Turborepo rewrite highlights Rust's low-level advantages, but the post doesn't explore how the change might affect downstream tooling or extensions built around the original Go codebase. If that ecosystem stalls, the ROI could diminish faster than the initial performance gains."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cppdoctor_you-can-write-c-every-day-and-not-have-activity-7512441450458968064-H3ZO",
+    "canonical_url": "https://www.linkedin.com/posts/cppdoctor_you-can-write-c-every-day-and-not-have-activity-7512441450458968064-H3ZO",
+    "post_id": 7512441450458968064,
+    "author": "Jelle Bakker",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "23.2h (URL ID)",
+    "post_age_hours": 23.2,
+    "post_age_source": "url_id",
+    "post_text": "You can write C++ every day and not have memory issues ... for years. It's not hard.\n\nMost people who experience memory issues probably don't write modern C++; they still pass around raw pointers. They don't use smart pointers or std::span.\n\nThere are also many sanitizers that catch most memory bugs.\n\nThese above are (somewhat paraphrased) words from Bjarne Stroustrup in the interview \"Creator of C++\" with Ryan L. Peterman. And I completely agree.\n\nWe don't need another programming language. We just need people to change how they write C++.\n\nPDF 10 Techniques Used By Professional C++ Programmers\n👉 https://lnkd.in/eu8JE4jA | 86 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 307,
+      "comments": 86,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "C++",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:26.861558+00:00",
+    "failure_reason": null,
+    "generated_comment": "Jelle, smart pointers indeed cut many leaks, but in large legacy codebases replacing raw pointers can introduce ABI churn and require extensive testing, which can offset the safety gains. How do you balance refactoring effort against immediate bug reduction?"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/github_github-copilot-app-for-beginners-using-the-activity-7512192390460424193-SWIB",
+    "canonical_url": "https://www.linkedin.com/posts/github_github-copilot-app-for-beginners-using-the-activity-7512192390460424193-SWIB",
+    "post_id": 7512192390460424193,
+    "author": "GitHub",
+    "is_company_account": false,
+    "followers": 6703878,
+    "post_age": "39.7h (URL ID)",
+    "post_age_hours": 39.7,
+    "post_age_source": "url_id",
+    "post_text": "When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the GitHub Copilot app.\n\nLearn about the built-in panels that can change the way you work with AI 👇\nhttps://lnkd.in/e-i68aN3 | 22 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 129,
+      "comments": 22,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "GitHub Copilot",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "skipped",
+    "discovered_at": "2026-10-05T08:30:14.778119+00:00",
+    "skip_reason": "Reviewer rewrite failed basic checks: Does not start with author's first name 'GitHub', Sentence starts with 'However'",
+    "failure_reason": "reviewer_rewrite_failed_checks: Does not start with author's first name 'GitHub', Sentence starts with 'However'",
+    "generated_comment": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dagmawibabi_i-know-lots-of-you-vibe-code-out-of-the-necessity-activity-7512098128146251776-WITO",
+    "canonical_url": "https://www.linkedin.com/posts/dagmawibabi_i-know-lots-of-you-vibe-code-out-of-the-necessity-activity-7512098128146251776-WITO",
+    "post_id": 7512098128146251776,
+    "author": "Dagmawi Esayas",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.8h (URL ID)",
+    "post_age_hours": 45.8,
+    "post_age_source": "url_id",
+    "post_text": "I know lots of you vibe-code out of the necessity of speed. I know lots of you also love programming. So here are some really fun things you can manually do and have an absolute thrill at.\n\n• Make a game using Godot — this's extremely mechanical and forces you to actually manually do things and even AI won't help you there so you can just be present and enjoy it. Been prototyping a space cowboy adventure game and I'm having so much fun.\n\n• Make a Telegram bot — it's so easy to get started and the RoF (return of fun) is much more. Been building and experimenting past few days using grammyJS to build a personal assistant and it's so enjoyable.\n\n• Build something with an Arduino — this is just the best. You don't even want to use AI for the code cause it's just so much fun. It also has a lot of limitations which make you think about optimizations and performance a lot.\n\n• Try learning a new Programming Language — I usually experiment with a lot of languages, old and new and seeing how they operate and how it really forces your brain to stretch to understand it is very fun and it actually makes you a better programmer across the board.\n\n• Train or fine-tune an LLM — we've got to a point where doing this, even on your local machine is so easy. The resources are overwhelming and the tools (Prime Intellect, Tinker and Unsloth) are very nice to use. And it really puts into perspective how all these modern LLMs operate.\n\n• Make a game in a Fantasy Console — programs like PICO-8 or TIC-80 are really fun, have real constraints and challenge you a lot to work within bounds. It makes you think and system design and optimize for efficiency as much as possible.\n\n• Experiment with Music — this could be with physical instruments or even digital synthesizers. There are even tools like Strudel that let you make music through code. Music really opens up your eyes to a whole new universe. It's really fun.\n\n• Make Pixel Art — there are a lot of good softwares specialized for pixel art like Aseprite so use them to draw some unique quirky art. Really shows you how valuable good art is.\n\n• Run simulations in Python — there are so many things you can simulate using python. From gravity to ant colonies, from solar systems to population data. It's extremely fun visualizing interactions and seeing the effects.\n\nThese are just a few, there's a lot you can do in the digital world. Don't lock yourself up in a single window and be bored. There are endless things you will love doing and trying out in the digital world. Enjoy!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 55,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Python performance",
+    "score": 81.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.7,
+      "total": 81.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:21.380814+00:00",
+    "failure_reason": null,
+    "generated_comment": "Dagmawi, grammyJS certainly lowers the barrier for a Telegram bot, but the post skips over the need for systematic profiling as the bot grows. Without measuring async latency you may hit rate limits or user-perceived lag, which defeats the fun of a responsive assistant."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rohit-ghumare_mcp-modelcontextprotocol-aiengineering-activity-7512396788146962432-A9O4",
+    "canonical_url": "https://www.linkedin.com/posts/rohit-ghumare_mcp-modelcontextprotocol-aiengineering-activity-7512396788146962432-A9O4",
+    "post_id": 7512396788146962432,
+    "author": "Rohit Ghumare",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "26.1h (URL ID)",
+    "post_age_hours": 26.1,
+    "post_age_source": "url_id",
+    "post_text": "MCP has its own certification exam now. I built a free study path for it.\n\nThe Model Context Protocol Associate (MCPA) comes from the Agentic AI Foundation, delivered through Linux Foundation Training and Certification. It's written against the 2026-07-28 revision of the spec.\n\nThe blueprint is worth reading before you study anything:\n→ MCP Fundamentals: 16%\n→ Architecture and Components: 14%\n→ Interactions and Execution: 26%\n→ Security and Governance: 24%\n→ Use Cases and Ecosystem: 20%\nInteractions and security make up half the exam, so half the route goes there too.\n\nWhat's in the track:\n✅ 34 lessons in blueprint order, from the JSON-RPC envelope and the stateless core to trust zones, OAuth, consent, and a capstone that reads one exchange end to end\n✅ Every lesson ships a runnable standard-library MCP mock, a test suite, a quiz, and an artifact you keep\n✅ A wire checker that confirms each lab speaks the 2026-07-28 revision\n✅ A 30-question diagnostic and three full-length mocks: operational scenarios, wire-level messages, and design and security trade-offs\n\nIf you'd rather learn with your coding agent, run npx skills add rohitg00/ai-engineering-from-scratch, then /mcpa-certification. It teaches the route, runs the labs, and quizzes you.\n\nIt's independent community prep, with no affiliation to the Agentic AI Foundation or the Linux Foundation and no live exam questions.\n\nLink in the first comment.\n\nIf you're building MCP servers today, which part of the spec gave you the most trouble?\n\n#MCP #ModelContextProtocol #AIEngineering #OpenSource",
+    "hashtags": [
+      "#MCP",
+      "#ModelContextProtocol",
+      "#AIEngineering",
+      "#OpenSource"
+    ],
+    "engagement": {
+      "reactions": 46,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQErIDErN1YiZA/thumbnail-with-play-button-overlay-high/B4DaEFlBR0JkC0-/0/1791094955227?e=2147483647&v=beta&t=65_HrS3b9vVgr9mHCGtsO0qA30Rx-ma9fXMp-xFWUps",
+    "topic": "MCP protocol",
+    "score": 79.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 8.7,
+      "total": 79.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:28.058869+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/srikant-mahanty-a9329322c_postgresql-database-sql-activity-7512558222852050944-Wfvm",
+    "canonical_url": "https://www.linkedin.com/posts/srikant-mahanty-a9329322c_postgresql-database-sql-activity-7512558222852050944-Wfvm",
+    "post_id": 7512558222852050944,
+    "author": "Srikant Mahanty",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "15.4h (URL ID)",
+    "post_age_hours": 15.4,
+    "post_age_source": "url_id",
+    "post_text": "Your PostgreSQL query is slow.\n\nDeveloper: “Just add an index.” 😎\n\nPostgreSQL: “Sure… but who is going to pay for it?” 😂\n\nIndexes are powerful, but they are not free.\n\nThey speed up reads, but add storage, write overhead, WAL, maintenance, and sometimes… absolutely nothing.\n\nTake this:\n\n```sql\nSELECT *\nFROM users\nWHERE is_active = true;\n```\n\n95% of users are active.\n\nYou add an index on `is_active`.\n\nPostgreSQL looks at it and says:\n\n“Why should I walk through the index to find almost the whole table?” 😂\n\nSometimes a sequential scan is simply cheaper.\n\nNow imagine a write-heavy event table receiving millions of inserts.\n\nYou add 6 indexes because “these columns are used in queries.”\n\nEvery insert now has more work.\n\nThe read query got faster.\n\nThe write path got slower.\n\nAnd then someone asks:\n\n“Why is ingestion latency increasing?” 😶\n\nSame story with frequently updated columns:\n\n```sql\nUPDATE sessions\nSET last_seen = now();\n```\n\nIf `last_seen` is indexed and changes constantly, congratulations — you just created extra index maintenance for every update. 😅\n\nEven small tables can make an index unnecessary.\n\nAnd large text columns? Don't blindly index them either. Maybe you actually need full-text search or a GIN index.\n\nSo before saying:\n\n“Add an index.”\n\nAsk:\n\n→ How selective is this column?\n→ How big is the table?\n→ Read-heavy or write-heavy?\n→ How often does the value change?\n→ What does `EXPLAIN ANALYZE` say?\n\nBecause database optimization is not:\n\n“More indexes = more performance.”\n\nIt is:\n\n“Right index + right query + right workload.”\n\nSometimes the best index…\n\nis no index. 😄\n\n#PostgreSQL #Database #SQL #BackendEngineering #SpringBoot #Java #PerformanceOptimization #SystemDesign",
+    "hashtags": [
+      "#PostgreSQL",
+      "#Database",
+      "#SQL",
+      "#BackendEngineering",
+      "#SpringBoot",
+      "#Java",
+      "#PerformanceOptimization",
+      "#SystemDesign"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL optimization",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:27:17.257195+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nischalgouda-patil-39b439279_aiengineering-llm-fastapi-activity-7511782734130933760-YeIh",
+    "canonical_url": "https://www.linkedin.com/posts/nischalgouda-patil-39b439279_aiengineering-llm-fastapi-activity-7511782734130933760-YeIh",
+    "post_id": 7511782734130933760,
+    "author": "Nischalgouda Patil",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.7h (URL ID)",
+    "post_age_hours": 66.7,
+    "post_age_source": "url_id",
+    "post_text": "Most AI demos stop at I called an LLM. I wanted to build the layer around it.\n\n👇FlowForge: a visual builder for LLM pipelines. Drag nodes onto a canvas, wire them up, hit Run, and watch each step execute live. It's deployed and free to try, no sign-up.\n\n🔑 How the keys work\n• The demo runs on a free, rate-limited Gemini key, so you can try it instantly\n• Want no limits, or Claude instead? Paste your own API key in the app. It lives only in your browser tabs' session, travels only with your run request, and is never stored on my server.\n\n⚙️What's under the hood:\n• Frontend: React, ReactFlow and Zustand. One shared node abstraction, with live status on every node\n• Backend: a FastAPI engine that validates the graph, runs it in topological order, and streams progress over server-sent events\n• AI layer: Gemini and Claude behind a provider adapter, with retries and backoff for transient failures\n• Production basics: CORS locked to the frontend, per-IP rate limiting, Docker, tests, strict CI, deployed on Vercel and Render\n\nWhat I took away: the model call is the easy part. State, ordering, failures, cost control, and handling other peoples' API keys responsibly are where the real engineering is.\n\nThe code is open and its still growing. Parallel branch execution and real HTTP/database nodes are next.\n\nWhat would you add? #AIEngineering #LLM #FastAPI #React #FullStack\n\nLink to try it and the code is in the first comment 👇 | 41 comments on LinkedIn",
+    "hashtags": [
+      "#AIEngineering",
+      "#LLM",
+      "#FastAPI",
+      "#React",
+      "#FullStack"
+    ],
+    "engagement": {
+      "reactions": 99,
+      "comments": 41,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQHBL9VwjQsFfg/thumbnail-with-play-button-overlay-high/B56aD82iQlJMC0-/0/1790948553424?e=2147483647&v=beta&t=N3xFyZL_0Osqbf_Rr-tXiZNZcq0mT7OKU4xPUEpYmno",
+    "topic": "FastAPI observability",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:05.077787+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/megbruyns_my-client-julia-had-the-offer-she-was-supposed-activity-7511745713677045762-JGVa",
+    "canonical_url": "https://www.linkedin.com/posts/megbruyns_my-client-julia-had-the-offer-she-was-supposed-activity-7511745713677045762-JGVa",
+    "post_id": 7511745713677045762,
+    "author": "Meg Bruyns",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "69.2h (URL ID)",
+    "post_age_hours": 69.2,
+    "post_age_source": "url_id",
+    "post_text": "My client Julia had the offer she was \"supposed\" to take.\nBut it felt completely wrong...\n\nShe kept saying to herself:\n\n\"Is it just me?\"\n\"I should feel more excited.\"\n\"Why am I so stuck?\"\n\nAnd then felt doubly bad for feeling that way, when she should just be happy about the offer.\n\nHer story is anything but rare or unheard of. Similar themes come often in my chats with mid-career professionals.\n\nTruth is, you can have a career that looks like success and still feel flat.\n\nBecause the scorecard most of us were handed (salary, title, prestige) was never built to measure whether your life FITS YOU.\n\nIt can only measure what other people can see. So you get rewarded for the impressive option, not the aligned one.\n\nAnd that’s exactly where Julia was when she came to me.\n\nTwo job offers.\nOne looked incredible on paper.\nThe kind you’re “supposed” to take.\n\nBut it didn’t feel right, because its attraction was based on the old scorecard.\n\nThrough our work, Julia got clear on what actually fuels her:\n→ Her real strengths\n→ Her actual values\n→ Her vision beyond her CV\n\nOnce she could see that, the decision obvious.\n\nShe chose the role that aligned with her life - not the one that simply made her look successful.\n\nAnd she walked away with more confidence, more direction, and a deeper sense of agency over her career.\n\nThat's the real scorecard.\n\n❌ Not “What will impress people?”\n✅ But “What lets me thrive?”\n\nIf you’re in that in-between place, where the old career metrics don’t motivate you anymore, you don’t need a new CV.\n\nYou need a new definition of success.\n\nAnd that’s exactly what we help you find inside Get Unstuck.\nGrab it here: https://lnkd.in/dX5RQJZt\n\n——\nIf you found this helpful:\n👋 Follow me (Meg) for more\n♻️ Repost to help someone redefine success | 29 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 25,
+      "comments": 29,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQF09m8R7HMsDA/feedshare-shrink_1280/B4DaD3913cGkAM-/0/1790866579162?e=2147483647&v=beta&t=xmuuZPl6d-H1NntRA_XMw3rSNaaOt2IMjS6e3dZIA-g",
+    "topic": "Julia",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:33.896103+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nathanacurtis_from-figma-library-to-storybook-rich-with-activity-7511882369260335104-m0iT",
+    "canonical_url": "https://www.linkedin.com/posts/nathanacurtis_from-figma-library-to-storybook-rich-with-activity-7511882369260335104-m0iT",
+    "post_id": 7511882369260335104,
+    "author": "Nathan Curtis",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "60.2h (URL ID)",
+    "post_age_hours": 60.2,
+    "post_age_source": "url_id",
+    "post_text": "From Figma library to Storybook rich with foundations pages and behavior-rich React and Web components in about a minute of processing, no AI needed.\n\nI watched Christine Vallaure de la Paz's demo earlier this week on Brad Frost's and TJ Pitre's AI & Design Systems Jam Session. She'd agentically created a fantastic environment of React components and Storybook. As I was watching, it became apparent to me that so much of what she's showing can be generated deterministically. So I am extending the Specs ecosystem, already equipped with react and webcomponents commands, to wrap them in a design system site that integrates pages for icons, typography and color foundations.\n\nI'm hoping to release this in the days to come, and then:\n– Add a skills inventory so designers can onboard and run the environment even better\n– Add more foundations and conventions to customize the foundations pages\n– Add an analysis section with dashboards for already-available analyses of tokens, props, slots, naming and dependencies\n– Add a versions section for already-available features that cut releases, automate changelogs, and distinguish breaking, minor and patch changes\n– Enhance scaffolded components to view specs data more easily, improve color swatches, and more\n\nSo inspired to serve designers better! | 11 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 180,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQHtUOdBiJB9iw/thumbnail-with-play-button-overlay-high/B56aD.RG0HJcC0-/0/1790972295309?e=2147483647&v=beta&t=4IAtUwZ0p2tfAtBwBw08DWvRdiHXXbJA5c3JEoq3rSQ",
+    "topic": "Figma",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:30:31.009286+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/soham-panchal-800968225_rust-systemsprogramming-infrastructure-activity-7511731714537377793-nA88",
+    "canonical_url": "https://www.linkedin.com/posts/soham-panchal-800968225_rust-systemsprogramming-infrastructure-activity-7511731714537377793-nA88",
+    "post_id": 7511731714537377793,
+    "author": "Soham Panchal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.1h (URL ID)",
+    "post_age_hours": 70.1,
+    "post_age_source": "url_id",
+    "post_text": "I’ve been deliberately moving deeper into systems programming and infrastructure.\n\nOne thing I’ve realized while making that transition is that learning Rust syntax is the easy part.\n\nThe harder and more interesting part is understanding why Rust works the way it does.\n\nSo I wrote about 𝗥𝘂𝘀𝘁 𝗢𝘄𝗻𝗲𝗿𝘀𝗵𝗶𝗽 𝗮𝗻𝗱 𝗕𝗼𝗿𝗿𝗼𝘄𝗶𝗻𝗴 from the problem it is trying to solve:\n\n𝗛𝗲𝗮𝗽 𝗺𝗲𝗺𝗼𝗿𝘆 → 𝗺𝗲𝗺𝗼𝗿𝘆 𝗹𝗲𝗮𝗸𝘀 → 𝘂𝘀𝗲-𝗮𝗳𝘁𝗲𝗿-𝗳𝗿𝗲𝗲 → 𝗱𝗼𝘂𝗯𝗹𝗲-𝗳𝗿𝗲𝗲 → 𝗼𝘄𝗻𝗲𝗿𝘀𝗵𝗶𝗽 → 𝗺𝗼𝘃𝗲 𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰𝘀 → 𝗯𝗼𝗿𝗿𝗼𝘄𝗶𝗻𝗴 → 𝗹𝗶𝗳𝗲𝘁𝗶𝗺𝗲𝘀\n\nRather than treating ownership as a collection of compiler rules to memorize, I wanted to build the mental model from the ground up:\n\n• What happens to memory?\n• Who is responsible for it?\n• When is it safe to release it?\n• What happens when multiple parts of a program want access to it?\n\nThis is part of my ongoing effort to go beyond application-level development and build a stronger foundation in systems, networking, operating systems, and infrastructure.\n\n𝗜 𝘄𝗿𝗼𝘁𝗲 𝘁𝗵𝗲 𝗮𝗿𝘁𝗶𝗰𝗹𝗲 𝗵𝗲𝗿𝗲:\nhttps://lnkd.in/d423VF2S\n\n#Rust #SystemsProgramming #Infrastructure #BackendEngineering #SoftwareEngineering",
+    "hashtags": [
+      "#Rust",
+      "#SystemsProgramming",
+      "#Infrastructure",
+      "#BackendEngineering",
+      "#SoftwareEngineering"
+    ],
+    "engagement": {
+      "reactions": 68,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQEJN3mgHrV9HQ/image-shrink_1280/B4DaD8IMRTGUAc-/0/1790936401222?e=2147483647&v=beta&t=TwFMJzz10cZsz2m2uo3e0QaoNZvn8UrQuekajcJOJiw",
+    "topic": "Rust",
+    "score": 73.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 13.3,
+      "total": 73.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:28:57.893120+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/orenmelamed_github-copilot-just-introduced-dynamic-workflows-activity-7511773054117785600-yGbw",
+    "canonical_url": "https://www.linkedin.com/posts/orenmelamed_github-copilot-just-introduced-dynamic-workflows-activity-7511773054117785600-yGbw",
+    "post_id": 7511773054117785600,
+    "author": "Oren Melamed",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.4h (URL ID)",
+    "post_age_hours": 67.4,
+    "post_age_source": "url_id",
+    "post_text": "GitHub Copilot just introduced Dynamic Workflows.\n\nWe've been talking a lot about multi-agent orchestration, subagents, parallel execution and handoffs.\n\nBut there is an important difference between asking an agent to figure out how to do something and actually defining the process it should follow.\n\nThat's what Dynamic Workflows bring to Copilot.\n\nYou define the workflow, and agents become part of it.\nThe workflow can control the steps, dependencies, parallel execution, validation and human checkpoints.\nYou can even put a credit cap on each run - super critical when you scale!\n\nThis is where I personally think it nails it!\n\nInstead of trying to build one \"super agent\" that figures everything out, we can build reusable workflows where agents are components in a defined process.\n\nI wrote up the practical details, how to create and run workflows in Copilot, and a short comparison with other vendor implementations.\n\n[Read the full post 👇]",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 71,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E12AQHfY10c9kdDBw/thumbnail-with-play-button-overlay-low/B4EaD8r_7BH4CM-/0/1790945799282?e=2147483647&v=beta&t=ui7rBjJ3RvP5dHwblRs9cGO7YWfGtpf5bxPCSOYBnPc",
+    "topic": "GitHub Copilot",
+    "score": 73.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 13.3,
+      "total": 73.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:30:24.582838+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/saileshpattnaik_i-think-we-have-oversimplified-rag-for-activity-7512199038088220672-h0oA",
+    "canonical_url": "https://www.linkedin.com/posts/saileshpattnaik_i-think-we-have-oversimplified-rag-for-activity-7512199038088220672-h0oA",
+    "post_id": 7512199038088220672,
+    "author": "Sailesh P.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "39.2h (URL ID)",
+    "post_age_hours": 39.2,
+    "post_age_source": "url_id",
+    "post_text": "I think we have oversimplified RAG.\n\nFor a while, the mental model was:\n\nDocuments → Embeddings → Vector DB → LLM.\n\nDone.\n\nBut real-world AI systems aren’t that simple.\n\nSometimes you need semantic search.\n\nSometimes keywords.\n\nSometimes relationships between entities.\n\nSometimes multiple queries.\n\nSometimes the system needs to question its own retrieval.\n\nSometimes it needs to decide which tool to use next.\n\nThat’s why I’m increasingly interested in composable RAG architectures.\n\nIn SEORocket, we’re combining 10 RAG patterns across:\n\nResearch.\nContext.\nExecution.\n\nMulti-Query.\nAdvanced RAG.\nHybrid RAG.\nGraph RAG.\nAgentic RAG.\nSelf-RAG.\n\nThe interesting engineering challenge isn’t building each architecture.\n\nIt’s orchestrating them.\n\nWhich RAG should run?\nWhen should it run?\nWhat context should it retrieve?\nHow does the agent validate it?\nWhat should happen next?\n\nThat’s the shift I’m seeing.\n\nRAG is moving from a retrieval component to an intelligence layer.\n\nAnd that’s where things get really interesting.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 4,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGE3ckDc5Dc8A/feedshare-shrink_800/B4EaECxNzbIYAc-/0/1791047818748?e=2147483647&v=beta&t=aKMFH0dcYbmAUP2YAJpMHObfPu7XmIBY8bT9SWElNk4",
+    "topic": "RAG architecture",
+    "score": 71.7,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 1.2,
+      "total": 71.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:44.456785+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ani-ssr_python-python315-softwareengineering-activity-7512400393335877632-pmcg",
+    "canonical_url": "https://www.linkedin.com/posts/ani-ssr_python-python315-softwareengineering-activity-7512400393335877632-pmcg",
+    "post_id": 7512400393335877632,
+    "author": "Animesh Mishra",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "25.8h (URL ID)",
+    "post_age_hours": 25.8,
+    "post_age_source": "url_id",
+    "post_text": "Python 3.15 is a big one. And the headline feature fixes a problem every Python dev has felt: slow startup.\n\nPython 3.15 adds explicit lazy imports (PEP 810) with a new lazy keyword. Python skips the load and creates a lightweight proxy. The module loads on first use. No more imports buried inside functions just to save startup time.\nA few details worth knowing:\n🔹 Lazy imports only work at module scope. Using lazy inside a function, class, or try/except raises a SyntaxError.\n🔹 Star imports can't be lazy.\n🔹 If a lazy import fails, the error appears at first use, with a traceback pointing to the original import line.\n🔹 Need to support older Python versions? Define __lazy_modules__ instead.\n🔹 You can also enable it globally with -X lazy_imports=all or the PYTHON_LAZY_IMPORTS environment variable.\nBut there's more in 3.15:\n✅ frozendict is a new built-in immutable dict. It's hashable if its keys and values are.\n✅ sentinel is a new built-in for creating unique sentinel values (PEP 661).\n✅ Unpacking in comprehensions: [*L for L in lists] replaces nested comprehensions and itertools.chain.\n✅ UTF-8 is now the default encoding, regardless of your system locale. Add an explicit encoding= to your open() calls anyway.\n✅ Tachyon, a new sampling profiler in the profiling package. It can attach to a running process with near-zero overhead, with no restart needed. It's great for production debugging.\n✅ Smarter error messages. [1, 2, 3].push(4) now suggests .append, and 'hello'.toUpperCase() suggests .upper. Nice for devs coming from JavaScript.\n✅ Typing upgrades: TypeForm (PEP 747) and TypedDict with typed extra items (PEP 728).\n✅ Upgraded experimental JIT and a stable ABI for free-threaded builds.\n✅ More color across the CLI tools.\n\nHeads-up: the incremental garbage collector from 3.14 has been reverted to the generational GC, after reports of memory pressure in production.\n\nIf you maintain a large app or CLI tool, lazy imports alone could noticeably cut your startup time. I'm planning to test it on my own projects.\n\nWhich 3.15 feature are you most excited about? 👇\n#Python #Python315 #SoftwareEngineering #Programming #Performance #OpenSource",
+    "hashtags": [
+      "#Python",
+      "#Python315",
+      "#SoftwareEngineering",
+      "#Programming",
+      "#Performance",
+      "#OpenSource"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEWiW9Fgx_XxA/feedshare-shrink_800/B4DaEFoV4EGUAc-/0/1791095824191?e=2147483647&v=beta&t=kVcgST8DgI9hvHHx-Tel_XPp2JyitHr4VLxKnCebhx8",
+    "topic": "Python performance",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:08.061883+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_introduction-to-rust-operators-for-kubernetes-activity-7512279061558304768-3tLE",
+    "canonical_url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_introduction-to-rust-operators-for-kubernetes-activity-7512279061558304768-3tLE",
+    "post_id": 7512279061558304768,
+    "author": "Donald Lutz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "33.9h (URL ID)",
+    "post_age_hours": 33.9,
+    "post_age_source": "url_id",
+    "post_text": "Introduction to rust operators for Kubernetes #WorkSmartWithK8s #kubernetes #customresources #operator #demo #rust\n\nhttps://lnkd.in/ekN5DnAn",
+    "hashtags": [
+      "#WorkSmartWithK8s",
+      "#kubernetes",
+      "#customresources",
+      "#operator",
+      "#demo",
+      "#rust"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/C4E27AQGdmGolPtFATQ/articleshare-shrink_800/articleshare-shrink_800/0/1711079334837?e=2147483647&v=beta&t=43SOTTl3pmEOF9P1JFI9MkiZ0VEoxaA5S0RpeNbXMdg",
+    "topic": "Kubernetes operators",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:27:07.716110+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/julia-pintar_you-can-publish-100-ugc-videos-and-learn-activity-7511798301177081856-gfS7",
+    "canonical_url": "https://www.linkedin.com/posts/julia-pintar_ugc-course-lesson-4-activity-7511798301177081856-peSZ",
+    "post_id": 7511798301177081856,
+    "author": "Julia Pintar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.7h (URL ID)",
+    "post_age_hours": 65.7,
+    "post_age_source": "url_id",
+    "post_text": "You can publish 100 UGC videos and learn absolutely nothing. Here's how to make sure that doesn't happen.\n\nIf every video tests a different creator, hook, angle, format, AND way of showing the product, you have no idea why one worked and another didn’t.\n\nBy the way: I’m Julia, co-founder of Playkit. Since 2024, we’ve driven 12M+ app downloads and 1B+ organic views for Cash App, Quizlet, Substack, Grubhub, and more.\n\nI’m sharing a free course on UGC for consumer apps. This is lesson 4, and it’s about planning your first 100 videos.\n\nThe goal of those first 100 videos is to figure out which combinations are worth making more of.\n\nFor context, we analyzed 69,000+ UGC videos and found that videos with more than 500K views made up just 0.3% of the total, but drove more than half of all views.\n\nYou need enough attempts to find those outliers, but volume only helps if you know what you are learning from it.\n\nI would test five things intentionally:\n\n1. Angles\n2. Formats\n3. Hooks\n4. Creators\n5. Product integration\n\nI broke down what each one means, what to change, and what you are actually trying to learn from it in the carousel.\n\nOne other thing: I would NOT plan all 100 videos upfront.\n\nThe first batch should change the second, the second should change the third, etc.\n\nBy video 100, you should have fewer guesses than you started with.\n\nLesson 5 will cover how to actually find the creators you want to test. | 10 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 33,
+      "comments": 10,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Julia",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.5,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:37.435978+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/gauravgoyalai_not-every-ai-agent-needs-the-same-architecture-activity-7511976492877144064-uRcm",
+    "canonical_url": "https://www.linkedin.com/posts/gauravgoyalai_not-every-ai-agent-needs-the-same-architecture-activity-7511976492877144064-uRcm",
+    "post_id": 7511976492877144064,
+    "author": "Gaurav Goyal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "53.9h (URL ID)",
+    "post_age_hours": 53.9,
+    "post_age_source": "url_id",
+    "post_text": "Not every AI agent needs the same architecture.\n\nSome agents simply call a tool.\nSome make a plan before acting.\nSome review their own answers.\nSome work with other agents.\nAnd some need a human in the loop.\n\nThat’s why understanding agent patterns is more useful than memorizing a single definition of “AI agent.”\n\nHere are 8 patterns I keep coming across in real-world agentic systems:\n\n1️⃣ ReAct — Reason → Act → Observe\n2️⃣ Tool Calling — Use external tools and APIs\n3️⃣ Planning — Break complex work into steps\n4️⃣ Reflection — Review and improve the output\n5️⃣ Multi-Agent — Multiple agents with different roles\n6️⃣ Router — Send requests to the right agent/model\n7️⃣ Human-in-the-Loop — Human feedback or approval\n8️⃣ Memory — Maintain useful context over time\n\nAnd the interesting part?\n\nYou can combine these patterns.\n\nA production system could use a Router + Planner + Tools + Memory + Human approval.\n\nThe LLM is only one piece.\n\nThe architecture around the LLM is what makes the agent useful.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 25,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHhNCBt_5B-kw/feedshare-image-high-res/B56aD_m0HBHcAU-/0/1790994760420?e=2147483647&v=beta&t=wabAcpiVtDMPswXEJ6t-Wk7-IaiKWxoZuRs2baYyQno",
+    "topic": "AI Agents architecture",
+    "score": 67.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.7,
+      "total": 67.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:27:37.018634+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/thomasgooch_you-know-what-silly-thing-still-trips-me-activity-7511820798505107456-QjwJ",
+    "canonical_url": "https://www.linkedin.com/posts/thomasgooch_you-know-what-silly-thing-still-trips-me-activity-7511820798505107456-QjwJ",
+    "post_id": 7511820798505107456,
+    "author": "Thomas Gooch",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.2h (URL ID)",
+    "post_age_hours": 64.2,
+    "post_age_source": "url_id",
+    "post_text": "You know what silly thing still trips me up in JavaScript?\n\nIt's that .length doesn't use the parentheses that other methods do. I know that it's a property and not a function... but still\nAfter 7 years of knowing that.. I still try to use .length() and look at the error like it's the first time I've seen it.\n\n🤡",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 22,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "JavaScript",
+    "score": 66.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 6.2,
+      "total": 66.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:28:28.869721+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aarti-vohra-408a296_hiring-fullstackdeveloper-aideveloper-activity-7512063294191509504-Vfmz",
+    "canonical_url": "https://www.linkedin.com/posts/aarti-vohra-408a296_hiring-fullstackdeveloper-aideveloper-activity-7512063294191509504-Vfmz",
+    "post_id": 7512063294191509504,
+    "author": "Aarti Vohra",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "48.1h (URL ID)",
+    "post_age_hours": 48.1,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Hiring | Full Stack AI Developer (Agentic AI and GenAI)\nLocation : Remote\nAre you passionate about building AI-powered applications that go beyond chatbots? Were looking for a Full Stack AI Developer with expertise in Python, FastAPI, React/Next.js, AWS, and Agentic AI to build scalable, production-ready AI solutions.\n📍 Location: Remote\n💼 Experience: 4–8 Years\n💰 CTC: Up to ₹18 LPA\nMandatory Skills:\n✅ Python and FastAPI\n✅ React.js / Next.js\n✅ AWS (ECS, EC2, S3, RDS, IAM)\n✅ Docker amp; CI/CD\n✅ REST APIs and PostgreSQL/MySQL\n✅ Agentic AI and Multi-Agent Workflows\n✅ AWS Bedrock amp; Bedrock AgentCore\n✅ LangGraph\n✅ RAG, Embeddings and Vector Databases\n✅ LLM Integration (OpenAI, Anthropic, AWS Bedrock)\n✅ LangFuse, DeepEval and LLM Observability\n\nGood to Have:⭐ Kubernetes (EKS)⭐ Terraform / CloudFormation⭐ Redis, Kafka and Celery⭐ Prometheus, Grafana amp; Datadog\n📩 Immediate joiners or candidates serving a short notice period are encouraged to apply. Share your resume at: aarti.vohra@treyansh.co.in\n\n#Hiring #FullStackDeveloper #AIDeveloper #GenerativeAI #AgenticAI #Python #FastAPI #ReactJS #NextJS #AWS #Docker #CI_CD #LangGraph #AWSBedrock #RAG #LLM #OpenAI #Anthropic #RemoteJobs #ImmediateJoiners #TreyanshGlobalServices",
+    "hashtags": [
+      "#Hiring",
+      "#FullStackDeveloper",
+      "#AIDeveloper",
+      "#GenerativeAI",
+      "#AgenticAI",
+      "#Python",
+      "#FastAPI",
+      "#ReactJS",
+      "#NextJS",
+      "#AWS",
+      "#Docker",
+      "#CI_CD",
+      "#LangGraph",
+      "#AWSBedrock",
+      "#RAG",
+      "#LLM",
+      "#OpenAI",
+      "#Anthropic",
+      "#RemoteJobs",
+      "#ImmediateJoiners",
+      "#TreyanshGlobalServices"
+    ],
+    "engagement": {
+      "reactions": 6,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "FastAPI observability",
+    "score": 62.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.5,
+      "total": 62.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:26:00.231087+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/piyush-aggarwal-53a51048_multi-agent-development-in-vs-code-activity-7511853037208920065-82ak",
+    "canonical_url": "https://www.linkedin.com/posts/piyush-aggarwal-53a51048_multi-agent-development-in-vs-code-activity-7511853037208920065-82ak",
+    "post_id": 7511853037208920065,
+    "author": "Piyush Aggarwal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "62.1h (URL ID)",
+    "post_age_hours": 62.1,
+    "post_age_source": "url_id",
+    "post_text": "𝗛𝗼𝘄 𝗜 𝗯𝘂𝗶𝗹𝘁 𝗺𝘆 𝗮𝗽𝗽 𝘂𝘀𝗶𝗻𝗴 𝗮 𝘁𝗲𝗮𝗺 𝗼𝗳 𝗔𝗜 𝗺𝗼𝗱𝗲𝗹𝘀 𝘁𝗮𝗹𝗸𝗶𝗻𝗴 𝘁𝗼 𝗲𝗮𝗰𝗵 𝗼𝘁𝗵𝗲𝗿 𝗶𝗻 𝗩𝗦 𝗖𝗼𝗱𝗲! 🚀\nI just connected Claude, Antigravity, and GitHub Copilot together right inside VS Code, and it feels like magic.\nInstead of using just one AI, I built a setup where different AIs work as a team. I even added a cheaper model to help out. When one model is about to run out of tokens, it simply passes the task to another model without losing any work!\nUsing the amazing 𝗻𝗲𝘄 𝗺𝘂𝗹𝘁𝗶-𝗮𝗴𝗲𝗻𝘁 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗶𝗻 𝗩𝗦 𝗖𝗼𝗱𝗲 (check out the video here: https://lnkd.in/gkHnN6dA):\n• 𝗟𝗼𝗰𝗮𝗹 𝗮𝗻𝗱 𝗕𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱 𝗔𝗴𝗲𝗻𝘁𝘀: They do tasks in the background while I keep coding.\n• 𝗖𝗹𝗼𝘂𝗱 𝗔𝗴𝗲𝗻𝘁𝘀: They automatically create updates and pull requests for me.\n• 𝗣𝗮𝗿𝗮𝗹𝗹𝗲𝗹 𝗦𝘂𝗯-𝗔𝗴𝗲𝗻𝘁𝘀: They check different parts of my app (like frontend and backend) all at the exact same time.\nCoding now feels like being a manager of a super-smart tech team. They do the heavy lifting while I guide the project! 💻⚡\nhttps://lnkd.in/gkHnN6dA\n\n#AI #Coding #VSCode #GitHubCopilot #Claude #DeveloperLife #TechInnovation",
+    "hashtags": [
+      "#AI",
+      "#Coding",
+      "#VSCode",
+      "#GitHubCopilot",
+      "#Claude",
+      "#DeveloperLife",
+      "#TechInnovation"
+    ],
+    "engagement": {
+      "reactions": 5,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQF1wOfEusvuxQ/articleshare-shrink_800/B56ZwqTnkuKEAI-/0/1770236313263?e=2147483647&v=beta&t=FPjbfD50esX7che8JZGXI2AenOLMU_ooQpjh87nWULc",
+    "topic": "VS Code",
+    "score": 61.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 1.3,
+      "total": 61.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:58.177871+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/releem_releem-helps-teams-identify-database-issues-activity-7511904308960071680-i9Rc",
+    "canonical_url": "https://www.linkedin.com/posts/releem_releem-helps-teams-identify-database-issues-activity-7511904308960071680-i9Rc",
+    "post_id": 7511904308960071680,
+    "author": "Releem",
+    "is_company_account": false,
+    "followers": 3448,
+    "post_age": "58.7h (URL ID)",
+    "post_age_hours": 58.7,
+    "post_age_source": "url_id",
+    "post_text": "Releem helps teams identify database issues, prioritize what needs attention, and apply supported improvements after review and approval.\n\nOur product update expands that workflow across PostgreSQL, MySQL and MariaDB:\n1. All Recommendations brings findings from across your servers into one view, grouped by Performance, Security, Availability, and Resource Usage and prioritized by expected impact.🎯\n\n2. SQL Query Optimization and Schema Checks for PostgreSQL are now generally available. 🐘\n\n3. Releem can apply Aurora MySQL and Aurora PostgreSQL configuration recommendations to instance and cluster parameter groups, reducing manual configuration work. ☁️\n\n4. New machine-learning models expand configuration tuning across MariaDB, MySQL, and PostgreSQL versions, helping teams choose settings based on their database workload. 🧠\n\n5. Agent improvements support deployment in private subnets without a public IP 🛠️\n\nRead the full August product update. 👇",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 2,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQGqDqgiv88YzA/image-shrink_1280/B4EaD.lKJWKkAc-/0/1790977549193?e=2147483647&v=beta&t=dvIWlT_cQQlqpYnznlxdecZGI_YRpdfZxFSO_tKAUUw",
+    "topic": "PostgreSQL optimization",
+    "score": 60.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.8,
+      "total": 60.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:27:28.797822+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/saxonchris_how-to-choose-between-plsql-and-server-side-activity-7511766909743218688-Nhu7",
+    "canonical_url": "https://www.linkedin.com/posts/saxonchris_how-to-choose-between-plsql-and-server-side-activity-7511766909743218688-Nhu7",
+    "post_id": 7511766909743218688,
+    "author": "Chris Saxon",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.8h (URL ID)",
+    "post_age_hours": 67.8,
+    "post_age_source": "url_id",
+    "post_text": "Had great fun discussing PL/SQL vs JavaScript for backend development with Martin Bach\n\nWe touched on a number of other topics along the way, including\n\nUnit testing DB code\nJSON schema vs assertions for validating data\n\nWatch the recording at https://lnkd.in/gXJ6j88T\n\nWhat do you think - does the programming language you use in the age of AI?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFwdBYuuk8YWA/articleshare-shrink_800/B4EaDoYY4vKsAc-/0/1790605102958?e=2147483647&v=beta&t=aGIXrc-JoJqiRGf3zv8UBjK3Oz8Wid2dVKLYTOX8GnI",
+    "topic": "JavaScript",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:28:31.908059+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/david-sankel_my-talk-on-using-zngur-to-simplify-crust-activity-7511891681479344128-mrnz",
+    "canonical_url": "https://www.linkedin.com/posts/david-sankel_david-sankel-zngur-simplified-rustc-activity-7511891681479344128-NEIw",
+    "post_id": 7511891681479344128,
+    "author": "David Sankel",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "59.6h (URL ID)",
+    "post_age_hours": 59.6,
+    "post_age_source": "url_id",
+    "post_text": "My talk on using Zngur to simplify C++/Rust interoperability just dropped! It's awesome how the C++-centric approach really wins out in ergonomics.\n\nhttps://lnkd.in/g6xt7Gw4",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQFP5T2IJvIg-g/articleshare-shrink_800/B56aD.ZZSUGoAY-/0/1790974465965?e=2147483647&v=beta&t=n7X6tax_tM51KIi73PGJ_AtbFLo88LivfkJ8r3Uccfc",
+    "topic": "C++",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:18.812696+00:00"
+  },
+  {
+    "url": "https://jp.linkedin.com/posts/tomonorikudoh_生成ai-chatgpt-cursor-activity-7511704768143060992-k-p_",
+    "canonical_url": "https://jp.linkedin.com/posts/tomonorikudoh_%E7%94%9F%E6%88%90ai-chatgpt-cursor-activity-7511704768143060992-k-p_",
+    "post_id": 7511704768143060992,
+    "author": "工藤 知則",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "72.0h (URL ID)",
+    "post_age_hours": 72.0,
+    "post_age_source": "url_id",
+    "post_text": "「RAGを使えば一発じゃん」という悪魔の囁きを無視して、泥臭いキーワード検索エンジンを組んでいた今週。\n\nCursorに「俺たちうまくやれてた？」と聞いてみたら、驚くほど的を射たレビューを食らった。\n要するに、\n・ChatGPT＝「失敗カタログ」を脳内に全部持っていて、重箱の隅をつつく契約書を作ってくる天才肌の仕様オタク\n・Cursor＝言われたことだけを最小差分で即直してくれる、腕のいい現場大工\n・自分＝仕様の長文に圧倒されつつも、「そこ触るな！」「本番反映はまだダメ！」と遮断機を上げ下げする踏切番\n最初はChatGPTの出す長文仕様に圧倒されて「自分、エンジニア向いてないかも…」と凹んでいたが、大事なのはコードを書く量ではなく「境界線を握ること」だった。\n指示出しは、この5行の型だけで十分：\n・目的：\n・現状（ログ1つ）：\n・やってほしいこと（診断 / 修正 / 手順）：\n・触るな（トークナイザ・本番フラグ等）：\n・完了条件：\n厚い設計はChatGPTに膨らませてもらい、手元はCursorに直してもらい、人間は「壊さないブレーキ」を踏み続ける。\n\nAI時代の司令塔、これでいいみたいだ。\n\n#生成AI #ChatGPT #Cursor #システム開発 #プロジェクトマネジメント #プロンプトエンジニアリング #エンジニアの日常",
+    "hashtags": [
+      "#生成AI",
+      "#ChatGPT",
+      "#Cursor",
+      "#システム開発",
+      "#プロジェクトマネジメント",
+      "#プロンプトエンジニアリング",
+      "#エンジニアの日常"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGaf7LgW2gupw/feedshare-image-high-res/B56aD7vrhsIMAU-/0/1790929975702?e=2147483647&v=beta&t=tYGAnqNgSE4cd0ES8AvhSbCKRIstnXxIqu6gxvGaALk",
+    "topic": "Cursor",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:30:55.332004+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/julia-e-moore_skip-implementation-guide-entry-activity-7511855957057134592-Tej9",
+    "canonical_url": "https://www.linkedin.com/posts/julia-e-moore_most-lessons-learned-posts-focus-on-what-activity-7511855957057134592-_UDV",
+    "post_id": 7511855957057134592,
+    "author": "Julia Moore",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "61.9h (URL ID)",
+    "post_age_hours": 61.9,
+    "post_age_source": "url_id",
+    "post_text": "Most lessons-learned posts focus on what we would do differently. I was reflecting on a call from yesterday, and I think sometimes I would rather celebrate what went well. 🎉\n\nAfter a year and a half of building an interactive implementation guide with Solutions for Kids in Pain (SKIP), the tool we co-created has launched and is now live. We had a wrap-up meeting to debrief about the process with Kathryn (Katie) Birnie, PhD RPsych, Valentina Gastaldo, and the SKIP team.\n\nHere are some of my takeaways from this incredible partnership were:\n\n🤝 Strong relationships were central to our success. When plans changed, which they frequently did, the fact that we trusted each other seems like the most important element of this partnership.\n🎨 Uncertainty made us more creative. We all needed to accept that for fairly long periods of time, there was a lot of uncertainty. It was that uncertainty that actually allowed all of us to be creative in our own ways. Literally every element of this toolkit was built more creatively because we didn't know exactly where it was going: the way the pain domains content was crafted, the way implementation science was woven in, and the software that was used to make the tool have the functionality it does.\n📚 It was built on years of experience. While we technically only spent a year and a half building this part of the actual tool, all of this work was built on years of interactions with thousands of healthcare professionals, people providing implementation supports, parents, children, and families. It was years of data and examples of actual implementation that allowed us to make this tailored to the needs of the people who will use it and the people it is serving.\n⏸️ Pauses were part of the process. Sometimes the work stopped temporarily, occasionally longer than expected, and in the end, I think that was for the best. Some pauses were planned and some were unplanned. Luckily, because of our great relationship, these never felt stressful, at least not on our end. When I look back and think of what came after each pause, I am confident it was what was needed at the time.\n🧭 A clear vision kept us focused. This work was guided by Katie Bernie's vision. While lots of things were uncertain along the journey, we had a clear destination that remained the same the whole time. That clarity made so many of the in-between moments easier.\n💻 It was done completely virtually. While there are advantages of being together, it's absolutely possible to create great things without all being in the same location.\n\nAt the end of our debrief call, someone commented that it would be great to share our successes from this partnership. I think we don't do that enough.\n\n🔗 Access the guide: https://lnkd.in/gkgJpnkq\n\nDo you have partnerships that you could be celebrating right now?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Julia",
+    "score": 45.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 10.0,
+      "engagement": 0.0,
+      "total": 45.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:29:35.750698+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/danrust_why-so-serious-activity-7511813334103691264-QJ36",
+    "canonical_url": "https://www.linkedin.com/posts/danrust_why-so-serious-activity-7511813334103691264-QJ36",
+    "post_id": 7511813334103691264,
+    "author": "Dan Rust",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.7h (URL ID)",
+    "post_age_hours": 64.7,
+    "post_age_source": "url_id",
+    "post_text": "Why So Serious?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 16,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D12AQEloznJley9og/article-cover_image-shrink_720_1280/B4DaD9SKNtKUAQ-/0/1790955794596?e=2147483647&v=beta&t=ZG6K8_G61Q8bJR314lIi5bQR1XkEpqN8F856sHnzRmg",
+    "topic": "Rust",
+    "score": 43.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 5.0,
+      "engagement": 3.7,
+      "total": 43.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T08:28:56.218016+00:00"
   }
 ]
