@@ -4517,5 +4517,319 @@
     },
     "status": "new",
     "discovered_at": "2026-10-05T08:28:56.218016+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mayank-kumar01_rag-llm-generativeai-activity-7512115752695672832-LsuN",
+    "canonical_url": "https://www.linkedin.com/posts/mayank-kumar01_rag-llm-generativeai-activity-7512115752695672832-LsuN",
+    "post_id": 7512115752695672832,
+    "author": "Mayank Kumar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.0h (URL ID)",
+    "post_age_hours": 47.0,
+    "post_age_source": "url_id",
+    "post_text": "RAG Design Patterns Every LLM Engineer Should Know\n\nRetrieval-Augmented Generation (RAG) is more than:\n\"Chunk → Embed → Search → Generate\"\n\nIn production systems, retrieval quality and architecture often determine the quality of the final answer.\n\nHere are some important RAG design patterns:\n\n1. Naive RAG\nDocuments → Chunking → Embeddings → Vector Search → LLM\n\nSimple and useful for getting started, but can struggle with complex queries and noisy retrieval.\n\n2. Hybrid RAG\n\nCombines:\n- Keyword search\n- Vector search\n- Semantic similarity\n\nUseful when both exact terms and semantic meaning matter.\n\n3. Query Transformation\nUser Query → Query Rewriting → Retrieval → LLM\n\nThe system reformulates the original query to improve retrieval quality.\n\n4. Multi-Query RAG\nOne user question → Multiple search queries → Multiple retrieval results → Reranking → LLM\n\nUseful when a question can be interpreted from multiple perspectives.\n\n5. Reranking Pattern\nQuery → Initial Retrieval → Reranker → Top-K Context → LLM\n\nA reranker improves the relevance of retrieved documents before they reach the model.\n\n6. Parent-Child Retrieval\nSmall chunks are used for precise retrieval, while larger parent documents provide additional context to the LLM.\n\n7. Contextual Retrieval\nInstead of embedding isolated chunks, additional document context is added before indexing.\n\nThis can improve retrieval when individual chunks lack sufficient context.\n\n8. Agentic RAG\nQuery → Agent → Retrieval/Tools → Reasoning → Final Answer\n\nThe agent decides when and how to retrieve information instead of following a fixed retrieval pipeline.\n\n9. Graph RAG\nDocuments → Entities & Relationships → Knowledge Graph → Retrieval → LLM\n\nUseful for questions requiring relationships across entities and documents.\n\n10. Corrective RAG\nRetrieve → Evaluate Retrieved Context → Correct/Retry Retrieval → Generate\n\nThe system checks retrieval quality and performs additional retrieval when the initial results are insufficient.\n\nA practical production RAG architecture can look like:\n\nUser Query\n↓\nQuery Understanding\n↓\nQuery Transformation\n↓\nHybrid Retrieval\n↓\nReranking\n↓\nContext Filtering\n↓\nLLM\n↓\nEvaluation & Guardrails\n↓\nResponse\n\nThe key lesson:\nRAG is not a single technique.\n\nIt is a collection of design patterns that can be combined depending on the data, query complexity, latency requirements, accuracy expectations, and cost constraints.\n\nGood RAG design starts with understanding the retrieval problem—not simply choosing a vector database.\n\n#RAG #LLM #GenerativeAI #AIEngineering #GenAI #ArtificialIntelligence #MachineLearning #RAGArchitecture #LLMEngineering",
+    "hashtags": [
+      "#RAG",
+      "#LLM",
+      "#GenerativeAI",
+      "#AIEngineering",
+      "#GenAI",
+      "#ArtificialIntelligence",
+      "#MachineLearning",
+      "#RAGArchitecture",
+      "#LLMEngineering"
+    ],
+    "engagement": {
+      "reactions": 63,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQH_F1kjSRYIMw/feedshare-shrink_800/B56aEBld27KsAc-/0/1791027961609?e=2147483647&v=beta&t=gN-Qtes7oViSwyKhlRajWEj44IvYBTizFQoGGysdIQ8",
+    "topic": "RAG architecture",
+    "score": 83.0,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 12.5,
+      "total": 83.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:48:43.753096+00:00",
+    "failure_reason": null,
+    "generated_comment": "Mayank, the hybrid RAG pattern you highlight (keyword + vector search) is solid for balancing recall and precision. One piece often omitted is a dynamic caching layer for frequently retrieved chunks, which can cut latency and cost without hurting relevance. Have you evaluated cache warm-up strategies for your production pipeline?"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sumitanalyzen_is-heavy-javascript-slowing-down-your-website-activity-7512177342471897088-JiB6",
+    "canonical_url": "https://www.linkedin.com/posts/sumitanalyzen_is-heavy-javascript-slowing-down-your-website-activity-7512177342471897088-JiB6",
+    "post_id": 7512177342471897088,
+    "author": "Sumit Saha",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.0h (URL ID)",
+    "post_age_hours": 43.0,
+    "post_age_source": "url_id",
+    "post_text": "Is heavy JavaScript slowing down your website? Astro could be the perfect solution to this problem in the modern web!\nToday, were discussing exactly how its unique Island Architecture works and makes your project super fast. To learn more about Astro in detail, you can watch the full crash course on the Learn with Sumit YouTube channel. 👇 Link in comment section.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 63,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQHMvVMzvVHi8g/thumbnail-with-play-button-overlay-high/B56aECdaQdGcC8-/0/1791042630348?e=2147483647&v=beta&t=AzsEW62Lz87EkRBJSUY0QMqEnMNDp2TC3g0u9aYDZZ4",
+    "topic": "JavaScript",
+    "score": 82.0,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 11.5,
+      "total": 82.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:50:05.410978+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/orenmelamed_agent-bakeoff-is-coming-to-github-copilot-activity-7512602010613964801-i36G",
+    "canonical_url": "https://www.linkedin.com/posts/orenmelamed_agent-bakeoff-is-coming-to-github-copilot-activity-7512602010613964801-i36G",
+    "post_id": 7512602010613964801,
+    "author": "Oren Melamed",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "14.9h (URL ID)",
+    "post_age_hours": 14.9,
+    "post_age_source": "url_id",
+    "post_text": "Agent Bakeoff is coming to GitHub Copilot.\n\nInstead of running the same task manually with different models, you can now run multiple agent attempts and compare the results side by side.\n\nYou can run 2-10 attempts, use different models, or even run the same model multiple times.\n\nEach attempt gets its own isolated worktree, while the workspace, harness, execution mode, permissions and other task configuration stay consistent.\n\nThen you can add a Judge to evaluate the attempts and a Synthesizer to combine the results.\n\nSo:\n\nTask → multiple agent runs → Judge → Synthesis\n\nThere is also telemetry around the comparison, including the comparison ID and the role of each participant.\n\nWhat I find more interesting is how this fits with some of the other things landing in Copilot right now that I recently wrote about.\n\nHydraFusion is exploring how Copilot can dynamically choose a workflow and coordinate multiple models within a turn.\n\nDynamic Workflows go in almost the opposite direction: you define the process - the steps, conditions, handoffs, parallelism and checkpoints - and agents execute the parts that need reasoning.\n\nAnd Agent Bakeoff gives you a way to experiment with the execution itself and compare the outcomes.\n\nSo I don't see these as three competing features at all.\n\nI see them as different pieces of the same direction:\n\nDefine the process. Choose or discover how to execute it. Run multiple approaches. Evaluate the results.\n\nThat's a much more interesting direction than simply adding another model to the picker. I think this is where @GitHubCopilot really shines vs other harnesses especially lately with all of these features.\n\n[Quite a long video, the start is where the initial config is being set, then mostly seeing the 4 agents I chose going at it while some opened the browser and some just worked, and eventually towards the end the judge and the synthesis - which honestly failed for me 😅 )",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 10,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHguSYD8WME0A/thumbnail-with-play-button-overlay-high/B4EaEIfm8pIwC0-/0/1791143885082?e=2147483647&v=beta&t=RGz0tCnX2EtQLyWaLaFyy9GAM1rwtwLnMV-flnjDTTk",
+    "topic": "GitHub Copilot",
+    "score": 80.2,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.7,
+      "total": 80.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:51:42.125918+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/itsnextwork_aiagents-typescript-claudecode-activity-7512644353022971904-zu9g",
+    "canonical_url": "https://www.linkedin.com/posts/itsnextwork_aiagents-typescript-claudecode-activity-7512644353022971904-zu9g",
+    "post_id": 7512644353022971904,
+    "author": "NextWork",
+    "is_company_account": false,
+    "followers": 9153,
+    "post_age": "12.1h (URL ID)",
+    "post_age_hours": 12.1,
+    "post_age_source": "url_id",
+    "post_text": "𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗼𝗳 𝘁𝗵𝗲 𝗗𝗮𝘆: 𝗕𝘂𝗶𝗹𝗱 𝗮 𝗖𝘂𝘀𝘁𝗼𝗺 𝗔𝗴𝗲𝗻𝘁 𝗛𝗮𝗿𝗻𝗲𝘀𝘀 🤖\n\nClaude Code and Codex feel like magic.\nUnder the hood, a CLI agent is just a loop: send messages, run tools, feed the results back to the model.\n\n𝗪𝗵𝗮𝘁 𝘆𝗼𝘂'𝗹𝗹 𝘄𝗮𝗹𝗸 𝗮𝘄𝗮𝘆 𝘄𝗶𝘁𝗵\n→ A TypeScript CLI agent wired to OpenRouter\n→ A full agent loop that runs model turns until the task is done\n→ Read-only workspace tools, plus approval gates before anything edits your files\n→ A transparent trail of every model turn, tool call and result\n→ Secret Mission: a persistent session store that remembers you after a restart\n\n𝗚𝗼𝗼𝗱 𝗳𝗼𝗿: developers who use AI coding agents and want to see how they actually work\n⏱ 55 min · 🟡 Medium · 💰 Free\n\nCheck it out here: https://lnkd.in/g-eeYp3n\n\nShout out to Donald Stolz for building this project!\n\n#AIAgents #TypeScript #ClaudeCode #DevTools #NextWork",
+    "hashtags": [
+      "#AIAgents",
+      "#TypeScript",
+      "#ClaudeCode",
+      "#DevTools",
+      "#NextWork"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGOc_oQk615rg/feedshare-shrink_800/B56aEJGOeBHMAc-/0/1791153989948?e=2147483647&v=beta&t=aimpcr5_ZFSwHtVzND_fFgFS3ECZJRFCJk2xFtYixyA",
+    "topic": "TypeScript",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:50:23.498294+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sayeed-ahmad-924133248_aiengineering-llmengineering-generativeai-activity-7511832889043591168-RvUp",
+    "canonical_url": "https://www.linkedin.com/posts/sayeed-ahmad-924133248_aiengineering-llmengineering-generativeai-activity-7511832889043591168-RvUp",
+    "post_id": 7511832889043591168,
+    "author": "SAYEED AHMAD",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.8h (URL ID)",
+    "post_age_hours": 65.8,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Engineering Agentic AI amp; Multi-Agent SystemsBuilt an LLM-powered Agentic AI orchestration system focused on task decomposition, agent routing, tool invocation, external knowledge retrieval, contextual reasoning, and response synthesis.🏗️ Architecture:User Intent → Task Decomposition → Agent Routing → LLM Reasoning → Tool Invocation → Context Aggregation → Response Synthesis⚙️ Engineering Focus:• Multi-agent orchestration amp; workflow composition• Tool-augmented LLM reasoning• Multi-provider LLM integration• External knowledge retrieval• Modular amp; extensible architecture• Secure configuration management• Foundation for RAG, memory amp; observability🛠️ Stack:Python · Phidata · Groq · OpenAI · Gemini · Ollama · DuckDuckGo · Yahoo Finance · Streamlit · Git/GitHub🔬 Next: RAG · Agent Memory · Evaluation · Observability · Fault Tolerance · FastAPI · Docker · CI/CDFocused on building production-oriented AI systems at the intersection of LLM Engineering, Agentic AI, Generative AI, and Software Engineering.🔗 GitHub: https://lnkd.in/dyiFDmgr #AIEngineering\n\n🙏 A Special thanks to KODI PRAKASH SENAPATI Sir, for your valuable guidance, continuous support, and encouragement throughout this journey. Truly grateful for your mentorship...\n\n#LLMEngineering #GenerativeAI #MultiAgentSystems #LLM #Python #SoftwareEngineering #AIArchitecture #MLOps",
+    "hashtags": [
+      "#AIEngineering",
+      "#LLMEngineering",
+      "#GenerativeAI",
+      "#MultiAgentSystems",
+      "#LLM",
+      "#Python",
+      "#SoftwareEngineering",
+      "#AIArchitecture",
+      "#MLOps"
+    ],
+    "engagement": {
+      "reactions": 90,
+      "comments": 8,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHG_-k_J_fmDA/thumbnail-with-play-button-overlay-high/B4DaD9kKiCKUC0-/0/1790960514783?e=2147483647&v=beta&t=RbzMKVA93-UUOy7aSJnn50rxkGnPHGEP72q3gTJVLXg",
+    "topic": "FastAPI observability",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:48:12.490970+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/matthewbusel_i-think-ai-has-fundamentally-changed-what-activity-7511854077308243968-MjwH",
+    "canonical_url": "https://www.linkedin.com/posts/matthewbusel_i-think-ai-has-fundamentally-changed-what-activity-7511854077308243968-MjwH",
+    "post_id": 7511854077308243968,
+    "author": "Matthew Charles Vladislav Busel",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.4h (URL ID)",
+    "post_age_hours": 64.4,
+    "post_age_source": "url_id",
+    "post_text": "I think AI has fundamentally changed what it means to be a programmer.\n\nRust makes that especially obvious to me.\n\nA few years ago, building serious systems in Rust meant spending huge amounts of time fighting compiler errors, ownership issues, lifetimes, traits, async behavior, and all the little edge cases that make Rust both powerful and difficult.\n\nNow I can move through that complexity at a completely different speed.\n\nI can take an idea, explain the system I want, iterate with AI, work through compiler feedback, refactor architecture, and build things that would have taken me dramatically longer before.\n\nTo me, this is not just “better autocomplete.”\n\nThis is leverage.\n\nThe limiting factor is becoming less about how fast I can physically write code and more about how well I can think, design, judge, and direct.\n\nI strongly believe the developers who embrace that shift are going to build at a level that would have looked absurd a few years ago.\n\nAnd Rust is one of the clearest places I’ve seen it happen. | 13 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 31,
+      "comments": 13,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Rust",
+    "score": 71.7,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 11.7,
+      "total": 71.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:50:28.345749+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/techygeeksit_hiring-performancetesting-performanceengineer-activity-7512138183099314176-lIEM",
+    "canonical_url": "https://www.linkedin.com/posts/techygeeksit_hiring-performancetesting-performanceengineer-activity-7512138183099314176-lIEM",
+    "post_id": 7512138183099314176,
+    "author": "TECHY GEEKS",
+    "is_company_account": false,
+    "followers": 13572,
+    "post_age": "45.6h (URL ID)",
+    "post_age_hours": 45.6,
+    "post_age_source": "url_id",
+    "post_text": "🚀 We’re Hiring | Performance Test Engineer\n\nAre you an experienced Performance Test Engineer ready to work on enterprise-scale performance engineering and GenAI-driven testing?\n\n📍 Location: Chennai\n💼 Experience: 7–12 Years\n\nWe’re looking for professionals with expertise in:\n🔹 Performance Testing & Performance Engineering\n🔹 JMeter, AppDynamics & Splunk\n🔹 Enterprise-grade Performance Testing Frameworks\n🔹 Python & strong programming skills\n🔹 GenAI, RAG, AI Agents & Vector Databases\n🔹 DeepEval / AI evaluation frameworks\n🔹 Analytical & problem-solving skills\n\n📩 Share your updated CV: sujitha.v@techygeeksit.com\n\nIf this opportunity matches your profile, we’d love to hear from you.\n\nKnow someone who fits? Tag them or share this post.\n\n#Hiring #PerformanceTesting #PerformanceEngineer #JMeter #AppDynamics #Splunk #Python #GenAI #AIAgents #ChennaiJobs #TechJobs #ITJobs #SoftwareTesting #QualityEngineering #TechyGeeks",
+    "hashtags": [
+      "#Hiring",
+      "#PerformanceTesting",
+      "#PerformanceEngineer",
+      "#JMeter",
+      "#AppDynamics",
+      "#Splunk",
+      "#Python",
+      "#GenAI",
+      "#AIAgents",
+      "#ChennaiJobs",
+      "#TechJobs",
+      "#ITJobs",
+      "#SoftwareTesting",
+      "#QualityEngineering",
+      "#TechyGeeks"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFspostCYQlUA/feedshare-shrink_800/B56aEB53qkIMAc-/0/1791033310127?e=2147483647&v=beta&t=9cZ-2deK2OXHI0PMmWVE5_XZCii5r-SDcvgMwAoF5as",
+    "topic": "Python performance",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:48:25.552616+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aymanalheraki_the-evolution-of-c-from-the-1980s-to-modern-day-activity-7512105424154918912-twSt",
+    "canonical_url": "https://www.linkedin.com/posts/aymanalheraki_the-evolution-of-c-from-the-1980s-to-modern-day-activity-7512105424154918912-twSt",
+    "post_id": 7512105424154918912,
+    "author": "Ayman Alheraki",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.8h (URL ID)",
+    "post_age_hours": 47.8,
+    "post_age_source": "url_id",
+    "post_text": "The Evolution of C++ From the 1980s to Modern-Day Powerhouses\n---------------------------------------------------------\nC++ has come a long way since its inception in the 1980s. What began as a simple extension of the C programming language—designed to support object-oriented programming (OOP)—has evolved into one of the most powerful and versatile languages in modern…\n\nRead more ... https://lnkd.in/dtEVjEvF",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEiTFoq5y38sA/feedshare-shrink_800/B4DaEBcEz9GYAc-/0/1791025500123?e=2147483647&v=beta&t=okC4EPsB1agOsI6-vLwgABvUrwqyVVQSc28z1tX3z60",
+    "topic": "C++",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:50:55.662049+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cloudbees_enterprise-jenkins-now-builds-from-cursor-activity-7511820099088023553-p3Ei",
+    "canonical_url": "https://www.linkedin.com/posts/cloudbees_enterprise-jenkins-now-builds-from-cursor-activity-7511820099088023553-p3Ei",
+    "post_id": 7511820099088023553,
+    "author": "CloudBees",
+    "is_company_account": false,
+    "followers": 71356,
+    "post_age": "66.7h (URL ID)",
+    "post_age_hours": 66.7,
+    "post_age_source": "url_id",
+    "post_text": "Build at AI speed. Keep Jenkins.\n\nCursor Origin is a Git forge where coding agents branch, commit and open pull requests on their own. Jenkins now builds from it.\n\nThe Cursor Origin Branch Source plugin is live in the Jenkins Update Center. It's MIT-licensed and upstream, contributed by CloudBees, and in beta.\n\nHuman or agent, every commit goes through the pipelines you already trust.\n\nLearn more: https://lnkd.in/g72cGyHZ",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Cursor",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-05T10:51:57.407153+00:00"
   }
 ]
