@@ -4831,5 +4831,1054 @@
     },
     "status": "new",
     "discovered_at": "2026-10-05T10:51:57.407153+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/shreyakhandelwal99_forwarddeployedengineer-aiengineering-activity-7513062945187315713-eSjv",
+    "canonical_url": "https://www.linkedin.com/posts/shreyakhandelwal99_forwarddeployedengineer-aiengineering-activity-7513062945187315713-eSjv",
+    "post_id": 7513062945187315713,
+    "author": "Shreya Khandelwal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "8.2h (URL ID)",
+    "post_age_hours": 8.2,
+    "post_age_source": "url_id",
+    "post_text": "Why are companies hiring Forward Deployed Engineers when they already have AI/ML Engineers?\n\nBecause building an AI system is only half the problem.\n\nAn AI/ML Engineer may focus on building and optimizing AI systems.\n\nAn FDE has to take a messy business problem, figure out what actually needs to be built, work with real data and existing systems, and take the solution all the way to production.\n\nAnd that’s exactly why FDE roles are gaining so much attention right now.\n\nFor working software engineers looking to move into AI, the skill set goes beyond models:\n\n→ LLMs, APIs & Prompt Engineering\n→ RAG, Embeddings & Fine-tuning\n→ Agents, LangGraph & MCP\n→ Evaluation, LLMOps & Observability\n→ FastAPI, Docker, AWS & Enterprise AI\n\nBut the real differentiator is connecting all of this to a business problem.\n\nYou need to understand the customer, scope the problem, make architecture trade-offs, handle enterprise constraints, deploy the solution and measure its impact.\n\nThat combination of AI + engineering + problem-solving is what makes FDE different.\n\nAnd exactly why structured, project-based learning matters.\n\nBosscoder Academy's AI Forward Deployed Engineer Program helps working engineers transition into AI/FDE roles through practical projects, mentorship, and production-oriented workflows.\n\n🔗 Explore the AI Forward Deployed Engineer Program: bcalinks.com/b2FbBrC\n\nThey've helped 2200+ professionals transition successfully through:\n\n💡 Structured curriculum covering LLMs, RAG, Fine-tuning, Agents, MCP & LLMOps.\n💡 Real-world projects taking AI from problem discovery to production.\n💡 1:1 mentorship from engineers at top product companies.\n💡 Placement support to help you prepare, interview, and transition into your target AI engineering role.\n\n#ForwardDeployedEngineer #AIEngineering #GenerativeAI #ArtificialIntelligence #DataScience | 30 comments on LinkedIn",
+    "hashtags": [
+      "#ForwardDeployedEngineer",
+      "#AIEngineering",
+      "#GenerativeAI",
+      "#ArtificialIntelligence",
+      "#DataScience"
+    ],
+    "engagement": {
+      "reactions": 91,
+      "comments": 30,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFwM2YOe-1rnQ/feedshare-shrink_800/B56aEM07YxHEAc-/0/1791216564092?e=2147483647&v=beta&t=i8PXVQ29o--XESIM8Ne-w_1jKpgkKjwD18a1wFHlAlc",
+    "topic": "FastAPI observability",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:41:50.547827+00:00",
+    "failure_reason": null,
+    "generated_comment": "Shreya, FastAPI's lightweight nature speeds prototypes, yet at enterprise scale its observability stack can introduce latency if tracing is too granular. Balancing detailed metrics with request latency often means offloading logs to a sidecar or async collector, adding cost and operational overhead."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vansh-budhirajaa_mcp-capability-interaction-map-activity-7513066816605294593-2xlp",
+    "canonical_url": "https://www.linkedin.com/posts/vansh-budhirajaa_mcp-capability-interaction-map-activity-7513066816605294593-2xlp",
+    "post_id": 7513066816605294593,
+    "author": "Vansh Budhiraja",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "7.9h (URL ID)",
+    "post_age_hours": 7.9,
+    "post_age_source": "url_id",
+    "post_text": "𝐌𝐂𝐏 𝐢𝐬𝐧’𝐭 𝐣𝐮𝐬𝐭 𝐚 𝐰𝐚𝐲 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐚𝐧 𝐀𝐈 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐭𝐨𝐨𝐥𝐬. 𝐈𝐭 𝐝𝐞𝐟𝐢𝐧𝐞𝐬 𝐚 𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞𝐝 𝐰𝐚𝐲 𝐟𝐨𝐫 𝐀𝐈 𝐬𝐲𝐬𝐭𝐞𝐦𝐬 𝐭𝐨 𝐝𝐢𝐬𝐜𝐨𝐯𝐞𝐫, 𝐚𝐜𝐜𝐞𝐬𝐬, 𝐚𝐧𝐝 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭 𝐰𝐢𝐭𝐡 𝐞𝐱𝐭𝐞𝐫𝐧𝐚𝐥 𝐜𝐚𝐩𝐚𝐛𝐢𝐥𝐢𝐭𝐢𝐞𝐬.\n\n𝐀𝐬 𝐀𝐈 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐛𝐞𝐜𝐨𝐦𝐞 𝐦𝐨𝐫𝐞 𝐜𝐚𝐩𝐚𝐛𝐥𝐞, 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠 𝐭𝐡𝐞𝐦 𝐭𝐨 𝐫𝐞𝐚𝐥-𝐰𝐨𝐫𝐥𝐝 𝐬𝐲𝐬𝐭𝐞𝐦𝐬 𝐛𝐞𝐜𝐨𝐦𝐞𝐬 𝐚 𝐦𝐚𝐣𝐨𝐫 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞.\n\nThat’s where Model Context Protocol (MCP) comes in.\n\nAt a high level, MCP connects an AI application to external systems through three core capabilities:\n\n→ Tools → Let the model perform actions such as API calls, database queries, file operations, or custom actions.\n\n→ Resources → Provide read-only data and context such as files, documents, database records, knowledge bases, or application state.\n\n→ Prompts → Provide reusable templates for tasks, workflows, analysis, or domain-specific instructions.\n\nThe architecture is built around a few important layers:\n\n→ Host → The AI application or agent that manages the user interaction.\n\n→ MCP Client → Handles protocol communication and manages the connection.\n\n→ Transport → Carries messages between client and server through mechanisms such as stdio or Streamable HTTP.\n\n→ MCP Server → Exposes tools, resources, and prompts to the application.\n\n→ External Systems → APIs, databases, file systems, SaaS tools, and business systems.\n\nThe interaction follows a clear lifecycle:\n\nInitialize → Negotiate → Establish Session → Discover → Invoke / Read → Return Result → Continue → Close\n\nAnd security matters at every layer.\n\n→ Authentication → Verify users and services\n\n→ Authorization → Control what can be accessed\n\n→ Capability-level access → Restrict specific tools and resources\n\n→ Data protection → Control sensitive information\n\n→ Auditing → Monitor tool usage and unusual activity\n\nThe biggest idea is that MCP standardizes the interaction protocol, not your entire application.\n\nYou still design:\n\n→ Application logic\n\n→ Authentication and authorization\n\n→ Permissions\n\n→ Which capabilities to expose\n\n→ External system integrations\n\n→ Monitoring and governance\n\nThe key takeaway\n\nMCP gives AI applications a standardized and modular way to connect with real-world tools, data, and systems.\n\nThe protocol provides the structure.\n\nYou still design the boundaries.\n\nSave this for your next MCP, AI agent, or LLM application project.\n\nFollow Vansh for more practical AI agents, LLMs, MCP, RAG, and AI engineering insights. | 70 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 86,
+      "comments": 70,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "MCP protocol",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:11.471219+00:00",
+    "failure_reason": null,
+    "generated_comment": "Vansh, the transport layer using stdio or Streamable HTTP is a solid start, but the post skips discussion of rate-limiting for tool calls. Without throttling, high-throughput agents can overload downstream APIs, impacting latency and cost."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rjritikjain_rag-generativeai-aiengineering-activity-7513074094695870465-W43h",
+    "canonical_url": "https://www.linkedin.com/posts/rjritikjain_rag-generativeai-aiengineering-activity-7513074094695870465-W43h",
+    "post_id": 7513074094695870465,
+    "author": "Ritik Jain",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "7.5h (URL ID)",
+    "post_age_hours": 7.5,
+    "post_age_source": "url_id",
+    "post_text": "RAG is no longer just “retrieve some documents and send them to an LLM.”\n\nAs AI applications become more complex, the retrieval layer itself is becoming much more sophisticated.\n\nDepending on the problem you're solving, you might use:\n→ Naive RAG for straightforward document-based Q&A\n→ Retrieve-and-rerank when the first retrieval needs better relevance\n→ Multimodal RAG when your data includes images, PDFs, charts or other media\n→ Graph RAG when relationships between entities matter\n→ Hybrid RAG when combining semantic and graph-based retrieval makes sense\n→ Agentic RAG when an agent needs to decide what to retrieve and when\n→ Multi-agent RAG when different agents handle different parts of the research workflow\n\nThe interesting part isn't knowing the names.\n\nIt's knowing when a simple RAG pipeline is enough - and when the problem actually requires something more advanced.\n\nFor example:\n\nA company knowledge base might work perfectly well with basic RAG.\n\nBut a system that needs to connect information across documents, databases, emails, web sources and internal tools may need a very different architecture.\n\nThat's why building production-grade GenAI systems involves much more than choosing an embedding model and a vector database.\n\nYou need to think about:\n🧩 Retrieval quality\n🔎 Re-ranking\n🧠 Context management\n📊 Evaluation\n⚡ Latency & cost\n🔐 Security\n👀 Observability\n🤖 Agent behaviour\n\nThe visual below is a useful cheat sheet for understanding how RAG architectures are evolving in 2026.\n\n📌 Save it if you're learning RAG or building GenAI applications.\n\n💬 Which RAG pattern are you currently working with?\n\n🔁 Repost it for someone building with LLMs.\n\nFor more job openings and free resources join my channel:  https://lnkd.in/gEivSGRE\n\nFollow Ritik Jain for more AI, Data Engineering, Software Engineering and tech career content. 🚀\n\n#RAG #GenerativeAI #AIEngineering #LLM #AgenticAI #MultimodalAI #GraphRAG #AIAgents #MachineLearning #GenAI #SoftwareEngineering #TechCareers | 49 comments on LinkedIn",
+    "hashtags": [
+      "#RAG",
+      "#GenerativeAI",
+      "#AIEngineering",
+      "#LLM",
+      "#AgenticAI",
+      "#MultimodalAI",
+      "#GraphRAG",
+      "#AIAgents",
+      "#MachineLearning",
+      "#GenAI",
+      "#SoftwareEngineering",
+      "#TechCareers"
+    ],
+    "engagement": {
+      "reactions": 132,
+      "comments": 49,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGLMLSEehlZwA/feedshare-shrink_480/B56aEPNE7nHMAg-/0/1791256449057?e=2147483647&v=beta&t=q9O_du1HREKbpOyW05Q37uvnU0pbjQ-gcvU8kll3tXQ",
+    "topic": "RAG architecture",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:14.677681+00:00",
+    "failure_reason": null,
+    "generated_comment": "Ritik, I'm currently using a retrieve-and-rerank pipeline because the base vector search gives decent recall but domain-specific queries still need a second pass to prune false positives. It adds modest latency but improves answer precision noticeably."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mohamed-jalloh-830403198_25-types-of-rag-activity-7512897026636906496-PI4f",
+    "canonical_url": "https://www.linkedin.com/posts/mohamed-jalloh-830403198_25-types-of-rag-activity-7512897026636906496-PI4f",
+    "post_id": 7512897026636906496,
+    "author": "Mohamed Jalloh",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "19.2h (URL ID)",
+    "post_age_hours": 19.2,
+    "post_age_source": "url_id",
+    "post_text": "Most teams treat RAG as one recipe. It is actually a family of 25+ architectures, each built to fix a different failure.\n⠀\nHere is the practical map of the landscape 👇\n⠀\n1. 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 — Standard, Corrective and Self RAG cover the baseline and basic self-checking.\n2. 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 — Speculative, Fusion, Agentic and Adaptive RAG trade complexity for accuracy and speed.\n3. 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗲𝗱 — REFEED, REALM, RAPTOR, REVEAL, REACT and REPLUG target feedback, trees, vision and reasoning.\n4. 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱 — MEMO, ATLAS, RETRO, AUTO RAG, CORAG and EACO-RAG focus on cost, scale and edge delivery.\n5. 𝗗𝗼𝗺𝗮𝗶𝗻-𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰 — RULE, CORAL, Iterative, ConTReGen, CRAT and Graph RAG handle rules, conversations, hierarchies and graphs.\n⠀\nThe winning move is not memorizing all 25. It is naming your failure mode first, then picking the pattern that fixes it.\n⠀\nWhich RAG variant are you running in production today? 👇\n⠀\n➕ Follow Mohamed Jalloh for more practical RAG and retrieval breakdowns.\n⠀\n#RAG #GenerativeAI #AIEngineering #LLM #VectorSearch | 28 comments on LinkedIn",
+    "hashtags": [
+      "#RAG",
+      "#GenerativeAI",
+      "#AIEngineering",
+      "#LLM",
+      "#VectorSearch"
+    ],
+    "engagement": {
+      "reactions": 159,
+      "comments": 28,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "RAG architecture",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:16.203655+00:00",
+    "failure_reason": null,
+    "generated_comment": "Mohamed, we run Adaptive RAG in production because its speculative fusion layer lets us balance query latency with higher relevance on dynamic corpora. The trade-off is added indexing overhead, but the accuracy gain justifies the cost for our real-time dashboard."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rauchg_introducing-gdp-ts-ghosts-of-departed-proofs-activity-7512909952118788097-cnRW",
+    "canonical_url": "https://www.linkedin.com/posts/rauchg_introducing-gdp-ts-ghosts-of-departed-proofs-activity-7512909952118788097-cnRW",
+    "post_id": 7512909952118788097,
+    "author": "Guillermo Rauch",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "18.4h (URL ID)",
+    "post_age_hours": 18.4,
+    "post_age_source": "url_id",
+    "post_text": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript.\n\ngdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check.\n\nThe typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs.\n\nWhile these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review and ② cognitive and syntactic overhead made these solutions niche.\n\nThe situation is now inverted. Agents are writing more code than we can review, and they *thrive* in tight loops with hard constraints that would frustrate us. We see this with the rise of Rust, borrow checker, code aesthetics debate and all.\n\nThe README and examples model a real-world Vercel API product constraint: changing the password on a Project requires a proof of a certain role + a certain entitlement. Thanks to Matt Noonan and Ollie Charles for their research in this space.\n\nhttps://lnkd.in/eKfFCQ_P | 20 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 216,
+      "comments": 20,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHaJLvZDvRdwA/feedshare-shrink_1280/B4EaEM3yoqKcAQ-/0/1791217314740?e=2147483647&v=beta&t=JPuW1TJj7Hz6W2mVO-zcCxlzI8sC2srmVbNwbit5Jgo",
+    "topic": "TypeScript",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:43:53.418831+00:00",
+    "failure_reason": null,
+    "generated_comment": "Guillermo, the compile-time typechecker verification you describe is solid, but the post omits any discussion of runtime enforcement when proofs are generated dynamically. Without a fallback check, services that load code at runtime could still bypass the contract, which matters for end-to-end security."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/michael-drogalis_this-week-i-learned-all-about-java-lambda-activity-7512885718516441090-DHBI",
+    "canonical_url": "https://www.linkedin.com/posts/michael-drogalis_this-week-i-learned-all-about-java-lambda-activity-7512885718516441090-DHBI",
+    "post_id": 7512885718516441090,
+    "author": "Michael Drogalis",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "20.0h (URL ID)",
+    "post_age_hours": 20.0,
+    "post_age_source": "url_id",
+    "post_text": "This week I learned all about Java Lambda functions. I know they're kind of old, but if you learned Java pre-8 like me, they look a bit scary at first.\n\nBecause Java is statically typed and designed with the idea that \"everything is a class\", it ships 5 main interfaces for implementing functions: Function, Consumer, Supplier, Runnable, and Predicate.\n\nWhich you choose depends on the function signature you need:\n\n1. Function: takes input, returns output\n2. Consumer: takes input, returns no output\n3. Supplier: takes no input, returns output\n4. Runnable: takes no input and gives no output (for side effects)\n5. Predicate: takes input, always returns a boolean\n\nOn top of that, Java gives us a rare bit of syntactic sugar for implementing them:\n\n• zero-parameter function: () -> \"hello world\"\n• single parameter function, type inferred: (x) -> x * 8\n• multi-parameter function: (x1, x2) -> x2 - x1\n• multi-line function body: () -> { someCall(); return otherFunction(); }\n• typed parameter function: (String x) -> x.charAt(42)\n• passing a function by name: stream.filter(MyClass::myPredicate)\n\nNotice two things:\n\n1. When the body of a function is a single expression, you can ditch the braces. The expression becomes the return value.\n\n2. Specifying parameter types is optional. The compiler can infer them for you. | 18 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 59,
+      "comments": 18,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHLMP41SasAOA/feedshare-shrink_800/B56aD4yYB2HAAc-/0/1790880351547?e=2147483647&v=beta&t=G_RVganQ992Y3amYE7-Rn56YdfVlVsIKLk5YH7fLg7k",
+    "topic": "Java",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:05.145628+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cppdoctor_c-developers-would-you-learn-it-again-activity-7512973607313272832-kHkx",
+    "canonical_url": "https://www.linkedin.com/posts/cppdoctor_c-developers-would-you-learn-it-again-activity-7512973607313272832-kHkx",
+    "post_id": 7512973607313272832,
+    "author": "Jelle Bakker",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "14.2h (URL ID)",
+    "post_age_hours": 14.2,
+    "post_age_source": "url_id",
+    "post_text": "C++ developers: would you learn it again?\n\nWhy did you first start with C++? Was it a job requirement, games, embedded, a university class, another reason?\n\nImagine you're starting out in 2026 with that same goal. Is C++ still the right answer, or would you reach for something else?\n\nFor me, it was audio software which got me to learn C++. Much of the industry relies on JUCE, a popular C++ audio framework. When I start a new audio project today, I still choose JUCE, and so C++. I'm curious to hear from others.\n\ncppdoctor.com | 35 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 40,
+      "comments": 35,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "C++",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:56.480126+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lennyrachitsky_head-of-chatgpt-and-codex-thibault-sottiaux-activity-7513009752134766592-c1SW",
+    "canonical_url": "https://www.linkedin.com/posts/lennyrachitsky_head-of-chatgpt-and-codex-thibault-sottiaux-activity-7513009752134766592-c1SW",
+    "post_id": 7513009752134766592,
+    "author": "Lenny Rachitsky",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "11.8h (URL ID)",
+    "post_age_hours": 11.8,
+    "post_age_source": "url_id",
+    "post_text": "Head of ChatGPT and Codex Thibault Sottiaux: \"How we work is still going to continue to change quite radically.\" | 10 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 63,
+      "comments": 10,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQEIy4R8MINRTA/thumbnail-with-play-button-overlay-high/B56aEOSgi.HMC0-/0/1791241098526?e=2147483647&v=beta&t=w1K4hlRr-A9kMPHVBJDKMSA-PevjTgAzYS7rjsOxaaQ",
+    "topic": "ChatGPT",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:45:21.784077+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/liamottley_i-moved-onto-chatgpts-new-business-platform-activity-7512844965291532288-64yO",
+    "canonical_url": "https://www.linkedin.com/posts/liamottley_i-moved-onto-chatgpts-new-business-platform-activity-7512844965291532288-64yO",
+    "post_id": 7512844965291532288,
+    "author": "Liam Ottley",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "22.7h (URL ID)",
+    "post_age_hours": 22.7,
+    "post_age_source": "url_id",
+    "post_text": "I moved onto ChatGPT's new business platform.\n\nHere's everything you need to know:\n\nNormal ChatGPT is single player. One person and their AI.\n\nThis is multiplayer: your whole team and your AI agents working in one place.\n\nIn my latest video I test every piece:\n\n- Dots, the OpenClaw style agent with its own computer\n- ChatGPT inside Slack, the setup I build for clients all the time\n- Spaces and Pages, where your agents get their context\n- The admin console, the part that got me most excited!\n- What it costs to run your business on it\n\nPlus who should switch now, and who should wait for the other labs to respond.\n\nLink to watch below 👇🏼 | 26 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 105,
+      "comments": 26,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQECqtf4Y50low/image-shrink_800/B4DaEL8penJUAg-/0/1791201810880?e=2147483647&v=beta&t=i2S8MbUnOPwd7EdP9RZMpBSqAV7Ta8LrGOateNETbIE",
+    "topic": "ChatGPT",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:45:34.677539+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/v-chandra-sekhar_9-rag-arch-activity-7512874710922129408-pymH",
+    "canonical_url": "https://www.linkedin.com/posts/v-chandra-sekhar_9-rag-arch-activity-7512874710922129408-pymH",
+    "post_id": 7512874710922129408,
+    "author": "Chandra Sekhar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "20.7h (URL ID)",
+    "post_age_hours": 20.7,
+    "post_age_source": "url_id",
+    "post_text": "Most RAG systems fail not because retrieval is bad, but because the architecture doesn't match the question.\n⠀\nHere are 9 RAG architectures and when each one earns its place 👇\n⠀\n1. 𝗦𝘁𝗮𝗻𝗱𝗮𝗿𝗱 𝗥𝗔𝗚 — your baseline for simple fact lookup. Tune chunk size first.\n2. 𝗗𝗲𝗲𝗽𝗥𝗔𝗚 — split multi-hop questions into sub-questions before retrieving.\n3. 𝗠𝗔-𝗥𝗔𝗚 — specialist agents for planning, extraction and synthesis.\n4. 𝗖𝗼𝗿𝗿𝗲𝗰𝘁𝗶𝘃𝗲 𝗥𝗔𝗚 — answer, detect errors, retrieve again, fix.\n5. 𝗦𝗽𝗲𝗰𝘂𝗹𝗮𝘁𝗶𝘃𝗲 𝗥𝗔𝗚 — small model drafts, large model verifies. Fast and safe.\n6. 𝗙𝘂𝘀𝗶𝗼𝗻 𝗥𝗔𝗚 — multiple queries merged with Reciprocal Rank Fusion.\n7. 𝗥𝗔𝗚-𝗚𝘆𝗺 — supervise each reasoning and search step, not only the final answer.\n8. 𝗠𝗼𝗱𝘂𝗹𝗮𝗿 𝗥𝗔𝗚 — swap the reranker or rewriter without rebuilding the pipeline.\n9. 𝗦𝗔𝗠-𝗥𝗔𝗚 — adaptive retrieval across text, images and audio.\n⠀\nMy take: don't upgrade because a pattern sounds impressive. Find the query type that fails, then add exactly one pattern.\n⠀\nWhich of these are you running in production today? 💬\n⠀\n➕ Follow me for more practical RAG and AI engineering breakdowns.\n⠀\n#RAG #GenerativeAI #AIEngineering #LLM #AIAgents",
+    "hashtags": [
+      "#RAG",
+      "#GenerativeAI",
+      "#AIEngineering",
+      "#LLM",
+      "#AIAgents"
+    ],
+    "engagement": {
+      "reactions": 30,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "RAG architecture",
+    "score": 86.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 8.5,
+      "total": 86.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:22.694334+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rathanuday_one-architecture-can-explain-almost-every-activity-7512809049474650113-rTW7",
+    "canonical_url": "https://www.linkedin.com/posts/rathanuday_one-architecture-can-explain-almost-every-activity-7512809049474650113-rTW7",
+    "post_id": 7512809049474650113,
+    "author": "Rathnakumar Udayakumar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "25.0h (URL ID)",
+    "post_age_hours": 25.0,
+    "post_age_source": "url_id",
+    "post_text": "One architecture can explain almost every AI agent.\n\nBehind the interface, an agent is really a continuous loop of understanding, reasoning, acting, checking, and learning.\n\nA typical architecture looks like this:\n\n→ Perception parses the request and identifies intent\n→ Context assembly retrieves relevant knowledge and memory\n→ The reasoning engine decides the next best action\n→ Planning breaks the goal into smaller, ordered steps\n→ Policy gates check permissions, risk, and approval requirements\n→ Tools execute actions across APIs, databases, code, files, or MCP servers\n→ Observations capture results and update the agent’s state\n→ Reflection checks whether the outcome actually meets the goal\n→ Memory stores useful context for future steps and future tasks\n→ Response synthesis prepares the final output for the user\n\nThe important part is that this does not happen only once.\n\nThe agent loops through reasoning, action, observation, and reflection until the task is complete, the budget is exhausted, or a stopping condition is reached.\n\nTwo layers support the entire system:\n\nGuardrails keep actions safe and controlled.\n\nObservability tracks traces, logs, latency, cost, metrics, and evaluations.\n\nThat is what separates a simple chatbot from a production-ready AI agent.\n\nThe LLM is only one component.\n\nThe real power comes from the system built around it.\n\nWant to learn more about O1, EB1A and EB5? Schedule a free consultation - https://lnkd.in/gEf3y7JB\n\n🔔 Follow to stay updated on high-skilled immigration, jobs, and business | 55 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 172,
+      "comments": 55,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQG4mm-6tzDxkA/feedshare-image-high-res/B4EaELb4WQIYAU-/0/1791193240808?e=2147483647&v=beta&t=rei6QZuzdgramGlOCnXaaEd5Sc6mzyiW9HoJLi1xXQk",
+    "topic": "AI Agents architecture",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:57.987706+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rajendra-sharma99_systemdesign-jpmorganchase-jpmorgan-activity-7512714981885345792-wygP",
+    "canonical_url": "https://www.linkedin.com/posts/rajendra-sharma99_systemdesign-jpmorganchase-jpmorgan-activity-7512714981885345792-wygP",
+    "post_id": 7512714981885345792,
+    "author": "RAJENDRA SHARMA",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "31.3h (URL ID)",
+    "post_age_hours": 31.3,
+    "post_age_source": "url_id",
+    "post_text": "🏦 JPMorganChase System Design Interview: Questions Candidates Commonly Report\n\nPreparing for a Software Engineer / Backend Engineer interview at JPMorgan Chase?\n\nBased on system-design topics and questions commonly shared by candidates, interviews can cover a mix of HLD, LLD, Java concurrency, scalability, reliability, and data consistency.\n\nHere are some important questions worth preparing for 👇\n\n🔹 Low-Level Design (LLD / OOD)\n\n• Design a Parking Lot System.\n• Design an ATM / Banking System with accounts, transactions, and fund transfers.\n• Design a Stock Trading Order Book with buy/sell order matching.\n• Design a Rate Limiter from scratch.\n• Which Design Pattern would you use here, and why?\n• When would you choose Strategy Pattern over Factory or Observer?\n• How would you apply SOLID Principles to your design?\n• How would you make your design extensible for future requirements?\n• How would you handle concurrent operations in your design?\n\n🔹 High-Level Design (HLD)\n\n• Design a Payment Processing System that prevents duplicate charges.\n• Design a Ledger / Double-Entry Bookkeeping System.\n• Design a Real-Time Fraud Detection Pipeline.\n• Design a Notification Service supporting Email, SMS, and Push Notifications.\n• How would your system handle a downstream service failure?\n• SQL vs NoSQL — which would you choose for a transactional banking system, and why?\n• How would you design reliable message processing with Kafka?\n• How would you handle retries and duplicate events?\n• How would you maintain data consistency across distributed services?\n• How would you design the system for high availability and fault tolerance?\n\n🔥 Key Areas You Should Prepare\n\nDon't focus only on drawing architecture diagrams or naming technologies.\n\nBe prepared for follow-up questions such as:\n\n➡️ What happens if a service goes down?\n➡️ What happens if the same request is retried?\n➡️ What if two transactions happen simultaneously?\n➡️ How do you prevent duplicate processing?\n➡️ How do you handle partial failures?\n➡️ How do you maintain consistency during failures?\n➡️ How do you scale the system when traffic increases 10x?\n➡️ How do you recover from a failed transaction?\n\n♻️ Repost to help someone preparing for their next interview.\n\n👨‍💻 Follow RAJENDRA SHARMA for more interview-preparation content on:\n\n☕ Java | 🧩 DSA | 🏗️ System Design | 🐳 Docker | 🗄️ SQL | 🔧 Git | 🚀 Backend Development\n\n#SystemDesign #JPMorganChase #JPMorgan #Java #Fintech #TechInterview #LowLevelDesign #HighLevelDesign #BackendDevelopment #SoftwareEngineering #InterviewPrep #DSA #Skilligo",
+    "hashtags": [
+      "#SystemDesign",
+      "#JPMorganChase",
+      "#JPMorgan",
+      "#Java",
+      "#Fintech",
+      "#TechInterview",
+      "#LowLevelDesign",
+      "#HighLevelDesign",
+      "#BackendDevelopment",
+      "#SoftwareEngineering",
+      "#InterviewPrep",
+      "#DSA",
+      "#Skilligo"
+    ],
+    "engagement": {
+      "reactions": 103,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Backend system design",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:43:17.802166+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ajeet-yadav-5a799a221_web-development-full-notes-html-css-javascript-activity-7512713383184367616-EqDb",
+    "canonical_url": "https://www.linkedin.com/posts/ajeet-yadav-5a799a221_web-development-full-notes-html-css-javascript-activity-7512713383184367616-EqDb",
+    "post_id": 7512713383184367616,
+    "author": "Ajeet Yadav",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "31.4h (URL ID)",
+    "post_age_hours": 31.4,
+    "post_age_source": "url_id",
+    "post_text": "I used to think Web Development was just:\n\nHTML → CSS → JavaScript.\n\nBuild a page.\nStyle it.\nAdd some JavaScript.\nMove on.\n\nBut the more I learned, the more I realized that there’s a lot happening behind even a simple website.\n\nI kept going back to topics like:\n\n→ HTML structure, forms & semantic elements\n→ CSS selectors & the box model\n→ Flexbox, Grid & responsive design\n→ Modern CSS & animations\n→ JavaScript fundamentals, arrays & objects\n→ Frontend vs Backend\n→ APIs & web services\n→ Databases\n→ Security & deployment\n\nAnd honestly, I kept forgetting things I had already studied.\n\nSo I started putting my notes together in one place.\n\nThat eventually became my:\n\n📚 19-Page Web Development Full Notes\n\nI kept it focused on the fundamentals so I could use it for quick revision whenever I needed it.\n\nOne thing I'm slowly realizing:\n\nWeb Development isn't about memorizing syntax.\n\nIt makes much more sense when you understand how the different pieces connect.\n\nHTML → CSS → JavaScript → APIs → Backend → Database\n\nI'm still learning and improving every day, but creating these notes has made revision much easier for me.\n\nSharing them for anyone learning Web Development, preparing for interviews, or revising the basics.\n\nSave it for your next revision.\nShare it with a friend learning Web Development.\nWhat are you learning right now — HTML, CSS or JavaScript?\n\n🔔 Follow Ajeet Yadav for more:\n🌐 Web Development\n💻 Programming & Development\n📚 Technical Notes & Interview Prep\n🤖 AI & GenAI\n🎯 Developer Career Growth\n🌿 Git & GitHub\n\nLearning → Practicing → Documenting → Sharing.\n\n#WebDevelopment #FrontendDevelopment #BackendDevelopment #HTML #CSS #JavaScript #WebDeveloper #FrontendDeveloper #BackendDeveloper #ResponsiveWebDesign #APIs #Database #Programming #Coding #LearnToCode #ComputerScience #ComputerScienceStudents #CSStudents #ITStudents #TechStudents #CodingStudents #EngineeringStudents #StudentDevelopers #SoftwareDeveloper #SoftwareEngineering #DeveloperCommunity #TechCommunity #ProgrammingCommunity #CodingCommunity #TechCommunityIndia #TechStudentsIndia #DeveloperLife #CodingJourney #FutureDevelopers #TechCareer #WebDevelopmentLearning | 44 comments on LinkedIn",
+    "hashtags": [
+      "#WebDevelopment",
+      "#FrontendDevelopment",
+      "#BackendDevelopment",
+      "#HTML",
+      "#CSS",
+      "#JavaScript",
+      "#WebDeveloper",
+      "#FrontendDeveloper",
+      "#BackendDeveloper",
+      "#ResponsiveWebDesign",
+      "#APIs",
+      "#Database",
+      "#Programming",
+      "#Coding",
+      "#LearnToCode",
+      "#ComputerScience",
+      "#ComputerScienceStudents",
+      "#CSStudents",
+      "#ITStudents",
+      "#TechStudents",
+      "#CodingStudents",
+      "#EngineeringStudents",
+      "#StudentDevelopers",
+      "#SoftwareDeveloper",
+      "#SoftwareEngineering",
+      "#DeveloperCommunity",
+      "#TechCommunity",
+      "#ProgrammingCommunity",
+      "#CodingCommunity",
+      "#TechCommunityIndia",
+      "#TechStudentsIndia",
+      "#DeveloperLife",
+      "#CodingJourney",
+      "#FutureDevelopers",
+      "#TechCareer",
+      "#WebDevelopmentLearning"
+    ],
+    "engagement": {
+      "reactions": 123,
+      "comments": 44,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "JavaScript",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:43:48.554558+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/andreazahumensky_one-week-to-go-tonight-i-finished-activity-7512710626339667968-2C62",
+    "canonical_url": "https://www.linkedin.com/posts/andreazahumensky_one-week-to-go-tonight-i-finished-activity-7512710626339667968-2C62",
+    "post_id": 7512710626339667968,
+    "author": "Andrea Zahumensky",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "31.6h (URL ID)",
+    "post_age_hours": 31.6,
+    "post_age_source": "url_id",
+    "post_text": "One week to go. ❤️🏃‍♀️\n\nTonight I finished my last “long” weekend run before the marathon, and it’s crazy to think about what the last six months have held.\n\nSo. Many. Miles. So many hours of true crime podcasts. 😂 Calls with family and friends who talked me through runs when I needed a distraction. Early mornings, tired legs, good runs, terrible runs…and a whole lot of time to think about why I decided to do this in the first place.\n\nAnd then there’s my training partner, Leslie Carroll, who has logged so many of those miles beside me—including carrying me through the back half of my 20-mile run by playing the alphabet game with things we found in Grandma’s closet and taking turns sharing what we’re grateful for. You learn a lot about friendship somewhere around mile 18. ❤️\n\nI’ll admit, the fundraising part of this intimidated me almost as much as the running. Instead, it has become one of the most rewarding parts of this entire experience. I have been absolutely blown away by people’s generosity.\n\nWe made my fundraising match—and somehow, thanks to all of you, I’m currently the #2 fundraiser for Team Ronald McDonald House among runners from around the world! I honestly can’t believe it.\n\nAnd what I love most is knowing exactly what those dollars mean. Every $100 raised can give a family a night at Ronald McDonald House while their child is receiving medical care. That’s a family who gets to stay close when being close matters most.\n\nSo with one week to go, I’m making one final ask: If you’ve thought about giving, now is the time. Every donation adds up, and every dollar makes these miles mean a little more. And knowing that all of you are behind me is going to mean a whole lot when the miles get hard on Sunday.\n\ndonate here: https://lnkd.in/gkHUvFT8\n\nHelp me make every mile count. 26.2 to go. ❤️\n\nChicago, here we come. 🏃‍♀️ | 12 comments on LinkedIn",
+    "hashtags": [
+      "#2"
+    ],
+    "engagement": {
+      "reactions": 146,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGTTaPcThYNqg/feedshare-shrink_800/B56aEKCfgNIIAc-/0/1791169791685?e=2147483647&v=beta&t=HRetfZmXlmdtTB_6hUINtuHiOrHg3Z6hvNZ6fNaqnvw",
+    "topic": "Go",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:37.610463+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/csalexiuk_tomorrow-ill-be-joined-by-micah-from-artificial-activity-7513048440067600384-u1to",
+    "canonical_url": "https://www.linkedin.com/posts/csalexiuk_tomorrow-ill-be-joined-by-micah-from-artificial-activity-7513048440067600384-u1to",
+    "post_id": 7513048440067600384,
+    "author": "Chris Alexiuk",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "9.2h (URL ID)",
+    "post_age_hours": 9.2,
+    "post_age_source": "url_id",
+    "post_text": "Tomorrow I'll be joined by Micah from Artificial Analysis to discuss many things open models and evaluations.\n\nLLM evaluation is a hard problem, and it's seemingly getting harder every day.\n\nWe'll get into it a bit, and learn a lot about how to think about evaluating these ever more complex systems.\n\nJoin in at 10AM PT on YouTube, LinkedIn, or X - the NVIDIA AI channels!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 31,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQF2RAD7R9jzIA/feedshare-shrink_800/B56aEO1vypHYAg-/0/1791250333087?e=2147483647&v=beta&t=18OXkF6F9rHfph-dtBZUh1pvd6UQ651GPQZmeG6KzYM",
+    "topic": "LLM evaluation",
+    "score": 84.7,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.2,
+      "total": 84.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:34.200757+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/patel-26-krish_ai-artificialintelligence-aiagents-activity-7513104363138015232-8oq2",
+    "canonical_url": "https://www.linkedin.com/posts/patel-26-krish_ai-artificialintelligence-aiagents-activity-7513104363138015232-8oq2",
+    "post_id": 7513104363138015232,
+    "author": "Krish Patel",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "5.5h (URL ID)",
+    "post_age_hours": 5.5,
+    "post_age_source": "url_id",
+    "post_text": "🚨 What if an AI system could help your engineering team respond to an incident before the panic starts?\n\nI built an \"Agentic Incident Response Engine\".\nInstead of turning every alert into a manual investigation, the system takes noisy infrastructure signals and turns them into an **explainable incident response plan**.\nThe workflow:\n[ALERTS → ANALYSIS → SEVERITY → EVIDENCE → RUNBOOK → ACTION PLAN]\nThe system uses specialized agents for:\n→ 🔍 Reliability analysis\n→ 🚀 Release/change correlation\n→ ⚡ Performance analysis\n→ 📚 Runbook retrieval\n→ 🧠 Incident reasoning\n→ 🎯 Action prioritization\nIt evaluates signals such as:\n• Error-rate spikes\n• Latency degradation\n• Threshold violations\n• Multiple affected services\n• Recent deployments\nThen instead of simply saying:\n> “Critical incident detected.”\nIt produces:\nWHY is this happening?\nWHAT evidence supports it?\nWHAT should the engineer investigate next?\nWHICH runbook applies?\nWHAT action should be taken?\nOne design decision was especially important:\nThe AI does NOT automatically execute destructive remediation.\nIt creates a proposed action plan and keeps execution behind a human approval boundary.\nThat makes the architecture much more realistic for production environments.\nBuilt with:\n🐍 Python\n⚡ FastAPI\n🤖 Multi-agent orchestration\n📋 Pydantic\n📚 Runbook retrieval\n🧪 Automated testing\n🐳 Docker\n📊 Structured logging\n🔐 Approval-based execution\nThe bigger idea:\nObservability gives you signals.\nAI turns signals into decisions.\nEngineers remain in control of execution.\nThis is another build in my \"Daily AI Engineering\" series — focused on building systems that could actually become production infrastructure, not just chatbot demos.\n🔗 GitHub:\nhttps://lnkd.in/dg5WWhad\nMore AI engineering systems coming.\n\n#AI #ArtificialIntelligence #AIAgents #AIEngineering #AgenticAI #DevOps #SRE #AIOps #MLOps #LLM #GenerativeAI #Automation #SoftwareEngineering #Python #FastAPI #CloudEngineering #Infrastructure #Observability #IncidentResponse #ReliabilityEngineering #ProductionAI #DeveloperTools #Tech #MachineLearning #FutureOfAI #BuildInPublic #100DaysOfAI #DailyBuild #Engineering",
+    "hashtags": [
+      "#AI",
+      "#ArtificialIntelligence",
+      "#AIAgents",
+      "#AIEngineering",
+      "#AgenticAI",
+      "#DevOps",
+      "#SRE",
+      "#AIOps",
+      "#MLOps",
+      "#LLM",
+      "#GenerativeAI",
+      "#Automation",
+      "#SoftwareEngineering",
+      "#Python",
+      "#FastAPI",
+      "#CloudEngineering",
+      "#Infrastructure",
+      "#Observability",
+      "#IncidentResponse",
+      "#ReliabilityEngineering",
+      "#ProductionAI",
+      "#DeveloperTools",
+      "#Tech",
+      "#MachineLearning",
+      "#FutureOfAI",
+      "#BuildInPublic",
+      "#100DaysOfAI",
+      "#DailyBuild",
+      "#Engineering"
+    ],
+    "engagement": {
+      "reactions": 27,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEFutbq7p2YHw/feedshare-shrink_800/B56aEPomlnHEAc-/0/1791263664801?e=2147483647&v=beta&t=JzkgFimyOw6BgRuAtsxneGO12YukLZRtNDoqYy705KE",
+    "topic": "FastAPI observability",
+    "score": 84.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 6.5,
+      "total": 84.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:41:42.974804+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/noamanayub_python-pythonprogramming-teaching-activity-7512505314504568833-xfMf",
+    "canonical_url": "https://www.linkedin.com/posts/noamanayub_python-pythonprogramming-teaching-activity-7512505314504568833-xfMf",
+    "post_id": 7512505314504568833,
+    "author": "Noaman Ayub",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.2h (URL ID)",
+    "post_age_hours": 45.2,
+    "post_age_source": "url_id",
+    "post_text": "After creating 250+ slides for “Python Coding Essentials,” I’m trying to make programming easier and more interesting for students. I compare Python with languages like C and R, explain its advantages and limitations, and use Manhwa/Anime-style visuals to explain concepts in simple words. I also connect Python with Medical, Chemistry, Physics, Research, and real-world projects so students can see how programming is actually used. But I still feel there is always room to improve.\n\nWhat teaching techniques, activities, or methods have helped you make programming easier and more interesting for students? I would love to learn from your experience and ideas.\n\n#Python #PythonProgramming #Teaching #Coding #Education #AI #Programming | 10 comments on LinkedIn",
+    "hashtags": [
+      "#Python",
+      "#PythonProgramming",
+      "#Teaching",
+      "#Coding",
+      "#Education",
+      "#AI",
+      "#Programming"
+    ],
+    "engagement": {
+      "reactions": 34,
+      "comments": 10,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHVDWeXlc5sYw/feedshare-shrink_800/B4DaEHHxlQKYAc-/0/1791120841312?e=2147483647&v=beta&t=5HRsKRl4jn-iSdwQAWEc6XHPBybYbfT5WZKgiHt0x78",
+    "topic": "Python",
+    "score": 81.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.7,
+      "total": 81.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:43:34.718814+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nikolaid153_ai-mcp-3cx-activity-7513124297889198081-yfZ3",
+    "canonical_url": "https://www.linkedin.com/posts/nikolaid153_ai-mcp-3cx-activity-7513124297889198081-yfZ3",
+    "post_id": 7513124297889198081,
+    "author": "Nicholas Borg",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "4.1h (URL ID)",
+    "post_age_hours": 4.1,
+    "post_age_source": "url_id",
+    "post_text": "☎️ 🇦🇪 🇨🇾 AI|Telephony: 3CX speaks MCP in two directions | Client & Server\nJust made a short video explaining what Model Context Protocol means for 3CX. The idea is simple: your PBX can publish tools for AI clients, and it can use tools from other systems.\n\nOne protocol gives both sides a common way to discover and call tools.\n\nHow does this work in practice?\n➕ 3CX as a server exposes permitted PBX tools.\n➕ AI clients from OpenAI Anthropic Gemini Grok can check calls, queues, contacts and reports.\n➕ 3CX as a client connects to external MCP servers example Salesforce HubSpot Zapier n8n\n➕ A configured agent can look up a customer in Salesforce.\n➕ It can create a HubSpot ticket during a call.\n➕ It can trigger workflows through n8n or Zapier.\n➕ User permissions and tool approvals control access.\n\nAPIs still do the underlying work. But MCP makes those capabilities easier for compatible systems to find and use.\n\nShout-out to Smitha Kolan at Google. Her explanations helped inspire this video. If you’re learning MCP, watch these:\n🔗 MCP: https://lnkd.in/dRQb549M\n🔗 MCP vs API: https://lnkd.in/dWaiBygU\n\n3CX MCP as a Server is already available in update 10 https://lnkd.in/di97ff68\n3CX MCP as a Client is coming soon in update 11\n\nLet us know in the comments below which you would use first?\n\n#AI #MCP #3CX #VoiceAI #AIAgents",
+    "hashtags": [
+      "#AI",
+      "#MCP",
+      "#3CX",
+      "#VoiceAI",
+      "#AIAgents"
+    ],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFe-HkrhLAAzg/thumbnail-with-play-button-overlay-high/B4DaEKcauoJIC0-/0/1791176613318?e=2147483647&v=beta&t=Dg4YohrymUdMXeJY-0mtP_iWV7EGs4Lh0Q-llq8wyR0",
+    "topic": "MCP protocol",
+    "score": 80.3,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.8,
+      "total": 80.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:06.611251+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lefticus_safety-and-interoperability-with-c-and-activity-7512897105913548800-RwIm",
+    "canonical_url": "https://www.linkedin.com/posts/lefticus_safety-and-interoperability-with-c-and-activity-7512897105913548800-RwIm",
+    "post_id": 7512897105913548800,
+    "author": "Jason Turner",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "19.2h (URL ID)",
+    "post_age_hours": 19.2,
+    "post_age_source": "url_id",
+    "post_text": "Safety and Interoperability with C++ and Rust with Jon Bauman - CppCast 412 / C++ Weekly 553\nhttps://lnkd.in/ek9c9N3h",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQEJFmcq6S-VZA/image-shrink_800/B4EaEMsCGjJIAk-/0/1791214232297?e=2147483647&v=beta&t=54_XoO25VU_dRXzLmPcLhyRRokme-Kc4-xbLnoGsf5s",
+    "topic": "Rust",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:51.124229+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/inp-proyectos_infraestructuraproductivaindustrial-somosinp-activity-7513010166003560448-lf0G",
+    "canonical_url": "https://es.linkedin.com/posts/inp-proyectos_infraestructuraproductivaindustrial-somosinp-activity-7513010166003560448-lf0G",
+    "post_id": 7513010166003560448,
+    "author": "INP Proyectos",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "11.8h (URL ID)",
+    "post_age_hours": 11.8,
+    "post_age_source": "url_id",
+    "post_text": "Cinco días de actividades, cinco días de conversaciones con empresarios y cinco días mostrando TRIP, nuestro sistema que visualiza y materializa el futuro de las industrias productivas industriales.\n\nGracias por acompañarnos en este viaje.\n\n#InfraestructuraProductivaIndustrial #SomosINP #INP #Proyectos #FIB",
+    "hashtags": [
+      "#InfraestructuraProductivaIndustrial",
+      "#SomosINP",
+      "#INP",
+      "#Proyectos",
+      "#FIB"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFjRNzDrzCMGA/thumbnail-with-play-button-overlay-high/B4EaEOC.0gLEC0-/0/1791237030614?e=2147483647&v=beta&t=YLvFbsA3fW3FORJeU3y7MPiAR335mRtY-vP2nK0OsRQ",
+    "topic": "INP",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:46:02.601507+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kauflandecommerce_kecculture-thisiswhoweare-kauflandecommerce-activity-7512785976818257920-ruJs",
+    "canonical_url": "https://www.linkedin.com/posts/kauflandecommerce_kecculture-thisiswhoweare-kauflandecommerce-activity-7512785976818257920-ruJs",
+    "post_id": 7512785976818257920,
+    "author": "Kaufland e-commerce",
+    "is_company_account": false,
+    "followers": 26519,
+    "post_age": "26.6h (URL ID)",
+    "post_age_hours": 26.6,
+    "post_age_source": "url_id",
+    "post_text": "Recap: Symfony & PHP Meetup at Kaufland e-commerce! 🚀\n\nRecently, we had the pleasure of hosting the Symfony & PHP Meetup at our Cologne office, in cooperation with the Symfony Usergroup Cologne and SensioLabs Deutschland!\n\nAt Kaufland e-commerce, we have been relying on PHP and Symfony for years. Bringing the local tech community together for an evening of learning, networking, and great vibes was a fantastic experience.\n\nOur speakers delivered fantastic insights:\n\n🤖 Evolving Our Work: Andreas (Engineering Manager at KEC) kicked off the evening with an intro on how AI is here to stay and will shape the definition of our jobs.\n\n💡 Harnessing AI: Anne-Julia Seitz (AI R&D and developer enablement at OPEN Digitalgruppe) shared actionable techniques for putting a harness around your AI through harness engineering.\n\n🎯 Understanding Intent: Stiven Llupa (Solutions Architect at SensioLabs) gave an insightful talk on \"what is intent in our words,\" featuring creative examples of what you can build with symfony/ai.\n\nA big shoutout to everyone who joined us, shared their perspectives, and made the evening so special!\n\n#KECCulture #ThisIsWhoWeAre #KauflandECommerce #PHP #Symfony #TechCommunity #CologneTech",
+    "hashtags": [
+      "#KECCulture",
+      "#ThisIsWhoWeAre",
+      "#KauflandECommerce",
+      "#PHP",
+      "#Symfony",
+      "#TechCommunity",
+      "#CologneTech"
+    ],
+    "engagement": {
+      "reactions": 35,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEfK8CQprQ9SA/feedshare-shrink_1280/B56aELHBbIGcAM-/0/1791187752920?e=2147483647&v=beta&t=msD8q9Dl6NTK-gkKDpXJu7bJeSCThbA9kTwhjahlESc",
+    "topic": "PHP",
+    "score": 76.8,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 6.3,
+      "total": 76.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:24.276448+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/raihan-kapadia-5b2608307_aiengineering-llm-fastapi-activity-7512608103276748800-BW7a",
+    "canonical_url": "https://www.linkedin.com/posts/raihan-kapadia-5b2608307_aiengineering-llm-fastapi-activity-7512608103276748800-BW7a",
+    "post_id": 7512608103276748800,
+    "author": "Raihan Kapadia",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "38.3h (URL ID)",
+    "post_age_hours": 38.3,
+    "post_age_source": "url_id",
+    "post_text": "𝗪𝗲𝗲𝗸 𝟭𝟭 𝗿𝗲𝗺𝗶𝗻𝗱𝗲𝗱 𝗺𝗲 𝗼𝗳 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁: 𝗮𝗱𝗱𝗶𝗻𝗴 𝗔𝗜 𝗱𝗼𝗲𝘀𝗻’𝘁 𝗲𝘅𝗰𝘂𝘀𝗲 𝗯𝗮𝗱 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴.\n\nThis week in my AI/LLM journey, I focused less on \"what the model can do\" and more on \"what happens when things go wrong\".\n\nI hardened the SmartOps AI API with:\n✅ Pydantic input validation\n✅ Structured 422 error responses\n✅ Global error handling\n✅ API keys moved into environment variables\n✅ Tests for invalid and malformed requests\n\nFor example, instead of letting bad input reach the LLM and waste an API call, the service can reject it before the model is ever invoked.\n\nThat sounds basic, but it matters even more with AI because every unnecessary request can mean extra cost, latency, and unpredictable output.\n\n𝗠𝘆 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝘁𝗮𝗸𝗲𝗮𝘄𝗮𝘆 𝗳𝗿𝗼𝗺 𝗪𝗲𝗲𝗸 𝟭𝟭: Reliable AI systems still depend on solid software engineering around the model.\n\nThe LLM may be the interesting part, but validation, error handling, security, and predictable APIs are what make the feature usable by the rest of the application.\n\n𝗡𝗲𝘅𝘁, 𝗜’𝗺 𝗮𝗱𝗱𝗶𝗻𝗴 : logging for every AI call model, latency, cost, and usage and building SmartOps’ Contract Renewal Risk Scorer.\n\nIf you're also exploring practical AI/LLM engineering, follow along as I keep building the layers around the model. 🚀\n\n𝗪𝗵𝗮𝘁 𝗱𝗼 𝘆𝗼𝘂 𝘁𝗵𝗶𝗻𝗸 𝗴𝗲𝘁𝘀 𝗼𝘃𝗲𝗿𝗹𝗼𝗼𝗸𝗲𝗱 𝗺𝗼𝘀𝘁 𝗶𝗻 𝗔𝗜 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀: 𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗶𝗼𝗻, 𝘁𝗲𝘀𝘁𝗶𝗻𝗴, 𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆, 𝗼𝗿 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆?\n\n#AIEngineering #LLM #FastAPI #Pydantic #Python #SoftwareEngineering #EnterpriseAI #SmartOps",
+    "hashtags": [
+      "#AIEngineering",
+      "#LLM",
+      "#FastAPI",
+      "#Pydantic",
+      "#Python",
+      "#SoftwareEngineering",
+      "#EnterpriseAI",
+      "#SmartOps"
+    ],
+    "engagement": {
+      "reactions": 2,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "FastAPI observability",
+    "score": 71.3,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.8,
+      "total": 71.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:41:49.069813+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kit-yu-27753534_model-context-protocol-mcp-is-emerging-activity-7512553883555241984-uM7j",
+    "canonical_url": "https://www.linkedin.com/posts/kit-yu-27753534_model-context-protocol-mcp-is-emerging-activity-7512553883555241984-uM7j",
+    "post_id": 7512553883555241984,
+    "author": "Kit Yu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "41.9h (URL ID)",
+    "post_age_hours": 41.9,
+    "post_age_source": "url_id",
+    "post_text": "Model Context Protocol (MCP) is emerging as a new standard that allows AI agents to access enterprise software and data, prompting companies to make some critical decisions.Deciding what data to expose means weighing the risk of opening up valuable data against the risk that customers and AI agents bypass your platform in favor of more accessible alternatives.Deciding whether to use MCP means balancing easier integration into agent workflows against the potential for customers to accomplish more without ever engaging with your interface.Deciding how to monetize comes last, with pricing designed to capture the value of agent access without cannibalizing higher-value revenue elsewhere in the portfolio.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "MCP protocol",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:08.035611+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/peterzaitsev_the-path-to-ga-for-valkey-kubernetes-operator-activity-7512791375814258689-QXDG",
+    "canonical_url": "https://www.linkedin.com/posts/peterzaitsev_the-path-to-ga-for-valkey-kubernetes-operator-activity-7512791375814258689-QXDG",
+    "post_id": 7512791375814258689,
+    "author": "Peter Zaitsev",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "26.2h (URL ID)",
+    "post_age_hours": 26.2,
+    "post_age_source": "url_id",
+    "post_text": "The path to GA for Valkey Kubernetes Operator",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQF_nDl0yCPXgQ/feedshare-shrink_800/B4EaELL8WXG8Ac-/0/1791189043278?e=2147483647&v=beta&t=EpAfNU_6c6-C3yFAoDaY1jmKQcXmRXUta9XiAB9XxrY",
+    "topic": "Kubernetes operators",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:41.897259+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dashaun_githubactions-java-ci-activity-7512723080998387712-OrI9",
+    "canonical_url": "https://www.linkedin.com/posts/dashaun_githubactions-java-ci-activity-7512723080998387712-OrI9",
+    "post_id": 7512723080998387712,
+    "author": "DaShaun C.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "30.7h (URL ID)",
+    "post_age_hours": 30.7,
+    "post_age_source": "url_id",
+    "post_text": "One line in setup-java caches your Maven, Gradle, or sbt deps in GitHub Actions. No more downloading all artifacts on every CI run. Still fully reproducible. #GitHubActions #Java #CI Bruno Borges & Josh Long",
+    "hashtags": [
+      "#GitHubActions",
+      "#Java",
+      "#CI"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Java",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:13.179796+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dunglas_release-v1130-phpfrankenphp-activity-7512514450575319040-fch1",
+    "canonical_url": "https://www.linkedin.com/posts/dunglas_release-v1130-phpfrankenphp-activity-7512514450575319040-fch1",
+    "post_id": 7512514450575319040,
+    "author": "Kévin Dunglas",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.6h (URL ID)",
+    "post_age_hours": 44.6,
+    "post_age_source": "url_id",
+    "post_text": "FrankenPHP 1.13 is out!\n\nThis release brings a lot to PHP apps running in production:\n- Caddy Web Server 2.11.7: built-in Slowloris protection, the new url_pattern matcher based on the URLPattern web standard, support for the Incremental header (RFC 10036) for streaming responses, faster TLS handshakes, and many reverse proxy fixes.\n- Mercure 1.0, the stable version of the real-time protocol, ships built in, with stricter validation of published updates and keys bound to trusted issuers.\n- Configuration reloads are validated before they replace the running configuration. A missing worker file or an inconsistent thread budget is rejected, and your site keeps serving traffic.\n\nThe release also fixes 5 security vulnerabilities, 2 of them rated high. Upgrading is strongly recommended. Check the upgrade notes first: num_threads, Mercure keys and some Caddy defaults changed.\n\nThanks to the 13 contributors to this release, including 4 first-time contributors.\n\nLes-Tilleuls.coop, the company behind FrankenPHP, can help you upgrade, secure and tune your deployment, or migrate your app to FrankenPHP: contact@les-tilleuls.coop\n\nhttps://lnkd.in/eUYdQtq2",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFF2aZSKyoZ8Q/articleshare-shrink_1280_800/B4EaEHP8WVIwAg-/0/1791122982671?e=2147483647&v=beta&t=u7ozxMj1K-br8g1KvOOv_66n49Ie3r4YR4e3GwlRoiM",
+    "topic": "PHP",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:26.936021+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/freeonlinecourseswithcertificates_mastering-llm-evaluation-build-reliable-activity-7512345398779355136-SU91",
+    "canonical_url": "https://www.linkedin.com/posts/freeonlinecourseswithcertificates_mastering-llm-evaluation-build-reliable-activity-7512345398779355136-SU91",
+    "post_id": 7512345398779355136,
+    "author": "Free Online Courses With Certificates",
+    "is_company_account": false,
+    "followers": 859171,
+    "post_age": "55.7h (URL ID)",
+    "post_age_hours": 55.7,
+    "post_age_source": "url_id",
+    "post_text": "Mastering LLM Evaluation: Build Reliable Scalable AI Systems\nhttps://lnkd.in/gV957A6x #artificialintelligence #datascience #development #onlinecourses #udemy #education #freeonlinecourses",
+    "hashtags": [
+      "#artificialintelligence",
+      "#datascience",
+      "#development",
+      "#onlinecourses",
+      "#udemy",
+      "#education",
+      "#freeonlinecourses"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHsBfAYrlu13Q/articleshare-shrink_800/B56ZjR7rdmHAAM-/0/1763910301596?e=2147483647&v=beta&t=7uYantrToSo18RlkdchLbAhksCZM9dOs9P-TiLH-PII",
+    "topic": "LLM evaluation",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:35.602341+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/christophe-pettus_row-level-security-performance-in-postgresql-activity-7512195613762191361-3_Ul",
+    "canonical_url": "https://www.linkedin.com/posts/christophe-pettus_row-level-security-performance-in-postgresql-activity-7512195613762191361-3_Ul",
+    "post_id": 7512195613762191361,
+    "author": "Christophe Pettus",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.7h (URL ID)",
+    "post_age_hours": 65.7,
+    "post_age_source": "url_id",
+    "post_text": "Chris van Eijk published measurements on October 1 of what row-level security costs on PostgreSQL 17.10, on a table of two million invoices across 1,000 tenants of very unequal size. The headline is that a simple policy is free: tenant_id = nullif(current_setting('app.tenant_id', true), '')::uuid matched the non-RLS baseline almost exactly. The cost comes from how the policy is written, and three of the ways it goes wrong are common.\n\nA helper function left at the default VOLATILE is the dramatic one. An SQL function gets inlined and stays fast; a PL/pgSQL function cannot be inlined, so VOLATILE means it is called per row and the index becomes unusable. The count went from 0.20 ms to 1,860 ms, for a tenant with 534 invoices. STABLE fixes it. So does wrapping the call in (select ...), which is the advice you usually see, and which is unnecessary for an inlinable SQL function. Two common hardening habits, SECURITY DEFINER and a SET search_path clause, break inlining and bring the problem back. Declaring the helper STABLE makes you independent of all of it.\n\nThe one to actually worry about is the leakproof rule. PostgreSQL enforces policy conditions before any query condition containing a non-leakproof function, to avoid leaking rows through error messages. lower() is not leakproof. Neither is LIKE. So where lower(customer_email) = lower($1) uses the index for tenant_id only and then filters every one of that tenant's rows. Measured: 0.21 ms without RLS, 34 to 45 ms with it for the largest tenant, and 0.38 ms for the median tenant. The cost scales with tenant size, which means it lands entirely on your biggest customer and a test database full of small tenants will never show it. A stored generated column holding lower(customer_email) with an index on (tenant_id, customer_email_lower) brought it back to 0.25 ms.\n\nhttps://lnkd.in/etPSHZAN\n\npgexperts.com\n\n#PostgreSQL #SaaS",
+    "hashtags": [
+      "#PostgreSQL",
+      "#SaaS"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQFkQV2cXexMdw/image-shrink_1280/B4EaECuB5vH4Ac-/0/1791046983518?e=2147483647&v=beta&t=pzWtH6sqLbtFsPRb8GHNB_32_1psjHnFS7HmLdHhxHo",
+    "topic": "PostgreSQL optimization",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:42:44.874598+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/freeonlinecourseswithprintablecertificates_php-with-mysql-build-5-php-and-mysql-projects-activity-7512444424900239360-oAeg",
+    "canonical_url": "https://www.linkedin.com/posts/freeonlinecourseswithprintablecertificates_php-with-mysql-build-5-php-and-mysql-projects-activity-7512444424900239360-oAeg",
+    "post_id": 7512444424900239360,
+    "author": "Free Online Courses With Printable Certificates",
+    "is_company_account": false,
+    "followers": 361422,
+    "post_age": "49.2h (URL ID)",
+    "post_age_hours": 49.2,
+    "post_age_source": "url_id",
+    "post_text": "PHP with MySQL: Build 5 PHP and MySQL Projects\nhttps://lnkd.in/dqe_4J7i\n#development #webdevelopment",
+    "hashtags": [
+      "#development",
+      "#webdevelopment"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEGGVhJf5JfHg/articleshare-shrink_800/B4DZzSTw9DGsAI-/0/1773054922848?e=2147483647&v=beta&t=-DmZ6Ujbbqkgm3BMiyMHjY4OUG4g_94vkNV4UAhGrng",
+    "topic": "PHP",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-06T10:44:28.250254+00:00"
   }
 ]
