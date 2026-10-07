@@ -5880,5 +5880,1386 @@
     },
     "status": "new",
     "discovered_at": "2026-10-06T10:44:28.250254+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/saurabhdubeyofficial_%F0%9D%97%A3%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%97%F0%9D%97%A8%F0%9D%97%96%F0%9D%97%A7%F0%9D%97%9C%F0%9D%97%A2%F0%9D%97%A1-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A6%F0%9D%97%AC%F0%9D%97%A6%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%A0-%F0%9D%97%94-activity-7513440596200464384-2KmO",
+    "canonical_url": "https://www.linkedin.com/posts/saurabhdubeyofficial_%F0%9D%97%A3%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%97%F0%9D%97%A8%F0%9D%97%96%F0%9D%97%A7%F0%9D%97%9C%F0%9D%97%A2%F0%9D%97%A1-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A6%F0%9D%97%AC%F0%9D%97%A6%F0%9D%97%A7%F0%9D%97%98%F0%9D%97%A0-%F0%9D%97%94-activity-7513440596200464384-2KmO",
+    "post_id": 7513440596200464384,
+    "author": "Saurabh Dubey",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "7.0h (URL ID)",
+    "post_age_hours": 7.0,
+    "post_age_source": "url_id",
+    "post_text": "𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗢𝗡 𝗔𝗜 𝗦𝗬𝗦𝗧𝗘𝗠 𝗔𝗥𝗖𝗛𝗜𝗧𝗘𝗖𝗧𝗨𝗥𝗘 — 𝗙𝗥𝗢𝗠 𝗨𝗦𝗘𝗥 𝗤𝗨𝗘𝗥𝗬 𝗧𝗢 𝗔𝗜 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘\n\nBuilding a GenAI application is not just about calling an LLM API.\nA production-ready AI system usually has multiple layers working together.\nHere’s what the architecture looks like 👇\n\n𝗔𝗣𝗜 𝗟𝗮𝘆𝗲𝗿\nFastAPI / Spring Boot / Node.js\n↓\nUser Request\n↓\nAPI\nResponsibilities:\n• Request validation\n• Authentication\n• Configuration\n• API orchestration\n• Containerization\n\n𝗥𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗟𝗮𝘆𝗲𝗿\nDocuments\n↓\nHybrid Search\n↓\nReranking\n↓\nRelevant Context\n\n𝗖𝗼𝗿𝗲 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗟𝗼𝗴𝗶𝗰\n• Pipelines\n• Caching\n• Memory\n• Query rewriting\n• Routing\n\n𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗟𝗮𝘆𝗲𝗿\nUser Query\n↓\nAI Router\n↓\nRetrieval\n↓\nLLM\n↓\nSource Selection\n↓\nFinal Response\n\n𝗧𝗼𝗼𝗹𝘀 𝗟𝗮𝘆𝗲𝗿\nAI systems can connect with:\n• APIs\n• Databases\n• Web Search\n• Code execution\n• External services\n\n𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 & 𝗚𝘂𝗮𝗿𝗱𝗿𝗮𝗶𝗹𝘀\nInput → Content → Output\n• Input validation\n• Content filtering\n• Output validation\n• Security checks\n\n𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻\n• Golden test datasets\n• Offline evaluation\n• Online monitoring\n• Regression testing\n• Evaluation history\n\n𝗢𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆\n• Tracing\n• User feedback\n• Latency\n• Token usage\n• Cost tracking\n• Error monitoring\n\n𝗗𝗮𝘁𝗮 𝗟𝗮𝘆𝗲𝗿\nRaw Data\n↓\nProcessed Data\n↓\nIndexed Data\nPossible components:\n• SQL Database\n• Vector Database\n• Object Storage\n• Document Store\n\n𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁\n• Docker\n• Kubernetes\n• CI/CD\n• Database migrations\n• Health checks\n• Environment management\n\n𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝗙𝗹𝗼𝘄\nUser\n↓\nFrontend\n↓\nFastAPI / Backend\n↓\nAI Orchestrator\n↓\nRetrieval + LLM + Tools\n↓\nSecurity + Evaluation + Observability\n↓\nDatabases + External APIs\n↓\nFinal Response\nThe key mindset:\n\n𝗚𝗲𝗻𝗔𝗜 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 ≠ 𝗟𝗟𝗠 𝗔𝗣𝗜 𝗖𝗮𝗹𝗹\nA production-grade AI system combines:\n𝗟𝗟𝗠 + 𝗥𝗔𝗚 + 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗟𝗼𝗴𝗶𝗰 + 𝗧𝗼𝗼𝗹𝘀 + 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 + 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻 + 𝗢𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆 + 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁\n\nFollow for more AI and tech\nSaurabh Dubey | 58 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 205,
+      "comments": 58,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEznjz_33ttoQ/feedshare-image-high-res/B56aEUaXjQIQAU-/0/1791343829076?e=2147483647&v=beta&t=ehG0KwbfeM40wyn3etsBXa_ltTBt-tFKSOUQwlyQo_8",
+    "topic": "FastAPI observability",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:31:57.601562+00:00",
+    "failure_reason": null,
+    "generated_comment": "Saurabh, FastAPI is a solid choice for the API layer, but the diagram skips explicit request-id propagation across the Retrieval and Intelligence layers. Without a consistent trace identifier, correlating latency spikes or token usage back to the original user query becomes cumbersome, especially when scaling out multiple FastAPI instances."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sathish-kumarsubramani_rag-aiengineering-generativeai-activity-7513466264502038528-iOgr",
+    "canonical_url": "https://www.linkedin.com/posts/sathish-kumarsubramani_rag-aiengineering-generativeai-activity-7513466264502038528-iOgr",
+    "post_id": 7513466264502038528,
+    "author": "Sathish Kumar Subramani",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "5.3h (URL ID)",
+    "post_age_hours": 5.3,
+    "post_age_source": "url_id",
+    "post_text": "𝗠𝗼𝘀𝘁 𝗔𝗜 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗰𝗮𝗻𝗱𝗶𝗱𝗮𝘁𝗲𝘀 𝗰𝗮𝗻 𝗲𝘅𝗽𝗹𝗮𝗶𝗻 𝗥𝗔𝗚. 𝗩𝗲𝗿𝘆 𝗳𝗲𝘄 𝗰𝗮𝗻 𝗯𝘂𝗶𝗹𝗱 𝗼𝗻𝗲.\n\nAnd that gap is exactly what interviewers test.\n\nRAG is the pattern most AI engineering jobs expect you to know.\n\nHere are 7 free videos to go from zero to your first working system:\n\n𝟭. 𝗥𝗔𝗚 𝗙𝗿𝗼𝗺 𝗦𝗰𝗿𝗮𝘁𝗰𝗵\n• A LangChain engineer builds the full pipeline in Python.\n• Arguably the best free RAG course out there.\nhttps://lnkd.in/gZ5pitre\n\n𝟮. 𝗥𝗔𝗚 & 𝗠𝗖𝗣 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀\n• Crash course on ingestion, embeddings, vector DBs, retrieval, RAG and MCP.\n• Hands-on labs, so you build while you learn.\n\nhttps://lnkd.in/gybYm2bX\n𝟯. 𝗥𝗔𝗚, 𝗖𝗹𝗲𝗮𝗿𝗹𝘆 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱\n• The conceptual version of the pipeline.\n• Watch this before writing code so you know what each piece is for.\nhttps://lnkd.in/g346R_wM\n𝟰. 𝗪𝗵𝗮𝘁 𝗜𝘀 𝗥𝗔𝗚 𝗶𝗻 𝟭𝟱 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\n• A quick, well-paced explainer.\n• Covers why grounding a model in your own data matters.\nhttps://lnkd.in/gfSYMPMB\n\n𝟱. 𝗥𝗔𝗚 𝗖𝗿𝗮𝘀𝗵 𝗖𝗼𝘂𝗿𝘀𝗲 𝗳𝗼𝗿 𝗕𝗲𝗴𝗶𝗻𝗻𝗲𝗿𝘀\n• Build RAG from scratch with hands-on labs.\n• Learn retrieval, embeddings and vector search.\nhttps://lnkd.in/gVGAFMnN\n\n𝟲. 𝗟𝗼𝗰𝗮𝗹 𝗥𝗔𝗚, 𝗦𝘁𝗲𝗽 𝗯𝘆 𝗦𝘁𝗲𝗽\n• Build a local RAG system with Ollama and LangChain.\n• Covers reranking and a Streamlit UI, with zero API costs.\nhttps://lnkd.in/gZJVeycw\n\n𝟳. 𝗥𝗔𝗚 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 𝗶𝗻 𝟮𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\n• A clear walkthrough of RAG architecture.\n• From chunking and embeddings to retrieval and generation.\nhttps://lnkd.in/gKyRSrVD\nStart with 3 or 4 for the concepts.\nThen build along with 1, 5 or 6.\nWatching is not the skill. Shipping one is.\n\nWhich RAG resource helped you the most?\n\n♻️ Repost to help someone breaking into AI engineering\n➕ Follow Sathish for more\n\n#RAG #AIEngineering #GenerativeAI #LLM | 43 comments on LinkedIn",
+    "hashtags": [
+      "#RAG",
+      "#AIEngineering",
+      "#GenerativeAI",
+      "#LLM"
+    ],
+    "engagement": {
+      "reactions": 118,
+      "comments": 43,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGyjHl1Q9m_Lw/feedshare-image-high-res/B56aEUxv8pJcAU-/0/1791349948540?e=2147483647&v=beta&t=-lb_4FEhJM75bPAj9NKE-iGKK4makikXhngY1uvQuT8",
+    "topic": "RAG architecture",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:23.823927+00:00",
+    "failure_reason": null,
+    "generated_comment": "Sathish, LangChain-based 'RAG From Scratch' gave me a fast path to a working prototype, walking the full Python pipeline step-by-step. I found the hands-on labs especially useful for debugging vector-DB integration before scaling."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/raju-dandigam_ai-agent-architecture-2026-simplified-activity-7513200490294276096-JE7W",
+    "canonical_url": "https://www.linkedin.com/posts/raju-dandigam_ai-agent-architecture-2026-simplified-activity-7513200490294276096-JE7W",
+    "post_id": 7513200490294276096,
+    "author": "Raju Dandigam",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "22.9h (URL ID)",
+    "post_age_hours": 22.9,
+    "post_age_source": "url_id",
+    "post_text": "AI Agent Architecture 2026, simplified.\n\nBuilding an AI agent is no longer about connecting an LLM to a chatbot.\n\nA production-ready agent needs an entire system working behind it.\n\nIt starts with the user goal: the outcome the agent is expected to achieve. From there, the architecture expands into multiple connected layers.\n\n→ Interface & Channels\nChat UI, APIs, Slack, or Teams become the entry points where users interact with the agent.\n\n→ Planning & Orchestration\nFrameworks like LangGraph, CrewAI, Mastra, and AutoGen help break goals into tasks, coordinate steps, and manage execution.\n\n→ Memory & Context\nShort-term memory, long-term memory, retrieval, vector databases, and prompt caching keep the agent grounded across interactions.\n\n→ Models\nClaude, GPT, Gemini, and Llama provide the reasoning layer powering decisions and responses.\n\n→ Tools & Actions\nGitHub, browsers, APIs, databases, and code execution allow agents to move from answering to actually doing work.\n\n→ State & Data\nPostgreSQL, Redis, object storage, and vector databases maintain persistent operational data.\n\n→ Observability & Safety\nTracing, evaluation, guardrails, and quality checks help teams understand what the agent is doing and where it fails.\n\n→ Deployment & Infrastructure\nDocker, Kubernetes, cloud platforms, and edge infrastructure make the system scalable and reliable.\n\nThe real shift is simple:\n\nAI agents are becoming software systems, not standalone models.\n\nAnd designing the surrounding architecture well is what turns a clever prototype into a dependable production agent. | 78 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 278,
+      "comments": 78,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHDs97CD7joCg/feedshare-shrink_1280/B56aEQ__XlHUAM-/0/1791286582032?e=2147483647&v=beta&t=eCv93UtPLKcVwYiMF0Fd8y96d9JhUL91NB6Z26_-z5k",
+    "topic": "AI Agents architecture",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:57.514183+00:00",
+    "failure_reason": null,
+    "generated_comment": "Raju, LangGraph is a solid choice for orchestrating tasks, but the architecture as described doesn't mention a CI/CD layer for automated testing of agent workflows. Adding systematic regression checks can catch subtle changes in prompts or tool integrations before they reach production, improving reliability."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sumonigupta_heres-a-practical-python-roadmap-for-data-activity-7513513641225224193-QIL7",
+    "canonical_url": "https://www.linkedin.com/posts/sumonigupta_heres-a-practical-python-roadmap-for-data-activity-7513513641225224193-QIL7",
+    "post_id": 7513513641225224193,
+    "author": "Sumit Gupta 📊",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "2.2h (URL ID)",
+    "post_age_hours": 2.2,
+    "post_age_source": "url_id",
+    "post_text": "Here’s a practical Python roadmap for Data & AI professionals.\n\nPython covers a huge ecosystem, but learning it becomes much easier when the concepts are approached in the right order.\n\nStart with the foundation:\n\n→ Syntax, variables, data types, operators, conditions, loops, and exceptions\n→ Lists, tuples, dictionaries, sets, strings, iterators, and generators\n→ Functions, parameters, modules, packages, and virtual environments\n→ Classes, objects, inheritance, dataclasses, context managers, and type hints\n\nThen move into working with real data:\n\n→ File handling with CSV, JSON, YAML, Parquet, and Pathlib\n→ NumPy for arrays, vectorization, broadcasting, indexing, and numerical computing\n→ Pandas for cleaning, joins, missing values, time series, and aggregations\n→ Matplotlib, Seaborn, and Plotly for visualization and storytelling\n\nFrom there, the path depends on your career direction.\n\nFor Data Engineering:\nSQLAlchemy, ETL pipelines, Airflow, PySpark, APIs, PostgreSQL, and cloud storage.\n\nFor AI & Machine Learning:\nScikit-learn, feature engineering, model evaluation, PyTorch, Hugging Face, embeddings, and RAG.\n\nThe key is to combine learning with projects.\n\nBuild scripts, clean datasets, call APIs, create pipelines, train models, and automate repetitive tasks.\n\nPython mastery comes from applying these concepts repeatedly, not memorizing every library.\n\nWhich section of this roadmap are you currently learning?\n\nFollow Sumit Gupta 📊 for more such insights!! | 62 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 90,
+      "comments": 62,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQF0gW97h2Qtag/feedshare-image-high-res/B56aEVczd5HQAY-/0/1791361245134?e=2147483647&v=beta&t=znBZv7zeLjbFEHZIKFRgjA3-zLErEe0Sy5ErI5HBSyQ",
+    "topic": "Python",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:28.288724+00:00",
+    "failure_reason": null,
+    "generated_comment": "Sumit, I'm focusing on the Data Engineering segment, specifically SQLAlchemy. It lets me define ORM models directly in Python, which reduces boilerplate when stitching together ETL pipelines and database migrations."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jeanmalaquias_enterprise-ai-agent-architecture-how-production-ready-activity-7513429145704488960-mOsR",
+    "canonical_url": "https://www.linkedin.com/posts/jeanmalaquias_enterprise-ai-agent-architecture-how-production-ready-activity-7513429145704488960-mOsR",
+    "post_id": 7513429145704488960,
+    "author": "Jean Malaquias",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "7.8h (URL ID)",
+    "post_age_hours": 7.8,
+    "post_age_source": "url_id",
+    "post_text": "Enterprise AI Agent Architecture: How Production-Ready Agentic AI systems actually work.\n\nThis reference architecture shows how enterprise AI agent systems securely orchestrate reasoning, RAG retrieval, memory, multi-agent collaboration, and tool execution - turning a user request into a trusted response.\n\nHere is the end-to-end process orchestration:\n\n0. Governance & Safety Layer:\n\nGuardrails, PII/content safety, human-in-the-loop, and audit trail runs alongside every stage, not just at the end.\n\n1. User / Channel:\n\nUsers interact through web, mobile, chat, or APIs to submit requests.\n\n2. Agent Orchestrator (Control Plane):\n\nCoordinates the workflow by planning tasks, routing requests, managing execution, and handling failures.\n\n3. Multi-Agent Framework:\n\nA supervisor delegates to specialist agents (research, planning, execution, review) working toward one goal.\n\n4. Reasoning Engine (LLM):\n\nThe core brain - reasons, selects tools, and calls functions.\nAnalyzes the request, reasons over context, and generates intelligent decisions.\n\n5. Memory Layer:\n\nMaintains session context, long-term knowledge, and user preferences for personalized responses.\n\n6. RAG (Knowledge Layer):\n\nRetrieves and reranks relevant enterprise knowledge to ground the LLM’s answers.\n\n7. Tools & Actions Layer:\n\nExecutes real-world actions such as search, APIs, workflows, analytics, and code execution.\n\n8. MCP Gateway:\n\nProvides a secure, standardized interface for AI agents to communicate with enterprise systems and tools with rate limiting and caching.\n\n9. Identity & Policy:\n\nAuthenticates agents/users and enforces per-tool, per-data access policy at the gateway.Enforces least-privilege access, policies, and permissions.\n\n10. Observability & Operations:\n\nContinuously monitors reliability, performance, cost, latency, logs, and and alerting across the whole system.\n\n11. Evaluation & Feedback Loop:\n\nMeasures response quality, captures user feedback, and continuously improves the AI system over time.\n\n12. Final Response Delivery:\nThe answer is delivered with citations, confidence score, back to the right user/channel.\n\nWhat would you add or improve?\n\nCredits Rajesh Kumar",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 48,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEIExTXkjv85Q/feedshare-shrink_800/B4EaAxchZKJcAc-/0/1787535955776?e=2147483647&v=beta&t=hZh_WeqajgAocLbkRQ9V-u5rIBeVUIadXpcbuJnW5fQ",
+    "topic": "AI Agents architecture",
+    "score": 89.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 11.5,
+      "total": 89.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:00.442317+00:00",
+    "failure_reason": null,
+    "generated_comment": "Jean, adding a dedicated vector store to the Memory Layer would let the system retrieve long-term context faster and keep embeddings consistent across agents. This reduces latency for RAG calls and avoids repeated recomputation as request volume grows."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/calbethalaribe_pasgobeyond-paweek-womenshealth-activity-7513278177469894656-ze9v",
+    "canonical_url": "https://www.linkedin.com/posts/calbethalaribe_pasgobeyond-paweek-womenshealth-activity-7513278177469894656-ze9v",
+    "post_id": 7513278177469894656,
+    "author": "Calbeth C. Alaribe DMSc, MPH, PA-C, CPCHE",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.8h (URL ID)",
+    "post_age_hours": 17.8,
+    "post_age_source": "url_id",
+    "post_text": "My career was never going to fit neatly into one title.\n\nClinician. Researcher. Speaker. Women’s health strategist and advisor. Writer. Podcast host.\n\nFor a while, I thought I needed a perfectly packaged answer for the inevitable, “What do you do?”\n\nEventually, I stopped trying to make my career make sense in one sentence.\n\nThese aren’t separate versions of me. They’re different ways I get to contribute to women’s health—from the bedside and research to stages, strategy, writing, and now Missed & Dismissed.\n\nToday, I finally gave all of that work a digital home.\n\nMy new website is officially live: 🔗 calbethalaribe.com\n\nAnd launching during PA Week feels especially fitting. Being a PA gave me the clinical foundation to build a career that has grown in ways I never could have predicted.\n\nTake a look around. And if something you’re building makes you think we should be in the same room, I’d love to hear about it.\n\nHappy PA Week to my fellow PAs continuing to show just how far this profession can go!\n\nAmerican Academy of Physician Associates\n\n#PAsGoBeyond #PAWeek #WomensHealth #PhysicianAssociate\n| 10 comments on LinkedIn",
+    "hashtags": [
+      "#PAsGoBeyond",
+      "#PAWeek",
+      "#WomensHealth",
+      "#PhysicianAssociate"
+    ],
+    "engagement": {
+      "reactions": 34,
+      "comments": 10,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGfvJwsLk6esQ/feedshare-image-high-res/B56aERBKqWHAAY-/0/1791286881157?e=2147483647&v=beta&t=wLvqHEvL-l0j8URUfeSjR_mHRPm9jB3W_fo_4KQW3do",
+    "topic": "C",
+    "score": 88.2,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.7,
+      "total": 88.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:27.995929+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/milanmilanovic_mcp-a2a-and-acp-connect-an-ai-agent-to-three-activity-7513485281073733632-86hh",
+    "canonical_url": "https://www.linkedin.com/posts/milanmilanovic_mcp-a2a-and-acp-connect-an-ai-agent-to-three-activity-7513485281073733632-86hh",
+    "post_id": 7513485281073733632,
+    "author": "Dr Milan Milanović",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "4.1h (URL ID)",
+    "post_age_hours": 4.1,
+    "post_age_source": "url_id",
+    "post_text": "MCP, A2A and ACP connect an AI agent to three different things\n\nAI agents today connect to different resources, and for that they use different protocols. The most important ones are MCP, A2A and ACP.\n\nHere is what they do:\n\n𝟭. 𝗠𝗖𝗣 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝘀 𝘁𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝘁𝗼 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗱𝗮𝘁𝗮. A server exposes tools and resources, while the agent application acts as the MCP host. It also keeps one client per server. Messages are transferred in the JSON-RPC 2.0 format over stdio for local servers and Streamable HTTP for remote ones.\n\n𝟮. 𝗔𝟮𝗔 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝘀 𝘁𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝘁𝗼 𝗼𝘁𝗵𝗲𝗿 𝗮𝗴𝗲𝗻𝘁𝘀. With this protocol each agent describes itself by using an Agent Card. This is basically just a JSON file at /.well-known/agent-card.json and contains the agent's skills and how to authenticate. The caller usually sends a task and gets a result. It runs over JSON-RPC, gRPC or HTTP+JSON.\n\n𝟯. 𝗔𝗖𝗣 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝘀 𝗮 𝗰𝗼𝗱𝗲 𝗲𝗱𝗶𝘁𝗼𝗿 𝘁𝗼 𝗮 𝗰𝗼𝗱𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁. ACP is the Agent Client Protocol and was created by Zed in 2025. Its authors compare it to LSP, which gave editors one way to talk to every language server. The agent runs as a sub-process of the editor and talks JSON-RPC 2.0 over stdio. It also calls back into the editor for permissions, files and the terminal. The editor can also pass its MCP servers to the agent, and the agent then connects to them directly.\n\nTwo different protocols have been called ACP. The other one is the Agent Communication Protocol from IBM Research. It was REST-based and agent to agent. 𝗜𝘁 𝗺𝗲𝗿𝗴𝗲𝗱 𝗶𝗻𝘁𝗼 𝗔𝟮𝗔 𝗼𝗻 𝟮𝟵 𝗔𝘂𝗴𝘂𝘀𝘁 𝟮𝟬𝟮𝟱. So a comparison that shows A2A and ACP as two ways for agents to talk is out of date.\n\nThey are also not equally mature. MCP and A2A are both hosted by the Agentic AI Foundation (at the Linux Foundation). The Agent Client Protocol covers coding agents only, and Zed and JetBrains govern it. Its remote transport is still in progress.\n\nIn our company we have built an MCP server which enables our customers to use ChatGPT and Claude to do their own reporting, and even to schedule them. This is convenient as we don't need to build every report from scratch.\n\nSo, MCP is a good start, because an agent with good tools can cover most of the cases. Use A2A only if you need to connect to another agent. | 11 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 26,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQHn7N3M6hreIg/image-shrink_800/B4EaEVDC0IGQAk-/0/1791354482645?e=2147483647&v=beta&t=tIaTScrh2v1icQyBSe-LGia4oqeDkN1c03r9JKJWhHA",
+    "topic": "MCP protocol",
+    "score": 87.3,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.8,
+      "total": 87.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:18.641580+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vansh-budhirajaa_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%A2%F0%9D%90%AC-%F0%9D%90%A7%F0%9D%90%A8-%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%9B%F0%9D%90%9E%F0%9D%90%AC-activity-7513180020128006145-XhN1",
+    "canonical_url": "https://www.linkedin.com/posts/vansh-budhirajaa_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%A2%F0%9D%90%AC-%F0%9D%90%A7%F0%9D%90%A8-%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%9B%F0%9D%90%9E%F0%9D%90%AC-activity-7513180020128006145-XhN1",
+    "post_id": 7513180020128006145,
+    "author": "Vansh Budhiraja",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "24.3h (URL ID)",
+    "post_age_hours": 24.3,
+    "post_age_source": "url_id",
+    "post_text": "𝐓𝐡𝐞𝐫𝐞 𝐢𝐬 𝐧𝐨 𝐬𝐢𝐧𝐠𝐥𝐞 “𝐛𝐞𝐬𝐭” 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞. 𝐓𝐡𝐞 𝐫𝐢𝐠𝐡𝐭 𝐩𝐚𝐭𝐭𝐞𝐫𝐧 𝐝𝐞𝐩𝐞𝐧𝐝𝐬 𝐨𝐧 𝐭𝐡𝐞 𝐰𝐨𝐫𝐤𝐟𝐥𝐨𝐰.\n\n𝐀𝐬 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭𝐬 𝐛𝐞𝐜𝐨𝐦𝐞 𝐦𝐨𝐫𝐞 𝐜𝐚𝐩𝐚𝐛𝐥𝐞, 𝐬𝐢𝐦𝐩𝐥𝐲 𝐚𝐝𝐝𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐚𝐠𝐞𝐧𝐭𝐬 𝐢𝐬𝐧’𝐭 𝐞𝐧𝐨𝐮𝐠𝐡.\n\nYou need to decide how reasoning, execution, coordination, and human control should work together.\n\nHere are the key architecture patterns:\n\n→ ReAct → Think, act, observe, and repeat until the goal is achieved.\n\n→ Planner–Executor → Separate planning from execution for complex, multi-step tasks.\n\n→ Reflection → Generate, evaluate, reflect, and improve the output.\n\n→ Routing → Analyze the request and send it to the most suitable specialized agent.\n\n→ Sequential → Multiple agents work one after another when each step depends on the previous result.\n\n→ Parallel → Multiple agents handle independent sub-tasks simultaneously and their results are combined.\n\n→ Hierarchical → A manager agent delegates tasks to specialized agents and aggregates their results.\n\n→ Human-in-the-loop → Add human approval or review at critical points where safety or accuracy matters.\n\nThe interesting part is that these patterns solve different problems.\n\nNeed iterative tool use?\n\n→ ReAct\n\nNeed structured multi-step planning?\n\n→ Planner–Executor\n\nNeed better output quality?\n\n→ Reflection\n\nHave multiple specialized agents?\n\n→ Routing\n\nHave dependent tasks?\n\n→ Sequential\n\nHave independent tasks?\n\n→ Parallel\n\nNeed multi-agent coordination?\n\n→ Hierarchical\n\nNeed human oversight?\n\n→ Human-in-the-loop\n\nThe key takeaway:\n\nDon’t choose an architecture because it looks more advanced. Choose the pattern that matches the workflow.\n\nSave this cheat sheet for your next AI agent project.\n\nFollow Vansh for more practical AI agents, LLMs, RAG, multi-agent systems, and AI engineering insights. | 98 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 71,
+      "comments": 98,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFH6uwG-oBkKA/feedshare-shrink_800/B4DaEPd2WIK4Ac-/0/1791260845759?e=2147483647&v=beta&t=v_ez4efOu9rlIYzgvqIp5ZuA84cT0ScJxsBZCZmNcKE",
+    "topic": "AI Agents architecture",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:03.829901+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/natmiletic_i-started-building-websites-in-1998-went-activity-7512880449053188097-_8TK",
+    "canonical_url": "https://www.linkedin.com/posts/natmiletic_i-started-building-websites-in-1998-went-activity-7512880449053188097-_8TK",
+    "post_id": 7512880449053188097,
+    "author": "Nat Miletic",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.2h (URL ID)",
+    "post_age_hours": 44.2,
+    "post_age_source": "url_id",
+    "post_text": "I started building websites in 1998\n\nWent from:\nhtml in notepad > css + html > flash > bootstrap (and asp .net) > WordPress (php) > and now Claude Code\n\nI don't know what the future holds, but I know that in this industry you always have learn and adapt | 23 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 87,
+      "comments": 23,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "HTML",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:51.175191+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jovan-kis_thank-you-our-swift-model-series-just-activity-7512855739284254720-z_OW",
+    "canonical_url": "https://www.linkedin.com/posts/jovan-kis_thank-you-our-swift-model-series-just-activity-7512855739284254720-z_OW",
+    "post_id": 7512855739284254720,
+    "author": "Jovan Kis",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.8h (URL ID)",
+    "post_age_hours": 45.8,
+    "post_age_source": "url_id",
+    "post_text": "Thank you :) Our Swift model series just hit 1,695,052 downloads in 4 weeks.\n\nThis is our first model release as a new lab.\n\nSwift is a series of open-source efficient-reasoning LLMs that use -58.3% tokens and finish tasks up to 9.18x faster by being trained to reason better, not longer. The tech is proprietary but the weights and training data is open.\n\nMore amazing model releases to come!\n\nLive download counter: https://lnkd.in/dq9Ak2zN\n\nHuggingFace:\nhttps://lnkd.in/d5jKaQhX | 18 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 78,
+      "comments": 18,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQELqibGwrDG8w/feedshare-shrink_1280/B4DaEMGe7zJYAM-/0/1791204388873?e=2147483647&v=beta&t=RxT4O_JrqcmZJxD05YTrWLIApwMxrahj8i7ix-Rrto8",
+    "topic": "Swift",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:59.762194+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aleksa-simic-10bba5182_after-my-talk-at-the-kotlin-meetup-zeljko-activity-7513195477065039872-wvzD",
+    "canonical_url": "https://www.linkedin.com/posts/aleksa-simic-10bba5182_after-my-talk-at-the-kotlin-meetup-zeljko-activity-7513195477065039872-wvzD",
+    "post_id": 7513195477065039872,
+    "author": "Aleksa Simic",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "23.3h (URL ID)",
+    "post_age_hours": 23.3,
+    "post_age_source": "url_id",
+    "post_text": "After my talk at the Kotlin meetup, Zeljko Lucic asked me: “If you were starting from scratch today, would you still use SKIE?”\n\nLast week, we celebrated 15 years of Kotlin at the JetBrains office in Belgrade, at a meetup organized by Nebojša Vukšić. I gave a talk on Kotlin-Swift interoperability, and this was one of the questions that came up afterwards.\n\nMy answer was yes. I’ve used SKIE, tested it, and know what to expect from it. Swift Export is still in Alpha.\n\nBut I also like trying new tech 😅 So if I were starting a completely new project, I’d be interested in trying Swift Export.\n\nWhether I’d actually use it would depend on the client and the project.\n\nIf the client gives my team room to experiment and understands the trade-offs, I’d be happy to explore it. For an enterprise client where stability is a priority, I’d stick with SKIE. We already have experience with it, which makes planning around it easier.\n\nBasically, I’d want to try Swift Export as an engineer. As the person responsible for delivering the project, I’d first want to know whether that’s a trade-off the client is comfortable with.\n\nIf you’re interested in my experience choosing between SKIE and Swift Export, let me know in the comments. I could write a blog post and get into the details 🤘\n\nAnd if you’d like the slides from the meetup, feel free to DM me. Happy to send them over 🚀",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 36,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGXuuBerDtJOA/feedshare-image-high-res/B4DaEQ7dssKgAY-/0/1791285388863?e=2147483647&v=beta&t=Ar87wg0xWYadNQu_VZZrJAErvGt0tM-jbhe8HbW7UkQ",
+    "topic": "Kotlin",
+    "score": 85.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 8.0,
+      "total": 85.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:06.401278+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/skoolation.com_the-4-layer-architecture-behind-ai-agent-activity-7513213997328863232-codk",
+    "canonical_url": "https://www.linkedin.com/posts/skoolation%2Ecom_the-4-layer-architecture-behind-ai-agent-activity-7513213997328863232-codk",
+    "post_id": 7513213997328863232,
+    "author": "skoolation",
+    "is_company_account": false,
+    "followers": 1311,
+    "post_age": "22.1h (URL ID)",
+    "post_age_hours": 22.1,
+    "post_age_source": "url_id",
+    "post_text": "🚨 The 4-Layer Architecture Behind AI Agent Systems .\n\nBuilding an AI Agent isn't just about choosing an LLM.\n\nA production-ready agent system needs multiple layers working together:\n\n1️⃣ LOOP — Observe → Act → Verify → Repeat\nThe agent observes the environment, executes an action, validates the result, and repeats until the goal is achieved.\n→ Observe actual responses\n→ Perform controlled actions\n→ Verify with tests/evaluations\n→ Stop when the goal is reached\n\n2️⃣ GRAPH — Connect Multiple Loops\nGraphs determine what happens next based on the current state.\n→ Nodes = task units\n→ Conditional edges = routing logic\n→ Shared state = common data layer\n→ Checkpoints = recovery & replay\n\n3️⃣ HARNESS — Connect the LLM to Reality\nThe runtime layer gives the model access to external systems.\n→ Tools\n→ Permissions\n→ Context\n→ Traces\nThis is where the model gets the capabilities and boundaries required to actually perform work.\n\n4️⃣ META-HARNESS — Manage Multiple Agents\nA centralized control layer for multiple agent environments.\n→ Agent composition\n→ Delegation rules\n→ Shared sessions\n→ Policies\n→ Collaboration\n→ Sandboxed environments\n\nThe big idea?\n\nThink of an AI Agent system as:\nLoop → Graph → Harness → Meta-Harness\n\nThe LLM provides the intelligence, but these layers provide the execution, control, coordination, and governance around it.\n\nThe future of AI engineering isn't just better models — it's better agent architecture.\n\nWhich layer would you focus on first when building an AI Agent system?\n\nRepost and share with someone learning AI Agent architecture.\n\nLearn AI Skills with Skoolation.com\n\nJoin Our AI Founder Community: https://lnkd.in/gyWDTAc6\n\nFollow skoolation for AI, Automation & Career Growth.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGt1QLVw3mEmg/feedshare-shrink_1280/B56aERMUL8IIAM-/0/1791289803826?e=2147483647&v=beta&t=-rFAM45153ImBqvjOhflCAPBm4_-DAbp6pC_nT_SBH4",
+    "topic": "AI Agents architecture",
+    "score": 85.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 7.5,
+      "total": 85.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:10.272411+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/joycekayavila_the-model-context-protocol-mcp-is-an-open-activity-7512954869910159360-8HvH",
+    "canonical_url": "https://www.linkedin.com/posts/joycekayavila_the-model-context-protocol-mcp-is-an-open-activity-7512954869910159360-8HvH",
+    "post_id": 7512954869910159360,
+    "author": "Joyce Avila",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "39.2h (URL ID)",
+    "post_age_hours": 39.2,
+    "post_age_source": "url_id",
+    "post_text": "The Model Context Protocol (MCP) is an open standard enabling AI applications and agents to securely connect with external tools, data sources, and services. Because MCP is evolving rapidly, there hasn't been a lot of published content that provides definitive technical guidance. Until now.\n\nThis book, written by Kyle Stratis, titled \"AI Agents with MCP\" is one of the first books to frame MCP as an enterprise integration and architecture concern rather than just a developer convenience for connecting an LLM to a tool. If you have an O'Reilly subscription, you can read the book here: https://lnkd.in/gcknW4x5\n\nThe book [shown here along with one of my favorite ☕ coffee mugs] arrived in the mail about a week ago and, since then, I've been enjoying reading a little every morning.\n\nThe book begins with Agentic AI and MCP 💡 and wraps up with tools to help you build, MCP extensions, and contributing to MCP. In between, there are 300+ pages of excellent, well-written ✨ content.\n\nKyles book 📘 is particularly relevant for teams building governed, interoperable connections for AI agents, APIs, enterprise tools, and organizational data.\n\nAnother important thing to know about the book - the animal gracing the cover of this O'Reilly book is a considered to be a highly cryptic, secretive animal that is not commonly sighted where it lives (southern Mexico to western Panama and Costa Rica). It's primarily nocturnal, arboreal, and omnivorous.\n\nI'll admit that one of the first things I do when I receive a new O'Reilly book is to open the back cover and find out what kind of animal is on the cover (Spoiler alert: The cacomistle is on the cover of Kyle's book).\n\nTakeaway: I'd recommend you add this book to your list of \"must read\" books for 2026.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 56,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHdHIKglLWttA/feedshare-image-high-res/B56aENgpRJJAAU-/0/1791228024181?e=2147483647&v=beta&t=tV8RNeb-Pc2tpzpe31aS9WwrJtWCDhQbFlNRYq3rKb0",
+    "topic": "MCP protocol",
+    "score": 82.3,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 11.8,
+      "total": 82.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:12.028865+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/prashantupadhyay0_python-python315-programming-activity-7513082108899237888-YCc7",
+    "canonical_url": "https://www.linkedin.com/posts/prashantupadhyay0_python-python315-programming-activity-7513082108899237888-YCc7",
+    "post_id": 7513082108899237888,
+    "author": "Prashant U.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "30.8h (URL ID)",
+    "post_age_hours": 30.8,
+    "post_age_source": "url_id",
+    "post_text": "Python is finally getting explicit lazy imports.\n\nPython 3.15 introduces PEP 810, bringing a language-level mechanism to defer importing modules until they are actually needed.\n\nThe idea is simple:\n\nDon't pay the cost of loading a dependency until you use it.\n\nFor large Python applications, especially CLI tools, this can make a meaningful difference.\n\nPEP 810 reports:\n\n50–70% faster startup in real-world workloads\n30–40% lower memory usage in large applications\n\nThe biggest gains come when an application has a large dependency tree but only touches a small portion of it during a particular execution.\n\nAnd that is increasingly common in modern AI/GenAI applications with dependencies for:\n\n→ LLM providers\n→ Vector databases\n→ Cloud SDKs\n→ Observability\n→ Database drivers\n→ Optional integrations\n\nOne important limitation:\n\nLazy imports are designed for module scope. They don't replace the traditional technique of importing something inside a function when you specifically need function-level deferral.\n\nPython also provides mechanisms such as \"__lazy_modules__\" to help adopt lazy imports without necessarily rewriting every import statement.\n\nThere is a trade-off.\n\nImport errors and import-time side effects can now be deferred until first use, meaning some failures may surface later than they traditionally would.\n\nSo this isn't simply about making every import lazy.\n\nIt's about giving Python developers more control over application startup cost.\n\nAnd there's an interesting timing detail:\n\nPython 3.15 was originally scheduled for October 1, but the final release was postponed after last-minute issues around lazy imports.\n\nNew target: October 9, 2026.\n\nSmall language feature.\n\nPotentially significant impact for large Python applications.\n\n#Python #Python315 #Programming #SoftwareEngineering #AIEngineering #GenAI #Performance #Backend #DeveloperTools",
+    "hashtags": [
+      "#Python",
+      "#Python315",
+      "#Programming",
+      "#SoftwareEngineering",
+      "#AIEngineering",
+      "#GenAI",
+      "#Performance",
+      "#Backend",
+      "#DeveloperTools"
+    ],
+    "engagement": {
+      "reactions": 51,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQF-gV_GXNDlTw/feedshare-shrink_1280/B56aEOZsVRG4AM-/0/1791242978899?e=2147483647&v=beta&t=yjj3eJZF6oSsfiKKcSMjfbn9uvb00Z0t6vmslRUuWJk",
+    "topic": "Python performance",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:31:59.035669+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/realpython-com_pypy-faster-python-with-minimal-effort-activity-7513365022748741632-v988",
+    "canonical_url": "https://www.linkedin.com/posts/realpython-com_pypy-faster-python-with-minimal-effort-activity-7513365022748741632-v988",
+    "post_id": 7513365022748741632,
+    "author": "Real Python",
+    "is_company_account": false,
+    "followers": 206309,
+    "post_age": "12.0h (URL ID)",
+    "post_age_hours": 12.0,
+    "post_age_source": "url_id",
+    "post_text": "🐍📰 PyPy: Faster Python With Minimal Effort\n\nIn this tutorial, you'll see how PyPy compares with other Python implementations and learn about features that you can use to gain significant performance boosts without making changes to your code\n\n#python",
+    "hashtags": [
+      "#python"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQFwfYNFQ0-Jdw/image-shrink_800/B4DaETVqodHcAg-/0/1791325809507?e=2147483647&v=beta&t=Z2S0vUiq7XUvMFGovgXWW5IPueZsWK3clz9SPfqoALA",
+    "topic": "Python performance",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:00.453619+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/madanagrawal_model-context-protocol-mcp-the-missing-activity-7513190237184020481-Cdks",
+    "canonical_url": "https://www.linkedin.com/posts/madanagrawal_model-context-protocol-mcp-the-missing-activity-7513190237184020481-Cdks",
+    "post_id": 7513190237184020481,
+    "author": "Madan Agrawal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "23.6h (URL ID)",
+    "post_age_hours": 23.6,
+    "post_age_source": "url_id",
+    "post_text": "Model Context Protocol (MCP) provides a standardized way for AI applications to connect with external tools, data sources, and enterprise systems.\n\nInstead of tightly coupling every AI application with APIs, databases, and business platforms, MCP introduces a common interface between the AI layer and those capabilities.\n\nIts architecture is built around Hosts, Clients, and Servers, with MCP Servers exposing capabilities through Tools, Resources, and Prompts.\n\nTools allow AI models to invoke operations, while Resources provide readable context that applications can use during reasoning.\n\nMCP does not replace APIs, RAG, or function calling—instead, it can work alongside them and provide a more consistent integration layer.\n\nBy centralizing the AI-facing integration layer, MCP can also reduce maintenance overhead, since changes to backend systems can often be handled in the MCP server rather than across multiple AI integrations.\n\nFor enterprise AI, this can improve modularity, portability, security boundaries, and the ability to evolve integrations without tightly coupling them to a specific AI application.\n\nIn the next article, we will move from concepts to code and build our first MCP Server in Python.\n\nCertainty Infotech (certaintyinfotech.com) (https://lnkd.in/dffWBs7W)\n\n#ModelContextProtocol #MCP #ArtificialIntelligence #GenerativeAI #AgenticAI #Python #LLM #EnterpriseAI #SoftwareArchitecture #AIAgents",
+    "hashtags": [
+      "#ModelContextProtocol",
+      "#MCP",
+      "#ArtificialIntelligence",
+      "#GenerativeAI",
+      "#AgenticAI",
+      "#Python",
+      "#LLM",
+      "#EnterpriseAI",
+      "#SoftwareArchitecture",
+      "#AIAgents"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D12AQH6SZSgMdgnkg/article-cover_image-shrink_720_1280/B4DaEQ4Lk6IgAQ-/0/1791284532016?e=2147483647&v=beta&t=QVTm1fdFgJpmQL05ivLgXp_Nmwb0w7qscL-rcu0mC_I",
+    "topic": "MCP protocol",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:15.303586+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/css-dynamac_noaa-industry-partnerships-activity-7513259450992873475-VUn1",
+    "canonical_url": "https://www.linkedin.com/posts/css-dynamac_noaa-industry-partnerships-activity-7513259450992873475-VUn1",
+    "post_id": 7513259450992873475,
+    "author": "CSS",
+    "is_company_account": false,
+    "followers": 4132,
+    "post_age": "19.1h (URL ID)",
+    "post_age_hours": 19.1,
+    "post_age_source": "url_id",
+    "post_text": "🎥 NOAA: National Oceanic & Atmospheric Administration’s Industry Partnerships program has launched a video series highlighting how trusted environmental data supports decisions that strengthen infrastructure, improve preparedness, and build more #WeatherResilient communities.\nWatch the series: 🔗 https://lnkd.in/e3bW5fbE\n\nCSS employee-owners proudly support the Industry Partnerships initiative through stakeholder engagement, user research, product development, and implementation. 💡 Learn more about the Industry Partnership's impact: bit.ly/NCEIindustry\n\nThese videos showcase the value of collaboration in making environmental data more accessible, practical, and actionable for the organizations and communities that rely on it to support:\n\n🏗 Weather-resilient infrastructure\n📊 Risk assessment and disaster recovery\n🛒 Supply chain resilience and business continuity\n\nShoutout to the Industry Partnerships team! CSS The Cadmus Group Science and Technology Corporation (STC) BLN24 Deloitte ISciences, L.L.C. AECOM CASE Consultants International North Carolina Institute for Climate Studies Retail Industry Leaders Association (RILA) Reinsurance Association of America American Society of Civil Engineers\n\n#NOAA #EnvironmentalData #Resilience #ClimateData #PublicPrivatePartnerships",
+    "hashtags": [
+      "#WeatherResilient",
+      "#NOAA",
+      "#EnvironmentalData",
+      "#Resilience",
+      "#ClimateData",
+      "#PublicPrivatePartnerships"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEVqSNqGCXeug/articleshare-shrink_480/B4EaERvBvFG0AU-/0/1791298903274?e=2147483647&v=beta&t=mna8CR-kgefUxw18fJfHc3pKQc5fmcA5P0QWQp44Dxc",
+    "topic": "CSS",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:03.723744+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/stephenlb_choose-rust-when-possible-for-safer-low-level-activity-7513276773820739585-oRiq",
+    "canonical_url": "https://www.linkedin.com/posts/stephenlb_choose-rust-when-possible-for-safer-low-level-activity-7513276773820739585-oRiq",
+    "post_id": 7513276773820739585,
+    "author": "Stephen Blum",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.9h (URL ID)",
+    "post_age_hours": 17.9,
+    "post_age_source": "url_id",
+    "post_text": "Choose Rust when possible for safer low level software.\n\n#rust #cplusplus #systemsprogramming",
+    "hashtags": [
+      "#rust",
+      "#cplusplus",
+      "#systemsprogramming"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Rust",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:37.023887+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/omkar-biswal_python-python315-fastapi-activity-7512726237757509632-qj10",
+    "canonical_url": "https://www.linkedin.com/posts/omkar-biswal_python-python315-fastapi-activity-7512726237757509632-qj10",
+    "post_id": 7512726237757509632,
+    "author": "Omkar Biswal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "54.3h (URL ID)",
+    "post_age_hours": 54.3,
+    "post_age_source": "url_id",
+    "post_text": "Python 3.15 has a feature that backend developers should pay attention to. ⚡\n\nLazy Imports.\n\nNormally, when Python sees:\n\nimport json\nimport pandas\nimport heavy_module\n\nthose modules are loaded immediately.\n\nPython 3.15 lets you explicitly defer that work:\n\nlazy import json\nlazy import heavy_module\n\nNow the module is loaded only when you actually use it.\n\nThink about a large FastAPI application:\n\n❌ Traditional approach\n\nApplication starts\n→ Load many dependencies\n→ Execute module-level code\n→ Initialize unused components\n→ Server becomes ready\n\n✅ Lazy imports\n\nApplication starts\n→ Server becomes ready ⚡\n→ Request needs a module\n→ Module loads\n→ Continue execution\n\nThis can be especially interesting for:\n\n• Large Python applications\n• CLI tools\n• AWS Lambda / serverless workloads\n• Applications with large dependency trees\n• Reducing unnecessary startup work\n\nBut there is a trade-off:\n\nThe first use of a lazy import pays the loading cost.\n\nSo the goal isn't:\n\n\"Make every import lazy.\"\n\nIt's:\n\n\"Load expensive dependencies only when they're actually needed.\"\n\nThat's the kind of optimization I find interesting in Python 3.15 — not just new syntax, but changes that can affect how we design production systems.\n\n#Python #Python315 #FastAPI #BackendEngineering #AWS #Serverless #SoftwareEngineering #Performance #CloudComputing",
+    "hashtags": [
+      "#Python",
+      "#Python315",
+      "#FastAPI",
+      "#BackendEngineering",
+      "#AWS",
+      "#Serverless",
+      "#SoftwareEngineering",
+      "#Performance",
+      "#CloudComputing"
+    ],
+    "engagement": {
+      "reactions": 88,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGehhsIQhKbSw/feedshare-shrink_800/B56aEKQs4pHEAc-/0/1791173513016?e=2147483647&v=beta&t=acw9bmnsqhc4osoWGHO-9YTGQSn1Q70rBgPIf8MjUIM",
+    "topic": "Python performance",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:06.817652+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/usman-shahbaz71_rag-isnt-the-only-way-to-give-llms-better-activity-7512704378990981120-XOQ4",
+    "canonical_url": "https://www.linkedin.com/posts/usman-shahbaz71_rag-isnt-the-only-way-to-give-llms-better-activity-7512704378990981120-XOQ4",
+    "post_id": 7512704378990981120,
+    "author": "Muhammad Usman Shahbaz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "55.8h (URL ID)",
+    "post_age_hours": 55.8,
+    "post_age_source": "url_id",
+    "post_text": "RAG isn’t the only way to give LLMs better context.\n\nIf you’ve been building AI applications, you’ve probably heard of RAG.\n\nBut there’s another approach gaining attention:\n\nCAG — Context-Augmented Generation.\n\nSo what’s the difference?\n\nRAG (Retrieval-Augmented Generation)\n→ User asks a question\n→ Query is converted into a searchable representation\n→ Relevant information is retrieved from a knowledge base\n→ Retrieved context is added to the prompt\n→ LLM generates the answer\n\nRAG is especially useful when your knowledge is large, changing, or difficult to fit into the model context.\n\nCAG (Context-Augmented Generation)\n→ Prepare the relevant knowledge in advance\n→ Keep it available as context\n→ Inject that context when needed\n\nGenerate the response from the provided knowledge\n\nCAG can be attractive when the knowledge base is smaller, relatively stable, and fits comfortably within the context window.\n\nThe key difference:\nRAG → Retrieve what you need.\nCAG → Preload what you need.\n\nAnd this leads to an important architectural decision:\n\nYou don't automatically need RAG for every AI application.\n\nIf your knowledge is small and stable, loading the relevant context directly can be simpler.\n\nIf your knowledge is huge or constantly changing, retrieval becomes much more valuable.\n\nThe real skill isn't choosing RAG or CAG.\n\nIt's knowing when each architecture makes sense.\n\nSave this comparison for your next AI project. | 108 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 880,
+      "comments": 108,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGcDaA9TBQLGA/feedshare-shrink_800/B4DaEJ80B0HsAc-/0/1791168302364?e=2147483647&v=beta&t=rYWZcuaIavDsm5xv2o6-RjGXD5fpXcJtz9FyFx3M-j4",
+    "topic": "RAG architecture",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:20.487848+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kelechi-judith-edokwe-18717b174_linux-bash-bashscripting-activity-7512821390811746304-Ywzs",
+    "canonical_url": "https://www.linkedin.com/posts/kelechi-judith-edokwe-18717b174_linux-bash-bashscripting-activity-7512821390811746304-Ywzs",
+    "post_id": 7512821390811746304,
+    "author": "Kelechi Judith Edokwe",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "48.1h (URL ID)",
+    "post_age_hours": 48.1,
+    "post_age_source": "url_id",
+    "post_text": "Write it once. Reuse it everywhere.\nBash functions turn repetitive commands into clean, powerful automation.\n\nAs Bash scripts grow, repeating the same commands can make them harder to read, maintain, and update. Functions solve this by letting you organize tasks into reusable blocks of code.\n\n1. What Are Functions?\n\nA function is a block of code designed to perform a specific task. You define it once and call it whenever you need it.\n\nThey help you:\n\n🔹 Avoid code repetition\n🔹 Keep scripts organized\n🔹 Make automation easier to maintain\n🔹 Reuse the same logic across tasks\n\n2. Types of Functions\n\nUser-Defined Functions: Create your own reusable tasks.\n\nBuilt-in Functions:\nUse Bash commands such as echo, cd, printf, and read.\nFunctions with Arguments: Pass values to make functions more flexible and reusable.\n\n3. Real-World DevOps Use\n\nFunctions can be used to automate common tasks such as:\n\n🔹 Checking whether services are running\n🔹 Installing required packages\n🔹 Managing servers\n🔹 Handling repetitive deployment tasks\n🔹 Performing system checks\n\nInstead of writing the same logic again and again, create a function and reuse it whenever needed.\n\n4. Best Practices\n\nFor better Bash scripts:\n\n🔹 Use meaningful function names\n🔹 Keep functions small and focused\n🔹 Use arguments when flexibility is needed\n🔹 Add comments for clarity\n🔹 Handle errors and edge cases\n\nWhy Functions Matter in DevOps\n\nFunctions make automation:\n\n⚡ Faster to build\n🧩 Easier to maintain\n🔄 More reusable\n🛡️ More reliable\n⏱️ Less time-consuming\n\nThe goal isn't just to write more Bash code.\n\nIt's to build scripts that are cleaner, smarter, and easier to scale.\n\nBuild once → Reuse everywhere → Automate smarter.\n\nDo you use Bash functions in your automation scripts?\n\n#Linux #Bash #BashScripting #DevOps #DevOpsEngineer #Automation #ShellScripting #CloudComputing | 76 comments on LinkedIn",
+    "hashtags": [
+      "#Linux",
+      "#Bash",
+      "#BashScripting",
+      "#DevOps",
+      "#DevOpsEngineer",
+      "#Automation",
+      "#ShellScripting",
+      "#CloudComputing"
+    ],
+    "engagement": {
+      "reactions": 49,
+      "comments": 76,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQH0HTo7giMASA/feedshare-image-high-res/B4DaELQbCSJYAU-/0/1791190217134?e=2147483647&v=beta&t=TvRmsHKtj6RwgRXL6OvvZMy0pJ_nLvOKfHT7GXuTPLM",
+    "topic": "Bash",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:29.895322+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kentcdodds_engineering-as-we-knew-it-shrunk-activity-7512879114769358848-Rnvr",
+    "canonical_url": "https://www.linkedin.com/posts/kentcdodds_engineering-as-we-knew-it-shrunk-activity-7512879114769358848-Rnvr",
+    "post_id": 7512879114769358848,
+    "author": "Kent C. Dodds",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.3h (URL ID)",
+    "post_age_hours": 44.3,
+    "post_age_source": "url_id",
+    "post_text": "Engineering as we knew it is sort of dead. Not because building stopped. Because typing code used to be most of the day, and that slice shrank.\n\nJoyce Er spent five years on VS Code while Copilot showed up.\n\nWhat opened up is the why and the who. That is the transformation, not just faster implementation.\n\nFull episode: https://lnkd.in/gRHaYryr",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 5,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "C",
+    "score": 73.8,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.3,
+      "total": 73.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:18.088256+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/godsent-ndoma-7b919322b_python-is-one-of-the-most-important-data-activity-7513180120648560640-Irek",
+    "canonical_url": "https://www.linkedin.com/posts/godsent-ndoma-7b919322b_python-is-one-of-the-most-important-data-activity-7513180120648560640-Irek",
+    "post_id": 7513180120648560640,
+    "author": "Godsent Ndoma",
+    "is_company_account": false,
+    "followers": 7297,
+    "post_age": "24.3h (URL ID)",
+    "post_age_hours": 24.3,
+    "post_age_source": "url_id",
+    "post_text": "Python is one of the most important data analytics tool. Here’s a simple way to learn python…",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 13,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQE15FhMtVIjuA/thumbnail-with-play-button-overlay-high/B4EaEQkg_AGUC8-/0/1791279373089?e=2147483647&v=beta&t=-tYgB3L7d592eSOoFOgnW0_xJr_dhSh1PZ0_mcgx1jQ",
+    "topic": "Python",
+    "score": 73.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.7,
+      "total": 73.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:14.825227+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/marclinster_postgresql-activity-7513121556017893376-RLRE",
+    "canonical_url": "https://www.linkedin.com/posts/marclinster_postgresql-activity-7513121556017893376-RLRE",
+    "post_id": 7513121556017893376,
+    "author": "Marc Linster",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "28.2h (URL ID)",
+    "post_age_hours": 28.2,
+    "post_age_source": "url_id",
+    "post_text": "Automation is not autonomy!\n\nToday we’re launching DBtune 4.0, and from an AI-product perspective, that distinction matters.\n\nAutomating a database task is useful, but an autonomous system needs to do more: understand what is happening, determine what needs attention, decide on the right action, act, and learn from the result.\n\nDBtune 4.0 takes an important step in that direction and brings together:\n\n- Server parameter tuning\n- Index optimization\n- Autovacuum monitoring\n\nThis broader approach helps DBtune understand more of what affects #PostgreSQL performance and stability, identify where optimization has the greatest impact, and turn those insights into action through automation, recommendations, and diagnostics.\n\nAnd autonomy in production has to come with control:\n\nSo with DBtune server parameter changes can be automated, or reviewed before they are applied. Index and autovacuum recommendations remain under the user’s control. Guardrails help ensure optimization happens within defined boundaries.\n\nI see the path toward Autonomous PostgreSQL as gradual: Moving from AI advice to AI acting, as confidence, context, and control increase.\n\nDBtune 4.0 is an important step along that path. I’m looking forward to seeing how teams use it in real PostgreSQL environments.\n\nWhat would you want an autonomous PostgreSQL system to handle for you first?",
+    "hashtags": [
+      "#PostgreSQL"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL optimization",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:46.200247+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ashwin-sree-97543a413_ai-ml-jobs-48214-ai-ml-job-vacancies-in-activity-7512825780066832384-g1SE",
+    "canonical_url": "https://www.linkedin.com/posts/ashwin-sree-97543a413_ai-ml-jobs-48214-ai-ml-job-vacancies-in-activity-7512825780066832384-g1SE",
+    "post_id": 7512825780066832384,
+    "author": "Ashwin Sree",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.8h (URL ID)",
+    "post_age_hours": 47.8,
+    "post_age_source": "url_id",
+    "post_text": "🚨 AI JOBS UPDATE – Oct 5, 2026\n\nLooking for your next opportunity in AI? Here are some current AI/ML openings you can explore today 👇\n\n🔹 1. AI/ML Engineer - Fresher\n🏢 Company: Jobaaj.com | 📍 Noida, India | 💼 0-1 Years | 🌐 On-site\n🛠️ Skills: Python, ML, Generative AI, EDA, Power BI, LLMs, LangChain\n🔗 https://lnkd.in/eJ2C9yN4\n\n🔹 2. Data Scientist - AI/ML Engineer\n🏢 Company: PwC | 📍 Hyderabad, Chennai, Bengaluru | 💼 4-8 Years | 🌐 Hybrid\n🛠️ Skills: Python, ML, Statistical Modeling, Data Visualization, AI\n🔗 https://lnkd.in/eQ7QKT5t\n\n🔹 3. AI/ML Engineer\n🏢 Company: Optum | 📍 Bangalore Rural | 💼 4-9 Years | 🌐 Hybrid\n🛠️ Skills: Python, NLP, ML, Deep Learning, AI/ML Algorithms\n🔗 https://lnkd.in/eUdEt6zE\n\n🔹 4. Gen AI Engineer\n🏢 Company: Coforge | 📍 Hyderabad, Pune, Greater Noida | 💼 4-9 Years | 🌐 Hybrid\n🛠️ Skills: Python, FastAPI, LangChain, LangGraph, Semantic Kernel, AutoGen\n🔗 https://lnkd.in/eneJCgtA\n\n🔹 5. Data Analytics Associate\n🏢 Company: AKS Tech | 📍 Remote | 💼 Fresher | 🌐 Remote\n🛠️ Skills: Python, SQL, Data Analytics, Excel, Power BI, Tableau\n🔗 https://lnkd.in/eAAnA4Ni\n\n🔹 6. AI/ML Engineer + AWS Cloud\n🏢 Company: Infosys | 📍 Hyderabad, Pune, Bengaluru | 💼 2-5 Years | 🌐 Hybrid\n🛠️ Skills: AI/ML, AWS, Data Engineering, Generative AI, ML\n🔗 https://lnkd.in/eJixAuQa\n\n🔹 7. Search Engineer - AI/ML\n🏢 Company: Apple | 📍 Bengaluru | 💼 5-10 Years | 🌐 On-site\n🛠️ Skills: ML, Application Engineering, Research, Enterprise Software\n🔗 https://lnkd.in/e9CKua9C\n\n🔹 8. GenAI Developer\n🏢 Company: RecruitBots AI | 📍 Remote | 💼 0-2 Years | 🌐 Remote\n🛠️ Skills: ML, Artificial Intelligence, Generative AI Tools\n🔗 https://lnkd.in/eV29mn_6\n\n💡 Career Tip: Apply early, tailor your resume to the job description, and keep your LinkedIn profile updated.\n\n🔔 Follow for daily AI job updates, career opportunities, and AI industry news.\n\n#AIJobs #ArtificialIntelligence #MachineLearning #DataScience #AIJobsIndia #TechJobs #FreshersJobs #Jobs #Career #Hiring #GenAI #LLM #DeepLearning",
+    "hashtags": [
+      "#AIJobs",
+      "#ArtificialIntelligence",
+      "#MachineLearning",
+      "#DataScience",
+      "#AIJobsIndia",
+      "#TechJobs",
+      "#FreshersJobs",
+      "#Jobs",
+      "#Career",
+      "#Hiring",
+      "#GenAI",
+      "#LLM",
+      "#DeepLearning"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQH1O3z_MuRD8w/articleshare-shrink_480/B4EaELrQIiK4AU-/0/1791197250493?e=2147483647&v=beta&t=70pV3BFTwVQkChM3cKOtf4s0RH-joP2w7ZHrpT0KDfA",
+    "topic": "SQL",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:46.368779+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dennisdeacon_new-things-you-should-know-about-html-here-activity-7512845833180971008-y7Sd",
+    "canonical_url": "https://www.linkedin.com/posts/dennisdeacon_new-things-you-should-know-about-html-here-activity-7512845833180971008-y7Sd",
+    "post_id": 7512845833180971008,
+    "author": "Dennis Deacon",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "46.4h (URL ID)",
+    "post_age_hours": 46.4,
+    "post_age_source": "url_id",
+    "post_text": "HTML isn’t “done.”\n\nThat assumption may be one of the biggest blind spots in modern web development.\n\nChris Coyier’s look at what’s new in HTML for mid-2026 is a reminder that the platform itself continues to evolve, adding capabilities that can reduce complexity, improve interoperability, and, when used well, support more accessible experiences.\n\nThe question isn’t simply, “What can HTML do now?”\n\nIt’s, “Are we taking advantage of the platform before reaching for JavaScript, frameworks, or custom solutions?”\n\nAccessibility starts with understanding the platform we’re building on.\n\nhttps://lnkd.in/grs_QP5T\n\n#Accessibility #A11y #HTML #WebDevelopment #InclusiveDesign #WebStandards",
+    "hashtags": [
+      "#Accessibility",
+      "#A11y",
+      "#HTML",
+      "#WebDevelopment",
+      "#InclusiveDesign",
+      "#WebStandards"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQHKTV8XurBaYg/image-shrink_1280/B56aEL9eo9HEAc-/0/1791202028410?e=2147483647&v=beta&t=z9C4qPZhz2f5gfxSNkZC83xtTbmbg1xYmxhyuZX6OUQ",
+    "topic": "HTML",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:49.631629+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/graemerocher_pyronaut-httpspyronautio-is-my-new-activity-7512802142848466945-cTxn",
+    "canonical_url": "https://www.linkedin.com/posts/graemerocher_pyronaut-high-performance-python-framework-activity-7512802142848466945-l3Rc",
+    "post_id": 7512802142848466945,
+    "author": "Graeme Rocher",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.3h (URL ID)",
+    "post_age_hours": 49.3,
+    "post_age_source": "url_id",
+    "post_text": "Pyronaut (https://pyronaut.io) is my new favourite way to showcase the work we are doing on Micronaut Framework regardless of language.\n\nThanks to Crema and GraalVM both Python and Java code can be simple runnable snippets executed with \"pyronaut dev App.py\" or \"pyronaut dev App.java\"\n\nWe integrated Pyronaut with Testcontainers so the snippets will be compiled, processed and started against dockerized versions of your actual database.\n\nI setup a repository of examples we will use to show case features. For now there are fully runnable is hello world, Oracle AI Database and Oracle MySQL examples.\n\nhttps://lnkd.in/eeujPu-m\n\nTo run them:\n\npip install pyronaut\npyronaut setup\npyronaut dev main.py or pyronaut dev Main.java\n\nAll of these examples use setup-pyronaut (https://lnkd.in/ek_9bw6g) to execute on Github Actions CI.\n\n🔥🔥🔥",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 58,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFt9QqMAEpKbQ/articleshare-shrink_800/B4EaD9WeY0IwAY-/0/1790956922865?e=2147483647&v=beta&t=H6Lfk4HWVbKatp6RK5zFtVBCUwseW97FTUJsrKlCVuc",
+    "topic": "Python performance",
+    "score": 70.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.2,
+      "total": 70.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:01.916652+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/saurabhbharati_dynamics-d365-ai-activity-7512764853439377408-NXI_",
+    "canonical_url": "https://www.linkedin.com/posts/saurabhbharati_dynamics-d365-ai-activity-7512764853439377408-NXI_",
+    "post_id": 7512764853439377408,
+    "author": "Saurabh B.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "51.8h (URL ID)",
+    "post_age_hours": 51.8,
+    "post_age_source": "url_id",
+    "post_text": "Before you build your first Dynamics 365 agent in Copilot Studio, pause and understand MCP.\n\nModel Context Protocol (MCP) is the open standard that lets agents work with your ERP data and business logic. It's what takes an agent from answering questions to actually getting work done in D365.\n\nIn this short video, I cover what MCP is, why it matters for D365 agents, and what to think through before you start building.\n\n📖 Microsoft Learn: Model Context Protocol for Dynamics 365\nhttps://lnkd.in/eshfSxdk\n\n#Dynamics #D365 #AI #Microsoft #CopilotStudio #MCP",
+    "hashtags": [
+      "#Dynamics",
+      "#D365",
+      "#AI",
+      "#Microsoft",
+      "#CopilotStudio",
+      "#MCP"
+    ],
+    "engagement": {
+      "reactions": 42,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQG7KtZ6enFlAQ/thumbnail-with-play-button-overlay-high/B4EaEH8647I4C0-/0/1791134775555?e=2147483647&v=beta&t=JD_gm4lPQi4SeUFdSlaQuXTKlNH2_k22g7cIGcYF4Zo",
+    "topic": "MCP protocol",
+    "score": 69.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.5,
+      "total": 69.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:17.066862+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/caroline-mindus_lola-c-west-what-it-costs-to-be-you-activity-7512496838856568833-6KUD",
+    "canonical_url": "https://www.linkedin.com/posts/caroline-mindus_lola-c-west-what-it-costs-to-be-you-activity-7512496838856568833-6KUD",
+    "post_id": 7512496838856568833,
+    "author": "Caroline Mindus",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "69.6h (URL ID)",
+    "post_age_hours": 69.6,
+    "post_age_source": "url_id",
+    "post_text": "The Lady who gave me the gift of these words: “you live life in ordered steps”. The one, the only: Lola C. West 🧡\n\nHere is sharing her gift with you, too.\n\nAs dear Nathalie Molina Niño put it: this conversation with Gabrielle Wyatt feels like medicine.\n\nMay this wisdom spark a quiet light within your soul. Enjoy!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 25,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGURIlKj5MURA/articleshare-shrink_1280_800/B4EaD4XwCzG0Ag-/0/1790873371338?e=2147483647&v=beta&t=kjd2419PQ4iZ7s4fzJ0AlZ9-zmL4xCdDyvWyaxuVi0Q",
+    "topic": "C",
+    "score": 65.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 5.2,
+      "total": 65.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:24.455591+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/justinmancinelli_kotlin-kotlinmultiplatform-composemultiplatform-activity-7512547687477497856-Tt52",
+    "canonical_url": "https://www.linkedin.com/posts/justinmancinelli_kotlin-kotlinmultiplatform-composemultiplatform-activity-7512547687477497856-Tt52",
+    "post_id": 7512547687477497856,
+    "author": "Justin Mancinelli",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.2h (URL ID)",
+    "post_age_hours": 66.2,
+    "post_age_source": "url_id",
+    "post_text": "4 years ago today, Samuel Hill wrote about the early adopter blues of Kotlin Multiplatform. How far we’ve come!\n\nSam writes about the experience pre-2022: \"Getting a KMP project set up was not straightforward. Project and gradle configuration was tricky and it took a lot for us to ramp up new devs.\" He goes on to discuss the contributions Touchlab made with KaMPKit, xcode-kotlin, and the “new thing\" at the time which became SKIE.\n\nOrganizational challenges of incumbent teams and technologies did not get easier. Of course, this is true of any migration project, but Kotlin+Swift -> KMP+Swift is sooo much less risky than any other Native -> Cross-platform. In the current AI-era, these organizational challenges become even more of a factor than any potential technical challenges.\n\nThanks to Sam for writing down what we were actually feeling at the time. Next up: a look at how to keep Gradle builds from becoming the next pain point.\n\nLet me know about your pain points adopting KMP/CMP. General rants about Gradle also acceptable 😉\n\n#Kotlin #KotlinMultiplatform #ComposeMultiplatform #Swift #Gradle #NativeMobile #Android #iOS",
+    "hashtags": [
+      "#Kotlin",
+      "#KotlinMultiplatform",
+      "#ComposeMultiplatform",
+      "#Swift",
+      "#Gradle",
+      "#NativeMobile",
+      "#Android",
+      "#iOS"
+    ],
+    "engagement": {
+      "reactions": 15,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Kotlin",
+    "score": 64.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 4.0,
+      "total": 64.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:04.772903+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/zachjensz_tuesday-october-6th-2026-rsvp-melbourne-activity-7512702264315125760-qgcV",
+    "canonical_url": "https://www.linkedin.com/posts/zachjensz_tuesday-october-6th-2026-rsvp-melbourne-activity-7512702264315125760-qgcV",
+    "post_id": 7512702264315125760,
+    "author": "Zach Jensz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "56.0h (URL ID)",
+    "post_age_hours": 56.0,
+    "post_age_source": "url_id",
+    "post_text": "Melbourne CSS tomorrow!\nTue Oct 6th 5:30PM at Atlassian\nRSVP and don't miss out\n\nSpeakers\nKaterina Zinich - Next-Gen CSS Animations\nReplacing Heavy JavaScript Motion Libraries with Declarative Native CSS Capabilities\n\nAndrey Sidorov - CSS as an attack vector\nOften JS is exploited for nefarious purposes, but even CSS has its weak links.\n\nRSVP -> https://lnkd.in/gbucVUJm\n\nThanks Michael Kimpton, Iman Yusuf and colleagues at Atlassian for all your hard work hosting. Thank you to Rajan Pusalkar and Asbed B. for helping organise.\n\nI look forward to catching up all the regulars and some new folk! Tagging some here for the algo - Christopher Dasca, Kevin Bryan, Alec Pullen, Phil Nash, James Boyd",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 17,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQFesD7N8vuUsA/articleshare-shrink_800/B56aEOuYI7IIAQ-/0/1791248403948?e=2147483647&v=beta&t=9jcjRyMOVjUvrtVCf-Qg7PW4zgFSJHt-zUjKVvgSUQ8",
+    "topic": "CSS",
+    "score": 63.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.8,
+      "total": 63.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:13.299046+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/saireddy-dotnetfs_ai-agents-5-architecture-patterns-every-activity-7512715999910215682-tJKu",
+    "canonical_url": "https://www.linkedin.com/posts/saireddy-dotnetfs_ai-agents-5-architecture-patterns-every-activity-7512715999910215682-tJKu",
+    "post_id": 7512715999910215682,
+    "author": "Sai Reddy",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "55.0h (URL ID)",
+    "post_age_hours": 55.0,
+    "post_age_source": "url_id",
+    "post_text": "🤖 AI Agents: 5 Architecture Patterns Every AI Architect Should Know\n\nBuilding an AI Agent is not just about connecting an LLM to a few tools.\nThe execution pattern you choose determines the system's latency, cost, reliability, scalability, and level of autonomy.\n\nHere are 5 important patterns:\n\n🔹 1. Single-Shot / Direct Invocation\nInput → LLM → Output\nBest for classification, extraction, summarization, and simple transformations.\n\n🔹 2. Iterative ReAct\nDecide → Act → Observe → Repeat\nBest for tool-using agents, research, database lookups, and dynamic problem solving.\n\n🔹 3. Planner–Executor\nPlan → Decompose → Execute → Aggregate\nUseful for complex workflows where tasks can be independently executed and monitored.\n\n🔹 4. Reflexive Agent\nGenerate → Critique → Refine\nUseful when output quality matters and iterative improvement is valuable.\n\n🔹 5. Verifier-Gated Agent\nGenerate → Verify → Pass/Reject → Execute\nCritical for high-risk workflows such as payments, compliance, authorization, and policy enforcement.\n\n🏗️ Production-grade Agent Architecture\n\nThese patterns don't have to exist in isolation.\n\nA robust system can combine:\nPlanner + ReAct Executors + Memory/State + Reflexive Review + Verifier + Guardrails + Observability\n\nThe key principle is:\nDon't make an agent more autonomous than the problem requires.\nStart with the simplest pattern that solves the problem, then introduce planning, iteration, reflection, or verification only when they provide measurable value.\n\nRight pattern → Right use case → Reliable AI system.\n\nFollow Sai Reddy for more such posts! SRProSkillBridge\n\nReach out to me to attend mock interviews that will help you prepare and crack your next interview with confidence.\nBook 1:1- https://lnkd.in/gsrnePyD\npage- https://lnkd.in/gmQQGgns\nwebsite- https://lnkd.in/g6afVJ_V\npage- https://lnkd.in/gETRGQhT\ngitHub- https://lnkd.in/gy6SDTDS\nYouTube- https://lnkd.in/gUjdagq7\nInsta- https://lnkd.in/gagfpvDj\nWhatsApp- https://lnkd.in/gjm7naaH\nWhatsApp https://lnkd.in/gbR-MrVy\nGoogleMap- https://lnkd.in/gFetgYvg\n\nFollow JavaScript Mastery w3schools.com SRProSkillBridge",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 15,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQErZA_9jcWlWw/feedshare-image-high-res/B4DaB8jKdAIoAc-/0/1788795988047?e=2147483647&v=beta&t=q7CASX1VbAt4WlxM3sx7cVue1tYrpwTSJILF5ZigVTU",
+    "topic": "AI Agents architecture",
+    "score": 63.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.0,
+      "total": 63.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:58.939435+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/unitedsol-pvt-ltd_unitedsol-html-css-activity-7512811689415933953-iSif",
+    "canonical_url": "https://www.linkedin.com/posts/unitedsol-pvt-ltd_unitedsol-html-css-activity-7512811689415933953-iSif",
+    "post_id": 7512811689415933953,
+    "author": "United Sol",
+    "is_company_account": false,
+    "followers": 29103,
+    "post_age": "48.7h (URL ID)",
+    "post_age_hours": 48.7,
+    "post_age_source": "url_id",
+    "post_text": "Still coding everything from scratch?\n#unitedsol #html #css #coding #javascript #AI",
+    "hashtags": [
+      "#unitedsol",
+      "#html",
+      "#css",
+      "#coding",
+      "#javascript",
+      "#AI"
+    ],
+    "engagement": {
+      "reactions": 9,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGbVYbfe3idnA/thumbnail-with-play-button-overlay-high/B4DaELeY5VK8C0-/0/1791193880454?e=2147483647&v=beta&t=xNSp2yidETjHjwemJWbOhEVTtI_K69VUM6hrnaRrMfE",
+    "topic": "HTML",
+    "score": 63.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.0,
+      "total": 63.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:00.925608+00:00"
+  },
+  {
+    "url": "https://fr.linkedin.com/posts/adarsh-joshi-4a579433_squizl-guess-the-sql-statement-activity-7512586108254380033-1of9",
+    "canonical_url": "https://fr.linkedin.com/posts/adarsh-joshi-4a579433_squizl-guess-the-sql-statement-activity-7512586108254380033-1of9",
+    "post_id": 7512586108254380033,
+    "author": "Adarsh Joshi",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.6h (URL ID)",
+    "post_age_hours": 63.6,
+    "post_age_source": "url_id",
+    "post_text": "SQuizL 04-OCT-26\n1/6 guesses\n365 seconds\n🟩🟩🟩🟩🟩🟩🟦\n\nhttps://bit.ly/SQuizL-game\n#SQuizL #SQL",
+    "hashtags": [
+      "#SQuizL",
+      "#SQL"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEdQUP187sPtw/articleshare-shrink_480/B4EZ565xSlGsAM-/0/1780178426366?e=2147483647&v=beta&t=ZZZNs-QTFwUCe5MmbP3-X5Ji813j2gj_t_VCmUBcH9A",
+    "topic": "SQL",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:40.106915+00:00"
+  },
+  {
+    "url": "https://fr.linkedin.com/posts/steliosvlasopoulos_squizl-guess-the-sql-statement-activity-7512474156827922432-Eqgz",
+    "canonical_url": "https://fr.linkedin.com/posts/steliosvlasopoulos_squizl-guess-the-sql-statement-activity-7512474156827922432-Eqgz",
+    "post_id": 7512474156827922432,
+    "author": "Stelios Vlasopoulos",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.1h (URL ID)",
+    "post_age_hours": 71.1,
+    "post_age_source": "url_id",
+    "post_text": "SQuizL 04-OCT-26\n1/6 guesses\n36 seconds\n🟩🟩🟩🟩🟩🟩🟦\nhttps://bit.ly/SQuizL-game\n#SQuizL #SQL",
+    "hashtags": [
+      "#SQuizL",
+      "#SQL"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEdQUP187sPtw/articleshare-shrink_480/B4EZ565xSlGsAM-/0/1780178426366?e=2147483647&v=beta&t=ZZZNs-QTFwUCe5MmbP3-X5Ji813j2gj_t_VCmUBcH9A",
+    "topic": "SQL",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:41.506983+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/matthew-swift-8ba7529_a-letter-to-the-concordia-community-from-activity-7512488755149148160-rNtZ",
+    "canonical_url": "https://www.linkedin.com/posts/matthew-swift-8ba7529_a-letter-to-the-concordia-community-from-activity-7512488755149148160-rNtZ",
+    "post_id": 7512488755149148160,
+    "author": "Matthew Swift",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.1h (URL ID)",
+    "post_age_hours": 70.1,
+    "post_age_source": "url_id",
+    "post_text": "This past week marked my last as Chief Executive Officer of Concordia, and Im feeling deeply grateful and genuinely excited to become its Executive Chairman.\n\nThis is not a goodbye. I'll remain deeply involved in the institution, but after careful reflection, it was clear that the time had come for a new CEO to help lay the foundations for Concordia's long-term future.\n\nConcordia will forever be a part of me. In my new role, I'll focus on our key stakeholders, strategic planning, and the partnerships that will shape our next chapter, while supporting our new CEO every step of the way. On that note, a heartfelt congratulations to Rodney Ferguson on his appointment as President & CEO.\n\nRodney brings the vision, energy, and character this moment calls for, and I couldn't be more confident in Concordia's future under his leadership. I'm looking forward to working alongside you, Rodney.\n\nI also want to thank my co-founder, Nicholas Logothetis. Sixteen years ago, we set out to build this institution together, and through every challenge and every milestone, we've always been by each other's side. I couldn't have asked for a better partner on this journey.\n\nTo the team at Concordia: thank you. Your dedication is the reason Concordia is what it is. And to our team alumni, I'm so proud of the community you've become. Watching you build your careers while staying engaged with Concordia is one of the greatest rewards of my professional life.\n\nHere's to the next chapter.\n\nhttps://lnkd.in/gJ7gN896 | 47 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 328,
+      "comments": 47,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQEuuJu9r4xe0w/articleshare-shrink_1280_800/B56Z.5anvqG0Ag-/0/1785522191745?e=2147483647&v=beta&t=RfNrEjjJ1PWI0viBSzfab618phm4uEA_VToIvU9A9Jg",
+    "topic": "Swift",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 10.0,
+      "engagement": 15.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:34:51.716701+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/free-code-camp_the-kotlin-programming-language-is-used-for-activity-7512784088278257664-0t11",
+    "canonical_url": "https://www.linkedin.com/posts/free-code-camp_the-kotlin-programming-language-is-used-for-activity-7512784088278257664-0t11",
+    "post_id": 7512784088278257664,
+    "author": "freeCodeCamp",
+    "is_company_account": false,
+    "followers": 2336080,
+    "post_age": "50.6h (URL ID)",
+    "post_age_hours": 50.6,
+    "post_age_source": "url_id",
+    "post_text": "The Kotlin programming language is used for Android apps, backend services, and cross-platform development. In this course, you'll learn modern Kotlin from the basics through async programming. It covers functions, collections, OOP, generics, coroutines, Flows, and reactive streams.\nhttps://lnkd.in/g7fx3bHb",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQHTbUQkergEbQ/image-shrink_800/B4EaELFPflIUAk-/0/1791187286298?e=2147483647&v=beta&t=q6eCT7YPLdFNHugB5Tdbs3KgUmDeU3cAL52PVl9nSR4",
+    "topic": "Kotlin",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:07.707056+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dashaun_github-copilot-ai-activity-7512677645973889025-i2xu",
+    "canonical_url": "https://www.linkedin.com/posts/dashaun_github-copilot-ai-activity-7512677645973889025-i2xu",
+    "post_id": 7512677645973889025,
+    "author": "DaShaun C.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "57.6h (URL ID)",
+    "post_age_hours": 57.6,
+    "post_age_source": "url_id",
+    "post_text": "github.com is his new IDE. He hasn't opened VS Code as an editor in months. Coding is intent-driven now: state the intent, review the code, shape the result. #GitHub #Copilot #AI Bruno Borges & Josh Long",
+    "hashtags": [
+      "#GitHub",
+      "#Copilot",
+      "#AI"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "C",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:19.537566+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/upwardiq-software-solutions_hiring-postgresql-postgresqldba-activity-7512855741595328512-rt1t",
+    "canonical_url": "https://www.linkedin.com/posts/upwardiq-software-solutions_hiring-postgresql-postgresqldba-activity-7512855741595328512-rt1t",
+    "post_id": 7512855741595328512,
+    "author": "UpwardIQ Software Solutions",
+    "is_company_account": true,
+    "followers": 3419,
+    "post_age": "45.8h (URL ID)",
+    "post_age_hours": 45.8,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Hiring: Lead PostgreSQL Database Administrator (DBA)\n\nWe are looking for an experienced Lead PostgreSQL DBA to lead the administration, architecture, optimization, security, availability, and modernization of enterprise PostgreSQL database environments.\n\n🔹 Role: Lead PostgreSQL DBA\nExperience: 12–15 Years\nLocation: Chennai only\n\n🔹 Mandatory Technical Skills\n\n✅ PostgreSQL – 8+ years hands-on enterprise experience\n✅ PostgreSQL Architecture amp; Internals\n✅ Performance Tuning / Query Optimization / Indexing\n✅ Partitioning / Connection Pooling / Vacuum Management\n✅ Replication / Clustering / High Availability\n✅ Disaster Recovery / Backup / Restore / PITR\n✅ pgBackRest / Barman / WAL Archiving\n✅ Patroni / Pgpool-II / Repmgr / HAProxy\n✅ Linux / Unix Administration amp; Shell Scripting\n✅ Python / Bash / PowerShell\n✅ Database Security / Encryption / Auditing / Access Control\n✅ AWS RDS PostgreSQL / Aurora PostgreSQL / Azure Database for PostgreSQL / Cloud SQL\n✅ Docker / Kubernetes\n✅ Prometheus / Grafana / ELK / Datadog / CloudWatch\n✅ Database Migration amp; Cloud Modernization\n✅ Production Support / RCA / Troubleshooting\n\n📩 Interested candidates can share their updated CV along with: (gopip@upwardiq.com)\n\n#Hiring #PostgreSQL #PostgreSQLDBA #DBA #DatabaseAdministrator #DatabaseEngineer #Postgres #DatabaseManagement #HighAvailability #DisasterRecovery #CloudDatabase #AWS #Azure #Kubernetes #Linux #BFSI #FinTech #Insurance #TechHiring",
+    "hashtags": [
+      "#Hiring",
+      "#PostgreSQL",
+      "#PostgreSQLDBA",
+      "#DBA",
+      "#DatabaseAdministrator",
+      "#DatabaseEngineer",
+      "#Postgres",
+      "#DatabaseManagement",
+      "#HighAvailability",
+      "#DisasterRecovery",
+      "#CloudDatabase",
+      "#AWS",
+      "#Azure",
+      "#Kubernetes",
+      "#Linux",
+      "#BFSI",
+      "#FinTech",
+      "#Insurance",
+      "#TechHiring"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL optimization",
+    "score": 58.0,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 58.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:32:52.708793+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nunomaduro_rust-isnt-hard-01-getting-started-activity-7513128597214400512-cdJQ",
+    "canonical_url": "https://www.linkedin.com/posts/nunomaduro_rust-isnt-hard-01-getting-started-activity-7513128597214400512-cdJQ",
+    "post_id": 7513128597214400512,
+    "author": "Nuno Maduro",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "27.7h (URL ID)",
+    "post_age_hours": 27.7,
+    "post_age_source": "url_id",
+    "post_text": "might be a good time to rewatch this one: https://lnkd.in/efS4VHDn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQF4bd35BWpRHg/articleshare-shrink_800/B4EZ9cMEU1IwAY-/0/1783958095962?e=2147483647&v=beta&t=ayBMRSP4aAHMDDMv-vivG1EgcJMpc9aDuF0ibOsa5Dk",
+    "topic": "Rust",
+    "score": 50.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 5.0,
+      "engagement": 0.0,
+      "total": 50.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:35:33.883376+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/michaelransier_critical-threat-advisory-cve-2026-102490-ugcPost-7512465474652151808-jcQT",
+    "canonical_url": "https://www.linkedin.com/posts/michaelransier_the-cyber-mind-cybersecurity-weekly-brief-activity-7512465475067392000-qyVg",
+    "post_id": 7512465474652151808,
+    "author": "Michael Ransier",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.6h (URL ID)",
+    "post_age_hours": 71.6,
+    "post_age_source": "url_id",
+    "post_text": "🚨 CRITICAL THREAT ADVISORY: CVE-2026-102490 (Zammad Privilege Escalation)\n\n📢 CISA has confirmed active in-the-wild exploitation for CVE-2026-102490 affecting Zammad helpdesk deployments. This privilege management defect allows low-privilege users or chained vectors to escalate privileges directly to root, triggering immediate compliance requirements under BOD 26-04.\n\n📜 We have just released a comprehensive TSUITE + SOC intelligence briefing featuring production-ready detection telemetry (Splunk, Sentinel, CrowdStrike, QRadar), behavioral execution breakdowns, and zero-trust compensating controls.\n\n⚪ We also have created a series of articles written for Personal Cyber Safety. We will release #3 today. Look for it in your groups\n\n🔎 Remember to Harden your infrastructure before the window closes: Read the full advisory on The Cyber Mind Co™ intelligence stream.\n\nhttps://lnkd.in/g3QqtTGN",
+    "hashtags": [
+      "#3"
+    ],
+    "engagement": {
+      "reactions": 2,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQFScQbtFGZR0Q/article-cover_image-shrink_720_1280/B56aEGgJjRHUAQ-/0/1791110455767?e=2147483647&v=beta&t=1HKbiJvS1BFZqUQw_s1q8o7F4OCWG4aM-G85WX1N-YM",
+    "topic": "SQL",
+    "score": 46.3,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 10.0,
+      "engagement": 1.3,
+      "total": 46.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-07T10:33:43.073410+00:00"
   }
 ]
