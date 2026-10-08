@@ -5104,7 +5104,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:45:21.784077+00:00"
   },
   {
@@ -5134,7 +5134,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:45:34.677539+00:00"
   },
   {
@@ -5908,7 +5908,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:31:57.601562+00:00",
     "failure_reason": null,
     "generated_comment": "Saurabh, FastAPI is a solid choice for the API layer, but the diagram skips explicit request-id propagation across the Retrieval and Intelligence layers. Without a consistent trace identifier, correlating latency spikes or token usage back to the original user query becomes cumbersome, especially when scaling out multiple FastAPI instances."
@@ -5945,7 +5945,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:32:23.823927+00:00",
     "failure_reason": null,
     "generated_comment": "Sathish, LangChain-based 'RAG From Scratch' gave me a fast path to a working prototype, walking the full Python pipeline step-by-step. I found the hands-on labs especially useful for debugging vector-DB integration before scaling."
@@ -5977,7 +5977,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:32:57.514183+00:00",
     "failure_reason": null,
     "generated_comment": "Raju, LangGraph is a solid choice for orchestrating tasks, but the architecture as described doesn't mention a CI/CD layer for automated testing of agent workflows. Adding systematic regression checks can catch subtle changes in prompts or tool integrations before they reach production, improving reliability."
@@ -9260,5 +9260,891 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T12:31:14.504893+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/teresacarlson_claude-for-government-is-now-generally-available-activity-7513354292989321216-2MJo",
+    "canonical_url": "https://www.linkedin.com/posts/teresacarlson_claude-for-government-is-now-generally-available-activity-7513354292989321216-2MJo",
+    "post_id": 7513354292989321216,
+    "author": "Teresa Carlson",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.5h (URL ID)",
+    "post_age_hours": 43.5,
+    "post_age_source": "url_id",
+    "post_text": "We launched Claude for Government in beta in July 2026, and the feedback from government agencies and our GovTech partner teams has been terrific. Last week we made it generally available, so they can use Claude for the daily work that keeps government and their partner organizations running at mission speed, and Claude Code to build and modernize legacy systems! If you want to learn more about what Claude can do for your agency then check out the link at:\n\nhttps://lnkd.in/efJwWu_E | 12 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 215,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEAU7h3m0gvlA/articleshare-shrink_800/B4DaDziFRxGkAY-/0/1790792193745?e=2147483647&v=beta&t=mgi5VmsV9jRtgVvn4f9kbGMN4j29OP5-dDWA1WN3lGs",
+    "topic": "Claude",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:11.331153+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/alin-morosanu_djangonautspace-django-opensource-activity-7513322014934224897-PwC6",
+    "canonical_url": "https://www.linkedin.com/posts/alin-morosanu_djangonautspace-django-opensource-activity-7513322014934224897-PwC6",
+    "post_id": 7513322014934224897,
+    "author": "Alin Morosanu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.7h (URL ID)",
+    "post_age_hours": 45.7,
+    "post_age_source": "url_id",
+    "post_text": "I’ve been building with Django for 5 years. Now I want to help build Django itself.\n\nI’m joining Djangonaut Space Session 7 with Team Vela to learn how to contribute to Django and take that first step from user to contributor.\n\nI’ll share what I try, what trips me up, and what I learn along the way. Looking forward to meeting more people in the Django/Python community.\n\nWhat do you wish you’d known before your first open-source contribution?\n\n#DjangonautSpace #Django #OpenSource",
+    "hashtags": [
+      "#DjangonautSpace",
+      "#Django",
+      "#OpenSource"
+    ],
+    "engagement": {
+      "reactions": 91,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Django",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:55.703470+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aaron404-com_deep-dive-into-opencodes-source-code-the-activity-7513720007751753728-ogX1",
+    "canonical_url": "https://www.linkedin.com/posts/aaron404-com_deep-dive-into-opencodes-source-code-the-activity-7513720007751753728-ogX1",
+    "post_id": 7513720007751753728,
+    "author": "Aaron xie",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "19.3h (URL ID)",
+    "post_age_hours": 19.3,
+    "post_age_source": "url_id",
+    "post_text": "Can an AI agent perform better if you lie to it about its own identity?\nOpenCode used a single eight-word file called anthropic_spoof.txt to impersonate official products and unlock premium optimizations. The architecture behind that gamble—from layered prompt stacking and synthetic message injection to git-based undo—reveals how production-grade agents actually operate under the hood.\nAs the industry moves toward autonomy, these patterns of model-specific tuning and loop detection are essential for building robust tools that survive the next platform crackdown.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQECfRpoUVpewA/article-cover_image-shrink_720_1280/B56aCKC.xsIsAQ-/0/1789022435978?e=2147483647&v=beta&t=gkspM1qhZtDNjgTRZf74N3BSumIgk0jwwK57RcWohEs",
+    "topic": "OpenCode",
+    "score": 79.8,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 79.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:32.367628+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jsu05_chatgpt-claude-ai-activity-7513223262760292352-Itm_",
+    "canonical_url": "https://www.linkedin.com/posts/jsu05_chatgpt-claude-ai-activity-7513223262760292352-Itm_",
+    "post_id": 7513223262760292352,
+    "author": "Jeff Su",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "52.2h (URL ID)",
+    "post_age_hours": 52.2,
+    "post_age_source": "url_id",
+    "post_text": "#ChatGPT and #Claude’s in-app browser used to be a gimmick but their latest models have completely changed how I use this feature.\n\nInstead of copy and pasting instructions between ChatGPT/Claude and another tool (e.g. Claude Design), I simply ask ChatGPT/Claude to “manage” Claude Design within its in-app browser.\n\n(see attached screenshot for what I’m talking about)\n\nBasically, the main Claude desktop app sets a timer to check whether or not Claude Design has finished working, and if it has, Claude reviews the outputs and give feedback on what can be improved.\n\nAnd this cycle is repeated until outputs meet my creative standard.\n\nThere are two main downsides: (1) High token usage if you don’t give clear instructions, and (2) You have to be literally sign into your account within the in-app browser, which represents a potential privacy/data risk.\n\n#ai",
+    "hashtags": [
+      "#ChatGPT",
+      "#Claude",
+      "#ai"
+    ],
+    "engagement": {
+      "reactions": 32,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGRbaPOAVzHBQ/feedshare-shrink_800/B56aEQeiarIAAc-/0/1791277805173?e=2147483647&v=beta&t=YwVfqXRUfK8ycHnNTWriEFjtl-CxVsK4Z4lUqApQoaA",
+    "topic": "Claude",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:08.187184+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/appcharge_what-a-turn-out-we-hosted-the-amazing-nodejs-activity-7513236783325765632-VuUK",
+    "canonical_url": "https://www.linkedin.com/posts/appcharge_what-a-turn-out-we-hosted-the-amazing-nodejs-activity-7513236783325765632-VuUK",
+    "post_id": 7513236783325765632,
+    "author": "Appcharge",
+    "is_company_account": false,
+    "followers": 35653,
+    "post_age": "51.3h (URL ID)",
+    "post_age_hours": 51.3,
+    "post_age_source": "url_id",
+    "post_text": "What a turn out! We hosted the amazing Node.js Israel community in our HQ earlier this week.\n\nThere were several eye opening sessions, including one from our Tech Lead, Nati Levy, who spoke about implementing MCP correctly in an existing system.\n\nThank you to everyone who came, and to our wonderful team who put the event together. Stay tuned for more meetups 👀\n\nIRL is thriving 💫",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 43,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQGUkV7_yOZ6DA/image-shrink_800/B4EaERg9mNIYAk-/0/1791295216749?e=2147483647&v=beta&t=KvyrmtpE50PFzRVfoaN8SOU8KMFarg9Y8heEL_SGDB0",
+    "topic": "Node.js",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:17.753373+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rob-lutin-3b8722b_morning-brew-acquires-express-checkout-in-activity-7513028623755526144-8uzE",
+    "canonical_url": "https://www.linkedin.com/posts/rob-lutin-3b8722b_morning-brew-acquires-express-checkout-in-activity-7513028623755526144-8uzE",
+    "post_id": 7513028623755526144,
+    "author": "Rob Lutin",
+    "is_company_account": false,
+    "followers": 1470336,
+    "post_age": "65.1h (URL ID)",
+    "post_age_hours": 65.1,
+    "post_age_source": "url_id",
+    "post_text": "Excited to share that Morning Brew Inc. has acquired Express Checkout .\n\nWe’ve been focused on building one of the strongest creator and video ecosystems in media, bringing together Morning Brew’s distinctive voice, premium audiences and commercial capabilities to create truly 360 partnerships for brands.\n\nAcross both B2B and B2C, we’re increasingly able to meet clients wherever their audiences are: newsletters, social, video, podcasts, events and creators, while still delivering the witty, unique voice that has always differentiated Morning Brew in the market.\n\nExpress Checkout is a continuation of that strategy, adding another talented creator led brand and a highly engaged audience to our portfolio.\n\nReally excited about what we’re building and the opportunities ahead for our clients, partners and audiences.\n\nCongrats to Nate Rosen Jenna Movsowitz",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQGbbA5SPJgDhg/image-shrink_1280/B4EaEMq2kXH0Ac-/0/1791213922829?e=2147483647&v=beta&t=Y4G79at04NMz_sl6sD4ogp2o5hvmD9kZEVix390Z7EM",
+    "topic": "Express",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:33.180860+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lioneljouvet_django-python-researchsupport-activity-7513135098309885952-Hq8J",
+    "canonical_url": "https://www.linkedin.com/posts/lioneljouvet_django-python-researchsupport-activity-7513135098309885952-Hq8J",
+    "post_id": 7513135098309885952,
+    "author": "Lionel Jouvet",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "58.1h (URL ID)",
+    "post_age_hours": 58.1,
+    "post_age_source": "url_id",
+    "post_text": "On Friday, I presented our development work at Django Day Copenhagen: the Proposal Feedback Tool (admittedly a bit of a mouthful—renaming pending!).\n\nI shared the architecture behind our system, which is designed to help research support staff manage the heavy workload of grant season using local and sovereign cloud LLMs.\n\nThe core challenge of integrating LLMs into institutional workflows isnt just technical; its about trust and data sovereignty. We relied on Django’s mature ecosystem to build a system where the AI acts strictly as a co-pilot, not an autopilot. By keeping the processing asynchronous and the data on-premise or within strict GDPR-compliant boundaries, we ensure that institutional context is preserved.\n\nAt SDU, we are fortunate to have access to the UCloud infrastructure from SDU eScience Center (https://lnkd.in/epybB4Vq), which allows us to host our server, database, and LLM inference completely independent of providers such as AWS or Azure. Claudio Pica\n\nThe conversations afterward really confirmed it: the developer community are actively looking for local, sovereign LLM solutions rather than just API wrappers.\n\nThank you to the organisers Benjamin Balder Bach & Django Danmark team and everyone who attended for the excellent discussions.\n\n#Django #Python #ResearchSupport #DataSovereignty #SDUeScienceCenter #UCloudAI #uLynks #SDURIO",
+    "hashtags": [
+      "#Django",
+      "#Python",
+      "#ResearchSupport",
+      "#DataSovereignty",
+      "#SDUeScienceCenter",
+      "#UCloudAI",
+      "#uLynks",
+      "#SDURIO"
+    ],
+    "engagement": {
+      "reactions": 36,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEbNylsKOp0Ag/feedshare-shrink_800/B4EaEQEjr7IwAc-/0/1791270993191?e=2147483647&v=beta&t=D-rTkJAU21GAcyOPRaYLP8Qy4Lml903bDvLSK34cgPE",
+    "topic": "Django",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:53.731010+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/freek-van-der-herten-3487a7181_after-moving-our-internal-apps-over-to-activity-7513264271175184384-VjI-",
+    "canonical_url": "https://www.linkedin.com/posts/freek-van-der-herten-3487a7181_after-moving-our-internal-apps-over-to-activity-7513264271175184384-VjI-",
+    "post_id": 7513264271175184384,
+    "author": "Freek Van der Herten",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.5h (URL ID)",
+    "post_age_hours": 49.5,
+    "post_age_source": "url_id",
+    "post_text": "💪 After moving our internal apps over to Laravel Cloud this weekend, my AI buddies and I proceeded to move a big part of our client sites over as well.\n\nSpatie has been (and still is) a web agency for almost 20 years, so you can imagine that we've amassed quite a few legacy projects.\n\nSome of these were on ancient versions of Laravel, and a couple... I don't even want to say what they were on 😱. As part of the move, the AI converted them to Laravel 13 in one fell swoop, and tests and all modern tools and best practices described in my skills.\n\nMoving these old and new projects was pretty wild, in the sense that it was so fast and flawless. It verified prepared DNS records, verified that databases were the same, that all media was the same, testing in browsers... All in parallel for those apps.\n\nComplaints from our clients reported because of mistakes: 0\n\nFeels very good to have made this move and to have those old projects on modern technology and platform.\n\nNext move: conversion to Rust? 😅 🦀 | 15 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 131,
+      "comments": 15,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Laravel",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:06.338065+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sajeevkr2_25-spring-boot-mistakes-that-cause-production-activity-7513114849472618496-RZO2",
+    "canonical_url": "https://www.linkedin.com/posts/sajeevkr2_25-spring-boot-mistakes-that-cause-production-activity-7513114849472618496-RZO2",
+    "post_id": 7513114849472618496,
+    "author": "Sajeev KR",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "59.4h (URL ID)",
+    "post_age_hours": 59.4,
+    "post_age_source": "url_id",
+    "post_text": "Spring Boot Mistakes That Cause Production Problems\n\nAnswer is shared in this link - https://lnkd.in/g-TDNtCk\n\n1. Using default database connection pool settings without considering production traffic.\n\n2. Returning JPA entities directly from REST APIs instead of using DTOs.\n\n3. Ignoring the N+1 query problem in Spring Data JPA.\n\n4. Using @Transactional without understanding transaction boundaries and proxy behavior.\n\n5. Calling a @Transactional method from another method in the same class and expecting the transaction to apply.\n\n6. Using unlimited retries when a downstream service is unavailable.\n\n7. Calling external services without connection and read timeouts.\n\n8. Creating large thread pools without understanding the workload and resource limits.\n\n9. Using parallelStream() blindly for production workloads.\n\n10. Loading large datasets into memory instead of using pagination or streaming.\n\n11. Using @Async without properly configuring and monitoring the executor.\n\n12. Storing secrets such as passwords and API keys directly in application.properties.\n\n13. Using the same configuration for development and production.\n\n14. Relying only on logs without metrics, health checks, and distributed tracing.\n\n15. Exposing sensitive information through exception messages or API responses.\n\n16. Using overly broad exception handling such as catch (Exception e) everywhere.\n\n17. Ignoring graceful shutdown during deployments.\n\n18. Running scheduled jobs on every application instance without preventing duplicate execution.\n\n19. Adding caching without planning cache invalidation and stale data handling.\n\n20. Deploying database schema changes that are incompatible with the currently running application version.\n\n21. Using synchronous calls for every microservice interaction when asynchronous processing would be more appropriate.\n\n22. Ignoring idempotency for APIs that perform payments, orders, or other critical operations.\n\n23. Setting Kubernetes CPU and memory limits without understanding the JVM's resource requirements.\n\n24. Using health checks that only verify whether the application process is running instead of checking critical dependencies appropriately.\n\n25. Optimizing code before measuring the actual production bottleneck.\n\nWhich Spring Boot mistake have you seen cause the biggest production problem?\n\n📒 Java Spring Boot & Microservices Interview Q&A (200 Qs) - https://lnkd.in/gqhJhmcZ\n\n📚 Full interview kit (600 Qs: Java, Springboot, database, devops, cloud, system design, microservice) - https://lnkd.in/gPi2W587\n\n🗃Complete Java Full Stack Developer Kit (900 Qs: Core Java, Spring Boot & Microservices, Cloud/DevOps/System Design, React & Angular) - https://lnkd.in/gETHigfA",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQEG308tL886jg/articleshare-shrink_800/B56aEVMX_DHUAQ-/0/1791356931261?e=2147483647&v=beta&t=aloNb8M4EcqbAjBM_WS0ub-W0TYj88HOJYOAUkj-Eq4",
+    "topic": "Spring Boot",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:28.066563+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/socketinc_you-wanted-vs-code-to-look-rad-now-you-have-activity-7513641966753132544-21kQ",
+    "canonical_url": "https://www.linkedin.com/posts/socketinc_you-wanted-vs-code-to-look-rad-now-you-have-activity-7513641966753132544-21kQ",
+    "post_id": 7513641966753132544,
+    "author": "Socket",
+    "is_company_account": false,
+    "followers": 13869,
+    "post_age": "24.5h (URL ID)",
+    "post_age_hours": 24.5,
+    "post_age_source": "url_id",
+    "post_text": "You wanted VS Code to look rad. Now you have TWO problems...",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQFH0zES74vfXg/thumbnail-with-play-button-overlay-high/B56aEXRfvbIAC0-/0/1791391828192?e=2147483647&v=beta&t=mxGShU325UlM3K9uwkGwH5sc-iQ2b0Bg3XmyEft-QaA",
+    "topic": "VS Code",
+    "score": 74.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.0,
+      "total": 74.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:45.057745+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivan-lungu-a85649141_nodejs-just-changed-how-it-ships-and-it-activity-7513123448970194944-5zMA",
+    "canonical_url": "https://www.linkedin.com/posts/ivan-lungu-a85649141_nodejs-just-changed-how-it-ships-and-it-activity-7513123448970194944-5zMA",
+    "post_id": 7513123448970194944,
+    "author": "Ivan Lungu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "58.8h (URL ID)",
+    "post_age_hours": 58.8,
+    "post_age_source": "url_id",
+    "post_text": "Node.js just changed how it ships, and it starts this month.\n\nFor years, the rule was simple:\n\nEven versions = LTS.\nOdd versions = short-lived.\n\nThat rule is gone.\n\nStarting with Node 27:\n- One major release per year, in April\n- Every major release eventually becomes LTS\n- 6 months Alpha - 6 months Current - 30 months LTS\n\nWhat this means for your team:\n\n• Node 26 is the last release under the old model. It enters LTS this month and reaches EOL in April 2029.\n• Node 27 enters Alpha this month, becomes Current in April 2027, and reaches LTS in October 2027.\n• Still on Node 22? Its EOL is April 2027. Time to start planning the upgrade.\n\nAnd if you move to Node 26, you also get the Temporal API enabled by default.\n\nFinally, a modern alternative to Date.\n\nThe reasoning makes sense: fewer release lines mean less maintenance for a project largely supported by volunteers, while giving teams a more predictable upgrade cycle.\n\nFewer releases. Less confusion. Longer support.\n\nHonestly, this feels like a change Node.js teams have been waiting for.\n\nSource in comment",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 31,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFXz5qcCmusZw/feedshare-shrink_1280/B4DaEP59tEHcAM-/0/1791268216074?e=2147483647&v=beta&t=yo6rqGjuqrSjQFA17bXw6sPLokoPdrC31-HVqiCuy_M",
+    "topic": "Node.js",
+    "score": 73.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 12.4,
+      "total": 73.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:04.678278+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dev-inception_kubernetes-kubernetesoperators-devops-activity-7513624476748791808-qJ-9",
+    "canonical_url": "https://www.linkedin.com/posts/dev-inception_kubernetes-kubernetesoperators-devops-activity-7513624476748791808-qJ-9",
+    "post_id": 7513624476748791808,
+    "author": "Dev Inception",
+    "is_company_account": false,
+    "followers": 2566,
+    "post_age": "25.6h (URL ID)",
+    "post_age_hours": 25.6,
+    "post_age_source": "url_id",
+    "post_text": "Kubernetes Operators can take complex, repeatable operational tasks and turn them into automated workflows.\nThey are especially useful when applications need frequent updates, scaling, backups, recovery, or ongoing monitoring.\nFor complex and stateful systems, this can reduce manual work and make operations more consistent.\nBut an Operator is not always the best choice.\nIf the workload is simple, existing tools like Helm, GitOps, or scripts may already be enough.\nThe real question is whether the operational complexity justifies the extra development and maintenance.\nUse Operators when they solve a real operational problem not just because Kubernetes makes them possible.\n\n#Kubernetes #KubernetesOperators #DevOps #PlatformEngineering #CloudNative #K8s #SRE #InfrastructureAutomation #GitOps #CloudComputing",
+    "hashtags": [
+      "#Kubernetes",
+      "#KubernetesOperators",
+      "#DevOps",
+      "#PlatformEngineering",
+      "#CloudNative",
+      "#K8s",
+      "#SRE",
+      "#InfrastructureAutomation",
+      "#GitOps",
+      "#CloudComputing"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQE9yVsdcUGfYA/feedshare-shrink_1280/B4DaEXBpeSJAAM-/0/1791387670740?e=2147483647&v=beta&t=-PHlK0DrkO0oJ-hbNB50eA09GlCGbcHLg5hNnoNDp90",
+    "topic": "Kubernetes operators",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:18:32.716462+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dylanjchambers_at-spacexai-and-cursor-we-are-committed-to-activity-7513620875670351872-Qql5",
+    "canonical_url": "https://www.linkedin.com/posts/dylanjchambers_at-spacexai-and-cursor-we-are-committed-to-activity-7513620875670351872-Qql5",
+    "post_id": 7513620875670351872,
+    "author": "Dylan Chambers",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "25.9h (URL ID)",
+    "post_age_hours": 25.9,
+    "post_age_source": "url_id",
+    "post_text": "At SpaceXAI and Cursor we are committed to offering users the best experiences in our products - all products.\n\nThat means having model neutrality, and ensuring you have a broad suite of models that are cost effective but also frontier intelligence.\n\nGrok bot is better than ever with a broad range of models for different tasks!!!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHItbLYEuBpgA/feedshare-shrink_800/B4EaEW.X2aIUAg-/0/1791386812110?e=2147483647&v=beta&t=rgE-goICdXTKNNmBDcRNOS20rv-PZ-PTZeBC0UW5WbM",
+    "topic": "Cursor",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:29.524504+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/opencode-nit-rourkela_opencode-codeutsava-hackathon-activity-7513479775068278784-3hwd",
+    "canonical_url": "https://www.linkedin.com/posts/opencode-nit-rourkela_opencode-codeutsava-hackathon-activity-7513479775068278784-3hwd",
+    "post_id": 7513479775068278784,
+    "author": "Opencode NIT Rourkela",
+    "is_company_account": false,
+    "followers": 998,
+    "post_age": "35.2h (URL ID)",
+    "post_age_hours": 35.2,
+    "post_age_source": "url_id",
+    "post_text": "OpenCode at CodeUtsava X.0 🏆\n\nTwo OpenCode teams took part in CodeUtsava X.0, NIT Raipur's flagship hackathon, and both came home with awards. We're proud of how our members performed.\n\n⚡ Team DynamicIP: Overall Runner-Up\nAn all second-year team of Chinimilli Venkata Hema Vardhan ,Darisi Puneeth, ASHISH RAJ, Raghavendra Yerrapragada. They tackled electricity theft detection and earned the bigger of the two awards, finishing second overall.\n\n📈 Team CATGPT: Track Winners\nA second-year team of Siddha Narayan Patra , Sairaj Tripathy, Lynessa Sahoo and our President, Abhijeet Biswal . They built StopLoss Intelligence, a multi-agent AI terminal for financial portfolio risk analysis that links real-world events to portfolio impact and recommends evidence-backed hedges.\n\n👏 Special appreciation to Raksha Mendon and Ayantik Sarkar , who competed in a different team. They didn't place this time, but their effort and commitment were just as valuable. We're proud of them for taking on the challenge.\n\nThank you to the Turing Club of Programmers and the CodeUtsava team at NIT Raipur for a well-organized event.\n\nCongratulations to everyone who represented OpenCode! 🚀\n\n#OpenCode #CodeUtsava #Hackathon #NITRaipur #Teamwork",
+    "hashtags": [
+      "#OpenCode",
+      "#CodeUtsava",
+      "#Hackathon",
+      "#NITRaipur",
+      "#Teamwork"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEr5CLtfaXdnw/feedshare-shrink_800/B4EaEU.CUJLIAg-/0/1791353169466?e=2147483647&v=beta&t=Nnra3sQjUMaRhxH-QmqhplWcxh3yfCMfPcnI6AEJ948",
+    "topic": "OpenCode",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:40.610325+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/davidiramadan_back-in-the-exam-room-ralph-northam-reflects-activity-7513381786765287424-93c2",
+    "canonical_url": "https://www.linkedin.com/posts/davidiramadan_back-in-the-exam-room-ralph-northam-reflects-activity-7513381786765287424-93c2",
+    "post_id": 7513381786765287424,
+    "author": "Dr. David Ramadan",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "41.7h (URL ID)",
+    "post_age_hours": 41.7,
+    "post_age_source": "url_id",
+    "post_text": "A terrific profile of Virginia’s former Governor, Dr. Ralph Northam.\n\nI had the privilege of serving with Ralph in the General Assembly, and I have always known him as someone who approached public service with a physician’s temperament — steady, thoughtful, and focused on people.\n\nAfter serving in the State Senate, as Lieutenant Governor, and as Virginia’s 73rd Governor, he returned to where he began: caring for children as a pediatric neurologist. That says a lot about the man.\n\nTitles come and go. Service does not.\n\nThis piece is worth the read — not only for the reflections on his time in office, but for the reminder that a life of public service can take many forms!!\n\nhttps://lnkd.in/enHX8pxq",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHe4M67fMmrRg/articleshare-shrink_1280_800/B4EaETk4eJG8Ag-/0/1791329798466?e=2147483647&v=beta&t=_nmNg-L1HzqkU80WMfWlul9Bsg3TIipQIyy6SvUaWfQ",
+    "topic": "Ralph",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:55.394184+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/casey-klyszeiko-42512b13_ai-is-reshaping-commerce-and-changing-whats-activity-7513399645537218561-G7uj",
+    "canonical_url": "https://www.linkedin.com/posts/casey-klyszeiko-42512b13_american-express-launches-playbook-to-help-activity-7513399645537218561-C1wG",
+    "post_id": 7513399645537218561,
+    "author": "Casey Klyszeiko",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "40.5h (URL ID)",
+    "post_age_hours": 40.5,
+    "post_age_source": "url_id",
+    "post_text": "AI is reshaping commerce - and changing what's possible across the entire shopping journey, from discovery and decision-making to payment and checkout. This is the type of challenge I love: the chance to build products, experiences, and capabilities that make shopping more intuitive and more valuable for both customers and businesses, while making sure it's all built on safety and security.\n\nThat's why American Express created the Amex Business Playbook for Agentic Commerce - a practical guide to help businesses understand what's changing, prepare for what's next, and identify meaningful steps they can take to get started today.\n\nLearn more in today's announcement: lnkd.in/eedCb-H9",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Express",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:22.219597+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/akshika_154003-to-217000-a-year-plus-bonus-and-activity-7512995081843322880-fzMh",
+    "canonical_url": "https://www.linkedin.com/posts/akshika_154003-to-217000-a-year-plus-bonus-and-activity-7512995081843322880-fzMh",
+    "post_id": 7512995081843322880,
+    "author": "Dr Akshika Wijesundara",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.3h (URL ID)",
+    "post_age_hours": 67.3,
+    "post_age_source": "url_id",
+    "post_text": "$154,003 to $217,000 a year, plus bonus and equity, to make the ML systems behind every Meta product run faster and cheaper.\n\nIf you've ever wondered who gets paged when a training job crawls or an inference pipeline chokes at Meta's scale, this is that team. Systems ML is the infrastructure layer underneath the models, not the models themselves.\n\nYou'd be working across the full stack, from training frameworks down to hardware-aware optimizations, so this isn't a role for someone who only wants to stay in Python notebooks.\n\n🛠️ 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂'𝗱 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗯𝘂𝗶𝗹𝗱:\n• Large-scale ML training and inference systems, including distributed computing frameworks and hardware-accelerated pipelines\n• High-performance ML infrastructure in C++ and Python that actually has to stay reliable at billions-of-users scale\n• The profiling and benchmarking work that finds where compute, memory bandwidth or I/O is actually the bottleneck\n• Staged rollout and experimentation setups so ML system changes ship without breaking production\n\n🎯 𝗪𝗵𝗼 𝘀𝗵𝗼𝘂𝗹𝗱 𝗽𝗮𝘆 𝗮𝘁𝘁𝗲𝗻𝘁𝗶𝗼𝗻?\n• People with 6+ years in software engineering, specifically on ML systems or AI infrastructure, not just applied ML\n• Engineers who are genuinely comfortable in both C++ and Python for performance-critical code\n• Anyone who's used PyTorch or TensorFlow at the level of optimizing the training or inference pipeline itself, not just calling the API\n• People who like the kind of problem where the fix is in memory bandwidth or compute utilization, not the model architecture\n\nMy honest take: this is one of the few AI-adjacent roles where you barely touch the model and still have enormous leverage, since everything else at Meta runs on top of what this team builds.\n\n📍 One detail worth knowing: it's fully on-site in Bellevue, not hybrid, and the pay band doesn't even include the bonus and equity on top.\n\n🔎 What the interview process might look like\nBased on similar Meta infrastructure roles, I'd expect:\n• A recruiter screen on your ML systems and infrastructure background specifically\n• A coding round, likely in C++ or Python, focused on performance-critical code rather than algorithms puzzles\n• A system design round on distributed ML training or inference at scale\n• A behavioral round that digs into how you've actually diagnosed and fixed a real production bottleneck\n\nI'm Dr. Aki, and I share the latest AI insights and new AI roles. Follow for more!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 50,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Python performance",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:18:17.636397+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/francesco-bonacci-70428a121_computer-use-cursors-were-never-much-to-look-activity-7512979697438285825-5bwh",
+    "canonical_url": "https://www.linkedin.com/posts/francesco-bonacci-70428a121_computer-use-cursors-were-never-much-to-look-activity-7512979697438285825-5bwh",
+    "post_id": 7512979697438285825,
+    "author": "Francesco Bonacci",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "68.3h (URL ID)",
+    "post_age_hours": 68.3,
+    "post_age_source": "url_id",
+    "post_text": "Computer-use cursors were never much to look at.\n\nWhen an agent uses a computer, the cursor is how you follow what it's doing. Most agent cursors either jump from point to point or drift around a target before clicking, which makes them hard to watch.\n\nSo we built 6 new cursor motions for Cua (YC X25) Cua Driver. We studied how people aim a mouse, built 82 motions in a lab, and kept the best six:\n\nComet swoop: a wide arc with a short trail, easy to follow in a recording\nSignature arc: the new default, one arc with a small follow-through\nSpring settle: lands with one soft bounce\nMagnetic: the target pulls the cursor in and glows\nAdaptive: careful on tiny targets, a quick sweep on long moves\nClassic: the previous motion, still available\n\nEvery move is timed by distance and target size (Fitts' law), so short hops are quick and long moves to small buttons slow down a little. The motions work the same on macOS, Windows and Linux, and your own pointer is never touched.\n\nTo try one: cua-driver config set cursor.motion.style comet_swoop\n\nIt's all open source (MIT): https://lnkd.in/eUGbuFuE\n\nWhich one would you give your agent?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 24,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGaipRiL1HNDg/thumbnail-with-play-button-overlay-high/B4EaEN3MywH4Cw-/0/1791233937899?e=2147483647&v=beta&t=Ij3PhpVbiQv_zS0bGg6rwNyN79xrFvKum10RMGWejc0",
+    "topic": "Cursor",
+    "score": 71.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 9.8,
+      "total": 71.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:23.769155+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/juliendubois_bootui-the-missing-developer-console-for-activity-7513519787855990784-Hy96",
+    "canonical_url": "https://www.linkedin.com/posts/juliendubois_bootui-the-missing-developer-console-for-activity-7513519787855990784-Hy96",
+    "post_id": 7513519787855990784,
+    "author": "Julien Dubois",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "32.6h (URL ID)",
+    "post_age_hours": 32.6,
+    "post_age_source": "url_id",
+    "post_text": "The BootUI session at #Devoxx that I did yesterday afternoon is already available on YouTube:\n\nhttps://lnkd.in/ex_sNPEJ\n\nIncluding a sneak peak on our future v2 release!",
+    "hashtags": [
+      "#Devoxx"
+    ],
+    "engagement": {
+      "reactions": 13,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFO-4Dh3EAnfw/articleshare-shrink_800/B4EaEU_yZgH0Ag-/0/1791353628647?e=2147483647&v=beta&t=In9ttxMbbCPAaQ-v9zqtHHR3C4siKtseUvnbT3-3RrY",
+    "topic": "Spring Boot",
+    "score": 70.1,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 5.6,
+      "total": 70.1
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:34.292817+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/activity-7513317347986669570-8fI4",
+    "canonical_url": "https://www.linkedin.com/posts/openjs-foundation_nodejs-is-changing-how-it-approaches-activity-7513317347986669570-68QX",
+    "post_id": 7513317347986669570,
+    "author": "OpenJS Foundation",
+    "is_company_account": true,
+    "followers": 10484,
+    "post_age": "46.0h (URL ID)",
+    "post_age_hours": 46.0,
+    "post_age_source": "url_id",
+    "post_text": "🔄 Node.js is changing how it approaches major releases.\n\nNode.js 26 will be the final release under the project’s twice-yearly model. Starting with Node.js 27, new major versions will follow an annual release schedule, giving developers a more predictable lifecycle to plan around.\n\nBut a clearer release schedule does not automatically move production applications forward. If your application is still tied to Node.js 12, 14, 16, 18, or 20, upgrading may require dependency updates, compatibility testing, and changes to application behavior.\n\nTuxCare's Endless Lifecycle Support provides ongoing CVE patches for these Node.js versions, so you can keep your application protected while working toward a supported release.\n\nLearn more:\nhttps://lnkd.in/gG-XyESn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 41,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHWvAadYJtoDw/feedshare-image-high-res/B56aESqUWDJwAU-/0/1791314445914?e=2147483647&v=beta&t=2yxhEOh3Qk6M3raMKd9bIlEScjE-bjs7WZfVO96djK8",
+    "topic": "Node.js",
+    "score": 69.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 69.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:02.687279+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dale-bar_great-opportunity-with-ralph-lauren-senior-activity-7513259000994578432-lEpA",
+    "canonical_url": "https://www.linkedin.com/posts/dale-bar_great-opportunity-with-ralph-lauren-senior-activity-7513259000994578432-lEpA",
+    "post_id": 7513259000994578432,
+    "author": "Dale Barrow",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.9h (URL ID)",
+    "post_age_hours": 49.9,
+    "post_age_source": "url_id",
+    "post_text": "Great Opportunity With Ralph Lauren, Senior Materials Manager, Leathergoods And Shoes, Based In New York!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Ralph",
+    "score": 67.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.0,
+      "total": 67.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:59.927250+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/suneela-thatte-309792a_express-pharma-october-2026-express-pharma-activity-7513182122451591168-iImD",
+    "canonical_url": "https://www.linkedin.com/posts/suneela-thatte-309792a_express-pharma-october-2026-express-pharma-activity-7513182122451591168-iImD",
+    "post_id": 7513182122451591168,
+    "author": "SUNEELA THATTE",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "54.9h (URL ID)",
+    "post_age_hours": 54.9,
+    "post_age_source": "url_id",
+    "post_text": "What will it take for India to move from being a talent pool to being the place where innovation is shaped?\n\nIn a recent conversation with Express Pharma, I reflected on India's evolving role in global healthcare R&D , from contributing scale to shaping the science and the decisions behind it. The foundation is in place, with strong policy frameworks, leading institutions, and industry programs. What we need now is a better coordination - with industry, academia, and policymakers moving together on a shared timeline.\n\nAt Merck, our Catalyst program, built with academic partners, shows what this alignment can achieve. Some of the students who trained through it have since joined us and are doing exceptionally well. Our Career Fair, hosted last week for the fourth consecutive year, reflects the same belief. Colleagues learned how roles and functions connect across R&D, and students from six premier institutes engaged directly with our SMEs and leaders to see what life in a healthcare R&D organization looks like. Exposure like these builds understanding and understanding helps shape confident professionals.\n\nRead the full interview here: [Refer to page 27]\n\nhttps://lnkd.in/dp6HPCSq #HealthcareRD\n\n#IndustryAcademiaCollaboration #Talent #Ramp;D #CareerFair",
+    "hashtags": [
+      "#HealthcareRD",
+      "#IndustryAcademiaCollaboration",
+      "#Talent",
+      "#Ramp",
+      "#CareerFair"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQG2IhIe7FJz1g/articleshare-shrink_480/B4DaEQtvyJK4AY-/0/1791281790936?e=2147483647&v=beta&t=jXw4bDElMUZIEwmSQDcXkQ0kmN5SnZXD2QrRy9q9kUA",
+    "topic": "Express",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:20.835047+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/convenience-store-news_family-express-to-take-over-operations-of-activity-7512935037915430912-_CP8",
+    "canonical_url": "https://www.linkedin.com/posts/convenience-store-news_family-express-to-take-over-operations-of-activity-7512935037915430912-_CP8",
+    "post_id": 7512935037915430912,
+    "author": "Convenience Store News",
+    "is_company_account": false,
+    "followers": 45321,
+    "post_age": "71.3h (URL ID)",
+    "post_age_hours": 71.3,
+    "post_age_source": "url_id",
+    "post_text": "Family Express is expanding its foodservice playbook. 📑\n\nThe Indiana convenience retailer is taking over operations of Leo's Stores, bringing the established foodservice brand into Family Express' network.\n\nThe move gives Family Express another way to build its foodservice offering while giving Leo's an opportunity to expand its footprint.\n\nRead more: https://lnkd.in/gtC-rQC9\n\nWhat role do established food brands play in retailers' foodservice growth strategies?\n\n#CSNewsOnline | #ConvenienceRetail | #Foodservice",
+    "hashtags": [
+      "#CSNewsOnline",
+      "#ConvenienceRetail",
+      "#Foodservice"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQHQtTomMLyQGA/articleshare-shrink_800/B56aENLkQxJcAY-/0/1791222498711?e=2147483647&v=beta&t=UK4OhJAq5H7T8kUn5o2Nj1_O1hYoLdjLFP0LubBgdD4",
+    "topic": "Express",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:23.774642+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dfir-lab_nest-is-a-framework-for-building-scalable-activity-7513115361169346560-P84x",
+    "canonical_url": "https://www.linkedin.com/posts/dfir-lab_nest-is-a-framework-for-building-scalable-activity-7513115361169346560-P84x",
+    "post_id": 7513115361169346560,
+    "author": "DFIR Lab",
+    "is_company_account": false,
+    "followers": 696,
+    "post_age": "59.4h (URL ID)",
+    "post_age_hours": 59.4,
+    "post_age_source": "url_id",
+    "post_text": "Nest is a framework for building scalable Node.js server-side applications. Versions prior to 11.1.11 have a Fastify URL encoding middleware bypass. A NestJS application is vulnerable if it uses `@nestjs/platform-fastify`; relies on `NestMiddleware` (via `MiddlewareConsumer`) for security checks (authentication, authorization, etc.), or through `app.use()`; and applies middleware to specific routes using string paths or controllers (e.g., `.forRoutes('admin')`). Exploitation can result in unauthenticated users accessing protected routes, restricted administrative endpoints becoming accessible to lower-privileged users, and/or middleware performing sanitization or validation being skipped. This issue is patched in `@nestjs/platform-fastify@11.1.11`.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQE8aQ2lEzYORg/feedshare-shrink_800/B4EaEPynObLEAc-/0/1791266289321?e=2147483647&v=beta&t=TI19-8vJEElK0F5oCtBMvH8ctWAxq8CXF9hU4cx9rJU",
+    "topic": "Fastify",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:39.114058+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/laravel-news_laravel-september-product-updates-laravel-activity-7513043381590265856-YPIt",
+    "canonical_url": "https://www.linkedin.com/posts/laravel-news_laravel-september-product-updates-laravel-activity-7513043381590265856-YPIt",
+    "post_id": 7513043381590265856,
+    "author": "Laravel News",
+    "is_company_account": false,
+    "followers": 144724,
+    "post_age": "64.2h (URL ID)",
+    "post_age_hours": 64.2,
+    "post_age_source": "url_id",
+    "post_text": "Laravel September product updates\nhttps://lnkd.in/eFvBs5Db",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQEi8ZU6ACwzMA/image-shrink_800/B4EaEOw6wMHoAg-/0/1791249067396?e=2147483647&v=beta&t=fkhuQNeExDJaCxIfiT72BH6wVq9SOfyZWpFRZIxuGNk",
+    "topic": "Laravel",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:11.454404+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/davidramel_stack-overflow-2026-survey-vs-code-leads-activity-7513264619545640962-8cey",
+    "canonical_url": "https://www.linkedin.com/posts/davidramel_stack-overflow-2026-survey-vs-code-leads-activity-7513264619545640962-8cey",
+    "post_id": 7513264619545640962,
+    "author": "David Ramel",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.5h (URL ID)",
+    "post_age_hours": 49.5,
+    "post_age_source": "url_id",
+    "post_text": "Stack Overflows 2026 Developer Survey puts VS Code first in editor usage and Visual Studio third, narrowly behind Notepad++. GitHub Copilot ranks second among coding agents and assistants, behind Claude Code, while ASP.NET Core places fourth in web technology usage. The results offer a snapshot of Microsoft and GitHub tools across distinct respondent groups, with multiple selections allowed.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFfNgLrZMjgBw/articleshare-shrink_800/B4EaER6U9WG0AY-/0/1791301865838?e=2147483647&v=beta&t=eOaZH4ZZ5Gefq9hmj0CafAGzy_pKcmHBIhy6OqFWZk8",
+    "topic": "VS Code",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:21:39.125546+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralph-hess_leadership-has-to-own-it-activity-7513616671761268737-uuQP",
+    "canonical_url": "https://www.linkedin.com/posts/ralph-hess_leadership-has-to-own-it-activity-7513616671761268737-uuQP",
+    "post_id": 7513616671761268737,
+    "author": "Ralph Hess",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "26.2h (URL ID)",
+    "post_age_hours": 26.2,
+    "post_age_source": "url_id",
+    "post_text": "Leadership has to own it.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQGDWKaBkoEo2g/image-shrink_800/B4DaEW6igkJ0Ag-/0/1791385807717?e=2147483647&v=beta&t=H0iCJRzNTvV5pjsw5NRzn9Bf8EzzX8Y5MAUXmROEuH4",
+    "topic": "Ralph",
+    "score": 52.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 52.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:19:58.365442+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vladimirgorej_i-didnt-review-it-the-ai-wrote-it-worth-activity-7513167751939698688-vNHj",
+    "canonical_url": "https://www.linkedin.com/posts/vladimirgorej_i-didnt-review-it-the-ai-wrote-it-worth-activity-7513167751939698688-vNHj",
+    "post_id": 7513167751939698688,
+    "author": "Vladimír Gorej",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "55.9h (URL ID)",
+    "post_age_hours": 55.9,
+    "post_age_source": "url_id",
+    "post_text": "\"I didn't review it, the AI wrote it\" - worth reading the full post",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Fastify",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T17:20:47.229662+00:00"
   }
 ]
