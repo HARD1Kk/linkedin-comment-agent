@@ -24,6 +24,7 @@ def load_prompt(filename: str) -> str:
 
 SYSTEM_PROMPT = load_prompt("system_prompt.txt")
 SELF_CHECK_PROMPT = load_prompt("self_check_prompt.txt")
+HUMANIZER_PROMPT = load_prompt("humanizer_prompt.txt")
 
 BANNED_WORDS = {
     "guarantees",
@@ -38,6 +39,19 @@ BANNED_WORDS = {
     "seamless",
     "pivotal",
     "tapestry",
+    "significant",
+    "crucial",
+    "notably",
+    "comprehensive",
+    "insights",
+    "foster",
+    "landscape",
+    "nuanced",
+    "multifaceted",
+    "holistic",
+    "streamline",
+    "elevate",
+    "empower",
 }
 
 STOCK_QUESTIONS = [
@@ -217,6 +231,16 @@ def passes_basic_checks(comment: str, first_name: str) -> tuple[bool, list[str]]
             failed_checks.append(f"Ends with stock closing question '{sq}'")
             break
 
+    # 8. Check for AI tell patterns (negative parallelism, reveal bridges, sincerity announcements)
+    if re.search(r"\bnot\s+[^.!?]+,\s+it['’]?s\b", trimmed, re.IGNORECASE) or re.search(r"\bstop\s+[^.!?]+,\s+start\b", trimmed, re.IGNORECASE):
+        failed_checks.append("Contains negative parallelism ('not X, it's Y' / 'stop X, start Y')")
+
+    if re.search(r"\bthe result\?|\bhere['’]?s (what|how):", trimmed, re.IGNORECASE):
+        failed_checks.append("Contains reveal bridge ('the result?' / 'here's what:')")
+
+    if re.search(r"\b(?:let me be honest|i['’]?ll be real|honestly\?|real talk)\b", trimmed, re.IGNORECASE):
+        failed_checks.append("Contains sincerity announcement ('let me be honest' / 'real talk')")
+
     is_passing = len(failed_checks) == 0
     return is_passing, failed_checks
 
@@ -289,6 +313,47 @@ def _call_groq_with_retry(
     if last_exception:
         raise last_exception
     raise RuntimeError("Groq API call failed after retries.")
+
+
+def humanize_comment(
+    comment: str,
+    first_name: str,
+    niche_desc: str,
+    client: Groq | None = None,
+) -> str:
+    """
+    Applies dedicated post-generation LinkedIn Humanizer V3 pass via Groq LLM
+    to scrub AI tells, reveal bridges, negative parallelism, and AI vocabulary.
+    """
+    if not comment or comment.upper() == "SKIP":
+        return comment
+
+    norm_comment = normalize_comment_text(comment)
+    if not client:
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            return norm_comment
+        client = Groq(api_key=api_key)
+
+    try:
+        user_prompt = HUMANIZER_PROMPT.format(
+            niche_description=niche_desc,
+            author_first_name=first_name,
+            draft_comment=norm_comment,
+        )
+        humanized = _call_groq_with_retry(
+            client,
+            system_prompt="You are the LinkedIn Humanizer V3 assistant.",
+            user_prompt=user_prompt,
+            max_retries=2,
+        )
+        cleaned = normalize_comment_text(humanized)
+        if cleaned and cleaned.upper() != "SKIP" and len(cleaned) >= 150:
+            return cleaned
+    except Exception as exc:
+        logger.warning(f"Post-generation Humanizer pass failed: {exc}. Using normalized draft.")
+
+    return norm_comment
 
 
 def generate_comment(

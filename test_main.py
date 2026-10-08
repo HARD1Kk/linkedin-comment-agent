@@ -579,18 +579,26 @@ class TestSerperSearch(unittest.TestCase):
         mock_client.chat.completions.create.return_value = mock_comp
         mock_groq.return_value = mock_client
 
-        with patch("main.os.getenv") as mock_env:
-            mock_env.side_effect = lambda k: "dummy_key" if k in ("SERPER_API_KEY", "GROQ_API_KEY") else None
-            topics, d_count, f_count = discover_trending_topics(niche_description="Python AI dev")
+        with tempfile.NamedTemporaryFile("w+", delete=False, encoding="utf-8") as tmp_cache:
+            tmp_cache_path = tmp_cache.name
 
-            self.assertIn("FastAPI", topics)
-            self.assertIn("PyDantic", topics)
-            self.assertEqual(d_count, 2)
-            
-            # Verify site:github.com/trending queries were submitted to Serper
-            called_payloads = [call.kwargs.get("json", {}) for call in mock_post.call_args_list]
-            gh_queries = [p.get("q") for p in called_payloads if "site:github.com/trending" in p.get("q", "")]
-            self.assertGreater(len(gh_queries), 0)
+        try:
+            with patch("main.SERPER_CACHE_FILE", Path(tmp_cache_path)), \
+                 patch("main.os.getenv") as mock_env:
+                mock_env.side_effect = lambda k: "dummy_key" if k in ("SERPER_API_KEY", "GROQ_API_KEY") else None
+                topics, d_count, f_count = discover_trending_topics(niche_description="Python AI dev")
+
+                self.assertIn("FastAPI", topics)
+                self.assertIn("PyDantic", topics)
+                self.assertEqual(d_count, 2)
+                
+                # Verify site:github.com/trending queries were submitted to Serper
+                called_payloads = [call.kwargs.get("json", {}) for call in mock_post.call_args_list if call.kwargs.get("json")]
+                gh_queries = [p.get("q") for p in called_payloads if p.get("q") and "site:github.com/trending" in p.get("q")]
+                self.assertGreater(len(gh_queries), 0)
+        finally:
+            if os.path.exists(tmp_cache_path):
+                os.remove(tmp_cache_path)
 
     def test_prompts_formatting(self):
         """Verify that both system and reviewer prompts format without KeyError/ValueError for all 4 placeholders."""
@@ -697,6 +705,33 @@ class TestSerperSearch(unittest.TestCase):
             # Only user2 post should be returned!
             self.assertEqual(len(candidates), 1)
             self.assertIn("8888888888888888888", candidates[0][0])
+
+
+    @patch("comment_generator.Groq")
+    @patch("comment_generator.os.getenv", return_value="dummy_key")
+    def test_humanize_comment_standalone(self, mock_env, mock_groq):
+        from comment_generator import humanize_comment
+
+        mock_client = MagicMock()
+        mock_choice = MagicMock()
+        mock_choice.message.content = (
+            "Ilker, referencing your FastAPI OpenTelemetry setup, trace propagation works exceptionally well under high load. "
+            "Standardizing metrics across services gives complete visibility into asynchronous operations and bottlenecks without adding runtime overhead."
+        )
+        mock_choice.finish_reason = "stop"
+        mock_comp = MagicMock()
+        mock_comp.choices = [mock_choice]
+        mock_client.chat.completions.create.return_value = mock_comp
+        mock_groq.return_value = mock_client
+
+        draft = (
+            "Ilker, leveraging this robust framework fosters seamless observability across distributed architectures. "
+            "Standardizing metrics across microservices ensures teams identify latency bottlenecks quickly before they affect production workloads."
+        )
+        res = humanize_comment(draft, first_name="Ilker", niche_desc="Python LLM")
+
+        self.assertIn("Ilker", res)
+        self.assertIn("FastAPI", res)
 
 
 if __name__ == "__main__":

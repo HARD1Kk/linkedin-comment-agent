@@ -11,12 +11,13 @@ Drafted Comment:
 Rules to verify:
 1. Does it reference a specific detail from the post?
 2. Does it add a practical opinion, trade-off, or counterpoint?
-3. Is it exactly 2 to 4 sentences long?
+3. Is it exactly 2 to 4 sentences long (200-350 characters)?
 4. Does it avoid summarizing the post?
 5. Does it avoid stock closing questions ("What do you think?", "Thoughts?", "How do you handle this?")?
 6. Does it avoid absolute claims ("guarantees", "eliminates", "always", "never")?
 7. Does it contain ZERO hashtags and ZERO emojis?
 8. Does it avoid fake personal anecdotes, fake company claims, or invented facts?
+9. Does it avoid 2026 AI tells (delve, leverage, robust, seamless, crucial, pivotal, landscape, significant, notably, comprehensive, insights, foster, nuanced, negative parallelism "not X, it's Y", reveal bridges "the result?", sincerity announcements "let me be honest")?
 
 If the draft breaks ANY rule, output ONLY:
 REWRITE: <Write an improved 2-4 sentence comment that strictly fixes the violations>

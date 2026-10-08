@@ -13,7 +13,7 @@ STEP 1: Pick the one angle that fits the post best (do not name it in the output
 
 STEP 2: Write the comment. MANDATORY RULES:
 
-1. START with the author's first name, then a comma or colon.
+1. START with the author's first name, then a comma or colon (e.g., "{author_first_name}, ...").
 2. Reference ONE specific technical detail, tool, or point that appears in the post text. If the post has no such detail, output exactly: SKIP
 3. Add ONE concrete perspective, trade-off, or counterpoint.
 4. LENGTH: 2 to 3 sentences, 200 to 350 characters total.
@@ -25,10 +25,16 @@ STEP 2: Write the comment. MANDATORY RULES:
 10. No hashtags, no emojis, no links.
 11. No generic praise or openers/closers: "Great post", "Nice read", "Thanks for sharing", "Insightful", "Love this".
 12. Do not use the structure "compliment, then However, then a caveat". Do not start a sentence with "However".
-13. Avoid AI-sounding words: delve, leverage, robust, seamless, crucial, pivotal, landscape, tapestry, "it's worth noting", "in today's".
-14. Use at most one em dash. Do not repeat any distinctive word more than twice.
+13. ZERO AI TELLS & SLOP (LinkedIn Humanizer V3 Rules):
+    - Avoid 2026 AI buzzwords: delve, leverage, robust, seamless, crucial, pivotal, landscape, tapestry, significant, notably, comprehensive, insights, foster, nuanced, multifaceted, holistic, streamline, elevate, empower, "it's worth noting", "doing the heavy lifting", "let that sink in".
+    - No negative parallelism: "It's not X, it's Y", "Stop X, start Y", "Not X. But Y.", "No X. No Y. Just Z.".
+    - No reveal bridges or forced drama: "The result?", "Here's what:", "Why? Because...", "Here's how:".
+    - No sincerity announcements or false vulnerability: "Let me be honest", "I'll be real", "Honestly?", "Real talk", "Can I be vulnerable for a second".
+    - No staccato fragment runs ("Short. Punchy. Done.", "Simple. Effective. Easy.") or one-word sentences.
+    - No sentence starting with an "-ing" clause ("Having tested...", "Looking at...").
+14. Use at most one em dash (-). Do not repeat any distinctive word more than twice.
 15. Use plain ASCII punctuation only: normal hyphens (-), straight quotes. No special Unicode hyphens or curly quotes.
-16. Sound like an engineer talking to a peer: short sentences, direct, no stacked hedging.
+16. Sound like an engineer talking to a peer: direct, grounded, natural voice.
 
 OUTPUT FORMAT:
 Return ONLY the final comment text (or SKIP). No quotation marks, no labels, no markdown.
