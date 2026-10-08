@@ -3676,7 +3676,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-05T08:27:46.973841+00:00",
     "failure_reason": null,
     "generated_comment": "Harshad, my toughest design interview was on a notification service where I sketched a message queue but couldn't specify the payload schema or retry semantics. That gap forced me to practice concrete API contracts and failure handling, which now speeds up my low-level design discussions."
@@ -3708,7 +3708,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-05T08:28:49.302272+00:00",
     "failure_reason": null,
     "generated_comment": "Guillermo, the Turborepo rewrite highlights Rust's low-level advantages, but the post doesn't explore how the change might affect downstream tooling or extensions built around the original Go codebase. If that ecosystem stalls, the ROI could diminish faster than the initial performance gains."
@@ -3740,7 +3740,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-05T08:29:26.861558+00:00",
     "failure_reason": null,
     "generated_comment": "Jelle, smart pointers indeed cut many leaks, but in large legacy codebases replacing raw pointers can introduce ABI churn and require extensive testing, which can offset the safety gains. How do you balance refactoring effort against immediate bug reduction?"
@@ -4865,7 +4865,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:41:50.547827+00:00",
     "failure_reason": null,
     "generated_comment": "Shreya, FastAPI's lightweight nature speeds prototypes, yet at enterprise scale its observability stack can introduce latency if tracing is too granular. Balancing detailed metrics with request latency often means offloading logs to a sidecar or async collector, adding cost and operational overhead."
@@ -4897,7 +4897,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:42:11.471219+00:00",
     "failure_reason": null,
     "generated_comment": "Vansh, the transport layer using stdio or Streamable HTTP is a solid start, but the post skips discussion of rate-limiting for tool calls. Without throttling, high-throughput agents can overload downstream APIs, impacting latency and cost."
@@ -8521,5 +8521,580 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T10:55:06.944420+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ketan-sagare-15b4a9157_intuit-interview-experience-software-engineer-activity-7513786830660534272-QZMX",
+    "canonical_url": "https://www.linkedin.com/posts/ketan-sagare-15b4a9157_intuit-interview-experience-software-engineer-activity-7513786830660534272-QZMX",
+    "post_id": 7513786830660534272,
+    "author": "Ketan Sagare",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "9.9h (URL ID)",
+    "post_age_hours": 9.9,
+    "post_age_source": "url_id",
+    "post_text": "Intuit Interview Experience: Software Engineer 2 (AI/ML)\n\nA candidate shared their SWE-2 interview experience at Intuit.\n\nThe process included five rounds, covering coding, system design, backend engineering, GenAI and a hiring manager discussion.\n\n● Round 0:\n\nDuration: 90 minutes\nThe round covered:\n• DSA\n• High-level system design\n• AI concepts\n\nThe coding problems included Plus One and Validate IP Address.\n\nThe discussion then moved into topics such as API availability and the models used in modern AI applications.\n\n● Round 1: Craft Demonstration\n\nDuration: 90 minutes\nThe candidate worked on an existing repository and had to add a new API.\n\nThe implementation used:\n• Python\n• Flask\n• Docker\n• A localized LLM\n\nThe discussion also covered system design, edge cases, exception handling, API testing and improving code efficiency.\n\n● Round 2: Assessor\nThe focus shifted to database design.\n\nThe candidate discussed:\n• Relational database design\n• SQL joins\n• Normalization\n• Writing SQL queries\n• Converting the relational model into a graph database\n\nA dynamic programming problem similar to Edit Distance was also asked.\n\n● Round 3: AI Round\n\nThis was a conceptual round covering:\n• Unit testing APIs\n• Production monitoring\n• RAG\n• System prompts\n• LLM temperature\n\n● Round 4: Hiring Manager\nThe discussion covered previous experience, projects, reasons for switching and handling work pressure.\n\nFinal Result: Selected\n\nI have covered 1,000+ AI interview questions in this bundle to help you prepare smarter and with confidence.\n\nAI Interview Bundle: https://lnkd.in/dAWJkKGC\nAI Engineering Course: https://lnkd.in/eJFZQyjJ\n\n| 31 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 49,
+      "comments": 31,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Backend system design",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:20:14.824465+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/christinevallaure_figma-fully-covers-45-of-css-and-17-of-activity-7513592816334462976-1Gzq",
+    "canonical_url": "https://www.linkedin.com/posts/christinevallaure_figma-fully-covers-45-of-css-and-17-of-activity-7513592816334462976-1Gzq",
+    "post_id": 7513592816334462976,
+    "author": "Christine Vallaure de la Paz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "22.8h (URL ID)",
+    "post_age_hours": 22.8,
+    "post_age_source": "url_id",
+    "post_text": "Figma fully covers 45% of CSS and 17% of a component API. The rest is where an agent working on a design system starts to guess, and I've slowly stopped seeing that as a problem. Here is why:\n\nI tallied all 323 items, 204 CSS features and 119 component capabilities, judged against Figma Design this month. The full lists are in the images, and I fed those images into my own system (you're welcome to do the same).\n\n(And before anyone asks why I still use Figma: I think better on a canvas than in a code file, you do you.)\n\nThese days I generate from code → Figma and use Figma as a facade, as I've started calling it. Code holds the truth, and the canvas is where I look at it, compose with it and decide whether it's any good. I call this in-system design, designing wherever I want as long as everything points back to code, and there is a lot more to say about it, so more on that soon.\n\nSo the red items are the questions the file can't answer. That's fine as long as you know which ones they are, because the answer is already in code and you can point people there. It only goes wrong when nobody knows, and a developer, a designer or an agent fills the gap with a guess.\n\nWhat I use the list for:\n→ Ending the \"why can't Figma just do that\" chat.\n→ Onboarding designers, so they know what to stop looking for in the file and where to find it instead\n→ Knowing when to point at code rather than the file, in a handoff or a review\n→ Agent context, as a gaps.md it reads before it touches a setup. This is the use I find most interesting, and I'm testing other ways to do it, because a markdown file is something the agent reads, not something it has to obey, so I'm looking into pushing this further.\n\nWhy I don't think Figma should to close every gap on the canvas\nI'm a big fan of designers having code literacy; it's most of what I teach. But put all of it on the canvas, and Figma becomes a bad code editor, where every design decision needs engineering judgment. For code, use code; for exploration, use the canvas and stay in-system.\n\nFew more things:\n- Yes, I still add a contract here\n- The numbers undersell one category, mapping and intent, where both sides have a property and quietly mean different things.\n- I also only measured against the web here, and most teams also ship iOS and Android, so the same Figma property gets read three times by three platforms, each with its own idea of what it means...so where to point then? I haven't worked that one out yet. I've been reading into Nathan Curtis's work on component specs as structured data, one description of a component that every platform can read from, and I find it really inspiring because it goes straight at this problem for teams like that. Currently playing with his SPECS plugin, very cool stuff, check it out!\n\nHow this all started is a longer story, so it gets its own post and an article.\n!! If you spot something wrong in the lists, tell me and I'll fix it !!\n\nMy newsletter: moonlearning.io/newsletter | 22 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 82,
+      "comments": 22,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHOB76kyE4V6g/feedshare-shrink_800/B4EaEWk15sJIAc-/0/1791380119597?e=2147483647&v=beta&t=oZdbhNF0Qsv1RLrl5wwAIz7MJH1j7Sx6ub4zZ09n0Zw",
+    "topic": "CSS",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:20:51.804116+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ashsau_%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A8%F0%9D%90%A9%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A7-%F0%9D%90%92%F0%9D%90%90%F0%9D%90%8B-%F0%9D%90%AD%F0%9D%90%A8-activity-7513894276234326016-i5FU",
+    "canonical_url": "https://www.linkedin.com/posts/ashsau_%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A8%F0%9D%90%A9%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A7-%F0%9D%90%92%F0%9D%90%90%F0%9D%90%8B-%F0%9D%90%AD%F0%9D%90%A8-activity-7513894276234326016-i5FU",
+    "post_id": 7513894276234326016,
+    "author": "Ashish Sahu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "2.8h (URL ID)",
+    "post_age_hours": 2.8,
+    "post_age_source": "url_id",
+    "post_text": "𝐌𝐨𝐬𝐭 𝐩𝐞𝐨𝐩𝐥𝐞 𝐥𝐞𝐚𝐫𝐧 𝐒𝐐𝐋 𝐭𝐨 𝐪𝐮𝐞𝐫𝐲 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐬.\n\nThe strongest professionals use SQL to understand how businesses operate.\n\nThat is the real difference in 2026.\n\nSQL is no longer only a technical skill for analysts and engineers.\n\nIt has become a decision-making language across modern organisations.\n\nBecause every AI system, dashboard, workflow, recommendation engine, and business insight still depends on one thing:\n\nReliable data access and interpretation.\n\nThe professionals creating the most leverage today are not necessarily the ones writing the most complex queries.\n\n𝐓𝐡𝐞𝐲 𝐚𝐫𝐞 𝐭𝐡𝐞 𝐨𝐧𝐞𝐬 𝐰𝐡𝐨 𝐜𝐚𝐧:\n\n→ Translate business problems into data questions\n→ Extract meaningful signals from operational systems\n→ Optimise performance under scale\n→ Communicate insights clearly to decision-makers\n→ Connect data analysis to measurable business outcomes\n\nThis is why SQL remains one of the highest-leverage skills in the modern technology stack.\n\nNot because it is trendy.\n\nBut because data-driven organisations run on structured information systems.\n\nAnd structured thinking compounds.\n\nThe strongest technical leaders understand that SQL is not only about querying databases.\n\nIt is about understanding how systems, users, operations, and business performance connect together.\n\nThat is what creates long-term strategic value.\n\nP.S. Many people still approach SQL as a reporting skill.\n\nThe more mature professionals use it as a business intelligence and decision infrastructure capability. | 15 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 20,
+      "comments": 15,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGX76DWxDillg/feedshare-shrink_800/B56aEa3BwyHQAc-/0/1791451995474?e=2147483647&v=beta&t=sXQ08JyhVKYE2bEXBoGvPK_Ov9-_TN8PSB_94dUKtrU",
+    "topic": "SQL",
+    "score": 88.3,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 10.8,
+      "total": 88.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:20:40.193684+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nickfairbairn_lets-go-brand-partnerships-and-creative-activity-7513299217562423296-Y569",
+    "canonical_url": "https://www.linkedin.com/posts/nickfairbairn_lets-go-brand-partnerships-and-creative-activity-7513299217562423296-Y569",
+    "post_id": 7513299217562423296,
+    "author": "Nick Fairbairn",
+    "is_company_account": false,
+    "followers": 189533,
+    "post_age": "42.2h (URL ID)",
+    "post_age_hours": 42.2,
+    "post_age_source": "url_id",
+    "post_text": "🫶💚⚽️ Let’s go Brand, Partnerships and Creative teams. This one hits (or should I say kicks) different!\n\nShout out to my friends Orlando Baeza Ryan Brown Caro Hernandez Kristen Gambetta Amondo Redmond Kaye Oleo Shayla Love Shanti Reddy Nathaniel Costa and many more!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 69,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQE0yyo4OcFu-A/thumbnail-with-play-button-overlay-high/B56aERaxWMIICw-/0/1791293596446?e=2147483647&v=beta&t=nzbfUhYhd6eDR2dZSwscbLBdfNEFukNvusjdY3yLrGg",
+    "topic": "Go",
+    "score": 83.0,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 12.5,
+      "total": 83.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:54.846299+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rezarad_microsoftfabric-rayfin-fabricapps-activity-7513678831677775874-nl2R",
+    "canonical_url": "https://www.linkedin.com/posts/rezarad_microsoftfabric-rayfin-fabricapps-activity-7513678831677775874-nl2R",
+    "post_id": 7513678831677775874,
+    "author": "Reza Rad",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.1h (URL ID)",
+    "post_age_hours": 17.1,
+    "post_age_source": "url_id",
+    "post_text": "Your database is in one place. Your web app is in another. Your semantic model is somewhere else again. 🧩\nThat is how most data applications get built. It works, but every piece has its own lifecycle, its own deployment, its own governance and its own management overhead.\nWhat if the whole application lived in Microsoft Fabric? 🤔\nThat is Rayfin, also called Fabric Apps:\n🔹 TypeScript frontend, so you keep using VS Code and GitHub Copilot\n🔹 Fabric SQL database or Power BI semantic model as the backend\n🔹 Hosted inside your Fabric workspace\n🔹 Microsoft Entra ID for authentication\nYou are still building the same data application with the tools you love. The difference is one project instead of scattered components across services.\nIn this short I explain why building your app in Fabric, instead of somewhere else, makes sense.\nLink will be in the comments 👇\n#MicrosoftFabric #Rayfin #FabricApps #PowerBI #AppDevelopment #TypeScript #DataEngineering #FabricDeveloper #MicrosoftEntra #GitHubCopilot #VSCode #DataApplications #Analytics #AI #RADACAD",
+    "hashtags": [
+      "#MicrosoftFabric",
+      "#Rayfin",
+      "#FabricApps",
+      "#PowerBI",
+      "#AppDevelopment",
+      "#TypeScript",
+      "#DataEngineering",
+      "#FabricDeveloper",
+      "#MicrosoftEntra",
+      "#GitHubCopilot",
+      "#VSCode",
+      "#DataApplications",
+      "#Analytics",
+      "#AI",
+      "#RADACAD"
+    ],
+    "engagement": {
+      "reactions": 7,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGoeUW_eOnMYA/thumbnail-with-play-button-overlay-high/B4EaEXy_udI8C0-/0/1791400621492?e=2147483647&v=beta&t=jBn_ojDVIQihWEQ9WqGjSJMJ0fEJzK-3f2S-BYYhIIo",
+    "topic": "TypeScript",
+    "score": 79.7,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.2,
+      "total": 79.7
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:22.863357+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/shanemcginley_java-developer-w-mfa-location-malvern-pa-activity-7513268861383692289-6_Sq",
+    "canonical_url": "https://www.linkedin.com/posts/shanemcginley_java-developer-w-mfa-location-malvern-pa-activity-7513268861383692289-6_Sq",
+    "post_id": 7513268861383692289,
+    "author": "Shane McGinley",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.2h (URL ID)",
+    "post_age_hours": 44.2,
+    "post_age_source": "url_id",
+    "post_text": "Java Developer w/ MFA\nLocation: Malvern PA, Charlotte NC or Plano TX (onsite day 1 for hybrid model)\nLength: 1+ year (likely to be extended multiple years)\nC2C is okay\nVideo interview is okay\n\nPlease send candidate resume along with a copy of work authorization to smcginley@judge.com - thank you in advance!\n\nJOB DETAILS\n- Java (Web Services/APIs)\n- MFA experience (required)",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 18,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Java",
+    "score": 77.0,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 6.5,
+      "total": 77.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:29.565721+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sandor-dargo_c-and-ai-at-cppcon-we-have-to-use-agents-activity-7513536335186620417-QNLF",
+    "canonical_url": "https://www.linkedin.com/posts/sandor-dargo_c-and-ai-at-cppcon-we-have-to-use-agents-activity-7513536335186620417-QNLF",
+    "post_id": 7513536335186620417,
+    "author": "Sandor Dargo",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "26.5h (URL ID)",
+    "post_age_hours": 26.5,
+    "post_age_source": "url_id",
+    "post_text": "Ten talks at CppCon, The C++ Conference this year had AI or LLMs in the title and I gave one of them.\n\nWhat I didn't see in the hallways was excitement. Most people I talked to barely write code by hand anymore, and many are still figuring out what's actually expected of them.\n\nMy takeaway: we should rely on AI less and use it more. Sounds contradictory, I know. I tried to clear that up in my latest post, with ideas from Peter Muldoon, Jody Hagins and Andrei Alexandrescu.\n\nhttps://lnkd.in/epBnJTbp",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 22,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "C++",
+    "score": 75.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 4.7,
+      "total": 75.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:42.757414+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bashar-ahmed_in-the-attached-c-snippet-what-do-you-activity-7513077831275421698-dUbQ",
+    "canonical_url": "https://www.linkedin.com/posts/bashar-ahmed_in-the-attached-c-snippet-what-do-you-activity-7513077831275421698-dUbQ",
+    "post_id": 7513077831275421698,
+    "author": "Bashar Ahmed",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "56.9h (URL ID)",
+    "post_age_hours": 56.9,
+    "post_age_source": "url_id",
+    "post_text": "In the attached C++ snippet, what do you think happens and why?\n\nDo the two orders get sent at different prices, or the same?\n\nAssume C++ 20 semantics\n\nAnd before you answer... try compiling after dropping the const!!\n\nCheck out cpp-grail for many more such gotchas. Link in the comments | 28 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 90,
+      "comments": 28,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFpUHIiimnD4A/feedshare-image-high-res/B4DaENlpBGKMAc-/0/1791229333789?e=2147483647&v=beta&t=Q9L0C48I5nm1nSD6G1DpNaH_vXdzJ7SqQPB1P5BGFq0",
+    "topic": "C++",
+    "score": 75.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 75.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:45.933482+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mikewittenstein_before-you-write-your-story-go-shopping-activity-7513218340686032898-ccXU",
+    "canonical_url": "https://www.linkedin.com/posts/mikewittenstein_before-you-write-your-story-go-shopping-activity-7513218340686032898-ccXU",
+    "post_id": 7513218340686032898,
+    "author": "Mike Wittenstein",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.6h (URL ID)",
+    "post_age_hours": 47.6,
+    "post_age_source": "url_id",
+    "post_text": "Before you write your story, go shopping.\n\n\"Be a better storyteller\" is easy advice to give and hard advice to use. So here's the homework I gave Henri Pera's audience on No One Warned You.\n\nGo shopping at one of your favorite businesses. Notice how it feels when you walk in, how you move through the place, what people say when they greet you. Then go to one of the worst businesses in your area and do exactly the same thing.\n\nWrite down what you want to keep and what you want to build. Those notes become raw material for your own story. I used a retail example on the show, and it works the same way in healthcare or manufacturing.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH17L-uoVwuBA/thumbnail-with-play-button-overlay-high/B4EaERQOF3I4C4-/0/1791290834415?e=2147483647&v=beta&t=qrRS96f6n2J8J49TNE8jTQ-eaGHhBlXqsTe6WsS1tOQ",
+    "topic": "Go",
+    "score": 74.3,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.8,
+      "total": 74.3
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:53.257591+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mattstratton_your-postgres-database-is-slow-you-add-an-activity-7513333576655081472-Ga3f",
+    "canonical_url": "https://www.linkedin.com/posts/mattstratton_your-postgres-database-is-slow-you-add-an-activity-7513333576655081472-Ga3f",
+    "post_id": 7513333576655081472,
+    "author": "Matty Stratton",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "39.9h (URL ID)",
+    "post_age_hours": 39.9,
+    "post_age_source": "url_id",
+    "post_text": "Your Postgres database is slow. You add an index. It gets fast. Three months later it's slow again.\n\nWelcome to the optimization treadmill.\n\nThere's a line where tuning stops being the answer and the thing you're actually fighting is the architecture underneath you. Knowing where that line sits saves you a year of work that was never going to stick.\n\nI'm getting into it with Tim Phillips at The Register on Tuesday, October 27, 11am Central. What high-volume time-series workloads do to Postgres, how to tell when you've crossed the line, and how to get off the treadmill without leaving Postgres behind.\n\nhttps://lnkd.in/g58DTunM\n\nCome heckle.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 15,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "PostgreSQL optimization",
+    "score": 73.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 3.0,
+      "total": 73.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:19:51.099322+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/brentozar_sqlserver-sql-dba-activity-7513410934749450240-Z16K",
+    "canonical_url": "https://www.linkedin.com/posts/brentozar_sqlserver-sql-dba-activity-7513410934749450240-Z16K",
+    "post_id": 7513410934749450240,
+    "author": "Brent Ozar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "34.8h (URL ID)",
+    "post_age_hours": 34.8,
+    "post_age_source": "url_id",
+    "post_text": "I do SQL Server training. https://www.brentozar.com\n\n#sqlserver #sql #dba #database #azure #microsoft #tips #brentozar #pollgab #computerscience #computerconsulting #database #databaseadministrator #careergoals\n\n14:15 Thomas Franz: When I select the ID column of a large table (COLUMNSTORE) into a #tmp and join both tables again later, SQL Server often estimates, that just ~30% of the rows in the #tmp will match (I could have added random ids). Is there a way to indicate, that it will be a 100% match?\nAdvice Just for Thomas",
+    "hashtags": [
+      "#sqlserver",
+      "#sql",
+      "#dba",
+      "#database",
+      "#azure",
+      "#microsoft",
+      "#tips",
+      "#brentozar",
+      "#pollgab",
+      "#computerscience",
+      "#computerconsulting",
+      "#databaseadministrator",
+      "#careergoals",
+      "#tmp"
+    ],
+    "engagement": {
+      "reactions": 7,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQF7FOOMIIDOSw/thumbnail-with-play-button-overlay-high/B4EaET_VcPJQC8-/0/1791336746975?e=2147483647&v=beta&t=X6VXLeZGrZQMuZdKXRwzoknYP-JsEh0Y5cYE2zGFZ2w",
+    "topic": "SQL",
+    "score": 72.2,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 1.7,
+      "total": 72.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:20:33.782325+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dhruvnarayanraina_im-starting-to-learn-cuda-ive-been-spending-activity-7513252895358656512-OnSY",
+    "canonical_url": "https://www.linkedin.com/posts/dhruvnarayanraina_intro-to-gpu-programming-c-and-cuda-tutorial-activity-7513252895358656512-nmwX",
+    "post_id": 7513252895358656512,
+    "author": "Dhruv Narayan Raina",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.3h (URL ID)",
+    "post_age_hours": 45.3,
+    "post_age_source": "url_id",
+    "post_text": "I’m starting to learn CUDA.\n\nI’ve been spending more time around inference, GPUs, latency optimization and AI infrastructure lately, and I’ve reached the point where I don’t want to just *use* GPU-accelerated libraries.\n\nI want to understand what’s happening underneath.\nSo I started putting together a small CUDA learning stack for myself.\n\nSharing it here in case someone else is also starting out.\n\nStarting with the basics -\nIntro to GPU Programming | C++ & CUDA Tutorial\nSuboptimal Engineer\nhttps://lnkd.in/g3B3KzfS\n\nCUDA Programming Course – High-Performance Computing with GPUs\nfreeCodeCamp\nhttps://lnkd.in/g3UWGY7h\n\nThen moving into more structured material -\nModern CUDA C++ Programming / NVIDIA CUDA C++ Class\nhttps://lnkd.in/gGQG-jbw\n\nCUDA C/C++ Mini Projects\nTushar Gautam\nhttps://lnkd.in/gTpwikcD\n\nGitHub resources\ncuda-learning\nhttps://lnkd.in/gM9w4hug\nCUDA-programming\nhttps://lnkd.in/g3z8nKf9\n\nAnd for deeper understanding\nBOOK - Programming Massively Parallel Processors\nDavid B. Kirk & Wen-mei W. Hwu\nPDF:\nhttps://lnkd.in/gESDeZyT\n\nMy rough roadmap right now is:\nCUDA → GPU architecture → memory hierarchy → kernels → profiling → quantization → KV cache → TensorRT → Triton → vLLM\n\nI’m expecting the first few weeks to be a lot of:\nOkay, I understand what this does. But why the hell is it faster?\nWhich is probably exactly the point.\nI’ll be sharing what I learn along the way, especially the parts that connect CUDA to LLM inference and production AI systems.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGnCYfl5ND-nA/articleshare-shrink_800/B56aERk3TuIQAY-/0/1791296240563?e=2147483647&v=beta&t=87s9L3wcXYlDFAG9bfH2Ddi6l3nF_CQefpPUFtcOEDE",
+    "topic": "C++",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:44.109048+00:00"
+  },
+  {
+    "url": "https://vn.linkedin.com/posts/maichitam_github-tammaiai-sdlc-claude-code-plugin-activity-7513482742907691008-h4Vp",
+    "canonical_url": "https://vn.linkedin.com/posts/maichitam_github-tammaiai-sdlc-claude-code-plugin-activity-7513482742907691008-h4Vp",
+    "post_id": 7513482742907691008,
+    "author": "Tâm Mai",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "30.1h (URL ID)",
+    "post_age_hours": 30.1,
+    "post_age_source": "url_id",
+    "post_text": "Mình vừa tạo thêm một plugin cho Claude Code, ai-sdlc, dựa trên AI-native SDLC playbook mà Anthropic chia sẻ gần đây. Bên cạnh bigin-skills - plugin AIDD workflows của BigIn dành để phát triển sản phẩm cho khách hàng, thì ai-sdlc dành cho solo developers vibe coding các sản phẩm cá nhân. Xuất phát từ nhu cầu bản thân mình hay tạo các tools, mini apps cần một plugin gọn nhẹ, cũng như các bạn non-tech ở BigIn cũng đang tự xây dựng các sản phẩm của riêng mình theo xu hướng yolo vibe coding.\n\nChỉ một workflow duy nhất: intent → design → spec → plan → verify → review → ship\n\nNếu bạn thấy hay hãy chia sẻ, sử dụng và cho mình feedback để hoàn thiện hơn nhé!\n\n#ai #claudecode #vibecoding\n\nGitHub: https://lnkd.in/gKbUHCwz\nPlaybook: https://lnkd.in/guyDfxgN",
+    "hashtags": [
+      "#ai",
+      "#claudecode",
+      "#vibecoding"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGbosRmNzSt7g/articleshare-shrink_800/B56aEU_qYEHkAc-/0/1791353595747?e=2147483647&v=beta&t=TK5dPimW9cc9x2lJEEKrOC2qfzTgJ0xBtcXW4LRnnoI",
+    "topic": "Claude Code",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:22:29.671496+00:00"
+  },
+  {
+    "url": "https://ru.linkedin.com/posts/akoledachkin_github-manikostocreate-mod-a-claude-code-activity-7513360545551450114-ti4h",
+    "canonical_url": "https://ru.linkedin.com/posts/akoledachkin_github-manikostocreate-mod-a-claude-code-activity-7513360545551450114-ti4h",
+    "post_id": 7513360545551450114,
+    "author": "Aleksei Koledachkin",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "38.2h (URL ID)",
+    "post_age_hours": 38.2,
+    "post_age_source": "url_id",
+    "post_text": "🛠 create-mod - скилл, чтобы делать свои моды для Claude Code\n\nПоследние дни я собирал моды для Claude Code: боковую панель с роботом, файловый менеджер прямо в терминале, кликабельные ссылки в ответах, док с кнопками под строкой ввода, чат «в сторонке» по текущей сессии. По пути наступил на кучу граблей, и всё это упаковал в один скилл. Теперь свой мод можете сделать и вы)\n\nКак это работает: говорите Claude «сделай мод, который…», а дальше скилл ведёт по шагам:\n🎨 Сначала дизайн. Claude рисует эскиз интерфейса в терминале и показывает вам, код пишется только после вашего «да»\n🧱 Каркас мода одной командой, в едином стиле: цвета, карточки, пустые состояния, анимации\n✅ Проверки: валидатор Claude Code, типы, тесты логики без запуска движка\n🚀 Публикация в GitHub, чтобы коллеги ставили ваш мод двумя командами\n\nГлавный упор - на интерфейс. В скилле есть дизайн-система для терминала: один акцент на мод, понятная иерархия, глифы вместо эмодзи, спиннеры только когда что-то правда происходит, и чек-лист UI перед сдачей. Моды получаются не «лог в рамке», а штуки, которыми приятно пользоваться.\n\nПлюс список всех граблей, которые я собрал, чтобы вы на них не наступали. Например, почему мод молча не рисуется (спойлер: переменная с именем h).\n\nУстановка, одна команда:\n\ngit clone https://lnkd.in/dwBVK5cp ~/.claude/skills/create-mod\n\nДальше просто: «сделай мод, который показывает…»\n\nНужен Claude Code 2.1.289+.\n\n👉 https://lnkd.in/dwBVK5cp\n\nМой ТГК: https://t.me/aiproka4",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQFCXbPwDXfUBQ/articleshare-shrink_800/B4DaETRGHNIgAc-/0/1791324611901?e=2147483647&v=beta&t=FZ3QpPMWHryuqpcLypqWk3XqsrjYUlJOWEIYZOQfRPU",
+    "topic": "Claude Code",
+    "score": 70.5,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 70.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:22:34.872813+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mliss_cant-wait-to-go-back-to-chicago-for-the-activity-7512906863089393666-3YD5",
+    "canonical_url": "https://www.linkedin.com/posts/mliss_cant-wait-to-go-back-to-chicago-for-the-activity-7512906863089393666-3YD5",
+    "post_id": 7512906863089393666,
+    "author": "Michael Liss",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "68.2h (URL ID)",
+    "post_age_hours": 68.2,
+    "post_age_source": "url_id",
+    "post_text": "Can't wait to go back to Chicago for the News Product Alliance Summit on October 21. The collective energy of this community coming together last year felt like a family reunion that everyone had been waiting for forever.\n\nHuge thanks to my friends at intive (Christopher White and Carter Maguire) for helping this happen. I've worked closely with them for a long time, and it's been exciting to see all the ways they've helped media companies as the industry's gone AI-native.\n\nLooking forward to seeing everyone there!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFa-v9wHR1flA/feedshare-shrink_800/B4EaEM0.mDI8Ac-/0/1791216577928?e=2147483647&v=beta&t=0mL_XX7ajsYBKj5Gi8y1ryB1g4sCMQ3pj6cirE77qhM",
+    "topic": "Go",
+    "score": 69.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.0,
+      "total": 69.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:22:02.477717+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rehrenberg_when-i-invest-in-a-company-i-go-in-believing-activity-7512961727811031040-Jf4G",
+    "canonical_url": "https://www.linkedin.com/posts/rehrenberg_when-i-invest-in-a-company-i-go-in-believing-activity-7512961727811031040-Jf4G",
+    "post_id": 7512961727811031040,
+    "author": "Roger Ehrenberg",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.6h (URL ID)",
+    "post_age_hours": 64.6,
+    "post_age_source": "url_id",
+    "post_text": "When I invest in a company, I go in believing it can succeed.\n\nIf I’ve done the work, believe deeply in the founder, and see a real opportunity for the company to disrupt or meaningfully improve an industry, I expect that company to win.\n\nOf course, I know the reality of venture capital. Not every investment will work out.\n\nBut I never want to write a check thinking, “This probably won’t work.”\n\nYou have to invest with conviction. Otherwise, why invest at all?",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 9,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQElifFGeOKdGw/thumbnail-with-play-button-overlay-high/B56aENm2Q_IEC8-/0/1791229652172?e=2147483647&v=beta&t=WjfBFRAtD4aqiZ29QyDRkWrh3Yc0WcUNfJvszdSzIh0",
+    "topic": "Go",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 2.0,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:58.090309+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sergelachapelle_one-of-the-biggest-mistakes-of-my-career-activity-7512959294380666881-HoUV",
+    "canonical_url": "https://www.linkedin.com/posts/sergelachapelle_one-of-the-biggest-mistakes-of-my-career-activity-7512959294380666881-HoUV",
+    "post_id": 7512959294380666881,
+    "author": "Serge Lachapelle",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.7h (URL ID)",
+    "post_age_hours": 64.7,
+    "post_age_source": "url_id",
+    "post_text": "One of the biggest mistakes of my career was drinking the Java Kool-aid from SUN and colleagues.\n\nI should have asked: Why is Sun doing this? What are the financial incentives behind this? How is the governance of this thing? What's the end game?\n\nC and C++ would have been super duper painful from the start, but so much easier in the long run. (It's the 90s, go for it!)\n\nBetting on new, unproven technology where the why is not answered has destroyed so many companies over the years. And yes, the irony of everything going on in AI is not lost on me.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQFNRAVtOj7GgA/thumbnail-with-play-button-overlay-high/B56aD4rxNrKAC0-/0/1790878620181?e=2147483647&v=beta&t=KSqTKY54L5O-zCDb3bM5llmPn4Erk3h0Sd5XxeUY_X4",
+    "topic": "Java",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:21:33.271934+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/angel-ricardo-gadea-lira-57b0b6b4_la-estructura-del-proyecto-de-agentes-diseñado-activity-7512927387320393728-cqKC",
+    "canonical_url": "https://es.linkedin.com/posts/angel-ricardo-gadea-lira-57b0b6b4_la-estructura-del-proyecto-de-agentes-dise%C3%B1ado-activity-7512927387320393728-cqKC",
+    "post_id": 7512927387320393728,
+    "author": "ANGEL RICARDO GADEA LIRA",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.9h (URL ID)",
+    "post_age_hours": 66.9,
+    "post_age_source": "url_id",
+    "post_text": "La estructura del Proyecto de Agentes diseñado por CLAUDE CODE quedaria asi. :",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGpXQ55VPrzsg/feedshare-image-high-res/B56aEMMqkkJQAc-/0/1791206014939?e=2147483647&v=beta&t=BAIgW2FchEF2brvJuwWUOILLNhVhtP_7mFZJZAA-0MQ",
+    "topic": "Claude Code",
+    "score": 60.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 60.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:22:33.015641+00:00"
   }
 ]
