@@ -586,6 +586,11 @@ class TestSerperSearch(unittest.TestCase):
             self.assertIn("FastAPI", topics)
             self.assertIn("PyDantic", topics)
             self.assertEqual(d_count, 2)
+            
+            # Verify site:github.com/trending queries were submitted to Serper
+            called_payloads = [call.kwargs.get("json", {}) for call in mock_post.call_args_list]
+            gh_queries = [p.get("q") for p in called_payloads if "site:github.com/trending" in p.get("q", "")]
+            self.assertGreater(len(gh_queries), 0)
 
     def test_prompts_formatting(self):
         """Verify that both system and reviewer prompts format without KeyError/ValueError for all 4 placeholders."""

@@ -726,40 +726,76 @@ def normalize_topics(raw_topics: list[str]) -> list[str]:
 
 
 def discover_trending_topics(niche_description: str = "") -> tuple[list[str], int, int]:
-    logger.info("Gathering recent public web search signals for dynamic topic discovery...")
-    print("\n🌐 Gathering recent public web search signals for trending tech topics...")
+    logger.info("Gathering recent public web search signals & GitHub Trending for dynamic topic discovery...")
+    print("\n🌐 Gathering recent public web search signals & GitHub Trending repos for trending tech topics...")
 
-    queries = [
+    # Build targeted queries dynamically incorporating the configured niche description
+    niche_words = [
+        w for w in re.findall(r"\b[A-Za-z0-9+#\-]{3,}\b", niche_description)
+        if w.lower() not in {"and", "the", "for", "with", "software", "engineering", "tools", "developer", "system"}
+    ]
+
+    queries = []
+    if niche_words:
+        for i in range(0, min(len(niche_words), 4), 2):
+            pair = " ".join(niche_words[i : i + 2])
+            queries.append(f"trending {pair} developer tools 2026")
+
+    base_queries = [
         "trending programming technologies developer tools 2026",
         "latest software engineering frameworks AI developer tools 2026",
         "system design patterns distributed systems 2026",
-        "Python backend framework comparison FastAPI Django 2026",
         "LLM engineering RAG evaluation agents 2026",
         "Kubernetes cloud native DevOps platform engineering 2026",
         "PostgreSQL database optimization indexing 2026",
         "MCP protocol AI tool integration 2026",
     ]
+    for bq in base_queries:
+        if len(queries) < 6:
+            queries.append(bq)
+
+    # GitHub Trending queries via Serper / Google search
+    gh_queries = [
+        "site:github.com/trending programming",
+        "site:github.com/trending python",
+        "site:github.com/trending javascript",
+        "site:github.com/trending ai",
+    ]
+
+    all_queries = queries + gh_queries
     snippets = []
 
-    serper_key = os.getenv("SERPER_API_KEY")
+    serper_key = os.getenv("SERPER_API_KEY") or os.getenv("SEARCH_API_KEY")
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    cache = load_serper_cache()
+
     if serper_key:
-        for q in queries:
+        for q in all_queries:
+            cache_key = f"trending::{q}::{today_str}"
             try:
-                url = "https://google.serper.dev/search"
-                headers = {
-                    "X-API-KEY": serper_key,
-                    "Content-Type": "application/json",
-                }
-                payload = {"q": q, "num": 8, "tbs": "qdr:w"}
-                resp = httpx.post(url, headers=headers, json=payload, timeout=10.0)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for item in data.get("organic", []):
-                        if isinstance(item, dict):
-                            title = item.get("title", "")
-                            snippet = item.get("snippet", "")
-                            if title or snippet:
-                                snippets.append(f"Title: {title}\nSnippet: {snippet}")
+                if cache_key in cache:
+                    organic_items = cache[cache_key]
+                else:
+                    url = "https://google.serper.dev/search"
+                    headers = {
+                        "X-API-KEY": serper_key,
+                        "Content-Type": "application/json",
+                    }
+                    payload = {"q": q, "num": 6}
+                    resp = httpx.post(url, headers=headers, json=payload, timeout=10.0)
+                    organic_items = []
+                    if resp.status_code == 200:
+                        organic_items = resp.json().get("organic", [])
+                        cache[cache_key] = organic_items
+                        save_serper_cache(cache)
+
+                for item in organic_items:
+                    if isinstance(item, dict):
+                        title = item.get("title", "")
+                        snippet = item.get("snippet", "")
+                        if title or snippet:
+                            prefix = "GitHub Repo Trending: " if "github.com" in q else ""
+                            snippets.append(f"{prefix}Title: {title}\nSnippet: {snippet}")
             except Exception as exc:
                 logger.warning(f"Serper web query '{q}' for trending topics failed: {exc}")
 
@@ -768,14 +804,15 @@ def discover_trending_topics(niche_description: str = "") -> tuple[list[str], in
             from ddgs import DDGS
 
             ddgs = DDGS()
-            for q in queries:
+            for q in all_queries:
                 try:
-                    res = list(ddgs.text(q, max_results=8))
+                    res = list(ddgs.text(q, max_results=6))
                     for r in res:
                         title = r.get("title", "")
                         body = r.get("body", "")
                         if title or body:
-                            snippets.append(f"Title: {title}\nSnippet: {body}")
+                            prefix = "GitHub Repo Trending: " if "github.com" in q else ""
+                            snippets.append(f"{prefix}Title: {title}\nSnippet: {body}")
                 except Exception as exc:
                     logger.warning(f"Public web query '{q}' failed: {exc}")
         except Exception as exc:
@@ -1015,7 +1052,7 @@ def discover_linkedin_urls(
                     f"  ⚠️ Max Serper call limit ({max_calls}) reached. Falling back to free search."
                 )
 
-            if serper_success and kept_links:
+            if serper_success:
                 for link in kept_links:
                     norm = normalize_url(link)
                     pid = extract_linkedin_post_id(link)
@@ -1085,10 +1122,10 @@ def calculate_candidate_score(
 ) -> tuple[float, dict[str, float]]:
     """
     Computes a weighted total score (0 to 100) and per-component breakdown for candidate posts:
-    - recency
-    - author_fit (whitelist bonus, brand/company account penalty)
-    - topic_match (niche/target topic overlap)
-    - engagement
+    - recency (35%)
+    - author_fit (25%)
+    - topic_match (25%)
+    - engagement (15%)
     """
     config = config or load_config()
     weights = config.get("scoring_weights", {})
@@ -1109,21 +1146,23 @@ def calculate_candidate_score(
             "total": 0.0,
         }
 
-    # 1. Recency Component
+    # 1. Recency Component (Smooth decay up to max_age)
     hours = data.get("post_age_hours")
     max_age = float(config.get("max_age_hours", 72))
 
     if hours is not None:
-        if hours <= 24.0:
+        if hours <= 12.0:
             recency_pts = w_recency * 1.0
+        elif hours <= 24.0:
+            recency_pts = w_recency * 0.9
         elif hours <= 48.0:
-            recency_pts = w_recency * 0.8
+            recency_pts = w_recency * 0.7
         elif hours <= max_age:
             recency_pts = w_recency * 0.5
         else:
             recency_pts = 0.0
     else:
-        recency_pts = w_recency * 0.3  # Safe fallback score for unknown age
+        recency_pts = w_recency * 0.35  # Safe fallback score for unknown age
 
     # 2. Author Fit Component
     whitelist = [a.lower() for a in config.get("whitelist_authors", [])]
@@ -1132,42 +1171,36 @@ def calculate_candidate_score(
     elif is_company_account(author):
         author_pts = w_author * 0.2  # Penalize company/brand accounts
     elif author:
-        author_pts = w_author * 0.7  # Individual human author
+        author_pts = w_author * 0.75  # Individual human author
     else:
         author_pts = w_author * 0.4
 
-    # 3. Topic Match Component
-    niche_words = {
-        "python",
-        "fastapi",
-        "mcp",
-        "rag",
-        "ai",
-        "agent",
-        "agents",
-        "llm",
-        "backend",
-        "system design",
-        "postgres",
-        "postgresql",
-        "kubernetes",
-        "k8s",
-        "observability",
-        "architecture",
-        "docker",
-        "pipeline",
-        "database",
-        "devops",
-    }
+    # 3. Dynamic Topic Match / Relevance Component
+    # Dynamically extract niche words from topic, niche_description, and target_topics
+    niche_words: set[str] = set()
     t_lower = topic.lower()
+    for word in re.findall(r"\b[a-zA-Z0-9+#\-]{3,}\b", t_lower):
+        niche_words.add(word)
+
+    niche_desc = str(config.get("niche_description", "")).lower()
+    for word in re.findall(r"\b[a-zA-Z0-9+#\-]{3,}\b", niche_desc):
+        if word not in {"and", "the", "for", "with", "software", "engineering", "tools", "developer", "system"}:
+            niche_words.add(word)
+
+    for target_t in config.get("target_topics", []):
+        for word in re.findall(r"\b[a-zA-Z0-9+#\-]{3,}\b", str(target_t).lower()):
+            niche_words.add(word)
+
     matches = sum(1 for kw in niche_words if kw in text)
 
-    if t_lower in text or any(word in text for word in t_lower.split() if len(word) > 3):
+    if t_lower in text:
         topic_pts = w_topic * 1.0
-    elif matches >= 2:
+    elif any(word in text for word in t_lower.split() if len(word) > 3):
+        topic_pts = w_topic * 0.85
+    elif matches >= 3:
         topic_pts = w_topic * 0.7
     elif matches >= 1:
-        topic_pts = w_topic * 0.4
+        topic_pts = w_topic * 0.45
     else:
         topic_pts = w_topic * 0.2
 
@@ -1177,8 +1210,11 @@ def calculate_candidate_score(
     comments = float(eng.get("comments") or 0)
     reposts = float(eng.get("reposts") or 0)
 
-    eng_scale = min(1.0, (reactions / 30.0 + comments / 10.0 + reposts / 5.0) / 3.0)
-    eng_pts = w_eng * eng_scale
+    if reactions > 0 or comments > 0 or reposts > 0:
+        eng_scale = min(1.0, (reactions * 1.0 + comments * 2.0 + reposts * 3.0) / 40.0)
+        eng_pts = w_eng * eng_scale
+    else:
+        eng_pts = w_eng * 0.3  # Baseline for posts where search snippet didn't include engagement numbers
 
     total = round(recency_pts + author_pts + topic_pts + eng_pts, 1)
 
@@ -1194,9 +1230,10 @@ def calculate_candidate_score(
 
 
 def is_blocklisted(data: dict[str, Any], config: dict[str, Any]) -> bool:
-    """Checks if a candidate post matches configured author or keyword blocklists."""
+    """Checks if a candidate post matches configured author/keyword blocklists or low-quality/promotional patterns."""
     author = (data.get("author") or "").lower()
     text = (data.get("post_text") or "").lower()
+    raw_text = (data.get("post_text") or "").strip()
 
     block_authors = [a.lower() for a in config.get("blocklist_authors", [])]
     if author in block_authors:
@@ -1205,6 +1242,27 @@ def is_blocklisted(data: dict[str, Any], config: dict[str, Any]) -> bool:
     block_kw = [k.lower() for k in config.get("blocklist_keywords", [])]
     for kw in block_kw:
         if kw in text:
+            return True
+
+    # 1. Filter out empty or ultra-short low-quality text (< 25 chars or < 4 words)
+    words = raw_text.split()
+    if len(raw_text) < 25 or len(words) < 4:
+        logger.info(f"Filtering low-quality post: text too short ({len(raw_text)} chars, {len(words)} words)")
+        return True
+
+    # 2. Filter out promotional engagement bait & spam patterns
+    promo_patterns = [
+        r"\bcomment\b.*\b(below|yes|link|info)\b",
+        r"\bdm\b.*\b(me|us|for|link)\b",
+        r"\blink\s+in\s+(comments?|bio)\b",
+        r"\b(we\s+are\s+hiring|job\s+opening|hiring\s+for|apply\s+here)\b",
+        r"\b(register\s+now|webinar\s+alert|join\s+our\s+whatsapp)\b",
+        r"\b(discount\s+code|buy\s+now|limited\s+time\s+offer)\b",
+        r"\b(follow\s+me\s+for\s+more|repost\s+this)\b",
+    ]
+    for pattern in promo_patterns:
+        if re.search(pattern, text):
+            logger.info(f"Filtering promotional/spam post matching pattern: '{pattern}'")
             return True
 
     return False
