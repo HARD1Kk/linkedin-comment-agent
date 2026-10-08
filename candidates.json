@@ -4942,7 +4942,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:42:14.677681+00:00",
     "failure_reason": null,
     "generated_comment": "Ritik, I'm currently using a retrieve-and-rerank pipeline because the base vector search gives decent recall but domain-specific queries still need a second pass to prune false positives. It adds modest latency but improves answer precision noticeably."
@@ -4980,7 +4980,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:42:16.203655+00:00",
     "failure_reason": null,
     "generated_comment": "Mohamed, we run Adaptive RAG in production because its speculative fusion layer lets us balance query latency with higher relevance on dynamic corpora. The trade-off is added indexing overhead, but the accuracy gain justifies the cost for our real-time dashboard."
@@ -5012,7 +5012,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:43:53.418831+00:00",
     "failure_reason": null,
     "generated_comment": "Guillermo, the compile-time typechecker verification you describe is solid, but the post omits any discussion of runtime enforcement when proofs are generated dynamically. Without a fallback check, services that load code at runtime could still bypass the contract, which matters for end-to-end security."
@@ -5044,7 +5044,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:44:05.145628+00:00"
   },
   {
@@ -5074,7 +5074,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:44:56.480126+00:00"
   },
   {
@@ -9096,5 +9096,169 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T12:22:33.015641+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/eoogungbemi_dont-tell-me-your-llm-is-performing-well-activity-7513916302017679360-sROf",
+    "canonical_url": "https://www.linkedin.com/posts/eoogungbemi_dont-tell-me-your-llm-is-performing-well-activity-7513916302017679360-sROf",
+    "post_id": 7513916302017679360,
+    "author": "Dr Emmanuel Ogungbemi",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "1.5h (URL ID)",
+    "post_age_hours": 1.5,
+    "post_age_source": "url_id",
+    "post_text": "Don't tell me your LLM is performing well if you haven't looked past accuracy.\n\nA model can score 90% on your benchmark and still embarrass you in production.\n\nHere's why.\n\nLLM evaluation has at least four layers, and skipping any one of them gives you a false picture:\n\n1. Task accuracy, does the model get the right answer on your labelled test set? This is the one everyone measures. It's also the easiest to game.\n2. Calibration, when the model says it's confident, is it actually right more often? A confidently wrong LLM is a liability, not an asset.\n3. Behavioural consistency, does it give the same answer to semantically identical questions phrased differently? If not, you don't have a reliable system, you have a lucky one.\n4. Failure mode distribution, where does it fail, and how badly? Silent hallucinations in low-frequency inputs are harder to catch than obvious errors, and they're the ones that reach your users.\n\nThe real trap is treating evaluation as a one-time gate before deployment.\n\n𝐀 𝐰𝐞𝐥𝐥-𝐞𝐯𝐚𝐥𝐮𝐚𝐭𝐞𝐝 𝐋𝐋𝐌 𝐢𝐬𝐧'𝐭 𝐣𝐮𝐬𝐭 𝐚𝐜𝐜𝐮𝐫𝐚𝐭𝐞 𝐨𝐧 𝐚 𝐭𝐞𝐬𝐭 𝐬𝐞𝐭. 𝐈𝐭 𝐤𝐧𝐨𝐰𝐬 𝐰𝐡𝐞𝐧 𝐢𝐭 𝐝𝐨𝐞𝐬𝐧'𝐭 𝐤𝐧𝐨𝐰, 𝐚𝐧𝐝 𝐢𝐭 𝐟𝐚𝐢𝐥𝐬 𝐢𝐧 𝐰𝐚𝐲𝐬 𝐲𝐨𝐮𝐫 𝐭𝐞𝐚𝐦 𝐜𝐚𝐧 𝐜𝐚𝐭𝐜𝐡 𝐚𝐧𝐝 𝐡𝐚𝐧𝐝𝐥𝐞.\n\nFor anyone building or integrating LLMs into a data or software product, the evaluation pipeline deserves the same engineering rigour as the training pipeline.\n\nWhat part of LLM evaluation does your team currently skip or rush?\n\n💾 Save this for later\n♻️ Repost to share it with your network\n🔔 Follow Dr Emmanuel Ogungbemi for more",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 127,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQFSi9tVR5qo3g/image-shrink_1280/B4EaEbLDEAJgAc-/0/1791457243738?e=2147483647&v=beta&t=VX_RihsBwwOKB_1x6ccEo4WCP6VK5mPIvmyRTKD7gME",
+    "topic": "LLM evaluation",
+    "score": 92.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 92.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:29:09.456274+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rileykaminer_when-75-of-vc-fundraising-dollars-go-to-activity-7513226443842301953-ge1q",
+    "canonical_url": "https://www.linkedin.com/posts/rileykaminer_when-75-of-vc-fundraising-dollars-go-to-activity-7513226443842301953-ge1q",
+    "post_id": 7513226443842301953,
+    "author": "Riley Kaminer",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.2h (URL ID)",
+    "post_age_hours": 47.2,
+    "post_age_source": "url_id",
+    "post_text": "When 75% of VC fundraising dollars go to just 13 firms, how does everyone else compete?\n\nAlexia Bartlett's answer: fit matters. A lot.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 32,
+      "comments": 8,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQErUz8PlAOuTA/thumbnail-with-play-button-overlay-high/B56aD8hxvlHMC4-/0/1790943110984?e=2147483647&v=beta&t=fUxM5-_5MZ6y02YskYRay-xTzxBX6eGkJe4km35QSLY",
+    "topic": "Go",
+    "score": 79.8,
+    "score_breakdown": {
+      "recency": 28.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 9.3,
+      "total": 79.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:31:09.780592+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/gjmount_before-i-really-knew-python-and-before-office-activity-7513765136873189376-OmRl",
+    "canonical_url": "https://www.linkedin.com/posts/gjmount_before-i-really-knew-python-and-before-office-activity-7513765136873189376-OmRl",
+    "post_id": 7513765136873189376,
+    "author": "George Mount",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "11.5h (URL ID)",
+    "post_age_hours": 11.5,
+    "post_age_source": "url_id",
+    "post_text": "Before I really knew Python, and before Office Scripts came along, I used VBA to format data and send emails.\n\nAnd that was modest compared with what some of my colleagues built. I've seen VBA used for derivatives pricing and some seriously impressive Excel applications.\n\nBut if I'm starting a new workflow that needs to run in the cloud, work across Microsoft 365 services, or run with my laptop closed, I'm going to look closely at Office Scripts and Power Automate.\n\nThe choice depends on the work:\n• What does it need to touch?\n• Where does it need to run?\n• Who will maintain it?\n\nI put together a practical guide to VBA vs. Office Scripts, including macro security, the Power Query refresh catch, and where Copilot can help.\n\nThere's a six-question quiz at the end to help you think through your own workflow. No email required.\n\nRead the guide and take the quiz:\nhttps://lnkd.in/eMiepfJb\n\nWant help thinking through your own workflow? I’m happy to help you work through the tool choices and identify a practical next step. Learn more at the bottom of the post",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFyTFev95Ydkw/feedshare-shrink_1280/B4EaEW8PAxI8AM-/0/1791386251616?e=2147483647&v=beta&t=1d_1HdD6tZdPvJf4xT-nWFEJVXTEbGQLAlnOY311EdI",
+    "topic": "Python",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:29:51.041654+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/brentozar_sqlserver-sql-dba-activity-7513683833519534082-Agc8",
+    "canonical_url": "https://www.linkedin.com/posts/brentozar_sqlserver-sql-dba-activity-7513683833519534082-Agc8",
+    "post_id": 7513683833519534082,
+    "author": "Brent Ozar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "16.9h (URL ID)",
+    "post_age_hours": 16.9,
+    "post_age_source": "url_id",
+    "post_text": "I do SQL Server training. https://www.brentozar.com\n\n#sqlserver #sql #dba #database #azure #microsoft #tips #brentozar #pollgab #computerscience #computerconsulting #database #databaseadministrator #careergoals\n\n09:09 DGWinOK: How does pricing compare (off the top of your head) between Azure SQL and Oracle cloud database for say a 100 GB instance?\nComparing Pricing",
+    "hashtags": [
+      "#sqlserver",
+      "#sql",
+      "#dba",
+      "#database",
+      "#azure",
+      "#microsoft",
+      "#tips",
+      "#brentozar",
+      "#pollgab",
+      "#computerscience",
+      "#computerconsulting",
+      "#databaseadministrator",
+      "#careergoals"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHKzDlDJ8nezw/thumbnail-with-play-button-overlay-high/B4EaEX3jG3J0C8-/0/1791401804594?e=2147483647&v=beta&t=CA8jWvbfo5Njk1US0cuIfnk2ptpm-sb7RAhx_Vwc5pc",
+    "topic": "SQL",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:30:12.367690+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jobsearchamanda_its-go-time-if-youre-registered-for-careerminds-activity-7513675297372925953-p0yD",
+    "canonical_url": "https://www.linkedin.com/posts/jobsearchamanda_its-go-time-if-youre-registered-for-careerminds-activity-7513675297372925953-p0yD",
+    "post_id": 7513675297372925953,
+    "author": "Amanda Augustine, CPCC, CPRW",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.5h (URL ID)",
+    "post_age_hours": 17.5,
+    "post_age_source": "url_id",
+    "post_text": "It's go time! If you're registered for Careerminds HR and leadership webinar on succession planning, please join us on the webinar now. Looking forward to connecting with you there!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHpYVSfhoOlqQ/feedshare-shrink_800/B4EaEXv3tLHYAc-/0/1791399787629?e=2147483647&v=beta&t=Xb_pbQpsWeU7ixlwYp5Ytz_9i8f1-J8I9wLqwcVtZmY",
+    "topic": "Go",
+    "score": 77.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 17.5,
+      "topic_match": 25.0,
+      "engagement": 0.0,
+      "total": 77.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T12:31:14.504893+00:00"
   }
 ]
