@@ -36,6 +36,8 @@ from main import (
     parse_age_in_hours,
     extract_author_from_url,
     discover_trending_topics,
+    normalize_url,
+    build_candidate_dedup_index,
 )
 
 
@@ -632,7 +634,68 @@ class TestSerperSearch(unittest.TestCase):
         self.assertTrue(company_post.get("failure_reason", "").startswith("generator_skip:"))
 
 
+    def test_normalize_url(self):
+        self.assertIsNone(normalize_url(None))
+        self.assertIsNone(normalize_url("  "))
+        
+        url1 = "https://www.linkedin.com/posts/user_post-activity-7123456789012345678-abcd?utm_source=share"
+        url2 = "http://es.linkedin.com/posts/user_post-activity-7123456789012345678-abcd/"
+        expected = "https://linkedin.com/posts/user_post-activity-7123456789012345678-abcd"
+        
+        self.assertEqual(normalize_url(url1), expected)
+        self.assertEqual(normalize_url(url2), expected)
+
+    def test_build_candidate_dedup_index(self):
+        db = [
+            {
+                "url": "https://es.linkedin.com/posts/user1-activity-7123456789012345678-abcd",
+                "canonical_url": "https://www.linkedin.com/posts/user1-activity-7123456789012345678-abcd",
+                "author": "User One",
+                "post_id": 7123456789012345678,
+            },
+            {
+                "url": "https://linkedin.com/posts/user2-slug",
+                "author": "User Two",
+            }
+        ]
+        seen_pids, seen_urls, seen_authors = build_candidate_dedup_index(db)
+        self.assertIn(7123456789012345678, seen_pids)
+        self.assertIn("https://linkedin.com/posts/user1-activity-7123456789012345678-abcd", seen_urls)
+        self.assertIn("https://linkedin.com/posts/user2-slug", seen_urls)
+        self.assertIn("user one", seen_authors)
+
+    @patch("httpx.post")
+    def test_early_url_deduplication_in_discovery(self, mock_post):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "organic": [
+                {"link": "https://www.linkedin.com/posts/user1-activity-7123456789012345678-abcd?utm=1"},
+                {"link": "https://es.linkedin.com/posts/user1-activity-7123456789012345678-abcd/"},
+                {"link": "https://www.linkedin.com/posts/user2-activity-8888888888888888888-xyz"},
+            ]
+        }
+        mock_post.return_value = mock_resp
+
+        existing_db = [
+            {
+                "url": "https://linkedin.com/posts/user1-activity-7123456789012345678-abcd",
+                "post_id": 7123456789012345678,
+            }
+        ]
+
+        with patch("main.os.getenv", return_value="dummy_key"):
+            config = {"serper_enabled": True}
+            candidates = discover_linkedin_urls(["FastAPI"], config=config, existing_candidates=existing_db)
+
+            # user1 post is in existing_db (both link #1 and link #2 are filtered early)
+            # Only user2 post should be returned!
+            self.assertEqual(len(candidates), 1)
+            self.assertIn("8888888888888888888", candidates[0][0])
+
+
 if __name__ == "__main__":
     unittest.main()
+
 
 

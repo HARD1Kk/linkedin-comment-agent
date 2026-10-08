@@ -134,6 +134,76 @@ def validate_linkedin_url(url: str) -> bool:
     return hostname == "linkedin.com" or hostname.endswith(".linkedin.com")
 
 
+def normalize_url(url: str | None) -> str | None:
+    """
+    Normalizes a LinkedIn URL by stripping query parameters, fragments,
+    standardizing scheme to https, removing www/language subdomains, and trailing slashes.
+    """
+    if not url or not isinstance(url, str):
+        return None
+    clean = url.strip()
+    if not clean:
+        return None
+    try:
+        parsed = urlparse(clean)
+        scheme = "https"
+        netloc = (parsed.hostname or "").lower()
+        if "linkedin.com" in netloc:
+            netloc = "linkedin.com"
+
+        path = parsed.path.rstrip("/")
+        if not path:
+            return f"{scheme}://{netloc}"
+        return f"{scheme}://{netloc}{path}".lower()
+    except Exception:
+        return clean.split("?")[0].split("#")[0].rstrip("/").lower()
+
+
+def build_candidate_dedup_index(
+    existing_candidates: list[dict[str, Any]]
+) -> tuple[set[int], set[str], set[str]]:
+    """
+    Builds lookup sets of numeric Snowflake post IDs, normalized URLs, and author names from candidate database.
+    Returns (seen_post_ids, seen_normalized_urls, seen_authors).
+    """
+    seen_post_ids: set[int] = set()
+    seen_normalized_urls: set[str] = set()
+    seen_authors: set[str] = set()
+
+    for item in existing_candidates:
+        if not isinstance(item, dict):
+            continue
+
+        # Extract numeric Snowflake post_id
+        pid = item.get("post_id")
+        if pid is not None:
+            try:
+                seen_post_ids.add(int(pid))
+            except (ValueError, TypeError):
+                pass
+
+        # Also extract post_id & normalized url from url and canonical_url fields
+        for field in ("url", "canonical_url"):
+            val = item.get(field)
+            if val and isinstance(val, str):
+                norm = normalize_url(val)
+                if norm:
+                    seen_normalized_urls.add(norm)
+                extracted_pid = extract_linkedin_post_id(val)
+                if extracted_pid:
+                    seen_post_ids.add(extracted_pid)
+
+        # Extract author name
+        author = item.get("author")
+        if author and isinstance(author, str):
+            clean_a = author.strip().lower()
+            if clean_a:
+                seen_authors.add(clean_a)
+
+    return seen_post_ids, seen_normalized_urls, seen_authors
+
+
+
 def clean_text(text: str | None) -> str | None:
     if not text:
         return None
@@ -869,11 +939,16 @@ def search_serper(
 
 
 def discover_linkedin_urls(
-    topics: list[str], config: dict[str, Any] | None = None
+    topics: list[str],
+    config: dict[str, Any] | None = None,
+    existing_candidates: list[dict[str, Any]] | None = None,
 ) -> list[tuple[str, str]]:
     """Discovers public LinkedIn post URLs for target topics using Serper API with DDGS fallback."""
     candidates: list[tuple[str, str]] = []
-    seen_urls: set[str] = set()
+
+    # Load candidate DB for early deduplication if not explicitly passed
+    db = existing_candidates if existing_candidates is not None else load_candidates_db()
+    seen_post_ids, seen_normalized_urls, _ = build_candidate_dedup_index(db)
 
     cfg = config or {}
     serper_enabled = cfg.get("serper_enabled", True)
@@ -886,6 +961,7 @@ def discover_linkedin_urls(
 
     cache = load_serper_cache()
     serper_calls_count = 0
+    early_duplicates_skipped = 0
 
     print("\n🌐 Initiating public discovery for LinkedIn posts...")
 
@@ -941,9 +1017,17 @@ def discover_linkedin_urls(
 
             if serper_success and kept_links:
                 for link in kept_links:
-                    if link not in seen_urls:
-                        seen_urls.add(link)
-                        candidates.append((link, topic))
+                    norm = normalize_url(link)
+                    pid = extract_linkedin_post_id(link)
+                    if (pid and pid in seen_post_ids) or (norm and norm in seen_normalized_urls):
+                        early_duplicates_skipped += 1
+                        logger.info(f"Early deduplication: Skipping candidate link {link} (post_id: {pid})")
+                        continue
+                    if pid:
+                        seen_post_ids.add(pid)
+                    if norm:
+                        seen_normalized_urls.add(norm)
+                    candidates.append((link, topic))
                 continue
 
         # Fallback to free DDGS search if Serper is disabled, missing key, failed, or returned zero kept URLs
@@ -961,8 +1045,17 @@ def discover_linkedin_urls(
                 if (
                     "linkedin.com/posts/" in href
                     or "linkedin.com/feed/update/" in href
-                ) and href not in seen_urls:
-                    seen_urls.add(href)
+                ):
+                    norm = normalize_url(href)
+                    pid = extract_linkedin_post_id(href)
+                    if (pid and pid in seen_post_ids) or (norm and norm in seen_normalized_urls):
+                        early_duplicates_skipped += 1
+                        logger.info(f"Early deduplication: Skipping candidate link {href} (post_id: {pid})")
+                        continue
+                    if pid:
+                        seen_post_ids.add(pid)
+                    if norm:
+                        seen_normalized_urls.add(norm)
                     candidates.append((href, topic))
                     found_count += 1
             logger.info(
@@ -976,7 +1069,8 @@ def discover_linkedin_urls(
             print(f"  ⚠️ Public search query failed for topic '{topic}': {exc}")
 
     print(
-        f"✅ Discovery completed. Found {len(candidates)} unique candidate post URLs.\n"
+        f"✅ Discovery completed. Found {len(candidates)} unique candidate post URLs "
+        f"({early_duplicates_skipped} duplicates filtered early without requests).\n"
     )
     return candidates
 
@@ -1237,24 +1331,14 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     print(f"Fallback topics added:  {fallback_count}")
     print(f"Total topics searched:  {len(topics)}")
 
-    url_topic_pairs = discover_linkedin_urls(topics, config=config)
-
+    existing_db = load_candidates_db()
+    url_topic_pairs = discover_linkedin_urls(topics, config=config, existing_candidates=existing_db)
 
     if not url_topic_pairs:
         print("❌ No LinkedIn post URLs could be discovered.")
         return
 
-    # Load existing database to avoid duplicates
-    existing_db = load_candidates_db()
-    seen_ids_and_urls: set[str] = set()
-
-    for item in existing_db:
-        if item.get("url"):
-            seen_ids_and_urls.add(str(item["url"]).lower())
-        if item.get("canonical_url"):
-            seen_ids_and_urls.add(str(item["canonical_url"]).lower())
-        if item.get("post_id"):
-            seen_ids_and_urls.add(str(item["post_id"]))
+    seen_post_ids, seen_normalized_urls, _ = build_candidate_dedup_index(existing_db)
 
     max_age_h = float(config.get("max_age_hours", 72))
     top_n = int(config.get("top_n_candidates", 5))
@@ -1265,6 +1349,7 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     removed_unknown_age = 0
     removed_blocklisted = 0
     removed_author_dup = 0
+    removed_early_dup = 0
 
     seen_authors_in_run: set[str] = set()
     candidates_discovered = len(url_topic_pairs)
@@ -1272,8 +1357,19 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
     print(f"📥 Processing {candidates_discovered} candidate URLs...")
 
     for idx, (url, topic) in enumerate(url_topic_pairs, 1):
-        if url.lower() in seen_ids_and_urls:
-            logger.info(f"Skipping previously processed URL: {url}")
+        norm_url = normalize_url(url)
+        post_id = extract_linkedin_post_id(url)
+
+        if (post_id and post_id in seen_post_ids) or (norm_url and norm_url in seen_normalized_urls):
+            removed_early_dup += 1
+            logger.info(f"Skipping duplicate URL before fetch: {url}")
+            print(f" [{idx}/{candidates_discovered}] ⏩ Skipping duplicate (caught before request): {url}")
+            continue
+
+        author_from_slug = extract_author_from_url(url)
+        if author_from_slug and author_from_slug.strip().lower() in seen_authors_in_run:
+            removed_author_dup += 1
+            print(f" [{idx}/{candidates_discovered}] ⏩ Skipping duplicate author '{author_from_slug}' (caught before request): {url}")
             continue
 
         print(f" [{idx}/{candidates_discovered}] Fetching: {url}")
@@ -1335,6 +1431,20 @@ def run_discovery_workflow(config_path: str = "config.yaml") -> None:
                 "status": "new",
                 "discovered_at": datetime.now(timezone.utc).isoformat(),
             }
+
+            if post_id:
+                seen_post_ids.add(post_id)
+            if norm_url:
+                seen_normalized_urls.add(norm_url)
+            if data.get("canonical_url"):
+                canon_norm = normalize_url(data["canonical_url"])
+                if canon_norm:
+                    seen_normalized_urls.add(canon_norm)
+            if data.get("post_id"):
+                try:
+                    seen_post_ids.add(int(data["post_id"]))
+                except (TypeError, ValueError):
+                    pass
 
             new_candidates.append(candidate_record)
 
