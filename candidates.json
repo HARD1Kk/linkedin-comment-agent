@@ -5104,7 +5104,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:45:21.784077+00:00"
   },
   {
@@ -5134,7 +5134,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-06T10:45:34.677539+00:00"
   },
   {
@@ -5908,7 +5908,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:31:57.601562+00:00",
     "failure_reason": null,
     "generated_comment": "Saurabh, FastAPI is a solid choice for the API layer, but the diagram skips explicit request-id propagation across the Retrieval and Intelligence layers. Without a consistent trace identifier, correlating latency spikes or token usage back to the original user query becomes cumbersome, especially when scaling out multiple FastAPI instances."
@@ -5945,7 +5945,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:32:23.823927+00:00",
     "failure_reason": null,
     "generated_comment": "Sathish, LangChain-based 'RAG From Scratch' gave me a fast path to a working prototype, walking the full Python pipeline step-by-step. I found the hands-on labs especially useful for debugging vector-DB integration before scaling."
@@ -5977,7 +5977,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:32:57.514183+00:00",
     "failure_reason": null,
     "generated_comment": "Raju, LangGraph is a solid choice for orchestrating tasks, but the architecture as described doesn't mention a CI/CD layer for automated testing of agent workflows. Adding systematic regression checks can catch subtle changes in prompts or tool integrations before they reach production, improving reliability."
@@ -9260,5 +9260,1116 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T12:31:14.504893+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/teresacarlson_claude-for-government-is-now-generally-available-activity-7513354292989321216-2MJo",
+    "canonical_url": "https://www.linkedin.com/posts/teresacarlson_claude-for-government-is-now-generally-available-activity-7513354292989321216-2MJo",
+    "post_id": 7513354292989321216,
+    "author": "Teresa Carlson",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.1h (URL ID)",
+    "post_age_hours": 42.1,
+    "post_age_source": "url_id",
+    "post_text": "We launched Claude for Government in beta in July 2026, and the feedback from government agencies and our GovTech partner teams has been terrific. Last week we made it generally available, so they can use Claude for the daily work that keeps government and their partner organizations running at mission speed, and Claude Code to build and modernize legacy systems! If you want to learn more about what Claude can do for your agency then check out the link at:\n\nhttps://lnkd.in/efJwWu_E | 12 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 215,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQEAU7h3m0gvlA/articleshare-shrink_800/B4DaDziFRxGkAY-/0/1790792193745?e=2147483647&v=beta&t=mgi5VmsV9jRtgVvn4f9kbGMN4j29OP5-dDWA1WN3lGs",
+    "topic": "Claude",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:31.006770+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/alin-morosanu_djangonautspace-django-opensource-activity-7513322014934224897-PwC6",
+    "canonical_url": "https://www.linkedin.com/posts/alin-morosanu_djangonautspace-django-opensource-activity-7513322014934224897-PwC6",
+    "post_id": 7513322014934224897,
+    "author": "Alin Morosanu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.2h (URL ID)",
+    "post_age_hours": 44.2,
+    "post_age_source": "url_id",
+    "post_text": "I’ve been building with Django for 5 years. Now I want to help build Django itself.\n\nI’m joining Djangonaut Space Session 7 with Team Vela to learn how to contribute to Django and take that first step from user to contributor.\n\nI’ll share what I try, what trips me up, and what I learn along the way. Looking forward to meeting more people in the Django/Python community.\n\nWhat do you wish you’d known before your first open-source contribution?\n\n#DjangonautSpace #Django #OpenSource",
+    "hashtags": [
+      "#DjangonautSpace",
+      "#Django",
+      "#OpenSource"
+    ],
+    "engagement": {
+      "reactions": 91,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Django",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:43.819672+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/chrisi-hammer-b7b954326_only-packing-the-essentials-for-our-official-activity-7513275502317469696-M75p",
+    "canonical_url": "https://www.linkedin.com/posts/chrisi-hammer-b7b954326_only-packing-the-essentials-for-our-official-activity-7513275502317469696-M75p",
+    "post_id": 7513275502317469696,
+    "author": "Chrisi Hammer",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.3h (URL ID)",
+    "post_age_hours": 47.3,
+    "post_age_source": "url_id",
+    "post_text": "Only packing the essentials for our official Texas bun tour.\n\nAn entire suitcase of Sunshine Buns merch and a leopard cowboy hat. Naturally. Will anyone have to ask what company I’m with? Absolutely not.\n\nI am a firm believer that your branding should show up in EVERYTHING you do. What you wear. How you talk. The energy you bring into a room. How people feel after meeting you. Every interaction is a chance to make someone remember you. Have some FUN with it.\n\nWe sell joy by way of cinnamon rolls. You better believe we’re going to dress like it, act like it, and show up loud and proud. Texas, we’re coming for you. And apparently, we’ve packed enough merch to clothe you.\n\nAfter all, this ain’t my first rolldeo. 🤠 | 70 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 129,
+      "comments": 70,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHge8tMY29w0w/feedshare-image-high-res/B56aESEQaSIIAU-/0/1791304468712?e=2147483647&v=beta&t=VX36KaLXooti_VXI8sSdoDklUCHvLtqoEK32Qb6fOmw",
+    "topic": "Bun",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:46.287575+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/beste-alver-sırlıbaş-4533672a_turkcell-reflex-reflexbits-activity-7513850688779730944-venV",
+    "canonical_url": "https://tr.linkedin.com/posts/beste-alver-s%C4%B1rl%C4%B1ba%C5%9F-4533672a_turkcell-reflex-reflexbits-activity-7513850688779730944-venV",
+    "post_id": 7513850688779730944,
+    "author": "Beste Alver Sırlıbaş",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "9.2h (URL ID)",
+    "post_age_hours": 9.2,
+    "post_age_source": "url_id",
+    "post_text": "Çalışma hayatı, teknolojiler ve iş yapış şekillerimiz sürekli değişiyor. Ancak değişmeyen çok değerli bir şey var: Birlikte başardığımız her işin arkasında birbirimizin emeği, desteği ve katkısı var.\n\nBiz de bu anlayışla, uzun yıllardır hayatımızda olan ReFlex’i yeniden tasarladık.\n\nYenilenen ReFlex ve ReFlex BITS ile teşekkür etmeyi daha görünür, etkileşimli ve keyifli bir deneyime dönüştürdük. Oyunlaştırma, dijital rozetler ve diğer ödül uygulamalarımızla kurduğumuz bağlantılarla takdir kültürünü günlük çalışma hayatımızın daha güçlü bir parçası haline getirmeyi hedefledik.\n\nDiliyorum ki ReFlex’in yeni hali, emeği fark ettiğimiz, birbirimize destek olduğumuz ve teşekkür etmeyi hatırladığımız anları çoğaltsın; birlikte başarma kültürümüzü daha da güçlendirsin.\n\nBu yolculuğu birlikte tasarladığımız ve hayata geçirdiğimiz tüm ekip arkadaşlarıma ve paydaşlarımıza teşekkürler! 🙏 Duygu Kavcı Ayça Hoşer Liga Feyzanur Şahinkaya\n\n#Turkcell #ReFlex #ReFlexBITS #ÇalışanDeneyimi #TakdirKültürü #KurumKültürü",
+    "hashtags": [
+      "#Turkcell",
+      "#ReFlex",
+      "#ReFlexBITS",
+      "#ÇalışanDeneyimi",
+      "#TakdirKültürü",
+      "#KurumKültürü"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFUGW9fHPsU7Q/thumbnail-with-play-button-overlay-high/B4EaEaPVcQIUC4-/0/1791441598566?e=2147483647&v=beta&t=NH6vS4nlsS-ZyF5oy2ziddy-YZxi5vC1dpTNWG1nK9E",
+    "topic": "Reflex",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:54:47.005147+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/socketinc_you-wanted-vs-code-to-look-rad-now-you-have-activity-7513641966753132544-21kQ",
+    "canonical_url": "https://www.linkedin.com/posts/socketinc_you-wanted-vs-code-to-look-rad-now-you-have-activity-7513641966753132544-21kQ",
+    "post_id": 7513641966753132544,
+    "author": "Socket",
+    "is_company_account": false,
+    "followers": 13869,
+    "post_age": "23.1h (URL ID)",
+    "post_age_hours": 23.1,
+    "post_age_source": "url_id",
+    "post_text": "You wanted VS Code to look rad. Now you have TWO problems...",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQFH0zES74vfXg/thumbnail-with-play-button-overlay-high/B56aEXRfvbIAC0-/0/1791391828192?e=2147483647&v=beta&t=mxGShU325UlM3K9uwkGwH5sc-iQ2b0Bg3XmyEft-QaA",
+    "topic": "VS Code",
+    "score": 81.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.0,
+      "total": 81.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:54:02.621551+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aaron404-com_deep-dive-into-opencodes-source-code-the-activity-7513720007751753728-ogX1",
+    "canonical_url": "https://www.linkedin.com/posts/aaron404-com_deep-dive-into-opencodes-source-code-the-activity-7513720007751753728-ogX1",
+    "post_id": 7513720007751753728,
+    "author": "Aaron xie",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.8h (URL ID)",
+    "post_age_hours": 17.8,
+    "post_age_source": "url_id",
+    "post_text": "Can an AI agent perform better if you lie to it about its own identity?\nOpenCode used a single eight-word file called anthropic_spoof.txt to impersonate official products and unlock premium optimizations. The architecture behind that gamble—from layered prompt stacking and synthetic message injection to git-based undo—reveals how production-grade agents actually operate under the hood.\nAs the industry moves toward autonomy, these patterns of model-specific tuning and loop detection are essential for building robust tools that survive the next platform crackdown.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQECfRpoUVpewA/article-cover_image-shrink_720_1280/B56aCKC.xsIsAQ-/0/1789022435978?e=2147483647&v=beta&t=gkspM1qhZtDNjgTRZf74N3BSumIgk0jwwK57RcWohEs",
+    "topic": "OpenCode",
+    "score": 79.8,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 79.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:35.661149+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dogpawhat_happy-to-reveal-that-i-was-invited-to-the-activity-7513607963559919616-0pl1",
+    "canonical_url": "https://www.linkedin.com/posts/dogpawhat_happy-to-reveal-that-i-was-invited-to-the-activity-7513607963559919616-0pl1",
+    "post_id": 7513607963559919616,
+    "author": "Ciarán Curley",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "25.3h (URL ID)",
+    "post_age_hours": 25.3,
+    "post_age_source": "url_id",
+    "post_text": "Happy to reveal that I was invited to the TanStack maintainers team in September by Dominik Dorfmeister. Hoping to build on the legendary work done with TanStack Query (fka React Query) and the other TanStack libraries\n\nLike most open-source work this is a part-time volunteer role, so I'm very much still open to paid jobs at the moment. If you happen to need TanStack expertise in particular (with Query, Router/Start or our AI lib) ping me a message.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 38,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Tanstack Library",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:23.475026+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/matteocollina_do-you-still-read-code-written-by-ai-activity-7512905607343992832-3oTu",
+    "canonical_url": "https://www.linkedin.com/posts/matteocollina_do-you-still-read-code-written-by-ai-activity-7512905607343992832-3oTu",
+    "post_id": 7512905607343992832,
+    "author": "Matteo Collina",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.8h (URL ID)",
+    "post_age_hours": 71.8,
+    "post_age_source": "url_id",
+    "post_text": "\"Do you still read code written by AI?\"\n\nThat's the question I'm being asked whenever I meet a colleague. It gets to the heart of where our industry is right now.\n\nHere's my honest answer: I use AI every single day. It has made me more productive than I've ever been. I ship fixes to Node.js, Pino, Fastify, and undici constantly, and AI handles much of the implementation.\n\nBut I still review every single line that ships.\n\nMy bottleneck is no longer how fast I can code. It's how good I am at reviewing. When AI produces a security fix, I don't just check whether the tests pass. I'm asking whether it actually closes the attack vector, fits the architecture, maintains backward compatibility, and is something I can stand behind.\n\nThis is the argument I laid out in my newsletter piece \"[The Human in the Loop](\". I've reviewed and assessed code written by others in open source for over a decade. AI is just another contributor now. I review its PRs the same way I review anyone else's, and I decide if it's good enough.\n\nThe moment I stop reviewing is the moment I stop being responsible for what I ship.\n\nI've also been tracking this shift through an academic lens. A paper on the economics of judgment confirmed what I've been arguing from the trenches: the bottleneck has shifted from coding to judgment, and judgment is getting more valuable.\n\nMy real worry isn't that software development is dying. It's that we'll build a culture where \"I didn't review it, the AI wrote it\" becomes an acceptable excuse. When you can generate code at AI speed, the scale of damage from shipping code you don't understand is much larger than it was when you were limited by typing speed.\n\nSo do I still read code written by AI? Every single line. The human in the loop isn't a limitation to be optimized away: it's the point. It's what separates shipping something from standing behind it.\n\nWatch the full conversation: https://lnkd.in/dwW-CZtE\n\nAs always, let me know what you think. I'd love to hear where other maintainers land on this. | 41 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 388,
+      "comments": 41,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Fastify",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:29.304334+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/william-s-vincent_django-has-approved-a-new-release-cycle-activity-7512915778917261312-FqnO",
+    "canonical_url": "https://www.linkedin.com/posts/william-s-vincent_django-has-approved-a-new-release-cycle-activity-7512915778917261312-FqnO",
+    "post_id": 7512915778917261312,
+    "author": "William Vincent",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "71.1h (URL ID)",
+    "post_age_hours": 71.1,
+    "post_age_source": "url_id",
+    "post_text": "Django has approved a new release cycle. Soon there will be no more LTS releases or 6.0, 6.1, 6.2 type of progressions. Carlton Gibson explains why the Django Steering Council made this change and what it means for your Django workflow.\n\nFull video: https://lnkd.in/gKmaMWXn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 35,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQEwFaP3sB9bAw/thumbnail-with-play-button-overlay-high/B56aEM9CCeGgC0-/0/1791218696969?e=2147483647&v=beta&t=fsa0teDvKapgk38DboxEoBg5rjfvawAEKbbA4_oa4ls",
+    "topic": "Django",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:39.213854+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lioneljouvet_django-python-researchsupport-activity-7513135098309885952-Hq8J",
+    "canonical_url": "https://www.linkedin.com/posts/lioneljouvet_django-python-researchsupport-activity-7513135098309885952-Hq8J",
+    "post_id": 7513135098309885952,
+    "author": "Lionel Jouvet",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "56.6h (URL ID)",
+    "post_age_hours": 56.6,
+    "post_age_source": "url_id",
+    "post_text": "On Friday, I presented our development work at Django Day Copenhagen: the Proposal Feedback Tool (admittedly a bit of a mouthful—renaming pending!).\n\nI shared the architecture behind our system, which is designed to help research support staff manage the heavy workload of grant season using local and sovereign cloud LLMs.\n\nThe core challenge of integrating LLMs into institutional workflows isnt just technical; its about trust and data sovereignty. We relied on Django’s mature ecosystem to build a system where the AI acts strictly as a co-pilot, not an autopilot. By keeping the processing asynchronous and the data on-premise or within strict GDPR-compliant boundaries, we ensure that institutional context is preserved.\n\nAt SDU, we are fortunate to have access to the UCloud infrastructure from SDU eScience Center (https://lnkd.in/epybB4Vq), which allows us to host our server, database, and LLM inference completely independent of providers such as AWS or Azure. Claudio Pica\n\nThe conversations afterward really confirmed it: the developer community are actively looking for local, sovereign LLM solutions rather than just API wrappers.\n\nThank you to the organisers Benjamin Balder Bach & Django Danmark team and everyone who attended for the excellent discussions.\n\n#Django #Python #ResearchSupport #DataSovereignty #SDUeScienceCenter #UCloudAI #uLynks #SDURIO",
+    "hashtags": [
+      "#Django",
+      "#Python",
+      "#ResearchSupport",
+      "#DataSovereignty",
+      "#SDUeScienceCenter",
+      "#UCloudAI",
+      "#uLynks",
+      "#SDURIO"
+    ],
+    "engagement": {
+      "reactions": 35,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEbNylsKOp0Ag/feedshare-shrink_800/B4EaEQEjr7IwAc-/0/1791270993191?e=2147483647&v=beta&t=D-rTkJAU21GAcyOPRaYLP8Qy4Lml903bDvLSK34cgPE",
+    "topic": "Django",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:42.300080+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/freek-van-der-herten-3487a7181_after-moving-our-internal-apps-over-to-activity-7513264271175184384-VjI-",
+    "canonical_url": "https://www.linkedin.com/posts/freek-van-der-herten-3487a7181_after-moving-our-internal-apps-over-to-activity-7513264271175184384-VjI-",
+    "post_id": 7513264271175184384,
+    "author": "Freek Van der Herten",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "48.1h (URL ID)",
+    "post_age_hours": 48.1,
+    "post_age_source": "url_id",
+    "post_text": "💪 After moving our internal apps over to Laravel Cloud this weekend, my AI buddies and I proceeded to move a big part of our client sites over as well.\n\nSpatie has been (and still is) a web agency for almost 20 years, so you can imagine that we've amassed quite a few legacy projects.\n\nSome of these were on ancient versions of Laravel, and a couple... I don't even want to say what they were on 😱. As part of the move, the AI converted them to Laravel 13 in one fell swoop, and tests and all modern tools and best practices described in my skills.\n\nMoving these old and new projects was pretty wild, in the sense that it was so fast and flawless. It verified prepared DNS records, verified that databases were the same, that all media was the same, testing in browsers... All in parallel for those apps.\n\nComplaints from our clients reported because of mistakes: 0\n\nFeels very good to have made this move and to have those old projects on modern technology and platform.\n\nNext move: conversion to Rust? 😅 🦀 | 15 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 131,
+      "comments": 15,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Laravel",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:54.572682+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sajeevkr2_25-spring-boot-mistakes-that-cause-production-activity-7513114849472618496-RZO2",
+    "canonical_url": "https://www.linkedin.com/posts/sajeevkr2_25-spring-boot-mistakes-that-cause-production-activity-7513114849472618496-RZO2",
+    "post_id": 7513114849472618496,
+    "author": "Sajeev KR",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "58.0h (URL ID)",
+    "post_age_hours": 58.0,
+    "post_age_source": "url_id",
+    "post_text": "Spring Boot Mistakes That Cause Production Problems\n\nAnswer is shared in this link - https://lnkd.in/g-TDNtCk\n\n1. Using default database connection pool settings without considering production traffic.\n\n2. Returning JPA entities directly from REST APIs instead of using DTOs.\n\n3. Ignoring the N+1 query problem in Spring Data JPA.\n\n4. Using @Transactional without understanding transaction boundaries and proxy behavior.\n\n5. Calling a @Transactional method from another method in the same class and expecting the transaction to apply.\n\n6. Using unlimited retries when a downstream service is unavailable.\n\n7. Calling external services without connection and read timeouts.\n\n8. Creating large thread pools without understanding the workload and resource limits.\n\n9. Using parallelStream() blindly for production workloads.\n\n10. Loading large datasets into memory instead of using pagination or streaming.\n\n11. Using @Async without properly configuring and monitoring the executor.\n\n12. Storing secrets such as passwords and API keys directly in application.properties.\n\n13. Using the same configuration for development and production.\n\n14. Relying only on logs without metrics, health checks, and distributed tracing.\n\n15. Exposing sensitive information through exception messages or API responses.\n\n16. Using overly broad exception handling such as catch (Exception e) everywhere.\n\n17. Ignoring graceful shutdown during deployments.\n\n18. Running scheduled jobs on every application instance without preventing duplicate execution.\n\n19. Adding caching without planning cache invalidation and stale data handling.\n\n20. Deploying database schema changes that are incompatible with the currently running application version.\n\n21. Using synchronous calls for every microservice interaction when asynchronous processing would be more appropriate.\n\n22. Ignoring idempotency for APIs that perform payments, orders, or other critical operations.\n\n23. Setting Kubernetes CPU and memory limits without understanding the JVM's resource requirements.\n\n24. Using health checks that only verify whether the application process is running instead of checking critical dependencies appropriately.\n\n25. Optimizing code before measuring the actual production bottleneck.\n\nWhich Spring Boot mistake have you seen cause the biggest production problem?\n\n📒 Java Spring Boot & Microservices Interview Q&A (200 Qs) - https://lnkd.in/gqhJhmcZ\n\n📚 Full interview kit (600 Qs: Java, Springboot, database, devops, cloud, system design, microservice) - https://lnkd.in/gPi2W587\n\n🗃Complete Java Full Stack Developer Kit (900 Qs: Core Java, Spring Boot & Microservices, Cloud/DevOps/System Design, React & Angular) - https://lnkd.in/gETHigfA",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 39,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQEG308tL886jg/articleshare-shrink_800/B56aEVMX_DHUAQ-/0/1791356931261?e=2147483647&v=beta&t=aloNb8M4EcqbAjBM_WS0ub-W0TYj88HOJYOAUkj-Eq4",
+    "topic": "Spring Boot",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:15.993576+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/stevebarthwonderingmacro_burger-king-changed-their-bun-%E3%85%A4-it-cost-activity-7513252015884451840-ABeF",
+    "canonical_url": "https://www.linkedin.com/posts/stevebarthwonderingmacro_burger-king-changed-their-bun-%E3%85%A4-it-cost-activity-7513252015884451840-ABeF",
+    "post_id": 7513252015884451840,
+    "author": "Steve Barth",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "48.9h (URL ID)",
+    "post_age_hours": 48.9,
+    "post_age_source": "url_id",
+    "post_text": "Burger King changed their bun.\nㅤ\nIt cost them more, but you can taste the difference.\nㅤ\nThis summer, McDonald's posted U.S. same-store sales growth of less than one percent…while Burger King's U.S. comparable same-store sales rose eight and a half percent. To me, there is a reason why these two very similar kinds of businesses are diverging at the moment. There are structural shifts at play.\nㅤ\nBurger King has experienced the same cost pressures as the rest of the industry, but instead of relying only on price, it invested back into the product and restaurant experience. They changed the bun. They used better ingredients. They set out to hire sixty thousand people to improve the experience at the restaurant.\nㅤ\nThey invested in what I call productive friction, the kind that costs more, but produces something worthwhile that customers can feel.\nㅤ\nUntil very recently, McDonald's generally went the other direction: more value meals, lower prices, faster throughput. Everything optimized for volume.\nㅤ\nConsumers do not value friction itself. They value what that productive friction prevents you from optimizing away.\nㅤ\nThese individual decisions by companies can make sense at the time. But eventually the customer feels the accumulated effect. The sandwich is a little worse. The restaurant feels a little more transactional. The product feels more engineered around cost and throughput. Nothing catastrophic happened. You simply optimized away some of the reasons the customer wanted it in the first place.\nㅤ\nThere are rewards for not optimizing away productive friction across the industry. Cava, for example, is growing same-store sales and traffic at a rapid rate, while Chipotle has returned to positive transaction growth. The brands doing well right now are the ones where quality is the focus, or the willingness to be slower and more deliberate is visible in the product.\nㅤ\nIn different forms, people keep gravitating toward things that are stubbornly, deliberately human. The places where someone cared about what they were making, at some step along the way.\nㅤ\nWhen you optimize for efficiency at the expense of everything else, quality is the first thing to go. It’s no surprise that people take note.\nㅤ\nThink about what that might mean in your organization while you’re picking up lunch today. | 21 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 29,
+      "comments": 21,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHbT2v39sG8Tw/feedshare-shrink_1280/B4EaERr2JSHwAQ-/0/1791298069484?e=2147483647&v=beta&t=yySMF7VHxdfcGqErDK-KNVlAeCeupDMXGUTVKHUqawk",
+    "topic": "Bun",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:52.212127+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/alexis-wainwright_team-bun-says-its-time-to-stop-working-and-activity-7513032900120932352-a5gu",
+    "canonical_url": "https://www.linkedin.com/posts/alexis-wainwright_team-bun-says-its-time-to-stop-working-and-activity-7513032900120932352-a5gu",
+    "post_id": 7513032900120932352,
+    "author": "Alexis Wainwright 🐛",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.4h (URL ID)",
+    "post_age_hours": 63.4,
+    "post_age_source": "url_id",
+    "post_text": "Team Bun says it's time to stop working and have a Monday nap.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 46,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEVHRaWKw0pvw/feedshare-shrink_800/B56aEOnm8SJoAc-/0/1791246627378?e=2147483647&v=beta&t=Bx4iItCNfiZPXNr3vrjja4CL5_O8QKb_BuRPONtqGss",
+    "topic": "Bun",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:53.704409+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivan-lungu-a85649141_nodejs-just-changed-how-it-ships-and-it-activity-7513123448970194944-5zMA",
+    "canonical_url": "https://www.linkedin.com/posts/ivan-lungu-a85649141_nodejs-just-changed-how-it-ships-and-it-activity-7513123448970194944-5zMA",
+    "post_id": 7513123448970194944,
+    "author": "Ivan Lungu",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "57.4h (URL ID)",
+    "post_age_hours": 57.4,
+    "post_age_source": "url_id",
+    "post_text": "Node.js just changed how it ships, and it starts this month.\n\nFor years, the rule was simple:\n\nEven versions = LTS.\nOdd versions = short-lived.\n\nThat rule is gone.\n\nStarting with Node 27:\n- One major release per year, in April\n- Every major release eventually becomes LTS\n- 6 months Alpha - 6 months Current - 30 months LTS\n\nWhat this means for your team:\n\n• Node 26 is the last release under the old model. It enters LTS this month and reaches EOL in April 2029.\n• Node 27 enters Alpha this month, becomes Current in April 2027, and reaches LTS in October 2027.\n• Still on Node 22? Its EOL is April 2027. Time to start planning the upgrade.\n\nAnd if you move to Node 26, you also get the Temporal API enabled by default.\n\nFinally, a modern alternative to Date.\n\nThe reasoning makes sense: fewer release lines mean less maintenance for a project largely supported by volunteers, while giving teams a more predictable upgrade cycle.\n\nFewer releases. Less confusion. Longer support.\n\nHonestly, this feels like a change Node.js teams have been waiting for.\n\nSource in comment",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 31,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQFXz5qcCmusZw/feedshare-shrink_1280/B4DaEP59tEHcAM-/0/1791268216074?e=2147483647&v=beta&t=yo6rqGjuqrSjQFA17bXw6sPLokoPdrC31-HVqiCuy_M",
+    "topic": "Node.js",
+    "score": 73.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 12.4,
+      "total": 73.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:53.560866+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dev-inception_kubernetes-kubernetesoperators-devops-activity-7513624476748791808-qJ-9",
+    "canonical_url": "https://www.linkedin.com/posts/dev-inception_kubernetes-kubernetesoperators-devops-activity-7513624476748791808-qJ-9",
+    "post_id": 7513624476748791808,
+    "author": "Dev Inception",
+    "is_company_account": false,
+    "followers": 2565,
+    "post_age": "24.2h (URL ID)",
+    "post_age_hours": 24.2,
+    "post_age_source": "url_id",
+    "post_text": "Kubernetes Operators can take complex, repeatable operational tasks and turn them into automated workflows.\nThey are especially useful when applications need frequent updates, scaling, backups, recovery, or ongoing monitoring.\nFor complex and stateful systems, this can reduce manual work and make operations more consistent.\nBut an Operator is not always the best choice.\nIf the workload is simple, existing tools like Helm, GitOps, or scripts may already be enough.\nThe real question is whether the operational complexity justifies the extra development and maintenance.\nUse Operators when they solve a real operational problem not just because Kubernetes makes them possible.\n\n#Kubernetes #KubernetesOperators #DevOps #PlatformEngineering #CloudNative #K8s #SRE #InfrastructureAutomation #GitOps #CloudComputing",
+    "hashtags": [
+      "#Kubernetes",
+      "#KubernetesOperators",
+      "#DevOps",
+      "#PlatformEngineering",
+      "#CloudNative",
+      "#K8s",
+      "#SRE",
+      "#InfrastructureAutomation",
+      "#GitOps",
+      "#CloudComputing"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQE9yVsdcUGfYA/feedshare-shrink_1280/B4DaEXBpeSJAAM-/0/1791387670740?e=2147483647&v=beta&t=-PHlK0DrkO0oJ-hbNB50eA09GlCGbcHLg5hNnoNDp90",
+    "topic": "Kubernetes operators",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:50:49.350854+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/opencode-nit-rourkela_opencode-codeutsava-hackathon-activity-7513479775068278784-3hwd",
+    "canonical_url": "https://www.linkedin.com/posts/opencode-nit-rourkela_opencode-codeutsava-hackathon-activity-7513479775068278784-3hwd",
+    "post_id": 7513479775068278784,
+    "author": "Opencode NIT Rourkela",
+    "is_company_account": false,
+    "followers": 998,
+    "post_age": "33.8h (URL ID)",
+    "post_age_hours": 33.8,
+    "post_age_source": "url_id",
+    "post_text": "OpenCode at CodeUtsava X.0 🏆\n\nTwo OpenCode teams took part in CodeUtsava X.0, NIT Raipur's flagship hackathon, and both came home with awards. We're proud of how our members performed.\n\n⚡ Team DynamicIP: Overall Runner-Up\nAn all second-year team of Chinimilli Venkata Hema Vardhan ,Darisi Puneeth, ASHISH RAJ, Raghavendra Yerrapragada. They tackled electricity theft detection and earned the bigger of the two awards, finishing second overall.\n\n📈 Team CATGPT: Track Winners\nA second-year team of Siddha Narayan Patra , Sairaj Tripathy, Lynessa Sahoo and our President, Abhijeet Biswal . They built StopLoss Intelligence, a multi-agent AI terminal for financial portfolio risk analysis that links real-world events to portfolio impact and recommends evidence-backed hedges.\n\n👏 Special appreciation to Raksha Mendon and Ayantik Sarkar , who competed in a different team. They didn't place this time, but their effort and commitment were just as valuable. We're proud of them for taking on the challenge.\n\nThank you to the Turing Club of Programmers and the CodeUtsava team at NIT Raipur for a well-organized event.\n\nCongratulations to everyone who represented OpenCode! 🚀\n\n#OpenCode #CodeUtsava #Hackathon #NITRaipur #Teamwork",
+    "hashtags": [
+      "#OpenCode",
+      "#CodeUtsava",
+      "#Hackathon",
+      "#NITRaipur",
+      "#Teamwork"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEr5CLtfaXdnw/feedshare-shrink_800/B4EaEU.CUJLIAg-/0/1791353169466?e=2147483647&v=beta&t=Nnra3sQjUMaRhxH-QmqhplWcxh3yfCMfPcnI6AEJ948",
+    "topic": "OpenCode",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:50.592587+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/casey-klyszeiko-42512b13_ai-is-reshaping-commerce-and-changing-whats-activity-7513399645537218561-G7uj",
+    "canonical_url": "https://www.linkedin.com/posts/casey-klyszeiko-42512b13_american-express-launches-playbook-to-help-activity-7513399645537218561-C1wG",
+    "post_id": 7513399645537218561,
+    "author": "Casey Klyszeiko",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "39.1h (URL ID)",
+    "post_age_hours": 39.1,
+    "post_age_source": "url_id",
+    "post_text": "AI is reshaping commerce - and changing what's possible across the entire shopping journey, from discovery and decision-making to payment and checkout. This is the type of challenge I love: the chance to build products, experiences, and capabilities that make shopping more intuitive and more valuable for both customers and businesses, while making sure it's all built on safety and security.\n\nThat's why American Express created the Amex Business Playbook for Agentic Commerce - a practical guide to help businesses understand what's changing, prepare for what's next, and identify meaningful steps they can take to get started today.\n\nLearn more in today's announcement: lnkd.in/eedCb-H9",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Express",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:13.826568+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/davidramel_stack-overflow-2026-survey-vs-code-leads-activity-7513264619545640962-8cey",
+    "canonical_url": "https://www.linkedin.com/posts/davidramel_stack-overflow-2026-survey-vs-code-leads-activity-7513264619545640962-8cey",
+    "post_id": 7513264619545640962,
+    "author": "David Ramel",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "48.0h (URL ID)",
+    "post_age_hours": 48.0,
+    "post_age_source": "url_id",
+    "post_text": "Stack Overflows 2026 Developer Survey puts VS Code first in editor usage and Visual Studio third, narrowly behind Notepad++. GitHub Copilot ranks second among coding agents and assistants, behind Claude Code, while ASP.NET Core places fourth in web technology usage. The results offer a snapshot of Microsoft and GitHub tools across distinct respondent groups, with multiple selections allowed.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFfNgLrZMjgBw/articleshare-shrink_800/B4EaER6U9WG0AY-/0/1791301865838?e=2147483647&v=beta&t=eOaZH4ZZ5Gefq9hmj0CafAGzy_pKcmHBIhy6OqFWZk8",
+    "topic": "VS Code",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:58.244074+00:00"
+  },
+  {
+    "url": "https://se.linkedin.com/posts/mmbfs-premium-bilrekond-och-bilvårdsprodukter-99a4a23a6_mmbfs-norrköping-invigning-activity-7513585954562011136-nQFH",
+    "canonical_url": "https://se.linkedin.com/posts/mmbfs-premium-bilrekond-och-bilv%C3%A5rdsprodukter-99a4a23a6_mmbfs-norrk%C3%B6ping-invigning-activity-7513585954562011136-nQFH",
+    "post_id": 7513585954562011136,
+    "author": "MMBFS Premium Bilrekond och Bilvårdsprodukter",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "26.8h (URL ID)",
+    "post_age_hours": 26.8,
+    "post_age_source": "url_id",
+    "post_text": "Vi öppnar dörrarna till nya MMBFS och ni är bjudna!\n\nDen 20 oktober kl. 11:00–14:00 är det dags för invigning av vår lokal på Fjärilsgatan 29 i Norrköping.\n\nVi vill göra det till mer än bara en invigning. Tillsammans med några grymma lokala företag skapar vi en dag med fika, aktiviteter, nätverk, träning, golf och självklart fordon.\n\n☕ Ohana bjuder på kaffe, fika och något gott.\n\n🏆 Prestige Fitness Club bjuder på proteinshakes, träningsutmaningar och aktiviteter.\n\n🎨 Let’s Paint bjuder på fika och färgkulörer att ta med hem.\n\n⛳ RUFF kör golfutmaningar och roliga aktiviteter för besökarna.\n\nDessutom kommer en stor Norrköpingsprofil att finnas på plats med två fordon utställda.\n\nTa med familjen, vännerna eller kollegorna och kom förbi. Alla är välkomna.\n\n📍 Fjärilsgatan 29, Norrköping\n📅 20 oktober\n⏰ 11:00–14:00\nVi ses hos nya MMBFS.\n\nSprid och dela detta inlägg gärna😝\n\nLets Paint Måleri och Design Natalie Kjellander RUFF Golf Europe Emil Hultner Elli Zaar Daniel Salin Mattias Salim Norrköpings kommun Norrköpings Tidningar Norrköping Handel\n\n#MMBFS #Norrköping #Invigning #Företagande #Nätverk #LokaltFöretagande\n#LetsPaint #ohana #ruff #pfc #norrköping #linköping #östgötland",
+    "hashtags": [
+      "#MMBFS",
+      "#Norrköping",
+      "#Invigning",
+      "#Företagande",
+      "#Nätverk",
+      "#LokaltFöretagande",
+      "#LetsPaint",
+      "#ohana",
+      "#ruff",
+      "#pfc",
+      "#norrköping",
+      "#linköping",
+      "#östgötland"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQG2kGg1deC8yw/feedshare-shrink_800/B4DaEWenJmKAAc-/0/1791378486139?e=2147483647&v=beta&t=JIqpaP0zrCbkSDY-MNuDHVysdiEL3XaX-QvBZV4Ymro",
+    "topic": "Ruff",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:54:38.102057+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/akshika_154003-to-217000-a-year-plus-bonus-and-activity-7512995081843322880-fzMh",
+    "canonical_url": "https://www.linkedin.com/posts/akshika_154003-to-217000-a-year-plus-bonus-and-activity-7512995081843322880-fzMh",
+    "post_id": 7512995081843322880,
+    "author": "Dr Akshika Wijesundara",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.8h (URL ID)",
+    "post_age_hours": 65.8,
+    "post_age_source": "url_id",
+    "post_text": "$154,003 to $217,000 a year, plus bonus and equity, to make the ML systems behind every Meta product run faster and cheaper.\n\nIf you've ever wondered who gets paged when a training job crawls or an inference pipeline chokes at Meta's scale, this is that team. Systems ML is the infrastructure layer underneath the models, not the models themselves.\n\nYou'd be working across the full stack, from training frameworks down to hardware-aware optimizations, so this isn't a role for someone who only wants to stay in Python notebooks.\n\n🛠️ 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂'𝗱 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗯𝘂𝗶𝗹𝗱:\n• Large-scale ML training and inference systems, including distributed computing frameworks and hardware-accelerated pipelines\n• High-performance ML infrastructure in C++ and Python that actually has to stay reliable at billions-of-users scale\n• The profiling and benchmarking work that finds where compute, memory bandwidth or I/O is actually the bottleneck\n• Staged rollout and experimentation setups so ML system changes ship without breaking production\n\n🎯 𝗪𝗵𝗼 𝘀𝗵𝗼𝘂𝗹𝗱 𝗽𝗮𝘆 𝗮𝘁𝘁𝗲𝗻𝘁𝗶𝗼𝗻?\n• People with 6+ years in software engineering, specifically on ML systems or AI infrastructure, not just applied ML\n• Engineers who are genuinely comfortable in both C++ and Python for performance-critical code\n• Anyone who's used PyTorch or TensorFlow at the level of optimizing the training or inference pipeline itself, not just calling the API\n• People who like the kind of problem where the fix is in memory bandwidth or compute utilization, not the model architecture\n\nMy honest take: this is one of the few AI-adjacent roles where you barely touch the model and still have enormous leverage, since everything else at Meta runs on top of what this team builds.\n\n📍 One detail worth knowing: it's fully on-site in Bellevue, not hybrid, and the pay band doesn't even include the bonus and equity on top.\n\n🔎 What the interview process might look like\nBased on similar Meta infrastructure roles, I'd expect:\n• A recruiter screen on your ML systems and infrastructure background specifically\n• A coding round, likely in C++ or Python, focused on performance-critical code rather than algorithms puzzles\n• A system design round on distributed ML training or inference at scale\n• A behavioral round that digs into how you've actually diagnosed and fixed a real production bottleneck\n\nI'm Dr. Aki, and I share the latest AI insights and new AI roles. Follow for more!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 50,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Python performance",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:50:33.952884+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/usman-abbas-8655a6168_reactjs-javascript-frontenddevelopment-activity-7513550272779067394-owLz",
+    "canonical_url": "https://www.linkedin.com/posts/usman-abbas-8655a6168_reactjs-javascript-frontenddevelopment-activity-7513550272779067394-owLz",
+    "post_id": 7513550272779067394,
+    "author": "Usman Abbas",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "29.1h (URL ID)",
+    "post_age_hours": 29.1,
+    "post_age_source": "url_id",
+    "post_text": "A slow API response can overwrite a newer one.\n\nHeres the bug:\n\nA user types \"re\", then \"react\".\n→ Request A (\"re\") is slow\n→ Request B (\"react\") is fast\n→ B arrives first, so the UI shows \"react\" results\n→ Then A arrives and overwrites them with \"re\" results\n\nNo error. No crash. Just wrong data on screen.\n\nThe cause: requests dont always finish in the order they started.\n\nHow to prevent it:\n🔹 AbortController\nCancel the previous request when the input changes. In a useEffect, return () => controller.abort() from the cleanup, and ignore the AbortError so it doesnt show up as a real failure.\n\n🔹 Ignore flag or request ID\nSet a flag in the effect cleanup, or compare each response against the latest request ID, and drop anything stale. This is the pattern in Reacts own docs.\n\n🔹 Use a data-fetching library\nTanStack Query and SWR tie results to the query key, so a late response for an old key cant replace the current one.\n\nTwo things to remember:\n- Debouncing reduces requests, but it doesnt remove the race.\n- Aborting stops the browser request, but your server may still finish the work, so keep writes idempotent.\n\nDo you cancel requests in your effects, or rely on a library?\n\n#ReactJS #JavaScript #FrontendDevelopment #FullStackDevelopment #WebDevelopment #SoftwareEngineering #TypeScript #NodeJS #WebPerformance #MERN",
+    "hashtags": [
+      "#ReactJS",
+      "#JavaScript",
+      "#FrontendDevelopment",
+      "#FullStackDevelopment",
+      "#WebDevelopment",
+      "#SoftwareEngineering",
+      "#TypeScript",
+      "#NodeJS",
+      "#WebPerformance",
+      "#MERN"
+    ],
+    "engagement": {
+      "reactions": 8,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHxFuzv9WX1Sw/feedshare-shrink_1280/B4EaEV.J9MJIAQ-/0/1791369977988?e=2147483647&v=beta&t=XXCpFytJVLNdiI4SuAwwsCUCqOdubMlTYv8dcqwqhLE",
+    "topic": "Tanstack Library",
+    "score": 71.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 6.8,
+      "total": 71.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:26.696090+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/juliendubois_bootui-the-missing-developer-console-for-activity-7513519787855990784-Hy96",
+    "canonical_url": "https://www.linkedin.com/posts/juliendubois_bootui-the-missing-developer-console-for-activity-7513519787855990784-Hy96",
+    "post_id": 7513519787855990784,
+    "author": "Julien Dubois",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "31.1h (URL ID)",
+    "post_age_hours": 31.1,
+    "post_age_source": "url_id",
+    "post_text": "The BootUI session at #Devoxx that I did yesterday afternoon is already available on YouTube:\n\nhttps://lnkd.in/ex_sNPEJ\n\nIncluding a sneak peak on our future v2 release!",
+    "hashtags": [
+      "#Devoxx"
+    ],
+    "engagement": {
+      "reactions": 13,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFO-4Dh3EAnfw/articleshare-shrink_800/B4EaEU_yZgH0Ag-/0/1791353628647?e=2147483647&v=beta&t=In9ttxMbbCPAaQ-v9zqtHHR3C4siKtseUvnbT3-3RrY",
+    "topic": "Spring Boot",
+    "score": 70.1,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 5.6,
+      "total": 70.1
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:22.051450+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/activity-7513317347986669570-8fI4",
+    "canonical_url": "https://www.linkedin.com/posts/openjs-foundation_nodejs-is-changing-how-it-approaches-activity-7513317347986669570-68QX",
+    "post_id": 7513317347986669570,
+    "author": "OpenJS Foundation",
+    "is_company_account": true,
+    "followers": 10484,
+    "post_age": "44.5h (URL ID)",
+    "post_age_hours": 44.5,
+    "post_age_source": "url_id",
+    "post_text": "🔄 Node.js is changing how it approaches major releases.\n\nNode.js 26 will be the final release under the project’s twice-yearly model. Starting with Node.js 27, new major versions will follow an annual release schedule, giving developers a more predictable lifecycle to plan around.\n\nBut a clearer release schedule does not automatically move production applications forward. If your application is still tied to Node.js 12, 14, 16, 18, or 20, upgrading may require dependency updates, compatibility testing, and changes to application behavior.\n\nTuxCare's Endless Lifecycle Support provides ongoing CVE patches for these Node.js versions, so you can keep your application protected while working toward a supported release.\n\nLearn more:\nhttps://lnkd.in/gG-XyESn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 41,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHWvAadYJtoDw/feedshare-image-high-res/B56aESqUWDJwAU-/0/1791314445914?e=2147483647&v=beta&t=2yxhEOh3Qk6M3raMKd9bIlEScjE-bjs7WZfVO96djK8",
+    "topic": "Node.js",
+    "score": 69.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 69.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:52.045323+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/allied-photochemical-inc-_uv-coating-pipe-activity-7513659636143562752-pz61",
+    "canonical_url": "https://www.linkedin.com/posts/allied-photochemical-inc-_uv-coating-pipe-activity-7513659636143562752-pz61",
+    "post_id": 7513659636143562752,
+    "author": "Allied PhotoChemical Inc.",
+    "is_company_account": true,
+    "followers": 647,
+    "post_age": "21.9h (URL ID)",
+    "post_age_hours": 21.9,
+    "post_age_source": "url_id",
+    "post_text": "Fast line? Good. Fast cure? Even better.\n\nPipe and tube is a natural fit for UV. You get an instant cure, immediate handling, tough corrosion protection, and no big ovens eating up floor space.\n\nIf you work in pipe and tube and think your line could benefit from UV-cured coatings, we'd love to talk.\n\n#UV #Coating #Pipe #Tube #Manufacturing",
+    "hashtags": [
+      "#UV",
+      "#Coating",
+      "#Pipe",
+      "#Tube",
+      "#Manufacturing"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQGCZCa90zPJ6w/thumbnail-with-play-button-overlay-high/B56aEXhi.kJwC4-/0/1791396038704?e=2147483647&v=beta&t=pK2kQNFq_cPXFpGI2eYl6NpOyint6Z-4d6r5d5mzt6Y",
+    "topic": "Uv",
+    "score": 66.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 66.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:54:21.236929+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/paul-mosquera_nodejs-is-dead-activity-7512902314484060160-Pvcc",
+    "canonical_url": "https://www.linkedin.com/posts/paul-mosquera_nodejs-is-dead-activity-7512902314484060160-Pvcc",
+    "post_id": 7512902314484060160,
+    "author": "Paul Mosquera",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "72.0h (URL ID)",
+    "post_age_hours": 72.0,
+    "post_age_source": "url_id",
+    "post_text": "Node.js is dead. Long live Bun. 👑\n\nWe moved every backend service on our platform to Bun.\n\nSame traffic. New runtime.\n→ ~25% less CPU at peak\n→ CPU throttling down to zero\n→ p99 latency down ~40%\n→ Zero rollbacks\n\nThe real story isn't the runtime. Our APM couldn't see Bun, the kind of blocker that kills a migration.\n\nAn AI agent in OpenCode fixed it in about two hours. Then it migrated the first service, and we turned that into a skill the whole team now uses.\n\nFull story and charts 👇 link in the first comment.\n\n#Bun #NodeJS #PlatformEngineering #AIAgents",
+    "hashtags": [
+      "#Bun",
+      "#NodeJS",
+      "#PlatformEngineering",
+      "#AIAgents"
+    ],
+    "engagement": {
+      "reactions": 10,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Node.js",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:59.974052+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/suneela-thatte-309792a_express-pharma-october-2026-express-pharma-activity-7513182122451591168-iImD",
+    "canonical_url": "https://www.linkedin.com/posts/suneela-thatte-309792a_express-pharma-october-2026-express-pharma-activity-7513182122451591168-iImD",
+    "post_id": 7513182122451591168,
+    "author": "SUNEELA THATTE",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "53.5h (URL ID)",
+    "post_age_hours": 53.5,
+    "post_age_source": "url_id",
+    "post_text": "What will it take for India to move from being a talent pool to being the place where innovation is shaped?\n\nIn a recent conversation with Express Pharma, I reflected on India's evolving role in global healthcare R&D , from contributing scale to shaping the science and the decisions behind it. The foundation is in place, with strong policy frameworks, leading institutions, and industry programs. What we need now is a better coordination - with industry, academia, and policymakers moving together on a shared timeline.\n\nAt Merck, our Catalyst program, built with academic partners, shows what this alignment can achieve. Some of the students who trained through it have since joined us and are doing exceptionally well. Our Career Fair, hosted last week for the fourth consecutive year, reflects the same belief. Colleagues learned how roles and functions connect across R&D, and students from six premier institutes engaged directly with our SMEs and leaders to see what life in a healthcare R&D organization looks like. Exposure like these builds understanding and understanding helps shape confident professionals.\n\nRead the full interview here: [Refer to page 27]\n\nhttps://lnkd.in/dp6HPCSq #HealthcareRD\n\n#IndustryAcademiaCollaboration #Talent #Ramp;D #CareerFair",
+    "hashtags": [
+      "#HealthcareRD",
+      "#IndustryAcademiaCollaboration",
+      "#Talent",
+      "#Ramp",
+      "#CareerFair"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQG2IhIe7FJz1g/articleshare-shrink_480/B4DaEQtvyJK4AY-/0/1791281790936?e=2147483647&v=beta&t=jXw4bDElMUZIEwmSQDcXkQ0kmN5SnZXD2QrRy9q9kUA",
+    "topic": "Express",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:12.437013+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dfir-lab_nest-is-a-framework-for-building-scalable-activity-7513115361169346560-P84x",
+    "canonical_url": "https://www.linkedin.com/posts/dfir-lab_nest-is-a-framework-for-building-scalable-activity-7513115361169346560-P84x",
+    "post_id": 7513115361169346560,
+    "author": "DFIR Lab",
+    "is_company_account": false,
+    "followers": 696,
+    "post_age": "57.9h (URL ID)",
+    "post_age_hours": 57.9,
+    "post_age_source": "url_id",
+    "post_text": "Nest is a framework for building scalable Node.js server-side applications. Versions prior to 11.1.11 have a Fastify URL encoding middleware bypass. A NestJS application is vulnerable if it uses `@nestjs/platform-fastify`; relies on `NestMiddleware` (via `MiddlewareConsumer`) for security checks (authentication, authorization, etc.), or through `app.use()`; and applies middleware to specific routes using string paths or controllers (e.g., `.forRoutes('admin')`). Exploitation can result in unauthenticated users accessing protected routes, restricted administrative endpoints becoming accessible to lower-privileged users, and/or middleware performing sanitization or validation being skipped. This issue is patched in `@nestjs/platform-fastify@11.1.11`.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQE8aQ2lEzYORg/feedshare-shrink_800/B4EaEPynObLEAc-/0/1791266289321?e=2147483647&v=beta&t=TI19-8vJEElK0F5oCtBMvH8ctWAxq8CXF9hU4cx9rJU",
+    "topic": "Fastify",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:27.577203+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/laravel-news_laravel-september-product-updates-laravel-activity-7513043381590265856-YPIt",
+    "canonical_url": "https://www.linkedin.com/posts/laravel-news_laravel-september-product-updates-laravel-activity-7513043381590265856-YPIt",
+    "post_id": 7513043381590265856,
+    "author": "Laravel News",
+    "is_company_account": false,
+    "followers": 144715,
+    "post_age": "62.7h (URL ID)",
+    "post_age_hours": 62.7,
+    "post_age_source": "url_id",
+    "post_text": "Laravel September product updates\nhttps://lnkd.in/eFvBs5Db",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQEi8ZU6ACwzMA/image-shrink_800/B4EaEOw6wMHoAg-/0/1791249067396?e=2147483647&v=beta&t=fkhuQNeExDJaCxIfiT72BH6wVq9SOfyZWpFRZIxuGNk",
+    "topic": "Laravel",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:59.307299+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/escuela-de-derecho-universidad-de-valparaíso-5b7547156_tu-futuro-universitario-comienza-en-activity-7512940679275343873-oGDp",
+    "canonical_url": "https://es.linkedin.com/posts/escuela-de-derecho-universidad-de-valpara%C3%ADso-5b7547156_tu-futuro-universitario-comienza-en-activity-7512940679275343873-oGDp",
+    "post_id": 7512940679275343873,
+    "author": "Escuela de Derecho Universidad de Valparaíso",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "69.5h (URL ID)",
+    "post_age_hours": 69.5,
+    "post_age_source": "url_id",
+    "post_text": "🎓✨ ¡Tu futuro universitario comienza en la ExpoUV 2026!\n\n¿Estás pensando en estudiar Derecho? ⚖️ ¡Esta invitación es para ti!\n\nEste miércoles 14 y jueves 15 de octubre, la Escuela de Derecho de la UV será parte de la ExpoUV 2026, instancia donde podrás conocer la oferta académica y los servicios que la Universidad de Valparaíso tiene para ti en el proceso de Admisión 2027.\n\nIbzán Orellana, Catalina Contreras, Renata Díaz y Sofía Fuentes, estudiantes de nuestra carrera, te invitan a visitar nuestro stand, conversar con estudiantes y profesores, y conocer más sobre Derecho UV 👩‍⚖️👨‍⚖️\n\nAdemás, podrás participar en juicios simulados y ganar premios 🏆⚖️. ¡Una oportunidad para vivir de cerca la experiencia de estudiar Derecho en la UV!\n\n📅 Miércoles 14 y jueves 15 de octubre\n🕘 9:00 a 14:00 horas\n📍 Facultad de Arquitectura UV\nAv. El Parque 570, cerro Playa Ancha, Valparaíso.\n\n🙌 ¡Invitamos a todas y todos los escolares a ser parte de esta experiencia! Ven, pregunta, participa y comienza a imaginar tu futuro en la Escuela de Derecho UV.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEyQszbFj-_oA/thumbnail-with-play-button-overlay-high/B4DaENTstRJ8C4-/0/1791224632417?e=2147483647&v=beta&t=ES6yMOsArqFgLNooX_jKfyr_nhjsmu7WAVCAS4Rbsn8",
+    "topic": "Uv",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:54:19.878078+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aikido-security_device-protection-now-supports-linux-activity-7513945923899719680-fcLq",
+    "canonical_url": "https://www.linkedin.com/posts/aikido-security_device-protection-now-supports-linux-activity-7513945923899719680-fcLq",
+    "post_id": 7513945923899719680,
+    "author": "Aikido Security",
+    "is_company_account": false,
+    "followers": 44463,
+    "post_age": "2.9h (URL ID)",
+    "post_age_hours": 2.9,
+    "post_age_source": "url_id",
+    "post_text": "Device Protection now supports Linux 🐧\n\nBlock malicious packages, extensions, and code libraries across macOS, Windows, and Linux. Every OS your team works on, covered.\n\nProtect every install: https://lnkd.in/gJUsz9bf",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFW7JPf5oABVA/feedshare-shrink_1280/B4EaEbmANaH4AU-/0/1791464309871?e=2147483647&v=beta&t=4VITNAmz86oAWwaQeue_ja_9_dW3bHZwUEIUxGN7bVc",
+    "topic": "Tanstack Library",
+    "score": 63.2,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 63.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:53:31.423578+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/line-man-wongnai_hiring-lifeatlmwn-linemanwongnai-activity-7513149446218539008-lCay",
+    "canonical_url": "https://www.linkedin.com/posts/line-man-wongnai_hiring-lifeatlmwn-linemanwongnai-activity-7513149446218539008-lCay",
+    "post_id": 7513149446218539008,
+    "author": "LINE MAN Wongnai",
+    "is_company_account": false,
+    "followers": 121413,
+    "post_age": "55.6h (URL ID)",
+    "post_age_hours": 55.6,
+    "post_age_source": "url_id",
+    "post_text": "We’re #hiring a Senior Software Engineer, Backend (Go) to join our Food Delivery, Affiliate, and Financial Products teams.\n\nWhat You’ll Do:\n\n- Design and develop high-performance, scalable backend systems and back-office tools powering LINE MAN Wongnai's core services.\n- Own end-to-end software development—from system design, coding, and TDD to CI/CD deployment, production monitoring, and maintenance.\n- Lead designs for major software components and drive cross-collaboration across teams to cultivate engineering innovation.\n- Work closely within cross-functional teams (QA, UX/UI, Product Managers) to deliver real impact for millions of daily users.\n\nWe’re Looking For:\n☑️ 5+ years of experience in software engineering or a related technical field.\n☑️ Hands-on proficiency in Go with strong experience in RESTful APIs and microservice architectures.\n☑️ Experience with Test-Driven Development (TDD), DevOps practices, CI/CD pipelines, and containerization using Docker.\n☑️ Practical knowledge of troubleshooting/debugging large codebases, alongside basic frontend skills (JS, HTML, CSS).\n☑️ Exceptional analytical and problem-solving abilities, with fluency in both written and spoken English and Thai.\n\n📩 See details and apply below!\n\n#lifeatLMWN #LINEMANWongnai #JoinLMWN #WeAreHiring #Backend #SoftwareEngineer #Golang #Microservices",
+    "hashtags": [
+      "#hiring",
+      "#lifeatLMWN",
+      "#LINEMANWongnai",
+      "#JoinLMWN",
+      "#WeAreHiring",
+      "#Backend",
+      "#SoftwareEngineer",
+      "#Golang",
+      "#Microservices"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Backend system design",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:51:17.299788+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/the-financial-express-india_australia-announces-new-rules-for-international-activity-7513043825930514432-xFDA",
+    "canonical_url": "https://www.linkedin.com/posts/the-financial-express-india_australia-announces-new-rules-for-international-activity-7513043825930514432-xFDA",
+    "post_id": 7513043825930514432,
+    "author": "Financial Express (India)",
+    "is_company_account": false,
+    "followers": 53280,
+    "post_age": "62.6h (URL ID)",
+    "post_age_hours": 62.6,
+    "post_age_source": "url_id",
+    "post_text": "Families already in Australia will not be broken up, says the Immigration Minister.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQHAJo-_gmQpmg/image-shrink_800/B4DaEOxjXFJ4Ag-/0/1791249233593?e=2147483647&v=beta&t=bep4c-cvtseYz6pDwTaI7lNr0LsgVue_Gghkx8ZxXtc",
+    "topic": "Express",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:18.180830+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/vladimirgorej_i-didnt-review-it-the-ai-wrote-it-worth-activity-7513167751939698688-vNHj",
+    "canonical_url": "https://www.linkedin.com/posts/vladimirgorej_i-didnt-review-it-the-ai-wrote-it-worth-activity-7513167751939698688-vNHj",
+    "post_id": 7513167751939698688,
+    "author": "Vladimír Gorej",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "54.4h (URL ID)",
+    "post_age_hours": 54.4,
+    "post_age_source": "url_id",
+    "post_text": "\"I didn't review it, the AI wrote it\" - worth reading the full post",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Fastify",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-08T15:52:35.847126+00:00"
   }
 ]
