@@ -76,7 +76,7 @@ def load_config(config_path: str = "config.yaml") -> dict[str, Any]:
         "whitelist_authors": ["Aniketsingh", "Scaler", "Guido van Rossum"],
         "blocklist_authors": ["Spam Bot", "Promotional Account"],
         "blocklist_keywords": ["we are hiring", "job alert", "discount code", "buy now"],
-        "trending_topics_enabled": False,
+        "trending_topics_enabled": True,
         "serper_enabled": True,
         "serper_results_per_query": 10,
         "serper_timeframe": "qdr:w",
@@ -571,15 +571,55 @@ TRENDING_TOPIC_COUNT = 15
 MIN_DYNAMIC_TOPICS = 5
 
 FALLBACK_TOPICS = [
-    "AI Agents",
-    "AI Coding",
-    "LLMs",
-    "Python",
-    "Backend Development",
-    "System Design",
-    "DevOps",
-    "Databases",
-    "Software Engineering",
+    "FastAPI async patterns",
+    "Python GIL removal",
+    "MCP protocol",
+    "RAG architecture",
+    "LLM evaluation",
+    "Kubernetes operators",
+    "PostgreSQL optimization",
+    "AI Agents architecture",
+    "Backend system design",
+    "Redis caching strategies",
+    "gRPC vs REST",
+    "Event-driven architecture",
+    "Vector databases",
+    "Prompt engineering",
+    "LLM fine-tuning",
+    "Observability OpenTelemetry",
+    "CQRS pattern",
+    "GraphQL federation",
+    "WebAssembly WASM",
+    "Rust for Python devs",
+    "Temporal workflows",
+    "Feature flags",
+    "A/B testing infrastructure",
+    "Rate limiting algorithms",
+    "Idempotency keys",
+    "Saga pattern distributed transactions",
+    "LLM routing strategies",
+    "Embedding models comparison",
+    "Streaming data pipelines",
+    "Platform engineering",
+    "Service mesh Istio",
+    "eBPF networking",
+    "Dapr microservices",
+    "Ray distributed computing",
+    "Milvus vector search",
+    "LangChain agents",
+    "Semantic caching",
+    "Structured output LLM",
+    "Model distillation",
+    "Spec-driven development",
+    "Database sharding",
+    "Change data capture",
+    "Backpressure reactive streams",
+    "LLM guardrails",
+    "Tool use function calling",
+    "Context window optimization",
+    "Multi-tenant architecture",
+    "Zero-downtime deployments",
+    "Chaos engineering",
 ]
 
 GENERIC_TOPIC_BLACKLIST = {
@@ -622,6 +662,12 @@ def discover_trending_topics(niche_description: str = "") -> tuple[list[str], in
     queries = [
         "trending programming technologies developer tools 2026",
         "latest software engineering frameworks AI developer tools 2026",
+        "system design patterns distributed systems 2026",
+        "Python backend framework comparison FastAPI Django 2026",
+        "LLM engineering RAG evaluation agents 2026",
+        "Kubernetes cloud native DevOps platform engineering 2026",
+        "PostgreSQL database optimization indexing 2026",
+        "MCP protocol AI tool integration 2026",
     ]
     snippets = []
 
@@ -714,10 +760,22 @@ def discover_trending_topics(niche_description: str = "") -> tuple[list[str], in
     final_topics = list(dynamic_topics)
 
     if len(final_topics) < MIN_DYNAMIC_TOPICS:
-        for ft in FALLBACK_TOPICS:
+        # Rotate fallback topics by day-of-year so different topics are used each day
+        import random
+        day_of_year = datetime.now(timezone.utc).timetuple().tm_yday
+        rotation_offset = day_of_year % len(FALLBACK_TOPICS)
+        rotated_fallbacks = FALLBACK_TOPICS[rotation_offset:] + FALLBACK_TOPICS[:rotation_offset]
+        # Shuffle deterministically based on the day so order varies but is reproducible
+        rng = random.Random(day_of_year)
+        rng.shuffle(rotated_fallbacks)
+
+        needed = MIN_DYNAMIC_TOPICS - len(final_topics)
+        for ft in rotated_fallbacks:
             if ft.lower() not in {t.lower() for t in final_topics}:
                 final_topics.append(ft)
                 fallback_added += 1
+                if fallback_added >= needed:
+                    break
 
     return final_topics, dynamic_count, fallback_added
 

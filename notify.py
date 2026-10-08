@@ -110,14 +110,29 @@ def notify_new_candidates(
 
     print(f"Sending Telegram notifications for {len(selected_candidates)} top candidate(s)...")
     success_all = True
+    notified_urls: set[str] = set()
     for idx, cand in enumerate(selected_candidates, 1):
         msg = format_candidate_message(cand)
         ok = send_telegram_message(token, chat_id, msg)
         if ok:
             print(f"   Sent notification {idx}/{len(selected_candidates)}.")
+            notified_urls.add(cand.get("url") or cand.get("canonical_url") or "")
         else:
             print(f"   Failed sending notification {idx}/{len(selected_candidates)}.")
             success_all = False
+
+    # Mark notified candidates so they aren't re-sent on the next run
+    if notified_urls:
+        for cand in candidates:
+            if isinstance(cand, dict):
+                cand_url = cand.get("url") or cand.get("canonical_url") or ""
+                if cand_url in notified_urls:
+                    cand["status"] = "notified"
+        try:
+            c_path.write_text(json.dumps(candidates, indent=2, ensure_ascii=False), encoding="utf-8")
+            print(f"   Marked {len(notified_urls)} candidate(s) as notified.")
+        except Exception as exc:
+            print(f"   Failed to save updated candidates: {exc}")
 
     return success_all
 
