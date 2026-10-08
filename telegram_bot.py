@@ -12,10 +12,14 @@ REPO_OWNER = "HARD1Kk"
 REPO_NAME = "linkedin-comment-agent"
 
 
-def send_telegram_message(token: str, chat_id: str, text: str) -> bool:
-    """Sends a plain text message to Telegram via urllib."""
+def send_telegram_message(
+    token: str, chat_id: str, text: str, reply_markup: Optional[dict[str, Any]] = None
+) -> bool:
+    """Sends a message to Telegram via urllib with optional reply markup."""
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text}
+    payload: dict[str, Any] = {"chat_id": chat_id, "text": text}
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         url, data=data, headers={"Content-Type": "application/json"}, method="POST"
@@ -23,6 +27,11 @@ def send_telegram_message(token: str, chat_id: str, text: str) -> bool:
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             return resp.status == 200
+    except urllib.error.HTTPError as exc:
+        if reply_markup:
+            return send_telegram_message(token, chat_id, text, reply_markup=None)
+        print(f"⚠️ Telegram bot error sending message: {exc}")
+        return False
     except Exception as exc:
         print(f"⚠️ Telegram bot error sending message: {exc}")
         return False

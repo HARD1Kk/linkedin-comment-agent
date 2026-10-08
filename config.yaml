@@ -1,64 +1,127 @@
+# ==============================================================================
 # LinkedIn Comment Suggestion Pipeline Configuration
+# ==============================================================================
 
-# Niche & Target Persona
+# ------------------------------------------------------------------------------
+# 1. Niche & Target Persona
+# ------------------------------------------------------------------------------
+# Defines the technical domain and persona for topic extraction, scoring,
+# and comment generation.
 niche_description: >
-  Software engineering, backend architecture, Python, AI developer tools,
-  system design, and LLM engineering.
+  Technology and software development, with a focus on how modern developers build,
+  design, and evolve software systems. The niche covers programming, software engineering,
+  artificial intelligence, machine learning, developer tools, APIs, databases, cloud
+  technologies, system design, software architecture, automation, open-source projects,
+  and emerging technologies. It also includes practical development techniques, engineering
+  best practices, productivity tools, interesting technical discoveries, new frameworks and
+  libraries, developer trends, and real-world engineering challenges. The goal is to discover
+  useful, interesting, and timely content that developers can learn from, apply in their work,
+  or discuss with the broader technology community.
 
-# Target topics (Niche-anchored discovery)
+# ------------------------------------------------------------------------------
+# 2. Target Discovery Topics
+# ------------------------------------------------------------------------------
+# High-signal, 2-3 word search queries covering the full breath of your niche.
+# Phrased specifically to find technical engineering discussions while filtering
+# out generic beginner tutorials and recruiter/job spam.
+# Kept to ~16 core queries so all searches complete via Serper API without
+# exhausting rate limits or triggering DuckDuckGo fallback.
 target_topics:
-  - "FastAPI observability"
-  - "Python performance"
-  - "MCP protocol"
-  - "RAG architecture"
-  - "LLM evaluation"
-  - "Kubernetes operators"
-  - "PostgreSQL optimization"
-  - "AI Agents architecture"
-  - "Backend system design"
+  # AI & LLM Engineering
+  - "AI Agents Architecture"
+  - "LLM Engineering & RAG"
+  - "Open Source AI Tools"
+  - "Machine Learning Infrastructure"
 
-# Authors / Companies Whitelist (+20 bonus points)
+  # System Design & Software Architecture
+  - "Distributed Systems Design"
+  - "Software Architecture Patterns"
+  - "Microservices Best Practices"
+  - "API Design & Performance"
+
+  # Cloud, Infrastructure & DevOps
+  - "Cloud Native & Kubernetes"
+  - "DevOps CI/CD Automation"
+  - "Observability & Performance Engineering"
+
+  # Databases & Data Systems
+  - "PostgreSQL Performance Optimization"
+  - "Database Architecture & Scaling"
+
+  # Languages & Engineering Practices
+  - "Python Backend Development"
+  - "Modern Software Engineering Practices"
+
+  # Developer Tools & Open Source
+  - "Developer Experience & Productivity Tools"
+
+# ------------------------------------------------------------------------------
+# 3. Dynamic Trending Topics Discovery
+# ------------------------------------------------------------------------------
+# When enabled, dynamically discovers trending engineering topics via Serper
+# and GitHub Trending (site:github.com/trending), then uses Groq to synthesize
+# real-time technical trends aligned with your niche.
+trending_topics_enabled: true
+
+# ------------------------------------------------------------------------------
+# 4. Search Provider Settings (Serper API)
+# ------------------------------------------------------------------------------
+serper_enabled: true
+serper_results_per_query: 10
+serper_timeframe: "qdr:w"        # Google past week filter: qdr:w (week), qdr:d (day)
+max_serper_calls_per_run: 20    # Keeps runs within your Serper plan quota
+
+# ------------------------------------------------------------------------------
+# 5. Author Whitelist & Blocklist
+# ------------------------------------------------------------------------------
+# Whitelist authors receive a +20 bonus in candidate scoring.
 whitelist_authors:
   - "Aniketsingh"
   - "Scaler"
   - "Guido van Rossum"
 
-# Authors / Companies Blocklist (Filtered out immediately)
+# Blocklisted authors are immediately discarded before fetching post content.
 blocklist_authors:
   - "Spam Bot"
   - "Promotional Account"
 
-# Blocklist Keywords (Filtered out immediately)
+# ------------------------------------------------------------------------------
+# 6. Content Filtering (Spam & Low-Quality Blocklist)
+# ------------------------------------------------------------------------------
+# Candidates matching these keywords or regex patterns are filtered out.
 blocklist_keywords:
   - "we are hiring"
   - "job alert"
   - "job opening"
+  - "hiring alert"
+  - "apply here"
+  - "urgent requirement"
+  - "immediate joiner"
+  - "open to work"
   - "discount code"
   - "buy now"
   - "link in comments"
   - "dm me for link"
+  - "comment interested"
+  - "drop your email"
   - "webinar registration"
-  - "hiring alert"
-  - "apply here"
+  - "free cheat sheet"
+  - "free certification"
+  - "subscribe to newsletter"
 
-# Enable dynamic trending topics search alongside target_topics
-trending_topics_enabled: True
+# ------------------------------------------------------------------------------
+# 7. Post Freshness & Generation Limits
+# ------------------------------------------------------------------------------
+max_age_hours: 72               # Posts older than 72 hours are filtered out
+max_comments_per_day: 5         # Daily cap for generated comments to avoid spamming
+top_n_candidates: 5             # Number of top-ranked candidates to process & notify
 
-# Freshness & Output Limits
-max_age_hours: 72
-max_comments_per_day: 5
-top_n_candidates: 5
-
-# Serper Search Provider Settings
-serper_enabled: true
-serper_results_per_query: 10
-serper_timeframe: "qdr:w"
-max_serper_calls_per_run: 20
-
-
-# Scoring Weights (Total target: 100 points)
+# ------------------------------------------------------------------------------
+# 8. Candidate Scoring Weights (Total target: 100 points)
+# ------------------------------------------------------------------------------
+# Transparent ranking based on recency decay, topic match, author fit, and engagement.
 scoring_weights:
-  recency: 35
-  author_fit: 25
-  topic_match: 25
-  engagement: 15
+  recency: 35                   # Smooth exponential decay over 72 hours
+  author_fit: 25                # Whitelist (+20 bonus) vs company vs individual
+  topic_match: 25               # Relevance against niche description & target topics
+  engagement: 15                # Non-linear log-scaling of likes, comments, reposts

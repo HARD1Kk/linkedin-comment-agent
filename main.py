@@ -60,18 +60,27 @@ def load_config(config_path: str = "config.yaml") -> dict[str, Any]:
     """Loads configuration from YAML file or returns default settings."""
     default_config: dict[str, Any] = {
         "niche_description": (
-            "Software engineering, backend architecture, Python, AI developer tools, and system design."
-        ),
+    "Technology and software development, with a focus on how modern developers build, "
+    "design, and evolve software systems. The niche covers programming, software engineering, "
+    "artificial intelligence, machine learning, developer tools, APIs, databases, cloud "
+    "technologies, system design, software architecture, automation, open-source projects, "
+    "and emerging technologies. It also includes practical development techniques, engineering "
+    "best practices, productivity tools, interesting technical discoveries, new frameworks and "
+    "libraries, developer trends, and real-world engineering challenges. The goal is to discover "
+    "useful, interesting, and timely content that developers can learn from, apply in their work, "
+    "or discuss with the broader technology community."
+),
         "target_topics": [
-            "FastAPI observability",
-            "Python performance",
-            "MCP protocol",
-            "RAG architecture",
-            "LLM evaluation",
-            "Kubernetes operators",
-            "PostgreSQL optimization",
-            "AI Agents architecture",
-            "Backend system design",
+            "Programming",
+            "Software Engineering",
+            "Artificial Intelligence",
+            "Technology",
+            "Web Development",
+            "Cloud and Infrastructure",
+            "Developer Tools",
+            "Open Source",
+            "System Design",
+            "Emerging Technology",
         ],
         "whitelist_authors": ["Aniketsingh", "Scaler", "Guido van Rossum"],
         "blocklist_authors": ["Spam Bot", "Promotional Account"],

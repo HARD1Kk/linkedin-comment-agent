@@ -138,10 +138,43 @@ class TestNotify(unittest.TestCase):
             second_msg = mock_send.call_args_list[1][0][2]
             self.assertIn("Author: User 3", second_msg)
             self.assertIn("Score: 85", second_msg)
+
+            # Check that reply_markup was passed with 1-click copy button
+            markup1 = mock_send.call_args_list[0][1].get("reply_markup")
+            self.assertIsNotNone(markup1)
+            buttons1 = markup1["inline_keyboard"][0]
+            self.assertEqual(buttons1[0]["text"], "📋 Copy Comment")
+            self.assertEqual(buttons1[0]["copy_text"]["text"], "Comm 2")
+            self.assertEqual(buttons1[1]["text"], "🔗 Open Post")
+            self.assertEqual(buttons1[1]["url"], "http://link2")
         finally:
             for p in (tmp_cand_path, tmp_cfg_path):
                 if os.path.exists(p):
                     os.remove(p)
+
+    def test_build_candidate_reply_markup(self):
+        from notify import build_candidate_reply_markup
+
+        cand_valid = {
+            "url": "https://www.linkedin.com/posts/test-post",
+            "generated_comment": "Great insight on system design and scaling!",
+        }
+        markup = build_candidate_reply_markup(cand_valid)
+        self.assertIsNotNone(markup)
+        buttons = markup["inline_keyboard"][0]
+        self.assertEqual(len(buttons), 2)
+        self.assertEqual(buttons[0]["text"], "📋 Copy Comment")
+        self.assertEqual(buttons[0]["copy_text"]["text"], "Great insight on system design and scaling!")
+        self.assertEqual(buttons[1]["text"], "🔗 Open Post")
+        self.assertEqual(buttons[1]["url"], "https://www.linkedin.com/posts/test-post")
+
+        # Candidate with no comment and no url
+        cand_empty = {}
+        self.assertIsNone(build_candidate_reply_markup(cand_empty))
+
+        # Candidate with placeholder comment
+        cand_placeholder = {"generated_comment": "No comment generated", "url": "N/A"}
+        self.assertIsNone(build_candidate_reply_markup(cand_placeholder))
 
 
 if __name__ == "__main__":

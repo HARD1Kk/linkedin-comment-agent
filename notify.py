@@ -47,13 +47,51 @@ def format_candidate_message(candidate: dict[str, Any]) -> str:
     return msg
 
 
-def send_telegram_message(token: str, chat_id: str, text: str) -> bool:
-    """Sends a plain text message to a Telegram chat via standard library urllib."""
+def build_candidate_reply_markup(candidate: dict[str, Any]) -> Optional[dict[str, Any]]:
+    """
+    Builds a Telegram InlineKeyboardMarkup with:
+    1. '📋 Copy Comment' button (Telegram Bot API 7.3+ copy_text for 1-click clipboard copy).
+    2. '🔗 Open Post' button to open the LinkedIn post directly.
+    """
+    comment = candidate.get("generated_comment")
+    url = candidate.get("url") or candidate.get("canonical_url")
+
+    buttons = []
+    if comment and comment != "No comment generated" and not str(comment).startswith("["):
+        # Telegram Bot API copy_text limit is 1024 characters
+        copy_val = str(comment).strip()[:1024]
+        buttons.append({
+            "text": "📋 Copy Comment",
+            "copy_text": {"text": copy_val},
+        })
+
+    if url and str(url).startswith("http"):
+        buttons.append({
+            "text": "🔗 Open Post",
+            "url": str(url).strip(),
+        })
+
+    if not buttons:
+        return None
+
+    return {"inline_keyboard": [buttons]}
+
+
+def send_telegram_message(
+    token: str,
+    chat_id: str,
+    text: str,
+    reply_markup: Optional[dict[str, Any]] = None,
+) -> bool:
+    """Sends a message to a Telegram chat via standard library urllib, with optional inline keyboard."""
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {
+    payload: dict[str, Any] = {
         "chat_id": chat_id,
         "text": text,
     }
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
+
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         url,
@@ -65,6 +103,13 @@ def send_telegram_message(token: str, chat_id: str, text: str) -> bool:
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             return resp.status == 200
+    except urllib.error.HTTPError as exc:
+        # If reply_markup caused an error (e.g. client/server copy_text incompatibility), retry once without reply_markup
+        if reply_markup:
+            print(f"⚠️ Telegram send with reply_markup failed ({exc.code}). Retrying without reply_markup...")
+            return send_telegram_message(token, chat_id, text, reply_markup=None)
+        print(f"⚠️ Telegram notification HTTP error: {exc.code} {exc.reason}")
+        return False
     except Exception as exc:
         print(f"⚠️ Telegram notification warning: {exc}")
         return False
@@ -113,7 +158,8 @@ def notify_new_candidates(
     notified_urls: set[str] = set()
     for idx, cand in enumerate(selected_candidates, 1):
         msg = format_candidate_message(cand)
-        ok = send_telegram_message(token, chat_id, msg)
+        reply_markup = build_candidate_reply_markup(cand)
+        ok = send_telegram_message(token, chat_id, msg, reply_markup=reply_markup)
         if ok:
             print(f"   Sent notification {idx}/{len(selected_candidates)}.")
             notified_urls.add(cand.get("url") or cand.get("canonical_url") or "")
