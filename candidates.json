@@ -6009,7 +6009,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:34:28.288724+00:00",
     "failure_reason": null,
     "generated_comment": "Sumit, I'm focusing on the Data Engineering segment, specifically SQLAlchemy. It lets me define ORM models directly in Python, which reduces boilerplate when stitching together ETL pipelines and database migrations."
@@ -7289,7 +7289,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:02.375336+00:00",
     "failure_reason": null,
     "generated_comment": "Raju, I'm currently using Hybrid RAG because it lets me blend fast vector similarity with explicit relationship queries from a graph, which improves answer relevance on entity-rich data. The trade-off is the extra engineering effort to keep the two stores in sync."
@@ -7321,7 +7321,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:08.916443+00:00",
     "failure_reason": null,
     "generated_comment": "Ai, the checklist of bias mitigations is solid, especially swapping answer order to curb position bias. One piece missing is systematic validation of the rubric itself-if the rubric misweights criteria, even a calibrated judge will propagate the error, affecting downstream decisions."
@@ -7359,7 +7359,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:52.912825+00:00",
     "failure_reason": null,
     "generated_comment": "Kamal, the focus on PUT vs PATCH and idempotency is spot on for interview depth. One aspect often omitted is rate limiting strategy, which directly affects reliability and client experience under load, so candidates should also articulate its trade-offs."
@@ -7391,7 +7391,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:57.894591+00:00",
     "failure_reason": null,
     "generated_comment": "Greg, the Scikit-Learn tutorial is a solid start, but the list omits any guidance on managing Python environments-virtualenv or conda can prevent package conflicts when you later combine SQL queries with ML pipelines. Without that, reproducing results across machines becomes fragile."
@@ -10146,5 +10146,1780 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T17:20:47.229662+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/base44_you-can-now-build-slides-on-base44-describe-activity-7513957115158409216-L-1M",
+    "canonical_url": "https://www.linkedin.com/posts/base44_you-can-now-build-slides-on-base44-describe-activity-7513957115158409216-L-1M",
+    "post_id": 7513957115158409216,
+    "author": "Base44",
+    "is_company_account": false,
+    "followers": 77540,
+    "post_age": "15.0h (URL ID)",
+    "post_age_hours": 15.0,
+    "post_age_source": "url_id",
+    "post_text": "You can now build slides on Base44.\n\nDescribe your deck in one prompt: the topic, roughly how many slides you want and what you'd like to cover.\n\nBase44 puts it together with copy, design, images and speaker notes.\nEvery deck is also a full Base44 app, so you can add a live form, include a poll or connect it to your data.\n\nWhen you want to take the slides elsewhere, export to PowerPoint, PDF or Google Slides.\n\nHave a deck in mind? Build it on Base44.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 53,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHxxN9o0L1Pww/thumbnail-with-play-button-overlay-high/B4DaEblr.3JYCw-/0/1791464228830?e=2147483647&v=beta&t=gPWkQue8ayJAcxFNkiZo8zp3MvhssoSBXBpQn2LUdhQ",
+    "topic": "Base44",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:12.901534+00:00",
+    "failure_reason": null,
+    "generated_comment": "Base44, the AI-driven prompt lets you spin up a full deck in minutes and still gives you the flexibility to export to PowerPoint for any final branding tweaks. That quick turnaround can free up time for deeper content validation before the presentation."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/poorna-soysa_ai-agents-should-be-built-like-applications-activity-7513852006676193280-TFl8",
+    "canonical_url": "https://www.linkedin.com/posts/poorna-soysa_ai-agents-should-be-built-like-applications-activity-7513852006676193280-TFl8",
+    "post_id": 7513852006676193280,
+    "author": "Poorna Soysa",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "21.9h (URL ID)",
+    "post_age_hours": 21.9,
+    "post_age_source": "url_id",
+    "post_text": "AI agents should be built like applications, not prompts.\n\nA prompt can guide reasoning.\n\nIt should not define your security boundary, business rules, permissions, or recovery strategy.\n\nIn a production system, I would keep the agent inside the application architecture.\n\nThe application decides:\n\nWhat data the agent can access.\n\nWhich tools and APIs it can invoke.\n\nWhich actions require human approval.\n\nHow state and memory are stored.\n\nHow inputs and outputs are validated.\n\nWhat happens when execution fails halfway through.\n\nThe agent provides reasoning within those boundaries.\n\nThis becomes even more important when an agent starts changing real systems instead of simply generating text.\n\nSending an email, updating an order, approving a transaction, or calling an enterprise API should still go through the same controls we expect from normal software.\n\nAuthentication. Authorization. Validation. Auditability. Observability. Recovery.\n\nMicrosoft Agent Framework is moving in this direction too, with capabilities around workflows, tool approvals, persisted state, observability, checkpointing, and durable execution.\n\nThe LLM is an important component.\n\nBut the architecture around it is what makes the agent something I would trust in production.\n\nThe agent can decide what it thinks should happen.\nThe application should decide what is actually allowed to happen.\n\n💬 How are you separating agent reasoning from application control in your architecture?\n\n👉 Follow Poorna Soysa for practical .NET, AI, and software architecture insights. | 36 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 56,
+      "comments": 36,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQE1Q4wHcvgmRw/feedshare-shrink_1280/B56aEXbLNEHUAM-/0/1791394362474?e=2147483647&v=beta&t=4kvaEaDV42pqe-5cy5SHCqIhfDQSDaJfKrzKTwQnO8g",
+    "topic": "AI Agents Architecture",
+    "score": 86.5,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 86.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:40:53.598015+00:00",
+    "failure_reason": null,
+    "generated_comment": "Poorna, we run the LLM in a separate container behind a policy enforcement layer that checks authentication, authorization, and input validation before any tool call. This isolation lets the agent focus on reasoning while the application retains strict control, and it simplifies rollback when a downstream call fails."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/google_project-suncatcher-explained-activity-7513639527152828418-s6bY",
+    "canonical_url": "https://www.linkedin.com/posts/google_project-suncatcher-explained-activity-7513639527152828418-s6bY",
+    "post_id": 7513639527152828418,
+    "author": "Google",
+    "is_company_account": false,
+    "followers": 42481629,
+    "post_age": "36.0h (URL ID)",
+    "post_age_hours": 36.0,
+    "post_age_source": "url_id",
+    "post_text": "Project Suncatcher is our moonshot exploring whether we can one day host machine learning infrastructure in space 🚀\n\nTo do so, we need to know whether our AI hardware can operate in orbit. Can our TPUs handle the physical stress of spaceflight and the radiation and thermal extremes of space? These are the questions Google researchers have been exploring for the past few years.\n\nLast week, we launched our first test satellite carrying four TPUs into orbit — putting us one step closer to getting answers.\n\nLearn more about the mission, directly from the team of scientists and engineers who worked on it. https://goo.gle/4jmjZbl | 36 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 463,
+      "comments": 36,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Machine Learning Infrastructure",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "skipped",
+    "discovered_at": "2026-10-09T04:41:35.717288+00:00",
+    "skip_reason": "Reviewer rewrite failed basic checks: Length 395 is over 350 character maximum, Does not start with author's first name 'Google'",
+    "failure_reason": "reviewer_rewrite_failed_checks: Length 395 is over 350 character maximum, Does not start with author's first name 'Google'",
+    "generated_comment": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/markrichards3_architectural-patterns-are-repeatable-processes-activity-7513577107311079425-3LbZ",
+    "canonical_url": "https://www.linkedin.com/posts/markrichards3_architectural-patterns-are-repeatable-processes-activity-7513577107311079425-3LbZ",
+    "post_id": 7513577107311079425,
+    "author": "Mark Richards",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "40.2h (URL ID)",
+    "post_age_hours": 40.2,
+    "post_age_source": "url_id",
+    "post_text": "Architectural patterns are repeatable processes that impact the structure of the system and produce positive results. Architectural AntiPatterns, on the other hand, seem like a good idea at the time, but can lead you down a bad path, whereas Architectural pitfalls are never a good idea, even from the start. Join me for a 1-day workshop titled \"14 Software Architecture Patterns and AntiPatterns Every Architect Should Know\" at the Software Architecture Gathering on Nov 16th in Berlin. Go to https://lnkd.in/gDjrxjBk for more info about the workshop. Hope to see you there!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 55,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHNk-7W4acEiA/feedshare-shrink_1280/B56aEWWkRiJsAM-/0/1791376377212?e=2147483647&v=beta&t=wejxrmFb7eOkSCnsL2CKpM14Ho84oMNy8dogskj7FtM",
+    "topic": "Software Architecture Patterns",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:01.209717+00:00",
+    "failure_reason": null,
+    "generated_comment": "Mark, the workshop covering 14 patterns and anti-patterns sounds solid, but it doesn't address how to match a pattern to specific non-functional goals like latency or scalability, which often drives the final decision. Without that mapping, teams may pick a pattern that fits theory but not performance needs."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lola-adey_im-officially-a-base44-brand-ambassador-activity-7513577140689408000-ShIG",
+    "canonical_url": "https://www.linkedin.com/posts/lola-adey_im-officially-a-base44-brand-ambassador-activity-7513577140689408000-ShIG",
+    "post_id": 7513577140689408000,
+    "author": "Lola Adey, MBA",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "40.2h (URL ID)",
+    "post_age_hours": 40.2,
+    "post_age_source": "url_id",
+    "post_text": "I’m officially a Base44 Brand Ambassador! 🥳\n\nAnd I’m so happy because this means more vibe coding workshops are coming to my people!\n\nWith Base44, you get to learn how to:\n→ Vibe code\n→ Build websites fully with AI\n→ Prompt AI better\n→ Meet amazing people building with AI\n\nWe’re starting with our first event in Lagos, Nigeria, on October 24!\n\nSo if you’re in Lagos, GET READY. This is your time!\n\nWe’re also coming to Houston, Austin and Dallas before the year ends.\n\nPS: Congratulations to us! ❤️\n\nBased on your location, rank Dallas, Houston, and Austin from where you are.\nWhere do you think we should start next? | 165 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 278,
+      "comments": 165,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGulclosDn6AQ/feedshare-shrink_1280/B4EaEWWmBeGUAM-/0/1791376384376?e=2147483647&v=beta&t=JXiJXKgQg4pEtvfd8hHTFLk3ZrYcXSrMAfX7RmUuhpo",
+    "topic": "Base44",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:15.845704+00:00",
+    "failure_reason": null,
+    "generated_comment": "Lola, focusing on the \"build websites fully with AI\" track, Austin could be a strong next stop because its growing AI startup ecosystem offers a ready pool of early adopters and potential collaborators. The local hackathon scene also aligns well with the vibe-coding workshops you plan, giving participants a hands-on way to experiment."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jaison-jayaraj_hosting-my-first-base44-event-next-week-in-activity-7513629150050656257-W4w_",
+    "canonical_url": "https://www.linkedin.com/posts/jaison-jayaraj_hosting-my-first-base44-event-next-week-in-activity-7513629150050656257-W4w_",
+    "post_id": 7513629150050656257,
+    "author": "Jaison Jayaraj",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "36.8h (URL ID)",
+    "post_age_hours": 36.8,
+    "post_age_source": "url_id",
+    "post_text": "Hosting my first Base44 event next week in NYC. Comment or DM if you wanna join!\n\nHappy to lyk that I am not only a Base44 accelerator winner, affiliate, Base44 maxxi but also officially a Base44 Ambassador now :)\n\nWhat does this mean?\n\nI get to host workshops, meetups, hackathons & other fun events to help people bring their ideas into reality & build cool projects using AI on Base44\n\nEducating and bringing together industry experts who often don't get to spend time experimenting with AI\n\nThanks to Monica Rodriguez Sam Schneidman for accepting me & the smooth onboarding\n\nAnd ofc my Base44 fam Ore Segal for the continued support",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 59,
+      "comments": 6,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHJp4c92Fb_XA/feedshare-shrink_1280/B56aEXF5deIQAM-/0/1791388784777?e=2147483647&v=beta&t=IWPfzViR0YIjTlQrcjvNyeO4Sjitvr9eF2c96hTXuBo",
+    "topic": "Base44",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:21.847136+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-kubernetes-devops-ugcPost-7514156696382914560-tKwN",
+    "canonical_url": "https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-kubernetes-devops-activity-7514156699717373952-mYZq",
+    "post_id": 7514156696382914560,
+    "author": "Peace Offor",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "1.8h (URL ID)",
+    "post_age_hours": 1.8,
+    "post_age_source": "url_id",
+    "post_text": "💡 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗥𝗲𝗽𝗹𝗶𝗰𝗮𝗦𝗲𝘁𝘀: 𝗞𝗲𝗲𝗽𝗶𝗻𝗴 𝗣𝗼𝗱𝘀 𝗔𝗹𝗶𝘃𝗲 𝗧𝗵𝗿𝗼𝘂𝗴𝗵 𝗔𝘂𝘁𝗼-𝗛𝗲𝗮𝗹𝗶𝗻𝗴 𝗮𝗻𝗱 𝗦𝗰𝗮𝗹𝗶𝗻𝗴\n\nThe final week of the DevOps Micro Internship (DMI) with Agentic AI before the Capstone Project, I completed Task 02, exploring how Kubernetes ReplicaSets maintain application availability through automated Pod management, self-healing, and scaling.\n\n◽ A ReplicaSet ensures that a specified number of Pods remain running, automatically creating replacements whenever the actual count falls below the desired state. I began by creating a YAML manifest defining three NGINX Pods. After applying it, I verified that all three were running successfully.\n\n◽ Next, I tested Kubernetes auto-healing capability by deliberately deleting one Pod. Rather than manually recreating it, I observed the ReplicaSet controller detect the missing Pod and automatically launch a replacement, restoring the desired count. I then explored horizontal scaling by updating the manifest from three replicas to five. Kubernetes automatically provisioned two additional Pods without requiring individual deployment commands.\n\n◽ I learned that Kubernetes continuously reconciles the actual state with the desired state, reducing manual intervention and supporting application availability.\nThis project strengthened my understanding of declarative configuration, self-healing, and scaling in container orchestration.\n\nGrateful to Pravin Mishra and Anjana Muthunayake, Ranbir Kaur, Joy Ukpabi, Bhupendra Bhati for their continued guidance throughout this learning journey.\n𝗣𝗦. This post is part of the DevOps Micro Internship (DMI) with Agentic Al - Cohort 3 - by Pravin Mishra.\n𝗦𝘁𝗮𝗿𝘁 𝘆𝗼𝘂𝗿 𝗗𝗲𝘃𝗢𝗽𝘀 𝗷𝗼𝘂𝗿𝗻𝗲𝘆: 🔗 https://lnkd.in/e9JyeUim\n𝗠𝘆 𝗴𝗿𝗮𝗱𝗲𝗱 𝗽𝗿𝗼𝗴𝗿𝗲𝘀𝘀 𝗶𝘀 𝗽𝘂𝗯𝗹𝗶𝗰: 🔗 https://lnkd.in/efecDfjZ\n\n#DMIByPravinMishra #Kubernetes #DevOps #CloudComputing #AgenticAI #LearningByDoing #Internship #Learning #Cohort3 #WomenInTech",
+    "hashtags": [
+      "#DMIByPravinMishra",
+      "#Kubernetes",
+      "#DevOps",
+      "#CloudComputing",
+      "#AgenticAI",
+      "#LearningByDoing",
+      "#Internship",
+      "#Learning",
+      "#Cohort3",
+      "#WomenInTech"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQH6GMNIEgMbuw/feedshare-shrink_800/B4EaEelsZuGkAc-/0/1791514560411?e=2147483647&v=beta&t=t9TqOZ9aBPoEEcnr7NFyvhNHAqiXVDjLVt67SlZfdK4",
+    "topic": "Kubernetes",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:46:07.581302+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/aisnackclub_base44-build-night-sf-activity-7513984261042069505-O2Le",
+    "canonical_url": "https://www.linkedin.com/posts/aisnackclub_base44-build-night-sf-activity-7513984261042069505-O2Le",
+    "post_id": 7513984261042069505,
+    "author": "AI Snack Club",
+    "is_company_account": false,
+    "followers": 6538,
+    "post_age": "13.2h (URL ID)",
+    "post_age_hours": 13.2,
+    "post_age_source": "url_id",
+    "post_text": "Base44 x AI Snack Club BUILD NIGHT at Entrepreneurs First San Francisco !! 👩‍💻✨\n\nA night filled with the greatest energy, tasty bites, and the most clever ideas brought to life by vibe-coding with Base44. When given the space and atmosphere, our community never fails to amaze us.\n\nOur ladies had shared some great builds including ⭐:\nOfficeBNB (Airbnb for office space), Taste (Website that generates taste profile based on images uploaded), an AI Puppy generator (creates images of what your dogs pups would look like), a Book Club website, and a Podcast Recording App!\n\nBig thanks to Lauren Lanahan for hosting this event and to Monica Rodriguez at Base44 for making these builds happen !!\n\nTo more builds this year !! Come to our Wine Night with Base44 in Chicago later this October where we will be raffling off credits to our members !! 💫",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 12,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Base44",
+    "score": 82.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.8,
+      "total": 82.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:17.257669+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dan-cockle-397b3193_my-daughters-first-film-role-turns-out-activity-7513885994413322241-AqDr",
+    "canonical_url": "https://www.linkedin.com/posts/dan-cockle-397b3193_my-daughters-first-film-role-turns-out-activity-7513885994413322241-AqDr",
+    "post_id": 7513885994413322241,
+    "author": "Dan Cockle",
+    "is_company_account": false,
+    "followers": 212918,
+    "post_age": "19.7h (URL ID)",
+    "post_age_hours": 19.7,
+    "post_age_source": "url_id",
+    "post_text": "My daughter's first film role. Turns out it was a Replit advert.\n\nThey came to film the story behind LoanFlow, the loan management system I built for Cockle Finance using Replit and AI.\n\nWe're a small family lender. A bespoke system would've cost us a fortune, so I built one for much less. It handles our applications, Open Banking checks, affordability and collections, built exactly around how we work.\n\nThe result: we compete with much bigger lenders on speed and service, without the development bill. And I get more time at home.\n\nSmall firms don't need big budgets to build serious tech anymore. They just need to start.\nVideo below. Thanks Replit.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Replit",
+    "score": 79.8,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 79.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:55.547236+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/therealraymondjones_i-spent-100-hours-reading-designing-data-intensive-activity-7513678799062884352-ihuZ",
+    "canonical_url": "https://www.linkedin.com/posts/therealraymondjones_i-spent-100-hours-reading-designing-data-intensive-activity-7513678799062884352-ihuZ",
+    "post_id": 7513678799062884352,
+    "author": "Raymond Jones",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "33.4h (URL ID)",
+    "post_age_hours": 33.4,
+    "post_age_source": "url_id",
+    "post_text": "I spent 100+ hours reading Designing Data-Intensive Applications and taking notes.\nFor the next 21 days, I’m going to break down the most important ideas so you don’t have to. I'll start with chapter 1.\n\nFirst, we must understand what makes a good software system. In most cases, software simply processes information and data.\n\nDatabases store the data. Caches speed up reads. Search indexes let users find things. Message Queues allow for asynchronous work.\n\nThese are all tools and just saying them like buzzwords does not actually make a good system.\n\nKleppman argues that good data systems need three things.\n\n1.) Reliability -> The system keeps working even if certain components of it breakdown. I've seen inside Walmart that even if a service or database goes down, the entire LMD system does not just collapse. This is good.\n\n2.) Scalability -> The system can handle growth. As user base expands, queries grow, and data that needs to be processed grows. The system doesn't break.\n\n3.) Maintainability -> Engineer can make changes without needing to make a deep prayer to our AI overlords. It's not difficult to keep running. Engineer can understand what's happening. And adding new features on top won't cause breakage elsewhere.\n\nFollow me if you want to get more distributed systems knowledge. I'll talk about how databases are actually implemented and which ones you should use depending on the system your working on.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 66,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGI5Xyhf3HKZw/feedshare-image-high-res/B56aEXzDUpGgAU-/0/1791400621641?e=2147483647&v=beta&t=pdKVB3Nz8H_82u15JJMaC6V45OaYHaShxC5vHDGLfy8",
+    "topic": "Distributed Systems Design",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:53.062741+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rinu-jossy_cockroachdbs-architecture-is-kind-of-insane-activity-7513461985385017344-Yn_P",
+    "canonical_url": "https://www.linkedin.com/posts/rinu-jossy_cockroachdbs-architecture-is-kind-of-insane-activity-7513461985385017344-Yn_P",
+    "post_id": 7513461985385017344,
+    "author": "Rinu Jossy",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.8h (URL ID)",
+    "post_age_hours": 47.8,
+    "post_age_source": "url_id",
+    "post_text": "A great explanation of the evolution of distributed SQL — from Google Spanner to CockroachDB.\n\nWhat stood out to me was how the video connects fundamental distributed-systems challenges — consistency, split-brain scenarios, clock uncertainty, horizontal scaling, and sharding — to the architectural choices made to address them.\n\nIt explains how Google Spanner uses TrueTime, backed by GPS and atomic clocks, and how CockroachDB approaches similar challenges without access to Google’s specialized infrastructure, using software-based clock synchronization and NTP.\n\nReally enjoyed this explanation Akhil Sharma Definitely worth a watch if distributed systems and database architecture interest you.\n\nCockroach Labs\n\nhttps://lnkd.in/gBfaNkQK",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 45,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQFlqehNMzkXFA/articleshare-shrink_800/B4EaDjz86JLAAY-/0/1790528442448?e=2147483647&v=beta&t=i2efWLDTR3YtkImhgtFYrvqsjFHQtyMxHO8lKlAKloY",
+    "topic": "Database Architecture & Scaling",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:40.788936+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rohini0110_ai-llm-generativeai-activity-7513503603991568385-e_jx",
+    "canonical_url": "https://www.linkedin.com/posts/rohini0110_ai-llm-generativeai-activity-7513503603991568385-e_jx",
+    "post_id": 7513503603991568385,
+    "author": "ROHINI RAI",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.0h (URL ID)",
+    "post_age_hours": 45.0,
+    "post_age_source": "url_id",
+    "post_text": "Hello, LinkedIn fam! 👋\n\nIt’s been a while since I shared an update here, so I’m happy to be back with a learning milestone. 🎓\n\nHappy to share that I’ve completed the AI Engineer Core Track: LLM Engineering, RAG, QLoRA & Agents course on Udemy and received my certificate.🏅\n\nDuring the 8-week course, I explored:\n\n• LLM fundamentals, APIs, prompting, tokens, context windows, and Transformers\n• Building LLM applications and multimodal chatbots\n• Open-source GenAI using Hugging Face\n• Evaluating LLMs for code generation and business tasks\n• Building RAG applications with vector embeddings and vector stores\n• Machine learning, deep learning, and fine-tuning models with LoRA/QLoRA\n• Building autonomous agents, tool-calling workflows, and multi-agent systems\n\nIt was a great learning experience, and I’m looking forward to applying these concepts in practice.\n\n#AI #LLM #GenerativeAI #RAG #AIEngineering #AIAgents #Learning",
+    "hashtags": [
+      "#AI",
+      "#LLM",
+      "#GenerativeAI",
+      "#RAG",
+      "#AIEngineering",
+      "#AIAgents",
+      "#Learning"
+    ],
+    "engagement": {
+      "reactions": 35,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGJCM1dKwwQJA/feedshare-shrink_800/B4EaEVTtejHYAc-/0/1791358851247?e=2147483647&v=beta&t=QjtQJqCH1kd93or0mUWc7EkqNcZkSv82yRXxI5Uu9Pw",
+    "topic": "LLM Engineering & RAG",
+    "score": 79.1,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 14.6,
+      "total": 79.1
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:06.100193+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/marclinster_if-the-only-roi-you-see-from-database-optimization-activity-7513840868420845569-cMAN",
+    "canonical_url": "https://www.linkedin.com/posts/marclinster_the-roi-of-optimizing-your-database-estate-activity-7513840868420845569-zitT",
+    "post_id": 7513840868420845569,
+    "author": "Marc Linster",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "22.7h (URL ID)",
+    "post_age_hours": 22.7,
+    "post_age_source": "url_id",
+    "post_text": "If the only ROI you see from database optimization is faster queries, you’re measuring the wrong thing (in my not-so-humble opinion)!\n\nOf course performance matters. But the value of database optimization goes far beyond milliseconds in response time and transactions per second.\n1) Better performance and stability improve user experience and customer satisfaction.\n2) Efficient use of infrastructure reduces compute and storage costs.\n3) A well-oiled database allows DBAs to focus on high-value tasks, such as data quality, lineage, etc., instead of constantly firefighting performance and stability issues.\n\nIn my latest article (https://lnkd.in/eaJAdJ_R), I look at the ROI of database optimization across three areas:\n* User experience\n* Infrastructure cost\n* Operational efficiency\nThese are business outcomes, not just technical metrics.\nDatabase optimization happens deep in the technology stack, but its impact is felt far beyond the database.\nI am curious: how do you measure the value of PostgreSQL optimization in your organization? Please share!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 16,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEihcUPUjj6eQ/articleshare-shrink_800/B4EaEaGZ2ZIcAg-/0/1791439249484?e=2147483647&v=beta&t=RM9Snfj5KoiaN4fHhUeUnmAQu_53WiogbMAeONErx68",
+    "topic": "PostgreSQL Performance Optimization",
+    "score": 79.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 7.5,
+      "total": 79.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:24.863918+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/leila-m%C3%A4ll_25-years-ago-i-joined-bolt-supporting-one-activity-7513118065732243456-wE_d",
+    "canonical_url": "https://www.linkedin.com/posts/leila-m%C3%A4ll_25-years-ago-i-joined-bolt-supporting-one-activity-7513118065732243456-wE_d",
+    "post_id": 7513118065732243456,
+    "author": "Leila Mäll",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.6h (URL ID)",
+    "post_age_hours": 70.6,
+    "post_age_source": "url_id",
+    "post_text": "2.5 years ago, I joined Bolt supporting one country.\n\nNow, I’m stepping into the role of Head of Regional People Partnering, overseeing a team supporting more than 50 countries. ✨\n\nWriting that sentence feels a little surreal.\n\nThe journey between those two points has been full of opportunities I didn’t necessarily feel ready for, challenges that pushed me far outside my comfort zone, mistakes, learning, and a lot of growth.\n\nOne thing I’ve learned is that growth rarely comes at the moment when you feel completely ready for it. Sometimes you simply have to take the chance, say yes to the challenge, and trust that you’ll figure things out along the way.\n\nThat doesn’t mean the self-doubt disappears. Quite the opposite. With this new chapter, I’ve definitely had moments of asking myself: Am I actually ready for this? Can I really do it?\nAnd perhaps that’s part of it.\n\nExperiences like these have a funny way of making you feel both humble and empowered. Humble, because the more responsibility you take on, the more you realize how much there still is to learn. Empowered, because you can look back and see just how much you’ve already learned and how far you’ve come.\n\nRecently, a colleague told me something very simple that has stayed with me:\n“𝗗𝗼𝗻’𝘁 𝘁𝗿𝘆 𝘁𝗼 𝗯𝗲 𝘀𝗼𝗺𝗲𝗼𝗻𝗲 𝗲𝗹𝘀𝗲. 𝗝𝘂𝘀𝘁 𝗯𝗲 𝘆𝗼𝘂, 𝗮𝗻𝗱 𝘆𝗼𝘂’𝗹𝗹 𝗯𝗲 𝗳𝗶𝗻𝗲.”\nI think I needed to hear that.\n\nI don’t need to have every answer on day one. I don’t need to suddenly become a different kind of leader because the title has changed. I can keep learning, keep asking questions, keep surrounding myself with brilliant people — and lead in a way that feels like me.\n\nI’m incredibly grateful for the people who have trusted me, challenged me, supported me and given me opportunities over these past 2.5 years.\n\nFrom one country to 50+.\nA little nervous. Very humbled. And genuinely excited for what comes next. 💕 | 30 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 427,
+      "comments": 30,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHsHFKy8OPxnw/feedshare-shrink_800/B4DaEP1EOIHsAg-/0/1791266932093?e=2147483647&v=beta&t=z044t8QndEF6jGE74TXV5MXZFYC5BmAbVG0neYFKVmo",
+    "topic": "Bolt",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:58.711842+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bolt-eu_lifeatbolt-activity-7513207379849691136-xDKu",
+    "canonical_url": "https://www.linkedin.com/posts/bolt-eu_lifeatbolt-activity-7513207379849691136-xDKu",
+    "post_id": 7513207379849691136,
+    "author": "Bolt",
+    "is_company_account": false,
+    "followers": 353714,
+    "post_age": "64.7h (URL ID)",
+    "post_age_hours": 64.7,
+    "post_age_source": "url_id",
+    "post_text": "Hi, I'm Ivan, and I've just joined Bolt as Chief Technology Officer.\n\nI started out as an engineer and architect, and over the years moved into leading tech organisations. Most recently, as CTPO at Enpal, I helped build the technology behind one of Europe's fastest-growing renewable energy companies. Before that, HelloFresh and Amadeus.\n\nAcross very different industries, one core challenge always remains the same: how do you keep engineering output high, quality high, and complexity manageable as the organisation scales?\n\nThat question is what I find genuinely interesting. Not technology for its own sake, but what it takes for large engineering teams to ship well, consistently, at pace.\n\nToday, 700+ engineers at Bolt build products used by millions of people across Europe and Africa. The infrastructure is real, the scale is massive, and the ambition to be the European champion in mobility is something I believe in. Finding a company operating at this scale that still moves fast is a rare opportunity.\n\nMy job is to set the technology strategy and roadmap, and help teams ship better products faster. That means clear technical direction, better tooling, simpler ways of working, and deliberate AI adoption as a real lever for engineering productivity and product quality.\n\nTime to get to work.\n\n#lifeatbolt | 31 comments on LinkedIn",
+    "hashtags": [
+      "#lifeatbolt"
+    ],
+    "engagement": {
+      "reactions": 638,
+      "comments": 31,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQG2UYHjh-lAOA/feedshare-shrink_800/B4EaERGTKSHoAg-/0/1791288226864?e=2147483647&v=beta&t=9dqB4ASzkvyt1zRvtWfvlKAFyIvoDCxZC0yaV7qd3eU",
+    "topic": "Bolt",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:05.879258+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pratikpawar_the-founder-of-base44-on-20vc-confidently-activity-7513418610665734144-rgXU",
+    "canonical_url": "https://www.linkedin.com/posts/pratikpawar_the-founder-of-base44-on-20vc-confidently-activity-7513418610665734144-rgXU",
+    "post_id": 7513418610665734144,
+    "author": "Pratik Pawar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "50.7h (URL ID)",
+    "post_age_hours": 50.7,
+    "post_age_source": "url_id",
+    "post_text": "​The founder of Base44 on 20VC confidently stated: \"Vibe Coding Will Kill SaaS, and Vibe Coding Has No Defensibility.\n\n​He is exactly half right.\n\n​If you use an AI app builder to instantly generate a standard workflow, a database, and a clean UI, you have zero moat.\n\nThe guy reading this post can copy your entire business model over his lunch break using the exact same prompts.\n\n​But vibe coding won't kill SaaS. It just shifts the value line.\n\n​Right now, non-technical founders are treating the generated code as the asset. They think because they vibe-coded a platform, they own something valuable. You don't. The code is now a commodity worth exactly zero dollars.\n\n​The only defensible moat left in software is what happens after the code is generated.\n\n​It is having the native instrumentation to track exactly how real users interact with your workflow. It is capturing the proprietary behavioral data that tells you why they dropped off at step two. It is using that telemetry to aggressively iterate a unique solution that a generic LLM prompt could never guess.\n\n​If you are using AI to build a product, but you have no infrastructure to capture the friction and iterate on reality, you are just building disposable software.\n\nAnd someone else will vibe code a better version of it tomorrow.\n\n​What is your actual moat when code is free? | 56 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 23,
+      "comments": 56,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Base44",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:26.642122+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/systemdrd_systemdesign-distributedsystems-softwareengineering-activity-7513842868772564992-fQN0",
+    "canonical_url": "https://www.linkedin.com/posts/systemdrd_systemdesign-distributedsystems-softwareengineering-activity-7513842868772564992-fQN0",
+    "post_id": 7513842868772564992,
+    "author": "System Design Roadmap",
+    "is_company_account": false,
+    "followers": 433,
+    "post_age": "22.5h (URL ID)",
+    "post_age_hours": 22.5,
+    "post_age_source": "url_id",
+    "post_text": "Of the 52 questions in our system design bank, one draws more cohort feedback, more wrong answers, and more learning than any other: design a real-time collaborative editor.\n\nIt's hard because it isn't a storage or delivery problem. It's a merging problem. Two users type at the same moment, and both edits must survive, in a consistent order, in real time.\n\nThe key takeaways:\n\n- Last-write-wins silently destroys data, and a naive server-side merge breaks because positions shift under concurrent edits.\n- Operational Transformation represents every edit as an operation and transforms concurrent operations against each other. \"Hello\" plus insert(5, \" World\") and insert(5, \"!\") becomes \"Hello World!\" because the second insert is rewritten to position 11.\n- The server keeps an immutable, append-only operation log. The document is just a replay of that log. That's event sourcing, the same pattern behind payment ledgers and audit trails.\n- CRDTs solve the same problem by making operations commute. Google Docs uses OT; Notion uses CRDTs. Both work.\n\nUnderstand this one deeply and you'll recognize concurrent state merging in message delivery, distributed databases, and version control.\n\nWhich approach would you reach for first, OT or CRDTs, and why?\n\nFull Walkthrough: https://lnkd.in/exQTUmMr\nVisit our website: https://systemdrd.com/\nFree eBook — 52 FAANG Questions, Drillcards & Cheatsheets: https://lnkd.in/dCYnM933\n\n#SystemDesign #DistributedSystems #SoftwareEngineering #TechInterviews #EventSourcing",
+    "hashtags": [
+      "#SystemDesign",
+      "#DistributedSystems",
+      "#SoftwareEngineering",
+      "#TechInterviews",
+      "#EventSourcing"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH8ZDbY9lpqCQ/thumbnail-with-play-button-overlay-high/B4EaEaH.igK4C0-/0/1791439664525?e=2147483647&v=beta&t=oyfJ4RufA2DHcBKrrlylSwb8usyZ19FEV8jGW92freo",
+    "topic": "Distributed Systems Design",
+    "score": 76.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 76.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:44.901968+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/richa-gupta-57654620b_softwarearchitecture-softwareengineering-activity-7513159837560565760-XRyd",
+    "canonical_url": "https://www.linkedin.com/posts/richa-gupta-57654620b_softwarearchitecture-softwareengineering-activity-7513159837560565760-XRyd",
+    "post_id": 7513159837560565760,
+    "author": "Richa Gupta",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.8h (URL ID)",
+    "post_age_hours": 67.8,
+    "post_age_source": "url_id",
+    "post_text": "🏗️ Software Architecture Patterns — Choosing the Right Foundation for Your Application\n\nA good software architecture is more than just organizing code — it defines how an application scales, evolves, performs, and stays maintainable over time.\n\nHere are some commonly used architecture patterns:\n\n🔹 Layered Architecture — Clear separation of presentation, business logic, and data access.\n🔹 Microservices Architecture — Independent services that can be developed, deployed, and scaled separately.\n🔹 Event-Driven Architecture — Enables loosely coupled, asynchronous communication through events.\n🔹 Hexagonal Architecture — Keeps core business logic independent from external systems and infrastructure.\n🔹 MVC — Separates Model, View, and Controller responsibilities for maintainable web applications.\n🔹 Cloud-Native Architecture — Designed for scalability, resilience, automation, and modern cloud environments.\n\n💡 The key takeaway: There is no single “best” architecture pattern. The right choice depends on business requirements, system complexity, scalability needs, team expertise, and long-term goals.\n\nChoose wisely. Build better. Scale further. 🚀\n\n#SoftwareArchitecture #SoftwareEngineering #ArchitecturePatterns #SystemDesign #Microservices #DotNet #CloudNative #CleanArchitecture #BackendDevelopment #FullStackDevelopment #TechCommunity #SoftwareDeveloper | 11 comments on LinkedIn",
+    "hashtags": [
+      "#SoftwareArchitecture",
+      "#SoftwareEngineering",
+      "#ArchitecturePatterns",
+      "#SystemDesign",
+      "#Microservices",
+      "#DotNet",
+      "#CloudNative",
+      "#CleanArchitecture",
+      "#BackendDevelopment",
+      "#FullStackDevelopment",
+      "#TechCommunity",
+      "#SoftwareDeveloper"
+    ],
+    "engagement": {
+      "reactions": 15,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEBoK7VNRz9bw/feedshare-shrink_800/B4DaEQbDw3HgAc-/0/1791276891503?e=2147483647&v=beta&t=FecRLPeOEpQ82RmTlttGq1P5uqf5kqz_YB_4kZY9yFg",
+    "topic": "Software Architecture Patterns",
+    "score": 75.1,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 13.9,
+      "total": 75.1
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:04.383925+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cole-gordon_chandler-bolt-says-the-most-dangerous-number-activity-7513660929889300480-P9hA",
+    "canonical_url": "https://www.linkedin.com/posts/cole-gordon_chandler-bolt-says-the-most-dangerous-number-activity-7513660929889300480-P9hA",
+    "post_id": 7513660929889300480,
+    "author": "Cole Gordon",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "34.7h (URL ID)",
+    "post_age_hours": 34.7,
+    "post_age_source": "url_id",
+    "post_text": "Chandler Bolt says the most dangerous number in business is one…\n\nHe learned it the hard way when two of his people threatened to quit and he realized they were 60% of his revenue.\n\nWe also got into how almost everyone in this industry is saying the wrong numbers. I caught myself doing it for three years without even noticing.\n\nWe get into what you should actually be counting in this clip 👇",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 15,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Bolt",
+    "score": 74.6,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.4,
+      "total": 74.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:08.650340+00:00"
+  },
+  {
+    "url": "https://es.linkedin.com/posts/alejandrolmeida_github-copilot-students-activity-7513497546682613760-vgk4",
+    "canonical_url": "https://es.linkedin.com/posts/alejandrolmeida_github-copilot-students-activity-7513497546682613760-vgk4",
+    "post_id": 7513497546682613760,
+    "author": "Alejandro Almeida",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.5h (URL ID)",
+    "post_age_hours": 45.5,
+    "post_age_source": "url_id",
+    "post_text": "𝐒𝐢 𝐞𝐬𝐭𝐚́𝐬 𝐚𝐩𝐫𝐞𝐧𝐝𝐢𝐞𝐧𝐝𝐨 𝐚 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐚𝐫, 𝐧𝐨 𝐩𝐚𝐠𝐮𝐞𝐬 𝐩𝐨𝐫 𝐮𝐧𝐚 𝐈𝐀 𝐬𝐢𝐧 𝐥𝐞𝐞𝐫 𝐞𝐬𝐭𝐨 𝐚𝐧𝐭𝐞𝐬.\n\nMientras muchos profesionales pagamos cada mes por herramientas de IA para desarrollar, GitHub Copilot puede costarte exactamente 0 € si eres estudiante verificado.\n\nY no hablamos simplemente de una prueba gratuita durante unos días. GitHub tiene un plan específico para estudiantes: GitHub Copilot Student.\n\nActualmente incluye, entre otras cosas:\n— completado de código ilimitado\n— 200 AI Credits cada mes\n— Copilot integrado en el flujo de desarrollo\n— acceso a diferentes modelos mediante Auto Model Selection\n— capacidades de chat y agentes, con sus correspondientes límites de uso\n\nY para alguien que se está formando esto me parece especialmente relevante.\n\nPorque aprender desarrollo en 2026 ya no consiste únicamente en aprender un lenguaje y escribir código desde cero.\n\nTambién hay que aprender a trabajar con asistentes de IA. A explicar bien un problema. A revisar el código que generan. A detectar cuándo se equivocan. A mejorar sus propuestas.\n\nY, cada vez más, a trabajar con agentes sin perder la comprensión de lo que ocurre por debajo. La IA no elimina la necesidad de aprender a programar.\n\nEn mi opinión, hace todavía más importantes los fundamentos. Porque cuanto más potente es la herramienta, más importante es saber cuándo confiar en ella y cuándo cuestionarla. Y poder aprender todo esto utilizando GitHub Copilot sin coste me parece una oportunidad que muchos estudiantes deberían conocer. Eso sí, GitHub Copilot Student también ha cambiado. Hay límites en chat y agentes, la selección de modelos funciona de forma diferente y esos 200 AI Credits pueden consumirse rápido si hacemos un uso intensivo.\n\nHe explicado los cambios y lo que ofrece actualmente GitHub Copilot Student en Azurebrains: https://lnkd.in/e_SBuuwG\n\nY aquí me interesa especialmente vuestra opinión:\n𝐄𝐧 𝟐𝟎𝟐𝟔, ¿𝐝𝐞𝐛𝐞𝐫𝐢́𝐚𝐦𝐨𝐬 𝐞𝐧𝐬𝐞𝐧̃𝐚𝐫 𝐚 𝐭𝐫𝐚𝐛𝐚𝐣𝐚𝐫 𝐜𝐨𝐧 𝐆𝐢𝐭𝐇𝐮𝐛 𝐂𝐨𝐩𝐢𝐥𝐨𝐭 𝐲 𝐜𝐨𝐧 𝐚𝐠𝐞𝐧𝐭𝐞𝐬 𝐝𝐞 𝐈𝐀 𝐢𝐠𝐮𝐚𝐥 𝐪𝐮𝐞 𝐞𝐧𝐬𝐞𝐧̃𝐚𝐦𝐨𝐬 𝐆𝐢𝐭, 𝐭𝐞𝐬𝐭𝐢𝐧𝐠 𝐨 𝐚 𝐮𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐮𝐧 𝐈𝐃𝐄?\n\n#GitHub #Copilot #Students #AI #Programming #IDE #GenerativeAI",
+    "hashtags": [
+      "#GitHub",
+      "#Copilot",
+      "#Students",
+      "#AI",
+      "#Programming",
+      "#IDE",
+      "#GenerativeAI"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEq_Oq8rg0DeQ/feedshare-shrink_800/B4EaESlzrwIUAc-/0/1791313263679?e=2147483647&v=beta&t=gBFoD6k6uszOj14vohmx_-nHvb_z2ejGCW87FpX_Osk",
+    "topic": "GitHub Copilot",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:54.216194+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/goabiaryan_aid-a-framework-for-ai-infrastructure-dynamics-activity-7513211258544869377-dbEg",
+    "canonical_url": "https://www.linkedin.com/posts/goabiaryan_aid-a-framework-for-ai-infrastructure-dynamics-activity-7513211258544869377-dbEg",
+    "post_id": 7513211258544869377,
+    "author": "Abi Aryan",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "64.4h (URL ID)",
+    "post_age_hours": 64.4,
+    "post_age_source": "url_id",
+    "post_text": "‼️ The AI inference industry is making a 𝐜𝐫𝐢𝐭𝐢𝐜𝐚𝐥 𝐦𝐢𝐬𝐭𝐚𝐤𝐞 - 𝐭𝐫𝐞𝐚𝐭𝐢𝐧𝐠 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐭𝐞𝐥𝐞𝐦𝐞𝐭𝐫𝐲 - 𝐚𝐬 𝐢𝐟 𝐢𝐭 𝐭𝐞𝐥𝐥𝐬 𝐮𝐬 𝐰𝐡𝐚𝐭 𝐬𝐭𝐚𝐭𝐞 𝐭𝐡𝐞 𝐬𝐲𝐬𝐭𝐞𝐦 𝐢𝐬 𝐚𝐜𝐭𝐮𝐚𝐥𝐥𝐲 𝐢𝐧. Guess what, it doesn’t ☠️\n\nYou'll all agree that 𝐀𝐈 𝐢𝐧𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐢𝐬 𝐚 𝐭𝐢𝐠𝐡𝐭𝐥𝐲 𝐜𝐨𝐮𝐩𝐥𝐞𝐝 𝐝𝐲𝐧𝐚𝐦𝐢𝐜𝐚𝐥 𝐩𝐡𝐲𝐬𝐢𝐜𝐚𝐥-𝐜𝐨𝐦𝐩𝐮𝐭𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐬𝐲𝐬𝐭𝐞𝐦 where power, cooling, HBM, KV cache, networking, queues, scheduling, workloads, and client behavior interact across very different timescales.\n\n🤷‍♀️ Which means a small change in one layer can propagate through the entire system: power cap → GPU capacity → queue depth → batching → latency → SLOs 👩‍🏫\n\n𝘕𝘰𝘸, 𝘵𝘩𝘪𝘴 𝘳𝘢𝘪𝘴𝘦𝘴 𝘢 𝘥𝘦𝘦𝘱𝘦𝘳 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯: 𝐖𝐡𝐚𝐭 𝐝𝐨𝐞𝐬 𝐚 𝐮𝐬𝐞𝐟𝐮𝐥 𝐫𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐀𝐈 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐚𝐜𝐭𝐮𝐚𝐥𝐥𝐲 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐩𝐫𝐞𝐬𝐞𝐫𝐯𝐞?\n\nThat question became the starting point for my first doctoral paper:\n\n𝐀𝐈𝐃: 𝐀 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 𝐟𝐨𝐫 𝐀𝐈 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐃𝐲𝐧𝐚𝐦𝐢𝐜𝐬\n(arXiv:2610.04801 [cs.DC] - 𝘣𝘭𝘰𝘨𝘱𝘰𝘴𝘵 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘪𝘥𝘦𝘢 𝘪𝘴 𝘪𝘯 𝘤𝘰𝘮𝘮𝘦𝘯𝘵𝘴 𝘥𝘰𝘸𝘯 𝘣𝘦𝘭𝘰𝘸..)\n\nAID is a framework that formalizes a protocol that allows learning across physical, computational, networking, and serving processes, and asks - whether a representation preserves the information needed to predict future service outcomes.\n\nAnd not only under the current policy, but also what happens when we change the actions, like:\n❓ Change the power cap.\n❓Change batching.\n❓Change routing.\n❓Change admission control.\n\nWe formalize this by separating:\n- Forecast sufficiency\n- Controlled-state sufficiency (preserving service outcomes under interventions)\n- Intervention identification\n\nWe also provide analytical bounds showing why telemetry ambiguity imposes hard theoretical error floors on downstream control, alongside validation criteria for evaluating learned infra representations..\n\n𝘛𝘩𝘪𝘴 𝘪𝘴 𝘮𝘺 𝘧𝘪𝘳𝘴𝘵 𝘱𝘢𝘱𝘦𝘳 𝘪𝘯 𝘋𝘪𝘴𝘵𝘳𝘪𝘣𝘶𝘵𝘦𝘥, 𝘗𝘢𝘳𝘢𝘭𝘭𝘦𝘭, 𝘢𝘯𝘥 𝘊𝘭𝘶𝘴𝘵𝘦𝘳 𝘊𝘰𝘮𝘱𝘶𝘵𝘪𝘯𝘨, 𝘢𝘯𝘥 𝘪𝘵 𝘮𝘢𝘳𝘬𝘴 𝘵𝘩𝘦 𝘣𝘦𝘨𝘪𝘯𝘯𝘪𝘯𝘨 𝘰𝘧 𝘮𝘺 𝘥𝘰𝘤𝘵𝘰𝘳𝘢𝘭 𝘳𝘦𝘴𝘦𝘢𝘳𝘤𝘩 𝘱𝘳𝘰𝘨𝘳𝘢𝘮𝘮𝘦.\n\nThere is a lot more to build from here. This is a working draft - finishing up full paper for a journal as we speak (pending approval by university ofc 😂)! There is an explainer video in the blogpost below if you prefer video explainers.\n\nAlso, cross-listed in Machine Learning (cs.LG); Performance (cs.PF); Systems and Control (eess.SY)",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 50,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Machine Learning Infrastructure",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:41.982612+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/matthewstirling_machine-learning-engineer-platform-icloud-activity-7513354566432833536-rh38",
+    "canonical_url": "https://www.linkedin.com/posts/matthewstirling_machine-learning-engineer-platform-icloud-activity-7513354566432833536-rh38",
+    "post_id": 7513354566432833536,
+    "author": "Matthew Stirling",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "54.9h (URL ID)",
+    "post_age_hours": 54.9,
+    "post_age_source": "url_id",
+    "post_text": "The iCloud Mail, Calendar, and Contacts ML Intelligence Platform team is looking for an experienced Machine Learning Engineer in San Diego. We’re focused on accelerating ML-driven feature release cycles through integrated AI-driven infrastructure that brings powerful tools to the engineering teams delivering ML features to hundreds of millions of users.\n\nWe’re looking for someone with production experience running end-to-end ML pipelines, deep expertise in LLMs, retrieval, agent orchestration, and evaluation tooling. Distributed systems fundamentals a plus.\n\nPlease apply if you’re interested. More details: https://lnkd.in/gUuXPHM9",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 89,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGrcM9EoReNuA/articleshare-shrink_800/B56Z5vPPtHKkAQ-/0/1779982728930?e=2147483647&v=beta&t=r3SrV7i8QAuKdDgUkS9WzYwbu7qoLbC6PvBPGVwmKjk",
+    "topic": "Machine Learning Infrastructure",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:43.449404+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/zoranmilosevic_if-you-want-to-become-good-at-api-design-activity-7513252369011388416-JH2a",
+    "canonical_url": "https://www.linkedin.com/posts/zoranmilosevic_if-you-want-to-become-good-at-api-design-activity-7513252369011388416-JH2a",
+    "post_id": 7513252369011388416,
+    "author": "Zoran Milosevic",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "61.7h (URL ID)",
+    "post_age_hours": 61.7,
+    "post_age_source": "url_id",
+    "post_text": "If you want to become good at API design,\nlearn these 6 protocols (save now):\n\n1 REST (Representational State Transfer)\n↳ A stateless, resource-based API protocol using standard HTTP methods\n↳ Best for: CRUD operations in web and mobile apps\n↳ Risk: over-fetch or under-fetch data because of fixed endpoints\n\n===\n\n2 gRPC (Google Remote Procedure Call)\n↳ A high-performance, contract-based protocol using a binary format\n↳ Best for: internal microservices communication\n↳ Risk: limited browser support\n\n===\n\n3 GraphQL↳ An API query language for clients to request specific data\n↳ Best for: frontend-heavy apps with complex data fetch & fast response needs\n↳ Risk: performance issues from overly flexible queries\n\n===\n\n4 SOAP (Simple Object Access Protocol)\n↳ A protocol using XML for messaging with strict standards\n↳ Best for: enterprise applications that need high security\n↳ Risk: verbose and complex because of XML specifications\n\n===\n\n5 WebSockets\n↳ A bidirectional, real-time protocol over a persistent TCP connection\n↳ Best for: real-time apps, such as chat or sports updates\n↳ Risk: extra logic needed to handle connection states and reconnections\n\n===\n\n6 MQTT (Message Queuing Telemetry Transport)\n↳ A lightweight, publish-subscribe protocol\n↳ Best for: IoT & sensor devices\n↳ Risk: complex queries & large payloads may not work well\n\nAnything else you'd add?\n\n===",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 108,
+      "comments": 9,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQGYDNYjpoM-Ng/feedshare-shrink_1280/B4DaDIAHG_J0AQ-/0/1790061871810?e=2147483647&v=beta&t=DGPM0pF-fTuQdnlZVuzcQGwe_o2HuuKjhd0-VZoSmT4",
+    "topic": "API Design & Performance",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:30.370882+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pavlo-khyzhniak_from-backend-developer-to-ai-engineer-in-activity-7513229969150484482-6tes",
+    "canonical_url": "https://www.linkedin.com/posts/pavlo-khyzhniak_from-backend-developer-to-ai-engineer-in-activity-7513229969150484482-6tes",
+    "post_id": 7513229969150484482,
+    "author": "Pavlo Khyzhniak",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.2h (URL ID)",
+    "post_age_hours": 63.2,
+    "post_age_source": "url_id",
+    "post_text": "From Backend Developer to AI Engineer in Germany in 4 months.\n\nOne of my clients had several years of backend experience with Python, APIs, databases and cloud. He was also learning RAG and building small AI projects, but companies still saw him only as a backend developer.\n\nSo we changed how he presented his profile. Instead of filling the CV with AI keywords, we connected his existing engineering experience to AI work. His API and cloud background suddenly made much more sense, and we moved his RAG projects higher so recruiters could actually see them.\n\nI also told him to stop pretending he had 5 years of AI experience. He didn’t need that.\n\nHe needed to show why his current engineering skills could already be useful in an AI team. That also changed the interviews. He stopped trying to name every new framework and started explaining how he would build AI features inside an existing product and deal with bad outputs.\n\nFour months later, he accepted an AI Engineer role in Germany.\n\nCareer changes into AI are possible even if your previous title had nothing to do with AI.\n\nYou just need to make the connection clear for the company. | 11 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 81,
+      "comments": 11,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Python Backend Development",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:01.142089+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/penmatsasarathchandra_hiring-sde-sdeintern-activity-7513199655669858305-GSsa",
+    "canonical_url": "https://www.linkedin.com/posts/penmatsasarathchandra_hiring-sde-sdeintern-activity-7513199655669858305-GSsa",
+    "post_id": 7513199655669858305,
+    "author": "Sarath Chandra",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.2h (URL ID)",
+    "post_age_hours": 65.2,
+    "post_age_source": "url_id",
+    "post_text": "🚀 WE’RE HIRING: SDE INTERNS | REMOTE | ₹70,000/MONTH STIPEND\n\nLooking to start your software engineering career with real-world development experience?\n\nWe’re hiring motivated and technically strong Software Development Engineer (SDE) Interns for a 3-month remote internship.\n\nHigh-performing interns will also be considered for a full-time PPO.\n💼 Role: SDE Intern\n🌍 Work Mode: Remote\n📅 Internship Duration: 3 Months\n💰 Stipend: ₹70,000/month — Fixed\n🚀 Full-Time PPO: Up to ₹17 LPA, based on performance\n💻 Own Laptop: Mandatory\n\nWHAT WE’RE LOOKING FOR:\n✅ Strong programming fundamentals\n✅ Good problem-solving ability\n✅ Strong understanding of Data Structures amp; Algorithms\n✅ Proficiency in at least one language: • Java • Python • C++ • JavaScript • TypeScript\n✅ Understanding of Object-Oriented Programming\n✅ Familiarity with SQL and databases\n✅ Understanding of REST APIs and backend development\n✅ Basic Git / version-control knowledge\n\nBonus if you have exposure to:\n☁️ Cloud technologies\n⚙️ Modern backend or frontend frameworks\n🛠️ Personal software projects\n📦 GitHub / open-source contributions\n🧠 Competitive programming or strong DSA practice\nWHAT YOU CAN EXPECT:\n💻 Work on real-world software engineering projects\n🧠 Solve practical engineering problems\n⚙️ Gain hands-on development experience\n🤝 Collaborate with experienced engineers\n🚀 Learn modern software-development practices\n📈 Build experience that strengthens your engineering profile\n🏆 Opportunity to earn a full-time PPO of up to ₹17 LPA based on performance\n\nWHO SHOULD APPLY?\n\nThis opportunity is ideal for candidates who:\n✔️ Are serious about becoming Software Engineers\n✔️ Have strong coding fundamentals\n✔️ Enjoy solving technical problems\n✔️ Can work independently in a remote environment\n✔️ Have their own laptop\n✔️ Are ready to commit seriously for the full 3-month internship\n\nYour first engineering internship can be the experience that changes the direction of your career.\nBuild.\nLearn.\nShip real software.\nProve your skills.\nEarn your PPO.\n\n📢 Please share this post with a student or aspiring Software Engineer who should see this opportunity.\n\n#Hiring #SDE #SDEIntern #SoftwareEngineer #Internship #TechHiring #RemoteJobs #PPO #SoftwareDevelopment #TechJobs #EngineeringInternship #CodingJobs #Java #Python #Cpp #QuickHyreAI | 2,757 comments on LinkedIn",
+    "hashtags": [
+      "#Hiring",
+      "#SDE",
+      "#SDEIntern",
+      "#SoftwareEngineer",
+      "#Internship",
+      "#TechHiring",
+      "#RemoteJobs",
+      "#PPO",
+      "#SoftwareDevelopment",
+      "#TechJobs",
+      "#EngineeringInternship",
+      "#CodingJobs",
+      "#Java",
+      "#Python",
+      "#Cpp",
+      "#QuickHyreAI"
+    ],
+    "engagement": {
+      "reactions": 757,
+      "comments": 757,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Modern Software Engineering Practices",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:06.068404+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pranay01_as-part-of-our-launch-week-ill-be-speaking-activity-7513232958925729792-Z23W",
+    "canonical_url": "https://www.linkedin.com/posts/pranay01_as-part-of-our-launch-week-ill-be-speaking-activity-7513232958925729792-Z23W",
+    "post_id": 7513232958925729792,
+    "author": "Pranay Prateek",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.0h (URL ID)",
+    "post_age_hours": 63.0,
+    "post_age_source": "url_id",
+    "post_text": "As part of our launch week, I'll be speaking about observability challenges which engineering-first teams face and we see such customers use SigNoz.\n\nTeams building AI infrastructure, agentic software and developer tools are our largest group of customers, and they push observability to its limits. For them, system performance is a core part of the product.\n\nI'll talk about how observability is different for these teams, and what makes SigNoz the right fit.\n\nOct 12, 9:00 AM PT. Link in the comments.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 36,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQF1PugkSk2aAw/image-shrink_1280/B56aERdfZQJoAg-/0/1791294306183?e=2147483647&v=beta&t=krtxROlxVoSvwkC17Nm3ouZbjuVgxFc9PrjYZ5Rm0Iw",
+    "topic": "Observability & Performance Engineering",
+    "score": 71.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 14.2,
+      "total": 71.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:15.993654+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/boltinsight_bolt-monthly-october-2026-update-activity-7513599420374966272-q0jC",
+    "canonical_url": "https://www.linkedin.com/posts/boltinsight_bolt-monthly-october-2026-update-activity-7513599420374966272-q0jC",
+    "post_id": 7513599420374966272,
+    "author": "Bolt Insight",
+    "is_company_account": false,
+    "followers": 8062,
+    "post_age": "38.7h (URL ID)",
+    "post_age_hours": 38.7,
+    "post_age_source": "url_id",
+    "post_text": "October is well underway and we have plenty to share!🐿️\n\nIn this edition you will find our on-demand webinar on how GLP-1s are changing snacking behavior, a major upgrade to Bolt IQ, and highlights from our two talks at Printemps des Études with Orange and Volvic!\n\nYou will also find a new article from Vatsala Rathore on what \"human in the loop\" really means, plus a countdown to Bolt Summit London.\n\nOur monthly roundup is out now... check it out below! 👇",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 7,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQEnR9dNg0n71A/article-cover_image-shrink_720_1280/B4EaEWoNtFJgAY-/0/1791381003382?e=2147483647&v=beta&t=xRjG0OJl3H7Jb9_qqpymZjHNLXBsePxkVTb6Nv2HLWc",
+    "topic": "Bolt",
+    "score": 71.6,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 3.4,
+      "total": 71.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:11.536694+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dev-inception_api-apidevelopment-apiperformance-activity-7513581995105554432-u1Rt",
+    "canonical_url": "https://www.linkedin.com/posts/dev-inception_api-apidevelopment-apiperformance-activity-7513581995105554432-u1Rt",
+    "post_id": 7513581995105554432,
+    "author": "Dev Inception",
+    "is_company_account": false,
+    "followers": 2568,
+    "post_age": "39.8h (URL ID)",
+    "post_age_hours": 39.8,
+    "post_age_source": "url_id",
+    "post_text": "API performance is rarely determined by one technology.\nJSON gets blamed surprisingly often when an API is slow. But changing the serialization format is only useful when serialization, payload size, or network transfer is actually part of the bottleneck.\nEvery API request moves through multiple stages: application logic, serialization, network transfer, deserialization, database operations, external services, caching, and infrastructure. A faster data format can improve one stage while having almost no meaningful impact on the total request time.\nThat is why the first step should always be measurement.\nFor example, if a 500 ms API request spends 320 ms querying the database, 100 ms in business logic, 60 ms calling an external service, 10 ms serializing the response, and 10 ms transferring it over the network, reducing serialization from 10 ms to 4 ms only produces a small improvement to the overall request.\nThe technology is not the bottleneck. The architecture is.\nJSON remains an excellent choice for many public APIs because it is human-readable, widely supported, easy to debug, and simple to integrate. But other workloads can benefit from more compact or schema-driven formats.\nProtocol Buffers are well suited to high-performance service-to-service communication and gRPC. MessagePack can provide compact binary serialization without the complexity of a large schema ecosystem. Apache Avro is particularly useful in data pipelines and event-driven architectures where schema evolution matters. FlatBuffers can be valuable when applications need highly efficient access to serialized data.\nThe right decision depends on the communication boundary and workload.\nA practical architecture might use JSON at the public API boundary, Protobuf for internal services, and Avro for event streams. Specialized formats can be introduced where the performance requirements justify their additional complexity.\nBefore changing formats, benchmark the actual workload.\nMeasure payload sizes. Profile serialization and deserialization. Examine database queries. Check network latency. Look for unnecessary API calls, N+1 requests, inefficient caching, connection overhead, and oversized responses.\nThen optimize the constraint that is actually limiting performance.\nThe goal is not to replace JSON with something faster.\nThe goal is to build an API where every performance decision has evidence behind it.\n#API #APIDevelopment #APIPerformance #SoftwareArchitecture #BackendDevelopment #WebDevelopment #Microservices #GRPC #ProtocolBuffers #JSON #Serialization #SystemDesign #SoftwareEngineering #PerformanceOptimization #DistributedSystems #Engineering",
+    "hashtags": [
+      "#API",
+      "#APIDevelopment",
+      "#APIPerformance",
+      "#SoftwareArchitecture",
+      "#BackendDevelopment",
+      "#WebDevelopment",
+      "#Microservices",
+      "#GRPC",
+      "#ProtocolBuffers",
+      "#JSON",
+      "#Serialization",
+      "#SystemDesign",
+      "#SoftwareEngineering",
+      "#PerformanceOptimization",
+      "#DistributedSystems",
+      "#Engineering"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEVqr2vj4_HlQ/feedshare-image-high-res/B4EaEWbAlrH0AU-/0/1791377541802?e=2147483647&v=beta&t=xByjbVajM3ukxzrjvIUWOukimZ5ahbg3eR7fjhN9hk0",
+    "topic": "Microservices Best Practices",
+    "score": 69.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 69.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:24.000937+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sumukha_assurepulseai-observability-apm-activity-7513596685646946305-OU8n",
+    "canonical_url": "https://www.linkedin.com/posts/sumukha_assurepulseai-observability-apm-activity-7513596685646946305-OU8n",
+    "post_id": 7513596685646946305,
+    "author": "Sumukha Rao",
+    "is_company_account": false,
+    "followers": 1847,
+    "post_age": "38.9h (URL ID)",
+    "post_age_hours": 38.9,
+    "post_age_source": "url_id",
+    "post_text": "The Enterprise Doesn’t Need More Monitoring. It Needs Better Answers.\n\nOne question I increasingly hear from technology leaders is:\n\n“We have all the monitoring tools. Why does it still take so long to find the actual problem?”\n\nThat is the gap we are trying to address with AssurePulseAI.\n\nModern enterprises operate across applications, APIs, databases, servers, Kubernetes, cloud, networks and security platforms. Each layer produces metrics, logs, traces and alerts—often across multiple tools.\n\nBut when a critical transaction fails or a customer sees a 503 error, the business doesn’t need another dashboard.\n\nThe business needs answers:\n\nWhat failed?\nWhy did it fail?\nWhat is the business impact?\nWhere is the root cause?\nWhat should we do next?\n\nAssurePulseAI brings these layers together through an AI-native performance monitoring and observability platform.\n\n🔹 Application & Transaction Monitoring\n🔹 Infrastructure & Database Monitoring\n🔹 Network Monitoring\n🔹 End User Experience\n🔹 Asset Management\n🔹 Security & Compliance\n🔹 AI-driven RCA & anomaly detection\n🔹 AI-driven DB Query Optimization\n🔹 AI-driven System Configuration Optimization\n🔹 AI-driven Capacity Planning\n🔹 Executive & CTO Dashboards\n\nAnd the bigger idea is simple:\n\nDon’t just observe the technology stack. Understand it.\n\nWith Aura AI, the platform can correlate signals across layers and move from “something is wrong” toward “this is why it is wrong and this is what you should look at.”\n\nFor enterprises, this also means challenging the traditional approach of adding another specialized tool for every layer.\n\nOne platform. Fewer silos. Faster diagnosis. Lower operational complexity.\n\nWe are building AssurePulseAI from India, with a clear ambition:\n\nMake enterprise observability simpler, more intelligent and more actionable.\n\nObserve. Analyze. Optimize. With AI.\n\nI would be very interested in hearing from CIOs, CTOs, CISOs and IT leaders:\n\nIs your biggest observability challenge collecting data—or turning that data into the right decision quickly?\n\n#AssurePulseAI #Observability #APM #AIOps #AI #CIO #CTO #ITOperations #PerformanceEngineering #DigitalTransformation #EnterpriseTechnology #MadeInIndia",
+    "hashtags": [
+      "#AssurePulseAI",
+      "#Observability",
+      "#APM",
+      "#AIOps",
+      "#AI",
+      "#CIO",
+      "#CTO",
+      "#ITOperations",
+      "#PerformanceEngineering",
+      "#DigitalTransformation",
+      "#EnterpriseTechnology",
+      "#MadeInIndia"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQH5tAqjU2GHGQ/feedshare-shrink_800/B56aEWn_NPK8Ak-/0/1791380943964?e=2147483647&v=beta&t=xeaRNwuIGLRPLTfL05U7RHwxan-8tYk6NZihFr2CDqE",
+    "topic": "Observability & Performance Engineering",
+    "score": 69.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 69.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:23.339664+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/lunartechai_the-2026-state-of-ai-and-software-engineering-activity-7513567931314782208-xWUp",
+    "canonical_url": "https://www.linkedin.com/posts/lunartechai_the-2026-state-of-ai-and-software-engineering-activity-7513567931314782208-xWUp",
+    "post_id": 7513567931314782208,
+    "author": "LUNARTECH",
+    "is_company_account": false,
+    "followers": 9157,
+    "post_age": "40.8h (URL ID)",
+    "post_age_hours": 40.8,
+    "post_age_source": "url_id",
+    "post_text": "We’re proud to showcase the latest version of the 2026 State of AI and Software Engineering — a certified report exploring how AI is changing software engineering and the broader technology landscape.\n\nThe report has also been translated into several languages, because we believe access to knowledge should not be limited by geography or language.\n\nOne of the central themes is simple: some practices, tools, and approaches that were once considered essential are becoming less useful, while others remain highly valuable. AI is changing the way software is built, just as drones are changing the shape of modern infrastructure and how we approach tasks that once required entirely different systems.\n\nBut this does not mean that software engineers are becoming irrelevant.\n\nThe qualities that make a strong software engineer — problem-solving, systems thinking, understanding fundamentals, making sound technical decisions, and being able to work with complex systems — remain extremely important.\n\nIn fact, as AI becomes more capable, understanding these fundamentals may become even more valuable.\n\nI had a great deal of joy writing this report, especially because it allowed us to examine these changes systematically rather than simply speculate about the future.\n\nThe number of software engineers continues to grow, and making high-quality knowledge more accessible can help people everywhere — whether you are in the United States, Brazil, Europe, Russia, India, China, Africa, or elsewhere.\n\nOur goal is simple: make it easier for more people to understand where software engineering is heading, what is changing, what is staying, and how they can continue becoming better engineers in an AI-driven world.\n\nThe future of software engineering is changing. But the fundamentals still matter.\n\nThanks to Babel, The 2026 State of AI and Software Engineering is available in English, Chinese, Arabic, Hindi, Russian, French, German, Spanish and Italian.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Modern Software Engineering Practices",
+    "score": 69.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 69.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:13.272937+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/latino-legends_backenddeveloper-pythondeveloper-dataengineering-activity-7513327300751474690-0TXn",
+    "canonical_url": "https://www.linkedin.com/posts/latino-legends_backenddeveloper-pythondeveloper-dataengineering-activity-7513327300751474690-0TXn",
+    "post_id": 7513327300751474690,
+    "author": "Latino Legends",
+    "is_company_account": false,
+    "followers": 45387,
+    "post_age": "56.7h (URL ID)",
+    "post_age_hours": 56.7,
+    "post_age_source": "url_id",
+    "post_text": "🚀 WE'RE HIRING: Backend Developer (Python / Data Engineering / GCP)\n\nLatino Legends is partnering with a growing U.S. housing market data company to find a hands-on Backend Developer who can take full ownership of backend systems, data pipelines, and GCP infrastructure while contributing across the full product stack!\n\nIf you’re a product-minded engineer in Latin America who loves solving complex backend and data challenges at scale, this role is for you.\n\n💡 THE DETAILS\n💰 Compensation: $37 – $42 USD/hour\n📍 Location: Remote (Latin America)\n⏰ Schedule: Full-time (40 hrs/week aligned with US Central Time)\n🤝 Type: Long-term international independent contractor\n⚡ Hiring Timeline: ASAP\n\n💻 WHAT YOU'LL DO\nBuild & maintain Python backend services, production APIs, and asynchronous workflows\nDesign & optimize large-scale ETL/data pipelines using BigQuery and advanced SQL\nManage GCP infrastructure (Compute Engine, Cloud Storage, Pub/Sub, load balancing, monitoring)\nContribute to frontend features (React, Next.js, TypeScript) using AI coding tools (Cursor, Claude, Copilot)\nOwn features end-to-end: from architecture and pipeline design to launch, analytics, and iteration\n\n⚡ WHAT WE'RE LOOKING FOR\nStrong professional experience with Python backend development & production APIs\nAdvanced SQL & hands-on BigQuery experience processing large datasets\nProduction experience with Google Cloud Platform (GCP) & ETL/data pipelines\nStrong foundation in data architecture, system design, and performance optimization\nWorking knowledge of React/TypeScript to contribute within an existing frontend codebase\nDaily experience leveraging AI tools (Claude, Cursor, Copilot) in your workflow\nStrong English communication skills (daily standups & 1:1s with the CEO)\n\n📌 HOW TO APPLY\n👉 Click the link in our first comment to submit your application today!\n\n#BackendDeveloper #PythonDeveloper #DataEngineering #RemoteJobs #LATAMJobs",
+    "hashtags": [
+      "#BackendDeveloper",
+      "#PythonDeveloper",
+      "#DataEngineering",
+      "#RemoteJobs",
+      "#LATAMJobs"
+    ],
+    "engagement": {
+      "reactions": 10,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHWI15Fx1RR5A/feedshare-image-high-res/B4EaER9MQfI8Bo-/0/1791302616354?e=2147483647&v=beta&t=x0AtpLukKtqy3PU0UhAMbpsdH7HobPD9gX9NNlRtnFM",
+    "topic": "Python Backend Development",
+    "score": 68.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 7.5,
+      "total": 68.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:50.102786+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/emergent-method_themethod-lfgem-activity-7513320772845887488-G29T",
+    "canonical_url": "https://www.linkedin.com/posts/emergent-method_themethod-lfgem-activity-7513320772845887488-G29T",
+    "post_id": 7513320772845887488,
+    "author": "Emergent Method",
+    "is_company_account": false,
+    "followers": 11004,
+    "post_age": "57.2h (URL ID)",
+    "post_age_hours": 57.2,
+    "post_age_source": "url_id",
+    "post_text": "#theMethod is honored to be named one of the Best Places to Work in the Capital Region for the SEVENTH consecutive year!\n\nThank you to the Baton Rouge Business Report for this recognition — this is a reflection of our incredible team, our impact, and the culture we strive for each and every day. #LFGEM",
+    "hashtags": [
+      "#theMethod",
+      "#LFGEM"
+    ],
+    "engagement": {
+      "reactions": 58,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHkFpVuhtoLuw/feedshare-shrink_800/B4EaEStbr_HYAg-/0/1791315262515?e=2147483647&v=beta&t=ij7VXyJ2ou3DvVvbLMnGdoZ28DxG6HMTfieYgEGx9UI",
+    "topic": "Emergent",
+    "score": 68.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 17.5,
+      "engagement": 15.0,
+      "total": 68.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:36.950478+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/engineering-hub-ai_rag-is-easy-to-explain-building-reliable-activity-7513297089271959552-fejY",
+    "canonical_url": "https://www.linkedin.com/posts/engineering-hub-ai_rag-is-easy-to-explain-building-reliable-activity-7513297089271959552-fejY",
+    "post_id": 7513297089271959552,
+    "author": "AI Engineer",
+    "is_company_account": false,
+    "followers": 142958,
+    "post_age": "58.7h (URL ID)",
+    "post_age_hours": 58.7,
+    "post_age_source": "url_id",
+    "post_text": "RAG is easy to explain.\nBuilding reliable RAG is an engineering problem.\n\nRetrieval only helps when the right information reaches the model.\n\n1. START WITH GOOD SOURCE DATA\n\nWhat it is: The documents, databases, and other knowledge your system can retrieve.\n\nWhy it matters: A model can't reliably ground an answer in information that is outdated, incomplete, or incorrect.\n\nHow to apply: Clean your data, maintain useful metadata, and control which sources enter the knowledge base.\n\n2. DESIGN RETRIEVAL FOR RELEVANCE\n\nWhat it is: The system that finds useful information for each query.\n\nWhy it matters: Retrieving information isn't enough. You need the right information.\n\nHow to apply: Test chunking, search strategies, filters, ranking, and reranking against real queries.\n\n3. CONTROL THE CONTEXT\n\nWhat it is: The retrieved information passed to the model.\n\nWhy it matters: Too little context can leave gaps. Too much irrelevant context adds noise and cost.\n\nHow to apply: Give the model the most relevant evidence instead of simply sending every retrieved chunk.\n\n4. GROUND THE GENERATION\n\nWhat it is: Instructing the model to answer using the retrieved evidence.\n\nWhy it matters: Even with RAG, an LLM can still generate unsupported claims.\n\nHow to apply: Define grounding rules, fallback behavior when evidence is insufficient, and citations where appropriate.\n\n5. EVALUATE THE PIPELINE\n\nWhat it is: Testing retrieval and generation separately.\n\nWhy it matters: A bad answer might come from the retriever, the source data, or the model.\n\nHow to apply: Measure retrieval relevance, groundedness, answer relevance, and completeness instead of evaluating only the final response.\n\nRAG doesn't make an LLM automatically trustworthy.\n\nIt gives engineers a way to ground generation in external evidence.\n\nThe quality of the answer still depends on the quality of the entire pipeline.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGEwj0L_pXk2Q/feedshare-shrink_1280/B56aESX45kHAAM-/0/1791309614962?e=2147483647&v=beta&t=d3L7PS5taBIsYJUMCPrt9538IIXjnvn70yL6-coJCWA",
+    "topic": "LLM Engineering & RAG",
+    "score": 68.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 10.5,
+      "total": 68.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:07.506026+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/grabnerandi_observability-tools-just-not-the-ones-i-activity-7513439631074590721-GVX3",
+    "canonical_url": "https://www.linkedin.com/posts/grabnerandi_observability-tools-just-not-the-ones-i-activity-7513439631074590721-GVX3",
+    "post_id": 7513439631074590721,
+    "author": "Andreas (Andi) Grabner",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.3h (URL ID)",
+    "post_age_hours": 49.3,
+    "post_age_source": "url_id",
+    "post_text": "Observability Tools - just not the ones I am used to :-)\n\nWhen I visited the Observatory Station on top of Mauna Kea this week I was reminded about the parallels to our industry: analyzing complex systems and detecting patterns in an evergrowing amount of Observability signals.\n\nWhile we are looking for software bugs, performance hotspots or vulnerabilities they try to figure out how our universe works, how life came about and who else might be out there. Pretty magical :-)",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 23,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEPMCBbHwAuzw/feedshare-shrink_800/B4DaEUZh4GIcAc-/0/1791343600065?e=2147483647&v=beta&t=xrmjxVV5LTmqtP_8L7KdhsMq-u5by60dv8jpZWgYjs0",
+    "topic": "Observability & Performance Engineering",
+    "score": 67.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 10.1,
+      "total": 67.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:17.564422+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jeanklee_ai-engineering-looks-simple-from-the-surface-activity-7513946739603791872-q3E6",
+    "canonical_url": "https://www.linkedin.com/",
+    "post_id": 7513946739603791872,
+    "author": "Jeanklee",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "15.7h (URL ID)",
+    "post_age_hours": 15.7,
+    "post_age_source": "url_id",
+    "post_text": "500 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico",
+    "topic": "LLM Engineering & RAG",
+    "score": 66.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 4.5,
+      "total": 66.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:12.422517+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/repl-it_replit-now-has-context-across-all-your-projects-activity-7513267230680174592-FXw0",
+    "canonical_url": "https://www.linkedin.com/posts/repl-it_replit-now-has-context-across-all-your-projects-activity-7513267230680174592-FXw0",
+    "post_id": 7513267230680174592,
+    "author": "Replit",
+    "is_company_account": false,
+    "followers": 212918,
+    "post_age": "60.7h (URL ID)",
+    "post_age_hours": 60.7,
+    "post_age_source": "url_id",
+    "post_text": "Replit now has context across all your projects.\n\nStart a new chat and ask Replit to find an existing project, add a feature, or use one project as a reference for another.\n\nFor example:\n\n“Find my coffee brand’s Partner Marketing Hub, Competitor Weekly, and GTM Strategy slides.”\n\n“Use the color palette from Partner Marketing Hub to update Competitor Weekly and GTM Strategy slides.”\n\nReplit can read your project files and use that context to start edits as background tasks, with links to review the changes and continue working.\n\nOne place to start. Context across your projects.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Replit",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:43.187284+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/boltdotnew_did-you-know-you-can-ask-bolt-to-wire-up-activity-7513283277437276161-5h9i",
+    "canonical_url": "https://www.linkedin.com/posts/boltdotnew_did-you-know-you-can-ask-bolt-to-wire-up-activity-7513283277437276161-5h9i",
+    "post_id": 7513283277437276161,
+    "author": "bolt.new",
+    "is_company_account": false,
+    "followers": 46602,
+    "post_age": "59.7h (URL ID)",
+    "post_age_hours": 59.7,
+    "post_age_source": "url_id",
+    "post_text": "Did you know you can ask Bolt to wire up Sentry the GDPR-safe way? No network addresses stored, emails swapped for internal IDs, sessions recorded only when something breaks.\n\nYou see every bug. Your users stay anonymous.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Bolt",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:04.419638+00:00"
+  },
+  {
+    "url": "https://tr.linkedin.com/posts/webrazzi_yazılım-geliştirme-ve-bulut-altyapısı-girişimi-activity-7513161917214015488-EWVt",
+    "canonical_url": "https://tr.linkedin.com/posts/webrazzi_yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-ve-bulut-altyap%C4%B1s%C4%B1-giri%C5%9Fimi-activity-7513161917214015488-EWVt",
+    "post_id": 7513161917214015488,
+    "author": "Webrazzi",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.7h (URL ID)",
+    "post_age_hours": 67.7,
+    "post_age_source": "url_id",
+    "post_text": "Yazılım geliştirme ve bulut altyapısı girişimi Supabase, 150 milyon dolar yatırım aldı https://buff.ly/A0E2x0g",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQFN9-WJRBKiog/image-shrink_800/B4EaEQc4N0JkAg-/0/1791277368478?e=2147483647&v=beta&t=ecEJKcX5gZt6ApkDXLqGKgdg2MuLTRwZMfnDNGMycQQ",
+    "topic": "Supabase",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:46:04.513738+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jack-roberts-ai-automations_i-built-a-free-tool-that-deletes-every-trace-activity-7513327448651145220-kxyJ",
+    "canonical_url": "https://www.linkedin.com/posts/jack-roberts-ai-automations_i-built-a-free-tool-that-deletes-every-trace-activity-7513327448651145220-kxyJ",
+    "post_id": 7513327448651145220,
+    "author": "Jack Roberts",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "56.7h (URL ID)",
+    "post_age_hours": 56.7,
+    "post_age_source": "url_id",
+    "post_text": "I built a free tool that deletes every trace of AI slop from any text, and it's open source on GitHub right now.\n\nIt's called Slop Monster. Paste in your landing page, your email, anything, and it finds every giveaway that makes people flag your writing as AI. It doesn't just flag them, it rewrites them.\n\nIt takes the best parts of every anti-AI-slop repo out there and adds what they all miss: marketing and sales copy, trained on the best examples out there.\n\nSlop Monster (GitHub): https://lnkd.in/eF9B39mY",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 14,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Open Source AI Tools",
+    "score": 63.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 6.0,
+      "total": 63.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:23.280349+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/oreilly_become-a-software-architect-with-neal-ford-activity-7513312332412899329-FYge",
+    "canonical_url": "https://www.linkedin.com/posts/oreilly_become-a-software-architect-with-neal-ford-activity-7513312332412899329-FYge",
+    "post_id": 7513312332412899329,
+    "author": "O'Reilly",
+    "is_company_account": false,
+    "followers": 122101,
+    "post_age": "57.7h (URL ID)",
+    "post_age_hours": 57.7,
+    "post_age_source": "url_id",
+    "post_text": "That’s a wrap on six weeks of our Software Architecture cohort!\n\nFrom architectural characteristics and logical architecture to distributed systems, patterns, evolutionary architecture, and Architecture as Code, participants have spent the past six weeks learning and applying what it takes to think like a software architect.\n\nA big thank you to our instructors, Neal Ford and Mark Richards, for guiding participants through the experience!\n\nBut don’t just take our word for it, here’s what one of our attendees had to say about their experience:\n\nI now feel more confident leading architectural conversations with stakeholders, thanks to the theoretical knowledge I’ve gained and the practical experience of collaborating with my teammates throughout the cohort.\n\nMissed out this time? Sign up to be among the first to hear about future opportunities to learn with us: https://lnkd.in/ePTR37F5",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHDh5GeewMGAQ/articleshare-shrink_800/B4EZ9l8daIHwAk-/0/1784121778650?e=2147483647&v=beta&t=UYZ99FFV9mK6nA-IbEow-aj9Wv9tFmUeXk6tCBHv2xw",
+    "topic": "Software Architecture Patterns",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:10.667548+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sreeja-vyshnava-990231249_hiring-javajobs-javadeveloper-activity-7513113054537035778--xNz",
+    "canonical_url": "https://www.linkedin.com/posts/sreeja-vyshnava-990231249_hiring-javajobs-javadeveloper-activity-7513113054537035778--xNz",
+    "post_id": 7513113054537035778,
+    "author": "Sreeja Vyshnava",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.9h (URL ID)",
+    "post_age_hours": 70.9,
+    "post_age_source": "url_id",
+    "post_text": "🚨 HIRING: JAVA EXPERT / JAVA ARCHITECT 🚨\nWe are looking for a highly skilled Java Expert who combines strong architecture and design capabilities with a hands-on approach to development.\n🔹 Role: Java Expert / Architect\nExperience: 10+ Years\nEmployment Type: Full-Time\nWork Mode: Work from office\nLocation- Chennai\n💼 WHAT YOU'LL DO\n• Design and implement enterprise-grade applications using Java SE & Jakarta EE.\n• Define scalable, maintainable, and high-performance application architectures.\n• Apply Domain-Driven Design (DDD) to complex business domains\n• Build microservices, event-driven, and cloud-native architectures.\n• Work with AWS / Azure / GCP.\n• Design reliable and resilient distributed systems.\n• Mentor developers and drive coding and design best practices.\n• Collaborate with product owners, business teams, and technical stakeholders.\n• Conduct code reviews and resolve complex technical challenges.\n• Evaluate emerging technologies to improve scalability and performance.\n🛠️ MUST-HAVE SKILLS\n✅ Java SE & Jakarta EE\n✅ JPA, CDI, EJB, JAX-RS\n✅ Jakarta EE Containers – WebSphere Liberty / Payara / WildFly\n✅ Microservices Architecture\n✅ Domain-Driven Design (DDD)\n✅ Distributed Systems\n✅ AWS / Azure / GCP\n✅ Docker & Kubernetes\n✅ Kafka / RabbitMQ\n✅ RESTful APIs / GraphQL\n✅ CI/CD & DevOps\n✅ Git / Jenkins\n✅ Strong System Design & Debugging Skills\n⭐ GOOD TO HAVE\n• Spring WebFlux / Quarkus / Micronaut\n• MongoDB / Cassandra\n• Redis / Hazelcast\n• OAuth2 / OpenID Connect\n• Prometheus / Grafana / ELK\n• Experience with cloud-native application development\n🎯 IDEAL CANDIDATE\nA hands-on Java professional who can think at an architecture level while still writing and reviewing production-quality code, guiding teams, and solving complex engineering problems.\n📩 INTERESTED CANDIDATES\nShare your updated CV:\nEmail: [sreeja.vyshnava@groviya.com]\n📱 WhatsApp: +91 7995545941\n#Hiring #JavaJobs #JavaDeveloper #JavaArchitect #JakartaEE #Microservices #DDD #CloudNative #AWS #Azure #GCP #Kubernetes #Docker #Kafka #SoftwareArchitecture #TechJobs #ITJobs #HiringNow",
+    "hashtags": [
+      "#Hiring",
+      "#JavaJobs",
+      "#JavaDeveloper",
+      "#JavaArchitect",
+      "#JakartaEE",
+      "#Microservices",
+      "#DDD",
+      "#CloudNative",
+      "#AWS",
+      "#Azure",
+      "#GCP",
+      "#Kubernetes",
+      "#Docker",
+      "#Kafka",
+      "#SoftwareArchitecture",
+      "#TechJobs",
+      "#ITJobs",
+      "#HiringNow"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Microservices Best Practices",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:42:17.438213+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/daraoladapo_cicd-devops-githubactions-activity-7513161344913838080-5Hin",
+    "canonical_url": "https://www.linkedin.com/posts/daraoladapo_cicd-devops-githubactions-activity-7513161344913838080-5Hin",
+    "post_id": 7513161344913838080,
+    "author": "Dara Oladapo",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.7h (URL ID)",
+    "post_age_hours": 67.7,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Build a CI/CD pipeline you can actually trust.\n\nMost teams think CI/CD is just \"run tests and deploy.\" The real goal is reliable delivery: repeatable builds, controlled releases, and safe recovery.\n\nThis video breaks down the 7 core principles:\n- Environments: define and separate dev, QA, staging, prod\n- Artifacts: build once, deploy the same output everywhere\n- Caching: speed up CI with keys you trust\n- Secrets: never hardcode credentials, use least privilege\n- Approvals: automate lower environments, gate production\n- Deployments: traceable, observable, version-tagged\n- Rollback: define recovery before you need it\n\nWatch: https://lnkd.in/ek53vgDJ\n\n#CICD #DevOps #GitHubActions #Automation\n\nWhat principle has had the biggest impact on your deployment reliability?",
+    "hashtags": [
+      "#CICD",
+      "#DevOps",
+      "#GitHubActions",
+      "#Automation"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "DevOps CI/CD Automation",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:02.152204+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/resourceperson_im-currently-open-to-new-opportunities-as-activity-7513232496495386624-cii_",
+    "canonical_url": "https://www.linkedin.com/posts/resourceperson_im-currently-open-to-new-opportunities-as-activity-7513232496495386624-cii_",
+    "post_id": 7513232496495386624,
+    "author": "Sanjay A.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "63.0h (URL ID)",
+    "post_age_hours": 63.0,
+    "post_age_source": "url_id",
+    "post_text": "Im currently open to new opportunities as Principal Performance Engineer, Performance Architect, Resiliency amp; Observability Eng.With 20 + years of experience, Ive worked across government, healthcare, finance, and enterprise applications and led DATA center migrations, building scalable solutions using:My Skills are: - LoadRunner (Cloud, Enterprise)- K6/ Grafana- Neoload- Dynatrace- Splunk- AppDynamics- AWS - Azure Cloud- Microservices amp; REST APIs- SQL Server amp; PostgreSQL- AI Integration amp; Enterprise Applications.Across roles at J.P. Morgan Chase, Navy Federal Credit Union, and AmeriHealth Caritas, Ive owned the performance engineering lifecycle end to end: designing and leading resiliency programs spanning chaos, stress, load, endurance, breakpoint, and disaster recovery testing; defining observability rules and building reusable Splunk and AppDynamics dashboards and queries that lifted an entire performance engineering teams efficiency; and translating complex application, infrastructure, and network bottlenecks into concrete architectural and tuning recommendations for senior leadership. I led a 5,500+ virtual-user Citrix modernization validated across 255 replicated VM host servers and directed performance validation for a multi-year physical-to-virtual data center migration — work directly aligned with the resiliency and data center migration scope of this role.Beyond scripting and execution in LoadRunner, JMeter, and Tricentis NeoLoad, K6, I regularly partner hands-on with network and infrastructure teams — provisioning performance environments, coordinating with vendors on licensing and host servers, and resolving load balancer and connectivity issues to keep test environments representative of production. I also mentor performance engineers on tooling and scripting standards, and Im comfortable operating as a technical advisor across all levels of an organization, from hands-on engineers to CTO-level stakeholders.My background in regulated financial services amp; HealthCare. Very well versed with HIPPA Laws.If your team is looking for someone who enjoys solving complex technical challenges and Capacity planning, JVM Tuning, Data Center Migration and scaling, building reliable enterprise solutions, I would be happy to connect. Feel free to reach out to me at Sanjay@aol.com",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Observability & Performance Engineering",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:14.618656+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/performetriks_observability-security-cybersecurity-activity-7513259886856790017-eiRD",
+    "canonical_url": "https://www.linkedin.com/posts/performetriks_observability-security-cybersecurity-activity-7513259886856790017-eiRD",
+    "post_id": 7513259886856790017,
+    "author": "Performetriks",
+    "is_company_account": false,
+    "followers": 4573,
+    "post_age": "61.2h (URL ID)",
+    "post_age_hours": 61.2,
+    "post_age_source": "url_id",
+    "post_text": "#Observability and #Security\n\nIt's no longer enough for your system to be fast under load. It must also be secure under attack. AI-based attacks are shortening the time between a vulnerability being found and being actively exploited. It used to take months. Now we're talking about hours.\n\nMeanwhile, performance and security often sit in separate teams. In a poll during our recent session, 50% of participants said theirs are split and not connected.\n\nIf you observe your platform anyway and you have this real-time information, why hide it from your security team? The same data that performance engineers have used for years can also help security teams:\n🔹 Fraud sessions visible in real time, with a drill-down to the terminal and user responsible\n🔹 Windows security events analyzed by risk and mapped to MITRE ATT&CK\n🔹 AI-powered anomaly detection that notifies the security team automatically\n\nFrom a security perspective, you need context to identify issues quickly. That same context is already in your observability platform.\n\nWith NIS 2 and DORA, banks need to do more than show compliance. They need to show results, and prove their platforms are resilient.\n\nIs your observability data reaching your security team?\n\n#CyberSecurity #Banking #DORA #NIS2 #Dynatrace #Resilience #CybersecurityAwarnessMonth #PerformanceEngineering",
+    "hashtags": [
+      "#Observability",
+      "#Security",
+      "#CyberSecurity",
+      "#Banking",
+      "#DORA",
+      "#NIS2",
+      "#Dynatrace",
+      "#Resilience",
+      "#CybersecurityAwarnessMonth",
+      "#PerformanceEngineering"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFlc06sQNEn6Q/feedshare-image-high-res/B56aER2DOiHQAU-/0/1791300745009?e=2147483647&v=beta&t=ltfLbiiQeDrlvC24kIsKIv4UMHHNBiqoaYPBA7HpQHA",
+    "topic": "Observability & Performance Engineering",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:21.878189+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bloomberg-news_child-predators-turn-to-open-source-ai-to-activity-7513448951862390786-fKdp",
+    "canonical_url": "https://www.linkedin.com/posts/bloomberg-news_child-predators-turn-to-open-source-ai-to-activity-7513448951862390786-fKdp",
+    "post_id": 7513448951862390786,
+    "author": "Bloomberg News",
+    "is_company_account": false,
+    "followers": 4219060,
+    "post_age": "48.6h (URL ID)",
+    "post_age_hours": 48.6,
+    "post_age_source": "url_id",
+    "post_text": "Open-source AI tools are fueling a rise in explicit child sexual images, and current laws are ill-equipped to stop it.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 7,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQE-qds1N3smOw/image-shrink_800/B4EaEUiAEJH0Ag-/0/1791345820470?e=2147483647&v=beta&t=NhL0P_M-Qi-KAQo_QvlvDUHVXm5_UgiI8SUjRcCb7NI",
+    "topic": "Open Source AI Tools",
+    "score": 61.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.1,
+      "total": 61.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:21.879731+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mass-staffing-projects_our-client-is-looking-for-an-experienced-activity-7513486405562679296-zFfO",
+    "canonical_url": "https://www.linkedin.com/posts/mass-staffing-projects_our-client-is-looking-for-an-experienced-activity-7513486405562679296-zFfO",
+    "post_id": 7513486405562679296,
+    "author": "MSP Staffing (Pty) Ltd",
+    "is_company_account": true,
+    "followers": 79656,
+    "post_age": "46.2h (URL ID)",
+    "post_age_hours": 46.2,
+    "post_age_source": "url_id",
+    "post_text": "Our client is looking for an experienced Java Developer to build cloud-ready services and RESTful APIs using modern software engineering practices.\n\nKEY RESPONSIBILITIES\n• Design and develop cloud-ready services and REST APIs\n• Own features from database design through deployment and monitoring\n• Contribute to architecture and system design\n• Drive code quality through reviews, pairing and knowledge sharing\n• Collaborate with cross-functional teams\n\nADVANTAGEOUS\n• MongoDB / NoSQL and GraphQL\n• Azure DevOps, Jenkins and Jira\n• HTML5, CSS and JavaScript\n• J2EE, JSP or legacy MVC experience\n\nIf you feel you are a suitable match for this position, we’d like to hear from you.\n\n📩 Submit your CV to it.jobs@mspstaffing.co.za\n📞 021 555 0432\n\nYou can also visit our website for more exciting career opportunities: https://mspstaffingza.co/\n\nOnly shortlisted candidates will be contacted. If you have not heard from us within 4 days, please consider your application unsuccessful.\n\nClaudine Van Heerden, Marlene Schulte, Yashodha Gangapersadh",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQEnxp6hLvymGw/feedshare-shrink_1280/B4DaEL3u.BKsAM-/0/1791200522439?e=2147483647&v=beta&t=vT-ofRCvY-NGEkhnHZ90Xr0tA0n3UIvJzLWmM8TZqnU",
+    "topic": "Modern Software Engineering Practices",
+    "score": 59.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 59.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:44:14.598828+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/hilde-bolt_sometimes-you-just-need-to-open-a-window-activity-7513546237095370752-e23N",
+    "canonical_url": "https://www.linkedin.com/posts/hilde-bolt_sometimes-you-just-need-to-open-a-window-activity-7513546237095370752-e23N",
+    "post_id": 7513546237095370752,
+    "author": "Hilde Bolt",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.2h (URL ID)",
+    "post_age_hours": 42.2,
+    "post_age_source": "url_id",
+    "post_text": "Sometimes you just need to open a window…❤️",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH7vem8PKtJoA/thumbnail-with-play-button-overlay-high/B4EaEQsDJEJgC8-/0/1791281347190?e=2147483647&v=beta&t=wEOE8GuWZ6Mlu9ljvpMin-GY2t8-Zih8KlW6QgZ911g",
+    "topic": "Bolt",
+    "score": 59.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 4.5,
+      "total": 59.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:07.229736+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/metadesign-solutions_ai-gets-attention-machine-learning-delivers-activity-7513499219219968000-hKTB",
+    "canonical_url": "https://www.linkedin.com/posts/metadesign-solutions_ai-gets-attention-machine-learning-delivers-activity-7513499219219968000-hKTB",
+    "post_id": 7513499219219968000,
+    "author": "MetaDesign Solutions",
+    "is_company_account": true,
+    "followers": 14883,
+    "post_age": "45.3h (URL ID)",
+    "post_age_hours": 45.3,
+    "post_age_source": "url_id",
+    "post_text": "AI gets attention. Machine Learning delivers business intelligence.\n\nYour enterprise doesn't need another technology experiment.\n\nIt needs solutions that can:\nPredict → Automate → Optimize → Scale\n\nFrom predictive analytics and recommendation engines to fraud detection and intelligent forecasting, custom ML can become part of your existing business processes.\n\nWe develop Machine Learning solutions that integrate with your existing applications, data infrastructure, and workflows.\n\nThe goal isn't to build a complicated model.\nThe goal is to solve a business problem.\n\nVisit: https://lnkd.in/gaU8HjEm",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFA8703kzmdJA/feedshare-shrink_800/B56aEVPuQxHQAg-/0/1791357806029?e=2147483647&v=beta&t=a-f40-WyNxTy33yIdcARzvOcQT70_JckvsXHrmOwPYo",
+    "topic": "Machine Learning Infrastructure",
+    "score": 55.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 55.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:36.981213+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/techclubinc_devops-cicd-infrastructureascode-activity-7513584157143396352-lQog",
+    "canonical_url": "https://www.linkedin.com/posts/techclubinc_devops-cicd-infrastructureascode-activity-7513584157143396352-lQog",
+    "post_id": 7513584157143396352,
+    "author": "TechClub Inc",
+    "is_company_account": true,
+    "followers": 96963,
+    "post_age": "39.7h (URL ID)",
+    "post_age_hours": 39.7,
+    "post_age_source": "url_id",
+    "post_text": "Slow deployment cycles delay product launches and frustrate development teams.\n\nTechClub builds automated CI/CD pipelines, containerized environments, and Infrastructure-as-Code workflows, allowing your developers to deploy reliable code changes rapidly with zero downtime.\n\n#DevOps #CICD #InfrastructureAsCode #CloudAutomation #TechClub\n\n[enterprise DevOps consulting, automated CI CD pipelines, infrastructure as code deployment, cloud engineering automation, TechClub DevOps]",
+    "hashtags": [
+      "#DevOps",
+      "#CICD",
+      "#InfrastructureAsCode",
+      "#CloudAutomation",
+      "#TechClub"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGYEl0D-eftOg/feedshare-shrink_800/B4EaEVifGAHwAg-/0/1791362724633?e=2147483647&v=beta&t=rBDtIDiBES9L5IsWYhMHkmuyNZLTI1p7XKpetbTUciY",
+    "topic": "DevOps CI/CD Automation",
+    "score": 55.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 55.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:08.654607+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ta3s-solutions-private-limited_assurepulseai-observability-apm-activity-7513596264287137792-Tr6R",
+    "canonical_url": "https://www.linkedin.com/posts/ta3s-solutions-private-limited_assurepulseai-observability-apm-activity-7513596264287137792-Tr6R",
+    "post_id": 7513596264287137792,
+    "author": "Ta3s Solutions Private Limited",
+    "is_company_account": true,
+    "followers": 1847,
+    "post_age": "38.9h (URL ID)",
+    "post_age_hours": 38.9,
+    "post_age_source": "url_id",
+    "post_text": "From Monitoring to Intelligence: Introducing AssurePulseAI\n\nModern enterprises don’t have a monitoring problem.\nThey have a complexity problem.\n\nApplications, databases, servers, Kubernetes, networks, cloud infrastructure, security and business transactions all generate enormous amounts of data. The real challenge is turning that data into actionable intelligence—quickly.\n\nThat is where AssurePulseAI comes in.\n\nAn AI-based Performance Monitoring & Observability Platform designed to bring the entire technology stack together:\n\n🔹 Application Performance Monitoring\nEnd-to-end transaction tracing, API performance, errors, alerts and business process monitoring.\n\n🔹 Infrastructure Monitoring\nServers, databases, Kubernetes, containers, cloud infrastructure and end-user experience.\n\n🔹 Network Monitoring\nRouters, switches, firewalls, load balancers, proxies, bandwidth and network health.\n\n🔹 AI-Powered Optimization\nAI-driven database query optimization, system configuration optimization, capacity planning and proactive anomaly detection.\n\n🔹 Asset Management\nHardware, software, SSL certificates, cloud assets and network devices—all in one place.\n\n🔹 Security & Compliance\nSecurity monitoring, vulnerability insights, compliance tracking, audit and incident management.\n\n🔹 Aura AI\nAutomated RCA, anomaly detection, intelligent alerts, natural-language insights and AI agents for operations.\n\n🔹 Dashboards & Analytics\nFrom operational dashboards to executive and CTO-level views—with the ability to drill down from business impact to the underlying technical issue.\n\nAnd most importantly:\n\nOne platform. One view. One source of truth.\n\nWith On-Premises, SaaS and Hybrid deployment options, AssurePulseAI is built for enterprises where performance, security, control and predictable costs matter.\n\nThe goal isn’t to collect more data.\n\nThe goal is to understand what matters, identify why it happened, and know what to do next.\n\nObserve. Analyze. Optimize. With AI.\n\n🇮🇳 Made in India. Built for modern enterprise operations.\n\n#AssurePulseAI #Observability #APM #AIOps #AI #PerformanceEngineering #ITOperations #DigitalTransformation #EnterpriseTechnology #InfrastructureMonitoring #ApplicationPerformance #ObservabilityPlatform #MadeInIndia",
+    "hashtags": [
+      "#AssurePulseAI",
+      "#Observability",
+      "#APM",
+      "#AIOps",
+      "#AI",
+      "#PerformanceEngineering",
+      "#ITOperations",
+      "#DigitalTransformation",
+      "#EnterpriseTechnology",
+      "#InfrastructureMonitoring",
+      "#ApplicationPerformance",
+      "#ObservabilityPlatform",
+      "#MadeInIndia"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQH5tAqjU2GHGQ/feedshare-shrink_800/B56aEWn_NPK8Ak-/0/1791380943964?e=2147483647&v=beta&t=xeaRNwuIGLRPLTfL05U7RHwxan-8tYk6NZihFr2CDqE",
+    "topic": "Observability & Performance Engineering",
+    "score": 55.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 55.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:20.614475+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/toomasr_head-of-information-security-bolt-careers-activity-7513199068572205057-RehG",
+    "canonical_url": "https://www.linkedin.com/posts/toomasr_head-of-information-security-bolt-careers-activity-7513199068572205057-RehG",
+    "post_id": 7513199068572205057,
+    "author": "Toomas Römer",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.2h (URL ID)",
+    "post_age_hours": 65.2,
+    "post_age_source": "url_id",
+    "post_text": "Bittersweet, as I've worked with Tarmo Randel for all of these years, but yes, we're looking for his successor!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQFHoQU8tAQnOg/articleshare-shrink_800/B4EaEZ4yGWIwAQ-/0/1791435680575?e=2147483647&v=beta&t=SLX-Z5H7kAvH-CeInlcdw1AOqXSvZuj8NJ_aWknst2I",
+    "topic": "Bolt",
+    "score": 52.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 4.5,
+      "total": 52.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:45:00.048335+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/gnd-solutions-india-pvt-ltd_hiring-backenddeveloper-backenddevelopment-activity-7513108385400233984-12m7",
+    "canonical_url": "https://www.linkedin.com/posts/gnd-solutions-india-pvt-ltd_hiring-backenddeveloper-backenddevelopment-activity-7513108385400233984-12m7",
+    "post_id": 7513108385400233984,
+    "author": "GND Solutions India Pvt. Ltd.",
+    "is_company_account": true,
+    "followers": 4937,
+    "post_age": "71.2h (URL ID)",
+    "post_age_hours": 71.2,
+    "post_age_source": "url_id",
+    "post_text": "Backend developers, ready to build, solve, and scale? We’re hiring.\n\nGND Solutions is looking for a Backend Developer to join our engineering team and build reliable, scalable backend systems that power connected products and digital platforms.\n\nWhat we’re looking for:\n\n• 2–5 years of professional backend development experience\n• Hands-on experience with Python/Django, Node.js, or Go\n• Good understanding of REST APIs and web services\n• Strong knowledge of SQL and/or NoSQL databases\n• Experience with Git/GitHub workflows\n\nIf you enjoy solving backend problems, building APIs, and working on real-world engineering projects, we’d like to hear from you.\n\nLocation: Bangalore\nExperience: 2–5 Years\n\n📩 Send your CV to divya.bharathi@gndsolutions.in with the subject line “Application – Backend Developer.”\n\nApply now and build what connects the physical and digital world with GND Solutions.\n\n#Hiring #BackendDeveloper #BackendDevelopment #Python #Django #NodeJS #Golang #RESTAPI #SoftwareDevelopment #BangaloreJobs #TechJobs #GNDSolutions #IoT #Connectedproducts",
+    "hashtags": [
+      "#Hiring",
+      "#BackendDeveloper",
+      "#BackendDevelopment",
+      "#Python",
+      "#Django",
+      "#NodeJS",
+      "#Golang",
+      "#RESTAPI",
+      "#SoftwareDevelopment",
+      "#BangaloreJobs",
+      "#TechJobs",
+      "#GNDSolutions",
+      "#IoT",
+      "#Connectedproducts"
+    ],
+    "engagement": {
+      "reactions": 17,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQHyGUuebykqXQ/feedshare-shrink_800/B4DaEPsRAlGkAc-/0/1791264624983?e=2147483647&v=beta&t=fIubxyKCMFiUkSf26ybyPm88agrpaEzm5nqxWEe2ehU",
+    "topic": "Python Backend Development",
+    "score": 50.9,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 7.1,
+      "total": 50.9
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:43:48.638727+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/appliedai-institute-for-europe-ggmbh_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B5-%F0%9D%97%BC%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%98%80%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BC%F0%9D%97%B9-activity-7513146070315589632-LIjZ",
+    "canonical_url": "https://www.linkedin.com/posts/appliedai-institute-for-europe-ggmbh_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B5-%F0%9D%97%BC%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%98%80%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BC%F0%9D%97%B9-activity-7513146070315589632-LIjZ",
+    "post_id": 7513146070315589632,
+    "author": "appliedAI Institute for Europe gGmbH",
+    "is_company_account": true,
+    "followers": 8857,
+    "post_age": "68.7h (URL ID)",
+    "post_age_hours": 68.7,
+    "post_age_source": "url_id",
+    "post_text": "𝗪𝗵𝗶𝗰𝗵 𝗼𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲 𝘁𝗼𝗼𝗹𝘀 𝗳𝗼𝗿 𝘁𝗿𝘂𝘀𝘁𝘄𝗼𝗿𝘁𝗵𝘆 𝗔𝗜 𝘀𝗵𝗼𝘂𝗹𝗱 𝗺𝗼𝗿𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝗸𝗻𝗼𝘄 𝗮𝗯𝗼𝘂𝘁?\n\nThe ecosystem is growing and we want the Trustworthy AI Tool Library 🧰 to grow with it.\n\nThe library brings together tools and resources that help engineers, researchers, product teams and policy experts turn trustworthy AI principles into practice.\n\nNow we’d love to hear from you: Which tools are you already using? What’s missing?\n\n📎 Explore the Tool Library: https://lnkd.in/erCbTsYu\n\nAnd if you know a tool that belongs in the library, let us know.\n\nThe AI Tool Library is part of the Bayerischer Innovationsbeschleuniger, a project funded by the Bayerisches Staatsministerium für Digitales.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 9,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEamME-1LKa_g/feedshare-image-high-res/B4EaDr0hG6GwAY-/0/1790662808287?e=2147483647&v=beta&t=2ROUZibxYPHLI66ZMu8-LZFnFrG-Ja1MpaP0SAFt4qA",
+    "topic": "Open Source AI Tools",
+    "score": 48.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 4.9,
+      "total": 48.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T04:41:26.358651+00:00"
   }
 ]
