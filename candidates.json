@@ -6009,7 +6009,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-07T10:34:28.288724+00:00",
     "failure_reason": null,
     "generated_comment": "Sumit, I'm focusing on the Data Engineering segment, specifically SQLAlchemy. It lets me define ORM models directly in Python, which reduces boilerplate when stitching together ETL pipelines and database migrations."
@@ -7289,7 +7289,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:02.375336+00:00",
     "failure_reason": null,
     "generated_comment": "Raju, I'm currently using Hybrid RAG because it lets me blend fast vector similarity with explicit relationship queries from a graph, which improves answer relevance on entity-rich data. The trade-off is the extra engineering effort to keep the two stores in sync."
@@ -7321,7 +7321,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:08.916443+00:00",
     "failure_reason": null,
     "generated_comment": "Ai, the checklist of bias mitigations is solid, especially swapping answer order to curb position bias. One piece missing is systematic validation of the rubric itself-if the rubric misweights criteria, even a calibrated judge will propagate the error, affecting downstream decisions."
@@ -7359,7 +7359,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:52.912825+00:00",
     "failure_reason": null,
     "generated_comment": "Kamal, the focus on PUT vs PATCH and idempotency is spot on for interview depth. One aspect often omitted is rate limiting strategy, which directly affects reliability and client experience under load, so candidates should also articulate its trade-offs."
@@ -7391,7 +7391,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:53:57.894591+00:00",
     "failure_reason": null,
     "generated_comment": "Greg, the Scikit-Learn tutorial is a solid start, but the list omits any guidance on managing Python environments-virtualenv or conda can prevent package conflicts when you later combine SQL queries with ML pipelines. Without that, reproducing results across machines becomes fragile."
@@ -10371,5 +10371,1058 @@
     },
     "status": "new",
     "discovered_at": "2026-10-08T15:52:35.847126+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/linasbeliunas_this-is-boris-cherny-the-creator-of-claude-activity-7514040962839519232-YBWF",
+    "canonical_url": "https://www.linkedin.com/posts/linasbeliunas_this-is-boris-cherny-the-creator-of-claude-activity-7514040962839519232-YBWF",
+    "post_id": 7514040962839519232,
+    "author": "Linas Beliūnas",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "15.6h (URL ID)",
+    "post_age_hours": 15.6,
+    "post_age_source": "url_id",
+    "post_text": "This is Boris Cherny, the creator of Claude Code. He recently sat down at the Sequoia AI sessions and, in 15 minutes, explained how exactly he uses Claude Code himself & revealed his entire coding setup.\n\n\"100% of my code is written by Claude Code. I run ~100 agents at the same time\" - Boris Cherny\n\n→ 100% of the code written by AI\n→ More than 100 agents running simultaneously 🤖\n\nCoupled with the guide, it turns Claude Code into your personal Chief of Staff: https://lnkd.in/dW9K8hDq\n\nOne of the best videos available to date. From the person who created the most powerful AI application available today.\n\nP.S. also check out Sequoia's Private AI Briefing, or Why AGI Is Already Here 🤖: https://lnkd.in/dxsGpNkX | 58 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 245,
+      "comments": 58,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGEvyYwC2BBRg/thumbnail-with-play-button-overlay-high/B4DaEc8PfBJYC0-/0/1791486920324?e=2147483647&v=beta&t=1JRnQSluvt6UA4Qf5TQ79s9_ZzVdAAADQ90-477fujo",
+    "topic": "Claude",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:31.294539+00:00",
+    "failure_reason": null,
+    "generated_comment": "Linas, running ~100 Claude Code agents in parallel sounds impressive, but coordinating that many autonomous sessions can introduce latency spikes and higher compute spend, especially when each agent polls the model. How do you balance throughput with cost in such a setup?"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/claude-for-business_office-hours-with-boris-cherny-shopify-activity-7514001302423662592-cs2c",
+    "canonical_url": "https://www.linkedin.com/posts/claude-for-business_office-hours-with-boris-cherny-shopify-activity-7514001302423662592-cs2c",
+    "post_id": 7514001302423662592,
+    "author": "Claude for Business",
+    "is_company_account": false,
+    "followers": 197562,
+    "post_age": "18.2h (URL ID)",
+    "post_age_hours": 18.2,
+    "post_age_source": "url_id",
+    "post_text": "Shopify CTO Mikhail Parakhin’s advice for technical leaders adopting Claude is to use the largest model in development and save money in production.\n\nFor coding, development, and testing, he says to “always use the largest model,” because you don’t know what you’re missing until you compare the results.\n\nWatch the full conversation with Boris Cherny, head of Claude Code: https://lnkd.in/emSbDZmJ | 20 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 376,
+      "comments": 20,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQHtZygq2OkGww/thumbnail-with-play-button-overlay-high/B4EaEcYPGPKcCw-/0/1791477496806?e=2147483647&v=beta&t=yLXH3HJO6usyjj6tMHVPhX_R44GL9hVJAWJHhx93r7Y",
+    "topic": "Claude",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:41.002250+00:00",
+    "failure_reason": null,
+    "generated_comment": "Claude, using the largest model in dev does surface edge cases, but the post omits the latency impact on rapid iteration cycles. If feedback loops are slowed, teams may spend more time waiting than debugging, which can offset the quality gains."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/anapedra_python-is-getting-lazy-and-for-once-that-activity-7514210584633081858-MLfx",
+    "canonical_url": "https://www.linkedin.com/posts/anapedra_python-is-getting-lazy-and-for-once-that-activity-7514210584633081858-MLfx",
+    "post_id": 7514210584633081858,
+    "author": "Ana Pedra",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "4.4h (URL ID)",
+    "post_age_hours": 4.4,
+    "post_age_source": "url_id",
+    "post_text": "Python is getting lazy.\nAnd for once, that’s a performance improvement 😅\n\nPython 3.15 is scheduled for October 9, bringing explicit lazy imports:\n\nlazy import pandas\n\nThe module loads when your code first uses it.\n\nNever use it? Never pay its loading cost.\n\nYour CLI’s --help command shouldn’t need to wake up your entire dependency tree.\n\nPEP 810 cites:\n→ 50–70% reductions in startup time.\n→ 30–40% memory savings observed in real workloads.\n\nResults depend on your application but that’s a compelling reason to investigate.\n\nThe catch: import errors and side effects also happen later, at first use. Test before sprinkling “lazy” everywhere.\n\nAnd those imports we moved inside functions just to improve startup?\n\nThey can finally come back upstairs 😂",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 25,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGzekku-JELiA/feedshare-shrink_1280/B4EaETCLKqHYAM-/0/1791320699858?e=2147483647&v=beta&t=sQfOYVWmrFfZx6n3nfdZeqyqMFJo_iFi68h630EJL_A",
+    "topic": "Python performance",
+    "score": 85.9,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 10.9,
+      "total": 85.9
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:33.034854+00:00",
+    "failure_reason": null,
+    "generated_comment": "Ana, the lazy import pandas syntax you highlighted can shave startup latency. One thing not covered is that deferring imports can confuse static type checkers and IDEs, which expect symbols at analysis time, potentially leading to missed errors until runtime."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/joelniklaus_super-cool-paper-on-rubrics-for-llm-evaluation-activity-7514118193595011072-WnEC",
+    "canonical_url": "https://www.linkedin.com/posts/joelniklaus_super-cool-paper-on-rubrics-for-llm-evaluation-activity-7514118193595011072-WnEC",
+    "post_id": 7514118193595011072,
+    "author": "Joel Niklaus",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "10.5h (URL ID)",
+    "post_age_hours": 10.5,
+    "post_age_source": "url_id",
+    "post_text": "Super cool paper on rubrics for LLM evaluation by Delip Rao and Chris Callison-Burch!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 8,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQEz7D7VsT-r2w/image-shrink_800/B4EaEeCrOcJgAg-/0/1791505380633?e=2147483647&v=beta&t=6pToIVlwJcoOqudXcI3M1C-fojTkt1mx0ZpaNEG_Jrc",
+    "topic": "LLM evaluation",
+    "score": 82.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 3.8,
+      "total": 82.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:49.468666+00:00",
+    "failure_reason": null,
+    "generated_comment": "Joel, the rubric approach is a solid step toward structured LLM assessment, but the post doesn't address inter-annotator consistency, which can skew scores across teams. Ensuring clear calibration guidelines would make the results more reproducible."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/mchugh77_mcp-modelcontextprotocol-agenticai-activity-7513654440944406530-SpD3",
+    "canonical_url": "https://www.linkedin.com/posts/mchugh77_mcp-modelcontextprotocol-agenticai-activity-7513654440944406530-SpD3",
+    "post_id": 7513654440944406530,
+    "author": "Mayank Chugh",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "41.2h (URL ID)",
+    "post_age_hours": 41.2,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Model Context Protocol (MCP) — How AI Connects to Tools and Systems\nHow do AI models connect with external tools, APIs, data sources, and enterprise systems?\nThis is where Model Context Protocol (MCP) becomes important.\nIn this YouTube Short, I visually break down the MCP architecture into four key components:\n🔹 1. MCP Server\nExposes capabilities, tools, resources, and prompts through a standardized interface.\n🔹 2. MCP Tools\nProvides reusable operations and connects AI applications with external APIs, services, and data.\n🔹 3. MCP Adapters\nHandles integration, authentication, routing, and format conversion between different systems.\n🔹 4. AI Models\nUse the connected context and tools to reason, generate responses, and take actions.\n💡 The bigger idea:\nAI + Context + Tools + Systems = More Capable AI Applications 🤖\nMCP provides an important architectural pattern for building modern tool-enabled and agentic AI systems.\n🎥 Watch the YouTube Short:\nhttps://lnkd.in/gjcx2zUg\n\nWhat do you think?\nWill MCP become a standard building block for enterprise AI and agentic applications?\n#MCP #ModelContextProtocol #AgenticAI #GenerativeAI #AIEngineering #LLM #RAG #AIArchitecture #EnterpriseAI #ArtificialIntelligence",
+    "hashtags": [
+      "#MCP",
+      "#ModelContextProtocol",
+      "#AgenticAI",
+      "#GenerativeAI",
+      "#AIEngineering",
+      "#LLM",
+      "#RAG",
+      "#AIArchitecture",
+      "#EnterpriseAI",
+      "#ArtificialIntelligence"
+    ],
+    "engagement": {
+      "reactions": 44,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGb1YR0chogkg/feedshare-shrink_1280/B56aEXc5nbJEAM-/0/1791394814785?e=2147483647&v=beta&t=RQrm9IjRkzdijAtdWQs8Lfb5ihD0scvFWwq6qXEF-_w",
+    "topic": "MCP protocol",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:38.990840+00:00",
+    "failure_reason": null,
+    "generated_comment": "Mayank, the adapter layer's built-in authentication and format conversion gives enterprises a ready-made bridge for their disparate APIs, which is a strong incentive for standardization. That practical integration point could push MCP toward becoming a common building block."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/poorna-soysa_ai-agents-should-be-built-like-applications-activity-7513852006676193280-TFl8",
+    "canonical_url": "https://www.linkedin.com/posts/poorna-soysa_ai-agents-should-be-built-like-applications-activity-7513852006676193280-TFl8",
+    "post_id": 7513852006676193280,
+    "author": "Poorna Soysa",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "28.1h (URL ID)",
+    "post_age_hours": 28.1,
+    "post_age_source": "url_id",
+    "post_text": "AI agents should be built like applications, not prompts.\n\nA prompt can guide reasoning.\n\nIt should not define your security boundary, business rules, permissions, or recovery strategy.\n\nIn a production system, I would keep the agent inside the application architecture.\n\nThe application decides:\n\nWhat data the agent can access.\n\nWhich tools and APIs it can invoke.\n\nWhich actions require human approval.\n\nHow state and memory are stored.\n\nHow inputs and outputs are validated.\n\nWhat happens when execution fails halfway through.\n\nThe agent provides reasoning within those boundaries.\n\nThis becomes even more important when an agent starts changing real systems instead of simply generating text.\n\nSending an email, updating an order, approving a transaction, or calling an enterprise API should still go through the same controls we expect from normal software.\n\nAuthentication. Authorization. Validation. Auditability. Observability. Recovery.\n\nMicrosoft Agent Framework is moving in this direction too, with capabilities around workflows, tool approvals, persisted state, observability, checkpointing, and durable execution.\n\nThe LLM is an important component.\n\nBut the architecture around it is what makes the agent something I would trust in production.\n\nThe agent can decide what it thinks should happen.\nThe application should decide what is actually allowed to happen.\n\n💬 How are you separating agent reasoning from application control in your architecture?\n\n👉 Follow Poorna Soysa for practical .NET, AI, and software architecture insights. | 38 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 60,
+      "comments": 38,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQE1Q4wHcvgmRw/feedshare-shrink_1280/B56aEXbLNEHUAM-/0/1791394362474?e=2147483647&v=beta&t=4kvaEaDV42pqe-5cy5SHCqIhfDQSDaJfKrzKTwQnO8g",
+    "topic": "AI Agents architecture",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:14.694659+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/alok-sharan_cloud-native-architecture-starts-with-a-simple-activity-7513574192122961920-2Q3k",
+    "canonical_url": "https://www.linkedin.com/posts/alok-sharan_cloud-native-architecture-starts-with-a-simple-activity-7513574192122961920-2Q3k",
+    "post_id": 7513574192122961920,
+    "author": "Alok Sharan",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "46.6h (URL ID)",
+    "post_age_hours": 46.6,
+    "post_age_source": "url_id",
+    "post_text": "Cloud-native architecture starts with a simple question:\n\nWhat kind of complexity are you ready to own?\n\nAfter working across architecture, cloud, APIs, and distributed systems for many years, I have learned that microservices, serverless, and modular monoliths are not maturity levels.\n\nThey are different operating models.\n\n𝗠𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 make sense when business domains are clearly separated and teams need independent deployment, scaling, and ownership.\n\nThey work well for large platforms, complex domains, and systems where different services evolve at different speeds.\n\nBut they also bring real overhead:\n\n→ service communication\n→ distributed tracing\n→ network failures\n→ deployment coordination\n→ data consistency\n→ security across services\n\n𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 makes sense when workloads are event-driven, variable, and easier to run as functions or managed services.\n\nIt works well for automation, lightweight APIs, background jobs, integrations, and unpredictable traffic patterns.\n\nThe trade-off is control.\n\nYou get less infrastructure management, but you also deal with provider limits, cold starts, quotas, and cost surprises if usage grows in the wrong pattern.\n\n𝗠𝗼𝗱𝘂𝗹𝗮𝗿 𝗠𝗼𝗻𝗼𝗹𝗶𝘁𝗵 makes sense when the product needs speed, structure, and\nsimplicity.\n\nIt keeps one deployable application but separates the code into clear modules with strong boundaries.\n\nFor many startups, internal tools, and early-stage products, this is often the smartest starting point.\n\nThe architecture decision should be based on:\n\n→ team size\n→ domain complexity\n→ scaling needs\n→ deployment frequency\n→ security model\n→ cost structure\n→ operational maturity\n→ long-term maintainability\n\nMy view is simple:\n\nStart with modular clarity.\n\nUse serverless for event-driven execution.\n\nMove to microservices when scale, ownership, and domain boundaries justify the operational cost.\n\nGood architecture is not about using the most advanced pattern.\n\nIt is about choosing the pattern your system and team can operate reliably.\n\nThis is just a high-level decision diagram, not the complete architecture, but it gives a useful starting point for thinking through cloud-native application decisions.\n\nP.S. Preparing for a software engineering role? Check out my book, System Design and Behavioral Intelligence.\nIt will help you:\n\n•⁠ ⁠Build strong System Design foundations and approach design problems with confidence\n•⁠ ⁠Develop practical frameworks to navigate complex behavioral and leadership challenges\n\nGet Your Copy anywhere internationally:\nUS: https://lnkd.in/eVy2ACxQ\nUK: https://lnkd.in/evzmHKm4\nIndia : https://lnkd.in/e25PthqU | 76 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 281,
+      "comments": 76,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGANpuDgcOvXw/feedshare-image-high-res/B56aEWT1ZaJwAU-/0/1791375673330?e=2147483647&v=beta&t=UiJ8SmPYS4nzbyOZtWBFD6BrN1mdfnTwbTN1uT__-bE",
+    "topic": "Serverless Architecture",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:45.633719+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pronative-ai_ai-generativeai-agenticai-activity-7513543704520077312-37zk",
+    "canonical_url": "https://www.linkedin.com/posts/pronative-ai_ai-generativeai-agenticai-activity-7513543704520077312-37zk",
+    "post_id": 7513543704520077312,
+    "author": "PRONATIVE AI",
+    "is_company_account": false,
+    "followers": 4843,
+    "post_age": "48.5h (URL ID)",
+    "post_age_hours": 48.5,
+    "post_age_source": "url_id",
+    "post_text": "AI system should not be evaluated by asking, “Does the output look good?”\n\nFor production AI, that standard is far too weak.\n\nA production LLM, RAG, or Agentic AI system needs evaluation that measures behavior, evidence, state changes, safety, and regression risk.\n\nThink of it as:\n\nInput → Expected Behavior → Actual Behavior → Evidence → Pass/Fail → Regression Decision\n\n1️⃣ Build explicit test cases\nDefine input, context, expected answer or target state, acceptance criteria, and failure conditions. Include normal, edge, ambiguous, and known failure cases.\n\n2️⃣ Use deterministic checks first\nIf something can be verified with code, do not use an LLM judge. Validate JSON, schemas, IDs, calculations, tool parameters, business rules, policy constraints, and state transitions deterministically.\n\n3️⃣ Calibrate LLM-as-a-Judge\nLLM judges help assess correctness, relevance, faithfulness, and clarity. But the judge must itself be tested against human labels, false passes, false fails, and position bias.\n\n4️⃣ Evaluate RAG as two systems\nRetrieval quality and generation quality must be measured separately.\n\nRetrieval:\n• Recall@K\n• Precision@K\n• MRR\n• nDCG\n• Context relevance\n\nGeneration:\n• Correctness\n• Relevance\n• Completeness\n• Faithfulness\n\nA RAG answer can be faithful to retrieved context and still be wrong if the source data is stale.\n\n5️⃣ Evaluate agents by state, not narration\nAn agent saying “Task completed successfully” is not proof.\n\nCheck:\nInitial State → Agent Action → Tool Calls → Resulting State → Validator → Pass/Fail\n\nFor an SRE agent, verify that the workload is healthy, the expected resource changed, no unrelated resource was modified, and the action stayed within policy.\n\n6️⃣ Test unintended consequences\nSuccess is not only “the requested change happened.” It is also: requested change happened AND prohibited or unrelated changes did not happen.\n\nThis is critical for CloudOps, Kubernetes, security, patching, release, FinOps, and infrastructure agents.\n\n7️⃣ Build reproducible baselines\nVersion the model, prompt, system instructions, retrieval settings, embeddings, reranker, dataset, tools, judges, and thresholds. Compare every candidate against the same baseline.\n\n8️⃣ Treat evaluation as part of CI/CD\n\nCode/Prompt Change → Deterministic Tests → LLM Evaluation → RAG Evaluation → Agent Simulation → Security Checks → Baseline Comparison → Release Gate\n\nProduction failures become regression tests.\n\nDo not evaluate AI as one black box.\n\nUse the right evaluator for each layer:\nDeterministic checks for objective rules.\nLLM judges for semantic quality.\nRetrieval metrics for RAG.\nState validation for agents.\nPolicy checks for authorization.\nBusiness metrics for outcomes.\n\nThat is how AI moves from impressive demo to engineered production system.\n\n#AI #GenerativeAI #AgenticAI #LLM #RAG #AIEvaluation #AIEngineering #LLMOps #AgentOps #MLOps #SRE #AIOps #CloudAutomation #Observability #DevOps #EnterpriseAI | 13 comments on LinkedIn",
+    "hashtags": [
+      "#AI",
+      "#GenerativeAI",
+      "#AgenticAI",
+      "#LLM",
+      "#RAG",
+      "#AIEvaluation",
+      "#AIEngineering",
+      "#LLMOps",
+      "#AgentOps",
+      "#MLOps",
+      "#SRE",
+      "#AIOps",
+      "#CloudAutomation",
+      "#Observability",
+      "#DevOps",
+      "#EnterpriseAI"
+    ],
+    "engagement": {
+      "reactions": 84,
+      "comments": 13,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEoTM3UUBistw/feedshare-image-high-res/B56aEV4Lz5HAAU-/0/1791368412688?e=2147483647&v=beta&t=5w40AdG6M9c6KWcmVBopPtcdvxlh6WMI6O_tkqt3RF8",
+    "topic": "LLM evaluation",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:54.381191+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jasonmoccia_claude-code-has-twelve-main-features-most-activity-7513206653106692096-XlkO",
+    "canonical_url": "https://www.linkedin.com/posts/jasonmoccia_claude-code-has-twelve-main-features-most-activity-7513206653106692096-XlkO",
+    "post_id": 7513206653106692096,
+    "author": "Jason Moccia",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.9h (URL ID)",
+    "post_age_hours": 70.9,
+    "post_age_source": "url_id",
+    "post_text": "Claude Code has twelve main features.\n\nMost people default to the same three or four.\n\nAsk a prompt, get code back, accept or reject it.\n\nThat's just a fraction of what the tool actually does.\n\nThe gap between \"fancy autocomplete\" and \"ships production code\" was never the model.\n\nIt's these twelve:\n1. CLAUDE . md - Your project's memory file. Define your stack, your conventions, your rules, once. Claude stops guessing your setup every single session.\n\n2. Permissions -  Whitelist the safe tools. Block the risky commands before they ever run. Speed, without babysitting every single action.\n\n3. Skills - Reusable instruction sets, saved once in .claude/skills/. Write the process a single time, then reuse it indefinitely.\n\n4. Hooks - Custom shell scripts that fire automatically on lifecycle events like PreToolUse and PostToolUse. Automation that runs itself, without you remembering to trigger it.\n\n5. Slash Commands - One-line shortcuts for whatever workflow you repeat most often. Fewer keystrokes for the same repeatable task.\n\n6. Plan Mode - Claude shows you the full plan before writing a single line of code. You catch a bad approach before it costs you any time.\n\n7. Checkpoints - Automatic git snapshots at every step along the way. Nothing is ever unrecoverable.\n\n8. Compaction - Long conversations eating up tokens. Compress it down. Context survives. Cost doesn't spiral.\n\n9. Context - Manage exactly what Claude can see at any given moment. Better focus produces better output.\n\n10. MCP - Connects Claude directly to databases, APIs, and outside services. The model can act on real systems.\n\n11. Subagents - Spawn parallel agents to work through complex, multi-part tasks. Real work gets divided.\n\n12. Headless Mode - Run claude -p inside scripts, CI pipelines, and cron jobs. Claude becomes infrastructure.\n\nKnowing all twelve exist is the easy part.\nWiring them together into an actual workflow is the job.\n\nThat's the real gap between someone using AI and someone shipping with it.\n\n♻️ Share if this resonates\n➕ Follow Jason Moccia for more insights on AI and leadership. | 131 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 161,
+      "comments": 131,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFqf151cFRw2g/feedshare-shrink_800/B4EaEMgKdcG0Ac-/0/1791211121485?e=2147483647&v=beta&t=Lxm3VwsM9JRVBn6mzBZrBKvFQw6r23Kd0q54OrimzE0",
+    "topic": "Claude",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:39.506564+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/reflex-lighting_big-news-from-team-reflex-were-excited-activity-7513273204996665344-S6jp",
+    "canonical_url": "https://www.linkedin.com/posts/reflex-lighting_big-news-from-team-reflex-were-excited-activity-7513273204996665344-S6jp",
+    "post_id": 7513273204996665344,
+    "author": "Reflex Lighting",
+    "is_company_account": false,
+    "followers": 2833,
+    "post_age": "66.5h (URL ID)",
+    "post_age_hours": 66.5,
+    "post_age_source": "url_id",
+    "post_text": "Big news from Team Reflex! 🎉\n\nWe’re excited to announce that Ken Denison has been promoted to Project Quotations Team Leader for Northern New England!\n\nKen’s experience, dedication, and commitment to our customers and team have made him an important part of Reflex’s continued growth. We’re excited to see him take on this leadership role and help drive our NNE Project Quotations team forward.\n\nCongratulations, Ken! Well deserved! 👏💡",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 41,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFsSTmVSwcxow/feedshare-image-high-res/B56aESCKqmJcAU-/0/1791303920599?e=2147483647&v=beta&t=WqbElRxs9vrBa_mq5XxnogzkLuNiKdPdmyzdrwbsTd4",
+    "topic": "Reflex",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:24.721155+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/leeatchison_there-is-a-version-of-the-kubernetes-conversation-activity-7514006868952825856-BAm1",
+    "canonical_url": "https://www.linkedin.com/posts/leeatchison_there-is-a-version-of-the-kubernetes-conversation-activity-7514006868952825856-BAm1",
+    "post_id": 7514006868952825856,
+    "author": "Lee Atchison",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "17.9h (URL ID)",
+    "post_age_hours": 17.9,
+    "post_age_source": "url_id",
+    "post_text": "There is a version of the Kubernetes conversation architects keep getting pulled into, and it is the wrong one. Ingress controllers. Operators. Which service mesh. Real questions, all of them, and none of them yours.\n\nWhat you need from the platform is smaller and harder.\n\nCan this service be killed at any moment without losing work? Does it come back with no manual step? Does it hold state anywhere other than a datastore it does not own? Can a second copy run right now, safely, beside the first?\n\nThose answers live in the application, not the cluster. Orchestration will restart, reschedule and replicate whatever you hand it. If what you hand it cannot survive being moved, the platform will faithfully move it and break it.\n\nSo I keep the architect's job here narrow. Specify what the workload has to tolerate. Let the platform team decide how the platform delivers it.\n\nTeams that skip that step end up with a container running a process that assumes it lives forever on one machine, and an expensive scheduler proving otherwise.\n\nMy Coursera course on cloud architecture covers what an architect needs from containers without turning you into an operator.\n\nhttps://lnkd.in/g_DpnqTK",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQFWh3daYdmA8A/image-shrink_800/B56aEcdWeQIsAg-/0/1791478819564?e=2147483647&v=beta&t=doFeVyYFgDDOei08_RNUNfSsQme9oTLyisiMMtZVUPo",
+    "topic": "Kubernetes operators",
+    "score": 76.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 76.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:55.793772+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/marclinster_if-the-only-roi-you-see-from-database-optimization-activity-7513840868420845569-cMAN",
+    "canonical_url": "https://www.linkedin.com/posts/marclinster_the-roi-of-optimizing-your-database-estate-activity-7513840868420845569-zitT",
+    "post_id": 7513840868420845569,
+    "author": "Marc Linster",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "28.8h (URL ID)",
+    "post_age_hours": 28.8,
+    "post_age_source": "url_id",
+    "post_text": "If the only ROI you see from database optimization is faster queries, you’re measuring the wrong thing (in my not-so-humble opinion)!\n\nOf course performance matters. But the value of database optimization goes far beyond milliseconds in response time and transactions per second.\n1) Better performance and stability improve user experience and customer satisfaction.\n2) Efficient use of infrastructure reduces compute and storage costs.\n3) A well-oiled database allows DBAs to focus on high-value tasks, such as data quality, lineage, etc., instead of constantly firefighting performance and stability issues.\n\nIn my latest article (https://lnkd.in/eaJAdJ_R), I look at the ROI of database optimization across three areas:\n* User experience\n* Infrastructure cost\n* Operational efficiency\nThese are business outcomes, not just technical metrics.\nDatabase optimization happens deep in the technology stack, but its impact is felt far beyond the database.\nI am curious: how do you measure the value of PostgreSQL optimization in your organization? Please share!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 16,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEihcUPUjj6eQ/articleshare-shrink_800/B4EaEaGZ2ZIcAg-/0/1791439249484?e=2147483647&v=beta&t=RM9Snfj5KoiaN4fHhUeUnmAQu_53WiogbMAeONErx68",
+    "topic": "PostgreSQL optimization",
+    "score": 75.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 7.5,
+      "total": 75.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:03.175784+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/anyone-ai_were-launching-a-new-version-of-the-anyone-activity-7513674624598089729-cdsf",
+    "canonical_url": "https://www.linkedin.com/posts/anyone-ai_were-launching-a-new-version-of-the-anyone-activity-7513674624598089729-cdsf",
+    "post_id": 7513674624598089729,
+    "author": "Anyone AI",
+    "is_company_account": false,
+    "followers": 16818,
+    "post_age": "39.9h (URL ID)",
+    "post_age_hours": 39.9,
+    "post_age_source": "url_id",
+    "post_text": "🚀 We’re launching a new version of the Anyone AI Fellowship.\n\nBuilding with AI today means much more than understanding Machine Learning models. Software engineers increasingly need to know how to work with coding agents, understand LLMs, build RAG and agentic systems, and deploy them reliably into production.\n\nOur new Fellowship has been redesigned around exactly that.\n\nThe program takes software developers through the full AI engineering stack:\n\n💻 AI for Coding: Work with coding agents, context engineering, spec-driven development, subagents and orchestration.\n\n🧠 Understanding LLMs: Go deep into Transformers, training, fine-tuning, prompting, reasoning models and multi-model integrations.\n\n🤖 RAGs, Agents & Workflows: Build advanced retrieval systems, GraphRAG, tool-calling agents, agentic loops and deep agents.\n\n🚀 Model Deployment: Take AI systems into production with FastAPI, Docker, AWS, CI/CD, observability, evaluation and security.\n\nAnd throughout the Fellowship, you’ll learn by building, culminating in a final project that brings these skills together.\n\nIf you’re already a software developer and want to become the kind of engineer who can build, orchestrate and deploy modern AI systems, this program was designed for you.\n\nApplications for the new Anyone AI Fellowship are now open. 🚀\n\nApply today 👉️ https://buff.ly/DnwPkxR",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 22,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "FastAPI observability",
+    "score": 74.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 9.8,
+      "total": 74.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:28.079095+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/tolts_claudecode-devops-platformengineering-activity-7513260087881289728-T8tF",
+    "canonical_url": "https://www.linkedin.com/posts/tolts_claudecode-devops-platformengineering-activity-7513260087881289728-T8tF",
+    "post_id": 7513260087881289728,
+    "author": "Shimon Tolts",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.3h (URL ID)",
+    "post_age_hours": 67.3,
+    "post_age_source": "url_id",
+    "post_text": "Claude Code just got mods. Here's what's possible now, and what's still locked.\n\nSkills, settings hooks and MCP servers work from outside. A mod runs inside Claude Code's own process.\nThink Kubernetes admission controller: tool calls, prompts and UI draws pass through your code. It can watch, rewrite, or take over.\nPossible now: your own panes and buttons (like my usage strip), one request rerouted to another model.\nStill locked: the permission prompt (no mod can change what it shows) and the Desktop app's tray icon.\nThe catch: mods aren't sandboxed, and they can approve tool calls for you. Install only the ones you trust.\n\nWhat would you build first?\n\n#ClaudeCode #DevOps #PlatformEngineering",
+    "hashtags": [
+      "#ClaudeCode",
+      "#DevOps",
+      "#PlatformEngineering"
+    ],
+    "engagement": {
+      "reactions": 29,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4D05AQE90cv858d1YA/thumbnail-with-play-button-overlay-high/B4DaER2LodKgCw-/0/1791300781702?e=2147483647&v=beta&t=qxrBZwjrkSgPdZfMCYS__W3HX9pC-1Ie6bRD85ePwSw",
+    "topic": "Claude",
+    "score": 73.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 12.4,
+      "total": 73.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:42.638494+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/nithyaruff_ossummit-activity-7513950660996882432--k6t",
+    "canonical_url": "https://www.linkedin.com/posts/nithyaruff_ossummit-activity-7513950660996882432--k6t",
+    "post_id": 7513950660996882432,
+    "author": "Nithya Ruff",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "21.6h (URL ID)",
+    "post_age_hours": 21.6,
+    "post_age_source": "url_id",
+    "post_text": "Do not miss Juliette van der Laarse keynote at #ossummit Prague tomorrow on the AI Flower 🌺. If you are intrigued, you are not alone. It is a whole new way to organize work and how AI impacts it. And loved meeting Juliette in person. We both want to thank Dirkjan Hupkes who is an amazing connector and story teller of women disrupting tech! Listen to his podcast Women Disrupting Tech.",
+    "hashtags": [
+      "#ossummit"
+    ],
+    "engagement": {
+      "reactions": 26,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGKRzThgCzk3w/feedshare-shrink_800/B4EaEbqTv3HwAc-/0/1791465438784?e=2147483647&v=beta&t=1DJ1WU3uwfuJcaBYtM7hEBi5RlyMXp-a4pBVwR815F8",
+    "topic": "Ruff",
+    "score": 73.5,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 12.0,
+      "total": 73.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:11.338270+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dylanjchambers_at-spacexai-and-cursor-we-are-committed-to-activity-7513620875670351872-Qql5",
+    "canonical_url": "https://www.linkedin.com/posts/dylanjchambers_at-spacexai-and-cursor-we-are-committed-to-activity-7513620875670351872-Qql5",
+    "post_id": 7513620875670351872,
+    "author": "Dylan Chambers",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.4h (URL ID)",
+    "post_age_hours": 43.4,
+    "post_age_source": "url_id",
+    "post_text": "At SpaceXAI and Cursor we are committed to offering users the best experiences in our products - all products.\n\nThat means having model neutrality, and ensuring you have a broad suite of models that are cost effective but also frontier intelligence.\n\nGrok bot is better than ever with a broad range of models for different tasks!!!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHItbLYEuBpgA/feedshare-shrink_800/B4EaEW.X2aIUAg-/0/1791386812110?e=2147483647&v=beta&t=rgE-goICdXTKNNmBDcRNOS20rv-PZ-PTZeBC0UW5WbM",
+    "topic": "Cursor",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:52:57.781512+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rustybrick_google-reflex-training-game-activity-7513553801119899648-bnl9",
+    "canonical_url": "https://www.linkedin.com/posts/rustybrick_google-reflex-training-game-activity-7513553801119899648-bnl9",
+    "post_id": 7513553801119899648,
+    "author": "Barry Schwartz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.9h (URL ID)",
+    "post_age_hours": 47.9,
+    "post_age_source": "url_id",
+    "post_text": "Google reflex training machine",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQFu7P31Y4NsdQ/image-shrink_800/B56aEWBXzNJEAg-/0/1791370821086?e=2147483647&v=beta&t=THraLI08Yfbjzqceu2OmHAfhsxf_7qlhR3y3erAkKhM",
+    "topic": "Reflex",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:21.685364+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/prem-kiran-nethala-654467127_i-built-my-first-fully-serverless-application-activity-7513356393052266496-ld_w",
+    "canonical_url": "https://www.linkedin.com/posts/prem-kiran-nethala_i-built-my-first-fully-serverless-application-activity-7513356393052266496-Mg1T",
+    "post_id": 7513356393052266496,
+    "author": "Prem Kiran Nethala",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "61.0h (URL ID)",
+    "post_age_hours": 61.0,
+    "post_age_source": "url_id",
+    "post_text": "I built my first fully serverless application on AWS - zero servers to manage!\nHere's what surprised me:\n-> No Infrastructure Complexity\nBuilt a complete three-tier architecture (S3 → API Gateway → Lambda → DynamoDB)\nwithout touching a single EC2, load balancer, or VPC configuration. AWS handles\neverything under the hood.\n\n-> Automatic Scaling (With a Catch)\nThe system scales from zero to thousands of concurrent requests instantly - no\ncapacity planning, no manual intervention. BUT here's what surprised me: Lambda's\ncold start. First invocation = 300-400ms delay. Subsequent invocations = <50ms.\nTrade-off worth understanding for production SLAs.\n\n-> Pay Per Use Actually Matters\nFor variable/bursty workloads, serverless eliminates idle infrastructure costs.\nYou literally pay only for execution time and storage. For consistent, predictable\ntraffic, EC2 might still be cheaper - always run the numbers.\n\nKey Takeaway: Serverless isn't \"always better\" - it's about matching architecture\nto workload patterns. Event-driven pipelines? Perfect fit. Long running batch\njobs? Stick with containers.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 57,
+      "comments": 8,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGRhb1aNKmvwA/feedshare-shrink_800/B56aETN01SIEAc-/0/1791323754063?e=2147483647&v=beta&t=R7nfUVRFitZkd2DHjhLoQBK_e_Hocv1_IJHzRfyTHso",
+    "topic": "Serverless Architecture",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:35.952348+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/stefan-avram-62696713a_just-added-voice-to-my-opencode-setup-meet-activity-7513610752621080576-citu",
+    "canonical_url": "https://www.linkedin.com/posts/stefan-avram-62696713a_just-added-voice-to-my-opencode-setup-meet-activity-7513610752621080576-citu",
+    "post_id": 7513610752621080576,
+    "author": "Stefan Avram",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "44.1h (URL ID)",
+    "post_age_hours": 44.1,
+    "post_age_source": "url_id",
+    "post_text": "Just added voice to my OpenCode setup\n\nMeet Alice",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 1,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGyrxPDDmCg7g/feedshare-image-high-res/B4EaEW1KWSGQAU-/0/1791384397520?e=2147483647&v=beta&t=7Ap6tE_WJcEPSK2x1-iUoXqQTgI28yZtD8nLynyurnM",
+    "topic": "OpenCode",
+    "score": 69.4,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 1.1,
+      "total": 69.4
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:05.851193+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/arunparthiban_reflex-now-supports-openais-new-decisions-activity-7513394808988590080-ZlTC",
+    "canonical_url": "https://www.linkedin.com/posts/arunparthiban_reflex-now-supports-openais-new-decisions-activity-7513394808988590080-ZlTC",
+    "post_id": 7513394808988590080,
+    "author": "Arun Parthiban",
+    "is_company_account": false,
+    "followers": 200218,
+    "post_age": "58.4h (URL ID)",
+    "post_age_hours": 58.4,
+    "post_age_source": "url_id",
+    "post_text": "Reflex now supports OpenAI's new Decisions API, alongside Jev. Swapping providers is a one-line change, and the goals, safety bounds and state remain the same.\n\nhttps://lnkd.in/eveXUD9v",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 18,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Reflex",
+    "score": 68.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 7.5,
+      "total": 68.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:17.518356+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/dale-bar_great-opportunity-with-ralph-lauren-senior-activity-7513259000994578432-lEpA",
+    "canonical_url": "https://www.linkedin.com/posts/dale-bar_great-opportunity-with-ralph-lauren-senior-activity-7513259000994578432-lEpA",
+    "post_id": 7513259000994578432,
+    "author": "Dale Barrow",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.4h (URL ID)",
+    "post_age_hours": 67.4,
+    "post_age_source": "url_id",
+    "post_text": "Great Opportunity With Ralph Lauren, Senior Materials Manager, Leathergoods And Shoes, Based In New York!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 15,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Ralph",
+    "score": 67.6,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 6.4,
+      "total": 67.6
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:21.964887+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/davidiramadan_back-in-the-exam-room-ralph-northam-reflects-activity-7513381786765287424-93c2",
+    "canonical_url": "https://www.linkedin.com/posts/davidiramadan_back-in-the-exam-room-ralph-northam-reflects-activity-7513381786765287424-93c2",
+    "post_id": 7513381786765287424,
+    "author": "Dr. David Ramadan",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "59.3h (URL ID)",
+    "post_age_hours": 59.3,
+    "post_age_source": "url_id",
+    "post_text": "A terrific profile of Virginia’s former Governor, Dr. Ralph Northam.\n\nI had the privilege of serving with Ralph in the General Assembly, and I have always known him as someone who approached public service with a physician’s temperament — steady, thoughtful, and focused on people.\n\nAfter serving in the State Senate, as Lieutenant Governor, and as Virginia’s 73rd Governor, he returned to where he began: caring for children as a pediatric neurologist. That says a lot about the man.\n\nTitles come and go. Service does not.\n\nThis piece is worth the read — not only for the reflections on his time in office, but for the reminder that a life of public service can take many forms!!\n\nhttps://lnkd.in/enHX8pxq",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHe4M67fMmrRg/articleshare-shrink_1280_800/B4EaETk4eJG8Ag-/0/1791329798466?e=2147483647&v=beta&t=_nmNg-L1HzqkU80WMfWlul9Bsg3TIipQIyy6SvUaWfQ",
+    "topic": "Ralph",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:19.250950+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/arielle-griffiths-39b055146_this-is-what-ruff-and-i-were-doing-on-the-activity-7513275127141298176-N_xB",
+    "canonical_url": "https://www.linkedin.com/posts/arielle-griffiths-39b055146_this-is-what-ruff-and-i-were-doing-on-the-activity-7513275127141298176-N_xB",
+    "post_id": 7513275127141298176,
+    "author": "Arielle Griffiths",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.4h (URL ID)",
+    "post_age_hours": 66.4,
+    "post_age_source": "url_id",
+    "post_text": "This is what Ruff and I were doing on the 6th October 2023 - being interviewed by the BBC!!\n\nWe had been invited to be interviewed by Radio 4 to speak about vegan dog food as Andrew Knights amazing studies had been published that showed the incredible environmental impact if all the worlds dogs went onto a vegan diet! 🙌\n\nWhat an exciting and very surreal afternoon it was! The BBC studios had never before allowed dogs in and Ruff was given his own lanyard.\n\nAs we walked into the BBC red studios (just as you see on the news!), I could hear people looking at us saying 'There's the vegan dog!'\n\nOne lady even came to meet him as it was her birthday and she wanted a cuddle and was so interested as she was vegan herself -oh how we loved it!! 🌱 🙌",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEJQBjOAD4kIQ/feedshare-shrink_1280/B4EaESD4lPHwAQ-/0/1791304370874?e=2147483647&v=beta&t=NjfynRx0NOSE_Y8Gq_4kJk38KnsJQtasvgvSuerUrcw",
+    "topic": "Ruff",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:09.857390+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralphhaupter_microsoftaitour-aitransformation-artificialintelligence-activity-7513634967596466177-Yxg-",
+    "canonical_url": "https://www.linkedin.com/posts/ralphhaupter_microsoftaitour-aitransformation-artificialintelligence-activity-7513634967596466177-Yxg-",
+    "post_id": 7513634967596466177,
+    "author": "Ralph Haupter",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.5h (URL ID)",
+    "post_age_hours": 42.5,
+    "post_age_source": "url_id",
+    "post_text": "I'm looking forward to joining customers, partners, and industry leaders at Microsoft AI Tour Singapore on October 12.\n\nAs organizations move from AI ambition to real-world impact, one of the biggest questions leaders face is: How do we turn AI strategy into business transformation at scale?\n\nIn my session, \"Your Frontier Transformation Roadmap: From AI Strategy to Execution,\" we'll explore practical approaches to accelerating AI adoption, creating measurable business value, and building a roadmap that helps organizations move confidently from vision to execution.\n\nIf you're attending AI Tour Singapore, I hope you'll join us for the conversation. I'm excited to connect, learn from your experiences, and discuss how we can shape the next frontier of AI-powered transformation together.\n\nSee you in Singapore.\n\nRegister here: https://lnkd.in/eEjdVgP9\n\n#MicrosoftAITour #AITransformation #ArtificialIntelligence #BusinessTransformation #MicrosoftAI",
+    "hashtags": [
+      "#MicrosoftAITour",
+      "#AITransformation",
+      "#ArtificialIntelligence",
+      "#BusinessTransformation",
+      "#MicrosoftAI"
+    ],
+    "engagement": {
+      "reactions": 255,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQHXMUK4HDjuVg/feedshare-image-high-res/B4EaEXLL9xIUAU-/0/1791390171339?e=2147483647&v=beta&t=8sHxJ0weHxMrXjr9hiPudsbKUGOMmLQlXOsJtQowjzM",
+    "topic": "Ralph",
+    "score": 63.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 15.0,
+      "total": 63.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:24.853097+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ruben-davoli_i-mapped-out-the-entire-process-on-how-to-activity-7513284821482147840-wP9Q",
+    "canonical_url": "https://www.linkedin.com/posts/ruben-davoli_i-mapped-out-the-entire-process-on-how-to-activity-7513284821482147840-wP9Q",
+    "post_id": 7513284821482147840,
+    "author": "Ruben Davoli",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "65.7h (URL ID)",
+    "post_age_hours": 65.7,
+    "post_age_source": "url_id",
+    "post_text": "I mapped out the ENTIRE process on how to build your company's Brain.\nPlus 8 AI Agents, one for every department. Executing while you sleep. Free access ↓\n\nStop building AI tools that don't talk to each other.\nEvery agent should pull from one shared brain.\n\nThis complete guide shows you how to build:\n\nThe brain:\n→ One shared knowledge base for your whole company\n\nThe agents:\n→ Marketing\n→ Lead generation\n→ Sales\n→ Deals\n→ Hiring\n→ Operations\n→ Customer back office\n→ Intelligence\n\nYour agents are only as smart as what they know.\nSo build the brain first.\nThen plug every agent into it.\n\nYour team stays.\nThe busywork goes.\n\nIt includes practical frameworks, editable templates and reusable prompts.\nPlus implementation checklists and step-by-step workflows.\n\nFree access ↓ | 85 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 25,
+      "comments": 85,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQExqmFpCDN5Ow/feedshare-shrink_800/B56aESMur8HIAc-/0/1791306689582?e=2147483647&v=beta&t=NndafjoHqooWfnN4e7pvKdfVzBUkc2n4IJJKy_5_nE8",
+    "topic": "ProcessOn",
+    "score": 62.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 15.0,
+      "total": 62.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:28.271670+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/cloud-native-computing-foundation_from-operating-thousands-of-production-kubernetes-activity-7514001456656465922-Itnm",
+    "canonical_url": "https://www.linkedin.com/posts/cloud-native-computing-foundation_from-operating-thousands-of-production-kubernetes-activity-7514001456656465922-Itnm",
+    "post_id": 7514001456656465922,
+    "author": "Cloud Native Computing Foundation (CNCF)",
+    "is_company_account": true,
+    "followers": 180159,
+    "post_age": "18.2h (URL ID)",
+    "post_age_hours": 18.2,
+    "post_age_source": "url_id",
+    "post_text": "From operating thousands of production Kubernetes clusters on Cilium across 20 regions to contributing upstream to Harbor, OVHcloud is deepening its commitment to open source. Today, we're proud to welcome OVHcloud as a CNCF Platinum Member.\n\nOVHcloud's upgrade builds on years of active community engineering, including maintainership of Harbor's Kubernetes Operator and participation in the Certified Kubernetes AI Conformance Program. We look forward to shaping open, vendor-neutral infrastructure together.\n\nRead the full announcement: https://bit.ly/4y8Epsf",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E10AQEdzYwAKc4rHA/image-shrink_1280/B4EaEcYe5cJkAc-/0/1791477542812?e=2147483647&v=beta&t=MK-PKHYrcm6eJGPyQ0JfTUcsUXR4AN32SI3MAegJzrw",
+    "topic": "Kubernetes operators",
+    "score": 62.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 5.0,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:51:57.026313+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/naval-yemul-a5803523_databricks-dataengineering-vscode-activity-7513495124551811072-cidR",
+    "canonical_url": "https://www.linkedin.com/posts/naval-yemul-a5803523_databricks-ssh-tunnel-use-vs-code-cursor-activity-7513495124551811072-lVjh",
+    "post_id": 7513495124551811072,
+    "author": "Naval Yemul",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "51.8h (URL ID)",
+    "post_age_hours": 51.8,
+    "post_age_source": "url_id",
+    "post_text": "𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 + 𝗩𝗦 𝗖𝗼𝗱𝗲 + 𝗖𝘂𝗿𝘀𝗼𝗿 = 𝗮 𝗽𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄. 🚀\n\nIn this video, I show how to use 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝗦𝗦𝗛 𝗧𝘂𝗻𝗻𝗲𝗹 to work with Databricks directly from 𝗩𝗦 𝗖𝗼𝗱𝗲 𝗮𝗻𝗱 𝗖𝘂𝗿𝘀𝗼𝗿.\n\nIf you're a Databricks developer, this is a workflow worth knowing.\n\n🎥 𝗪𝗮𝘁𝗰𝗵 𝘁𝗵𝗲 𝗳𝘂𝗹𝗹 𝘃𝗶𝗱𝗲𝗼:\nhttps://lnkd.in/dQ3m7d32\n\nIf you find this useful:\n👉 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝘁𝗼 𝗺𝘆 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 – Data Master for more Databricks & Data Engineering content.\n👉 𝗙𝗼𝗹𝗹𝗼𝘄 𝗺𝗲 𝗼𝗻 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 for short-form tips, tutorials, and updates.\n👉 𝗙𝗼𝗹𝗹𝗼𝘄 𝗺𝗲 𝗵𝗲𝗿𝗲 𝗼𝗻 𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻 for daily Data + AI insights.\n\n𝗛𝗮𝘃𝗲 𝘆𝗼𝘂 𝘁𝗿𝗶𝗲𝗱 𝗗𝗮𝘁𝗮𝗯𝗿𝗶𝗰𝗸𝘀 𝘄𝗶𝘁𝗵 𝗩𝗦 𝗖𝗼𝗱𝗲 𝗼𝗿 𝗖𝘂𝗿𝘀𝗼𝗿 𝘆𝗲𝘁?\n\n#Databricks #DataEngineering #VSCode #Cursor #ApacheSpark #DataEngineeringTips #DatabricksCommunity #AIEngineering",
+    "hashtags": [
+      "#Databricks",
+      "#DataEngineering",
+      "#VSCode",
+      "#Cursor",
+      "#ApacheSpark",
+      "#DataEngineeringTips",
+      "#DatabricksCommunity",
+      "#AIEngineering"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQF7CwaygzwM2g/articleshare-shrink_800/B4DaEQZfMeKIAc-/0/1791276479717?e=2147483647&v=beta&t=zuwICTdWxKI_I-RDApDwjhHYf_lmncgmLTmaE1y8o0A",
+    "topic": "VS Code",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:43.746556+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralphhamers_podcast-leadersinfinance-leadership-activity-7513273653036478465-C9RK",
+    "canonical_url": "https://www.linkedin.com/posts/ralphhamers_podcast-leadersinfinance-leadership-activity-7513273653036478465-C9RK",
+    "post_id": 7513273653036478465,
+    "author": "Ralph Hamers",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.4h (URL ID)",
+    "post_age_hours": 66.4,
+    "post_age_source": "url_id",
+    "post_text": "I said no far more often than I said yes.\n\nThat came up in my conversation with Jeroen Broekema for the Leaders in Finance podcast.\n\nSaying no is not a hobby of mine. On the contrary. As CEO of ING and UBS I stimulated people to come up with new ideas. And they did. Often looking financially really good. But ‘financially really good’ only is not a good reason to say yes. The ideas had to be consistent with our purpose and strategy.\n\nIt’s easier to accept a no when people can see what you’re building and which ideas fit or not.\n\nIf you want to hear about the other topics, Jeroen and I discussed - why I got involved in the colour of ING bank cards as CEO, whether AI will disrupt banks, and why titles are not important but your added value is - listen to the podcast via the links in comments.\n\nWhich attractive opportunity has your organization turned down because it didn't fit the strategy? And how did that turn out? Let me know in the comments!\n\n#podcast #leadersinfinance #leadership",
+    "hashtags": [
+      "#podcast",
+      "#leadersinfinance",
+      "#leadership"
+    ],
+    "engagement": {
+      "reactions": 247,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEMFt5lNBOsDA/feedshare-shrink_800/B4EaESCkb2H4Ac-/0/1791304026719?e=2147483647&v=beta&t=cUfTfXqQVEzO2TMrlTmQp5OrUDHfRPMvcVk9lgqwOHY",
+    "topic": "Ralph",
+    "score": 56.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 15.0,
+      "total": 56.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:17.856618+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralph-hess_leadership-has-to-own-it-activity-7513616671761268737-uuQP",
+    "canonical_url": "https://www.linkedin.com/posts/ralph-hess_leadership-has-to-own-it-activity-7513616671761268737-uuQP",
+    "post_id": 7513616671761268737,
+    "author": "Ralph Hess",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "43.7h (URL ID)",
+    "post_age_hours": 43.7,
+    "post_age_source": "url_id",
+    "post_text": "Leadership has to own it.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQGDWKaBkoEo2g/image-shrink_800/B4DaEW6igkJ0Ag-/0/1791385807717?e=2147483647&v=beta&t=H0iCJRzNTvV5pjsw5NRzn9Bf8EzzX8Y5MAUXmROEuH4",
+    "topic": "Ralph",
+    "score": 52.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 52.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:20.531339+00:00"
+  },
+  {
+    "url": "https://ae.linkedin.com/posts/suhaibajlouni_irbidworkshopcarouselsuhaib-activity-7513561901013082114-wnMO",
+    "canonical_url": "https://ae.linkedin.com/posts/suhaibajlouni_irbidworkshopcarouselsuhaib-activity-7513561901013082114-wnMO",
+    "post_id": 7513561901013082114,
+    "author": "Dr. Suhaib Ajlouni",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "47.4h (URL ID)",
+    "post_age_hours": 47.4,
+    "post_age_source": "url_id",
+    "post_text": "خط إنتاج يقدر يطلع ١٠٠ قطعة.\n\nكم منها بتطلع سليمة فعلًا؟\n\nفي الورشة، الجواب كان ٦٨. والباقي؟\n\nتوقفات، بطء، وقطع غير مطابقة. وأغلبها ما بيظهر في أي تقرير.\n\nهذا مش فشل في المصنع. هذا اللي بيصير لما ما حدا بيشوف. الذكاء الاصطناعي في المصنع ما بيبدأ بالخوارزميات. بيبدأ بقياس ما يحدث فعلًا على الخط. ٩ صور من ورشة غرفة صناعة إربد.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Microservices Architecture",
+    "score": 52.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 52.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:57.548183+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/canadavisa_canada-to-launch-new-asylum-claim-process-activity-7513314861393641472-_QZE",
+    "canonical_url": "https://www.linkedin.com/posts/canadavisa_canada-to-launch-new-asylum-claim-process-activity-7513314861393641472-_QZE",
+    "post_id": 7513314861393641472,
+    "author": "CanadaVisa",
+    "is_company_account": false,
+    "followers": 120223,
+    "post_age": "63.7h (URL ID)",
+    "post_age_hours": 63.7,
+    "post_age_source": "url_id",
+    "post_text": "Canada to launch new asylum claim process on November 3",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQEnQA5ZhowtQA/image-shrink_1280/B56aESoDvFJoAc-/0/1791313853667?e=2147483647&v=beta&t=Ouku9aGF_mgXwXbGlc6EVNIKqvfZUuVHklJkHRMbllQ",
+    "topic": "ProcessOn",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:32.251120+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/committee-of-seventy_now-accepting-poll-watchers-consider-activity-7513327229834166272-rhZV",
+    "canonical_url": "https://www.linkedin.com/posts/committee-of-seventy_now-accepting-poll-watchers-consider-activity-7513327229834166272-rhZV",
+    "post_id": 7513327229834166272,
+    "author": "Committee of Seventy",
+    "is_company_account": false,
+    "followers": 3642,
+    "post_age": "62.9h (URL ID)",
+    "post_age_hours": 62.9,
+    "post_age_source": "url_id",
+    "post_text": "📌 NOW ACCEPTING POLL WATCHERS.\n\nConsider this your sign to take a tab. 👀\n\nBE A WATCHDOG. See elections up close. Be a set of eyes in your community.\nPoll watchers observe the voting process on Election Day and help ensure polling places follow the rules.\n\nC70 is partnering with the League of Women Voters of Pennsylvania to offer upcoming poll watcher information sessions.\n\n📅 Information sessions:\n• Wed, Oct. 14 @ 6 PM\n• Thurs, Oct. 15 @ 12:30 PM\n• Wed, Oct. 21 @ 6 PM\n• Thurs, Oct. 22 @ 12:30 PM\n• Wed, Oct. 28 @ 6 PM\n• Thurs, Oct. 29 @ 12:30 PM\n\nSign up for a training here: https://lnkd.in/dWQJKt2m",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQE1a0RJRE7SFw/feedshare-image-high-res/B4DaD9OlmBGkAY-/0/1790954855304?e=2147483647&v=beta&t=ZPcQYq1HzdlojrWG4BjPRAzEF2uxqGQQKde25CxB84I",
+    "topic": "ProcessOn",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:53:40.928436+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/terry-ruff-7993301a_06-live-as-a-spiritual-family-activity-7513210968827506688-t5ck",
+    "canonical_url": "https://www.linkedin.com/posts/terry-ruff-7993301a_06-live-as-a-spiritual-family-activity-7513210968827506688-t5ck",
+    "post_id": 7513210968827506688,
+    "author": "Terry Ruff",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "70.6h (URL ID)",
+    "post_age_hours": 70.6,
+    "post_age_source": "url_id",
+    "post_text": "06. Live as a Spiritual Family",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5612AQHfzJ5dLy39Aw/thumbnail-with-play-button-overlay-low/B56aEPbDZKHMCM-/0/1791260115252?e=2147483647&v=beta&t=EmpFznqAQOayWBy5DN_q5mTmE1J9VQCPc2rODFPKOsE",
+    "topic": "Ruff",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-09T10:54:08.574484+00:00"
   }
 ]
