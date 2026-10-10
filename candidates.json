@@ -7439,7 +7439,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:54:03.057703+00:00",
     "failure_reason": null,
     "generated_comment": "Vishnu, the modules overview is a solid start for beginners. One gap is exception handling, which is essential for building reliable data pipelines and AI scripts because uncaught errors can halt batch jobs."
@@ -7471,7 +7471,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:54:25.818640+00:00"
   },
   {
@@ -7501,7 +7501,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T10:55:57.493546+00:00"
   },
   {
@@ -8549,7 +8549,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T12:20:14.824465+00:00"
   },
   {
@@ -8579,7 +8579,7 @@
       "engagement": 15.0,
       "total": 92.5
     },
-    "status": "new",
+    "status": "notified",
     "discovered_at": "2026-10-08T12:20:51.804116+00:00"
   },
   {
@@ -11424,5 +11424,1229 @@
     },
     "status": "new",
     "discovered_at": "2026-10-09T10:54:08.574484+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/basiakubicka_everyones-an-ai-expert-until-you-ask-how-activity-7514310958345834496-jfsN",
+    "canonical_url": "https://www.linkedin.com/posts/basiakubicka_everyones-an-ai-expert-until-you-ask-how-activity-7514310958345834496-jfsN",
+    "post_id": 7514310958345834496,
+    "author": "Basia Kubicka",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "21.0h (URL ID)",
+    "post_age_hours": 21.0,
+    "post_age_source": "url_id",
+    "post_text": "Everyone's an AI expert until you ask how LLMs work.\n\nStanford has the cleanest answer I've found.\n\nTheir full LLM course is now FREE.\n9 lectures from Transformers to Agentic systems.\n\nIf you're trying to separate AI hype from architecture decisions, start here:\n\nLecture 7 (Agentic LLMs) and Lecture 8 (LLM Evaluation) are where most enterprise teams need depth.\n\nFull list:\nLecture 1: Transformers\nhttps://lnkd.in/gTfXfZJC\n\nLecture 2: Transformer-Based Models\nhttps://lnkd.in/gKKysY3x\n\nLecture 3: LLMs\nhttps://lnkd.in/grEVzSpj\n\nLecture 4: Training\nhttps://lnkd.in/gH9dcShh\n\nLecture 5: Tuning\nhttps://lnkd.in/gcm-Adf4\n\nLecture 6: Reasoning\nhttps://lnkd.in/gd8ZC4Pj\n\nLecture 7: Agentic LLMs\nhttps://lnkd.in/g4AzfJ-J\n\nLecture 8: LLM Evaluation\nhttps://lnkd.in/ghrrNYai\n\nLecture 9: Recap & Trends\nhttps://lnkd.in/gMp6_y77\n\nWhich lecture would change how your team builds?\n\n♻️ Repost if your network needs this reminder\n➕ Follow me (Basia Kubicka) for more AI reality checks\n| 180 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 430,
+      "comments": 180,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGRLcsUlnEfAw/feedshare-image-high-res/B56aEEVn8KK8AU-/0/1791074140800?e=2147483647&v=beta&t=aVEr0VAGI_XwLeOm0eLUaoHmgl_DYCDUnd33-yr35HY",
+    "topic": "LLM evaluation",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:17.031411+00:00",
+    "failure_reason": null,
+    "generated_comment": "Basia, Lecture 8 on LLM Evaluation stands out for me. It stresses aligning metrics with downstream tasks, which forces us to shift from chasing headline scores to measuring actual user impact-a trade-off that reshapes our development loop."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/joereitz_celebrated-2-years-at-vercel-this-week-to-activity-7514412459328196608-7mwx",
+    "canonical_url": "https://www.linkedin.com/posts/joereitz_celebrated-2-years-at-vercel-this-week-to-activity-7514412459328196608-7mwx",
+    "post_id": 7514412459328196608,
+    "author": "Joe Reitz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "14.3h (URL ID)",
+    "post_age_hours": 14.3,
+    "post_age_source": "url_id",
+    "post_text": "Celebrated 2 years at Vercel this week. To say it's been transformational would be undercutting it.\n\nI began shipping PRs almost daily this year. I created our slack agent, mOperator, which is on track to generating well over an FTE in time-savings in it's inaugural year. I've helped ship agents that qualify leads, run outbound, and book meetings, influencing millions in pipeline and revenue. I led a full email replatform – twice. Our small 3-person team absorbed a 51% jump in request volume without adding headcount (thankfully that changes next week 😈).\n\nTwo years ago I was leading RevOps in a traditional sense - administrating systems like Marketo, Salesforce, Tableau, and Contentful. Today I run a team that still does all that and more... but also builds software.\n\nGrateful for the people who gave me room to figure this out, and for a team that continues to carry an entire org on their backs with smiles on their faces.\n\nOnward. | 10 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 93,
+      "comments": 10,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFXlyB2z6Ihdg/feedshare-shrink_800/B56aEiOUCZG0Ag-/0/1791575540280?e=2147483647&v=beta&t=Ktnpxu_zUTMVJOpN1x-SLmujLSfdCqQWVFkpih1elE4",
+    "topic": "Vercel",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:53.301521+00:00",
+    "failure_reason": null,
+    "generated_comment": "Joe, the mOperator Slack agent clearly drove huge time savings. Scaling it to absorb a 51% request surge without extra headcount likely pushes compute utilization higher, so you may see increased latency or need to budget more resources as load grows."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/stephenwhedlund_engineering-team-at-rillet-is-absolutely-activity-7514415827773767680-Eknt",
+    "canonical_url": "https://www.linkedin.com/posts/stephenwhedlund_engineering-team-at-rillet-is-absolutely-activity-7514415827773767680-Eknt",
+    "post_id": 7514415827773767680,
+    "author": "stephen hedlund",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "14.0h (URL ID)",
+    "post_age_hours": 14.0,
+    "post_age_source": "url_id",
+    "post_text": "Engineering team at Rillet is absolutely cracked. Using Vercel to ship 3x faster and turn around customer requests to production in a matter of hours. The software factory is humming.\n\nThank you Vercel for sharing the story and epic shoutout to our eng team for building a story worth telling.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 44,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGxgy1C7mPFww/feedshare-shrink_800/B56aEiRYFNHAAc-/0/1791576343264?e=2147483647&v=beta&t=4OTxgJFTZ2dh7xl19JW_QLjR-nVKYaxeuAG0Vxrui9I",
+    "topic": "Vercel",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:54.764235+00:00",
+    "failure_reason": null,
+    "generated_comment": "Stephen, Vercel's edge network can cut deploy cycles dramatically, but the post doesn't address how usage-based pricing scales when request volume spikes. At high traffic, cost per request may erode speed gains unless you budget for it."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/caitlin-tierney-9591114_at-fresh-express-we-care-we-care-about-activity-7514395241655844864-f3xC",
+    "canonical_url": "https://www.linkedin.com/posts/caitlin-tierney-9591114_at-fresh-express-we-care-we-care-about-activity-7514395241655844864-f3xC",
+    "post_id": 7514395241655844864,
+    "author": "Caitlin Tierney",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "15.4h (URL ID)",
+    "post_age_hours": 15.4,
+    "post_age_source": "url_id",
+    "post_text": "At Fresh Express, we care. We care about food safety, delivering high-quality products, serving our customers and consumers needs, and supporting our employees.\nWe believe in creating an environment where people can strengthen their skills, and grow their careers. If you’re looking for an opportunity to make a meaningful impact while advancing your professional journey, Fresh Express may be the perfect place for you.\nWe are currently seeking a Sales Manager to support our Western region. We invite motivated, results-driven professionals to explore this exciting opportunity and become part of a team committed to quality, innovation, and growth.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 36,
+      "comments": 3,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Express",
+    "score": 90.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 90.2
+    },
+    "status": "skipped",
+    "discovered_at": "2026-10-10T10:08:52.192129+00:00",
+    "skip_reason": "LLM generated SKIP on initial draft",
+    "failure_reason": "generator_skip: LLM generated SKIP on initial draft",
+    "generated_comment": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/thescholarbaniya_everyone-learning-ai-should-know-these-3-activity-7514542908939653120-h2rI",
+    "canonical_url": "https://www.linkedin.com/posts/thescholarbaniya_everyone-learning-ai-should-know-these-3-activity-7514542908939653120-h2rI",
+    "post_id": 7514542908939653120,
+    "author": "Rahul Agarwal",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "5.6h (URL ID)",
+    "post_age_hours": 5.6,
+    "post_age_source": "url_id",
+    "post_text": "Everyone learning AI should know these 3 protocols.\n\nI've explained each protocol in simple.\n\n𝗠𝗖𝗣 (𝗠𝗼𝗱𝗲𝗹 𝗖𝗼𝗻𝘁𝗲𝘅𝘁 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹)\nMCP helps AI models 𝗰𝗼𝗻𝗻𝗲𝗰𝘁 𝘁𝗼 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝗹 𝗱𝗮𝘁𝗮.\n• It acts as a bridge between the AI model & outside systems\n• Allows models to safely access tools, files, and databases\n• Standardizes how context is shared with AI\n\n1. 𝗠𝗖𝗣 𝗛𝗼𝘀𝘁\nThe MCP Host is the 𝗺𝗮𝗶𝗻 𝗔𝗜 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘁𝗵𝗲 𝗺𝗼𝗱𝗲𝗹.\n• Receives the user request\n• Decides when external tools are needed\n• Initiates communication with MCP services\n\n2. 𝗠𝗖𝗣 𝗖𝗹𝗶𝗲𝗻𝘁\nThe MCP Client acts as the 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗼𝗿 𝗯𝗲𝘁𝘄𝗲𝗲𝗻 𝘁𝗵𝗲 𝗔𝗜 & 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝗹 𝘁𝗼𝗼𝗹𝘀.\n• Sends requests to MCP servers\n• Transfers instructions from the AI model\n• Handles communication with available services\n\n3. 𝗠𝗖𝗣 𝗦𝗲𝗿𝘃𝗲𝗿\nThe MCP Server provides 𝘁𝗼𝗼𝗹𝘀 𝗮𝗻𝗱 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘁𝗵𝗮𝘁 𝗔𝗜 𝗰𝗮𝗻 𝘂𝘀𝗲.\nIt exposes capabilities such as:\n• APIs\n• files\n• databases\n• external services\nThese help the AI 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗽𝗲𝗿𝗳𝗼𝗿𝗺 𝗮𝗰𝘁𝗶𝗼𝗻𝘀.\n\n𝗔𝟮𝗔 (𝗔𝗴𝗲𝗻𝘁-𝘁𝗼-𝗔𝗴𝗲𝗻𝘁 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹)\nA2A allows 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗲 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝘁𝗼 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗲 & 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗲.\nInstead of one AI doing everything, different agents can work together.\nExample:\n• Research agent\n• Analysis agent\n• Coding agent\nEach agent handles 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗽𝗮𝗿𝘁𝘀 𝗼𝗳 𝗮 𝘁𝗮𝘀𝗸.\n\n1. 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀 𝗮𝗻𝗱 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀\nIn A2A systems, agents coordinate through structured communication.\nThis includes:\n• 𝗧𝗮𝘀𝗸𝘀 → work assigned to another agent\n• 𝗠𝗲𝘀𝘀𝗮𝗴𝗲𝘀 → agents share updates and information\n• 𝗦𝘁𝗮𝘁𝘂𝘀 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 → progress tracking\n• 𝗔𝗿𝘁𝗶𝗳𝗮𝗰𝘁𝘀 → outputs like reports or code\nThis allows agents to 𝗱𝗶𝘃𝗶𝗱𝗲 𝘄𝗼𝗿𝗸 𝗮𝗻𝗱 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗲 𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗹𝘆.\n\nA2A also allows communication with 𝗮𝗴𝗲𝗻𝘁𝘀 𝗼𝗻 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝘀𝘆𝘀𝘁𝗲𝗺𝘀 like cloud-based agents, enterprise AI systems etc.\n\n𝗔𝗖𝗣 (𝗔𝗴𝗲𝗻𝘁 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗣𝗿𝗼𝘁𝗼𝗰𝗼𝗹)\nACP defines how agents 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝗰𝗮𝘁𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗔𝗣𝗜𝘀 𝗮𝗻𝗱 𝘀𝘆𝘀𝘁𝗲𝗺 𝗲𝘃𝗲𝗻𝘁𝘀.\n\n1. 𝗔𝗣𝗜𝘀, 𝗘𝘃𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗗𝗶𝘀𝗰𝗼𝘃𝗲𝗿𝘆\nACP uses common communication mechanisms such as:\n𝗮) 𝗥𝗘𝗦𝗧 𝗔𝗣𝗜𝘀\nAgents send requests to services.\n𝗯) 𝗔𝘀𝘆𝗻𝗰 𝗘𝘃𝗲𝗻𝘁𝘀\nSystems notify agents when something happens.\n𝗰) 𝗦𝘆𝗻𝗰 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝘀\nImmediate request-response communication.\n𝗱) 𝗗𝗶𝘀𝗰𝗼𝘃𝗲𝗿𝘆\nAgents find other services in the network.\n𝗲) 𝗠𝗲𝘁𝗮𝗱𝗮𝘁𝗮\nDescribes capabilities and endpoints.\n\nThese allow AI agents to 𝗼𝗽𝗲𝗿𝗮𝘁𝗲 𝗿𝗲𝗹𝗶𝗮𝗯𝗹𝘆 𝗮𝗰𝗿𝗼𝘀𝘀 𝘀𝘆𝘀𝘁𝗲𝗺𝘀.\n\n✅ 𝗜𝗻 𝘀𝗵𝗼𝗿𝘁:\n• 𝗠𝗖𝗣 → AI connects to tools and data\n• 𝗔2𝗔 → agents collaborate with agents\n• 𝗔𝗖𝗣 → agents communicate with APIs/systems\n\n✅ Repost for others so they can know these imp protocols for AI agents.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 46,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQG8Ly0pzRpwQw/feedshare-shrink_800/B56aEixW3vH8Ac-/0/1791584728469?e=2147483647&v=beta&t=ZHoZTcfK9B89UA-8RH70uzmfyKF3BNEMuITUkeRrOwM",
+    "topic": "MCP protocol",
+    "score": 90.0,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 90.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:02.469758+00:00",
+    "failure_reason": null,
+    "generated_comment": "Rahul, the MCP Server exposing APIs is a solid start, but the post skips how authentication and policy enforcement are handled when the AI invokes external tools. Without a secure token model, you risk unauthorized data access, especially at scale."
+  },
+  {
+    "url": "https://www.linkedin.com/posts/burkeholland_software-factories-are-real-markdoc-was-activity-7514030969255936002-jxp_",
+    "canonical_url": "https://www.linkedin.com/posts/burkeholland_software-factories-are-real-markdoc-was-activity-7514030969255936002-jxp_",
+    "post_id": 7514030969255936002,
+    "author": "Burke Holland",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "39.5h (URL ID)",
+    "post_age_hours": 39.5,
+    "post_age_source": "url_id",
+    "post_text": "Software factories are real. Markdoc was built with GitHub Copilot working almost entirely on its own organizing a team of agents.\n\nThe agents were assigned work, created issues, PR's, did reviews and even setup and scheduled deployment to Microsoft Azure.\n\nI did some of the initial ideation and then functioned solely as a tester - using the product and reporting what was wrong with it to a lead agent who would open issues and address my feedback.\n\nYou can do this. Today. Just go into the GitHub Copilot app and ask it to spin up a team of agents and tell it what to build.\n\nModel used here was primarily Fable, but also Astra and Opus.\n\nhttps://markdoc.app",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 46,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEy2lkNUI7kOA/thumbnail-with-play-button-overlay-high/B4EaEczS8sGoC8-/0/1791484580555?e=2147483647&v=beta&t=8TEcwCTLf-9dfnvaXOKB4w2e2PUR9vrk9xGuiY22I_Q",
+    "topic": "GitHub Copilot",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:39.106917+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/scstelz_cybersecurityawarenessmonth-agenticsoc-activity-7513984131933003777-DJJG",
+    "canonical_url": "https://www.linkedin.com/posts/scstelz_cybersecurityawarenessmonth-agenticsoc-activity-7513984131933003777-DJJG",
+    "post_id": 7513984131933003777,
+    "author": "Chris S.",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.6h (URL ID)",
+    "post_age_hours": 42.6,
+    "post_age_source": "url_id",
+    "post_text": "🎥 𝗢𝗻𝗲 𝗽𝗿𝗼𝗺𝗽𝘁. 𝗔𝗻 𝗮𝘂𝘁𝗼𝗻𝗼𝗺𝗼𝘂𝘀 𝗦𝗢𝗖 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝘁𝗶𝗼𝗻. 𝗔 𝗵𝘂𝗺𝗮𝗻 𝘄𝗵𝗼 𝗸𝗲𝗲𝗽𝘀 𝘁𝗵𝗲 𝗷𝘂𝗱𝗴𝗺𝗲𝗻𝘁 𝗰𝗮𝗹𝗹𝘀.\n\nFor Cybersecurity Awareness Month I've recorded a quick 15-minute walkthrough of the new Mission Control Canvas I created for the GitHub Copilot App to help automate security investigations across Microsoft Sentinel + Defender XDR. ⬇️\n\nIn the video:📺\n⚙️ Setup — the GitHub Copilot app, MCP servers for Sentinel, Defender and Graph, and the open-source skills repo\n🎛️ Guardrails first — run, budget and depth caps, with a hard pause on critical findings\n🔍 One run a threat pulse prompt → autopilot chases its own follow-ups across identity, Conditional Access, device and exposure\n🧠 Tenant memory that turns noise into signal, plus a propose-only review so a human approves what it learns\n\nRead-only throughout. Nothing in the tenant was changed. Microsoft's agentic SOC vision is agents assembling the evidence and analysts supervising outcomes. This is what that looks like in practice.\n\nWork smarter, not harder. Human-in-the-loop always. Give it a try today!💡\n\nOpen source: https://lnkd.in/gV_DmVuS\n\nThe agentic SOC—Rethinking SecOps for the next decade: https://lnkd.in/gWjipcEy\n\n#CybersecurityAwarenessMonth #AgenticSOC #MicrosoftSentinel #MicrosoftDefender #GitHubCopilot #AgenticAI #SecOps #OpenSource #SOCGPT #MicrosoftEmployee #BeCyberSmart #BeAISafe",
+    "hashtags": [
+      "#CybersecurityAwarenessMonth",
+      "#AgenticSOC",
+      "#MicrosoftSentinel",
+      "#MicrosoftDefender",
+      "#GitHubCopilot",
+      "#AgenticAI",
+      "#SecOps",
+      "#OpenSource",
+      "#SOCGPT",
+      "#MicrosoftEmployee",
+      "#BeCyberSmart",
+      "#BeAISafe"
+    ],
+    "engagement": {
+      "reactions": 32,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQHXibuDfxB12w/thumbnail-with-play-button-overlay-high/B56aEXoiKRJoC0-/0/1791397882084?e=2147483647&v=beta&t=jMMT0N1gm6DKo2pLF9nqd8E9YswiVTYZNjamTsLgUJc",
+    "topic": "GitHub Copilot",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:42.325585+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/patrickcollins1_great-to-speak-last-night-at-vercels-ai-activity-7514104571506405376-qqDf",
+    "canonical_url": "https://www.linkedin.com/posts/patrickcollins1_great-to-speak-last-night-at-vercels-ai-activity-7514104571506405376-qqDf",
+    "post_id": 7514104571506405376,
+    "author": "Patrick Collins",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "34.7h (URL ID)",
+    "post_age_hours": 34.7,
+    "post_age_source": "url_id",
+    "post_text": "Great to speak last night at Vercel's AI SYD event.\n\nThe room blew up when we declared DeepSeek v4.1 Flash the winning Cybersecurity model for security scans on PRs. Lleyton at Vercel, loved it of course... Vercel is pretty much the only place you can get access to DeepSeek right now\n\nDecision models, like Jev, were definitely the topic of the night. Jev was released only 3 weeks ago, and there are already 9 competitors to it. Thanks for the insights here from Aldo Schumann. | 15 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 72,
+      "comments": 15,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFvBqCJBkPXqg/feedshare-shrink_800/B56aEd2M4VH8Ac-/0/1791502110572?e=2147483647&v=beta&t=3b2s6aaJuNDyaZzS02ofwpYjUpKs0W42yWniwYla5W4",
+    "topic": "Vercel",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:57.834461+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/edison-lai_dynamics365-playwright-mcp-activity-7513948469779161090-g-Cv",
+    "canonical_url": "https://www.linkedin.com/posts/edison-lai_dynamics365-playwright-mcp-activity-7513948469779161090-g-Cv",
+    "post_id": 7513948469779161090,
+    "author": "Edison Lai",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "45.0h (URL ID)",
+    "post_age_hours": 45.0,
+    "post_age_source": "url_id",
+    "post_text": "How can you streamline Dynamics 365 regression testing with Playwright and MCP when MFA is required?\n\nIn my latest blog post, Handling MFA in Dynamics 365 Regression Testing with Playwright and MCP, I share how to reuse authenticated browser sessions with Playwright’s storageState.\n\n🔍 The walkthrough covers:\n- Capturing authenticated state after completing sign-in and MFA.\n- Configuring separate test users and Playwright projects for different scenarios.\n- Reusing saved state with Playwright MCP for AI-assisted testing.\n\nThe key is to separate authentication from the business scenarios, so automated tests can focus on business scenarios rather than repeating sign-in steps.\n\n🔐 This is session reuse, not an MFA bypass. Session expiry and tenant policies still apply, and saved authentication files must be protected.\n\n📖 Read the full walkthrough: https://lnkd.in/gDWV92tY\n\n#Dynamics365 #Playwright #MCP #TestAutomation #MFA #FO #CE",
+    "hashtags": [
+      "#Dynamics365",
+      "#Playwright",
+      "#MCP",
+      "#TestAutomation",
+      "#MFA",
+      "#FO",
+      "#CE"
+    ],
+    "engagement": {
+      "reactions": 42,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQGlQO72s_7JpA/feedshare-shrink_800/B56aEak9orHMAc-/0/1791447259924?e=2147483647&v=beta&t=P79_iVjoxGKFeApx8WN-U5I4k_RE4pFJrXFfw0KpkTo",
+    "topic": "Playwright",
+    "score": 83.2,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 83.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:25.628585+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/realpython-com_comparing-performance-of-lists-vs-linked-activity-7514489932564815872-v9Cv",
+    "canonical_url": "https://www.linkedin.com/posts/realpython-com_comparing-performance-of-lists-vs-linked-activity-7514489932564815872-v9Cv",
+    "post_id": 7514489932564815872,
+    "author": "Real Python",
+    "is_company_account": false,
+    "followers": 206304,
+    "post_age": "9.1h (URL ID)",
+    "post_age_hours": 9.1,
+    "post_age_source": "url_id",
+    "post_text": "🐍 Comparing Performance of Lists vs Linked Lists [Video] #python",
+    "hashtags": [
+      "#python"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D10AQGFfNMIuL70mA/image-shrink_800/B4DaEjUxAFJMAg-/0/1791594009061?e=2147483647&v=beta&t=fFVt3dMN9iVQ4wtKU9RnyeYliAyNVYzNzwamWFfqf50",
+    "topic": "Python performance",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 35.0,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:05:58.129955+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/unreal-engine-for-design-visualization_unreal-model-context-protocol-mcp-provides-activity-7513992209491222528-ZOpY",
+    "canonical_url": "https://www.linkedin.com/posts/unreal-engine-for-design-visualization_unreal-model-context-protocol-mcp-provides-activity-7513992209491222528-ZOpY",
+    "post_id": 7513992209491222528,
+    "author": "Unreal Engine",
+    "is_company_account": false,
+    "followers": 659849,
+    "post_age": "42.1h (URL ID)",
+    "post_age_hours": 42.1,
+    "post_age_source": "url_id",
+    "post_text": "Unreal Model Context Protocol (MCP) provides an official, Epic-supported way to connect your favorite agentic LLM tools directly to Unreal Engine🤝\n\nBuilt on the open MCP standard, it enables agents to take action in your projects using the capabilities exposed by each editor—so you can use compatible agentic coding tools or build your own integrations, skills, and workflows around how you create: https://lnkd.in/gXcVnJP9\n\n⚫Learn how to connect MCP in UE:\nhttps://lnkd.in/gXkgQk_s\n⚫Learn how to connect MCP in UEFN: https://lnkd.in/giYe5pCw\n⚫Explore PCG and MCP workflows with the UE City Sample:\nhttps://lnkd.in/gnNXGsNN | 29 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 901,
+      "comments": 29,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "MCP protocol",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:04.080617+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/domotalk_ai-is-only-as-smart-as-the-data-you-feed-activity-7514052012553105408-D0oE",
+    "canonical_url": "https://www.linkedin.com/posts/domotalk_ai-is-only-as-smart-as-the-data-you-feed-activity-7514052012553105408-D0oE",
+    "post_id": 7514052012553105408,
+    "author": "Domo",
+    "is_company_account": false,
+    "followers": 177405,
+    "post_age": "38.1h (URL ID)",
+    "post_age_hours": 38.1,
+    "post_age_source": "url_id",
+    "post_text": "AI is only as smart as the data you feed it.\n\nThink of MCP (Model Context Protocol) like a restaurant:\n\nYou order: Ask an AI agent to do a task.\nThe waiter (MCP): Takes the request to the kitchen.\nThe kitchen (Your Data): Cooks up the answer and serves it.\n\nYou get the perfect result without ever seeing the complex systems behind the scenes.\n\nLet Domo work for you: https://bit.ly/4BeKF4H",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 40,
+      "comments": 7,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "MCP protocol",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:07.075127+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/antrixshgupta_%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%80%F0%9D%90%86-%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%AC-activity-7514151153551486976-v0RO",
+    "canonical_url": "https://www.linkedin.com/posts/antrixshgupta_%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%80%F0%9D%90%86-%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%AC-activity-7514151153551486976-v0RO",
+    "post_id": 7514151153551486976,
+    "author": "Antrixsh Gupta",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "31.5h (URL ID)",
+    "post_age_hours": 31.5,
+    "post_age_source": "url_id",
+    "post_text": "𝐌𝐨𝐬𝐭 𝐑𝐀𝐆 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞𝐬 𝐚𝐫𝐞 𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐢𝐧𝐠 𝐭𝐡𝐞 𝐰𝐫𝐨𝐧𝐠 𝐩𝐫𝐨𝐛𝐥𝐞𝐦.\n\nBigger embedding models will not always produce better retrieval.\n\nSometimes, the issue is the retrieval strategy itself.\n\n→ You split documents into chunks\n✓ But lose document structure (Context fragmentation)\n\n→ You generate embeddings\n✓ But semantic similarity misses hierarchical relationships (Retrieval gap)\n\n→ You increase chunk overlap\n✓ But retrieval precision still declines (Signal dilution)\n\n→ You optimize vector search\n✓ But complex documents require structural navigation (Knowledge organization gap)\n\n→ You improve embeddings\n✓ But citations remain inconsistent (Grounding gap)\n\n→ You scale vector databases\n✓ But indexing costs continue to grow (Infrastructure overhead)\n\n→ You retrieve similar passages\n✓ But not the most relevant sections (Recall vs relevance trade-off)\n\n→ You blame the LLM\n✓ But the bottleneck is retrieval architecture (System design gap)\n\nThis is why Vectorless RAG is gaining attention.\n\nInstead of relying only on embeddings, it leverages the natural structure of documents.\n\n𝐓𝐡𝐞 𝐚𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 𝐬𝐡𝐢𝐟𝐭𝐬 𝐟𝐫𝐨𝐦 𝐬𝐢𝐦𝐢𝐥𝐚𝐫𝐢𝐭𝐲 𝐬𝐞𝐚𝐫𝐜𝐡 𝐭𝐨 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭 𝐧𝐚𝐯𝐢𝐠𝐚𝐭𝐢𝐨𝐧:\n\n• Document Understanding (Structure Extraction, Tables, Sections, Metadata)\n• Structure-Based Indexing (Hierarchical Trees, Semantic Relationships, Document Maps)\n• Context-Aware Retrieval (Hierarchy Navigation, Section Linking, Context Expansion)\n• Grounded Generation (Source-Based Responses, Citations, Explainability)\n\nWhere Vectorless RAG creates value:\n• Large technical documentation\n• Enterprise knowledge bases\n• Legal and compliance documents\n• Financial reports\n• Research papers\n• Product documentation\n\n𝐓𝐡𝐞 𝐟𝐮𝐭𝐮𝐫𝐞 𝐨𝐟 𝐞𝐧𝐭𝐞𝐫𝐩𝐫𝐢𝐬𝐞 𝐫𝐞𝐭𝐫𝐢𝐞𝐯𝐚𝐥 𝐢𝐬 𝐮𝐧𝐥𝐢𝐤𝐞𝐥𝐲 𝐭𝐨 𝐛𝐞:\n\nVector Search or Structure-Based Retrieval.\n\nIt will be hybrid retrieval architectures that combine embeddings, document hierarchy, metadata, and reranking to maximize accuracy.\n\nThe next generation of RAG will not retrieve more context.\n\nIt will retrieve the right context with the least complexity.\n\nP.S. Do you see Vectorless RAG replacing traditional Vector RAG, or becoming another layer in hybrid retrieval architectures? | 36 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 62,
+      "comments": 36,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEAQx2y0DdriA/feedshare-shrink_800/B56aEegos5HkAc-/0/1791513240003?e=2147483647&v=beta&t=cLm8sMXR6h5CI4LG_SeeND2o43QM-SR9cnthtsYCWAw",
+    "topic": "RAG architecture",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:12.083315+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/arnabganguly_the-smartest-ai-agent-architecture-may-actually-activity-7514185784913072128-Mqlj",
+    "canonical_url": "https://www.linkedin.com/posts/arnabganguly_the-smartest-ai-agent-architecture-may-actually-activity-7514185784913072128-Mqlj",
+    "post_id": 7514185784913072128,
+    "author": "Arnab K Ganguly",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "29.2h (URL ID)",
+    "post_age_hours": 29.2,
+    "post_age_source": "url_id",
+    "post_text": "The smartest AI agent architecture may actually be the boring one.\n\nAs enterprises experiment with agentic AI, there is a temptation to make everything multi-agent. One agent plans, another researches, a third executes, and another reviews the work. It sounds sophisticated.\n\nBut I have learned that complexity needs to earn its place.\n\nIf a process follows predictable steps, a deterministic workflow may be enough.\n\nIf the task requires reasoning and adapting along the way, a single agent could work. Multiple agents become useful when the problem genuinely requires different capabilities working together.\n\nEvery additional agent also introduces another interaction to monitor, another potential failure point, and additional cost and latency.\n\nThe objective should not be to build the most impressive agent architecture. It should be to build the simplest architecture that reliably completes the job.\n\nPerhaps the enterprise AI principle should be: Use the least complexity necessary to achieve the outcome. | 19 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 21,
+      "comments": 19,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4D22AQE9jucliJOS3Q/feedshare-shrink_800/B4DaEfAJnzHcAc-/0/1791521496005?e=2147483647&v=beta&t=v0wsPMIvs7wsjFUUdUnicPmCDiSC2-BN4PuQo6uq9nE",
+    "topic": "AI Agents architecture",
+    "score": 79.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 79.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:33.470868+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/pavan-belagatti_model-context-protocol-mcp-how-it-works-activity-7514317948728123392-AcpC",
+    "canonical_url": "https://www.linkedin.com/posts/pavan-belagatti_model-context-protocol-mcp-how-it-works-activity-7514317948728123392-AcpC",
+    "post_id": 7514317948728123392,
+    "author": "Pavan Belagatti",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "20.5h (URL ID)",
+    "post_age_hours": 20.5,
+    "post_age_source": "url_id",
+    "post_text": "So, if you are still scratching your head trying to understand MCP, how it actually works, and how it's different from APIs, you're not alone.\n\nI was confused too. 😂\n\nSo I spent some time digging into it, breaking things down, and figuring out what actually makes MCP different.\n\nI have put everything into this simple guide. Hope it helps!👇 | 12 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 72,
+      "comments": 12,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQFKRUfkgEqvkQ/article-cover_image-shrink_720_1280/B56aEg3wcLH8AU-/0/1791552850510?e=2147483647&v=beta&t=aZ2RRHkhp1wPSUL_BFXh7yw502kMtMOPAPN5ace42Hk",
+    "topic": "MCP protocol",
+    "score": 76.5,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 15.0,
+      "total": 76.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:05.640685+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/github_coming-soon-to-github-copilot-intelligent-activity-7513663331006648320-W_4S",
+    "canonical_url": "https://www.linkedin.com/posts/github_coming-soon-to-github-copilot-intelligent-activity-7513663331006648320-W_4S",
+    "post_id": 7513663331006648320,
+    "author": "GitHub",
+    "is_company_account": false,
+    "followers": 6724162,
+    "post_age": "63.9h (URL ID)",
+    "post_age_hours": 63.9,
+    "post_age_source": "url_id",
+    "post_text": "📣 Coming soon to GitHub Copilot: intelligent local model routing.\n\nWe are excited to announce the next step in our Project HydraFusion vision. GitHub Copilot will soon be able to automatically route tasks to a local model when it's most suitable, helping you save on AI credits.\n\nLearn more about how we are bringing local models and sandboxed tools to GitHub Copilot to help you maintain both choice and control over your workflows ⬇️\n\ngh.io/localdevelopment | 30 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 807,
+      "comments": 30,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D5605AQHSkwk-qwR3rw/thumbnail-with-play-button-overlay-high/B56aEXk45IHUC0-/0/1791396912919?e=2147483647&v=beta&t=bMtJune7_8WSISUtx65t1NwMgXKR7zRQ7ovygZ52IDg",
+    "topic": "GitHub Copilot",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:34.450031+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/digitarald_github-copilot-is-taking-multi-model-orchestration-activity-7513723207288360960-duJf",
+    "canonical_url": "https://www.linkedin.com/posts/digitarald_github-copilot-is-taking-multi-model-orchestration-activity-7513723207288360960-duJf",
+    "post_id": 7513723207288360960,
+    "author": "Harald Kirschner",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "59.9h (URL ID)",
+    "post_age_hours": 59.9,
+    "post_age_source": "url_id",
+    "post_text": "GitHub Copilot is taking multi-model orchestration beyond the cloud. Local inference joins the mix, with sandboxed tools to control what agents can access.\n\nThat's the kind of control I want developers to have. We've been working with the Windows team on local sandboxing, using Microsoft Execution Containers to turn policy into native OS restrictions for agent-launched processes.\n\nThe model can be local or cloud-based. The tool-access boundary still applies.\nAlongside that, I've helped bring your models into VS Code and worked with customers who are excited about project HydraFusion. They're keen on using multiple models together, and this announcement extends that direction to orchestration across local and cloud inference.\n\nFor me, the sandbox is what makes that extra flexibility practical. Developers need to control what an agent can touch, whichever model is doing the reasoning.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 93,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQFRvPTR3TIlHw/feedshare-shrink_800/B56aEYbcLzHUAc-/0/1791411209639?e=2147483647&v=beta&t=UfEJ9z_eVWOhofYErEMIXJtE7USZdftRJ4Sy895QkjM",
+    "topic": "GitHub Copilot",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:37.650512+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/steven-bathiche_bringing-local-models-and-sandboxed-tools-activity-7513805578935152641-uyxN",
+    "canonical_url": "https://www.linkedin.com/posts/steven-bathiche_bringing-local-models-and-sandboxed-tools-activity-7513805578935152641-uyxN",
+    "post_id": 7513805578935152641,
+    "author": "Steven Bathiche",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "54.4h (URL ID)",
+    "post_age_hours": 54.4,
+    "post_age_source": "url_id",
+    "post_text": "GitHub Copilot can now run on-device on Windows, move agents between local and cloud as needed, and keep agents sandboxed with Microsoft Execution Containers (MXC). Windows is becoming the best place to run A.I. agents locally and safely. Developers get choice over where intelligence runs and control over what it can touch.\n\nhttps://lnkd.in/gQjV7CBz",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 91,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4D27AQGIBMMJUadMMQ/articleshare-shrink_800/B4DaEXrZzCHoAY-/0/1791398616918?e=2147483647&v=beta&t=ItCgsS2SPyeNbT74C_v4-9_J3KvJ7T5OqVBWOas2qgk",
+    "topic": "GitHub Copilot",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:40.772487+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kelsey-hightower-849b342b1_fast-and-reliable-end-to-end-testing-for-activity-7513714578724167680-7-Me",
+    "canonical_url": "https://www.linkedin.com/posts/kelsey-hightower-849b342b1_fast-and-reliable-end-to-end-testing-for-activity-7513714578724167680-7-Me",
+    "post_id": 7513714578724167680,
+    "author": "Kelsey Hightower",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "60.5h (URL ID)",
+    "post_age_hours": 60.5,
+    "post_age_source": "url_id",
+    "post_text": "I've found myself automating workflows where data is trapped behind a site with no API, and I gotta say, Microsoft really nailed it with Playwright. I've done web scraping in the past, but this takes it to another level, including the ability to automate browser interactions. https://playwright.dev | 21 comments on LinkedIn",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 436,
+      "comments": 21,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/C5627AQGNBJq6G5lmJA/articleshare-shrink_800/articleshare-shrink_800/0/1712191950214?e=2147483647&v=beta&t=FA8o3_EFMb1gZmJj4fIe9NAPADwVjcMPUFONIQ0W4bI",
+    "topic": "Playwright",
+    "score": 76.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 15.0,
+      "total": 76.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:17.629551+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/leilaanderson_at-llmday-austin-on-october-14-ill-be-presenting-activity-7514290608614608897-jYK8",
+    "canonical_url": "https://www.linkedin.com/posts/leilaanderson_at-llmday-austin-on-october-14-ill-be-presenting-activity-7514290608614608897-jYK8",
+    "post_id": 7514290608614608897,
+    "author": "Leila Anderson",
+    "is_company_account": false,
+    "followers": 1301,
+    "post_age": "22.3h (URL ID)",
+    "post_age_hours": 22.3,
+    "post_age_source": "url_id",
+    "post_text": "At LLMday Austin on October 14, I'll be presenting Evaluation Without Ground Truth: Lessons from Expert Disagreement, and I'm excited to share it with you!\n\nJoin me as I show how to evaluate LLM outputs when experts disagree, using inter-rater reliability, expert corrections, and methods that distinguish genuine errors from equally valid answers!\n\nSecure your spot at 60% off with my code LLM60.\n\nRegister here: https://lnkd.in/gfwuEVgA\n\nI hope to meet you at @LLMday!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEX0NxiyS9WyA/thumbnail-with-play-button-overlay-high/B4EaEPGJNxHkC0-/0/1791254632766?e=2147483647&v=beta&t=CIc-N6Jj9_O38c6ub_umbdbRPm-dk1EZLPhticJHmW0",
+    "topic": "LLM evaluation",
+    "score": 76.0,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 76.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:15.451178+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ivdavidov_playwright-agenticqa-activity-7513621802145890305-KuO0",
+    "canonical_url": "https://www.linkedin.com/posts/ivdavidov_playwright-agenticqa-activity-7513621802145890305-KuO0",
+    "post_id": 7513621802145890305,
+    "author": "Ivan Davidov",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "66.6h (URL ID)",
+    "post_age_hours": 66.6,
+    "post_age_source": "url_id",
+    "post_text": "Pay It Forward - I Learned Playwright From Debbie O'Brien. Now We Teach It Together\n\n#playwright #agenticqa",
+    "hashtags": [
+      "#playwright",
+      "#agenticqa"
+    ],
+    "engagement": {
+      "reactions": 34,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQExMgsNZ4uZ7A/thumbnail-with-play-button-overlay-high/B4EaEWPXcsG8C0-/0/1791374496787?e=2147483647&v=beta&t=Xgckx8PkeRfet9h4f2jHoPpjk-jCk-6O70ejJCwfx8I",
+    "topic": "Playwright",
+    "score": 75.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 14.2,
+      "total": 75.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:14.724744+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/glommer_if-you-are-using-cursor-go-check-it-out-activity-7513985344652857344-wYPV",
+    "canonical_url": "https://www.linkedin.com/posts/glommer_if-you-are-using-cursor-go-check-it-out-activity-7513985344652857344-wYPV",
+    "post_id": 7513985344652857344,
+    "author": "Glauber Costa",
+    "is_company_account": false,
+    "followers": 5438,
+    "post_age": "42.5h (URL ID)",
+    "post_age_hours": 42.5,
+    "post_age_source": "url_id",
+    "post_text": "if you are using Cursor: go check it out the new Turso plugin",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFLBhQI9wmNvA/thumbnail-with-play-button-overlay-high/B4EaEcAmJrJgC0-/0/1791471283261?e=2147483647&v=beta&t=r1Vmmzi6BDPjDqK9waTaFfGrlwiFdnUTdOA8MXIc1M0",
+    "topic": "Cursor",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:11.285427+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/qttworld_playwright-automation-workshop-learn-activity-7513985040607760387-xBIS",
+    "canonical_url": "https://www.linkedin.com/posts/qttworld_playwright-automation-workshop-learn-activity-7513985040607760387-xBIS",
+    "post_id": 7513985040607760387,
+    "author": "Quality Thought Infosystems",
+    "is_company_account": false,
+    "followers": 3468,
+    "post_age": "42.6h (URL ID)",
+    "post_age_hours": 42.6,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Playwright Automation Workshop | Learn Web Automation & Testing | ₹99\n\nAre you looking to build practical skills in Test Automation and Playwright? 💻🔥\n\nPlaywright is becoming a powerful tool for modern web automation and testing, helping developers and QA professionals automate browser tasks, test web applications and build reliable end-to-end testing workflows.\n\nIn this Playwright Automation Workshop, learn how modern automation works and understand how Playwright can be used for real-world web testing and automation. 🚀\n\n💻 Learn Playwright Automation\n🧪 Explore Web & Test Automation\n⚡ Understand End-to-End Testing\n🚀 Build Practical Automation Skills\n\n📲 Follow Quality Thought for more AI & technology updates, hands-on workshops, IT career opportunities, trending tech skills and career guidance.\n\n✅ Enroll Now: https://lnkd.in/e4rZMnkV\n\n📞 Contact: 99634 86280\n\n#Playwright #PlaywrightAutomation #PlaywrightTesting #AutomationTesting #TestAutomation #WebAutomation #SoftwareTesting #QAAutomation #SDET #QAJobs #TestingJobs #PlaywrightTutorial #TechSkills #ITCareer #SoftwareTestingJobs #QualityThought #HandsOnWorkshop #AutomationTester #CareerGrowth #TechCareer",
+    "hashtags": [
+      "#Playwright",
+      "#PlaywrightAutomation",
+      "#PlaywrightTesting",
+      "#AutomationTesting",
+      "#TestAutomation",
+      "#WebAutomation",
+      "#SoftwareTesting",
+      "#QAAutomation",
+      "#SDET",
+      "#QAJobs",
+      "#TestingJobs",
+      "#PlaywrightTutorial",
+      "#TechSkills",
+      "#ITCareer",
+      "#SoftwareTestingJobs",
+      "#QualityThought",
+      "#HandsOnWorkshop",
+      "#AutomationTester",
+      "#CareerGrowth",
+      "#TechCareer"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Playwright",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:22.322146+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/kailashpathak_playwright-webmcp-mcp-activity-7513988695394308096-Gw7I",
+    "canonical_url": "https://www.linkedin.com/posts/kailashpathak_playwright-webmcp-mcp-activity-7513988695394308096-Gw7I",
+    "post_id": 7513988695394308096,
+    "author": "Kailash Pathak",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "42.3h (URL ID)",
+    "post_age_hours": 42.3,
+    "post_age_source": "url_id",
+    "post_text": "🚀 Playwright v1.64 is here — and it brings some exciting updates for modern AI-driven testing!\n\n🔗 Full release notes: https://lnkd.in/gQryTX3S\n\nA few highlights that caught my attention:\n\n🔹 WebMCP Support 🧰 Playwright can now interact with tools exposed by a webpage through the experimental WebMCP API. This is especially interesting for AI agents and agentic testing.\n\n🔹 Better Video Recording 🎬Custom FPS, improved action styling, persistent cursor movement, and VP9 encoding deliver better-quality and more efficient test videos.\n\n🔹 Smarter Test Execution 🎯default: false projects, --shuffle for randomized execution, and test locks provide better control and help identify test-order dependencies.\n\n🔹 Locator.within() 🪆A powerful addition for combining locators and simplifying complex, relative element queries.\n\n🔹 New AI-Friendly APIs 🤖page.getByRef() works with ARIA references generated by page.ariaSnapshot(ai) — another step toward AI-assisted browser automation.\n\n🔹 More API amp; Shadow DOM CapabilitiesCookie management for API request contexts and includeShadow support make automation even more flexible.\n\n#Playwright #WebMCP #MCP #AITesting #AIAgents #TestAutomation #QualityEngineering #SoftwareTesting Microsoft Microsoft AI Microsoft Community",
+    "hashtags": [
+      "#Playwright",
+      "#WebMCP",
+      "#MCP",
+      "#AITesting",
+      "#AIAgents",
+      "#TestAutomation",
+      "#QualityEngineering",
+      "#SoftwareTesting"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQHrzKTIMz95xQ/feedshare-shrink_800/B56aEcM5dRJQAg-/0/1791474506462?e=2147483647&v=beta&t=6jMHvkldgywWySacW3kfEJK5RzkAdoUIsRa2qOgZjO8",
+    "topic": "Playwright",
+    "score": 72.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 72.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:27.045589+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/sap1ens_a-very-cool-flip-flink-improvement-proposal-activity-7513615377608671232-TgE8",
+    "canonical_url": "https://www.linkedin.com/posts/sap1ens_a-very-cool-flip-flink-improvement-proposal-activity-7513615377608671232-TgE8",
+    "post_id": 7513615377608671232,
+    "author": "Yaroslav Tkachenko",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "67.0h (URL ID)",
+    "post_age_hours": 67.0,
+    "post_age_source": "url_id",
+    "post_text": "A very cool FLIP (Flink Improvement Proposal) has recently been accepted: Running Flink jobs in MiniCluster using the Kubernetes Operator. Check the link in the comments.\n\nHistorically, every Flink pipeline required:\n\n- At least two pods (JobManager and TaskManager).\n- Each pod needs at least 0.5 vCPU and 1GB RAM (it's possible but really tricky to go lower).\n\nSo that's 1 vCPU and 2GB RAM for any pipeline to start, even if it processes one message a minute. Imagine running that at scale (I don't need to imagine...)?\n\nAt the same time, other tools (e.g., Rust- or Go-based) can have a much lower footprint.\n\nThe FLIP addresses the problem by running both components (JobManager and TaskManager) in the same JVM process on a single pod. It's a big step in making Flink simpler and more efficient to operate.\n\nI especially like that you can easily migrate from this setup to a \"classic\" deployment by simply using a savepoint. Start small, then scale out.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 41,
+      "comments": 6,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Kubernetes operators",
+    "score": 72.5,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 15.0,
+      "total": 72.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:20.347968+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralphclare_americanpharmacistsmonth-ourpeoplemakethedifference-activity-7514423995342184448-aeRk",
+    "canonical_url": "https://www.linkedin.com/posts/ralphclare_americanpharmacistsmonth-ourpeoplemakethedifference-activity-7514423995342184448-aeRk",
+    "post_id": 7514423995342184448,
+    "author": "Ralph Clare",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "13.5h (URL ID)",
+    "post_age_hours": 13.5,
+    "post_age_source": "url_id",
+    "post_text": "This morning, I had the privilege of joining our Long-Term Associate celebration, recognizing an incredible group of associates who have collectively given more than 11,000 years of service to Walmart.\n\nLater, at our Morning Meeting, we recognized 18 Health & Wellness associates celebrating milestone anniversaries, representing 635 years of service.\n\nI had the opportunity to talk with Vikas Desai, a pharmacy manager in Bartow, Florida, who is celebrating 35 years with Walmart. Vik shared how one of his patients drives 17 miles, passing two other Walmart pharmacies along the way, because of the trust and relationship she’s built with him. That says a lot about the impact our pharmacists have on the people and communities they serve.\n\nAs we celebrate American Pharmacists Month, I can’t think of a better example of the difference our pharmacists make every day.\n\nTo Vik, our long-term associates, and all our pharmacists, pharmacy technicians, and pharmacy teams across the country: Thank you for the care, compassion, and dedication you bring to our customers and patients every day. You are what makes Walmart special!\n\n#AmericanPharmacistsMonth #OurPeopleMakeTheDifference",
+    "hashtags": [
+      "#AmericanPharmacistsMonth",
+      "#OurPeopleMakeTheDifference"
+    ],
+    "engagement": {
+      "reactions": 110,
+      "comments": 5,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFcJQjAl0PBpg/feedshare-shrink_800/B4EaEiYy5vI8Ac-/0/1791578288408?e=2147483647&v=beta&t=Vey2Ta0bXJiyELLSYjVb0DhXc3oaD_RqApXi1R704aY",
+    "topic": "Ralph",
+    "score": 70.2,
+    "score_breakdown": {
+      "recency": 31.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 15.0,
+      "total": 70.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:29.585420+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/andyeung_im-excited-to-announce-our-latest-two-partners-activity-7513705089249771521-j5FZ",
+    "canonical_url": "https://www.linkedin.com/posts/andyeung_im-excited-to-announce-our-latest-two-partners-activity-7513705089249771521-j5FZ",
+    "post_id": 7513705089249771521,
+    "author": "Andrew Yeung",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "61.1h (URL ID)",
+    "post_age_hours": 61.1,
+    "post_age_source": "url_id",
+    "post_text": "I'm excited to announce our latest two partners for the Outliers Summit 2026:\n\nVercel and Rho.\n\nVercel is joining us as a partner and bringing a matcha cart to the summit. More about them:\n\nVercel is the platform for building and deploying modern web applications. Built by the creators of Next.js, Vercel gives frontend teams the fastest path from idea to production - with instant deployments, global edge infrastructure, and built-in tools for performance, collaboration, and AI-powered development. Trusted by teams at companies of every size, Vercel helps developers ship faster without sacrificing reliability or scale.\n\nRho is also joining us as a partner. More about them:\n\nRho is business banking built for the AI era. Everything your business does with money, in one place, plus get 24/7 real human support from a team that has your back.\n\nIf you want to meet the most unreasonably ambitious builders in November, attend our summit.\n\nApply to attend: www.outlierssummit.com",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 16,
+      "comments": 4,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5622AQEvwE1f0KTfQw/feedshare-image-high-res/B56aEX5RB7IAAU-/0/1791402250659?e=2147483647&v=beta&t=vvfOdic2n2l4M0J_l7Q8afJYLjpd0NfOcExd4C3bOow",
+    "topic": "Vercel",
+    "score": 70.2,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 9.0,
+      "total": 70.2
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:51.786351+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/ralph-de-haas-2169b53_oecdgfp-activity-7514004914826760192-rVb1",
+    "canonical_url": "https://www.linkedin.com/posts/ralph-de-haas-2169b53_oecdgfp-activity-7514004914826760192-rVb1",
+    "post_id": 7514004914826760192,
+    "author": "Ralph De Haas",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "41.2h (URL ID)",
+    "post_age_hours": 41.2,
+    "post_age_source": "url_id",
+    "post_text": "𝗙𝗶𝗻𝗮𝗻𝗰𝗲 𝗮𝗻𝗱 𝗳𝗶𝗿𝗺 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝘁𝘆: 𝗳𝗶𝘃𝗲 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗲-𝗯𝗮𝘀𝗲𝗱 𝗹𝗲𝘀𝘀𝗼𝗻𝘀\n\nThis week I had the pleasure of speaking at the 2026 Annual Conference of the OECD - OCDE Global Forum on Productivity, hosted by the Banco Central de Costa Rica.\n\nI spoke about how financial frictions can prevent capital from flowing to promising and productive firms, drawing on a recent survey of public policies for private finance by Juanita Gonzalez Uribe and myself (slides below).\n\nFive lessons for policymakers:\n\n1️⃣ Target the right tail. Many interventions have modest average effects. The gains concentrate among the subset of entrepreneurs who can actually scale up.\n\n2️⃣ Build a credit ladder. MFIs and fintechs can offer a first (digital) foothold, but micro-only mandates, or banks with separate micro and SME units, should not trap fast growers in loans that are too small.\n\n3️⃣ Fit repayment terms to cash flows. In Morocco, my own research has shown that simply better matching repayment schedules to expected revenues can raise borrower profits (without raising loan defaults).\n\n4️⃣  Incentivise lenders to reach new borrowers. Blended finance and similar programmes can shift credit towards underserved groups, but mostly by lending more to existing clients rather than drawing in new ones. Reaching first-time borrowers may take higher-powered incentives, such as generous first-loss cover or interest discounts tied to portfolio targets. Yet such incentives also raise the risk of new distortions, which brings me to...\n\n5️⃣ Avoid creating new distortions! Untargeted subsidies, state-run lending and similar interventions risk political capture and crowding out private money. Intervention is only justified if it resolves more distortions than it creates.\n\nMany thanks to the OECD and the Banco Central de Costa Rica for the invitation and to my fellow panellists for a rich discussion.\n\nMy slides: https://lnkd.in/ejzdVGir; https://lnkd.in/eRR3_dmm\n\n#OECDGFP EBRD D. Filiz Unsal Chiara Criscuolo Luca Marcolin Stefano Scarpetta OECD Economy Ksenia Yakustidi",
+    "hashtags": [
+      "#OECDGFP"
+    ],
+    "engagement": {
+      "reactions": 59,
+      "comments": 2,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGaN9eXU-bGDw/feedshare-shrink_800/B4EaEcbpL7KcAk-/0/1791478372028?e=2147483647&v=beta&t=t5SMmAZkuZEHt7bEn3HnumnY9a-4IZbeaAOzqe1tFDQ",
+    "topic": "Ralph",
+    "score": 69.5,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 15.0,
+      "total": 69.5
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:25.242772+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/graalvm_introducing-pyronaut-a-high-performance-activity-7513955633214308352-yMRP",
+    "canonical_url": "https://www.linkedin.com/posts/graalvm_introducing-pyronaut-a-high-performance-activity-7513955633214308352-yMRP",
+    "post_id": 7513955633214308352,
+    "author": "GraalVM",
+    "is_company_account": false,
+    "followers": 7975,
+    "post_age": "44.5h (URL ID)",
+    "post_age_hours": 44.5,
+    "post_age_source": "url_id",
+    "post_text": "Introducing Pyronaut — a high-performance framework for Python, built with Micronaut, GraalVM, and GraalPy!🚀\n\n— 2.6x FastAPI throughput, 6.5x Flask 🚀\n— Build-time validation 🤖\n— Ecosystem of libraries 🌍\n\nGet started: https://pyronaut.io/",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGsHxtOEPaC-A/feedshare-shrink_800/B4EaEbu00yGUAg-/0/1791466624132?e=2147483647&v=beta&t=L6q61xlnTCvsCw7xlvr6bwHF1hd03DRH0BBRAt0ASww",
+    "topic": "Python performance",
+    "score": 69.0,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 69.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:01.045083+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/red-star-express-plc_behind-red-star-express-is-a-team-whose-expertise-activity-7513592885703892992-jBwk",
+    "canonical_url": "https://www.linkedin.com/posts/red-star-express-plc_behind-red-star-express-is-a-team-whose-expertise-activity-7513592885703892992-jBwk",
+    "post_id": 7513592885703892992,
+    "author": "Red Star Express Plc",
+    "is_company_account": false,
+    "followers": 4626,
+    "post_age": "68.6h (URL ID)",
+    "post_age_hours": 68.6,
+    "post_age_source": "url_id",
+    "post_text": "Behind Red Star Express is a team whose expertise, experience and commitment continue to shape how we serve our customers.\nThis Customer Service Week, we celebrate our people and the difference they make every day.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": 11,
+      "comments": 1,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQFuJ5Dl3fIjGg/feedshare-shrink_1280/B4EaEWk6nTG8AQ-/0/1791380138792?e=2147483647&v=beta&t=aG0SXHMhoYd7I1Khw7r0294hSDY7XyjR50WL7FKJKlU",
+    "topic": "Express",
+    "score": 66.1,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.9,
+      "total": 66.1
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:45.212258+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_opencode-on-github-with-kubernetes-piotrs-activity-7513586294858547201-XSUa",
+    "canonical_url": "https://www.linkedin.com/posts/donald-lutz-5a9b0b2_opencode-on-github-with-kubernetes-piotrs-activity-7513586294858547201-XSUa",
+    "post_id": 7513586294858547201,
+    "author": "Donald Lutz",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "69.0h (URL ID)",
+    "post_age_hours": 69.0,
+    "post_age_source": "url_id",
+    "post_text": "OpenCode on GitHub with Kubernetes #WorkSmartWithK8s #kubernetes #github #opencodeagent #customaimodel\n\nhttps://lnkd.in/eM6iCP37",
+    "hashtags": [
+      "#WorkSmartWithK8s",
+      "#kubernetes",
+      "#github",
+      "#opencodeagent",
+      "#customaimodel"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGtIuSZaAjP1A/articleshare-shrink_800/B4EaEV1PQcHwAY-/0/1791367645194?e=2147483647&v=beta&t=jrs5MMQ3XMcsF_bwtgU-vTl_sh0TE7ANMElFR3K3XNQ",
+    "topic": "OpenCode",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:23.752500+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/browserbasehq_browserbase-fetch-search-is-now-available-activity-7513683546910228480-G1fm",
+    "canonical_url": "https://www.linkedin.com/posts/browserbasehq_browserbase-fetch-search-is-now-available-activity-7513683546910228480-G1fm",
+    "post_id": 7513683546910228480,
+    "author": "Browserbase",
+    "is_company_account": false,
+    "followers": 12403,
+    "post_age": "62.5h (URL ID)",
+    "post_age_hours": 62.5,
+    "post_age_source": "url_id",
+    "post_text": "Browserbase Fetch & Search is now available through Vercel AI Gateway.\n\nReliably search the web & extract page contents through your existing Vercel plan.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQHqnqW0NhmA4A/image-shrink_800/B56aEX3Xq3KIAg-/0/1791401753717?e=2147483647&v=beta&t=wz6c_cBJZ48TkOmDVq2RU_Nd8HMkK0r6H1LtcCVttxM",
+    "topic": "Vercel",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:56.176460+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/greelogix_python-vs-nodejs-which-one-should-power-activity-7513854644947701761-kmu6",
+    "canonical_url": "https://www.linkedin.com/posts/greelogix_python-vs-nodejs-which-one-should-power-activity-7513854644947701761-kmu6",
+    "post_id": 7513854644947701761,
+    "author": "GreeLogix",
+    "is_company_account": false,
+    "followers": 7001,
+    "post_age": "51.2h (URL ID)",
+    "post_age_hours": 51.2,
+    "post_age_source": "url_id",
+    "post_text": "Python or Node.js? Wrong question. The right one is: what is your backend actually doing all day?\n\nWhen Python wins: data-heavy applications, ML and AI pipelines, and teams who value readability and long-term maintainability over raw speed of writing code.\n\nWhen Node.js wins: real-time apps like chat or live dashboards, teams already fluent in JavaScript end to end, and workloads that are I/O-heavy rather than CPU-heavy.\n\nWhat we actually evaluate before recommending either:\n\nYour team's existing skill set\nThe type of workload -- CPU-heavy vs I/O-heavy\nEcosystem and library support for your specific use case\nYour long-term hiring pool\n\nNot sure which fits your product? We'll tell you honestly -- even when it's not the answer that gets us more billable hours.\n\n#PythonDevelopment #NodeJS #BackendDevelopment #SoftwareEngineering #TechDecisions",
+    "hashtags": [
+      "#PythonDevelopment",
+      "#NodeJS",
+      "#BackendDevelopment",
+      "#SoftwareEngineering",
+      "#TechDecisions"
+    ],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+    "topic": "Node.js",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:30.292302+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/geshan_nodejs-at-scale-rebalanced-how-we-cut-activity-7513882141001322496-JvlA",
+    "canonical_url": "https://www.linkedin.com/posts/geshan_nodejs-at-scale-rebalanced-how-we-cut-activity-7513882141001322496-JvlA",
+    "post_id": 7513882141001322496,
+    "author": "Geshan Manandhar",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "49.4h (URL ID)",
+    "post_age_hours": 49.4,
+    "post_age_source": "url_id",
+    "post_text": "Node.js at scale, rebalanced: how we cut cost by 38% at booking.com",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHR0jFw28BfcQ/articleshare-shrink_1280_800/B4EaDtWHIFJkAg-/0/1790688392207?e=2147483647&v=beta&t=fPGpS5KZ8y5QpiLehQzfzHunzcD175joo51y4OMbLUQ",
+    "topic": "Node.js",
+    "score": 65.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 25.0,
+      "engagement": 4.5,
+      "total": 65.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:39.553186+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/shauryaprataps_most-engineers-dont-fail-system-design-interviews-activity-7513849363111133184-_s2_",
+    "canonical_url": "https://www.linkedin.com/posts/shauryaprataps_most-engineers-dont-fail-system-design-interviews-activity-7513849363111133184-_s2_",
+    "post_id": 7513849363111133184,
+    "author": "Shaurya Pratap Singh",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "51.5h (URL ID)",
+    "post_age_hours": 51.5,
+    "post_age_source": "url_id",
+    "post_text": "Most engineers don’t fail System Design interviews because they can’t design Instagram.\n\nThey fail because they don’t understand what happens under the hood.\n\nEveryone prepares:\n“Design Uber.”\n“Design Netflix.”\n“Design YouTube.”\n\nBut when the interviewer asks why Redis, why Kafka, why sharding, why replication, why eventual consistency?\n\nThat’s where things start falling apart.\n\nHaving worked at Amazon, Microsoft & Salesforce, I’ve seen how important these fundamentals are when you’re actually designing systems at scale.\n\nSo I put together 25 resources that cover the building blocks of System Design:\n\n1. CDN → https://lnkd.in/g9_crfpA\n2. Latency vs Throughput → https://lnkd.in/g_emd-C7\n3. ACID Transactions → https://lnkd.in/gxrJqmMu\n4. Caching → https://lnkd.in/gdcg2xPE\n5. Distributed Caching → https://lnkd.in/gZAuaKNj\n6. Load Balancing → https://lnkd.in/gV5j-EhN\n7. CAP Theorem → https://lnkd.in/g2Wwz9yv\n8. Database Indexes → https://lnkd.in/gKbqiP4E\n9. Rate Limiting → https://lnkd.in/gSwC8Eb9\n10. Batch vs Stream Processing → https://lnkd.in/gBmfEYbv\n11. Strong vs Eventual Consistency → https://lnkd.in/gZADd4Ha\n12. Circuit Breaker → https://lnkd.in/gdJXBgVa\n13. Idempotency → https://lnkd.in/gnEyQQqf\n14. Database Scaling → https://lnkd.in/gWZgUr7R\n15. Data Replication → https://lnkd.in/g9jwGRi8\n16. Data Redundancy → https://lnkd.in/gBhAwm28\n17. Database Sharding → https://lnkd.in/g_kESeVJ\n18. Proxy Server → https://lnkd.in/gRdzBhPn\n19. Message Queues → https://lnkd.in/gxxRW8Xy\n20. WebSockets → https://lnkd.in/gzwWKx_B\n21. Fault Tolerance → https://lnkd.in/gpn5jTcB\n22. Disaster Recovery → https://lnkd.in/gYkTHYPv\n23. Distributed Locking → https://lnkd.in/gi2PuDYC\n24. Bloom Filters → https://lnkd.in/gz3CsdiF\n25. Concurrency vs Parallelism → https://lnkd.in/gD2xFnE6\n\nIf you’re preparing for SDE-1, SDE-2, Backend or System Design interviews, don’t just memorise famous system designs.\n\nMaster the building blocks first.\n\nSave this post. You’ll thank yourself before your next System Design round. 🚀\n\nFollow Shaurya Pratap Singh for more!",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQEtP8lA7fKnYw/feedshare-image-high-res/B4EaEaOLVYIUAc-/0/1791441287052?e=2147483647&v=beta&t=HrnVbMB8_2HuQImqx1Uhk9S7BY8gs2g59hZcHDu61_4",
+    "topic": "Backend system design",
+    "score": 62.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 21.2,
+      "engagement": 4.5,
+      "total": 62.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:06:42.489975+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/johnoneil_opencode-architecture-part-2-repository-activity-7514023725097238528-432S",
+    "canonical_url": "https://www.linkedin.com/posts/johnoneil_opencode-architecture-part-2-repository-activity-7514023725097238528-432S",
+    "post_id": 7514023725097238528,
+    "author": "John O'Neil",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "40.0h (URL ID)",
+    "post_age_hours": 40.0,
+    "post_age_source": "url_id",
+    "post_text": "When you're writing a model-agnostic coding agent, things can get pretty complicated.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQFTupMG3GgRKw/articleshare-shrink_800/B56aDmGj0MHIAY-/0/1790566875080?e=2147483647&v=beta&t=zfsfDYusLTqceRvCTYYa-Y3y8TzS5b_CUoTLI-vtKz4",
+    "topic": "OpenCode",
+    "score": 52.8,
+    "score_breakdown": {
+      "recency": 24.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 52.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:07:15.836615+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/naufaldirafif_hosted-our-first-grok-bot-meetup-jakarta-activity-7513844732398141440-duD8",
+    "canonical_url": "https://www.linkedin.com/posts/naufaldirafif_hosted-our-first-grok-bot-meetup-jakarta-activity-7513844732398141440-duD8",
+    "post_id": 7513844732398141440,
+    "author": "Naufaldi Rafif S",
+    "is_company_account": false,
+    "followers": null,
+    "post_age": "51.9h (URL ID)",
+    "post_age_hours": 51.9,
+    "post_age_source": "url_id",
+    "post_text": "Hosted our first Grok Bot Meetup Jakarta on October 4 at Ganara Art FX Sudirman!\n\n94 check-ins on Luma, plus 10 walk-ins. Thanks to everyone who spent their Sunday with us.\n\nWe focused on using Grok Bot as a personal assistant for everyday life and work. A few things we explored:\n\n- Planning and organizing daily tasks.\n- Researching information and helping with writing.\n- Automating repeatable daily workflows.\n- Using a scout bot to find public profiles from a name, handle, company, or link and build a shortlist.\n\nWe used a phone-first format so people could follow the demos from their own phones.\n\nFor the scout bot, I still check the results before reaching out. Getting a shortlist is one step; verifying the right person is another.\n\nWe also had questions from the audience about using personal agents in their own workflows. That was a useful part of the session: connecting the demos to what people actually want help with.\n\nThank you to Ganara Art @GanaraArtStudio and Komdigi @kemkomdigi for supporting the meetup, and to our community partners Murzfam @ecommurz and BlockDev @blockdev_org.\n\nThanks also to the volunteers, community members, and everyone who helped make this first meetup happen. Sharing a few moments from the day below.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQFnTiVpa2FQbg/image-shrink_1280/B56aEaJ5p.HIAc-/0/1791440165688?e=2147483647&v=beta&t=Pd77L8kTQEjoZD5h7xWCnBKz_C7OxgpA5yJ3pq2Ytzc",
+    "topic": "Fastify",
+    "score": 52.0,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 11.2,
+      "engagement": 4.5,
+      "total": 52.0
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:09:00.006497+00:00"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/bailiwick-express_senior-appointment-announced-at-sure-by-beyon-activity-7513846427656282113-JuUP",
+    "canonical_url": "https://www.linkedin.com/posts/bailiwick-express_senior-appointment-announced-at-sure-by-beyon-activity-7513846427656282113-JuUP",
+    "post_id": 7513846427656282113,
+    "author": "Bailiwick Express",
+    "is_company_account": false,
+    "followers": 13702,
+    "post_age": "51.8h (URL ID)",
+    "post_age_hours": 51.8,
+    "post_age_source": "url_id",
+    "post_text": "Sure by Beyon has appointed a new group chief business officer as the telecoms provider looks to make \"significant improvements\" to its network and services.",
+    "hashtags": [],
+    "engagement": {
+      "reactions": null,
+      "comments": null,
+      "reposts": null
+    },
+    "image": "https://media.licdn.com/dms/image/v2/D5610AQH2RYbnbTq5sg/image-shrink_800/B56aEaLgzFKIAg-/0/1791440588318?e=2147483647&v=beta&t=_tPAivz5m0mxp-5nQdFJT4EpDPkOVqzVIUcxqRnC9fI",
+    "topic": "Express",
+    "score": 45.8,
+    "score_breakdown": {
+      "recency": 17.5,
+      "author_fit": 18.8,
+      "topic_match": 5.0,
+      "engagement": 4.5,
+      "total": 45.8
+    },
+    "status": "new",
+    "discovered_at": "2026-10-10T10:08:47.865902+00:00"
   }
 ]
